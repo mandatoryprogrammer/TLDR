@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016072002 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016072003 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	to.cctld.authdns.ripe.net.
 to.			86400	IN	NS	ns1.iafrica.com.
@@ -200,8 +200,8 @@ dns.12345.to.		86400	IN	A	123.204.85.18
 123porn.to.		86400	IN	NS	clark.ns.cloudflare.com.
 12movies.to.		86400	IN	NS	ns1.parkingcrew.net.
 12movies.to.		86400	IN	NS	ns2.parkingcrew.net.
-13.to.			86400	IN	NS	sima.ns.cloudflare.com.
-13.to.			86400	IN	NS	arnold.ns.cloudflare.com.
+13.to.			86400	IN	NS	NS1.ABOVE.COM.
+13.to.			86400	IN	NS	NS2.ABOVE.COM.
 1314.to.		86400	IN	NS	f1g1ns1.dnspod.net.
 1314.to.		86400	IN	NS	f1g1ns2.dnspod.net.
 133.to.			86400	IN	NS	a.dnspod.com.
@@ -3127,6 +3127,9 @@ atravel.to.		86400	IN	NS	dns16.register.com.
 atrip.to.		86400	IN	NS	ns1.soliddns.net.
 atrip.to.		86400	IN	NS	ns2.soliddns.net.
 atrip.to.		86400	IN	NS	ns3.soliddns.net.
+ats.to.			86400	IN	NS	ns.allcovered.com.
+ats.to.			86400	IN	NS	ns1.allcovered.com.
+ats.to.			86400	IN	NS	ns3.allcovered.com.
 atstonga.to.		86400	IN	NS	ns10.dnsmadeeasy.com.
 atstonga.to.		86400	IN	NS	ns11.dnsmadeeasy.com.
 atstonga.to.		86400	IN	NS	ns12.dnsmadeeasy.com.
@@ -4373,8 +4376,8 @@ bitgon.to.		86400	IN	NS	ns3.orangewebsite.com.
 bitgon.to.		86400	IN	NS	ns4.orangewebsite.com.
 bitmail.to.		86400	IN	NS	kai.ns.cloudflare.com.
 bitmail.to.		86400	IN	NS	gene.ns.cloudflare.com.
-bitmixer.to.		86400	IN	NS	ns11.nlkoddos.com.
-bitmixer.to.		86400	IN	NS	ns12.nlkoddos.com.
+bitmixer.to.		86400	IN	NS	ajay.ns.cloudflare.com.
+bitmixer.to.		86400	IN	NS	gwen.ns.cloudflare.com.
 bitnic.to.		86400	IN	NS	kim.ns.cloudflare.com.
 bitnic.to.		86400	IN	NS	josh.ns.cloudflare.com.
 bitpay.to.		86400	IN	NS	NS1.REGISTER.TO.
@@ -14165,8 +14168,8 @@ gj.to.			86400	IN	NS	ns2.domaindiscount24.net.
 gjm.to.			86400	IN	NS	ns1.sogoo.to.
 gjm.to.			86400	IN	NS	ns2.sogoo.to.
 gjm.to.			86400	IN	NS	ns4.sogoo.to.
-gk.to.			86400	IN	NS	sima.ns.cloudflare.com.
-gk.to.			86400	IN	NS	arnold.ns.cloudflare.com.
+gk.to.			86400	IN	NS	NS1.ABOVE.COM.
+gk.to.			86400	IN	NS	NS2.ABOVE.COM.
 gka.to.			86400	IN	NS	ns-36.awsdns-04.com.
 gka.to.			86400	IN	NS	ns-976.awsdns-58.net.
 gka.to.			86400	IN	NS	ns-1328.awsdns-38.org.
@@ -14424,10 +14427,8 @@ goingout.to.		86400	IN	NS	ns3.hostnetbv.nl.
 goj.to.			86400	IN	NS	ns0.phase8.net.
 goj.to.			86400	IN	NS	ns1.phase8.net.
 goj.to.			86400	IN	NS	ns2.phase8.net.
-golang.to.		86400	IN	NS	NS1.DNSIMPLE.COM.
-golang.to.		86400	IN	NS	NS2.DNSIMPLE.COM.
-golang.to.		86400	IN	NS	NS3.DNSIMPLE.COM.
-golang.to.		86400	IN	NS	NS4.DNSIMPLE.COM.
+golang.to.		86400	IN	NS	sam.ns.cloudflare.com.
+golang.to.		86400	IN	NS	ruth.ns.cloudflare.com.
 gold.to.		86400	IN	NS	ns8009.hostgator.com.
 gold.to.		86400	IN	NS	ns8010.hostgator.com.
 goldelsel.to.		86400	IN	NS	ns1.parkingcrew.net.
@@ -29516,8 +29517,8 @@ ns2.qlink.to.		86400	IN	A	45.56.81.158
 ns3.qlink.to.		86400	IN	A	106.185.24.7
 qlk.to.			86400	IN	NS	bob.ns.cloudflare.com.
 qlk.to.			86400	IN	NS	mary.ns.cloudflare.com.
-qm.to.			86400	IN	NS	sima.ns.cloudflare.com.
-qm.to.			86400	IN	NS	arnold.ns.cloudflare.com.
+qm.to.			86400	IN	NS	NS1.ABOVE.COM.
+qm.to.			86400	IN	NS	NS2.ABOVE.COM.
 qn.to.			86400	IN	NS	NS1.2TLD.NET.
 qn.to.			86400	IN	NS	NS2.2TLD.NET.
 qna.to.			86400	IN	NS	ns1.softlayer.com.
@@ -38767,6 +38768,8 @@ vanity.to.		86400	IN	NS	ns2.dreamhost.com.
 vanity.to.		86400	IN	NS	ns3.dreamhost.com.
 vanleeuwen.to.		86400	IN	NS	dns-eu1.powerdns.net.
 vanleeuwen.to.		86400	IN	NS	dns-eu2.powerdns.net.
+vantage.to.		86400	IN	NS	ns.rackspace.com.
+vantage.to.		86400	IN	NS	ns2.rackspace.com.
 vanvliet.to.		86400	IN	NS	nsauth01.solcon.nl.
 vanvliet.to.		86400	IN	NS	nsauth02.solcon.nl.
 vanvliet.to.		86400	IN	NS	nsauth03.solcon.nl.
@@ -41972,8 +41975,8 @@ yp.to.			86400	IN	NS	uz5dz39x8xk8wyq3dzn7vpt670qmvzx0zd9zg4ldwldkv6kx9ft090.ns.y
 yp.to.			86400	IN	NS	uz5hjgptn63q5qlch6xlrw63tf6vhvvu6mjwn0s31buw1lhmlk14kd.ns.yp.to.
 uz5dz39x8xk8wyq3dzn7vpt670qmvzx0zd9zg4ldwldkv6kx9ft090.ns.yp.to. 86400 IN A 131.155.71.143
 uz5hjgptn63q5qlch6xlrw63tf6vhvvu6mjwn0s31buw1lhmlk14kd.ns.yp.to. 86400 IN A 131.193.32.142
-yr.to.			86400	IN	NS	sima.ns.cloudflare.com.
-yr.to.			86400	IN	NS	arnold.ns.cloudflare.com.
+yr.to.			86400	IN	NS	NS1.ABOVE.COM.
+yr.to.			86400	IN	NS	NS2.ABOVE.COM.
 ys.to.			86400	IN	NS	ns-147.awsdns-18.com.
 ys.to.			86400	IN	NS	ns-1018.awsdns-63.net.
 ys.to.			86400	IN	NS	ns-1112.awsdns-11.org.
@@ -42634,4 +42637,4 @@ zzap.to.		86400	IN	NS	NS4.REGISTER.TO.
 zzz.to.			86400	IN	NS	ns1.value-domain.com.
 zzz.to.			86400	IN	NS	ns2.value-domain.com.
 zzz.to.			86400	IN	NS	ns3.value-domain.com.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016072002 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016072003 43200 7200 2592000 600

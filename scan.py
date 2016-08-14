@@ -246,25 +246,54 @@ def write_dig_output( hostname, nameserver, dig_output ):
 
 def get_dig_axfr_output( hostname, nameserver ):
     proc = subprocess.Popen([
-        "/usr/bin/dig", "AXFR", hostname, "@" + nameserver, "+nocomments", "+nocmd", "+noquestion", "+nostats", "+time=120"
+        "/usr/bin/dig", "AXFR", hostname, "@" + nameserver, "+nocomments", "+nocmd", "+noquestion", "+nostats", "+time=15"
     ], stdout=subprocess.PIPE)
     output = proc.stdout.read()
     return output
 
+def zone_transfer_succeeded( zone_data ):
+    if "Transfer failed." in zone_data:
+        return False
+
+    if "communications error" in zone_data:
+        return False
+
+    if "failed: network unreachable." in zone_data:
+        return False
+
+    if "connection timed out; no servers could be reached" in zone_data:
+        return False
+
+    if zone_data == "":
+        return False
+
+    return True
+
 if __name__ == "__main__":
     dnstool = DNSTool()
 
+    zone_transfer_enabled_list = []
+
     for root_ns in ROOT_NAMESERVER_LIST:
+        zone_data = get_dig_axfr_output(
+            ".",
+            root_ns,
+        )
+
+        if zone_transfer_succeeded( zone_data ):
+            zone_transfer_enabled_list.append({
+                "nameserver": root_ns,
+                "hostname": "."
+            })
+
         write_dig_output(
             ".",
             root_ns,
-            get_dig_axfr_output(
-                ".",
-                root_ns,
-            )
+            zone_data,
         )
 
     tlds = dnstool.get_root_tlds()
+
     for tld in tlds:
         full_tld = tld + "."
 
@@ -272,14 +301,37 @@ if __name__ == "__main__":
             full_tld
         )
         for nameserver in nameservers:
+            zone_data = get_dig_axfr_output(
+                full_tld,
+                nameserver,
+            )
+
+            if zone_transfer_succeeded( zone_data ):
+                zone_transfer_enabled_list.append({
+                    "nameserver": nameserver,
+                    "hostname": tld,
+                })
+
             write_dig_output(
                 full_tld,
                 nameserver,
-                get_dig_axfr_output(
-                    full_tld,
-                    nameserver,
-                )
+                zone_data,
             )
+
+    # Create markdown file of zone-transfer enabled nameservers
+    zone_transfer_enabled_markdown = "# List of TLDs & Roots With Zone Transfers Currently Enabled\n\n"
+
+    for zone_status in zone_transfer_enabled_list:
+        if zone_status["hostname"] == ".":
+            zone_transfer_enabled_markdown += "* `" + zone_status["hostname"] + "` via `" +  zone_status["nameserver"] + "`: [Click here to view zone data.](" + "archives/root/" + zone_status["nameserver"] + "zone)\n"
+        else:
+            zone_transfer_enabled_markdown += "* `" + zone_status["hostname"] + "` via `" +  zone_status["nameserver"] + "`: [Click here to view zone data.](" + "archives/" + zone_status["hostname"] + "/" + zone_status["nameserver"] + "zone)\n"
+
+    file_handler = open( "transferable_zones.md", "w" )
+    file_handler.write(
+        zone_transfer_enabled_markdown
+    )
+    file_handler.close()
 
     # Add all new zone files
     print( "Git adding...")

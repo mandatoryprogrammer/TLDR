@@ -246,7 +246,7 @@ def write_dig_output( hostname, nameserver, dig_output ):
 
 def get_dig_axfr_output( hostname, nameserver ):
     proc = subprocess.Popen([
-        "/usr/bin/dig", "AXFR", hostname, "@" + nameserver, "+nocomments", "+nocmd", "+noquestion", "+nostats", "+time=15"
+        "/usr/bin/dig", "AXFR", hostname, "@" + nameserver, "+nocomments", "+nocmd", "+noquestion", "+nostats", "+time=120"
     ], stdout=subprocess.PIPE)
     output = proc.stdout.read()
     return output

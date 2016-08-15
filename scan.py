@@ -255,10 +255,16 @@ def zone_transfer_succeeded( zone_data ):
     if "Transfer failed." in zone_data:
         return False
 
+    if "failed: connection refused." in zone_data:
+        return False
+
     if "communications error" in zone_data:
         return False
 
     if "failed: network unreachable." in zone_data:
+        return False
+
+    if "failed: host unreachable." in zone_data:
         return False
 
     if "connection timed out; no servers could be reached" in zone_data:

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR bb. @ns2.barbadosdomain.net. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-bb.			86400	IN	SOA	ns1.barbadosdomain.net. hostmaster.barbadosdomain.net. 2008031417 3600 1800 604800 43200
+bb.			86400	IN	SOA	ns1.barbadosdomain.net. hostmaster.barbadosdomain.net. 2008031421 3600 1800 604800 43200
 bb.			86400	IN	NS	ns1.barbadosdomain.net.
 bb.			86400	IN	NS	ns2.barbadosdomain.net.
 000.bb.			86400	IN	NS	a.dnspod.com.
@@ -2587,8 +2587,8 @@ discoverflow.bb.bb.	86400	IN	NS	ns1.nwnnetwork.net.
 discoverflow.bb.bb.	86400	IN	NS	ns2.nwnnetwork.net.
 bbb.bb.			86400	IN	NS	f1g1ns1.dnspod.net.
 bbb.bb.			86400	IN	NS	f1g1ns2.dnspod.net.
-bbbb.bb.		86400	IN	NS	f1g1ns1.dnspod.net.
-bbbb.bb.		86400	IN	NS	f1g1ns2.dnspod.net.
+bbbb.bb.		86400	IN	NS	ns1.dns.com.
+bbbb.bb.		86400	IN	NS	ns2.dns.com.
 bbbbb.bb.		86400	IN	NS	a.dnspod.com.
 bbbbb.bb.		86400	IN	NS	b.dnspod.com.
 bbbbbb.bb.		86400	IN	NS	a.dnspod.com.
@@ -2747,10 +2747,10 @@ bncpta.bb.		86400	IN	NS	ns01.domaincontrol.com.
 bncpta.bb.		86400	IN	NS	ns02.domaincontrol.com.
 bnfinc.bb.		86400	IN	NS	ns1.mediatemple.net.
 bnfinc.bb.		86400	IN	NS	ns2.mediatemple.net.
-bnsi.bb.		86400	IN	TXT	"ns1.thewebservers.net."
-bnsi.bb.		86400	IN	TXT	"ns2.thewebservers.net."
 bnsi.bb.		86400	IN	NS	ns1.thewebservers.net.
 bnsi.bb.		86400	IN	NS	ns2.thewebservers.net.
+bnsi.bb.		86400	IN	TXT	"ns1.thewebservers.net."
+bnsi.bb.		86400	IN	TXT	"ns2.thewebservers.net."
 bodog.bb.		86400	IN	NS	pns1.cloudns.net.
 bodog.bb.		86400	IN	NS	pns4.cloudns.net.
 bodog.bb.		86400	IN	NS	pns7.cloudns.net.
@@ -3319,14 +3319,14 @@ frontline.bb.		86400	IN	NS	ns1.roderic.nl.
 frontline.bb.		86400	IN	NS	ns2.roderic.nl.
 fujitsu.bb.		86400	IN	NS	rns1.rightsdns.com.
 fujitsu.bb.		86400	IN	NS	rns2.rightsdns.com.
-fulltilt.bb.		86400	IN	TXT	"pdns1.utradns.net."
-fulltilt.bb.		86400	IN	TXT	"pdns2.utradns.net."
 fulltilt.bb.		86400	IN	NS	pdns1.ultradns.net.
 fulltilt.bb.		86400	IN	NS	pdns2.ultradns.net.
-fulltiltpoker.bb.	86400	IN	TXT	"pdns1.utradns.net."
-fulltiltpoker.bb.	86400	IN	TXT	"pdns2.utradns.net."
+fulltilt.bb.		86400	IN	TXT	"pdns1.utradns.net."
+fulltilt.bb.		86400	IN	TXT	"pdns2.utradns.net."
 fulltiltpoker.bb.	86400	IN	NS	pdns1.ultradns.net.
 fulltiltpoker.bb.	86400	IN	NS	pdns2.ultradns.net.
+fulltiltpoker.bb.	86400	IN	TXT	"pdns1.utradns.net."
+fulltiltpoker.bb.	86400	IN	TXT	"pdns2.utradns.net."
 fund.bb.		86400	IN	NS	a.dnspod.com.
 fund.bb.		86400	IN	NS	b.dnspod.com.
 g4s.bb.			86400	IN	NS	pdns1.safenames.net.
@@ -4100,10 +4100,10 @@ one.bb.			86400	IN	NS	a.dnspod.com.
 one.bb.			86400	IN	NS	b.dnspod.com.
 online.bb.		86400	IN	NS	ns1.101domain.com.
 online.bb.		86400	IN	NS	ns2.101domain.com.
-onlinepoker.bb.		86400	IN	TXT	"pdns1.utradns.net."
-onlinepoker.bb.		86400	IN	TXT	"pdns2.utradns.net."
 onlinepoker.bb.		86400	IN	NS	pdns1.ultradns.net.
 onlinepoker.bb.		86400	IN	NS	pdns2.ultradns.net.
+onlinepoker.bb.		86400	IN	TXT	"pdns1.utradns.net."
+onlinepoker.bb.		86400	IN	TXT	"pdns2.utradns.net."
 ooo.bb.			86400	IN	NS	a.dnspod.com.
 ooo.bb.			86400	IN	NS	b.dnspod.com.
 opa.bb.			86400	IN	NS	name1.sunbeach.net.
@@ -5417,4 +5417,4 @@ zzz.bb.			86400	IN	NS	pns7.cloudns.net.
 zzzz.bb.		86400	IN	NS	pns1.cloudns.net.
 zzzz.bb.		86400	IN	NS	pns4.cloudns.net.
 zzzz.bb.		86400	IN	NS	pns7.cloudns.net.
-bb.			86400	IN	SOA	ns1.barbadosdomain.net. hostmaster.barbadosdomain.net. 2008031417 3600 1800 604800 43200
+bb.			86400	IN	SOA	ns1.barbadosdomain.net. hostmaster.barbadosdomain.net. 2008031421 3600 1800 604800 43200

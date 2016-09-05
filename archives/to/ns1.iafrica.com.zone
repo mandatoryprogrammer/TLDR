@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016090504 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016090601 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	ns1.iafrica.com.
 to.			86400	IN	NS	colo.to.
@@ -1120,6 +1120,9 @@ dns.9999.to.		86400	IN	A	123.204.85.18
 9x.to.			86400	IN	NS	ns2.antagus.de.
 a.to.			86400	IN	NS	NS1.ASADAL.NET.
 a.to.			86400	IN	NS	NS2.ASADAL.NET.
+a-fwd.to.		86400	IN	NS	ns.udag.de.
+a-fwd.to.		86400	IN	NS	ns.udag.net.
+a-fwd.to.		86400	IN	NS	ns.udag.org.
 a-mo.to.		86400	IN	NS	ns-135.awsdns-16.com.
 a-mo.to.		86400	IN	NS	ns-595.awsdns-10.net.
 a-mo.to.		86400	IN	NS	ns-1345.awsdns-40.org.
@@ -1466,6 +1469,8 @@ adap.to.		86400	IN	NS	ns2.variomedia.de.
 adapt.to.		86400	IN	NS	ns.udag.de.
 adapt.to.		86400	IN	NS	ns.udag.net.
 adapt.to.		86400	IN	NS	ns.udag.org.
+adastra.to.		86400	IN	NS	ns5.kasserver.com.
+adastra.to.		86400	IN	NS	ns6.kasserver.com.
 adau.to.		86400	IN	NS	ns1.digitalocean.com.
 adau.to.		86400	IN	NS	ns2.digitalocean.com.
 adbanner.to.		86400	IN	NS	dns15.register.com.
@@ -2343,8 +2348,8 @@ andios.to.		86400	IN	NS	ns2.ipmirror.com.
 andios.to.		86400	IN	NS	ns3.ipmirror.com.
 andraste.to.		86400	IN	NS	ns1.ipx24.net.
 andraste.to.		86400	IN	NS	ns2.ipx24.net.
-andre.to.		86400	IN	NS	ns1.iwantmyname.net.
-andre.to.		86400	IN	NS	ns2.iwantmyname.net.
+andre.to.		86400	IN	NS	ns.liquidweb.com.
+andre.to.		86400	IN	NS	ns1.liquidweb.com.
 andre.to.		86400	IN	NS	ns3.iwantmyname.net.
 andrealikes.to.		86400	IN	NS	66.6.44.4.
 andrealikes.to.		86400	IN	NS	ns51.1and1.com.
@@ -13297,6 +13302,8 @@ fulltilt.to.		86400	IN	NS	pdns1.ultradns.net.
 fulltilt.to.		86400	IN	NS	pdns2.ultradns.net.
 fulltilt.to.		86400	IN	NS	pdns3.ultradns.org.
 fulltilt.to.		86400	IN	NS	pdns4.ultradns.org.
+fulsato.to.		86400	IN	NS	gdns1.interlink.or.jp.
+fulsato.to.		86400	IN	NS	gdns2.interlink.or.jp.
 fumi.to.		86400	IN	NS	ns.primens.net.
 fumi.to.		86400	IN	NS	ns2.primens.net.
 fumibi.to.		86400	IN	NS	NS1.VALUE-DOMAIN.COM.
@@ -26132,7 +26139,9 @@ online.to.		86400	IN	NS	DNS2.INTERLAND.NET.
 online-games.to.	86400	IN	NS	ns3.edns.de.
 online-games.to.	86400	IN	NS	ns4.edns.de.
 online-routenplaner.to.	86400	IN	NS	ns1.online-routenplaner.to.
+online-routenplaner.to.	86400	IN	NS	ns2.online-routenplaner.to.
 ns1.online-routenplaner.to. 86400 IN	A	128.127.106.36
+ns2.online-routenplaner.to. 86400 IN	A	128.127.106.34
 onlinecasino.to.	86400	IN	NS	PDNS07.DOMAINCONTROL.COM.
 onlinecasino.to.	86400	IN	NS	PDNS08.DOMAINCONTROL.COM.
 onlinecenter.to.	86400	IN	NS	ns.rackspace.com.
@@ -27622,8 +27631,8 @@ pika.to.		86400	IN	NS	ns1.xserver.jp.
 pika.to.		86400	IN	NS	ns2.xserver.jp.
 pika.to.		86400	IN	NS	ns3.xserver.jp.
 pika.to.		86400	IN	NS	ns4.xserver.jp.
-pikapika.to.		86400	IN	NS	pikapika.to.
 pikapika.to.		86400	IN	A	202.241.168.123
+pikapika.to.		86400	IN	NS	pikapika.to.
 piko.to.		86400	IN	NS	ns1.dzndns.com.
 piko.to.		86400	IN	NS	ns2.dzndns.com.
 pilates.to.		86400	IN	NS	NS2643.HOSTGATOR.COM.
@@ -32758,6 +32767,8 @@ shrt.to.		86400	IN	NS	ns27.domaincontrol.com.
 shrt.to.		86400	IN	NS	ns28.domaincontrol.com.
 shrtct.to.		86400	IN	NS	ns51.domaincontrol.com.
 shrtct.to.		86400	IN	NS	ns52.domaincontrol.com.
+shrug.to.		86400	IN	NS	ns5.kasserver.com.
+shrug.to.		86400	IN	NS	ns6.kasserver.com.
 shs.to.			86400	IN	NS	NS1.REGISTER.TO.
 shs.to.			86400	IN	NS	NS2.REGISTER.TO.
 shs.to.			86400	IN	NS	NS3.REGISTER.TO.
@@ -38561,6 +38572,9 @@ usi.to.			86400	IN	NS	ns2.ti-edu.ch.
 uskladnime.to.		86400	IN	NS	ns1.regzone.cz.
 uskladnime.to.		86400	IN	NS	ns1.regzone.de.
 uskladnime.to.		86400	IN	NS	ns1.regzone.info.
+uslysz.to.		86400	IN	NS	ns11.serwery.pl.
+uslysz.to.		86400	IN	NS	ns12.serwery.pl.
+uslysz.to.		86400	IN	NS	ns13.serwery.pl.
 uspgo.to.		86400	IN	NS	igate.usp.org.
 uspgo.to.		86400	IN	NS	auth111.ns.uu.net.
 ussr.to.		86400	IN	NS	ns1.parkingcrew.net.
@@ -42616,4 +42630,4 @@ zzap.to.		86400	IN	NS	NS4.REGISTER.TO.
 zzz.to.			86400	IN	NS	ns1.value-domain.com.
 zzz.to.			86400	IN	NS	ns2.value-domain.com.
 zzz.to.			86400	IN	NS	ns3.value-domain.com.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016090504 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016090601 43200 7200 2592000 600

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cw. @engine0.una.cw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cw.			3600	IN	SOA	ns01-server.curinfo.cw. dns.uts.cw. 2016090707 10800 3600 604800 3600
+cw.			3600	IN	SOA	ns01-server.curinfo.cw. dns.uts.cw. 2016090712 10800 3600 604800 3600
 cw.			3600	IN	NS	cw.cctld.authdns.ripe.net.
 cw.			3600	IN	NS	ns0.ja.net.
 cw.			3600	IN	NS	ns1.uoc.cw.
@@ -220,6 +220,8 @@ ca.cw.			3600	IN	NS	NS1.NETFIRMS.com.
 ca.cw.			3600	IN	NS	NS2.NETFIRMS.com.
 cad.cw.			3600	IN	NS	ns1.networking4all.com.
 cad.cw.			3600	IN	NS	ns2.networking4all.net.
+cam4.cw.		3600	IN	NS	NS1.101DOMAIN.com.
+cam4.cw.		3600	IN	NS	NS5.101DOMAIN.com.
 carats.cw.		3600	IN	NS	ns1.onenet.an.
 carats.cw.		3600	IN	NS	ns2.onenet.an.
 caribbeancash.cw.	3600	IN	NS	NS1.LUNARBREEZE.com.
@@ -450,7 +452,11 @@ openenglish.com.cw.	3600	IN	NS	nsusa.comlaude.net.
 paypal.com.cw.		3600	IN	NS	ns1.markmonitor.com.
 paypal.com.cw.		3600	IN	NS	ns3.markmonitor.com.
 rolex.com.cw.		3600	IN	NS	ns1.gva.ch.colt.net.
+rolex.com.cw.		3600	IN	NS	ns1.p09.dynect.net.
 rolex.com.cw.		3600	IN	NS	ns1.zrh1.ch.colt.net.
+rolex.com.cw.		3600	IN	NS	ns2.p09.dynect.net.
+rolex.com.cw.		3600	IN	NS	ns3.p09.dynect.net.
+rolex.com.cw.		3600	IN	NS	ns4.p09.dynect.net.
 seat.com.cw.		3600	IN	NS	ns1.gedas.es.
 seat.com.cw.		3600	IN	NS	ns2.gedas.es.
 spotify.com.cw.		3600	IN	NS	ns2.spotify.com.
@@ -468,10 +474,14 @@ toshiba.com.cw.		3600	IN	NS	rns2.rightsdns.com.
 tous.com.cw.		3600	IN	NS	nsgbr.comlaude.co.uk.
 tous.com.cw.		3600	IN	NS	nssui.comlaude.ch.
 tous.com.cw.		3600	IN	NS	nsusa.comlaude.net.
-tudor.com.cw.		3600	IN	NS	ns1.gva.ch.colt.net.
-tudor.com.cw.		3600	IN	NS	ns1.zrh1.ch.colt.net.
-tudorwatch.com.cw.	3600	IN	NS	ns1.gva.ch.colt.net.
-tudorwatch.com.cw.	3600	IN	NS	ns1.zrh1.ch.colt.net.
+tudor.com.cw.		3600	IN	NS	ns1.p09.dynect.net.
+tudor.com.cw.		3600	IN	NS	ns2.p09.dynect.net.
+tudor.com.cw.		3600	IN	NS	ns3.p09.dynect.net.
+tudor.com.cw.		3600	IN	NS	ns4.p09.dynect.net.
+tudorwatch.com.cw.	3600	IN	NS	ns1.p09.dynect.net.
+tudorwatch.com.cw.	3600	IN	NS	ns2.p09.dynect.net.
+tudorwatch.com.cw.	3600	IN	NS	ns3.p09.dynect.net.
+tudorwatch.com.cw.	3600	IN	NS	ns4.p09.dynect.net.
 villa.com.cw.		3600	IN	NS	ns0.bkngs.com.
 villa.com.cw.		3600	IN	NS	ns1.bkngs.com.
 villa.com.cw.		3600	IN	NS	ns2.bkngs.com.
@@ -509,6 +519,8 @@ commandc.cw.		3600	IN	NS	dns4.nettica.com.
 commandc.cw.		3600	IN	NS	dns5.nettica.com.
 complete.cw.		3600	IN	NS	t2.zoneedit.com.
 complete.cw.		3600	IN	NS	ns1.zoneedit.com.
+Compusoft.cw.		3600	IN	NS	NS1.HOSTINGPANEL1.com.
+Compusoft.cw.		3600	IN	NS	NS2.HOSTINGPANEL1.com.
 concearn.cw.		3600	IN	NS	ns1.csnet.nl.
 concearn.cw.		3600	IN	NS	ns2.csnet.nl.
 connect.cw.		3600	IN	NS	ns1.he.net.
@@ -829,8 +841,8 @@ gesloten.cw.		3600	IN	NS	pdns3.ultradns.org.
 gesloten.cw.		3600	IN	NS	pdns4.ultradns.org.
 gewi.cw.		3600	IN	NS	ns1.dnspark.com.
 gewi.cw.		3600	IN	NS	ns2.dnspark.net.
-ggz.cw.			3600	IN	NS	Ns1.hostingpanel1.com.
-ggz.cw.			3600	IN	NS	Ns2.hostingpanel1.com.
+ggz.cw.			3600	IN	NS	NS1.HOSTINGPANEL1.com.
+ggz.cw.			3600	IN	NS	NS2.HOSTINGPANEL1.com.
 gid.cw.			3600	IN	NS	ns1.hostedmsexchange.com.
 gid.cw.			3600	IN	NS	ns2.hostedmsexchange.com.
 girobank.cw.		3600	IN	NS	ns1.girobank.cw.
@@ -1864,4 +1876,4 @@ ns2.zenitel.cw.		3600	IN	A	208.33.12.139
 zwan.cw.		3600	IN	NS	ns1.openprovider.nl.
 zwan.cw.		3600	IN	NS	ns2.openprovider.be.
 zwan.cw.		3600	IN	NS	ns3.openprovider.eu.
-cw.			3600	IN	SOA	ns01-server.curinfo.cw. dns.uts.cw. 2016090707 10800 3600 604800 3600
+cw.			3600	IN	SOA	ns01-server.curinfo.cw. dns.uts.cw. 2016090712 10800 3600 604800 3600

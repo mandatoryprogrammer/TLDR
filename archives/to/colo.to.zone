@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @colo.to. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016091004 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016091101 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	ns1.iafrica.com.
 to.			86400	IN	NS	colo.to.
@@ -4067,6 +4067,10 @@ bes.to.			86400	IN	NS	ns04.domaincontrol.com.
 best.to.		86400	IN	NS	ns1.best.com.
 best.to.		86400	IN	NS	ns2.best.com.
 www.best.to.		86400	IN	A	206.184.139.14
+best-movies.to.		86400	IN	NS	ns1.best-movies.to.
+best-movies.to.		86400	IN	NS	ns2.best-movies.to.
+ns1.best-movies.to.	86400	IN	A	185.7.32.246
+ns2.best-movies.to.	86400	IN	A	185.7.32.247
 best-time.to.		86400	IN	NS	ns1.dnsimple.com.
 best-time.to.		86400	IN	NS	ns2.dnsimple.com.
 best-time.to.		86400	IN	NS	ns3.dnsimple.com.
@@ -4169,10 +4173,8 @@ bff.to.			86400	IN	NS	NS1.REGISTER.TO.
 bff.to.			86400	IN	NS	NS2.REGISTER.TO.
 bff.to.			86400	IN	NS	NS3.REGISTER.TO.
 bff.to.			86400	IN	NS	NS4.REGISTER.TO.
-bg.to.			86400	IN	NS	ns1.bg.to.
-bg.to.			86400	IN	NS	ns2.bg.to.
-ns1.bg.to.		86400	IN	A	93.190.137.169
-ns2.bg.to.		86400	IN	A	93.190.137.170
+bg.to.			86400	IN	NS	ns1.worldstream.nl.
+bg.to.			86400	IN	NS	ns2.worldstream.nl.
 bgd.to.			86400	IN	NS	ns1.iwantmyname.net.
 bgd.to.			86400	IN	NS	ns2.iwantmyname.net.
 bgd.to.			86400	IN	NS	ns3.iwantmyname.net.
@@ -5185,9 +5187,7 @@ brut.to.		86400	IN	NS	ns2.tutby.com.
 bs.to.			86400	IN	NS	toby.ns.cloudflare.com.
 bs.to.			86400	IN	NS	vera.ns.cloudflare.com.
 bs2.to.			86400	IN	NS	ns1.bs2.to.
-bs2.to.			86400	IN	NS	ns2.bs2.to.
 ns1.bs2.to.		86400	IN	A	140.113.168.7
-ns2.bs2.to.		86400	IN	A	140.113.168.4
 bsa.to.			86400	IN	NS	ns6169.hostgator.com.
 bsa.to.			86400	IN	NS	ns6170.hostgator.com.
 bsab.to.		86400	IN	NS	DNS.BANCSABADELL.COM.
@@ -6470,8 +6470,8 @@ chiro.to.		86400	IN	NS	NS2.REGISTER.TO.
 chiro.to.		86400	IN	NS	NS3.REGISTER.TO.
 chisa.to.		86400	IN	NS	ns1.xserver.jp.
 chisa.to.		86400	IN	NS	ns2.xserver.jp.
-chitalishte.to.		86400	IN	NS	ns123.superhosting.bg.
-chitalishte.to.		86400	IN	NS	ns124.superhosting.bg.
+chitalishte.to.		86400	IN	NS	ns15.superhosting.bg.
+chitalishte.to.		86400	IN	NS	ns16.superhosting.bg.
 chk.to.			86400	IN	NS	ns-196.awsdns-24.com.
 chk.to.			86400	IN	NS	ns-974.awsdns-57.net.
 chk.to.			86400	IN	NS	ns-1284.awsdns-32.org.
@@ -6898,7 +6898,7 @@ cloudsend.to.		86400	IN	NS	NS2.REGISTER.TO.
 cloudsend.to.		86400	IN	NS	NS3.REGISTER.TO.
 cloudsend.to.		86400	IN	NS	NS4.REGISTER.TO.
 cloudstream.to.		86400	IN	NS	ns1.cloudstream.to.
-ns1.cloudstream.to.	86400	IN	A	91.209.70.113
+cloudstream.to.		86400	IN	NS	ns2.cloudstream.to.
 cloudtime.to.		86400	IN	NS	ns1.dns191.net.
 cloudtime.to.		86400	IN	NS	ns2.dns191.net.
 cloudtime.to.		86400	IN	NS	ns3.dns191.net.
@@ -37029,6 +37029,8 @@ torent.to.		86400	IN	NS	ns1.parkingcrew.net.
 torent.to.		86400	IN	NS	ns2.parkingcrew.net.
 torents.to.		86400	IN	NS	ns1.parkingcrew.net.
 torents.to.		86400	IN	NS	ns2.parkingcrew.net.
+torenty.to.		86400	IN	NS	ns1.ipx24.net.
+torenty.to.		86400	IN	NS	ns2.ipx24.net.
 torentz.to.		86400	IN	NS	ns1.parkingcrew.net.
 torentz.to.		86400	IN	NS	ns2.parkingcrew.net.
 torentzeu.to.		86400	IN	NS	ns1.domainmanager.com.
@@ -42654,4 +42656,4 @@ zzap.to.		86400	IN	NS	NS4.REGISTER.TO.
 zzz.to.			86400	IN	NS	ns1.value-domain.com.
 zzz.to.			86400	IN	NS	ns2.value-domain.com.
 zzz.to.			86400	IN	NS	ns3.value-domain.com.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016091004 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016091101 43200 7200 2592000 600

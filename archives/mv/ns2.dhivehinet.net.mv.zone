@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016091802 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016091902 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -741,6 +741,7 @@ doc.mv.			3600	IN	NS	ns-1136.awsdns-14.org.
 dock.mv.		3600	IN	NS	ex.mv.
 docosh.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.docosh.mv.		3600	IN	CNAME	docosh.mv.
+dofort.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 domus.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 donate.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 doodle.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -866,6 +867,7 @@ exzamaldives.mv.	3600	IN	NS	host14.dhivehinet.net.mv.
 eytuzed.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 faan.mv.		3600	IN	NS	ns2.dreamhost.com.
 faan.mv.		3600	IN	NS	ns3.dreamhost.com.
+faanu.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 fahi.mv.		3600	IN	NS	ns8.wixdns.net.
 fahi.mv.		3600	IN	NS	ns9.wixdns.net.
 faiythoora.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1090,12 +1092,12 @@ googlemail.mv.		3600	IN	NS	ns3.markmonitor.com.
 gopizza.mv.		3600	IN	NS	ns1.mdus-pp-wb14.webhostbox.net.
 gopizza.mv.		3600	IN	NS	ns2.mdus-pp-wb14.webhostbox.net.
 goshop.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-got.mv.			3600	IN	TXT	"google-site-verification=O-JzyGKcklVtAtLP6EWoS05-eR4056CI9_RsILoma-o"
 got.mv.			3600	IN	MX	1 ASPMX.L.GOOGLE.COM.
 got.mv.			3600	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
 got.mv.			3600	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
 got.mv.			3600	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
 got.mv.			3600	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
+got.mv.			3600	IN	TXT	"google-site-verification=O-JzyGKcklVtAtLP6EWoS05-eR4056CI9_RsILoma-o"
 gotech.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 gov.mv.			3600	IN	NS	ns.gov.mv.
 ns.gov.mv.		3600	IN	A	202.1.192.196
@@ -1337,7 +1339,8 @@ imtravels.mv.		3600	IN	NS	ns1.digitalocean.com.
 imtravels.mv.		3600	IN	NS	ns2.digitalocean.com.
 imtravels.mv.		3600	IN	NS	ns3.digitalocean.com.
 indexfurniture.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
-inet.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+inet.mv.		3600	IN	NS	ns1.mediatemple.net.
+inet.mv.		3600	IN	NS	ns2.mediatemple.net.
 inews.mv.		3600	IN	NS	ns1139.hostgator.com.
 inews.mv.		3600	IN	NS	ns1140.hostgator.com.
 info.mv.		3600	IN	A	202.1.203.100
@@ -1410,10 +1413,10 @@ ivm.mv.			3600	IN	NS	ns8082.hostgator.com.
 jamtree.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 jausa.mv.		3600	IN	NS	ns51.domaincontrol.com.
 jausa.mv.		3600	IN	NS	ns52.domaincontrol.com.
-jausaceramiccity.mv.	3600	IN	NS	ns51.domaincontrol.com.
-jausaceramiccity.mv.	3600	IN	NS	ns52.domaincontrol.com.
-jausainvestment.mv.	3600	IN	NS	ns51.domaincontrol.com.
-jausainvestment.mv.	3600	IN	NS	ns52.domaincontrol.com.
+jausaceramiccity.mv.	3600	IN	NS	ns1.bluehost.com.
+jausaceramiccity.mv.	3600	IN	NS	ns2.bluehost.com.
+jausainvestment.mv.	3600	IN	NS	ns1.bluehost.com.
+jausainvestment.mv.	3600	IN	NS	ns2.bluehost.com.
 jayasteel.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 jerries.mv.		3600	IN	NS	ns1.mediatemple.net.
 jerries.mv.		3600	IN	NS	ns2.mediatemple.net.
@@ -1572,7 +1575,6 @@ leotrading.mv.		3600	IN	NS	ns1895.hostgator.com.
 leotrading.mv.		3600	IN	NS	ns1896.hostgator.com.
 leperfume.mv.		3600	IN	NS	ns1.ipage.com.
 leperfume.mv.		3600	IN	NS	ns2.ipage.com.
-lesson.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 letsgo.mv.		3600	IN	NS	ns1.mediatemple.net.
 letsgo.mv.		3600	IN	NS	ns2.mediatemple.net.
 letstravel.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -2462,6 +2464,7 @@ seventeenthsaarcsummit.mv. 3600	IN	NS	NS1.BLUEHOST.COM.
 sez.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 shaan.mv.		3600	IN	NS	ns669.hostgator.com.
 shaan.mv.		3600	IN	NS	ns670.hostgator.com.
+shadycabinrentals.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 shafiu.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 www.shafnan.mv.		3600	IN	CNAME	shafnan.mv.
 shan.mv.		3600	IN	NS	ns1.bluehost.com.
@@ -2471,6 +2474,7 @@ shidam.mv.		3600	IN	NS	host02.dhivehinet.net.mv.
 shinetree.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 shiya.mv.		3600	IN	NS	ns1.bluehost.com.
 shiya.mv.		3600	IN	NS	ns2.bluehost.com.
+shoepark.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 shop.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 shoponline.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 shopper.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -2488,6 +2492,9 @@ silvermarlin.mv.	3600	IN	NS	ns2.justhost.com.
 silverscene.mv.		3600	IN	NS	ns1.silverscene.mv.
 silverscene.mv.		3600	IN	NS	ns2.silverscene.mv.
 silverscene.mv.		3600	IN	NS	ns3.silverscene.mv.
+ns1.silverscene.mv.	3600	IN	A	173.245.58.51
+ns2.silverscene.mv.	3600	IN	A	173.245.59.41
+ns3.silverscene.mv.	3600	IN	A	198.41.222.173
 silvert.mv.		3600	IN	TXT	"google-site-verification=-IYVv7lPEa6sV81SAePSfCopDzETNzF0WqY_8v9WUe8"
 silvert.mv.		3600	IN	MX	1 aspmx.l.google.com.
 silvert.mv.		3600	IN	MX	5 alt1.aspmx.l.google.com.
@@ -2536,8 +2543,8 @@ so.mv.			3600	IN	A	202.1.203.100
 soccer.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 softtouch.mv.		3600	IN	NS	ns1.rol.net.mv.
 softtouch.mv.		3600	IN	NS	ns2.rol.net.mv.
-solpower.mv.		3600	IN	NS	ns51.domaincontrol.com.
-solpower.mv.		3600	IN	NS	ns52.domaincontrol.com.
+solpower.mv.		3600	IN	NS	ns1.bluehost.com.
+solpower.mv.		3600	IN	NS	ns2.bluehost.com.
 somehardware.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 sonee.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 soneesports.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
@@ -2884,7 +2891,8 @@ vessel.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 vestrade.mv.		3600	IN	NS	ns1.hiyaal.com.
 vestrade.mv.		3600	IN	NS	ns2.hiyaal.com.
 vfm.mv.			3600	IN	NS	host02.dhivehinet.net.mv.
-vfpnews.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+vfpnews.mv.		3600	IN	NS	ns1.digitalocean.com.
+vfpnews.mv.		3600	IN	NS	ns2.digitalocean.com.
 vhholdings.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 vhpl.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 via.mv.			3600	IN	A	202.1.201.147
@@ -2903,6 +2911,8 @@ villagecafe.mv.		3600	IN	NS	NS1.DREAMHOST.COM.
 villagecafe.mv.		3600	IN	NS	NS2.DREAMHOST.COM.
 villagecafe.mv.		3600	IN	NS	NS3.DREAMHOST.COM.
 vilunoodhirun.mv.	3600	IN	NS	host04.dhivehinet.net.mv.
+virtual.mv.		3600	IN	NS	ns1.hiyaal.com.
+virtual.mv.		3600	IN	NS	ns2.hiyaal.com.
 vis.mv.			3600	IN	NS	host16.dhivehinet.net.mv.
 visit.mv.		3600	IN	NS	ns491.hostgator.com.
 visit.mv.		3600	IN	NS	ns492.hostgator.com.
@@ -3054,4 +3064,4 @@ zero.mv.		3600	IN	MX	10 ASPMX5.GOOGLEMAIL.COM.
 svn.zero.mv.		3600	IN	A	202.1.196.178
 www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016091802 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016091902 1800 1800 3600 3600

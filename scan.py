@@ -44,6 +44,7 @@ GLOBAL_DNS_CACHE = {
     "TXT": {},
     "RP": {},
     "AFSDB": {},
+    "AAAA": {},
     "SRV": {},
     "A6": {},
 }
@@ -74,7 +75,7 @@ class DNSTool:
             16: 'TXT',
             17: 'RP',
             18: 'AFSDB',
-			28: 'AAAA',
+            28: 'AAAA',
             33: 'SRV',
             38: 'A6'
         }

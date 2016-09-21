@@ -1,21 +1,20 @@
 #!/usr/bin/env python
+
+import argparse
+import json
+import os
+import platform
+import signal
 import subprocess
+import time
+from contextlib import contextmanager
+
+import dns.query
 import dns.resolver
 import dns.zone
-import dns.query
-import tldextract
 import requests
-import argparse
-import random
-import socket
-import string
-import signal
-import time
-import json
-import sys
-import os
+import tldextract
 
-from contextlib import contextmanager
 
 ROOT_NAMESERVER_LIST = [
     "e.root-servers.net.",
@@ -48,8 +47,17 @@ GLOBAL_DNS_CACHE = {
     "A6": {},
 }
 
-# http://stackoverflow.com/a/287944/1195812
-class bcolors:
+
+HEADER = ''
+OKBLUE = ''
+OKGREEN = ''
+WARNING = ''
+FAIL = ''
+ENDC = ''
+BOLD = ''
+UNDERLINE = ''
+
+if platform.system().lower() in ['linux', 'darwin']:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
     OKGREEN = '\033[92m'
@@ -59,8 +67,10 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-class DNSTool:
-    def __init__( self, verbose = True ):
+
+class DNSTool(object):
+
+    def __init__(self, verbose=True):
         self.verbose = verbose
         self.domain_cache = {}
         self.RECORD_MAP = {
@@ -78,42 +88,40 @@ class DNSTool:
             38: 'A6'
         }
 
-    def get_base_domain( self, hostname ):
+    def get_base_domain(self, hostname):
         ''' Little extra parsing to accurately return a TLD string '''
         url = "http://" + hostname.lower()
-        tld = tldextract.extract( url )
+        tld = tldextract.extract(url)
         if tld.suffix == '':
             return tld.domain
         else:
-            return "%s.%s" % ( tld.domain, tld.suffix )
+            return "%s.%s" % (tld.domain, tld.suffix)
 
-    def statusmsg( self, msg, mtype = 'status' ):
+    def statusmsg(self, msg, mtype='status'):
         '''
         Status messages
         '''
         if self.verbose:
             if mtype == 'status':
-                print '[ STATUS ] ' + msg
+                print BOLD + '[ STATUS ] ' + ENDC + msg
             elif mtype == 'warning':
-                print bcolors.WARNING + '[ WARNING ] ' + msg + bcolors.ENDC
+                print WARNING + '[ WARNING ] ' + msg + ENDC
             elif mtype == 'error':
-                print bcolors.FAIL + '[ ERROR ] ' + msg + bcolors.ENDC
+                print FAIL + '[ ERROR ] ' + msg + ENDC
             elif mtype == 'success':
-                print bcolors.OKGREEN + '[ SUCCESS ] ' + msg + bcolors.ENDC
+                print OKGREEN + '[ SUCCESS ] ' + msg + ENDC
 
-    def typenum_to_name( self, num ):
+    def typenum_to_name(self, num):
         '''
         Turn DNS type number into it's corresponding DNS record name
         e.g. 5 => CNAME, 1 => A
         '''
-        if num in self.RECORD_MAP:
-            return self.RECORD_MAP[ num ]
-        return "UNK"
+        return self.RECORD_MAP.get(num, "UNK")
 
     @contextmanager
-    def time_limit( self, seconds ):
+    def time_limit(self, seconds):
         '''
-        Timeout handler to hack around a bug in dnspython with AXFR not obeying it's timeouts 
+        Timeout handler to hack around a bug in dnspython with AXFR not obeying it's timeouts
         '''
         def signal_handler(signum, frame):
             raise Exception("TIMEOUT")
@@ -124,97 +132,90 @@ class DNSTool:
         finally:
             signal.alarm(0)
 
-    def get_nameserver_list( self, domain ):
-        self.statusmsg( "Grabbing nameserver list for " + domain )
+    def get_nameserver_list(self, domain):
+        self.statusmsg("Grabbing nameserver list for " + domain)
 
-        if domain in GLOBAL_DNS_CACHE[ "NS" ]:
-            return GLOBAL_DNS_CACHE[ "NS" ][ domain ]
+        if domain in GLOBAL_DNS_CACHE["NS"]:
+            return GLOBAL_DNS_CACHE["NS"][domain]
 
-        '''
-        Query the list of authoritative nameservers for a domain
-
-        It is important to query all of these as it only takes one misconfigured server to give away the zone.
-        '''
+        # Query the list of authoritative nameservers for a domain
+        # It is important to query all of these as it only takes one,
+        # misconfigured server to give away the zone.
         try:
-            answers = dns.resolver.query( domain, 'NS' )
+            answers = dns.resolver.query(domain, 'NS')
         except dns.resolver.NXDOMAIN:
-            self.statusmsg( "NXDOMAIN - domain name doesn't exist", 'error' )
+            self.statusmsg("NXDOMAIN - domain name doesn't exist", 'error')
             return []
         except dns.resolver.NoNameservers:
-            self.statusmsg( "No nameservers returned!", 'error' )
+            self.statusmsg("No nameservers returned!", 'error')
             return []
         except dns.exception.Timeout:
-            self.statusmsg( "Nameserver request timed out (wat)", 'error' )
+            self.statusmsg("Nameserver request timed out (wat)", 'error')
             return []
         except dns.resolver.NoAnswer:
-            self.statusmsg( "No answer", 'error' )
+            self.statusmsg("No answer", 'error')
             return []
         except dns.name.EmptyLabel:
             return []
         nameservers = []
         for rdata in answers:
-            nameservers.append( str( rdata ) )
+            nameservers.append(str(rdata))
 
-        GLOBAL_DNS_CACHE[ "NS" ][ domain ] = nameservers
+        GLOBAL_DNS_CACHE["NS"][domain] = nameservers
 
         return nameservers
 
-    def parse_tld( self, domain ):
+    def parse_tld(self, domain):
         '''
-        Parse DNS CNAME external pointer to get the base domain (stolen from moloch's source code, sorry buddy)
+        Parse DNS CNAME external pointer to get the base domain
+        (stolen from moloch's source code, sorry buddy)
         '''
-        url = 'http://' + str( domain ) # Hack to get parse_tld to work with us
+        url = 'http://' + str(domain)  # Hack to get parse_tld to work with us
         tld = tldextract.extract(url)
         if tld.suffix == '':
             return tld.domain
         else:
             return "%s.%s" % (tld.domain, tld.suffix)
 
-    def get_root_tlds( self ):
-        self.statusmsg( "Grabbing IANA's list of TLDs...")
-        response = requests.get( "https://data.iana.org/TLD/tlds-alpha-by-domain.txt", )
-        lines = response.text.split( "\n" )
-        tlds = []
-        for line in lines:
-            if not "#" in line and not line == "":
-                tlds.append( line.strip().lower() )
+    def get_root_tlds(self):
+        self.statusmsg("Grabbing IANA's list of TLDs...")
+        response = requests.get("https://data.iana.org/TLD/tlds-alpha-by-domain.txt")
+        lines = response.text.split("\n")
+        tlds = filter(lambda line: "#" not in line and not line == "", lines)
         return tlds
 
-def get_json_from_file( filename ):
-    file_handler = open( filename, "r" )
-    result = json.loads(
-        file_handler.read()
-    )
+
+def get_json_from_file(filename):
+    file_handler = open(filename, "r")
+    result = json.loads(file_handler.read())
     file_handler.close()
     return result
 
-def write_to_json( filename, json_serializable_dict ):
-    file_handler = open( filename, "w" )
+
+def write_to_json(filename, json_serializable_dict):
+    file_handler = open(filename, "w")
     file_handler.write(
-        json.dumps( json_serializable_dict )
+        json.dumps(json_serializable_dict)
     )
     file_handler.close()
 
-def get_root_tld_dict( from_cache=True ):
+
+def get_root_tld_dict(from_cache=True):
     if from_cache:
-        return get_json_from_file(
-            "./cache/tld_dict.json",
-        )
+        return get_json_from_file("./cache/tld_dict.json",)
 
     dnstool = DNSTool()
     tlds = dnstool.get_root_tlds()
     root_map = {}
     for tld in tlds:
-        root_map[ tld ] = dnstool.get_nameserver_list(
+        root_map[tld] = dnstool.get_nameserver_list(
             tld + ".",
         )
-    write_to_json(
-        "./cache/tld_dict.json",
-        root_map
-    )
+    write_to_json("./cache/tld_dict.json", root_map)
     return root_map
 
-def pprint( input_dict ):
+
+def pprint(input_dict):
     '''
     Prints dicts in a JSON pretty sort of way
     '''
@@ -224,34 +225,34 @@ def pprint( input_dict ):
         )
     )
 
-def write_dig_output( hostname, nameserver, dig_output ):
+
+def write_dig_output(hostname, nameserver, dig_output):
     if hostname == ".":
         hostname = "root"
 
-    if hostname.endswith( "." ):
+    if hostname.endswith("."):
         dir_path = "./archives/" + hostname[:-1] + "/"
     else:
         dir_path = "./archives/" + hostname + "/"
 
-    if not os.path.exists( dir_path ):
-        os.makedirs( dir_path )
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path)
 
     filename = dir_path + nameserver + "zone"
 
-    file_handler = open( filename, "w" )
-    file_handler.write(
-        dig_output
-    )
-    file_handler.close()
+    with open(filename, "w") as fp:
+        fp.write(dig_output)
 
-def get_dig_axfr_output( hostname, nameserver ):
+
+def get_dig_axfr_output(hostname, nameserver):
     proc = subprocess.Popen([
         "/usr/bin/dig", "AXFR", hostname, "@" + nameserver, "+nocomments", "+nocmd", "+noquestion", "+nostats", "+time=15"
-    ], stdout=subprocess.PIPE)
+    ], stdout=subprocess.PIPE, shell=False)
     output = proc.stdout.read()
     return output
 
-def zone_transfer_succeeded( zone_data ):
+
+def zone_transfer_succeeded(zone_data):
     if "Transfer failed." in zone_data:
         return False
 
@@ -275,9 +276,32 @@ def zone_transfer_succeeded( zone_data ):
 
     return True
 
-if __name__ == "__main__":
-    dnstool = DNSTool()
 
+def push_results():
+    # Add all new zone files
+    print("Git adding...")
+    proc = subprocess.Popen([
+        "/usr/bin/git", "add", "."
+    ], stdout=subprocess.PIPE, shell=False)
+    print(proc.stdout.read())
+
+    # Commit them
+    print("Git committing...")
+    proc = subprocess.Popen([
+        "/usr/bin/git", "commit", '-m "Updating zone information"'
+    ], stdout=subprocess.PIPE, shell=False)
+    print(proc.stdout.read())
+
+    # Commit them
+    print("Git pushing...")
+    proc = subprocess.Popen([
+        "/usr/bin/git", "push"
+    ], stdout=subprocess.PIPE, shell=False)
+    print(proc.stdout.read())
+
+
+def tldr(push_results=True):
+    dnstool = DNSTool()
     zone_transfer_enabled_list = []
 
     for root_ns in ROOT_NAMESERVER_LIST:
@@ -286,7 +310,7 @@ if __name__ == "__main__":
             root_ns,
         )
 
-        if zone_transfer_succeeded( zone_data ):
+        if zone_transfer_succeeded(zone_data):
             zone_transfer_enabled_list.append({
                 "nameserver": root_ns,
                 "hostname": "."
@@ -312,7 +336,7 @@ if __name__ == "__main__":
                 nameserver,
             )
 
-            if zone_transfer_succeeded( zone_data ):
+            if zone_transfer_succeeded(zone_data):
                 zone_transfer_enabled_list.append({
                     "nameserver": nameserver,
                     "hostname": tld,
@@ -329,39 +353,47 @@ if __name__ == "__main__":
 
     for zone_status in zone_transfer_enabled_list:
         if zone_status["hostname"] == ".":
-            zone_transfer_enabled_markdown += "* `" + zone_status["hostname"] + "` via `" +  zone_status["nameserver"] + "`: [Click here to view zone data.](" + "archives/root/" + zone_status["nameserver"] + "zone)\n"
+            zone_transfer_enabled_markdown += "* `" + zone_status["hostname"] + "` via `" + zone_status["nameserver"] + "`: [Click here to view zone data.](" + "archives/root/" + zone_status["nameserver"] + "zone)\n"
         else:
-            zone_transfer_enabled_markdown += "* `" + zone_status["hostname"] + "` via `" +  zone_status["nameserver"] + "`: [Click here to view zone data.](" + "archives/" + zone_status["hostname"] + "/" + zone_status["nameserver"] + "zone)\n"
+            zone_transfer_enabled_markdown += "* `" + zone_status["hostname"] + "` via `" + zone_status["nameserver"] + "`: [Click here to view zone data.](" + "archives/" + zone_status["hostname"] + "/" + zone_status["nameserver"] + "zone)\n"
 
-    file_handler = open( "transferable_zones.md", "w" )
-    file_handler.write(
-        zone_transfer_enabled_markdown
-    )
-    file_handler.close()
+    with open("transferable_zones.md", "w") as fp:
+        fp.write(zone_transfer_enabled_markdown)
 
-    # Add all new zone files
-    print( "Git adding...")
-    proc = subprocess.Popen([
-        "/usr/bin/git", "add", "."
-    ], stdout=subprocess.PIPE)
-    print(
-        proc.stdout.read()
-    )
+    if push_results:
+        push_results()
 
-    # Commit them
-    print( "Git committing...")
-    proc = subprocess.Popen([
-        "/usr/bin/git", "commit", '-m "Updating zone information"'
-    ], stdout=subprocess.PIPE)
-    print(
-        proc.stdout.read()
-    )
 
-    # Commit them
-    print( "Git pushing...")
-    proc = subprocess.Popen([
-        "/usr/bin/git", "push"
-    ], stdout=subprocess.PIPE)
-    print(
-        proc.stdout.read()
+def _main(args):
+    if args.fork:
+        pid = os.fork()
+        if pid:
+            print("[*] Forking into background %s" % pid)
+            os._exit(0)
+    seconds = args.interval * 60.0 * 60.0
+    try:
+        while True:
+            tldr(push_results=args.push_results)
+            time.sleep(seconds)
+    except KeyboardInterrupt:
+        os._exit(0)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description='Attempt zone transfers against all TLDs',
     )
+    parser.add_argument('--fork', '-f',
+                        help='fork the process into the background',
+                        action='store_true',
+                        dest='fork')
+    parser.add_argument('--push-results', '-p',
+                        help='push results to git',
+                        action='store_true',
+                        dest='push_results')
+    parser.add_argument('--interval', '-i',
+                        help='interval to scan TLDs in hours',
+                        type=float,
+                        default=2.0,
+                        dest='interval')
+    _main(parser.parse_args())

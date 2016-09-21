@@ -74,6 +74,7 @@ class DNSTool:
             16: 'TXT',
             17: 'RP',
             18: 'AFSDB',
+			28: 'AAAA',
             33: 'SRV',
             38: 'A6'
         }

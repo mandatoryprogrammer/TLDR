@@ -301,7 +301,7 @@ def push_results():
 
 
 def tldr(push_results, verbose):
-    dnstool = DNSTool()
+    dnstool = DNSTool(verbose)
     zone_transfer_enabled_list = []
 
     for root_ns in ROOT_NAMESERVER_LIST:

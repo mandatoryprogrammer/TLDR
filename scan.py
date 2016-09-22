@@ -300,7 +300,7 @@ def push_results():
     print(proc.stdout.read())
 
 
-def tldr(push_results=True):
+def tldr(push_results, verbose):
     dnstool = DNSTool()
     zone_transfer_enabled_list = []
 
@@ -373,8 +373,9 @@ def _main(args):
     seconds = args.interval * 60.0 * 60.0
     try:
         while True:
-            tldr(push_results=args.push_results)
+            tldr(args.push_results, args.verbose)
             time.sleep(seconds)
+            print BOLD + "[ STATUS ] " + ENDC + "Sleeping ..."
     except KeyboardInterrupt:
         os._exit(0)
 
@@ -396,4 +397,8 @@ if __name__ == "__main__":
                         type=float,
                         default=2.0,
                         dest='interval')
+    parser.add_argument('--verbose', '-V',
+                        help='verbose output',
+                        action='store_true',
+                        dest='verbose')
     _main(parser.parse_args())

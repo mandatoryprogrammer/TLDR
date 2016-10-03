@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100301 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100302 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -48,9 +48,9 @@ ac.mv.			3600	IN	A	202.1.203.100
 acco.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 accord.mv.		3600	IN	NS	ns100.whbdns.com.
 accord.mv.		3600	IN	NS	ns101.whbdns.com.
-aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 aceaviation.mv.		3600	IN	MX	10 mx1.emailsrvr.com.
 aceaviation.mv.		3600	IN	MX	20 mx2.emailsrvr.com.
+aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 k1._domainkey.aceaviation.mv. 3600 IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUNCaeAxrpJzLqHr/OdSl55nbwxLTtvpmBX4UReuwXaO++Uf8DAr4cujaShtzqTzokYZz6jnpY4jGYQktUV+q4azEWkIJbnaeGQRnrgntLLMBtW0DDOZ1obgo5qQehGphguTNS4/AXp0xanI11kuTKfQuShlLFFCMZPwRfiPYCLQIDAQAB"
 email.aceaviation.mv.	3600	IN	CNAME	mailgun.org.
 acetravels.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -659,6 +659,7 @@ deep.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 deige.mv.		3600	IN	NS	ns1.justhost.com.
 deige.mv.		3600	IN	NS	ns2.justhost.com.
 delish.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
+demec.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 deshadan.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 designcenter.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 designsolutions.mv.	3600	IN	NS	host18.dhivehinet.net.mv.
@@ -921,8 +922,8 @@ fit4life.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 fiyoaree.mv.		3600	IN	NS	ns117.mochahost.com.
 fiyoaree.mv.		3600	IN	NS	ns118.mochahost.com.
 fjs.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
-flexpert.mv.		3600	IN	NS	ns1.domaincontrol.com.
-flexpert.mv.		3600	IN	NS	ns2.domaincontrol.com.
+flexpert.mv.		3600	IN	NS	ns25.domaincontrol.com.
+flexpert.mv.		3600	IN	NS	ns26.domaincontrol.com.
 flickr.mv.		3600	IN	NS	ns1.yahoo.com.
 flickr.mv.		3600	IN	NS	ns2.yahoo.com.
 flickr.mv.		3600	IN	NS	ns3.yahoo.com.
@@ -2081,6 +2082,9 @@ oaga.mv.		3600	IN	NS	ns2.sgp26.siteground.asia.
 obi.mv.			3600	IN	NS	ben.ns.cloudflare.com.
 obi.mv.			3600	IN	NS	erin.ns.cloudflare.com.
 obliq.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
+oceanborn.mv.		3600	IN	NS	bns1.ventraip.net.au.
+oceanborn.mv.		3600	IN	NS	bns2.ventraip.net.au.
+oceanborn.mv.		3600	IN	NS	bns3.ventraip.net.au.
 oceanenterprises.mv.	3600	IN	NS	dns1.namecheaphosting.com.
 oceanenterprises.mv.	3600	IN	NS	dns2.namecheaphosting.com.
 oceangate.mv.		3600	IN	NS	pdns07.domaincontrol.com.
@@ -3020,7 +3024,8 @@ whiteroom.mv.		3600	IN	NS	ns71.domaincontrol.com.
 whiteroom.mv.		3600	IN	NS	ns72.domaincontrol.com.
 whopper.mv.		3600	IN	NS	dns1.cscdns.net.
 whopper.mv.		3600	IN	NS	dns2.cscdns.net.
-whyte.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+whyte.mv.		3600	IN	NS	ns1.saffron.arvixe.com.
+whyte.mv.		3600	IN	NS	ns2.saffron.arvixe.com.
 wideseamaldives.mv.	3600	IN	NS	host04.dhivehinet.net.mv.
 wifi.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 wildandwood.mv.		3600	IN	NS	ns1.bluehost.com.
@@ -3098,4 +3103,4 @@ zero.mv.		3600	IN	MX	10 ASPMX5.GOOGLEMAIL.COM.
 svn.zero.mv.		3600	IN	A	202.1.196.178
 www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100301 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100302 1800 1800 3600 3600

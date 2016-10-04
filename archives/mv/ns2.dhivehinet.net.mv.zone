@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100302 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100401 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -48,9 +48,9 @@ ac.mv.			3600	IN	A	202.1.203.100
 acco.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 accord.mv.		3600	IN	NS	ns100.whbdns.com.
 accord.mv.		3600	IN	NS	ns101.whbdns.com.
+aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 aceaviation.mv.		3600	IN	MX	10 mx1.emailsrvr.com.
 aceaviation.mv.		3600	IN	MX	20 mx2.emailsrvr.com.
-aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 k1._domainkey.aceaviation.mv. 3600 IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUNCaeAxrpJzLqHr/OdSl55nbwxLTtvpmBX4UReuwXaO++Uf8DAr4cujaShtzqTzokYZz6jnpY4jGYQktUV+q4azEWkIJbnaeGQRnrgntLLMBtW0DDOZ1obgo5qQehGphguTNS4/AXp0xanI11kuTKfQuShlLFFCMZPwRfiPYCLQIDAQAB"
 email.aceaviation.mv.	3600	IN	CNAME	mailgun.org.
 acetravels.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -197,7 +197,7 @@ asr.mv.			3600	IN	NS	ns8196.hostgator.com.
 assm.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 assotech.mv.		3600	IN	NS	ns102.superdnssite.com.
 assotech.mv.		3600	IN	NS	ns103.superdnssite.com.
-asters.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
+asters.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 asurumaa.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 at.mv.			3600	IN	A	202.1.203.100
 atall.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
@@ -626,6 +626,7 @@ dadi.mv.		3600	IN	NS	ns02.trademarkarea.com.
 dadi.mv.		3600	IN	NS	ns03.trademarkarea.com.
 daphne.mv.		3600	IN	NS	ns1.ipage.com.
 daphne.mv.		3600	IN	NS	ns2.ipage.com.
+dashonline.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 dataclub.mv.		3600	IN	NS	ns1.dhihost.net.
 dataclub.mv.		3600	IN	NS	ns2.dhihost.net.
 datavision.mv.		3600	IN	NS	ns6637.hostgator.com.
@@ -922,8 +923,8 @@ fit4life.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 fiyoaree.mv.		3600	IN	NS	ns117.mochahost.com.
 fiyoaree.mv.		3600	IN	NS	ns118.mochahost.com.
 fjs.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
-flexpert.mv.		3600	IN	NS	ns25.domaincontrol.com.
-flexpert.mv.		3600	IN	NS	ns26.domaincontrol.com.
+flexpert.mv.		3600	IN	NS	ns51.domaincontrol.com.
+flexpert.mv.		3600	IN	NS	ns52.domaincontrol.com.
 flickr.mv.		3600	IN	NS	ns1.yahoo.com.
 flickr.mv.		3600	IN	NS	ns2.yahoo.com.
 flickr.mv.		3600	IN	NS	ns3.yahoo.com.
@@ -972,7 +973,7 @@ fourcorners.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 fourcorners.mv.		3600	IN	A	202.1.201.147
 www.fourcorners.mv.	3600	IN	CNAME	fourcorners.mv.
 fourdiamonds.mv.	3600	IN	NS	NS1.FOURDIAMONDS.MV.
-fourdiamonds.mv.	3600	IN	NS	NS2.FOURXIAMONDS.MV.
+fourdiamonds.mv.	3600	IN	NS	NS2.FOURDIAMONDS.MV.
 fourpals.mv.		3600	IN	NS	host18.dhivehinet.net.mv.
 fragrance.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 fragrantia.mv.		3600	IN	NS	dns.site5.com.
@@ -1170,6 +1171,7 @@ hazanamaldives.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 hcline.mv.		3600	IN	NS	ns1.bluehost.com.
 hcline.mv.		3600	IN	NS	ns2.bluehost.com.
 hdfc.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
+healthandglow.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 healthcare.mv.		3600	IN	NS	NS1.AFRAID.ORG.
 healthcare.mv.		3600	IN	NS	NS2.AFRAID.ORG.
 healthcare.mv.		3600	IN	NS	NS3.AFRAID.ORG.
@@ -1753,6 +1755,7 @@ mapd.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 mapei.mv.		3600	IN	NS	dns.unh.net.
 mapei.mv.		3600	IN	NS	dns2.unh.net.
 mapei.mv.		3600	IN	NS	dns3.fabbricadigitale.com.
+maps.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 marble.mv.		3600	IN	A	202.1.201.147
 marble.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.marble.mv.		3600	IN	CNAME	marble.mv.
@@ -2494,7 +2497,7 @@ seventeenthsaarcsummit.mv. 3600	IN	NS	NS1.BLUEHOST.COM.
 sez.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 shaan.mv.		3600	IN	NS	ns669.hostgator.com.
 shaan.mv.		3600	IN	NS	ns670.hostgator.com.
-shadycabinrentals.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
+shadycabinrentals.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 shafiu.mv.		3600	IN	NS	ns8195.hostgator.com.
 shafiu.mv.		3600	IN	NS	ns8196.hostgator.com.
 www.shafnan.mv.		3600	IN	CNAME	shafnan.mv.
@@ -2628,6 +2631,7 @@ squix.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 ssm.mv.			3600	IN	NS	ns1.BlueHost.com.
 ssm.mv.			3600	IN	NS	ns2.BlueHost.com.
 stalwartmaldives.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
+start.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 stationery.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 stayislands.mv.		3600	IN	NS	ns8031.hostgator.com.
 stayislands.mv.		3600	IN	NS	ns8032.hostgator.com.
@@ -3103,4 +3107,4 @@ zero.mv.		3600	IN	MX	10 ASPMX5.GOOGLEMAIL.COM.
 svn.zero.mv.		3600	IN	A	202.1.196.178
 www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100302 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100401 1800 1800 3600 3600

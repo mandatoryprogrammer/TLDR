@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100602 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100901 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -857,8 +857,8 @@ ethere.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 ethi.mv.		3600	IN	A	202.1.207.36
 ethi.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.mv.
 www.ethi.mv.		3600	IN	CNAME	ethi.mv.
-etravel.mv.		3600	IN	A	202.1.201.147
 etravel.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
+etravel.mv.		3600	IN	A	202.1.201.147
 etukuri.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 evergreen.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 evermaldives.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
@@ -977,8 +977,7 @@ fortsen.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
 fourcorners.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 fourcorners.mv.		3600	IN	A	202.1.201.147
 www.fourcorners.mv.	3600	IN	CNAME	fourcorners.mv.
-fourdiamonds.mv.	3600	IN	NS	NS1.FOURDIAMONDS.MV.
-fourdiamonds.mv.	3600	IN	NS	NS2.FOURDIAMONDS.MV.
+fourdiamonds.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 fourpals.mv.		3600	IN	NS	host18.dhivehinet.net.mv.
 fragrance.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 fragrantia.mv.		3600	IN	NS	dns.site5.com.
@@ -1048,7 +1047,6 @@ gentro.mv.		3600	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
 gentro.mv.		3600	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
 gentro.mv.		3600	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
 gentro.mv.		3600	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
-geo.mv.			3600	IN	NS	host16.dhivehinet.net.mv.
 geofnb.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 getaways.mv.		3600	IN	NS	ns3303.hostgator.com.
 getaways.mv.		3600	IN	NS	ns3304.hostgator.com.
@@ -1188,8 +1186,8 @@ hei.mv.			3600	IN	NS	dns.site5.com.
 hei.mv.			3600	IN	NS	dns2.site5.com.
 hellobeautiful.mv.	3600	IN	NS	host14.dhivehinet.net.mv.
 help.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-helpdesk.mv.		3600	IN	NS	ns1.hosting.mv.
 helpdesk.mv.		3600	IN	A	202.1.207.34
+helpdesk.mv.		3600	IN	NS	ns1.hosting.mv.
 helpdesk.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.helpdesk.mv.	3600	IN	CNAME	helpdesk.mv.
 heycart.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1276,8 +1274,6 @@ hotels.mv.		3600	IN	NS	ns03.trademarkarea.com.
 hotspot.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 hotsup.mv.		3600	IN	NS	nia.ns.cloudflare.com.
 hotsup.mv.		3600	IN	NS	noel.ns.cloudflare.com.
-houz.mv.		3600	IN	NS	dns1.namecheaphosting.com.
-houz.mv.		3600	IN	NS	dns2.namecheaphosting.com.
 hr.mv.			3600	IN	A	202.1.203.100
 hrs.mv.			3600	IN	NS	1.dnsservers.de.
 hrs.mv.			3600	IN	NS	2.dns-servers.eu.
@@ -1541,6 +1537,8 @@ kettler.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 keyolhu.mv.		3600	IN	NS	ns1.gear.host.
 keyolhu.mv.		3600	IN	NS	ns2.gear.host.
 kickoff.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+kickstart.mv.		3600	IN	NS	dns.site5.com.
+kickstart.mv.		3600	IN	NS	dns2.site5.com.
 kiddietown.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 kite.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 klive.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1560,6 +1558,7 @@ kotari.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 kudabandos.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 kudahuvadhoo.mv.	3600	IN	NS	ns2.0lx.net.
 kudahuvadhoo.mv.	3600	IN	NS	ns1.0lx.net.
+kumpel.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 kumundhoolive.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 kupon.mv.		3600	IN	NS	ns1.crontus.com.
 kupon.mv.		3600	IN	NS	ns2.crontus.com.
@@ -1763,7 +1762,6 @@ mapd.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 mapei.mv.		3600	IN	NS	dns.unh.net.
 mapei.mv.		3600	IN	NS	dns2.unh.net.
 mapei.mv.		3600	IN	NS	dns3.fabbricadigitale.com.
-maps.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 marble.mv.		3600	IN	A	202.1.201.147
 marble.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.marble.mv.		3600	IN	CNAME	marble.mv.
@@ -2125,7 +2123,9 @@ odysseus.mv.		3600	IN	NS	ns3.ottm.co.
 offenders.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 offshore.mv.		3600	IN	NS	ns71.domaincontrol.com.
 offshore.mv.		3600	IN	NS	ns72.domaincontrol.com.
-ohisama.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+ohisama.mv.		3600	IN	NS	ns1.wordpress.com.
+ohisama.mv.		3600	IN	NS	ns2.wordpress.com.
+ohisama.mv.		3600	IN	NS	ns3.wordpress.com.
 oilbiz.mv.		3600	IN	NS	pdns1.registrar-servers.com.
 oilbiz.mv.		3600	IN	NS	pdns2.registrar-servers.com.
 okidz.mv.		3600	IN	NS	ns1.sgp15.siteground.asia.
@@ -2766,13 +2766,13 @@ thelaundry.mv.		3600	IN	NS	ns2.wix.com.
 thescent.mv.		3600	IN	NS	ns1.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns2.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns3.digitalocean.com.
-thesmallmaldivesislandco.mv. 3600 IN	A	166.62.27.145
-thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 thesmallmaldivesislandco.mv. 3600 IN	MX	10 ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX2.GOOGLEMAIL.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX3.GOOGLEMAIL.COM.
+thesmallmaldivesislandco.mv. 3600 IN	A	166.62.27.145
+thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 www.thesmallmaldivesislandco.mv. 3600 IN CNAME	www.tsmic.mv.
 thewarehouse.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 theyworkforyou.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
@@ -3119,4 +3119,4 @@ zero.mv.		3600	IN	MX	10 ASPMX5.GOOGLEMAIL.COM.
 svn.zero.mv.		3600	IN	A	202.1.196.178
 www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100602 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016100901 1800 1800 3600 3600

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016101502 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016101503 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	ns1.iafrica.com.
 to.			86400	IN	NS	colo.to.
@@ -359,6 +359,8 @@ ns2.168sei.to.		86400	IN	A	219.117.201.14
 1n.to.			86400	IN	NS	NS2.ANDURON.COM.
 1nk.to.			86400	IN	NS	mns01.domaincontrol.com.
 1nk.to.			86400	IN	NS	mns02.domaincontrol.com.
+1o.to.			86400	IN	NS	NS.LIQUIDWEB.COM.
+1o.to.			86400	IN	NS	NS1.LIQUIDWEB.COM.
 1p-lsd.to.		86400	IN	NS	ns.checkdomain.de.
 1p-lsd.to.		86400	IN	NS	ns2.checkdomain.de.
 1plsd.to.		86400	IN	NS	emily.ns.cloudflare.com.
@@ -3232,6 +3234,10 @@ audio.to.		86400	IN	NS	ns1.bluehost.com.
 audio.to.		86400	IN	NS	ns2.bluehost.com.
 audiobookbay.to.	86400	IN	NS	ns1.alidns.com.
 audiobookbay.to.	86400	IN	NS	ns2.alidns.com.
+audiobookpirates.to.	86400	IN	NS	NS1.REGISTER.TO.
+audiobookpirates.to.	86400	IN	NS	NS2.REGISTER.TO.
+audiobookpirates.to.	86400	IN	NS	NS3.REGISTER.TO.
+audiobookpirates.to.	86400	IN	NS	NS4.REGISTER.TO.
 augmented-reality.to.	86400	IN	NS	ns1.variomedia.de.
 augmented-reality.to.	86400	IN	NS	ns2.variomedia.de.
 augus.to.		86400	IN	NS	ns1.register.it.
@@ -6527,8 +6533,8 @@ christopher.to.		86400	IN	NS	dns8.register.com.
 chroma.to.		86400	IN	NS	ns1.dreamhost.com.
 chroma.to.		86400	IN	NS	ns2.dreamhost.com.
 chroma.to.		86400	IN	NS	ns3.dreamhost.com.
-chrome.to.		86400	IN	NS	dee.ns.cloudflare.com.
-chrome.to.		86400	IN	NS	gordon.ns.cloudflare.com.
+chrome.to.		86400	IN	NS	ns1.digitalocean.com.
+chrome.to.		86400	IN	NS	ns2.digitalocean.com.
 chrono.to.		86400	IN	NS	DNS01.WEB-HOSTING.NE.JP.
 chrono.to.		86400	IN	NS	DNS02.WEB-HOSTING.NE.JP.
 chrono24.to.		86400	IN	NS	ns9.managed-ip.com.
@@ -8045,9 +8051,9 @@ crypt.to.		86400	IN	NS	thomas.ns.cloudflare.com.
 cryptor.to.		86400	IN	NS	NS1.WORLDWIDEDNS.NET.
 cryptor.to.		86400	IN	NS	NS2.WORLDWIDEDNS.NET.
 cryptor.to.		86400	IN	NS	NS3.WORLDWIDEDNS.NET.
-crystal.to.		86400	IN	NS	ns-388.awsdns-48.com.
-crystal.to.		86400	IN	NS	ns-681.awsdns-21.net.
-crystal.to.		86400	IN	NS	ns-1725.awsdns-23.co.uk.
+crystal.to.		86400	IN	NS	ns1.systemdns.com.
+crystal.to.		86400	IN	NS	ns2.systemdns.com.
+crystal.to.		86400	IN	NS	ns3.systemdns.com.
 crystal-angel.to.	86400	IN	NS	ns1.dns.ne.jp.
 crystal-angel.to.	86400	IN	NS	ns2.dns.ne.jp.
 crz.to.			86400	IN	NS	ns01.trademarkarea.com.
@@ -13277,8 +13283,8 @@ frombob.to.		86400	IN	NS	NS2.DREAMHOST.COM.
 frombob.to.		86400	IN	NS	NS3.DREAMHOST.COM.
 fromzero.to.		86400	IN	NS	ns.twodotone.com.
 fromzero.to.		86400	IN	NS	ns1.nohup.it.
-front.to.		86400	IN	NS	dee.ns.cloudflare.com.
-front.to.		86400	IN	NS	gordon.ns.cloudflare.com.
+front.to.		86400	IN	NS	ns1.digitalocean.com.
+front.to.		86400	IN	NS	ns2.digitalocean.com.
 frontlines.to.		86400	IN	NS	ns1.justhost.com.
 frontlines.to.		86400	IN	NS	ns2.justhost.com.
 froom.to.		86400	IN	NS	ns14.wixdns.net.
@@ -17784,8 +17790,8 @@ ipod.to.		86400	IN	NS	NS2.WEBAQ.COM.
 ipoint.to.		86400	IN	NS	pdns05.domaincontrol.com.
 ipoint.to.		86400	IN	NS	pdns06.domaincontrol.com.
 ipoint.to.		86400	IN	NS	olympus.pointalliance.com.
-ipor.to.		86400	IN	NS	dns1.iporto.com.
-ipor.to.		86400	IN	NS	dns2.iporto.com.
+ipor.to.		86400	IN	NS	ns1.softlayer.com.
+ipor.to.		86400	IN	NS	ns2.softlayer.com.
 ipower.to.		86400	IN	NS	dns5.register.com.
 ipower.to.		86400	IN	NS	dns6.register.com.
 ipowerweb.to.		86400	IN	NS	dns27.register.com.
@@ -25669,9 +25675,9 @@ nrbf.to.		86400	IN	NS	ns1.diginet.to.
 nrbf.to.		86400	IN	NS	ns2.diginet.to.
 nrd.to.			86400	IN	NS	dns1.netmasters.nl.
 nrd.to.			86400	IN	NS	dns2.netmasters.nl.
-ns1.to.			86400	IN	A	84.201.40.72
 ns1.to.			86400	IN	NS	ns1.to.
 ns1.to.			86400	IN	NS	ns2.to.
+ns1.to.			86400	IN	A	84.201.40.72
 ns2.to.			86400	IN	A	5.45.106.138
 ns2.to.			86400	IN	NS	ns1.to.
 ns2.to.			86400	IN	NS	ns2.to.
@@ -27431,10 +27437,8 @@ peed.to.		86400	IN	NS	ns-de.1and1-dns.de.
 peed.to.		86400	IN	NS	ns-de.1and1-dns.biz.
 peed.to.		86400	IN	NS	ns-de.1and1-dns.com.
 peed.to.		86400	IN	NS	ns-de.1and1-dns.org.
-peek.to.		86400	IN	NS	NS1.REGISTER.TO.
-peek.to.		86400	IN	NS	NS2.REGISTER.TO.
-peek.to.		86400	IN	NS	NS3.REGISTER.TO.
-peek.to.		86400	IN	NS	NS4.REGISTER.TO.
+peek.to.		86400	IN	NS	ns57.domaincontrol.com.
+peek.to.		86400	IN	NS	ns58.domaincontrol.com.
 peekin.to.		86400	IN	NS	amy.ns.cloudflare.com.
 peekin.to.		86400	IN	NS	will.ns.cloudflare.com.
 peepin.to.		86400	IN	NS	dns1.stabletransit.com.
@@ -29459,6 +29463,9 @@ puppy.to.		86400	IN	NS	NS1.REGISTER.TO.
 puppy.to.		86400	IN	NS	NS2.REGISTER.TO.
 puppy.to.		86400	IN	NS	NS3.REGISTER.TO.
 puppy.to.		86400	IN	NS	NS4.REGISTER.TO.
+purchase.to.		86400	IN	NS	ns1.101domain.com.
+purchase.to.		86400	IN	NS	ns2.101domain.com.
+purchase.to.		86400	IN	NS	ns5.101domain.com.
 puretec.to.		86400	IN	NS	ns11.schlund.de.
 puretec.to.		86400	IN	NS	ns12.schlund.de.
 purewire.to.		86400	IN	NS	ns1.blazingfast.io.
@@ -32206,6 +32213,10 @@ sea.to.			86400	IN	NS	ns1.dns.ne.jp.
 sea.to.			86400	IN	NS	ns2.dns.ne.jp.
 seagulls.to.		86400	IN	NS	ns1.dns.ne.jp.
 seagulls.to.		86400	IN	NS	ns2.dns.ne.jp.
+sean.to.		86400	IN	NS	NS1.REGISTER.TO.
+sean.to.		86400	IN	NS	NS2.REGISTER.TO.
+sean.to.		86400	IN	NS	NS3.REGISTER.TO.
+sean.to.		86400	IN	NS	NS4.REGISTER.TO.
 seanka.to.		86400	IN	NS	ns1.he.net.
 seanka.to.		86400	IN	NS	ns2.he.net.
 seanka.to.		86400	IN	NS	ns3.he.net.
@@ -39447,6 +39458,8 @@ visa.to.		86400	IN	NS	NS3.REGISTER.TO.
 visa.to.		86400	IN	NS	NS4.REGISTER.TO.
 visas.to.		86400	IN	NS	f1g1ns1.dnspod.net.
 visas.to.		86400	IN	NS	f1g1ns2.dnspod.net.
+visi.to.		86400	IN	NS	NS.LIQUIDWEB.COM.
+visi.to.		86400	IN	NS	NS1.LIQUIDWEB.COM.
 vision.to.		86400	IN	NS	ns10.webreus.net.
 vision.to.		86400	IN	NS	ns11.webreus.net.
 visionary.to.		86400	IN	NS	dns33.register.com.
@@ -42859,4 +42872,4 @@ zz.to.			86400	IN	NS	ns2.sedoparking.com.
 zzz.to.			86400	IN	NS	ns1.value-domain.com.
 zzz.to.			86400	IN	NS	ns2.value-domain.com.
 zzz.to.			86400	IN	NS	ns3.value-domain.com.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016101502 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016101503 43200 7200 2592000 600

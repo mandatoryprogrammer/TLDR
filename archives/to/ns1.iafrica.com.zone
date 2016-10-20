@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016102005 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016102101 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	ns1.iafrica.com.
 to.			86400	IN	NS	colo.to.
@@ -1845,6 +1845,10 @@ aircharter.to.		86400	IN	NS	ns1.instradns.com.
 aircharter.to.		86400	IN	NS	ns2.instradns.com.
 aircharterservice.to.	86400	IN	NS	ns1.instradns.com.
 aircharterservice.to.	86400	IN	NS	ns2.instradns.com.
+aircloud.to.		86400	IN	NS	ns1.aircloud.to.
+aircloud.to.		86400	IN	NS	ns2.aircloud.to.
+ns1.aircloud.to.	86400	IN	A	8.8.8.8
+ns2.aircloud.to.	86400	IN	A	8.8.4.4
 airfare.to.		86400	IN	NS	NS1.REGISTER.TO.
 airfare.to.		86400	IN	NS	NS2.REGISTER.TO.
 airfare.to.		86400	IN	NS	NS3.REGISTER.TO.
@@ -9230,10 +9234,8 @@ dima.to.		86400	IN	NS	ns2.fatcow.com.
 dimentica.to.		86400	IN	NS	ns1.nxs.nl.
 dimentica.to.		86400	IN	NS	ns2.nxs.nl.
 dimentica.to.		86400	IN	NS	ns3.nxs.nl.
-din.to.			86400	IN	NS	NS1.REGISTER.TO.
-din.to.			86400	IN	NS	NS2.REGISTER.TO.
-din.to.			86400	IN	NS	NS3.REGISTER.TO.
-din.to.			86400	IN	NS	NS4.REGISTER.TO.
+din.to.			86400	IN	NS	art.ns.cloudflare.com.
+din.to.			86400	IN	NS	gwen.ns.cloudflare.com.
 dinardo.to.		86400	IN	NS	cust-ns1.primus.ca.
 dinardo.to.		86400	IN	NS	cust-ns2.primus.ca.
 dine.to.		86400	IN	NS	ns-259.awsdns-32.com.
@@ -15861,10 +15863,8 @@ hiv.to.			86400	IN	NS	DNS1.COMSOLTECH.COM.
 hiv.to.			86400	IN	NS	DNS2.COMSOLTECH.COM.
 hive.to.		86400	IN	NS	a.dns.park.io.
 hive.to.		86400	IN	NS	b.dns.park.io.
-hiyoko.to.		86400	IN	NS	ns.gransy.com.
-hiyoko.to.		86400	IN	NS	ns2.gransy.com.
-hiyoko.to.		86400	IN	NS	ns3.gransy.com.
-hiyoko.to.		86400	IN	NS	ns4.gransy.com.
+hiyoko.to.		86400	IN	NS	vita.ns.cloudflare.com.
+hiyoko.to.		86400	IN	NS	jerry.ns.cloudflare.com.
 hj.to.			86400	IN	NS	ns2.heart-s.com.
 hj.to.			86400	IN	NS	black.guru.gr.jp.
 hjalmar.to.		86400	IN	NS	dns1.easydns.com.
@@ -24201,6 +24201,10 @@ musicvideos.to.		86400	IN	NS	ns3.ypdns.com.
 musicvideos.to.		86400	IN	NS	ns4.ypdns.com.
 musicweek.to.		86400	IN	NS	ns1.bluehost.com.
 musicweek.to.		86400	IN	NS	ns2.bluehost.com.
+musix.to.		86400	IN	NS	ns1.netim.net.
+musix.to.		86400	IN	NS	ns2.netim.net.
+musix.to.		86400	IN	NS	ns3.netim.net.
+musix.to.		86400	IN	NS	ns4.netim.net.
 muso.to.		86400	IN	NS	ns1.xserver.jp.
 muso.to.		86400	IN	NS	ns2.xserver.jp.
 muso.to.		86400	IN	NS	ns3.xserver.jp.
@@ -26572,8 +26576,6 @@ orchard.to.		86400	IN	NS	ns1.dns.ne.jp.
 orchard.to.		86400	IN	NS	ns2.dns.ne.jp.
 order.to.		86400	IN	NS	sid.ns.cloudflare.com.
 order.to.		86400	IN	NS	lisa.ns.cloudflare.com.
-ordr.to.		86400	IN	NS	ns2.dondominio.com.
-ordr.to.		86400	IN	NS	ns5.dondominio.com.
 ore.to.			86400	IN	NS	sdc.pingplan.com.
 ore.to.			86400	IN	NS	sakura.i-bow.com.
 oretta.to.		86400	IN	NS	ns3.iwantmyname.net.
@@ -42796,4 +42798,4 @@ zz.to.			86400	IN	NS	ns2.sedoparking.com.
 zzz.to.			86400	IN	NS	ns1.value-domain.com.
 zzz.to.			86400	IN	NS	ns2.value-domain.com.
 zzz.to.			86400	IN	NS	ns3.value-domain.com.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016102005 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016102101 43200 7200 2592000 600

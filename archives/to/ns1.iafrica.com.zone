@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016102801 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016102802 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	ns1.iafrica.com.
 to.			86400	IN	NS	colo.to.
@@ -1410,6 +1410,9 @@ ack.to.			86400	IN	NS	ns1.luadns.net.
 ack.to.			86400	IN	NS	ns2.luadns.net.
 ack.to.			86400	IN	NS	ns3.luadns.net.
 ack.to.			86400	IN	NS	ns4.luadns.net.
+acl.to.			86400	IN	NS	ns1.iwantmyname.net.
+acl.to.			86400	IN	NS	ns2.iwantmyname.net.
+acl.to.			86400	IN	NS	ns3.iwantmyname.net.
 acme.to.		86400	IN	NS	ns0.1984.is.
 acme.to.		86400	IN	NS	ns1.1984.is.
 acme.to.		86400	IN	NS	ns2.1984.is.
@@ -3772,6 +3775,8 @@ bastiancologne.to.	86400	IN	NS	ns55.1und1.de.
 bastiancologne.to.	86400	IN	NS	ns56.1und1.de.
 basul.to.		86400	IN	NS	ns1.dreamhost.com.
 basul.to.		86400	IN	NS	ns2.dreamhost.com.
+bat.to.			86400	IN	NS	a.dns.park.io.
+bat.to.			86400	IN	NS	b.dns.park.io.
 bata.to.		86400	IN	NS	ns1.hans.hosteurope.de.
 bata.to.		86400	IN	NS	ns2.hans.hosteurope.de.
 bath.to.		86400	IN	NS	ns1.routeone.us.
@@ -7045,8 +7050,6 @@ cnect.to.		86400	IN	NS	ns1154.dns.dyn.com.
 cnect.to.		86400	IN	NS	ns2151.dns.dyn.com.
 cnect.to.		86400	IN	NS	ns3182.dns.dyn.com.
 cnect.to.		86400	IN	NS	ns4162.dns.dyn.com.
-cnfgr.to.		86400	IN	NS	ns1.configr.com.
-cnfgr.to.		86400	IN	NS	ns2.configr.com.
 cnhglobal.to.		86400	IN	NS	ns1.tosa.twtelecom.net.
 cnhglobal.to.		86400	IN	NS	ns1.casecorp.com.
 cnl.to.			86400	IN	NS	ns1.billboardtv.com.
@@ -7487,8 +7490,6 @@ confi.to.		86400	IN	NS	ns140.superhosting.bg.
 config.to.		86400	IN	NS	ns1.iwantmyname.net.
 config.to.		86400	IN	NS	ns2.iwantmyname.net.
 config.to.		86400	IN	NS	ns3.iwantmyname.net.
-configr.to.		86400	IN	NS	ns1.configr.com.
-configr.to.		86400	IN	NS	ns2.configr.com.
 confirm.to.		86400	IN	NS	ns.lsb.org.
 confirm.to.		86400	IN	NS	ns0.lsb.org.
 confirm.to.		86400	IN	NS	ns6.lsb.org.
@@ -30711,6 +30712,7 @@ rent.to.		86400	IN	NS	ns1.aitcom.net.
 rent-a-wreck.to.	86400	IN	NS	ns1.bdreg.nl.
 rent-a-wreck.to.	86400	IN	NS	ns2.bdreg.nl.
 rent-a-wreck.to.	86400	IN	NS	ns3.bdreg.nl.
+rental.to.		86400	IN	NS	ns1.type11.com.
 rental-car.to.		86400	IN	NS	ns1.markmonitor.com.
 rental-car.to.		86400	IN	NS	ns2.markmonitor.com.
 rental-car.to.		86400	IN	NS	ns3.markmonitor.com.
@@ -33983,8 +33985,6 @@ speedtest.to.		86400	IN	NS	ns0.dnsmadeeasy.com.
 speedtest.to.		86400	IN	NS	ns1.dnsmadeeasy.com.
 speedtorrent.to.	86400	IN	NS	ed.ns.cloudflare.com.
 speedtorrent.to.	86400	IN	NS	dina.ns.cloudflare.com.
-speedy.to.		86400	IN	NS	ian.ns.cloudflare.com.
-speedy.to.		86400	IN	NS	sofia.ns.cloudflare.com.
 spelltower.to.		86400	IN	NS	ns1.asoshared.com.
 spelltower.to.		86400	IN	NS	ns2.asoshared.com.
 spencer.to.		86400	IN	NS	ns1.hostupon.com.
@@ -35398,8 +35398,6 @@ tackit.to.		86400	IN	NS	ns13.dnsmadeeasy.com.
 tacogroup.to.		86400	IN	NS	NS1.DURABLEDNS.COM.
 tacogroup.to.		86400	IN	NS	NS2.DURABLEDNS.COM.
 tacogroup.to.		86400	IN	NS	NS3.DURABLEDNS.COM.
-tacoma.to.		86400	IN	NS	dns1.yandex.net.
-tacoma.to.		86400	IN	NS	dns2.yandex.net.
 tact.to.		86400	IN	NS	ns1.eurodns.com.
 tact.to.		86400	IN	NS	ns2.eurodns.com.
 tact.to.		86400	IN	NS	ns3.eurodns.com.
@@ -35655,8 +35653,6 @@ tangent.to.		86400	IN	NS	ns2.hexonet.net.
 tangent.to.		86400	IN	NS	ns3.hexonet.net.
 tangledweb.to.		86400	IN	NS	NS1.DOMAINHOST.COM.
 tangledweb.to.		86400	IN	NS	NS2.DOMAINHOST.COM.
-tangram.to.		86400	IN	NS	dns0.heteml.jp.
-tangram.to.		86400	IN	NS	dns1.heteml.jp.
 tania.to.		86400	IN	NS	mns01.domaincontrol.com.
 tania.to.		86400	IN	NS	mns02.domaincontrol.com.
 tanimo.to.		86400	IN	NS	freedns1.registrar-servers.com.
@@ -36355,8 +36351,8 @@ thelink.to.		86400	IN	NS	ns2.hostaway.net.au.
 thelink.to.		86400	IN	NS	ns3.hostaway.net.au.
 thelocalguide.to.	86400	IN	NS	ns3a.secondarydomainnameserver.com.
 thelocalguide.to.	86400	IN	NS	ns4a.primarydomainnameserver.com.
-thelogoshop.to.		86400	IN	NS	ns1.mndi.ca.
-thelogoshop.to.		86400	IN	NS	ns2.mndi.ca.
+thelogoshop.to.		86400	IN	NS	smtp.secureserver.net.
+thelogoshop.to.		86400	IN	NS	mailstore1.secureserver.net.
 theloop.to.		86400	IN	NS	ns1.instradns.com.
 theloop.to.		86400	IN	NS	ns2.instradns.com.
 theme.to.		86400	IN	NS	dns.site5.com.
@@ -42612,9 +42608,6 @@ zipper.to.		86400	IN	NS	ns2.hostnetbv.com.
 zipper.to.		86400	IN	NS	ns3.hostnetbv.nl.
 zis.to.			86400	IN	NS	ns1.case-internet.nl.
 zis.to.			86400	IN	NS	ns2.case-internet.nl.
-ziskaj.to.		86400	IN	NS	ns1.websupport.sk.
-ziskaj.to.		86400	IN	NS	ns2.websupport.sk.
-ziskaj.to.		86400	IN	NS	ns3.websupport.sk.
 zisti.to.		86400	IN	NS	ns1.websupport.sk.
 zisti.to.		86400	IN	NS	ns2.websupport.sk.
 zisti.to.		86400	IN	NS	ns3.websupport.sk.
@@ -42854,4 +42847,4 @@ zz.to.			86400	IN	NS	ns2.sedoparking.com.
 zzz.to.			86400	IN	NS	ns1.value-domain.com.
 zzz.to.			86400	IN	NS	ns2.value-domain.com.
 zzz.to.			86400	IN	NS	ns3.value-domain.com.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016102801 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016102802 43200 7200 2592000 600

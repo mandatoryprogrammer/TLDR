@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016102901 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016103101 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -401,6 +401,7 @@ brandshelter.mv.	3600	IN	NS	ns4.brandshelter.net.
 brandshelter.mv.	3600	IN	NS	ns5.brandshelter.us.
 bridalboutique.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 brigademaldives.mv.	3600	IN	NS	host18.dhivehinet.net.mv.
+bro.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 broad.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 brohoodconstruction.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 brotherscatering.mv.	3600	IN	NS	dns.site5.com.
@@ -602,6 +603,7 @@ coupon.mv.		3600	IN	NS	ns1.dhivehihost.com.
 coupon.mv.		3600	IN	NS	ns2.dhivehihost.com.
 covergreen.mv.		3600	IN	NS	dns.site5.com.
 covergreen.mv.		3600	IN	NS	dns2.site5.com.
+creativetuna.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 crowehorwath.mv.	3600	IN	NS	ns6605.hostgator.com.
 crowehorwath.mv.	3600	IN	NS	ns6606.hostgator.com.
 cruising.mv.		3600	IN	NS	ns3303.hostgator.com.
@@ -1247,15 +1249,32 @@ globe1.hosting.mv.	3600	IN	A	202.1.201.164
 ns1.hosting.mv.		3600	IN	A	202.1.207.20
 hotel.mv.		3600	IN	NS	ns01.trademarkarea.com.
 hotel.mv.		3600	IN	NS	ns02.trademarkarea.com.
-hotel-reservation.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
-hotel-reservation-service.mv. 3600 IN	NS	host13.dhivehinet.net.mv.
+hotel-reservation.mv.	3600	IN	NS	1.dnsservers.de.
+hotel-reservation.mv.	3600	IN	NS	2.dns-servers.eu.
+hotel-reservation.mv.	3600	IN	NS	3.dnsservers.de.
+hotel-reservation.mv.	3600	IN	NS	4.dns-servers.eu.
+hotel-reservation-service.mv. 3600 IN	NS	1.dnsservers.de.
+hotel-reservation-service.mv. 3600 IN	NS	2.dns-servers.eu.
+hotel-reservation-service.mv. 3600 IN	NS	3.dnsservers.de.
+hotel-reservation-service.mv. 3600 IN	NS	4.dns-servers.eu.
 hoteles.mv.		3600	IN	NS	ns01.trademarkarea.com.
 hoteles.mv.		3600	IN	NS	ns02.trademarkarea.com.
 hotelier.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 hoteljen.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-hotelportal.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-hotelreservation.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
-hotelreservationservice.mv. 3600 IN	NS	host13.dhivehinet.net.mv.
+hotelportal.mv.		3600	IN	NS	dnsservers.de.
+hotelportal.mv.		3600	IN	NS	dns-servers.eu.
+hotelportal.mv.		3600	IN	NS	1.dnsservers.de.
+hotelportal.mv.		3600	IN	NS	2.dns-servers.eu.
+hotelportal.mv.		3600	IN	NS	3.dnsservers.de.
+hotelportal.mv.		3600	IN	NS	4.dns-servers.eu.
+hotelreservation.mv.	3600	IN	NS	1.dnsservers.de.
+hotelreservation.mv.	3600	IN	NS	2.dns-servers.eu.
+hotelreservation.mv.	3600	IN	NS	3.dnsservers.de.
+hotelreservation.mv.	3600	IN	NS	4.dns-servers.eu.
+hotelreservationservice.mv. 3600 IN	NS	1.dnsservers.de.
+hotelreservationservice.mv. 3600 IN	NS	2.dns-servers.eu.
+hotelreservationservice.mv. 3600 IN	NS	3.dnsservers.de.
+hotelreservationservice.mv. 3600 IN	NS	4.dns-servers.eu.
 hotels.mv.		3600	IN	NS	ns01.trademarkarea.com.
 hotels.mv.		3600	IN	NS	ns02.trademarkarea.com.
 hotels.mv.		3600	IN	NS	ns03.trademarkarea.com.
@@ -1263,7 +1282,10 @@ hotspot.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 hotsup.mv.		3600	IN	NS	nia.ns.cloudflare.com.
 hotsup.mv.		3600	IN	NS	noel.ns.cloudflare.com.
 hr.mv.			3600	IN	A	202.1.203.100
-hrs.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
+hrs.mv.			3600	IN	NS	1.dnsservers.de.
+hrs.mv.			3600	IN	NS	2.dns-servers.eu.
+hrs.mv.			3600	IN	NS	3.dnsservers.de.
+hrs.mv.			3600	IN	NS	4.dns-servers.eu.
 hulhumale.mv.		3600	IN	NS	ns1.digitalocean.com.
 hulhumale.mv.		3600	IN	NS	ns2.digitalocean.com.
 hulhumale.mv.		3600	IN	NS	ns3.digitalocean.com.
@@ -1418,6 +1440,7 @@ jausaceramiccity.mv.	3600	IN	NS	ns2.bluehost.com.
 jausainvestments.mv.	3600	IN	NS	ns1.bluehost.com.
 jausainvestments.mv.	3600	IN	NS	ns2.bluehost.com.
 jayasteel.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
+jelly.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 jerries.mv.		3600	IN	NS	ns1.mediatemple.net.
 jerries.mv.		3600	IN	NS	ns2.mediatemple.net.
 jezara.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1556,6 +1579,7 @@ laquila.mv.		3600	IN	NS	dns.site5.com.
 laquila.mv.		3600	IN	NS	dns2.site5.com.
 lastminute.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 lava.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+lavish.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 law.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 lawcraft.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 lawyers.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1790,6 +1814,7 @@ medical-swiss.mv.	3600	IN	NS	ns12a.dnsbox.ch.
 medical-swiss.mv.	3600	IN	NS	ns12b.dnsbox.ch.
 medicaltourism.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 medicom.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
+medinvestment.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 medium.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 meemu.mv.		3600	IN	NS	ns1.sgp26.siteground.asia.
 meemu.mv.		3600	IN	NS	ns2.sgp26.siteground.asia.
@@ -2925,6 +2950,7 @@ vayaa.mv.		3600	IN	NS	ns2.maldivesinfo.com.
 vazeefa.mv.		3600	IN	NS	ns1.digitalocean.com.
 vazeefa.mv.		3600	IN	NS	ns2.digitalocean.com.
 vazeefa.mv.		3600	IN	NS	ns3.digitalocean.com.
+vazeefaa.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 vectra.mv.		3600	IN	NS	dns1.namecheaphosting.com.
 vectra.mv.		3600	IN	NS	dns2.namecheaphosting.com.
 veekly.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -3114,4 +3140,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016102901 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016103101 1800 1800 3600 3600

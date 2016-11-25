@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016112505 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016112601 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	ns1.iafrica.com.
 to.			86400	IN	NS	colo.to.
@@ -318,8 +318,8 @@ dns.12345.to.		86400	IN	A	123.204.85.18
 163.to.			86400	IN	NS	DNS2.NAME-SERVICES.COM.
 163.to.			86400	IN	NS	DNS3.NAME-SERVICES.COM.
 163.to.			86400	IN	NS	DNS4.NAME-SERVICES.COM.
-166.to.			86400	IN	NS	f1g1ns1.dnspod.net.
-166.to.			86400	IN	NS	f1g1ns2.dnspod.net.
+166.to.			86400	IN	NS	a.dnspod.com.
+166.to.			86400	IN	NS	b.dnspod.com.
 168.to.			86400	IN	NS	mns01.domaincontrol.com.
 168.to.			86400	IN	NS	mns02.domaincontrol.com.
 1688.to.		86400	IN	NS	ns1.usanameserver.com.
@@ -338,8 +338,8 @@ ns2.168sei.to.		86400	IN	A	219.117.201.14
 1800lawyers.to.		86400	IN	NS	dns16.register.com.
 184tai.to.		86400	IN	NS	ns1.presto-sv.com.
 184tai.to.		86400	IN	NS	ns2.presto-sv.com.
-188.to.			86400	IN	NS	f1g1ns1.dnspod.net.
-188.to.			86400	IN	NS	f1g1ns2.dnspod.net.
+188.to.			86400	IN	NS	a.dnspod.com.
+188.to.			86400	IN	NS	b.dnspod.com.
 1881.to.		86400	IN	NS	ns1.hyp.net.
 1881.to.		86400	IN	NS	ns2.hyp.net.
 1881.to.		86400	IN	NS	ns3.hyp.net.
@@ -26167,7 +26167,6 @@ num.to.			86400	IN	NS	ns2.dns.ne.jp.
 numazu.to.		86400	IN	NS	dns0.heteml.jp.
 numazu.to.		86400	IN	NS	dns1.heteml.jp.
 number.to.		86400	IN	NS	ns1.inquiry.io.
-number.to.		86400	IN	NS	ns2.inquiry.io.
 numeric.to.		86400	IN	NS	ns.labo.numeric.co.jp.
 numeric.to.		86400	IN	NS	ns2.labo.numeric.co.jp.
 numis.to.		86400	IN	NS	NS1.REGISTER.TO.
@@ -35797,6 +35796,10 @@ sze.to.			86400	IN	NS	ns51.domaincontrol.com.
 sze.to.			86400	IN	NS	ns52.domaincontrol.com.
 szene.to.		86400	IN	NS	ns1.variomedia.de.
 szene.to.		86400	IN	NS	ns2.variomedia.de.
+szene-board.to.		86400	IN	NS	a.ns14.net.
+szene-board.to.		86400	IN	NS	b.ns14.net.
+szene-board.to.		86400	IN	NS	c.ns14.net.
+szene-board.to.		86400	IN	NS	d.ns14.net.
 szhow.to.		86400	IN	NS	ns1.anemone.arvixe.com.
 szhow.to.		86400	IN	NS	ns2.anemone.arvixe.com.
 szukaj.to.		86400	IN	NS	81-18-218-195.static.chello.pl.
@@ -39353,8 +39356,8 @@ uslysz.to.		86400	IN	NS	ns12.serwery.pl.
 uslysz.to.		86400	IN	NS	ns13.serwery.pl.
 uspgo.to.		86400	IN	NS	igate.usp.org.
 uspgo.to.		86400	IN	NS	auth111.ns.uu.net.
-ussr.to.		86400	IN	NS	ns1.parkingcrew.net.
-ussr.to.		86400	IN	NS	ns2.parkingcrew.net.
+ussr.to.		86400	IN	NS	dns1.registrar-servers.com.
+ussr.to.		86400	IN	NS	dns2.registrar-servers.com.
 ustw.to.		86400	IN	NS	freedns1.registrar-servers.com.
 ustw.to.		86400	IN	NS	freedns2.registrar-servers.com.
 usw.to.			86400	IN	NS	cbru.br.ns.els-gms.att.net.
@@ -40904,6 +40907,10 @@ wday.to.		86400	IN	NS	ns3.p09.dynect.net.
 wday.to.		86400	IN	NS	ns4.p09.dynect.net.
 wdglink.to.		86400	IN	NS	ns75.domaincontrol.com.
 wdglink.to.		86400	IN	NS	ns76.domaincontrol.com.
+wdr.to.			86400	IN	NS	ns.inwx.de.
+wdr.to.			86400	IN	NS	ns2.inwx.de.
+wdr.to.			86400	IN	NS	ns3.inwx.eu.
+wdr.to.			86400	IN	NS	ns4.inwx.com.
 wds.to.			86400	IN	NS	ns1.iwantmyname.net.
 wds.to.			86400	IN	NS	ns2.iwantmyname.net.
 wds.to.			86400	IN	NS	ns3.iwantmyname.net.
@@ -43505,4 +43512,4 @@ zz.to.			86400	IN	NS	ns2.sedoparking.com.
 zzz.to.			86400	IN	NS	ns1.value-domain.com.
 zzz.to.			86400	IN	NS	ns2.value-domain.com.
 zzz.to.			86400	IN	NS	ns3.value-domain.com.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016112505 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016112601 43200 7200 2592000 600

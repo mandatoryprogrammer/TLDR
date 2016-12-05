@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016120601 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016120602 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	ns1.iafrica.com.
 to.			86400	IN	NS	colo.to.
@@ -107,8 +107,6 @@ ns1.0x.to.		86400	IN	A	192.99.200.17
 10.to.			86400	IN	NS	ns2.dns.ne.jp.
 100.to.			86400	IN	NS	a.dns.park.io.
 100.to.			86400	IN	NS	b.dns.park.io.
-1004.to.		86400	IN	NS	ns.softcan.net.
-1004.to.		86400	IN	NS	ns.newseoul.com.
 101.to.			86400	IN	NS	ns0.dnsmadeeasy.com.
 101.to.			86400	IN	NS	ns1.dnsmadeeasy.com.
 101.to.			86400	IN	NS	ns2.dnsmadeeasy.com.
@@ -1934,9 +1932,8 @@ airplanes.to.		86400	IN	NS	a.dns.park.io.
 airplanes.to.		86400	IN	NS	b.dns.park.io.
 airport.to.		86400	IN	NS	NS1.SEDOPARKING.COM.
 airport.to.		86400	IN	NS	NS2.SEDOPARKING.COM.
-airstream.to.		86400	IN	NS	ns1.digitalocean.com.
-airstream.to.		86400	IN	NS	ns2.digitalocean.com.
-airstream.to.		86400	IN	NS	ns3.digitalocean.com.
+airstream.to.		86400	IN	NS	nitin.ns.cloudflare.com.
+airstream.to.		86400	IN	NS	brenda.ns.cloudflare.com.
 airtaxi.to.		86400	IN	NS	ns.routing.net.
 airtaxi.to.		86400	IN	NS	ns8.routing.net.
 airtaxi.to.		86400	IN	NS	ns9.routing.net.
@@ -2253,8 +2250,8 @@ alpha.to.		86400	IN	NS	DNS1.INTERLAND.NET.
 alpha.to.		86400	IN	NS	DNS2.INTERLAND.NET.
 alpha-vision.to.	86400	IN	NS	ns1.nscoderr.de.
 alpha-vision.to.	86400	IN	NS	ns2.nscoderr.de.
-alphacrypt.to.		86400	IN	NS	ns1.alphacrypt.to.
-ns1.alphacrypt.to.	86400	IN	A	89.187.143.168
+alphacrypt.to.		86400	IN	NS	ns01alpha.alphacrypt.to.
+ns01alpha.alphacrypt.to. 86400	IN	A	69.46.26.39
 alphaomega.to.		86400	IN	NS	ns9.zoneedit.com.
 alphaomega.to.		86400	IN	NS	ns13.zoneedit.com.
 alphavid.to.		86400	IN	NS	ns11.cloudns.net.
@@ -3266,8 +3263,6 @@ atm.to.			86400	IN	NS	NS1.WEBSITEHOSTSERVER.NET.
 atm.to.			86400	IN	NS	NS2.WEBSITEHOSTSERVER.NET.
 atmosphere.to.		86400	IN	NS	ns1.digitaldays.net.
 atmosphere.to.		86400	IN	NS	ns2.digitaldays.net.
-ato.to.			86400	IN	NS	f1g1ns1.dnspod.net.
-ato.to.			86400	IN	NS	f1g1ns2.dnspod.net.
 atol.to.		86400	IN	NS	ns1.101domain.com.
 atol.to.		86400	IN	NS	ns2.101domain.com.
 atol.to.		86400	IN	NS	ns5.101domain.com.
@@ -7776,8 +7771,6 @@ coos.to.		86400	IN	NS	ns1.wise-guys.nl.
 coos.to.		86400	IN	NS	ns2.wise-guys.nl.
 copeland.to.		86400	IN	NS	emma.ns.cloudflare.com.
 copeland.to.		86400	IN	NS	norm.ns.cloudflare.com.
-copho.to.		86400	IN	NS	MNS01.DOMAINCONTROL.COM.
-copho.to.		86400	IN	NS	MNS02.DOMAINCONTROL.COM.
 copy.to.		86400	IN	NS	dns1.stabletransit.com.
 copy.to.		86400	IN	NS	dns2.stabletransit.com.
 copyright.to.		86400	IN	NS	DNS1.COMSOLTECH.COM.
@@ -8094,8 +8087,6 @@ crichq.to.		86400	IN	NS	ns-58.awsdns-07.com.
 crichq.to.		86400	IN	NS	ns-984.awsdns-59.net.
 crichq.to.		86400	IN	NS	ns-1426.awsdns-50.org.
 crichq.to.		86400	IN	NS	ns-1883.awsdns-43.co.uk.
-crictime.to.		86400	IN	NS	ns1.crictime.co.
-crictime.to.		86400	IN	NS	ns2.crictime.co.
 crimazon.to.		86400	IN	NS	ns.udag.de.
 crimazon.to.		86400	IN	NS	ns.udag.net.
 crimazon.to.		86400	IN	NS	ns.udag.org.
@@ -8980,8 +8971,6 @@ delvein.to.		86400	IN	NS	ns-1278.awsdns-31.org.
 delvein.to.		86400	IN	NS	ns-2019.awsdns-60.co.uk.
 demers.to.		86400	IN	NS	ns1.mailbank.com.
 demers.to.		86400	IN	NS	ns2.mailbank.com.
-demo.to.		86400	IN	NS	mns01.domaincontrol.com.
-demo.to.		86400	IN	NS	mns02.domaincontrol.com.
 democrat.to.		86400	IN	NS	a.dns.park.io.
 democrat.to.		86400	IN	NS	b.dns.park.io.
 democrats.to.		86400	IN	NS	a.dns.park.io.
@@ -9160,6 +9149,9 @@ develop.to.		86400	IN	NS	eric.ns.cloudflare.com.
 developer.to.		86400	IN	NS	ns.ch-meta.net.
 developer.to.		86400	IN	NS	ns2.ch-meta.net.
 developer.to.		86400	IN	NS	ns3.ch-meta.net.
+developers.to.		86400	IN	NS	dns.home.pl.
+developers.to.		86400	IN	NS	dns2.home.pl.
+developers.to.		86400	IN	NS	dns3.home.pl.
 development.to.		86400	IN	NS	NS1.REGISTER.TO.
 development.to.		86400	IN	NS	NS2.REGISTER.TO.
 development.to.		86400	IN	NS	NS3.REGISTER.TO.
@@ -10834,6 +10826,9 @@ edwards.to.		86400	IN	NS	ns1.changeip.com.
 edwards.to.		86400	IN	NS	ns2.changeip.com.
 edwards.to.		86400	IN	NS	ns3.changeip.com.
 edwards.to.		86400	IN	NS	ns4.changeip.com.
+edwardslaw.to.		86400	IN	NS	ns1.openhost.net.nz.
+edwardslaw.to.		86400	IN	NS	ns2.openhost.net.nz.
+edwardslaw.to.		86400	IN	NS	ns3.openhost.net.nz.
 ee.to.			86400	IN	NS	ns7.dnszi.com.
 ee.to.			86400	IN	NS	ns16.dnszi.com.
 ee.to.			86400	IN	NS	ns55.dnszi.com.
@@ -10895,6 +10890,8 @@ eggplant.to.		86400	IN	NS	emma.ns.cloudflare.com.
 eggplant.to.		86400	IN	NS	phil.ns.cloudflare.com.
 eglobal.to.		86400	IN	NS	dns15.register.com.
 eglobal.to.		86400	IN	NS	dns16.register.com.
+ego.to.			86400	IN	NS	ns1.egopolis.com.
+ego.to.			86400	IN	NS	ns2.egopolis.com.
 egold.to.		86400	IN	NS	NS1.REGISTER.TO.
 egold.to.		86400	IN	NS	NS2.REGISTER.TO.
 egold.to.		86400	IN	NS	NS3.REGISTER.TO.
@@ -12582,8 +12579,6 @@ filetransfer.to.	86400	IN	NS	pns.dtag.de.
 filetransfer.to.	86400	IN	NS	secondary007.dtag.net.
 filetube.to.		86400	IN	NS	ns1.above.com.
 filetube.to.		86400	IN	NS	ns2.above.com.
-filez.to.		86400	IN	NS	lia.ns.cloudflare.com.
-filez.to.		86400	IN	NS	lakas.ns.cloudflare.com.
 fili.to.		86400	IN	NS	ns1.messagingengine.com.
 fili.to.		86400	IN	NS	ns2.messagingengine.com.
 filipe.to.		86400	IN	NS	ns1.he.net.
@@ -12990,6 +12985,10 @@ flyjet.to.		86400	IN	NS	ns1.p08.dynect.net.
 flyjet.to.		86400	IN	NS	ns2.p08.dynect.net.
 flyjet.to.		86400	IN	NS	ns3.p08.dynect.net.
 flyjet.to.		86400	IN	NS	ns4.p08.dynect.net.
+flyme.to.		86400	IN	NS	ns-378.awsdns-47.com.
+flyme.to.		86400	IN	NS	ns-855.awsdns-42.net.
+flyme.to.		86400	IN	NS	ns-1371.awsdns-43.org.
+flyme.to.		86400	IN	NS	ns-2019.awsdns-60.co.uk.
 flynow.to.		86400	IN	NS	ns1.dreamhost.com.
 flynow.to.		86400	IN	NS	ns2.dreamhost.com.
 flynow.to.		86400	IN	NS	ns3.dreamhost.com.
@@ -14975,10 +14974,6 @@ graffi.to.		86400	IN	NS	ns1.asmallorange.com.
 graffi.to.		86400	IN	NS	ns2.asmallorange.com.
 graffiti.to.		86400	IN	NS	ns.checkdomain.de.
 graffiti.to.		86400	IN	NS	ns2.checkdomain.de.
-graffo.to.		86400	IN	NS	NS1.REGISTER.TO.
-graffo.to.		86400	IN	NS	NS2.REGISTER.TO.
-graffo.to.		86400	IN	NS	NS3.REGISTER.TO.
-graffo.to.		86400	IN	NS	NS4.REGISTER.TO.
 graglia.to.		86400	IN	NS	dns1.gurucube.com.
 graglia.to.		86400	IN	NS	dns2.gurucube.com.
 graj.to.		86400	IN	NS	dns1.domeny.tv.
@@ -19174,6 +19169,9 @@ justpoint.to.		86400	IN	NS	dns4.register.com.
 justporn.to.		86400	IN	NS	jerry.ns.cloudflare.com.
 justporn.to.		86400	IN	NS	dorthy.ns.cloudflare.com.
 justtalk.to.		86400	IN	NS	ns1.escaux.com.
+justwalkin.to.		86400	IN	NS	nsgbr.comlaude.co.uk.
+justwalkin.to.		86400	IN	NS	nssui.comlaude.ch.
+justwalkin.to.		86400	IN	NS	nsusa.comlaude.net.
 juus.to.		86400	IN	NS	ns1.onlydomains.com.
 juus.to.		86400	IN	NS	ns2.onlydomains.com.
 juva.to.		86400	IN	NS	ns.checkdomain.de.
@@ -19185,6 +19183,9 @@ jw.to.			86400	IN	NS	ns-1347.awsdns-40.org.
 jw.to.			86400	IN	NS	ns-1585.awsdns-06.co.uk.
 jwl.to.			86400	IN	NS	NS.INMOTIONHOSTING.COM.
 jwl.to.			86400	IN	NS	NS2.INMOTIONHOSTING.COM.
+jwo.to.			86400	IN	NS	nsgbr.comlaude.co.uk.
+jwo.to.			86400	IN	NS	nssui.comlaude.ch.
+jwo.to.			86400	IN	NS	nsusa.comlaude.net.
 jwt.to.			86400	IN	NS	ns1.dns.ne.jp.
 jwt.to.			86400	IN	NS	ns2.dns.ne.jp.
 jyoti.to.		86400	IN	NS	ns1.tastechnologies.net.
@@ -19432,6 +19433,8 @@ karbon.to.		86400	IN	NS	NS3.AFRAID.ORG.
 karbon.to.		86400	IN	NS	NS4.AFRAID.ORG.
 karcr.to.		86400	IN	NS	ns1.above.com.
 karcr.to.		86400	IN	NS	ns2.above.com.
+kard.to.		86400	IN	NS	june.ns.cloudflare.com.
+kard.to.		86400	IN	NS	todd.ns.cloudflare.com.
 kare.to.		86400	IN	NS	ns1.dns.ne.jp.
 kare.to.		86400	IN	NS	ns1.maihama-net.com.
 kare.to.		86400	IN	NS	ns2.dns.ne.jp.
@@ -22415,8 +22418,6 @@ malta.to.		86400	IN	NS	ns.forpsi.net.
 maluj.to.		86400	IN	NS	dns.home.pl.
 maluj.to.		86400	IN	NS	dns2.home.pl.
 maluj.to.		86400	IN	NS	dns3.home.pl.
-mam.to.			86400	IN	NS	ns1.sedoparking.com.
-mam.to.			86400	IN	NS	ns2.sedoparking.com.
 mama.to.		86400	IN	NS	ns.gedo.net.
 mama.to.		86400	IN	NS	ns.herowada.com.
 mamago.to.		86400	IN	NS	dns.macart.co.jp.
@@ -23319,8 +23320,6 @@ mi-gaku.to.		86400	IN	NS	NS0.KAGOYA.NET.
 mi-gaku.to.		86400	IN	NS	NS1.KAGOYA.NET.
 mia.to.			86400	IN	NS	ray.ns.cloudflare.com.
 mia.to.			86400	IN	NS	lisa.ns.cloudflare.com.
-miami.to.		86400	IN	NS	NS1.CARPATHIAHOST.NET.
-miami.to.		86400	IN	NS	NS2.CARPATHIAHOST.NET.
 miao.to.		86400	IN	NS	f1g1ns1.dnspod.net.
 miao.to.		86400	IN	NS	f1g1ns2.dnspod.net.
 mias.to.		86400	IN	NS	ns1.futurehost.pl.
@@ -24727,9 +24726,6 @@ muuv.to.		86400	IN	NS	NS3.REGISTER.TO.
 muuv.to.		86400	IN	NS	NS4.REGISTER.TO.
 muvi.to.		86400	IN	NS	ns1.parkingcrew.net.
 muvi.to.		86400	IN	NS	ns2.parkingcrew.net.
-muvu.to.		86400	IN	NS	ns1.dreamhost.com.
-muvu.to.		86400	IN	NS	ns2.dreamhost.com.
-muvu.to.		86400	IN	NS	ns3.dreamhost.com.
 muze.to.		86400	IN	NS	ns1.iwantmyname.net.
 muze.to.		86400	IN	NS	ns2.iwantmyname.net.
 muze.to.		86400	IN	NS	ns3.iwantmyname.net.
@@ -29530,8 +29526,6 @@ printin.to.		86400	IN	NS	ns-1444.awsdns-52.org.
 printin.to.		86400	IN	NS	ns-1650.awsdns-14.co.uk.
 printingsystems.to.	86400	IN	NS	dns13.register.com.
 printingsystems.to.	86400	IN	NS	dns14.register.com.
-prints.to.		86400	IN	NS	dns1.namecheaphosting.com.
-prints.to.		86400	IN	NS	dns2.namecheaphosting.com.
 prior.to.		86400	IN	NS	ns1.mit3.it.
 prior.to.		86400	IN	NS	ns2.mit3.it.
 prior.to.		86400	IN	NS	ns3.mit3.it.
@@ -37700,8 +37694,6 @@ toner.to.		86400	IN	NS	ns3.inwx.eu.
 toner.to.		86400	IN	NS	ns4.inwx.com.
 tonetalk.to.		86400	IN	NS	uns01.lolipop.jp.
 tonetalk.to.		86400	IN	NS	uns02.lolipop.jp.
-tong.to.		86400	IN	NS	f1g1ns1.dnspod.net.
-tong.to.		86400	IN	NS	f1g1ns2.dnspod.net.
 tonga.to.		86400	IN	NS	ns0.dnsmadeeasy.com.
 tonga.to.		86400	IN	NS	ns1.dnsmadeeasy.com.
 tonga-energy.to.	86400	IN	NS	ns79.mdwebhosting.com.au.
@@ -38165,8 +38157,6 @@ tpj.to.			86400	IN	NS	DNS2.FUKUICOMPU.CO.JP.
 tpl.to.			86400	IN	NS	ns01.trademarkarea.com.
 tpl.to.			86400	IN	NS	ns02.trademarkarea.com.
 tpl.to.			86400	IN	NS	ns03.trademarkarea.com.
-tplf.to.		86400	IN	NS	tplf.to.
-tplf.to.		86400	IN	A	69.58.188.49
 tppa.to.		86400	IN	NS	rush.easydns.com.
 tppa.to.		86400	IN	NS	nirvana.easydns.net.
 tppa.to.		86400	IN	NS	motorhead.easydns.org.
@@ -39869,9 +39859,6 @@ venus.to.		86400	IN	NS	ns2.xname.org.
 ns1.venus.to.		86400	IN	A	61.206.112.77
 veo.to.			86400	IN	NS	ns71.domaincontrol.com.
 veo.to.			86400	IN	NS	ns72.domaincontrol.com.
-verb.to.		86400	IN	NS	ns1.dreamhost.com.
-verb.to.		86400	IN	NS	ns2.dreamhost.com.
-verb.to.		86400	IN	NS	ns3.dreamhost.com.
 verboten.to.		86400	IN	NS	ns0.xname.org.
 verboten.to.		86400	IN	NS	ns1.xname.org.
 verboten.to.		86400	IN	NS	ns1.first-ns.de.
@@ -40220,6 +40207,8 @@ visit.to.		86400	IN	NS	ns10.dnsmadeeasy.com.
 visit.to.		86400	IN	NS	ns11.dnsmadeeasy.com.
 visit.to.		86400	IN	NS	ns12.dnsmadeeasy.com.
 visit.to.		86400	IN	NS	ns13.dnsmadeeasy.com.
+visitor.to.		86400	IN	NS	a.dns.park.io.
+visitor.to.		86400	IN	NS	b.dns.park.io.
 visitors.to.		86400	IN	NS	ns2629.hostgator.com.
 visitors.to.		86400	IN	NS	ns2630.hostgator.com.
 visitstayenjoy.to.	86400	IN	NS	NS1.REGISTER.TO.
@@ -43065,6 +43054,8 @@ ysa.to.			86400	IN	NS	ns2.datapro.co.za.
 ysa.to.			86400	IN	NS	ns3.datapro.co.za.
 yts.to.			86400	IN	NS	ns1.films.org.
 yts.to.			86400	IN	NS	ns2.films.org.
+ytt.to.			86400	IN	NS	ns1.dot.net.lc.
+ytt.to.			86400	IN	NS	ns2.dot.net.lc.
 ytube.to.		86400	IN	NS	ns1.iboundhost.com.
 ytube.to.		86400	IN	NS	ns2.iboundhost.com.
 yu.to.			86400	IN	NS	a.djp.jp.
@@ -43703,4 +43694,4 @@ zyxel.to.		86400	IN	NS	ns-1214.awsdns-23.org.
 zyxel.to.		86400	IN	NS	ns-1661.awsdns-15.co.uk.
 zz.to.			86400	IN	NS	ns1.sedoparking.com.
 zz.to.			86400	IN	NS	ns2.sedoparking.com.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016120601 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016120602 43200 7200 2592000 600

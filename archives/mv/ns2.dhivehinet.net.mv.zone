@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016120902 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016121101 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -44,7 +44,8 @@ aafathis.mv.		3600	IN	NS	ns1.ipage.com.
 aafathis.mv.		3600	IN	NS	ns2.ipage.com.
 aagalaa.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 aaileedoctor.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
-aalam.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+aalam.mv.		3600	IN	NS	NS1.SGP15.SITEGROUND.ASIA.
+aalam.mv.		3600	IN	NS	NS2.SGP15.SITEGROUND.ASIA.
 aasandha.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 abb.mv.			3600	IN	NS	nse1.abb.com.
 abb.mv.			3600	IN	NS	nse2.abb.com.
@@ -57,9 +58,9 @@ ac.mv.			3600	IN	A	202.1.203.100
 acco.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 accord.mv.		3600	IN	NS	ns100.whbdns.com.
 accord.mv.		3600	IN	NS	ns101.whbdns.com.
-aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 aceaviation.mv.		3600	IN	MX	10 mx1.emailsrvr.com.
 aceaviation.mv.		3600	IN	MX	20 mx2.emailsrvr.com.
+aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 k1._domainkey.aceaviation.mv. 3600 IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUNCaeAxrpJzLqHr/OdSl55nbwxLTtvpmBX4UReuwXaO++Uf8DAr4cujaShtzqTzokYZz6jnpY4jGYQktUV+q4azEWkIJbnaeGQRnrgntLLMBtW0DDOZ1obgo5qQehGphguTNS4/AXp0xanI11kuTKfQuShlLFFCMZPwRfiPYCLQIDAQAB"
 email.aceaviation.mv.	3600	IN	CNAME	mailgun.org.
 acetravels.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -563,6 +564,8 @@ cnm.mv.			3600	IN	NS	fiona.ns.cloudflare.com.
 cnn.mv.			3600	IN	CNAME	cnn.com.mv.
 www.cnn.mv.		3600	IN	CNAME	www.cnn.mv.
 coaxpro.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+coaxpro.mv.		3600	IN	NS	pdns07.domaincontrol.com.
+coaxpro.mv.		3600	IN	NS	pdns08.domaincontrol.com.
 codefish.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 codered.mv.		3600	IN	NS	ns1.bluehost.com.
 codered.mv.		3600	IN	NS	ns2.bluehost.com.
@@ -1127,6 +1130,7 @@ glx.mv.			3600	IN	NS	ns03.trademarkarea.com.
 gmail.mv.		3600	IN	NS	ns1.markmonitor.com.
 gmail.mv.		3600	IN	NS	ns3.markmonitor.com.
 gmsm.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
+goal.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 goathi.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 goeasy.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 goldbar.mv.		3600	IN	NS	ns1.bluehost.com.
@@ -1447,6 +1451,8 @@ islandfarm.mv.		3600	IN	NS	ns2.grouse.arvixe.com.
 islandhomes.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 islandmaldives.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 islandspirit.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
+islandtravel.mv.	3600	IN	NS	dns1.namecheaphosting.com.
+islandtravel.mv.	3600	IN	NS	dns2.namecheaphosting.com.
 islandtv.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 islandway.mv.		3600	IN	NS	ns65.domaincontrol.com.
 islandway.mv.		3600	IN	NS	ns66.domaincontrol.com.
@@ -2378,6 +2384,7 @@ purebliss.mv.		3600	IN	NS	ns491.hostgator.com.
 purebliss.mv.		3600	IN	NS	ns492.hostgator.com.
 qatarairways.mv.	3600	IN	NS	ns1.101domain.com.
 qatarairways.mv.	3600	IN	NS	ns2.101domain.com.
+qcs.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 qlab.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 qmed.mv.		3600	IN	NS	ns6387.hostgator.com.
 qmed.mv.		3600	IN	NS	ns6388.hostgator.com.
@@ -2570,8 +2577,7 @@ shadycabinrentals.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 shafiu.mv.		3600	IN	NS	ns8195.hostgator.com.
 shafiu.mv.		3600	IN	NS	ns8196.hostgator.com.
 www.shafnan.mv.		3600	IN	CNAME	shafnan.mv.
-shammoon.mv.		3600	IN	NS	ns1.webhostingpad.com.
-shammoon.mv.		3600	IN	NS	ns2.webhostingpad.com.
+shamoon.mv.		3600	IN	NS	ns1.webhostingpad.com.
 shan.mv.		3600	IN	NS	ns1.bluehost.com.
 shan.mv.		3600	IN	NS	ns2.bluehost.com.
 sharan.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -3004,6 +3010,9 @@ vamgroup.mv.		3600	IN	NS	ns1.hostmonster.com.
 vamgroup.mv.		3600	IN	NS	ns2.hostmonster.com.
 vayaa.mv.		3600	IN	NS	ns1.maldivesinfo.com.
 vayaa.mv.		3600	IN	NS	ns2.maldivesinfo.com.
+vazeefa.mv.		3600	IN	NS	ns1.digitalocean.com.
+vazeefa.mv.		3600	IN	NS	ns2.digitalocean.com.
+vazeefa.mv.		3600	IN	NS	ns3.digitalocean.com.
 vazeefaa.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 vectra.mv.		3600	IN	NS	dns1.namecheaphosting.com.
 vectra.mv.		3600	IN	NS	dns2.namecheaphosting.com.
@@ -3198,4 +3207,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016120902 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2016121101 1800 1800 3600 3600

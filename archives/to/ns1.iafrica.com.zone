@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016121402 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016121403 43200 7200 2592000 600
 to.			86400	IN	A	216.74.32.107
 to.			86400	IN	NS	ns1.iafrica.com.
 to.			86400	IN	NS	colo.to.
@@ -931,6 +931,9 @@ ns.55web.to.		86400	IN	A	220.110.208.58
 6x.to.			86400	IN	NS	ns2.parkingcrew.net.
 6xy.to.			86400	IN	NS	ns1.55s.de.
 6xy.to.			86400	IN	NS	ns2.55s.de.
+6z.to.			86400	IN	NS	ns.udag.de.
+6z.to.			86400	IN	NS	ns.udag.net.
+6z.to.			86400	IN	NS	ns.udag.org.
 7.to.			86400	IN	NS	ns1.dreamhost.com.
 7.to.			86400	IN	NS	ns2.dreamhost.com.
 7.to.			86400	IN	NS	ns3.dreamhost.com.
@@ -6182,14 +6185,8 @@ cekni.to.		86400	IN	NS	NS1.REGISTER.TO.
 cekni.to.		86400	IN	NS	NS2.REGISTER.TO.
 cekni.to.		86400	IN	NS	NS3.REGISTER.TO.
 cekni.to.		86400	IN	NS	NS4.REGISTER.TO.
-celeb.to.		86400	IN	NS	ns1.celeb.to.
-celeb.to.		86400	IN	NS	ns2.celeb.to.
-celeb.to.		86400	IN	NS	ns3.celeb.to.
-celeb.to.		86400	IN	NS	ns4.celeb.to.
-ns1.celeb.to.		86400	IN	A	80.81.254.129
-ns2.celeb.to.		86400	IN	A	94.23.55.26
-ns3.celeb.to.		86400	IN	A	83.169.47.130
-ns4.celeb.to.		86400	IN	A	78.47.60.236
+celeb.to.		86400	IN	NS	nash.ns.cloudflare.com.
+celeb.to.		86400	IN	NS	maria.ns.cloudflare.com.
 celebforum.to.		86400	IN	NS	ns1.celeb.to.
 celebforum.to.		86400	IN	NS	ns2.celeb.to.
 celebforum.to.		86400	IN	NS	ns3.celeb.to.
@@ -7387,6 +7384,8 @@ vetclinic.com.to.	86400	IN	NS	ns12.dnsmadeeasy.com.
 vetclinic.com.to.	86400	IN	NS	ns13.dnsmadeeasy.com.
 vetclinic.com.to.	86400	IN	NS	ns14.dnsmadeeasy.com.
 vetclinic.com.to.	86400	IN	NS	ns15.dnsmadeeasy.com.
+com-trip.to.		86400	IN	NS	ns9.registrar.am.
+com-trip.to.		86400	IN	NS	ns10.registrar.am.
 comai.to.		86400	IN	NS	ns.mil.itgate.net.
 comai.to.		86400	IN	NS	ns.trn.itgate.net.
 comano.to.		86400	IN	NS	dns.kumbe.it.
@@ -26210,6 +26209,9 @@ nowgo.to.		86400	IN	NS	ns3.dnssecure.ch.
 nowgo.to.		86400	IN	NS	ns4.dnssecure.ch.
 nowhere.to.		86400	IN	NS	ns65.1und1.de.
 nowhere.to.		86400	IN	NS	ns66.1und1.de.
+nowlistening.to.	86400	IN	NS	NS1.101DOMAIN.COM.
+nowlistening.to.	86400	IN	NS	NS2.101DOMAIN.COM.
+nowlistening.to.	86400	IN	NS	NS5.101DOMAIN.COM.
 nowvideo.to.		86400	IN	NS	ns1.dns191.net.
 nowvideo.to.		86400	IN	NS	ns2.dns191.net.
 nowvideo.to.		86400	IN	NS	ns3.dns191.net.
@@ -29133,8 +29135,8 @@ pornokino.to.		86400	IN	NS	ns1.parkingcrew.net.
 pornokino.to.		86400	IN	NS	ns2.parkingcrew.net.
 pornostube.to.		86400	IN	NS	ns1.parkingcrew.net.
 pornostube.to.		86400	IN	NS	ns2.parkingcrew.net.
-pornox.to.		86400	IN	NS	tim.ns.cloudflare.com.
-pornox.to.		86400	IN	NS	amanda.ns.cloudflare.com.
+pornox.to.		86400	IN	NS	ian.ns.cloudflare.com.
+pornox.to.		86400	IN	NS	tori.ns.cloudflare.com.
 pornplay.to.		86400	IN	NS	ns1.above.com.
 pornplay.to.		86400	IN	NS	ns2.above.com.
 pornsearch.to.		86400	IN	NS	ns1.above.com.
@@ -31157,6 +31159,10 @@ registrarto.to.		86400	IN	NS	NS1.REGISTER.TO.
 registrarto.to.		86400	IN	NS	NS2.REGISTER.TO.
 registrarto.to.		86400	IN	NS	NS3.REGISTER.TO.
 registrarto.to.		86400	IN	NS	NS4.REGISTER.TO.
+registration.to.	86400	IN	NS	NS1.REGISTER.TO.
+registration.to.	86400	IN	NS	NS2.REGISTER.TO.
+registration.to.	86400	IN	NS	NS3.REGISTER.TO.
+registration.to.	86400	IN	NS	NS4.REGISTER.TO.
 registreren.to.		86400	IN	NS	ns1.uniserver.nl.
 registreren.to.		86400	IN	NS	ns2.uniserver.nl.
 registreren.to.		86400	IN	NS	ns3.uniserver.nl.
@@ -31601,6 +31607,10 @@ rh.to.			86400	IN	NS	ns1.elfde.com.
 rh.to.			86400	IN	NS	ns2.elfde.com.
 rhc.to.			86400	IN	NS	dns1.namecheaphosting.com.
 rhc.to.			86400	IN	NS	dns2.namecheaphosting.com.
+rhost.to.		86400	IN	NS	NS1.REGISTER.TO.
+rhost.to.		86400	IN	NS	NS2.REGISTER.TO.
+rhost.to.		86400	IN	NS	NS3.REGISTER.TO.
+rhost.to.		86400	IN	NS	NS4.REGISTER.TO.
 rhs.to.			86400	IN	NS	ns1.dnsimple.com.
 rhs.to.			86400	IN	NS	ns2.dnsimple.com.
 rhs.to.			86400	IN	NS	ns3.dnsimple.com.
@@ -32992,6 +33002,8 @@ selec.to.		86400	IN	NS	jean.ns.cloudflare.com.
 selec.to.		86400	IN	NS	norman.ns.cloudflare.com.
 select.to.		86400	IN	NS	a.dns.park.io.
 select.to.		86400	IN	NS	b.dns.park.io.
+selected.to.		86400	IN	NS	dns.interscholz.de.
+selected.to.		86400	IN	NS	dns.interscholz.net.
 selekainternational.to.	86400	IN	NS	ns1.pasifikahosting.com.
 selekainternational.to.	86400	IN	NS	ns2.pasifikahosting.com.
 selekainternational.to.	86400	IN	NS	ns3.pasifikahosting.com.
@@ -43780,4 +43792,4 @@ zz.to.			86400	IN	NS	ns1.sedoparking.com.
 zz.to.			86400	IN	NS	ns2.sedoparking.com.
 zzy.to.			86400	IN	NS	ns1.he.net.
 zzy.to.			86400	IN	NS	ns2.he.net.
-to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016121402 43200 7200 2592000 600
+to.			86400	IN	SOA	tonic.to. hostmaster.tonic.to. 2016121403 43200 7200 2592000 600

@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR bi. @ns1.nic.bi. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2016121408 21600 3600 604800 86400
-bi.			86400	IN	TXT	"Generation Time: 1481695802"
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2016121412 21600 3600 604800 86400
+bi.			86400	IN	TXT	"Generation Time: 1481710204"
 bi.			86400	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			86400	IN	NS	ns.nic.bi.
 bi.			86400	IN	NS	ns1.nic.bi.
@@ -95,8 +95,8 @@ bi.			86400	IN	NS	ns-bi.afrinic.net.
 1314.bi.		86400	IN	NS	f1g1ns2.dnspod.net.
 133.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 133.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
-136.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
-136.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
+136.bi.			86400	IN	NS	ns1.dns.com.
+136.bi.			86400	IN	NS	ns2.dns.com.
 138.bi.			86400	IN	NS	sid.ns.cloudflare.com.
 138.bi.			86400	IN	NS	athena.ns.cloudflare.com.
 139.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -506,8 +506,8 @@ bi.			86400	IN	NS	ns-bi.afrinic.net.
 79.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 799.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 799.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
-80.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
-80.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
+80.bi.			86400	IN	NS	ns1.dns.com.
+80.bi.			86400	IN	NS	ns2.dns.com.
 800.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 800.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 808.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -1438,10 +1438,6 @@ celebrex.bi.		86400	IN	NS	ns1.pfizer.com.
 celebrex.bi.		86400	IN	NS	ns2.pfizer.com.
 celebrex.bi.		86400	IN	NS	ns3.pfizer.com.
 celebrex.bi.		86400	IN	NS	ns4.pfizer.com.
-celon.bi.		86400	IN	NS	ns1.swisscenter.com.
-celon.bi.		86400	IN	NS	ns2.swisscenter.com.
-celon.bi.		86400	IN	NS	ns3.swisscenter.com.
-celon.bi.		86400	IN	NS	ns4.swisscenter.com.
 cenap.bi.		86400	IN	NS	ns1.ihostke.com.
 cenap.bi.		86400	IN	NS	ns2.ihostke.com.
 ceniburundi.bi.		86400	IN	NS	ns.second-ns.com.
@@ -1869,6 +1865,8 @@ dropbox.bi.		86400	IN	NS	ns1.markmonitor.com.
 dropbox.bi.		86400	IN	NS	ns2.markmonitor.com.
 dropbox.bi.		86400	IN	NS	ns3.markmonitor.com.
 dropbox.bi.		86400	IN	NS	ns4.markmonitor.com.
+ds.bi.			86400	IN	NS	ns1.alidns.com.
+ds.bi.			86400	IN	NS	ns2.alidns.com.
 dsnis-minisante.bi.	86400	IN	NS	ns1.afriregister.co.ke.
 dsnis-minisante.bi.	86400	IN	NS	ns2.afriregister.co.ke.
 dstvondemand.bi.	86400	IN	NS	ns1.mweb.co.za.
@@ -2180,8 +2178,6 @@ foxy.bi.		86400	IN	NS	ns-376.awsdns-47.com.
 foxy.bi.		86400	IN	NS	ns-605.awsdns-11.net.
 foxy.bi.		86400	IN	NS	ns-1246.awsdns-27.org.
 foxy.bi.		86400	IN	NS	ns-2025.awsdns-61.co.uk.
-foyerdecharitebuja.bi.	86400	IN	NS	dns1.maven2-r2.com.
-foyerdecharitebuja.bi.	86400	IN	NS	dns2.maven2-r2.com.
 fphu.bi.		86400	IN	NS	ns1.afriregister.bi.
 fphu.bi.		86400	IN	NS	ns2.afriregister.bi.
 france-telecom.bi.	86400	IN	NS	indom10.indomco.com.
@@ -2772,6 +2768,9 @@ itracom.bi.		86400	IN	NS	ns1.afriregister.bi.
 itracom.bi.		86400	IN	NS	ns2.afriregister.bi.
 iussdc.bi.		86400	IN	NS	ns1.afriregister.bi.
 iussdc.bi.		86400	IN	NS	ns2.afriregister.bi.
+izerefm.bi.		86400	IN	NS	ns1.afriregister.co.ke.
+izerefm.bi.		86400	IN	NS	ns2.afriregister.co.ke.
+izerefm.bi.		86400	IN	NS	ns3.afriregister.com.
 izlesene.bi.		86400	IN	NS	nitin.ns.cloudflare.com.
 izlesene.bi.		86400	IN	NS	connie.ns.cloudflare.com.
 jaco.bi.		86400	IN	NS	ns-301.awsdns-37.com.
@@ -5255,4 +5254,4 @@ zzp.bi.			86400	IN	NS	nameserver3.intellyhosting.be.
 zzp.bi.			86400	IN	NS	nameserver4.intellyhosting.com.
 zzz.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 zzz.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2016121408 21600 3600 604800 86400
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2016121412 21600 3600 604800 86400

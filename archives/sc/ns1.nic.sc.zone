@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sc. @ns1.nic.sc. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008097225 1800 900 604800 86400
-sc.			900	IN	RRSIG	SOA 7 1 900 20170206112025 20170116102025 36890 sc. LGrYvTM5dnrRlnzrmj7F0LPR6junD/7RdYVZ4q1a8PPLervuBlCxhIV1 EA8jU2gO6R2uoNPq6bioqdv/8fBb53WEABZQwHk/NEeXgz84gaQmWrYV Hz8Zb3yPMSajmf6CNdr1mj6RY2XHGzIIZu39E3IkkCkM4Fj+sdvSHjS6 AV8=
+sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008097227 1800 900 604800 86400
+sc.			900	IN	RRSIG	SOA 7 1 900 20170206142138 20170116132138 36890 sc. ePqqNKkUBDcoXqQbrmenkz/jsYRgzipICD1q/KKCSZESsicIycpyWedS CLL4perXao01EpG149KCeG6tQn6WsgsHSz4RWrI/SrQVaJWhFLYeeVIu 4aKeYv3mhJQn5UImAnUIsxu+JFNW2Zb8VyFXLm/WZyEVUIV2HWGtUn9d lm8=
 sc.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20170130225800 20170109215800 36890 sc. HBEY2dtWK1V4aOwOxUNKTATqtJ0i8RvovhoxUCP8Ro58XaBE7+enH89M mJFMh31ox95mE4iuyTmAyTWS8nhkZYJFD2yw6K3Bk5+GoNR7R9QmFf3f Ni3KDZMM8x8KnLSocHoRfi09P6SMhQ8jWcEdRqvHXD7PK9AfVHS+l4Ie Z8k=
 sc.			900	IN	RRSIG	DNSKEY 7 1 900 20170130225800 20170109215800 30975 sc. HLdoKUp1woVEKYwyYGkuSLn9CzZeHhxvSSHgoZIgfCbXJlVQifS+zS0c re6aceVRd6r9924IKLfaWsuLsnRwDo2bkNZ2r32oaOLpoeMh7SEtis/J SHQkGPmmPWhad5hxYhvmuxsUoYBRCWayKiR+fOY7xOB0F5A694M/X75e 6xkty/xn3naCW8Jq8/4+Hi6WGnJBnA+tFC9TQ8csSeStLMk1nveGOhtg Oa1fXIo4UYep2gxCNjNYbz7sD2FDWu2sVst5/hTwaYzPVW6ge59UvXCI yEtuy1kmxkWdgRiR+t9md9uIL26rvJTeQdZYkIv24e+OI5QJRTUKtSN+ bFmh1A==
 sc.			900	IN	RRSIG	DNSKEY 7 1 900 20170130225800 20170109215800 32953 sc. HxFxLDLUSz7vAKZZan2/qbs9Oh7V0Ju0BideAgmgMhq0JR7zGLi7+NbA SyAbLaPua+6Jjbw74U0kjtfmzEwgNnfJlfSmeGH4kKBk2N6LCG1vMO8m rNywltE5t6bgepxUWEfsSUO8TXwIiBBu7a2c81QU7ejaufB/CtQ7p97h DSOLmyQ+qBlpZnr5g0waA54yp9oCFKpVj01QHW+x7A0fvQf+MSLTLWEY vJPSGEV/pZbHTTPAC3NKZSLJFhhn+aQ1U9XQxfsbE/vuR79R/9lw89Dm PT4XfpXiZHxPfovTtzNtt23O4GjzLKNnYmq2XOUi/MiLQQ0I1SJql2cj 7udzqQ==
@@ -1551,10 +1551,10 @@ andrew.sc.		86400	IN	NS	ns1.afraid.org.
 andrew.sc.		86400	IN	NS	ns2.afraid.org.
 andrew.sc.		86400	IN	NS	ns3.afraid.org.
 andrew.sc.		86400	IN	NS	ns4.afraid.org.
-android.sc.		86400	IN	NS	ns1cmt.name.com.
-android.sc.		86400	IN	NS	ns2fkr.name.com.
-android.sc.		86400	IN	NS	ns3gxy.name.com.
-android.sc.		86400	IN	NS	ns4lqx.name.com.
+android.sc.		86400	IN	NS	ns-cloud-d1.googledomains.com.
+android.sc.		86400	IN	NS	ns-cloud-d2.googledomains.com.
+android.sc.		86400	IN	NS	ns-cloud-d3.googledomains.com.
+android.sc.		86400	IN	NS	ns-cloud-d4.googledomains.com.
 anfang.sc.		86400	IN	NS	ns7.01isp.com.
 anfang.sc.		86400	IN	NS	ns8.01isp.net.
 angel.sc.		86400	IN	NS	ns01.gmoserver.jp.
@@ -13923,9 +13923,12 @@ zenith.sc.		86400	IN	NS	ns2.locaweb.com.br.
 zenith.sc.		86400	IN	NS	ns3.locaweb.com.br.
 zennet.sc.		86400	IN	NS	ns1.linode.com.
 zennet.sc.		86400	IN	NS	ns2.linode.com.
-zentiva.sc.		86400	IN	NS	dns1.idp365.net.
-zentiva.sc.		86400	IN	NS	dns2.idp365.net.
-zentiva.sc.		86400	IN	NS	dns3.idp365.net.
+zentiva.sc.		86400	IN	NS	pdns1.ultradns.net.
+zentiva.sc.		86400	IN	NS	pdns2.ultradns.net.
+zentiva.sc.		86400	IN	NS	pdns3.ultradns.org.
+zentiva.sc.		86400	IN	NS	pdns4.ultradns.org.
+zentiva.sc.		86400	IN	NS	pdns5.ultradns.info.
+zentiva.sc.		86400	IN	NS	pdns6.ultradns.co.uk.
 zerg.sc.		86400	IN	NS	01.dnsv.jp.
 zerg.sc.		86400	IN	NS	02.dnsv.jp.
 zero.sc.		86400	IN	NS	ns1.value-domain.com.
@@ -14229,7 +14232,7 @@ zzz.sc.			86400	IN	NS	ns8.01isp.net.
 6ippgv98l2tjp8sjhgdsfo4mk1ffsdkv.sc. 86400 IN NSEC3 1 1 1 D399EAAB 6SJ9DKGGPR7RUJJI1GMNDU2SC3TJ63HA A RRSIG
 6sj9dkggpr7rujji1gmndu2sc3tj63ha.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170130225800 20170109215800 36890 sc. XSySJ3CBhi474Ubflszgm9wgqAK/ezupktpatUzIIBjCVWbRXt1BQXYe 9l28StKQsLFQ2yG55UyhGWy1f5wIrMskzXp1qEmFHLC+U6fOx33hcQOW BpBvhsSrJPgcEcunBXfEJ8XOJh12f8+TRJD9jTxbcqhThxx6ULntASdA HQ4=
 6sj9dkggpr7rujji1gmndu2sc3tj63ha.sc. 86400 IN NSEC3 1 1 1 D399EAAB 7MJIACRVGSPE2P6IFC62D8GJKCF6LMUS A RRSIG
-7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170206112025 20170116102025 36890 sc. BtyFMOPge+WmeUfwBQkxkVV6VeXoEgReJ32h1VnFsp9QlvkoyxlVYCEp GLH5iqcFic6YiCi7yirqSYox2l4BDsg8+AimKh9ELlCQuX8L+UEzUTy6 QxXpxg999NR8P2RO+ItpAZ1X2nB9wqe8DthmZHrRmQpIiKUJ7dO7HOCg EO4=
+7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170206142138 20170116132138 36890 sc. UWdXfQq4+/y/gDngH8XcuyQcG8kl2gjrkA63oaF9lTpvVVsDzT9/KLzw 2U3f0KQh8ZGUI793iqOFBhSWphIVLW1jDk/6ICDhgJmITsOq+PNHyK6Q UaoTCcSZTtXEcDeHC4XpeDyFh7QKrFDmtDDXdJyod9rnr6Fd+jDgZDQU v70=
 7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN NSEC3 1 1 1 D399EAAB 7P375MMVGO9KAMU2RK6OC2I1E2G73UMC NS SOA RRSIG DNSKEY NSEC3PARAM
 7p375mmvgo9kamu2rk6oc2i1e2g73umc.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170130225800 20170109215800 36890 sc. Pp8+NU89Pa22P97xU4LxmgylkKlJtbd2FnALQhaZXdXqIsTB40C9YSAW XK3GXGPEceqVoEraKC6v8g7QkTtIWlJhRGwtZv4WIRubF84OJT6wo9vy VYdhSgYmwkz0BnX8MyNfTcbasKrmjhQ+hkUtUgULM9u/tV7gmOA51FSo 4tI=
 7p375mmvgo9kamu2rk6oc2i1e2g73umc.sc. 86400 IN NSEC3 1 1 1 D399EAAB 84V04P78OE25ORJ79LG2GB1VIHJEVOM3 
@@ -14303,4 +14306,4 @@ vao8sg43rm64n2oo2t6uja6022phov7t.sc. 86400 IN RRSIG NSEC3 7 2 86400 201701302258
 vao8sg43rm64n2oo2t6uja6022phov7t.sc. 86400 IN NSEC3 1 1 1 D399EAAB VG8IS4TLRBAVV4QPCGHUUEC1128FN3GV A RRSIG
 vg8is4tlrbavv4qpcghuuec1128fn3gv.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170130225800 20170109215800 36890 sc. UtkAzkCKkw1WcCyreAPeQXOnjXmyPbm8Kpw4DpI2TCRAs2jnorGZ/uD+ eZvs9dB3HEwcXfxayFGDrLPx5AAwDt9dB+Aa3iZ/Ko9stOpX/gqZUzpE zeWFZFMZI9cgc+fZZ96hXqQPn2QMGUATCxGD3pECY9FsJz3i1uoJBXys 5B8=
 vg8is4tlrbavv4qpcghuuec1128fn3gv.sc. 86400 IN NSEC3 1 1 1 D399EAAB 08VN4UD3GUU67MPCPVMCITJUTP87LDKG A RRSIG
-sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008097225 1800 900 604800 86400
+sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008097227 1800 900 604800 86400

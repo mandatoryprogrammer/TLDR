@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017011502 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017011701 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -198,7 +198,8 @@ appleinmaldives.mv.	3600	IN	A	202.21.179.188
 aquachemicals.mv.	3600	IN	NS	NS1.BLUEHOST.COM.
 aquachemicals.mv.	3600	IN	NS	NS2.BLUEHOST.COM.
 aquaculture-maldives.mv. 3600	IN	NS	host18.dhivehinet.net.mv.
-aqualine.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+aqualine.mv.		3600	IN	NS	ns1.bluehost.com.
+aqualine.mv.		3600	IN	NS	ns2.bluehost.com.
 aquamaldives.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.aquamaldives.mv.	3600	IN	CNAME	aquamaldives.mv.
 aquamarine.mv.		3600	IN	NS	ns8483.hostgator.com.
@@ -1622,8 +1623,6 @@ kimgroup.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 kiswa.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 klive.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 kma.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
-koba.mv.		3600	IN	NS	ns1.servervilla.com.
-koba.mv.		3600	IN	NS	ns2.servervilla.com.
 kokky.mv.		3600	IN	NS	ns1.arvixeshared.com.
 kokky.mv.		3600	IN	NS	ns2.arvixeshared.com.
 kolhuhahdhu.mv.		3600	IN	NS	ns1.bluehost.com.
@@ -1704,8 +1703,8 @@ lintel.mv.		3600	IN	NS	ns1.hostmonster.com.
 lintel.mv.		3600	IN	NS	ns2.hostmonster.com.
 linux.mv.		3600	IN	CNAME	mlug.mv.
 www.linux.mv.		3600	IN	CNAME	mlug.mv.
-liquidwatersports.mv.	3600	IN	NS	ns49.domaincontrol.com.
-liquidwatersports.mv.	3600	IN	NS	ns50.domaincontrol.com.
+liquidwatersports.mv.	3600	IN	NS	ben.ns.cloudflare.com.
+liquidwatersports.mv.	3600	IN	NS	erin.ns.cloudflare.com.
 litigants.mv.		3600	IN	NS	dns.site5.com.
 litigants.mv.		3600	IN	NS	dns2.site5.com.
 litigants.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1943,7 +1942,8 @@ migrams.mv.		3600	IN	NS	ns2.dnsmadeeasy.com.
 mihaaru.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 mihaarunews.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 mil.mv.			3600	IN	A	202.1.203.100
-mind.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+mind.mv.		3600	IN	NS	ns1.sgp15.siteground.asia.
+mind.mv.		3600	IN	NS	ns2.sgp15.siteground.asia.
 minipc.mv.		3600	IN	NS	ns.inmotionhosting.com.
 minipc.mv.		3600	IN	NS	ns2.inmotionhosting.com.
 minivandhuvas.mv.	3600	IN	A	202.1.207.33
@@ -2579,9 +2579,9 @@ searetreats.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 searex.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 seasidemaldives.mv.	3600	IN	NS	NS1.JUSTHOST.COM.
 seasonholidays.mv.	3600	IN	NS	ns14.wixdns.net.
-seasonparadise.mv.	3600	IN	NS	ns201.asetservers.com.
-seasonparadise.mv.	3600	IN	NS	ns202.asetservers.com.
-seasonparadise.mv.	3600	IN	NS	ns203.asetservers.com.
+seasonparadise.mv.	3600	IN	NS	ns1.digitalocean.com.
+seasonparadise.mv.	3600	IN	NS	ns2.digitalocean.com.
+seasonparadise.mv.	3600	IN	NS	ns3.digitalocean.com.
 secretdeal.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 secretdeals.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 secretparadise.mv.	3600	IN	NS	ns1.tourtigersupport.com.
@@ -2661,7 +2661,6 @@ sketch.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 skf.mv.			3600	IN	NS	dns01.skf.com.
 skf.mv.			3600	IN	NS	dns02.skf.com.
 skills.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
-sky.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 sky.mv.			3600	IN	NS	ns1.digitalocean.com.
 sky.mv.			3600	IN	NS	ns2.digitalocean.com.
 sky.mv.			3600	IN	NS	ns3.digitalocean.com.
@@ -2850,8 +2849,6 @@ teambeard.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 teammbc.mv.		3600	IN	NS	ns1.bluehost.com.
 teammbc.mv.		3600	IN	NS	ns2.bluehost.com.
 teatree.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
-techno.mv.		3600	IN	NS	ns1.servervilla.com.
-techno.mv.		3600	IN	NS	ns2.servervilla.com.
 technomedia.mv.		3600	IN	NS	ns1.servervilla.com.
 technomedia.mv.		3600	IN	NS	ns2.servervilla.com.
 technovation.mv.	3600	IN	NS	host04.dhivehinet.net.mv.
@@ -3267,4 +3264,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017011502 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017011701 1800 1800 3600 3600

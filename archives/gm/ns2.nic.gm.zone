@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017012531 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017012604 3600 900 604800 3600
 gm.			3600	IN	NS	ns1.nic.gm.
 gm.			3600	IN	NS	ns2.nic.gm.
 gm.			3600	IN	NS	ns-gm.afrinic.net.
@@ -268,6 +268,8 @@ baes.gm.		3600	IN	NS	ns1.netpagewireless.net.
 baes.gm.		3600	IN	NS	ns2.netpagewireless.net.
 bafrow.gm.		3600	IN	NS	ns1.gamtel.gm.
 bafrow.gm.		3600	IN	NS	ns2.gamtel.gm.
+bais.gm.		3600	IN	NS	ns1.netpagewireless.net.
+bais.gm.		3600	IN	NS	ns2.netpagewireless.net.
 bajam.gm.		3600	IN	NS	ns1.ams1.siteground.eu.
 bajam.gm.		3600	IN	NS	ns2.ams1.siteground.eu.
 bakadajihotel.gm.	3600	IN	NS	ns51.securenet-server.net.
@@ -732,8 +734,6 @@ disneyjr.gm.		3600	IN	NS	sens02.dig.com.
 disneyjunior.gm.	3600	IN	NS	orns01.dig.com.
 disneyjunior.gm.	3600	IN	NS	sens01.dig.com.
 disneyjunior.gm.	3600	IN	NS	sens02.dig.com.
-dispatch.gm.		3600	IN	NS	jim.ns.cloudflare.com.
-dispatch.gm.		3600	IN	NS	jean.ns.cloudflare.com.
 dns.gm.			3600	IN	NS	ns1.qth.nl.
 dns.gm.			3600	IN	NS	ns2.qth.nl.
 dns.gm.			3600	IN	NS	ns3.schaap.net.
@@ -1145,6 +1145,8 @@ gamfish.gm.		3600	IN	NS	ns2.unique.gm.
 gamfish.gm.		3600	IN	NS	ns3.unique.gm.
 gamhort.gm.		3600	IN	NS	ns2.unique.gm.
 gamhort.gm.		3600	IN	NS	ns3.unique.gm.
+gamhost.gm.		3600	IN	NS	ns0.ukfast.net.
+gamhost.gm.		3600	IN	NS	ns1.ukfast.net.
 gamis.gm.		3600	IN	NS	ns1.eapps.com.
 gamis.gm.		3600	IN	NS	ns2.eapps.com.
 gamnet.gm.		3600	IN	NS	ns1.gamtel.gm.
@@ -1175,6 +1177,8 @@ gamtelhouse.gm.		3600	IN	NS	ns2.gamtel.gm.
 gamtelhouse.gm.		3600	IN	NS	ns3.gamtel.gm.
 gamtours.gm.		3600	IN	NS	ns1.netpagenetworks.net.
 gamtours.gm.		3600	IN	NS	ns2.netpagenetworks.net.
+gamweb.gm.		3600	IN	NS	ns0.ukfast.net.
+gamweb.gm.		3600	IN	NS	ns1.ukfast.net.
 gamworks.gm.		3600	IN	NS	ns1.qanet.gm.
 gamworks.gm.		3600	IN	NS	ns2.qanet.gm.
 gap.gm.			3600	IN	NS	ns1.siteground194.com.
@@ -2291,8 +2295,6 @@ papajohns.gm.		3600	IN	NS	dns1.cscdns.net.
 papajohns.gm.		3600	IN	NS	dns2.cscdns.net.
 paperpoint.gm.		3600	IN	NS	ns1.nextsite.com.
 paperpoint.gm.		3600	IN	NS	ns3.nextsite.com.
-paradi.gm.		3600	IN	NS	igor.ns.cloudflare.com.
-paradi.gm.		3600	IN	NS	zara.ns.cloudflare.com.
 paradisefm.gm.		3600	IN	NS	ns1.vm148.sgvps.net.
 paradisefm.gm.		3600	IN	NS	ns2.vm148.sgvps.net.
 paradisesuites.gm.	3600	IN	NS	ns2.unique.gm.
@@ -2322,8 +2324,8 @@ pdggambia.gm.		3600	IN	NS	ns3.unique.gm.
 pegasusairlines.gm.	3600	IN	NS	ns1.101domain.com.
 pegasusairlines.gm.	3600	IN	NS	ns2.101domain.com.
 pegasusairlines.gm.	3600	IN	NS	ns5.101domain.com.
-petrogas.gm.		3600	IN	NS	ns1.netpagewireless.net.
-petrogas.gm.		3600	IN	NS	ns2.netpagewireless.net.
+petrogas.gm.		3600	IN	NS	ns1.netpage.gm.
+petrogas.gm.		3600	IN	NS	ns2.netpage.gm.
 pharmacy.gm.		3600	IN	NS	ns1.rapidswitch.com.
 pharmacy.gm.		3600	IN	NS	ns2.rapidswitch.com.
 pharmacy.gm.		3600	IN	NS	ns3.rapidswitch.com.
@@ -2557,6 +2559,8 @@ samsung.gm.		3600	IN	NS	ns2.ascio.net.
 samsunggambia.gm.	3600	IN	NS	ns2.qanet.gm.
 sandbeach.gm.		3600	IN	NS	ns1.gamtel.gm.
 sandbeach.gm.		3600	IN	NS	ns2.gamtel.gm.
+sanyangbirdwatching.gm.	3600	IN	NS	ns1.cyberspaceman.co.uk.
+sanyangbirdwatching.gm.	3600	IN	NS	ns2.cyberspaceman.co.uk.
 sanyangfestival.gm.	3600	IN	NS	ns1.gamtel.gm.
 sanyangfestival.gm.	3600	IN	NS	ns2.gamtel.gm.
 sap.gm.			3600	IN	NS	ns.sap-ag.de.
@@ -2989,6 +2993,8 @@ tudor.gm.		3600	IN	NS	ns3.p09.dynect.net.
 tudorwatch.gm.		3600	IN	NS	ns1.p09.dynect.net.
 tudorwatch.gm.		3600	IN	NS	ns2.p09.dynect.net.
 tudorwatch.gm.		3600	IN	NS	ns3.p09.dynect.net.
+tunbungartvillage.gm.	3600	IN	NS	ns1.m73.siteground.biz.
+tunbungartvillage.gm.	3600	IN	NS	ns2.m73.siteground.biz.
 turkcell.gm.		3600	IN	NS	ns1.101domain.com.
 turkcell.gm.		3600	IN	NS	ns2.101domain.com.
 turkcell.gm.		3600	IN	NS	ns5.101domain.com.
@@ -3262,6 +3268,9 @@ yonnaforexbureau.gm.	3600	IN	NS	ns2.gamtel.gm.
 youtube.gm.		3600	IN	NS	ns1.google.com.
 youtube.gm.		3600	IN	NS	ns2.google.com.
 youtube.gm.		3600	IN	NS	ns3.google.com.
+zahras.gm.		3600	IN	NS	ns1.gcubed.gm.
+zahras.gm.		3600	IN	NS	ns2.gcubed.gm.
+zahras.gm.		3600	IN	NS	ns3.gcubed.gm.
 zanussi.gm.		3600	IN	NS	ns.electrolux.se.
 zanussi.gm.		3600	IN	NS	ns2.domainnetwork.se.
 zenithbank.gm.		3600	IN	NS	ns3.anyservers.com.
@@ -3280,4 +3289,4 @@ zuerich.gm.		3600	IN	NS	ns.zurich.com.
 zuerich.gm.		3600	IN	NS	ns4.zurich.com.
 zurich.gm.		3600	IN	NS	ns.zurich.com.
 zurich.gm.		3600	IN	NS	ns4.zurich.com.
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017012531 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017012604 3600 900 604800 3600

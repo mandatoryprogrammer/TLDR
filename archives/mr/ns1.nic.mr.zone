@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns1.nic.mr. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			604800	IN	SOA	ns1.nic.mr. root.mail.ustm.mr. 2017020801 3600 900 3600000 600
+mr.			604800	IN	SOA	ns1.nic.mr. root.mail.ustm.mr. 2017020901 3600 900 3600000 600
 mr.			604800	IN	NS	ns.univ-nkc.mr.
 mr.			604800	IN	NS	ns1.nic.mr.
 mr.			604800	IN	NS	ns3.nic.fr.
@@ -111,8 +111,9 @@ afma.mr.		604800	IN	NS	ns1.rhostjh.com.
 afma.mr.		604800	IN	NS	ns2.rhostjh.com.
 afrecom.mr.		604800	IN	NS	ns.its.mr.
 afrecom.mr.		604800	IN	NS	ns2.its.mr.
-afriplast.mr.		604800	IN	NS	bow.mauritel.mr.
-afriplast.mr.		604800	IN	NS	dns.itcenter.mr.
+afriplast.mr.		604800	IN	NS	dns.afriplast.mr.
+dns.afriplast.mr.	604800	IN	A	82.151.83.248
+dns.afriplast.mr.	604800	IN	NS	bow.mauritel.mr.
 afsa.mr.		604800	IN	NS	ns11.infomaniak.ch.
 afsa.mr.		604800	IN	NS	ns12.infomaniak.ch.
 aftout.mr.		604800	IN	NS	bow.mauritel.mr.
@@ -1788,8 +1789,10 @@ iset.mr.		604800	IN	NS	ns.univ-nkc.mr.
 iset.mr.		604800	IN	NS	bow.mauritel.mr.
 iset-rosso.mr.		604800	IN	NS	ns.univ-nkc.mr.
 iset-rosso.mr.		604800	IN	NS	bow.mauritel.mr.
-iskan.mr.		604800	IN	NS	ns19.ixwebhosting.com.
-iskan.mr.		604800	IN	NS	ns20.ixwebhosting.com.
+iskan.mr.		604800	IN	NS	ns1.lwsdns.com.
+iskan.mr.		604800	IN	NS	ns1.lws-hosting.org.
+iskan.mr.		604800	IN	NS	ns2.lwsdns.com.
+iskan.mr.		604800	IN	NS	ns2.lws-hosting.org.
 islah-hce.mr.		604800	IN	NS	bow.mauritel.mr.
 islah-hce.mr.		604800	IN	NS	dns.mauritania.mr.
 isnad.mr.		604800	IN	NS	ns3271.hostgator.com.
@@ -3470,4 +3473,4 @@ ziwanya.mr.		604800	IN	NS	ns1.infomaniak.ch.
 ziwanya.mr.		604800	IN	NS	ns2.infomaniak.ch.
 ztr.mr.			604800	IN	NS	ns1.elvadel.org.
 ztr.mr.			604800	IN	NS	ns2.elvadel.org.
-mr.			604800	IN	SOA	ns1.nic.mr. root.mail.ustm.mr. 2017020801 3600 900 3600000 600
+mr.			604800	IN	SOA	ns1.nic.mr. root.mail.ustm.mr. 2017020901 3600 900 3600000 600

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017021101 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017021201 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -193,7 +193,8 @@ anything.mv.		3600	IN	NS	ns1.anything.mv.
 anything.mv.		3600	IN	NS	ns2.anything.mv.
 ns1.anything.mv.	3600	IN	A	67.222.151.170
 ns2.anything.mv.	3600	IN	A	67.222.151.171
-aonews.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+aonews.mv.		3600	IN	NS	ns75.domaincontrol.com.
+aonews.mv.		3600	IN	NS	ns76.domaincontrol.com.
 api.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 apo.mv.			3600	IN	NS	ns1.digitalocean.com.
 apo.mv.			3600	IN	NS	ns2.digitalocean.com.
@@ -381,7 +382,8 @@ biz.mv.			3600	IN	NS	webns.mv.
 bizgate.mv.		3600	IN	NS	ns2297.hostgator.com.
 bizgate.mv.		3600	IN	NS	ns2298.hostgator.com.
 bizgate.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
-bizsolutions.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
+bizsolutions.mv.	3600	IN	NS	ns15.domaincontrol.com.
+bizsolutions.mv.	3600	IN	NS	ns16.domaincontrol.com.
 biztimes.mv.		3600	IN	NS	ns45.domaincontrol.com.
 biztimes.mv.		3600	IN	NS	ns46.domaincontrol.com.
 bizworld.mv.		3600	IN	NS	ns53.worldnic.com.
@@ -1030,6 +1032,7 @@ flixcart.mv.		3600	IN	NS	ns1.bluehost.com.
 flixcart.mv.		3600	IN	NS	ns2.bluehost.com.
 floatingasia.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
 floatingmaldives.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
+floralcakes.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 flydubai.mv.		3600	IN	NS	ns1.sslcatacombnetworking.com.
 flydubai.mv.		3600	IN	NS	ns2.sslcatacombnetworking.com.
 flydubai.mv.		3600	IN	NS	ns3.sslcatacombnetworking.com.
@@ -2598,6 +2601,8 @@ scootaxi.mv.		3600	IN	NS	dns.site5.com.
 scootaxi.mv.		3600	IN	NS	dns2.site5.com.
 scout.mv.		3600	IN	NS	ns1.bluehost.com.
 scout.mv.		3600	IN	NS	ns2.bluehost.com.
+scubainn.mv.		3600	IN	NS	ns15.domaincontrol.com.
+scubainn.mv.		3600	IN	NS	ns16.domaincontrol.com.
 seahouse.mv.		3600	IN	NS	dns.site5.com.
 seahouse.mv.		3600	IN	NS	dns2.site5.com.
 sealifeglobal.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
@@ -2921,13 +2926,13 @@ thelaundry.mv.		3600	IN	NS	ns2.wix.com.
 thescent.mv.		3600	IN	NS	ns1.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns2.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns3.digitalocean.com.
-thesmallmaldivesislandco.mv. 3600 IN	A	188.227.206.201
-thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 thesmallmaldivesislandco.mv. 3600 IN	MX	10 ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX2.GOOGLEMAIL.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX3.GOOGLEMAIL.COM.
+thesmallmaldivesislandco.mv. 3600 IN	A	188.227.206.201
+thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 www.thesmallmaldivesislandco.mv. 3600 IN CNAME	thesmallmaldivesislandco.mv.
 theta.mv.		3600	IN	NS	ns1.sgp28.siteground.asia.
 theta.mv.		3600	IN	NS	ns2.sgp28.siteground.asia.
@@ -3167,6 +3172,7 @@ vnews.mv.		3600	IN	NS	ns-1925.awsdns-48.co.uk.
 vnews.mv.		3600	IN	NS	ns-1248.awsdns-28.org.
 voh.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 voip.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+volare.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 volnine.mv.		3600	IN	NS	ns2.mediatemple.net.
 vom.mv.			3600	IN	MX	1000 mx01.dhivehinet.mv.
 vonline.mv.		3600	IN	NS	ns1.mediatemple.net.
@@ -3310,4 +3316,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017021101 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017021201 1800 1800 3600 3600

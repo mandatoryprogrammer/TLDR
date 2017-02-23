@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sc. @ns1.nic.sc. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008097625 1800 900 604800 86400
-sc.			900	IN	RRSIG	SOA 7 1 900 20170316081539 20170223071539 36890 sc. N5lOGfyhi1CbA12MRA1chBHLYQcWJPKjjfMVI8UJIWBi7Gp/RXbImwBh L3RMlnKJd5jB0JJz1wAbwH3899bKirJv4CLtpgtnAB/ley9eICMOlZwo /fyO6OCrcmV39zgGLJzwFqYnHmDpjalPIc1UrVX3p/XB/X1fSrT1kEIy GkE=
+sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008097627 1800 900 604800 86400
+sc.			900	IN	RRSIG	SOA 7 1 900 20170316093344 20170223083344 36890 sc. L3GmPkyBtKjIVbw0vql40Rcj5bPZX0pbmT/sarYqTF4yKGkehIOtBqcB ztgpZTWQtf/scSaHjVk7cVPksUT6P/SOdHtq1C0odB3FQ7OahzlfdgYm UQQvHc+KUZGqojTD7XmZu9T2jckeoJudKIl/M492A9f0KxLyVkipZFqA uCI=
 sc.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20170314175438 20170221165438 36890 sc. I5iMqRzno1WVB7IgiksFWyYv2b9ilZ+wQyvPxQWcpKhOu6656hU+eljA tk43bHvXRBq0VNTemmJ08quD9WAToyCkadW6on5GrlFQUS8mNokdgYwT +9u7aWnWJnj0GG8DbodMsc7OdvpMdUIeqUj6SDT2rbPdhD4RSFpckUKG 44E=
 sc.			900	IN	RRSIG	DNSKEY 7 1 900 20170314175438 20170221165438 30975 sc. HxQFOz+dv16LzvYu1kV5grs1ywEgBl9psnRuIU0uUAyTISkocm5Gxdah 3kCTIGAtspx95fHLTf43uzwtM40LMmYBlOBHBTXmJk+MpTXBzKSXnXAC 65V+YnEIb7ctEEOPmO/b+PPPxWUeU03lYfgy66ZcpI+2jxkPNbfVjeUi /mEcFd+O61UCTMbRDROyhCWJuOIbpaCluIMKWLUTvNdGV4w2rHrwsDvK z30isz+p+kLTiefhlX0VBo4IJB4OMxO/EMhxEb2FMNMfWiVDjVSsW9Ak 5uush6iAjPH3gdHhV6LjPZ2AnR/LuRaW1hRyAELDz2YUDC9dhB80Srzq TTnAqQ==
 sc.			900	IN	RRSIG	DNSKEY 7 1 900 20170314175438 20170221165438 32953 sc. HVcSQbFf1x+YWh+JCOXJ7oX28y6WKINrN1PZi07sESo5mT6aTToHjcVl Lqhm9o49Gosu0+Ea+GfHI/N7VjQb42huKQdvNQSoQYEGoMFq2W+hjBu3 IrRhMvMswnEC6trEsfKYNRrBdTv1vMU2YZ+AmPvDjbQjsuyyxgdJysK/ dFmg3wmNcRii0BZC9DAqGSURwAeOE1ZR2O0owa1kqbT9jDygcAhCv3Ir RweJsL7j5xFYIohGQAFGDN1z52E0KPWbtd2L4zjz5SOHfk6MdcPJtGKd zBx0Ds40hvTmNdgvmctJg9UAUp6FFyp58Z5yF525f6fHUiF2cJeWf2sv wHtubg==
@@ -822,8 +822,6 @@ dns.7777.sc.		86400	IN	A	133.130.72.174
 819.sc.			86400	IN	NS	ns6.myhostadmin.net.
 821.sc.			86400	IN	NS	ns5.myhostadmin.net.
 821.sc.			86400	IN	NS	ns6.myhostadmin.net.
-822.sc.			86400	IN	NS	f1g1ns1.dnspod.net.
-822.sc.			86400	IN	NS	f1g1ns2.dnspod.net.
 823.sc.			86400	IN	NS	ns3.myhostadmin.net.
 823.sc.			86400	IN	NS	ns4.myhostadmin.net.
 825.sc.			86400	IN	NS	ns5.myhostadmin.net.
@@ -836,8 +834,6 @@ dns.7777.sc.		86400	IN	A	133.130.72.174
 831.sc.			86400	IN	NS	ns2.myhostadmin.net.
 832.sc.			86400	IN	NS	ns1.myhostadmin.net.
 832.sc.			86400	IN	NS	ns2.myhostadmin.net.
-833.sc.			86400	IN	NS	f1g1ns1.dnspod.net.
-833.sc.			86400	IN	NS	f1g1ns2.dnspod.net.
 835.sc.			86400	IN	NS	ns1.myhostadmin.net.
 835.sc.			86400	IN	NS	ns2.myhostadmin.net.
 836.sc.			86400	IN	NS	ns5.myhostadmin.net.
@@ -7753,6 +7749,10 @@ linhares.sc.		86400	IN	NS	ns3.onlydomains.com.
 link.sc.		86400	IN	NS	ns1.value-domain.com.
 link.sc.		86400	IN	NS	ns2.value-domain.com.
 link.sc.		86400	IN	NS	ns3.value-domain.com.
+lion.sc.		86400	IN	NS	a.ns14.net.
+lion.sc.		86400	IN	NS	b.ns14.net.
+lion.sc.		86400	IN	NS	c.ns14.net.
+lion.sc.		86400	IN	NS	d.ns14.net.
 lipidol.sc.		86400	IN	NS	ns1.instradns.com.
 lipidol.sc.		86400	IN	NS	ns2.instradns.com.
 lipidol.sc.		86400	IN	NS	ns3.instradns.com.
@@ -14124,7 +14124,7 @@ zzz.sc.			86400	IN	NS	ns8.01isp.net.
 6ippgv98l2tjp8sjhgdsfo4mk1ffsdkv.sc. 86400 IN NSEC3 1 1 1 D399EAAB 6SJ9DKGGPR7RUJJI1GMNDU2SC3TJ63HA A RRSIG
 6sj9dkggpr7rujji1gmndu2sc3tj63ha.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170314175438 20170221165438 36890 sc. V43Rv7BD2vMXWrn8sQwlCs8PGiLUVaTi7h2OJvWjyC4AAabfTH2YXtrt yXvpWLRcDcUM6qzI+DiW/q92GpBn1P0FtrWoHDcez/72tISUv6Dnzz6C mK7KjKpJRriD169GLftZlqF62pmYRmdLV+zDt7CIm/xdW4rS5j2MUNZ4 nm4=
 6sj9dkggpr7rujji1gmndu2sc3tj63ha.sc. 86400 IN NSEC3 1 1 1 D399EAAB 7MJIACRVGSPE2P6IFC62D8GJKCF6LMUS A RRSIG
-7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170316081539 20170223071539 36890 sc. E8X/5ksV3Tka2WlgoRfBcOlG9nGJbM8jbKIy6j2UD8uaKkA5Z4pRDxLQ YcTpccPLmYTfRn29ZMbc5gM3dl+/qKdh60sqU1osVCd3+tXJOb5zNZrC A6xGDaPpjL76mC9PrF3pBhozdxZyDfXmz57AU4hzMi9NIOmnqPTQxzqn VkE=
+7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170316093344 20170223083344 36890 sc. TsROa9XVKK/4I6mcANOKqChgKf4vOWCHbpfx0CvgWGSpWE+bPbFz/ROr FEbIfoVbgCII5tOhvniOFezZNAK8faH/RWYtCSU55WYJSlAi06LB/B8O p2MdbQfwkZUrQEFxUkNKv8WRtawE3SRIWXbegicjjAaaX2YTJWUu1S3T gyM=
 7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN NSEC3 1 1 1 D399EAAB 7P375MMVGO9KAMU2RK6OC2I1E2G73UMC NS SOA RRSIG DNSKEY NSEC3PARAM
 7p375mmvgo9kamu2rk6oc2i1e2g73umc.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170314175438 20170221165438 36890 sc. W1xLp3CXV+wageA9Q8zt4+G8Zod+pR2fELn2atx+ZZa8Pu2xRccwcKSD Tqo8kfUEy779760hLmOVyrN3PC4qgIwIVsBdPntOLiIIuTcAPUQ7tcxJ ZOMvGvct6TwYUSMiSoqQyQXFPgJ+bLFLR9fb9wCFfB51MoruPgFPSRiM J68=
 7p375mmvgo9kamu2rk6oc2i1e2g73umc.sc. 86400 IN NSEC3 1 1 1 D399EAAB 84V04P78OE25ORJ79LG2GB1VIHJEVOM3 
@@ -14194,4 +14194,4 @@ vao8sg43rm64n2oo2t6uja6022phov7t.sc. 86400 IN RRSIG NSEC3 7 2 86400 201703141754
 vao8sg43rm64n2oo2t6uja6022phov7t.sc. 86400 IN NSEC3 1 1 1 D399EAAB VG8IS4TLRBAVV4QPCGHUUEC1128FN3GV A RRSIG
 vg8is4tlrbavv4qpcghuuec1128fn3gv.sc. 86400 IN RRSIG NSEC3 7 2 86400 20170314175438 20170221165438 36890 sc. MlKARlIQLB78kBM+acK+aeKoO7zwV0rHvCJ4WC+JhVBf/eiwk28/0rs3 L521qrRZ4L4Wq4HTgSiXoaDz+ldlmCcCueMEYjhu+5RoZ/c/J8YI/hOs uIN6TTLz31Uc9xFE9df4oozftgGq8a9aJqERFmqZGtcHENsS9QcNRmn+ 3WA=
 vg8is4tlrbavv4qpcghuuec1128fn3gv.sc. 86400 IN NSEC3 1 1 1 D399EAAB 08VN4UD3GUU67MPCPVMCITJUTP87LDKG A RRSIG
-sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008097625 1800 900 604800 86400
+sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008097627 1800 900 604800 86400

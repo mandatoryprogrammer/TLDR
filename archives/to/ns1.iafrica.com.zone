@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR to. @ns1.iafrica.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-to.			7200	IN	SOA	tonic.to. hostmaster.tonic.to. 2017030201 43200 7200 2592000 7200
+to.			7200	IN	SOA	tonic.to. hostmaster.tonic.to. 2017030202 43200 7200 2592000 7200
 to.			7200	IN	NS	ns1.iafrica.com.
 to.			7200	IN	NS	colo.to.
 to.			7200	IN	NS	tonic.to.
@@ -455,8 +455,6 @@ hidns2.1z.to.		7200	IN	A	210.65.10.39
 20.to.			7200	IN	NS	ns1.geht.net.
 20.to.			7200	IN	NS	ns3.geht.net.
 20.to.			7200	IN	NS	ns4.geht.net.
-200.to.			7200	IN	NS	ns1.reg.cn.
-200.to.			7200	IN	NS	ns2.reg.cn.
 2000.to.		7200	IN	NS	NS.FURU.ORG.
 2000.to.		7200	IN	NS	NS2.FURU.ORG.
 2007.to.		7200	IN	NS	ns1.dns.ne.jp.
@@ -493,6 +491,7 @@ hidns2.1z.to.		7200	IN	A	210.65.10.39
 24k.to.			7200	IN	NS	ns2.iwantmyname.net.
 24k.to.			7200	IN	NS	ns3.iwantmyname.net.
 25.to.			7200	IN	NS	ns1.enquiry.io.
+2520list.to.		7200	IN	A	127.0.0.1
 259danforth.to.		7200	IN	NS	ns1.mediatemple.net.
 259danforth.to.		7200	IN	NS	ns2.mediatemple.net.
 26.to.			7200	IN	NS	dns1.name-services.com.
@@ -566,8 +565,6 @@ ns2.2l8.to.		7200	IN	A	195.225.237.224
 3-dl.to.		7200	IN	NS	ns2.above.com.
 30.to.			7200	IN	NS	mns01.domaincontrol.com.
 30.to.			7200	IN	NS	mns02.domaincontrol.com.
-300.to.			7200	IN	NS	ns1.reg.cn.
-300.to.			7200	IN	NS	ns2.reg.cn.
 301.to.			7200	IN	NS	b.ns14.net.
 301.to.			7200	IN	NS	ns.checon.net.
 301.to.			7200	IN	NS	ns6.checon.de.
@@ -616,8 +613,6 @@ ns-02.321.to.		7200	IN	A	61.122.86.3
 35.to.			7200	IN	A	123.193.208.25
 j0321.35.to.		7200	IN	A	123.193.208.25
 www.35.to.		7200	IN	A	59.124.92.168
-358.to.			7200	IN	NS	ns1.reg.cn.
-358.to.			7200	IN	NS	ns2.reg.cn.
 36.to.			7200	IN	NS	ns1.mydomain.com.
 36.to.			7200	IN	NS	ns2.mydomain.com.
 360.to.			7200	IN	NS	ns1.easyname.eu.
@@ -798,8 +793,6 @@ ns1.5.to.		7200	IN	A	210.129.120.60
 ns2.5.to.		7200	IN	A	210.129.120.62
 50.to.			7200	IN	NS	f1g1ns1.dnspod.net.
 50.to.			7200	IN	NS	f1g1ns2.dnspod.net.
-500.to.			7200	IN	NS	ns1.reg.cn.
-500.to.			7200	IN	NS	ns2.reg.cn.
 50res.to.		7200	IN	NS	ns.rackspace.com.
 50res.to.		7200	IN	NS	ns2.rackspace.com.
 51.to.			7200	IN	NS	f1g1ns1.dnspod.net.
@@ -961,8 +954,6 @@ ns.55web.to.		7200	IN	A	220.110.208.58
 70.to.			7200	IN	NS	NS1.VALUE-DOMAIN.COM.
 70.to.			7200	IN	NS	NS2.VALUE-DOMAIN.COM.
 70.to.			7200	IN	NS	NS3.VALUE-DOMAIN.COM.
-700.to.			7200	IN	NS	ns1.reg.cn.
-700.to.			7200	IN	NS	ns2.reg.cn.
 707.to.			7200	IN	NS	ns1.zenno.net.
 707.to.			7200	IN	NS	ns3.zenno.net.
 71.to.			7200	IN	NS	ns0.0x.to.
@@ -1094,6 +1085,7 @@ ns1.886.to.		7200	IN	A	118.163.222.115
 8k.to.			7200	IN	NS	ns1.dreamhost.com.
 8k.to.			7200	IN	NS	ns2.dreamhost.com.
 8k.to.			7200	IN	NS	ns3.dreamhost.com.
+8leaks.to.		7200	IN	A	127.0.0.1
 8t.to.			7200	IN	NS	ns1.dns.ne.jp.
 8t.to.			7200	IN	NS	ns2.dns.ne.jp.
 8x.to.			7200	IN	NS	freedns1.registrar-servers.com.
@@ -1149,8 +1141,6 @@ ns2.98.to.		7200	IN	A	203.194.135.189
 990movies.to.		7200	IN	NS	james.ns.cloudflare.com.
 996.to.			7200	IN	NS	ns1.reg.cn.
 996.to.			7200	IN	NS	ns2.reg.cn.
-998.to.			7200	IN	NS	ns1.reg.cn.
-998.to.			7200	IN	NS	ns2.reg.cn.
 9999.to.		7200	IN	NS	dns.9999.to.
 9999.to.		7200	IN	NS	dns.12345.to.
 dns.9999.to.		7200	IN	A	123.204.85.18
@@ -1513,6 +1503,10 @@ acg.to.			7200	IN	NS	NS3.REGISTER.TO.
 acg.to.			7200	IN	NS	NS4.REGISTER.TO.
 ach.to.			7200	IN	NS	ns1.bluehost.com.
 ach.to.			7200	IN	NS	ns2.bluehost.com.
+acheter-steroid.to.	7200	IN	NS	ns11.cloudns.net.
+acheter-steroid.to.	7200	IN	NS	ns12.cloudns.net.
+acheter-steroid.to.	7200	IN	NS	pns11.cloudns.net.
+acheter-steroid.to.	7200	IN	NS	pns12.cloudns.net.
 ack.to.			7200	IN	NS	ns1.luadns.net.
 ack.to.			7200	IN	NS	ns2.luadns.net.
 ack.to.			7200	IN	NS	ns3.luadns.net.
@@ -1932,7 +1926,6 @@ agriturismo.to.		7200	IN	NS	ns2.sedoparking.com.
 agriturismo.to.		7200	IN	NS	nsrm.dnsitalia.net.
 ags.to.			7200	IN	NS	ns1.above.com.
 ags.to.			7200	IN	NS	ns2.above.com.
-agvnydyvnsmnarp.to.	7200	IN	A	127.0.0.1
 ah.to.			7200	IN	NS	ns.iyagi.com.
 ah.to.			7200	IN	NS	xx.xxkr.com.
 ah.to.			7200	IN	NS	ns2.iyagi.com.
@@ -2146,7 +2139,6 @@ akuyan.to.		7200	IN	NS	ns1.dzndns.com.
 akuyan.to.		7200	IN	NS	ns2.dzndns.com.
 akuyan.to.		7200	IN	NS	ns3.dzndns.com.
 akuyan.to.		7200	IN	NS	ns4.dzndns.com.
-akxqgdisxjharlrga.to.	7200	IN	A	127.0.0.1
 al.to.			7200	IN	NS	matt.ns.cloudflare.com.
 al.to.			7200	IN	NS	alice.ns.cloudflare.com.
 ala.to.			7200	IN	NS	ns.kpnqwest.it.
@@ -2611,9 +2603,6 @@ andrew.to.		7200	IN	NS	ns2.likk.net.
 andrew.to.		7200	IN	NS	ns3.likk.net.
 andrewpost.to.		7200	IN	NS	ns1.rsbandb.com.
 andrewpost.to.		7200	IN	NS	ns2.rsbandb.com.
-andriessen.to.		7200	IN	NS	ns1.vevida.net.
-andriessen.to.		7200	IN	NS	ns2.vevida.net.
-andriessen.to.		7200	IN	NS	ns3.vevida.com.
 android.to.		7200	IN	NS	ns0.transip.net.
 android.to.		7200	IN	NS	ns1.transip.nl.
 android.to.		7200	IN	NS	ns2.transip.eu.
@@ -2922,6 +2911,7 @@ apn.to.			7200	IN	NS	ns2.hostpapa.com.
 apollo.to.		7200	IN	NS	ns1.he.net.
 apollo.to.		7200	IN	NS	ns2.he.net.
 apollo.to.		7200	IN	NS	ns3.he.net.
+apologies.to.		7200	IN	A	127.0.0.1
 apologise.to.		7200	IN	NS	ns51.100mwh.com.
 apologise.to.		7200	IN	NS	ns52.100mwh.com.
 apologize.to.		7200	IN	NS	NS1.HOSTVEXO.COM.
@@ -3021,7 +3011,6 @@ aqc.to.			7200	IN	NS	robotns3.second-ns.com.
 aqjtoftievngpyqifmqaq.to. 7200	IN	A	127.0.0.1
 aqn.to.			7200	IN	NS	ns1.1111-internet.com.
 aqn.to.			7200	IN	NS	ns2.1111-internet.com.
-aqtlkrfqroahsn.to.	7200	IN	A	127.0.0.1
 aqu.to.			7200	IN	NS	ns-500.awsdns-62.com.
 aqu.to.			7200	IN	NS	ns-715.awsdns-25.net.
 aqu.to.			7200	IN	NS	ns-1072.awsdns-06.org.
@@ -3091,7 +3080,6 @@ archiv.to.		7200	IN	NS	ns1.parkingcrew.net.
 archiv.to.		7200	IN	NS	ns2.parkingcrew.net.
 archive.to.		7200	IN	NS	a.dns.park.io.
 archive.to.		7200	IN	NS	b.dns.park.io.
-archives.to.		7200	IN	A	127.0.0.1
 archserve.to.		7200	IN	NS	NS10.VWH1.NET.
 archserve.to.		7200	IN	NS	NS11.VWH1.NET.
 arcticburri.to.		7200	IN	NS	ns1.fixel.org.
@@ -3483,6 +3471,7 @@ atsugi.to.		7200	IN	NS	ns-1991.awsdns-56.co.uk.
 attach.to.		7200	IN	NS	a.dns.park.io.
 attach.to.		7200	IN	NS	b.dns.park.io.
 attached.to.		7200	IN	NS	a.dns.park.io.
+attained.to.		7200	IN	A	127.0.0.1
 attend.to.		7200	IN	NS	dns1.yandex.net.
 attend.to.		7200	IN	NS	dns2.yandex.net.
 attention.to.		7200	IN	NS	ns1.granitecanyon.com.
@@ -3493,7 +3482,6 @@ attes.to.		7200	IN	NS	NS1.REGISTER.TO.
 attes.to.		7200	IN	NS	NS2.REGISTER.TO.
 attes.to.		7200	IN	NS	NS3.REGISTER.TO.
 attes.to.		7200	IN	NS	NS4.REGISTER.TO.
-attire.to.		7200	IN	A	127.0.0.1
 attn.to.		7200	IN	NS	ns1.eftydns.com.
 attn.to.		7200	IN	NS	ns2.eftydns.com.
 attorney.to.		7200	IN	NS	NS1.REGISTER.TO.
@@ -3557,7 +3545,6 @@ augus.to.		7200	IN	NS	ns1.register.it.
 augus.to.		7200	IN	NS	ns2.register.it.
 augustus.to.		7200	IN	NS	ns1.ipower.com.
 augustus.to.		7200	IN	NS	ns2.ipower.com.
-aulkqwcksjlrebgcagoyk.to. 7200	IN	A	127.0.0.1
 aum.to.			7200	IN	NS	ns1.mediatemple.net.
 aum.to.			7200	IN	NS	ns2.mediatemple.net.
 aunrodjmrcviwxxdsrwp.to. 7200	IN	A	127.0.0.1
@@ -3769,7 +3756,6 @@ aya.to.			7200	IN	NS	ns-579.awsdns-08.net.
 aya.to.			7200	IN	NS	ns-1284.awsdns-32.org.
 aya.to.			7200	IN	NS	ns-1790.awsdns-31.co.uk.
 aybcbllkahqmf.to.	7200	IN	A	127.0.0.1
-aynewoksdiqgxmgftcktl.to. 7200	IN	A	127.0.0.1
 ayqypdqxcfeqw.to.	7200	IN	A	127.0.0.1
 ayre.to.		7200	IN	NS	anycast.bit2host.co.uk.
 ayre.to.		7200	IN	NS	anycast.bit2host.eu.
@@ -3818,10 +3804,11 @@ babe.to.		7200	IN	NS	kate.ns.cloudflare.com.
 babe.to.		7200	IN	NS	merlin.ns.cloudflare.com.
 babes.to.		7200	IN	NS	ns1.parklogic.com.
 babes.to.		7200	IN	NS	ns2.parklogic.com.
+baby.to.		7200	IN	NS	ns1.bodis.com.
+baby.to.		7200	IN	NS	ns2.bodis.com.
 babypink.to.		7200	IN	NS	dns1.makering.com.
 babypink.to.		7200	IN	NS	dns2.makering.com.
 babypink.to.		7200	IN	NS	dns5.makering.com.
-babyshop.to.		7200	IN	A	127.0.0.1
 babysite.to.		7200	IN	NS	ns1.businesshosting.nl.
 babysite.to.		7200	IN	NS	ns2.businesshosting.nl.
 babysite.to.		7200	IN	NS	ns3.businesshosting.nl.
@@ -4160,7 +4147,6 @@ bcpartners.to.		7200	IN	NS	dns12.register.com.
 bcr.to.			7200	IN	NS	ns1.argewebhosting.eu.
 bcr.to.			7200	IN	NS	ns2.argewebhosting.com.
 bcr.to.			7200	IN	NS	ns3.argewebhosting.nl.
-bcsgvsfqfejdwsmcqxnjpp.to. 7200	IN	A	127.0.0.1
 bcwntigyleavlxk.to.	7200	IN	A	127.0.0.1
 bcy.to.			7200	IN	NS	ns1.dnsserver-jp.net.
 bcy.to.			7200	IN	NS	ns2.dnsserver-jp.net.
@@ -4518,7 +4504,6 @@ bff.to.			7200	IN	NS	NS2.REGISTER.TO.
 bff.to.			7200	IN	NS	NS3.REGISTER.TO.
 bff.to.			7200	IN	NS	NS4.REGISTER.TO.
 bfgfrnvlroa.to.		7200	IN	A	127.0.0.1
-bftdqcn.to.		7200	IN	A	127.0.0.1
 bg.to.			7200	IN	NS	ns1.worldstream.nl.
 bg.to.			7200	IN	NS	ns2.worldstream.nl.
 bgd.to.			7200	IN	NS	ns1.iwantmyname.net.
@@ -4565,6 +4550,7 @@ bible.to.		7200	IN	NS	ns1.ev1servers.net.
 bible.to.		7200	IN	NS	ns2.ev1servers.net.
 bibliothek.to.		7200	IN	NS	ns1.above.com.
 bibliothek.to.		7200	IN	NS	ns2.above.com.
+bicyclette.to.		7200	IN	A	127.0.0.1
 bid.to.			7200	IN	NS	NS1.DOMAINIT.COM.
 bid.to.			7200	IN	NS	NS2.DOMAINIT.COM.
 bidding.to.		7200	IN	NS	NS1.REGISTER.TO.
@@ -4675,6 +4661,7 @@ binary.to.		7200	IN	NS	motoko.binary.to.
 motoko.binary.to.	7200	IN	A	178.79.138.241
 bind.to.		7200	IN	NS	ns1.cyfxstudios.com.
 bind.to.		7200	IN	NS	ns2.cyfxstudios.com.
+binder.to.		7200	IN	A	127.0.0.1
 bing.to.		7200	IN	NS	NS1.REGISTER.TO.
 bing.to.		7200	IN	NS	NS2.REGISTER.TO.
 bing.to.		7200	IN	NS	NS3.REGISTER.TO.
@@ -5141,7 +5128,6 @@ boe.to.			7200	IN	NS	ns1.fatcow.com.
 boe.to.			7200	IN	NS	ns2.fatcow.com.
 boehm.to.		7200	IN	NS	ns1.supremespace.net.
 boehm.to.		7200	IN	NS	ns2.supremespace.net.
-boemupdbpbdidiasaswu.to. 7200	IN	A	127.0.0.1
 boensel.to.		7200	IN	NS	ns-de.1and1-dns.de.
 boensel.to.		7200	IN	NS	ns-de.1and1-dns.biz.
 boensel.to.		7200	IN	NS	ns-de.1and1-dns.com.
@@ -5173,7 +5159,6 @@ bofrost.to.		7200	IN	NS	ns.udag.net.
 bofrost.to.		7200	IN	NS	ns.udag.org.
 bog.to.			7200	IN	NS	ns1.above.com.
 bog.to.			7200	IN	NS	ns2.above.com.
-bogmwhayvaurwwsupfxtm.to. 7200	IN	A	127.0.0.1
 bohp.to.		7200	IN	NS	dns.dcn.ne.jp.
 bohp.to.		7200	IN	NS	dns.bohp.to.
 bohp.to.		7200	IN	NS	dns2.dcn.ne.jp.
@@ -5398,7 +5383,6 @@ bpm.to.			7200	IN	NS	NS1.REGISTER.TO.
 bpm.to.			7200	IN	NS	NS2.REGISTER.TO.
 bpm.to.			7200	IN	NS	NS3.REGISTER.TO.
 bpm.to.			7200	IN	NS	NS4.REGISTER.TO.
-bpocgnfsswuvaa.to.	7200	IN	A	127.0.0.1
 br.to.			7200	IN	NS	NS1.REGISTER.TO.
 br.to.			7200	IN	NS	NS2.REGISTER.TO.
 br.to.			7200	IN	NS	NS3.REGISTER.TO.
@@ -5607,7 +5591,6 @@ bscm.to.		7200	IN	NS	ns3.basecom.de.
 bscm.to.		7200	IN	NS	ns4.basecom.de.
 bsd.to.			7200	IN	NS	joan.ns.cloudflare.com.
 bsd.to.			7200	IN	NS	sean.ns.cloudflare.com.
-bsfekcrdnxalcil.to.	7200	IN	A	127.0.0.1
 bsg.to.			7200	IN	NS	ns1.xserver.jp.
 bsg.to.			7200	IN	NS	ns2.xserver.jp.
 bsg.to.			7200	IN	NS	ns3.xserver.jp.
@@ -5636,14 +5619,12 @@ bt.to.			7200	IN	NS	ns0.netenergy.net.
 bt.to.			7200	IN	NS	ns1.netenergy.net.
 bta.to.			7200	IN	NS	ns1622494116.a2dns.com.
 bta.to.			7200	IN	NS	ns1622494117.a2dns.com.
-btarsape.to.		7200	IN	A	127.0.0.1
 btc.to.			7200	IN	NS	ns1.xta.net.
 btc.to.			7200	IN	NS	ns2.xta.net.
 btd.to.			7200	IN	NS	NS1.REGISTER.TO.
 btd.to.			7200	IN	NS	NS2.REGISTER.TO.
 btd.to.			7200	IN	NS	NS3.REGISTER.TO.
 btd.to.			7200	IN	NS	NS4.REGISTER.TO.
-btfghystkkwwdd.to.	7200	IN	A	127.0.0.1
 btl.to.			7200	IN	NS	ns1.webfaction.com.
 btl.to.			7200	IN	NS	ns2.webfaction.com.
 btl.to.			7200	IN	NS	ns3.webfaction.com.
@@ -5658,8 +5639,6 @@ btx.to.			7200	IN	NS	NS1.REGISTER.TO.
 btx.to.			7200	IN	NS	NS2.REGISTER.TO.
 btx.to.			7200	IN	NS	NS3.REGISTER.TO.
 btx.to.			7200	IN	NS	NS4.REGISTER.TO.
-btxqelgei.to.		7200	IN	A	127.0.0.1
-btyqrwwtsheswurtecjfw.to. 7200	IN	A	127.0.0.1
 bub.to.			7200	IN	NS	ns-472.awsdns-59.com.
 bub.to.			7200	IN	NS	ns-596.awsdns-10.net.
 bub.to.			7200	IN	NS	ns-1209.awsdns-23.org.
@@ -5767,6 +5746,7 @@ bunq.to.		7200	IN	NS	ns1.netim.net.
 bunq.to.		7200	IN	NS	ns2.netim.net.
 bunq.to.		7200	IN	NS	ns3.netim.net.
 bunq.to.		7200	IN	NS	ns4.netim.net.
+bunting.to.		7200	IN	A	127.0.0.1
 burak.to.		7200	IN	NS	ns1.cloudns.net.
 burak.to.		7200	IN	NS	ns2.cloudns.net.
 burak.to.		7200	IN	NS	ns3.cloudns.net.
@@ -6200,6 +6180,7 @@ canadiens.to.		7200	IN	NS	NS3.REGISTER.TO.
 canadiens.to.		7200	IN	NS	NS4.REGISTER.TO.
 canapower.to.		7200	IN	NS	ns1.parkingcrew.net.
 canapower.to.		7200	IN	NS	ns2.parkingcrew.net.
+cancel.to.		7200	IN	A	127.0.0.1
 canddi.to.		7200	IN	NS	ns-269.awsdns-33.com.
 canddi.to.		7200	IN	NS	ns-516.awsdns-00.net.
 canddi.to.		7200	IN	NS	ns-1228.awsdns-25.org.
@@ -6541,7 +6522,6 @@ cdcover.to.		7200	IN	NS	ns1.above.com.
 cdcover.to.		7200	IN	NS	ns2.above.com.
 cdcovers.to.		7200	IN	NS	NS1.EATONMEDIA.CO.UK.
 cdcovers.to.		7200	IN	NS	NS2.EATONMEDIA.CO.UK.
-cdkhneppaoycv.to.	7200	IN	A	127.0.0.1
 cdn.to.			7200	IN	NS	doug.ns.cloudflare.com.
 cdn.to.			7200	IN	NS	tina.ns.cloudflare.com.
 cdn1.to.		7200	IN	NS	olga.ns.cloudflare.com.
@@ -6639,7 +6619,6 @@ cenimy.to.		7200	IN	NS	ip221ds.ima.pl.
 census.to.		7200	IN	NS	ns1.digitalocean.com.
 census.to.		7200	IN	NS	ns2.digitalocean.com.
 census.to.		7200	IN	NS	ns3.digitalocean.com.
-center.to.		7200	IN	A	127.0.0.1
 centerpost.to.		7200	IN	NS	dns3.register.com.
 centerpost.to.		7200	IN	NS	dns4.register.com.
 centr.to.		7200	IN	NS	ns-293.awsdns-36.com.
@@ -6696,7 +6675,6 @@ cgd.to.			7200	IN	NS	dns1.easydns.com.
 cgd.to.			7200	IN	NS	dns2.easydns.net.
 cgd.to.			7200	IN	NS	dns3.easydns.ca.
 cgojjpunafqdhwv.to.	7200	IN	A	127.0.0.1
-cgotxlbkfxexn.to.	7200	IN	A	127.0.0.1
 cgpeers.to.		7200	IN	NS	ns1.cgflux.co.
 cgpeers.to.		7200	IN	NS	ns2.cgflux.co.
 cgpersia.to.		7200	IN	NS	ns1.cgflux.co.
@@ -7326,8 +7304,6 @@ cleared.to.		7200	IN	NS	ns2.galaxy-root.net.
 clearscheme.to.		7200	IN	NS	nsgbr.comlaude.co.uk.
 clearscheme.to.		7200	IN	NS	nssui.comlaude.ch.
 clearscheme.to.		7200	IN	NS	nsusa.comlaude.net.
-clearspring.to.		7200	IN	NS	ns1.siteground331.com.
-clearspring.to.		7200	IN	NS	ns2.siteground331.com.
 clemens.to.		7200	IN	NS	ns7.zoneedit.com.
 clemens.to.		7200	IN	NS	ns9.zoneedit.com.
 clever.to.		7200	IN	NS	motor.clever.to.
@@ -7551,7 +7527,6 @@ z01.cmp.to.		7200	IN	A	218.219.150.14
 z02.cmp.to.		7200	IN	A	118.238.28.62
 cms.to.			7200	IN	NS	ns1.star-dns.de.
 cms.to.			7200	IN	NS	ns2.star-dns.de.
-cmsexlmrpvk.to.		7200	IN	A	127.0.0.1
 cmv.to.			7200	IN	NS	ns-cloud-e1.googledomains.com.
 cmv.to.			7200	IN	NS	ns-cloud-e2.googledomains.com.
 cmv.to.			7200	IN	NS	ns-cloud-e3.googledomains.com.
@@ -7594,7 +7569,6 @@ cnhglobal.to.		7200	IN	NS	ns1.tosa.twtelecom.net.
 cnhglobal.to.		7200	IN	NS	ns1.casecorp.com.
 cnl.to.			7200	IN	NS	ns1.billboardtv.com.
 cnl.to.			7200	IN	NS	ns2.billboardtv.com.
-cnltqdndecsviea.to.	7200	IN	A	127.0.0.1
 cnn.to.			7200	IN	NS	ns1.timewarner.net.
 cnn.to.			7200	IN	NS	ns3.timewarner.net.
 cnn.to.			7200	IN	NS	ns5.timewarner.net.
@@ -7759,6 +7733,7 @@ colorcontacts.to.	7200	IN	NS	NS1.REGISTER.TO.
 colorcontacts.to.	7200	IN	NS	NS2.REGISTER.TO.
 colorcontacts.to.	7200	IN	NS	NS3.REGISTER.TO.
 colorcontacts.to.	7200	IN	NS	NS4.REGISTER.TO.
+colors.to.		7200	IN	A	127.0.0.1
 colourdigital.to.	7200	IN	NS	dns.site5.com.
 colourdigital.to.	7200	IN	NS	dns2.site5.com.
 columban.to.		7200	IN	NS	ns.sshel.com.
@@ -7909,6 +7884,7 @@ commit.to.		7200	IN	NS	ns1.dnsimple.com.
 commit.to.		7200	IN	NS	ns2.dnsimple.com.
 commit.to.		7200	IN	NS	ns3.dnsimple.com.
 commit.to.		7200	IN	NS	ns4.dnsimple.com.
+committee.to.		7200	IN	A	127.0.0.1
 communicat.to.		7200	IN	NS	dns1.easydns.com.
 communicat.to.		7200	IN	NS	dns2.easydns.net.
 communicat.to.		7200	IN	NS	dns3.easydns.ca.
@@ -8002,6 +7978,7 @@ ns.concordia.to.	7200	IN	A	202.171.133.27
 cond.to.		7200	IN	NS	ns1.iwantmyname.net.
 cond.to.		7200	IN	NS	ns2.iwantmyname.net.
 cond.to.		7200	IN	NS	ns3.iwantmyname.net.
+conditions.to.		7200	IN	A	127.0.0.1
 condolaw.to.		7200	IN	NS	1st.dnshost.ca.
 condolaw.to.		7200	IN	NS	2nd.dnshost.ca.
 condominium.to.		7200	IN	NS	ns6017.hostgator.com.
@@ -8058,6 +8035,7 @@ congo.to.		7200	IN	NS	NS1.REGISTER.TO.
 congo.to.		7200	IN	NS	NS2.REGISTER.TO.
 congo.to.		7200	IN	NS	NS3.REGISTER.TO.
 congo.to.		7200	IN	NS	NS4.REGISTER.TO.
+congress.to.		7200	IN	A	127.0.0.1
 conmo.to.		7200	IN	NS	ns.namespace4you.com.
 conmo.to.		7200	IN	NS	ns2.namespace4you.com.
 conmppnjmrox.to.	7200	IN	A	127.0.0.1
@@ -8240,6 +8218,7 @@ corporate.to.		7200	IN	NS	NS4.REGISTER.TO.
 corporatedirector.to.	7200	IN	NS	ns1.dreamhost.com.
 corporatedirector.to.	7200	IN	NS	ns2.dreamhost.com.
 corporatedirector.to.	7200	IN	NS	ns3.dreamhost.com.
+corporation.to.		7200	IN	A	127.0.0.1
 correl8.to.		7200	IN	NS	s2.sange.fi.
 correl8.to.		7200	IN	NS	ns1.sange.fi.
 corret.to.		7200	IN	NS	ns1.variomedia.de.
@@ -8422,7 +8401,6 @@ cpz.to.			7200	IN	NS	goods.cpz.to.
 goods.cpz.to.		7200	IN	A	203.142.196.101
 cq.to.			7200	IN	NS	NSB.NTX.NET.
 cq.to.			7200	IN	NS	NSX.NTX.NET.
-cqchrrtfswtfdmaj.to.	7200	IN	A	127.0.0.1
 cqgacuhaorrpewru.to.	7200	IN	A	127.0.0.1
 cqgpiuxffcy.to.		7200	IN	A	127.0.0.1
 cqsaeafdv.to.		7200	IN	A	127.0.0.1
@@ -8596,7 +8574,6 @@ crpt.to.		7200	IN	NS	NS1.diamant.io.
 crpt.to.		7200	IN	NS	NS2.diamant.io.
 crs.to.			7200	IN	NS	dns1.stabletransit.com.
 crs.to.			7200	IN	NS	dns2.stabletransit.com.
-crsgxnwfmrxfsxaultb.to.	7200	IN	A	127.0.0.1
 crtkhebsnrbjxcwgs.to.	7200	IN	A	127.0.0.1
 cruise.to.		7200	IN	NS	ns1.sedoparking.com.
 cruise.to.		7200	IN	NS	ns2.sedoparking.com.
@@ -9289,7 +9266,6 @@ ddx.to.			7200	IN	NS	ns-416.awsdns-52.com.
 ddx.to.			7200	IN	NS	ns-870.awsdns-44.net.
 ddx.to.			7200	IN	NS	ns-1299.awsdns-34.org.
 ddx.to.			7200	IN	NS	ns-2000.awsdns-58.co.uk.
-ddxnmmocxxpf.to.	7200	IN	A	127.0.0.1
 de.to.			7200	IN	NS	ns1.asnetworks-ns.de.
 de.to.			7200	IN	NS	ns2.hans.hosteurope.de.
 de.to.			7200	IN	NS	ns2.asnetworks-ns.eu.
@@ -9465,6 +9441,7 @@ deloitte.to.		7200	IN	NS	dns3.easydns.ca.
 delphiau.to.		7200	IN	NS	ns1.iwantmyname.net.
 delphiau.to.		7200	IN	NS	ns2.iwantmyname.net.
 delphiau.to.		7200	IN	NS	ns3.iwantmyname.net.
+deluxebits.to.		7200	IN	A	127.0.0.1
 delvein.to.		7200	IN	NS	ns-97.awsdns-12.com.
 delvein.to.		7200	IN	NS	ns-787.awsdns-34.net.
 delvein.to.		7200	IN	NS	ns-1278.awsdns-31.org.
@@ -9721,7 +9698,6 @@ dhpho.to.		7200	IN	NS	ns1.p14nd4.com.
 dhpho.to.		7200	IN	NS	ns2.p14nd4.com.
 dhpho.to.		7200	IN	NS	ns9.zoneedit.com.
 dhpho.to.		7200	IN	NS	ns17.zoneedit.com.
-dhsaxju.to.		7200	IN	A	127.0.0.1
 dht.to.			7200	IN	NS	ns11.cloudns.net.
 dht.to.			7200	IN	NS	ns12.cloudns.net.
 dht.to.			7200	IN	NS	ns13.cloudns.net.
@@ -9793,8 +9769,6 @@ dienst.to.		7200	IN	NS	ns-de.1and1-dns.com.
 dienst.to.		7200	IN	NS	ns-de.1and1-dns.org.
 diep.to.		7200	IN	NS	ns1.parkingcrew.net.
 diep.to.		7200	IN	NS	ns2.parkingcrew.net.
-diet.to.		7200	IN	NS	ns1.flippa.com.
-diet.to.		7200	IN	NS	ns2.flippa.com.
 dietandweightloss.to.	7200	IN	NS	NS1.NAMEHOST.COM.
 dietandweightloss.to.	7200	IN	NS	NS2.NAMEHOST.COM.
 dietcoke.to.		7200	IN	NS	ns3.ko.com.
@@ -9968,6 +9942,7 @@ discoverychannel.to.	7200	IN	NS	AUTH03.NS.DISCOVERY.COM.
 discoverychannel.to.	7200	IN	NS	AUTH04.NS.DISCOVERY.COM.
 discuss.to.		7200	IN	NS	ns3.robsoninc.com.
 discuss.to.		7200	IN	NS	ns4.robsoninc.com.
+discussions.to.		7200	IN	A	127.0.0.1
 dish.to.		7200	IN	NS	ns1.digitalocean.com.
 dish.to.		7200	IN	NS	ns2.digitalocean.com.
 disk.to.		7200	IN	NS	ns1.elighthost.com.
@@ -9999,6 +9974,7 @@ distri.to.		7200	IN	NS	NS2.DREAMHOST.COM.
 distri.to.		7200	IN	NS	NS3.DREAMHOST.COM.
 distri.to.		7200	IN	NS	NS4.REGISTER.TO.
 distribute.to.		7200	IN	NS	a.dns.park.io.
+distribution.to.	7200	IN	A	127.0.0.1
 dit.to.			7200	IN	NS	ns1.p08.dynect.net.
 dit.to.			7200	IN	NS	ns2.p08.dynect.net.
 dit.to.			7200	IN	NS	ns3.p08.dynect.net.
@@ -10117,7 +10093,6 @@ dmngo.to.		7200	IN	NS	ns-205.awsdns-25.com.
 dmngo.to.		7200	IN	NS	ns-619.awsdns-13.net.
 dmngo.to.		7200	IN	NS	ns-1146.awsdns-15.org.
 dmngo.to.		7200	IN	NS	ns-1893.awsdns-44.co.uk.
-dmotgvbmjnlkwdmq.to.	7200	IN	A	127.0.0.1
 dmovies.to.		7200	IN	NS	ns1.dondominio.com.
 dmovies.to.		7200	IN	NS	ns2.dondominio.com.
 dmsarchservices.to.	7200	IN	NS	NS10.VWH1.NET.
@@ -10203,7 +10178,6 @@ doctorvape.to.		7200	IN	NS	NS3.REGISTER.TO.
 doctorvape.to.		7200	IN	NS	NS4.REGISTER.TO.
 documentflow.to.	7200	IN	NS	ns1.verio.com.
 documentflow.to.	7200	IN	NS	ns2.verio.com.
-documents.to.		7200	IN	A	127.0.0.1
 docusign.to.		7200	IN	NS	ns1.markmonitor.com.
 docusign.to.		7200	IN	NS	ns3.markmonitor.com.
 dod.to.			7200	IN	NS	ns1.easyname.eu.
@@ -10248,6 +10222,7 @@ dokazes.to.		7200	IN	NS	ns.wedos.cz.
 dokazes.to.		7200	IN	NS	ns.wedos.eu.
 dokazes.to.		7200	IN	NS	ns.wedos.com.
 dokazes.to.		7200	IN	NS	ns.wedos.net.
+dokoupit.to.		7200	IN	A	127.0.0.1
 doku.to.		7200	IN	NS	ns1.worldwidedns.net.
 doku.to.		7200	IN	NS	ns2.worldwidedns.net.
 dokus.to.		7200	IN	NS	ns1.above.com.
@@ -10561,12 +10536,14 @@ drama.to.		7200	IN	NS	ns1.above.com.
 drama.to.		7200	IN	NS	ns2.above.com.
 dramacoo.to.		7200	IN	NS	ns1.above.com.
 dramacoo.to.		7200	IN	NS	ns2.above.com.
+dramacool.to.		7200	IN	A	127.0.0.1
 dramacools.to.		7200	IN	NS	tim.ns.cloudflare.com.
 dramacools.to.		7200	IN	NS	kate.ns.cloudflare.com.
 dramalove.to.		7200	IN	NS	ns1.above.com.
 dramalove.to.		7200	IN	NS	ns2.above.com.
 dramanica.to.		7200	IN	NS	ns1.above.com.
 dramanica.to.		7200	IN	NS	ns2.above.com.
+dramanice.to.		7200	IN	A	127.0.0.1
 dramaonline.to.		7200	IN	NS	NS1.REGISTER.TO.
 dramaonline.to.		7200	IN	NS	NS2.REGISTER.TO.
 dramaonline.to.		7200	IN	NS	NS3.REGISTER.TO.
@@ -10648,7 +10625,6 @@ drl.to.			7200	IN	NS	ns3.systemdns.com.
 drmartens.to.		7200	IN	NS	ns.domainnetwork.se.
 drmartens.to.		7200	IN	NS	ns2.domainnetwork.se.
 drmartens.to.		7200	IN	NS	ns3.domainnetwork.com.
-dro-pfile.to.		7200	IN	A	127.0.0.1
 drogen-bestellen.to.	7200	IN	NS	tina.ns.cloudflare.com.
 drogen-bestellen.to.	7200	IN	NS	norman.ns.cloudflare.com.
 drogen-kaufen.to.	7200	IN	NS	gabe.ns.cloudflare.com.
@@ -10667,6 +10643,7 @@ droni.to.		7200	IN	NS	ns1.marketpla.org.
 droni.to.		7200	IN	NS	ns2.marketpla.org.
 drop.to.		7200	IN	NS	NS1.BODIS.COM.
 drop.to.		7200	IN	NS	NS2.BODIS.COM.
+drop--file.to.		7200	IN	A	127.0.0.1
 drop-file.to.		7200	IN	A	127.0.0.1
 dropbox.to.		7200	IN	NS	ns1.markmonitor.com.
 dropbox.to.		7200	IN	NS	ns2.markmonitor.com.
@@ -10789,13 +10766,11 @@ dsp.to.			7200	IN	NS	ns1.enyou.org.
 dsp.to.			7200	IN	NS	ns1.value-domain.com.
 dsp.to.			7200	IN	NS	ns2.value-domain.com.
 dsqkybjxswbvxutiwll.to.	7200	IN	A	127.0.0.1
-dsqwdekroaqhterpnjup.to. 7200	IN	A	127.0.0.1
 dst.to.			7200	IN	NS	ns1.onlydomains.com.
 dst.to.			7200	IN	NS	ns2.onlydomains.com.
 dst.to.			7200	IN	NS	ns3.onlydomains.com.
 dstv.to.		7200	IN	NS	dns01.naspers.com.
 dstv.to.		7200	IN	NS	dns02.naspers.com.
-dsurahwveiw.to.		7200	IN	A	127.0.0.1
 dswjypjeiybgfr.to.	7200	IN	A	127.0.0.1
 dsyahxw.to.		7200	IN	A	127.0.0.1
 dt.to.			7200	IN	NS	ns1.asknaveed.com.
@@ -10940,7 +10915,6 @@ dw.to.			7200	IN	NS	b.dns.park.io.
 dwango.to.		7200	IN	NS	ns101.dwango.co.jp.
 dwango.to.		7200	IN	NS	ns102.dwango.co.jp.
 dwdpqylsodxyvaruv.to.	7200	IN	A	127.0.0.1
-dwesperpgd.to.		7200	IN	A	127.0.0.1
 dwfpeojqlgarhak.to.	7200	IN	A	127.0.0.1
 dwtceiljtpxaqiqdedn.to.	7200	IN	A	127.0.0.1
 dwvwqvfucpoucjfbt.to.	7200	IN	A	127.0.0.1
@@ -11255,7 +11229,6 @@ ebq.to.			7200	IN	NS	ns1.netnames.net.
 ebq.to.			7200	IN	NS	ns2.netnames.net.
 ebq.to.			7200	IN	NS	ns5.netnames.net.
 ebq.to.			7200	IN	NS	ns6.netnames.net.
-ebssttfpfhpgjbkuu.to.	7200	IN	A	127.0.0.1
 ebuch.to.		7200	IN	NS	ns.space.net.
 ebuch.to.		7200	IN	NS	ns.softpoint.de.
 ebuch.to.		7200	IN	NS	ns3.dns.space.net.
@@ -11550,7 +11523,6 @@ eg.to.			7200	IN	NS	NS3.REGISTER.TO.
 eg.to.			7200	IN	NS	NS4.REGISTER.TO.
 egashira.to.		7200	IN	NS	NS1.DNS.NE.JP.
 egashira.to.		7200	IN	NS	NS2.DNS.NE.JP.
-egdpgyhrdbyi.to.	7200	IN	A	127.0.0.1
 egg.to.			7200	IN	NS	ns1.digitalocean.com.
 egg.to.			7200	IN	NS	ns2.digitalocean.com.
 egg.to.			7200	IN	NS	ns3.digitalocean.com.
@@ -11637,7 +11609,6 @@ eke.to.			7200	IN	NS	ns1.loungenetwork.biz.
 eke.to.			7200	IN	NS	ns2.loungenetwork.biz.
 ekelund.to.		7200	IN	NS	ns1.mailbank.com.
 ekelund.to.		7200	IN	NS	ns2.mailbank.com.
-ekemtqajhqouscmgih.to.	7200	IN	A	127.0.0.1
 ekgnpjggyilwhjd.to.	7200	IN	A	127.0.0.1
 eki.to.			7200	IN	NS	dns01.gmoserver.jp.
 eki.to.			7200	IN	NS	dns02.gmoserver.jp.
@@ -11719,7 +11690,6 @@ elitepvpers.to.		7200	IN	NS	ns1.cloudns.net.
 elitepvpers.to.		7200	IN	NS	ns2.cloudns.net.
 elitepvpers.to.		7200	IN	NS	ns3.cloudns.net.
 elitepvpers.to.		7200	IN	NS	ns4.cloudns.net.
-elitetorrent.to.	7200	IN	A	127.0.0.1
 ellas.to.		7200	IN	NS	NS1.REGISTER.TO.
 ellas.to.		7200	IN	NS	NS2.REGISTER.TO.
 ellas.to.		7200	IN	NS	NS3.REGISTER.TO.
@@ -11821,6 +11791,7 @@ emjones.to.		7200	IN	NS	ns12.dnsmadeeasy.com.
 emjones.to.		7200	IN	NS	ns13.dnsmadeeasy.com.
 eml.to.			7200	IN	NS	ns0.nipponsolutions.com.
 eml.to.			7200	IN	NS	ns1.nipponsolutions.com.
+emltbywiqv.to.		7200	IN	A	127.0.0.1
 emm.to.			7200	IN	NS	ns1.ecentry.com.
 emm.to.			7200	IN	NS	ns2.ecentry.com.
 emoji.to.		7200	IN	NS	NS1.SEDOPARKING.COM.
@@ -12084,7 +12055,6 @@ equivalent.to.		7200	IN	NS	ns3.hyp.net.
 eqv.to.			7200	IN	NS	ns1.hyp.net.
 eqv.to.			7200	IN	NS	ns2.hyp.net.
 eqv.to.			7200	IN	NS	ns3.hyp.net.
-eqxglairpvgcktsmdr.to.	7200	IN	A	127.0.0.1
 er.to.			7200	IN	NS	a.dns.park.io.
 er.to.			7200	IN	NS	b.dns.park.io.
 era.to.			7200	IN	NS	a.dns.park.io.
@@ -12552,6 +12522,8 @@ exness.to.		7200	IN	NS	ns1.markmonitor.com.
 exness.to.		7200	IN	NS	ns3.markmonitor.com.
 exo.to.			7200	IN	NS	ns1.hans.hosteurope.de.
 exo.to.			7200	IN	NS	ns2.hans.hosteurope.de.
+exodus.to.		7200	IN	NS	theo.ns.cloudflare.com.
+exodus.to.		7200	IN	NS	serena.ns.cloudflare.com.
 exomail.to.		7200	IN	NS	server.exomail.to.
 exomail.to.		7200	IN	NS	exomailns.exoneon.de.
 server.exomail.to.	7200	IN	A	144.76.168.43
@@ -12573,8 +12545,6 @@ expediatravel.to.	7200	IN	NS	pdns1.ultradns.net.
 expediatravel.to.	7200	IN	NS	pdns2.ultradns.net.
 expediatravel.to.	7200	IN	NS	pdns3.ultradns.org.
 expediatravel.to.	7200	IN	NS	pdns4.ultradns.org.
-expedition.to.		7200	IN	NS	dns.alpha.pl.
-expedition.to.		7200	IN	NS	dns2.alpha.pl.
 expeert.to.		7200	IN	NS	a.ns.mailclub.fr.
 expeert.to.		7200	IN	NS	b.ns.mailclub.eu.
 expeert.to.		7200	IN	NS	c.ns.mailclub.com.
@@ -12646,7 +12616,6 @@ ey.to.			7200	IN	NS	NS1.REGISTER.TO.
 ey.to.			7200	IN	NS	NS2.REGISTER.TO.
 ey.to.			7200	IN	NS	NS3.REGISTER.TO.
 ey.to.			7200	IN	NS	NS4.REGISTER.TO.
-eyayhtvrd.to.		7200	IN	A	127.0.0.1
 eyecare.to.		7200	IN	NS	mns01.domaincontrol.com.
 eyecare.to.		7200	IN	NS	mns02.domaincontrol.com.
 eyecontacts.to.		7200	IN	NS	NS1.REGISTER.TO.
@@ -12974,7 +12943,6 @@ fcl.to.			7200	IN	NS	gss1.monopost.com.
 fcl.to.			7200	IN	NS	gss3.monopost.com.
 fcl.to.			7200	IN	NS	gss6.monopost.com.
 fcl.to.			7200	IN	NS	gss8.monopost.com.
-fcltlhmlaqdgkaqvkgdiq.to. 7200	IN	A	127.0.0.1
 fd.to.			7200	IN	NS	ns1.fornex.com.
 fd.to.			7200	IN	NS	ns2.fornex.com.
 fdc.to.			7200	IN	NS	WSC1.JOMAX.NET.
@@ -13013,7 +12981,6 @@ feelfree.to.		7200	IN	NS	ns4.dnsimple.com.
 feet.to.		7200	IN	NS	ns1.digitalocean.com.
 feet.to.		7200	IN	NS	ns2.digitalocean.com.
 feet.to.		7200	IN	NS	ns3.digitalocean.com.
-fegebnqbcik.to.		7200	IN	A	127.0.0.1
 feilong.to.		7200	IN	NS	ns1.xserver.jp.
 feilong.to.		7200	IN	NS	ns2.xserver.jp.
 feilong.to.		7200	IN	NS	ns3.xserver.jp.
@@ -13086,7 +13053,6 @@ few.to.			7200	IN	NS	ns1.daily.co.uk.
 few.to.			7200	IN	NS	ns2.daily.co.uk.
 fexcopacific.to.	7200	IN	NS	ns1.diginet.to.
 fexcopacific.to.	7200	IN	NS	ns2.diginet.to.
-feygeervwnsrv.to.	7200	IN	A	127.0.0.1
 ff.to.			7200	IN	NS	a.dns.park.io.
 ff.to.			7200	IN	NS	b.dns.park.io.
 ffau.to.		7200	IN	NS	ns3.iwantmyname.net.
@@ -13099,7 +13065,6 @@ fff.to.			7200	IN	NS	lv3ns1.ffdns.net.
 fff.to.			7200	IN	NS	lv3ns2.ffdns.net.
 fff.to.			7200	IN	NS	lv3ns3.ffdns.net.
 fff.to.			7200	IN	NS	lv3ns4.ffdns.net.
-ffgucaiptoqvjdhgshgb.to. 7200	IN	A	127.0.0.1
 ffrkxgbtwuvvkomln.to.	7200	IN	A	127.0.0.1
 fft.to.			7200	IN	NS	dns37.register.com.
 fft.to.			7200	IN	NS	dns38.register.com.
@@ -13161,6 +13126,7 @@ fibs.to.		7200	IN	NS	ns3.digitalpacific.com.au.
 fibs.to.		7200	IN	NS	ns4.digitalpacific.com.au.
 ficksburg.to.		7200	IN	NS	ns1.leo.co.ls.
 ficksburg.to.		7200	IN	NS	sas.leo.co.ls.
+fictionbooks.to.	7200	IN	A	127.0.0.1
 fid.to.			7200	IN	NS	ns1.iwantmyname.net.
 fid.to.			7200	IN	NS	ns2.iwantmyname.net.
 fid.to.			7200	IN	NS	ns3.iwantmyname.net.
@@ -13793,6 +13759,7 @@ foc.to.			7200	IN	NS	ns1.variomedia.de.
 foc.to.			7200	IN	NS	ns2.variomedia.de.
 focus.to.		7200	IN	NS	a.dns.park.io.
 focus.to.		7200	IN	NS	b.dns.park.io.
+focused.to.		7200	IN	A	127.0.0.1
 foe.to.			7200	IN	NS	NS1.REGISTER.TO.
 foe.to.			7200	IN	NS	NS2.REGISTER.TO.
 foe.to.			7200	IN	NS	NS3.REGISTER.TO.
@@ -14283,7 +14250,6 @@ frs.to.			7200	IN	NS	ns2.parkingcrew.net.
 fruits.to.		7200	IN	NS	ns.argewebhosting.nl.
 fruits.to.		7200	IN	NS	ns0.argewebhosting.nl.
 fruits.to.		7200	IN	NS	ns3.argewebhosting.nl.
-fruylxufjlv.to.		7200	IN	A	127.0.0.1
 frwd.to.		7200	IN	NS	ns1.yourisp.co.za.
 frwd.to.		7200	IN	NS	ns2.yourisp.co.za.
 frwd.to.		7200	IN	NS	ns3.yourisp.za.net.
@@ -14298,7 +14264,6 @@ fsm.to.			7200	IN	NS	b.regfish-ns.net.
 fsm.to.			7200	IN	NS	c.regfish-ns.net.
 fsn.to.			7200	IN	NS	liv.ns.cloudflare.com.
 fsn.to.			7200	IN	NS	damon.ns.cloudflare.com.
-fsvuaofcfuejah.to.	7200	IN	A	127.0.0.1
 ft.to.			7200	IN	NS	dns1.zoneedit.com.
 ft.to.			7200	IN	NS	dns2.zoneedit.com.
 ftjkolmpilxpikrt.to.	7200	IN	A	127.0.0.1
@@ -14351,7 +14316,6 @@ fujimo.to.		7200	IN	NS	uns01.lolipop.jp.
 fujimo.to.		7200	IN	NS	uns02.lolipop.jp.
 fujitsu.to.		7200	IN	NS	rns1.rightsdns.com.
 fujitsu.to.		7200	IN	NS	rns2.rightsdns.com.
-fuklfwnwg.to.		7200	IN	A	127.0.0.1
 fukofishing.to.		7200	IN	NS	ns5.hmdnsgroup.com.
 fukofishing.to.		7200	IN	NS	ns6.hmdnsgroup.com.
 fukumo.to.		7200	IN	NS	ns.conte.jp.
@@ -14532,8 +14496,6 @@ fxcm.to.		7200	IN	NS	dns3.idp365.net.
 fxdd.to.		7200	IN	NS	pdns1.ultradns.net.
 fxdd.to.		7200	IN	NS	pdns2.ultradns.net.
 fxdd.to.		7200	IN	NS	pdns3.ultradns.org.
-fxjvfsklqyy.to.		7200	IN	A	127.0.0.1
-fxmanarlbtmsvehvig.to.	7200	IN	A	127.0.0.1
 fxqppxlk.to.		7200	IN	A	127.0.0.1
 fy.to.			7200	IN	NS	pns1.cloudns.net.
 fy.to.			7200	IN	NS	pns2.cloudns.net.
@@ -14897,7 +14859,6 @@ gd683600c264b5f524634f70546ae5167c.to. 7200 IN A 127.0.0.1
 gda.to.			7200	IN	NS	ns1.strettodns.co.uk.
 gda.to.			7200	IN	NS	ns2.strettodns.co.uk.
 gdab3c80e70ba65f5dcba3a217465e4bad.to. 7200 IN A 127.0.0.1
-gdadgjkqisxsp.to.	7200	IN	A	127.0.0.1
 gday.to.		7200	IN	NS	NS-266.AWSDNS-33.COM.
 gday.to.		7200	IN	NS	NS-695.AWSDNS-22.NET.
 gday.to.		7200	IN	NS	NS-1079.AWSDNS-06.ORG.
@@ -14922,7 +14883,6 @@ gear.to.		7200	IN	NS	ns4.linode.com.
 gearshth.to.		7200	IN	A	127.0.0.1
 geb6fd16934985ba7109f5f0594bcef05f.to. 7200 IN A 127.0.0.1
 gebrjiivydwkxvynbxx.to.	7200	IN	A	127.0.0.1
-geccyygedwip.to.	7200	IN	A	127.0.0.1
 gee.to.			7200	IN	NS	ns1.softlayer.com.
 gee.to.			7200	IN	NS	ns2.softlayer.com.
 geedo.to.		7200	IN	NS	ns1.101domain.com.
@@ -15240,7 +15200,6 @@ ginchan.to.		7200	IN	NS	uns01.lolipop.jp.
 ginchan.to.		7200	IN	NS	uns02.lolipop.jp.
 ginga.to.		7200	IN	NS	ns1.tsukaeru.net.
 ginga.to.		7200	IN	NS	ns2.tsukaeru.net.
-ginoijbpegjghe.to.	7200	IN	A	127.0.0.1
 gioielli.to.		7200	IN	NS	ns1.anadoludns.com.
 gioielli.to.		7200	IN	NS	ns2.anadoludns.com.
 gion.to.		7200	IN	NS	uns01.lolipop.jp.
@@ -15309,7 +15268,6 @@ gj.to.			7200	IN	NS	ns2.domaindiscount24.net.
 gjm.to.			7200	IN	NS	ns1.sogoo.to.
 gjm.to.			7200	IN	NS	ns2.sogoo.to.
 gjm.to.			7200	IN	NS	ns4.sogoo.to.
-gjncbxbtsjwolyvcyt.to.	7200	IN	A	127.0.0.1
 gjpcvisi.to.		7200	IN	A	127.0.0.1
 gjtjdvdixnd.to.		7200	IN	A	127.0.0.1
 gk.to.			7200	IN	NS	ns1.above.com.
@@ -15318,7 +15276,6 @@ gka.to.			7200	IN	NS	ns-190.awsdns-23.com.
 gka.to.			7200	IN	NS	ns-586.awsdns-09.net.
 gka.to.			7200	IN	NS	ns-1493.awsdns-58.org.
 gka.to.			7200	IN	NS	ns-1682.awsdns-18.co.uk.
-gkldtrfrlon.to.		7200	IN	A	127.0.0.1
 gkmfqctqp.to.		7200	IN	A	127.0.0.1
 gkqbgnmwdlopxnuyuw.to.	7200	IN	A	127.0.0.1
 gl.to.			7200	IN	NS	a.dns.park.io.
@@ -15455,7 +15412,6 @@ gmb.to.			7200	IN	NS	ns-1324.awsdns-37.org.
 gmb.to.			7200	IN	NS	ns-1805.awsdns-33.co.uk.
 gmc.to.			7200	IN	NS	ns1.parkingcrew.net.
 gmc.to.			7200	IN	NS	ns2.parkingcrew.net.
-gmcggirvnxsqppaldckwcw.to. 7200	IN	A	127.0.0.1
 gmfinancial.to.		7200	IN	NS	ns1.101domain.com.
 gmfinancial.to.		7200	IN	NS	ns2.101domain.com.
 gmfinancial.to.		7200	IN	NS	ns5.101domain.com.
@@ -15471,7 +15427,6 @@ gmm.to.			7200	IN	NS	NS1.REGISTER.TO.
 gmm.to.			7200	IN	NS	NS2.REGISTER.TO.
 gmm.to.			7200	IN	NS	NS3.REGISTER.TO.
 gmm.to.			7200	IN	NS	NS4.REGISTER.TO.
-gmnvkbsyxcr.to.		7200	IN	A	127.0.0.1
 gmo.to.			7200	IN	NS	dns.home.pl.
 gmo.to.			7200	IN	NS	dns2.home.pl.
 gmo.to.			7200	IN	NS	dns3.home.plho.
@@ -15493,7 +15448,6 @@ gnab.to.		7200	IN	NS	ns1.arvato-systems.de.
 gnab.to.		7200	IN	NS	ns2.arvato-systems.de.
 gnab.to.		7200	IN	NS	dns009.arvato-systems.de.
 gnab.to.		7200	IN	NS	dns017.arvato-systems.de.
-gnddxnkuetj.to.		7200	IN	A	127.0.0.1
 gndesruvn.to.		7200	IN	A	127.0.0.1
 gni.to.			7200	IN	NS	NS1.REGISTER.TO.
 gni.to.			7200	IN	NS	NS2.REGISTER.TO.
@@ -15531,10 +15485,8 @@ goal.to.		7200	IN	NS	a.dns.park.io.
 goal.to.		7200	IN	NS	b.dns.park.io.
 goanime.to.		7200	IN	NS	amit.ns.cloudflare.com.
 goanime.to.		7200	IN	NS	mona.ns.cloudflare.com.
-goanywhere.to.		7200	IN	NS	nsr1.domeny.com.
-goanywhere.to.		7200	IN	NS	nsr2.domeny.com.
-goanywhere.to.		7200	IN	NS	nsr3.domeny.com.
-goanywhere.to.		7200	IN	NS	nsr4.domeny.com.
+goanywhere.to.		7200	IN	NS	dns.home.pl.
+goanywhere.to.		7200	IN	NS	dns2.home.pl.
 goat.to.		7200	IN	NS	hank.ns.cloudflare.com.
 goat.to.		7200	IN	NS	ruth.ns.cloudflare.com.
 gochudbvggtcwlokvedo.to. 7200	IN	A	127.0.0.1
@@ -15789,7 +15741,6 @@ gph.to.			7200	IN	NS	ns-210.awsdns-26.com.
 gph.to.			7200	IN	NS	ns-635.awsdns-15.net.
 gph.to.			7200	IN	NS	ns-1430.awsdns-50.org.
 gph.to.			7200	IN	NS	ns-1808.awsdns-34.co.uk.
-gphjvpvfgfgpnacow.to.	7200	IN	A	127.0.0.1
 gpho.to.		7200	IN	NS	ns-473.awsdns-59.com.
 gpho.to.		7200	IN	NS	ns-682.awsdns-21.net.
 gpho.to.		7200	IN	NS	ns-1457.awsdns-54.org.
@@ -16019,7 +15970,6 @@ gsk.to.			7200	IN	NS	ns-2004.awsdns-58.co.uk.
 gspr.to.		7200	IN	NS	ns1.systemdns.com.
 gspr.to.		7200	IN	NS	ns2.systemdns.com.
 gspr.to.		7200	IN	NS	ns3.systemdns.com.
-gssbvkgacjxqmcjfrmpw.to. 7200	IN	A	127.0.0.1
 gstation.to.		7200	IN	NS	wdns1.dotcanada.com.
 gstation.to.		7200	IN	NS	wdns2.dotcanada.com.
 gstream.to.		7200	IN	NS	ed.ns.cloudflare.com.
@@ -16126,7 +16076,6 @@ gutsgus.to.		7200	IN	NS	NS1.REGISTER.TO.
 gutsgus.to.		7200	IN	NS	NS2.REGISTER.TO.
 gutsgus.to.		7200	IN	NS	NS3.REGISTER.TO.
 gutsgus.to.		7200	IN	NS	NS4.REGISTER.TO.
-guvwlhfagtjnb.to.	7200	IN	A	127.0.0.1
 guy.to.			7200	IN	NS	ns1.above.com.
 guy.to.			7200	IN	NS	ns2.above.com.
 gvadlncnuixkyd.to.	7200	IN	A	127.0.0.1
@@ -16151,7 +16100,6 @@ gxi.to.			7200	IN	NS	NS2.REGISTER.TO.
 gxi.to.			7200	IN	NS	NS3.REGISTER.TO.
 gxi.to.			7200	IN	NS	NS4.REGISTER.TO.
 gxiewehrmq.to.		7200	IN	A	127.0.0.1
-gxlpoqeevlwidrldfsh.to.	7200	IN	A	127.0.0.1
 gyg.to.			7200	IN	NS	ns-418.awsdns-52.com.
 gyg.to.			7200	IN	NS	ns-969.awsdns-57.net.
 gyg.to.			7200	IN	NS	ns-1099.awsdns-09.org.
@@ -16223,7 +16171,6 @@ haavis.to.		7200	IN	NS	ns-fi.elisa.net.
 haavis.to.		7200	IN	NS	ns-se.elisa.net.
 habbo.to.		7200	IN	NS	chin.ns.cloudflare.com.
 habbo.to.		7200	IN	NS	james.ns.cloudflare.com.
-habfidfxgrqiamdyarppk.to. 7200	IN	A	127.0.0.1
 habi.to.		7200	IN	NS	ns-378.awsdns-47.com.
 habi.to.		7200	IN	NS	ns-968.awsdns-57.net.
 habi.to.		7200	IN	NS	ns-1124.awsdns-12.org.
@@ -16540,7 +16487,6 @@ hbrvxiuwovmoax.to.	7200	IN	A	127.0.0.1
 hbs.to.			7200	IN	NS	NS1.LEASEWEB.NL.
 hbs.to.			7200	IN	NS	NS4.LEASEWEB.NET.
 hbs.to.			7200	IN	NS	NS5.LEASEWEB.NL.
-hbwdbkwklufhwgxuvxpm.to. 7200	IN	A	127.0.0.1
 hc.to.			7200	IN	NS	erin.ns.cloudflare.com.
 hc.to.			7200	IN	NS	jake.ns.cloudflare.com.
 hc1.to.			7200	IN	NS	ns-12.awsdns-01.com.
@@ -16836,7 +16782,6 @@ hf.to.			7200	IN	NS	ns2.dreamhost.com.
 hf.to.			7200	IN	NS	ns3.dreamhost.com.
 hfcqxfvdacfep.to.	7200	IN	A	127.0.0.1
 hfeabjuaite.to.		7200	IN	A	127.0.0.1
-hfjqrjnkdalsquxc.to.	7200	IN	A	127.0.0.1
 hfma.to.		7200	IN	NS	dns1.transnexis.net.
 hfma.to.		7200	IN	NS	dns2.transnexis.net.
 hfma.to.		7200	IN	NS	dns3.transnexis.net.
@@ -16999,6 +16944,9 @@ hirohi.to.		7200	IN	NS	NS3.VALUE-DOMAIN.COM.
 hirose.to.		7200	IN	NS	dns.digitown.ne.jp.
 hirose.to.		7200	IN	NS	dns2.digitown.ne.jp.
 hiroshi.to.		7200	IN	NS	ns1.ashidamana.club.
+hirosushi.to.		7200	IN	NS	rush.easydns.com.
+hirosushi.to.		7200	IN	NS	nirvana.easydns.net.
+hirosushi.to.		7200	IN	NS	motorhead.easydns.org.
 hisa.to.		7200	IN	NS	ns1.primevps.net.
 hisa.to.		7200	IN	NS	ns2.primevps.net.
 histology.to.		7200	IN	NS	ns1.above.com.
@@ -17127,7 +17075,6 @@ hoboworld.to.		7200	IN	NS	ns-cloud-c1.googledomains.com.
 hoboworld.to.		7200	IN	NS	ns-cloud-c2.googledomains.com.
 hoboworld.to.		7200	IN	NS	ns-cloud-c3.googledomains.com.
 hoboworld.to.		7200	IN	NS	ns-cloud-c4.googledomains.com.
-hobshynubiwrdpg.to.	7200	IN	A	127.0.0.1
 hobson.to.		7200	IN	NS	ns0.phase8.net.
 hobson.to.		7200	IN	NS	ns1.phase8.net.
 hobson.to.		7200	IN	NS	ns2.phase8.net.
@@ -17585,7 +17532,6 @@ hpr.to.			7200	IN	NS	ns3.namesystem.se.
 hpuxxcnkkqdedvdalpc.to.	7200	IN	A	127.0.0.1
 hpy.to.			7200	IN	NS	ns1.swissnameserver.com.
 hpy.to.			7200	IN	NS	ns2.swissnameserver.com.
-hqbelsdrjmrebpvwlidhk.to. 7200	IN	A	127.0.0.1
 hqjvxnldhhrjyhs.to.	7200	IN	A	127.0.0.1
 hrabxbdgvynq.to.	7200	IN	A	127.0.0.1
 hraj.to.		7200	IN	NS	NS1.REGISTER.TO.
@@ -17623,6 +17569,7 @@ hsg.to.			7200	IN	NS	ns2.cloud.tele2.nl.
 hsgcroetck.to.		7200	IN	A	127.0.0.1
 hsi.to.			7200	IN	NS	ns1.dns.ne.jp.
 hsi.to.			7200	IN	NS	ns2.dns.ne.jp.
+hskankan.to.		7200	IN	A	127.0.0.1
 hsmktufehh.to.		7200	IN	A	127.0.0.1
 hspdat.to.		7200	IN	NS	ns0.1984.is.
 hspdat.to.		7200	IN	NS	ns1.1984.is.
@@ -17630,7 +17577,6 @@ hswsijuwmvnxmmkdbqf.to.	7200	IN	A	127.0.0.1
 hsxycacs.to.		7200	IN	A	127.0.0.1
 ht.to.			7200	IN	NS	ns3.maid-san.jp.
 ht.to.			7200	IN	NS	ns4.maid-san.jp.
-htadpdtojiciemcoci.to.	7200	IN	A	127.0.0.1
 htm.to.			7200	IN	NS	ns.htm.to.
 htm.to.			7200	IN	NS	ns.mate.to.
 ns.htm.to.		7200	IN	A	203.152.193.130
@@ -17978,7 +17924,6 @@ iban.to.		7200	IN	NS	ns1.variomedia.de.
 iban.to.		7200	IN	NS	ns2.variomedia.de.
 ibd.to.			7200	IN	NS	cust-ns1.primus.ca.
 ibd.to.			7200	IN	NS	cust-ns2.primus.ca.
-ibdsabpbxoegeoqyrtvpjm.to. 7200	IN	A	127.0.0.1
 ibeen.to.		7200	IN	NS	NS1.101DOMAIN.COM.
 ibeen.to.		7200	IN	NS	NS2.101DOMAIN.COM.
 ibeen.to.		7200	IN	NS	NS5.101DOMAIN.COM.
@@ -17994,7 +17939,6 @@ ibfhrvbawgffjsst.to.	7200	IN	A	127.0.0.1
 ibhxvoglikyonhxmeq.to.	7200	IN	A	127.0.0.1
 ibiza.to.		7200	IN	NS	ns0.asmailnow.co.uk.
 ibiza.to.		7200	IN	NS	ns2.asmailnow.co.uk.
-iblswuwomcrksnc.to.	7200	IN	A	127.0.0.1
 ibmsyjolqsndtaufc.to.	7200	IN	A	127.0.0.1
 ibo.to.			7200	IN	NS	freedns1.registrar-servers.com.
 ibo.to.			7200	IN	NS	freedns2.registrar-servers.com.
@@ -18029,7 +17973,6 @@ icc.to.			7200	IN	NS	ns2.dzndns.com.
 icc.to.			7200	IN	NS	ns3.dzndns.com.
 icc.to.			7200	IN	NS	ns4.dzndns.com.
 iccf5b6e3a767e4c902ac8bf6252accd12.to. 7200 IN A 127.0.0.1
-iccvirxwhhjtjnuxwt.to.	7200	IN	A	127.0.0.1
 ice.to.			7200	IN	NS	ns1.ice.to.
 ice.to.			7200	IN	NS	ns2.ice.to.
 ice.to.			7200	IN	NS	ns3.ice.to.
@@ -18192,7 +18135,6 @@ idpaythem.to.		7200	IN	NS	ns-1616.awsdns-10.co.uk.
 idpeuscyqtqu.to.	7200	IN	A	127.0.0.1
 idpho.to.		7200	IN	NS	ns1.ns-serve.net.
 idpho.to.		7200	IN	NS	ns2.ns-serve.net.
-idpxfgadetiy.to.	7200	IN	A	127.0.0.1
 ids.to.			7200	IN	NS	ns1.dns.ne.jp.
 ids.to.			7200	IN	NS	ns2.dns.ne.jp.
 idv.to.			7200	IN	NS	NS1.SEDOPARKING.COM.
@@ -18245,7 +18187,6 @@ ifes.to.		7200	IN	NS	ns2.s225.sureserver.com.
 ifeyabgvlagmbsup.to.	7200	IN	A	127.0.0.1
 ifgf.to.		7200	IN	NS	jean.ns.cloudflare.com.
 ifgf.to.		7200	IN	NS	paul.ns.cloudflare.com.
-ifisawksanxaimvwbwjxmsn.to. 7200 IN	A	127.0.0.1
 ifly.to.		7200	IN	NS	v1.pcextreme.nl.
 ifly.to.		7200	IN	NS	v2.pcextreme.nl.
 ifly.to.		7200	IN	NS	v3.pcextreme.eu.
@@ -18340,7 +18281,6 @@ iio.to.			7200	IN	NS	ns-1335.awsdns-38.org.
 iio.to.			7200	IN	NS	ns-1664.awsdns-16.co.uk.
 ijdultnywjfhi.to.	7200	IN	A	127.0.0.1
 ijgssjyhbvdniy.to.	7200	IN	A	127.0.0.1
-ijhlhxdsgbvbfcjnlvvn.to. 7200	IN	A	127.0.0.1
 ikdmngbubjnibcnllve.to.	7200	IN	A	127.0.0.1
 ike.to.			7200	IN	NS	ns1.linode.com.
 ike.to.			7200	IN	NS	ns2.linode.com.
@@ -18688,6 +18628,7 @@ inform.to.		7200	IN	NS	ns-221.awsdns-27.com.
 inform.to.		7200	IN	NS	ns-920.awsdns-51.net.
 inform.to.		7200	IN	NS	ns-1076.awsdns-06.org.
 inform.to.		7200	IN	NS	ns-1794.awsdns-32.co.uk.
+information.to.		7200	IN	A	127.0.0.1
 infoseek.to.		7200	IN	NS	ns1.markmonitor.com.
 infoseek.to.		7200	IN	NS	ns3.markmonitor.com.
 infosite.to.		7200	IN	NS	dns5.register.com.
@@ -18731,6 +18672,7 @@ injurylawyer.to.	7200	IN	NS	NS3.REGISTER.TO.
 injurylawyer.to.	7200	IN	NS	NS4.REGISTER.TO.
 ink.to.			7200	IN	NS	uns01.lolipop.jp.
 ink.to.			7200	IN	NS	uns02.lolipop.jp.
+inkjets.to.		7200	IN	A	127.0.0.1
 inko9ni.to.		7200	IN	NS	ns1.bluehost.com.
 inko9ni.to.		7200	IN	NS	ns2.bluehost.com.
 inks.to.		7200	IN	NS	ns1.bluehost.com.
@@ -18743,7 +18685,6 @@ inl.to.			7200	IN	NS	ns1.hostyourservices.net.
 inl.to.			7200	IN	NS	ns2.hostyourservices.net.
 inl.to.			7200	IN	NS	ns3.hostyourservices.net.
 inlkxoylcgh.to.		7200	IN	A	127.0.0.1
-inlnpoitqvy.to.		7200	IN	A	127.0.0.1
 inm.to.			7200	IN	NS	ns-452.awsdns-56.com.
 inm.to.			7200	IN	NS	ns-755.awsdns-30.net.
 inm.to.			7200	IN	NS	ns-1204.awsdns-22.org.
@@ -18817,7 +18758,6 @@ insee.to.		7200	IN	NS	ns3.gratisdns.dk.
 insee.to.		7200	IN	NS	ns4.gratisdns.dk.
 insert.to.		7200	IN	NS	a.dns.park.io.
 insert.to.		7200	IN	NS	b.dns.park.io.
-inserts.to.		7200	IN	A	127.0.0.1
 inside.to.		7200	IN	NS	ns1.fk-mediaworks.de.
 inside.to.		7200	IN	NS	ns2.fk-mediaworks.de.
 insideaccess.to.	7200	IN	NS	NS1.REGISTER.TO.
@@ -19088,7 +19028,6 @@ inw.to.			7200	IN	NS	dawn.ns.cloudflare.com.
 io.to.			7200	IN	NS	ns10.port-53.com.
 io.to.			7200	IN	NS	ns20.port-53.com.
 ioapohcrvmcitdxhklej.to. 7200	IN	A	127.0.0.1
-iocpbcvgwnschnekb.to.	7200	IN	A	127.0.0.1
 ioff.to.		7200	IN	NS	ns.namespace4you.de.
 ioff.to.		7200	IN	NS	ns2.namespace4you.de.
 iohfpvlfxrougtbuxpk.to.	7200	IN	A	127.0.0.1
@@ -19185,7 +19124,6 @@ ipv6.to.		7200	IN	NS	ns2.dnsclustering.com.
 iq.to.			7200	IN	NS	dns1.namecheaphosting.com.
 iq.to.			7200	IN	NS	dns2.namecheaphosting.com.
 iqdayuundojlwgbba.to.	7200	IN	A	127.0.0.1
-iqgmevcymdsrw.to.	7200	IN	A	127.0.0.1
 ir.to.			7200	IN	NS	ns103.ovh.net.
 ir.to.			7200	IN	NS	dns103.ovh.net.
 iran.to.		7200	IN	NS	ns1.zerowebhosting.net.
@@ -19449,12 +19387,10 @@ ivarsson.to.		7200	IN	NS	ns2.mailbank.com.
 ivcqwgllxpiqlamtgbqx.to. 7200	IN	A	127.0.0.1
 ivebeen.to.		7200	IN	NS	ns1.dondominio.com.
 ivebeen.to.		7200	IN	NS	ns2.dondominio.com.
-ivfubpwm.to.		7200	IN	A	127.0.0.1
 ivo.to.			7200	IN	NS	ns.inwx.de.
 ivo.to.			7200	IN	NS	ns2.inwx.de.
 ivo.to.			7200	IN	NS	ns3.inwx.eu.
 ivo.to.			7200	IN	NS	ns4.inwx.com.
-ivqtmxkrfydrvalsbwc.to.	7200	IN	A	127.0.0.1
 ivs.to.			7200	IN	NS	ns1.dzndns.com.
 ivs.to.			7200	IN	NS	ns2.dzndns.com.
 ivs.to.			7200	IN	NS	ns3.dzndns.com.
@@ -19527,7 +19463,6 @@ iwnt.to.		7200	IN	NS	ns1.vitesse-kw.com.
 iwnt.to.		7200	IN	NS	ns2.vitesse-kw.com.
 iwouldlike.to.		7200	IN	NS	ns1.thoughtlet.com.
 iwouldlike.to.		7200	IN	NS	ns2.thoughtlet.com.
-iwunssglrm.to.		7200	IN	A	127.0.0.1
 ix.to.			7200	IN	NS	ns1.dzndns.com.
 ix.to.			7200	IN	NS	ns2.dzndns.com.
 ix.to.			7200	IN	NS	ns3.dzndns.com.
@@ -19806,13 +19741,11 @@ jfalnyixmksy.to.	7200	IN	A	127.0.0.1
 jfc.to.			7200	IN	NS	NS.SIMPLEHOST.COM.
 jfc.to.			7200	IN	NS	NS2.SIMPLEHOST.COM.
 jfgerfslswnkvnsomellq.to. 7200	IN	A	127.0.0.1
-jfgjhql.to.		7200	IN	A	127.0.0.1
 jg.to.			7200	IN	NS	a.dns.park.io.
 jgr.to.			7200	IN	NS	NS1.REGISTER.TO.
 jgr.to.			7200	IN	NS	NS2.REGISTER.TO.
 jgr.to.			7200	IN	NS	NS3.REGISTER.TO.
 jgr.to.			7200	IN	NS	NS4.REGISTER.TO.
-jgrbskqwdcohwyyjpuy.to.	7200	IN	A	127.0.0.1
 jgrytufdcfmahji.to.	7200	IN	A	127.0.0.1
 jgu.to.			7200	IN	NS	xlink1.xlink.net.
 jgu.to.			7200	IN	NS	ns-extern.zdv.uni-mainz.de.
@@ -19821,7 +19754,6 @@ jh.to.			7200	IN	NS	joel.ns.cloudflare.com.
 jh.to.			7200	IN	NS	jocelyn.ns.cloudflare.com.
 jhelectrical.to.	7200	IN	NS	ns1.vavatauwebhosting.com.
 jhelectrical.to.	7200	IN	NS	ns2.vavatauwebhosting.com.
-jhjdcepfbdredrhp.to.	7200	IN	A	127.0.0.1
 jhphpqx.to.		7200	IN	A	127.0.0.1
 jhquvfhhcfktq.to.	7200	IN	A	127.0.0.1
 ji.to.			7200	IN	NS	mns01.domaincontrol.com.
@@ -20108,7 +20040,6 @@ jstn.to.		7200	IN	NS	ns-1394.awsdns-46.org.
 jstn.to.		7200	IN	NS	ns-1682.awsdns-18.co.uk.
 jsystem.to.		7200	IN	NS	ns1.above.com.
 jsystem.to.		7200	IN	NS	ns2.above.com.
-jtamhwq.to.		7200	IN	A	127.0.0.1
 jtwwyqksnvlidjwb.to.	7200	IN	A	127.0.0.1
 jtxugyi.to.		7200	IN	A	127.0.0.1
 jtypnsueuoxopduuky.to.	7200	IN	A	127.0.0.1
@@ -20190,7 +20121,6 @@ jurist.to.		7200	IN	NS	ns2.minibird.jp.
 jurist.to.		7200	IN	NS	ns3.minibird.jp.
 jus.to.			7200	IN	NS	ns1.easyname.eu.
 jus.to.			7200	IN	NS	ns2.easyname.eu.
-jusdqvyysibtshp.to.	7200	IN	A	127.0.0.1
 juss.to.		7200	IN	NS	ns-215.awsdns-26.com.
 juss.to.		7200	IN	NS	ns-582.awsdns-08.net.
 juss.to.		7200	IN	NS	ns-1505.awsdns-60.org.
@@ -20271,7 +20201,6 @@ jxuddkb.to.		7200	IN	A	127.0.0.1
 jxyahawjrrqn.to.	7200	IN	A	127.0.0.1
 jygprxyfbcvaus.to.	7200	IN	A	127.0.0.1
 jykxnotqxantfpqlwwq.to.	7200	IN	A	127.0.0.1
-jylhmcaophdvktiuejtqq.to. 7200	IN	A	127.0.0.1
 jyoti.to.		7200	IN	NS	ns1.tastechnologies.net.
 jyoti.to.		7200	IN	NS	ns2.tastechnologies.net.
 jyskebank.to.		7200	IN	NS	authns1.webpartner.dk.
@@ -20701,6 +20630,9 @@ kc95702be2933ef93f5d690adc158fc37b.to. 7200 IN A 127.0.0.1
 kca3d632c7ee6398b41e71551dcca6239e.to. 7200 IN A 127.0.0.1
 kceliwqyosddibakohqo.to. 7200	IN	A	127.0.0.1
 kcfrludxv.to.		7200	IN	A	127.0.0.1
+kck.to.			7200	IN	NS	ns1.iwantmyname.net.
+kck.to.			7200	IN	NS	ns2.iwantmyname.net.
+kck.to.			7200	IN	NS	ns3.iwantmyname.net.
 kcl.to.			7200	IN	NS	iw19.webinsite.ch.
 kcl.to.			7200	IN	NS	iw21.webinsite.ch.
 kcl.to.			7200	IN	NS	iw22.webinsite.ch.
@@ -20710,6 +20642,7 @@ kd.to.			7200	IN	NS	NS2.AFTERNIC.COM.
 kdc.to.			7200	IN	NS	ins1.krazydevilcreationz.com.
 kdc.to.			7200	IN	NS	ins2.krazydevilcreationz.com.
 kdd5b491a2469b361235c6f5a6aa02e3f1.to. 7200 IN A 127.0.0.1
+kdhblcqhxoysv.to.	7200	IN	A	127.0.0.1
 kdhcwvdnthvtm.to.	7200	IN	A	127.0.0.1
 kdl.to.			7200	IN	NS	ns1.urlcity.net.
 kdl.to.			7200	IN	NS	ns2.urlcity.net.
@@ -20846,7 +20779,6 @@ kfdb120794112b65fe4ff55e91fd5cf814.to. 7200 IN A 127.0.0.1
 kfe2da367d4c7ea9119113d82a48f593c3.to. 7200 IN A 127.0.0.1
 kfm.to.			7200	IN	NS	uns01.lolipop.jp.
 kfm.to.			7200	IN	NS	uns02.lolipop.jp.
-kfvcjkhyiniaft.to.	7200	IN	A	127.0.0.1
 kfz-versicherung.to.	7200	IN	NS	dns1.einsurance.de.
 kfz-versicherung.to.	7200	IN	NS	dns2.einsurance.de.
 kfz-versicherung.to.	7200	IN	NS	dns3.einsurance.de.
@@ -20855,16 +20787,13 @@ kg.to.			7200	IN	NS	ns2.xserver.jp.
 kgo.to.			7200	IN	NS	isla.ns.cloudflare.com.
 kgo.to.			7200	IN	NS	theo.ns.cloudflare.com.
 kgoyeoldqxvit.to.	7200	IN	A	127.0.0.1
-kgsiufacutuof.to.	7200	IN	A	127.0.0.1
 khan.to.		7200	IN	NS	NS1.REGISTER.TO.
 khan.to.		7200	IN	NS	NS2.REGISTER.TO.
 khan.to.		7200	IN	NS	NS3.REGISTER.TO.
 khan.to.		7200	IN	NS	NS4.REGISTER.TO.
 khkmfqeydy.to.		7200	IN	A	127.0.0.1
-khluqfwqwkgu.to.	7200	IN	A	127.0.0.1
 khmerpho.to.		7200	IN	NS	ns1.mydomain.com.
 khmerpho.to.		7200	IN	NS	ns2.mydomain.com.
-khyfnndhvssov.to.	7200	IN	A	127.0.0.1
 ki.to.			7200	IN	NS	ns.ki.to.
 ns.ki.to.		7200	IN	A	218.45.19.60
 kia.to.			7200	IN	NS	ns1.netfirms.com.
@@ -21251,6 +21180,7 @@ kj.to.			7200	IN	NS	NS4.REGISTER.TO.
 kjpfbvlaxgfjpdwe.to.	7200	IN	A	127.0.0.1
 kjv.to.			7200	IN	NS	ns.inmotionhosting.com.
 kjv.to.			7200	IN	NS	ns2.inmotionhosting.com.
+kjvgutaqdtyh.to.	7200	IN	A	127.0.0.1
 kk24.to.		7200	IN	NS	tina.ns.cloudflare.com.
 kk24.to.		7200	IN	NS	derek.ns.cloudflare.com.
 kka.to.			7200	IN	NS	mns01.domaincontrol.com.
@@ -21261,8 +21191,6 @@ kkbox.to.		7200	IN	NS	ns3.kkcube.com.
 kkbox.to.		7200	IN	NS	ns4.kkcube.com.
 kkinox.to.		7200	IN	NS	ns1.above.com.
 kkinox.to.		7200	IN	NS	ns2.above.com.
-kkist.to.		7200	IN	NS	ns1.parkingcrew.net.
-kkist.to.		7200	IN	NS	ns2.parkingcrew.net.
 kkiste.to.		7200	IN	NS	pns1.cloudns.net.
 kkiste.to.		7200	IN	NS	pns2.cloudns.net.
 kkiste.to.		7200	IN	NS	pns3.cloudns.net.
@@ -21342,7 +21270,6 @@ ns1.kmac.to.		7200	IN	A	121.184.137.100
 ns2.kmac.to.		7200	IN	A	121.184.137.101
 kmc.to.			7200	IN	NS	ns.inetd.co.jp.
 kmc.to.			7200	IN	NS	ns2.inetd.co.jp.
-kmnmyrwwufyspywmwpo.to.	7200	IN	A	127.0.0.1
 kmovie4k.to.		7200	IN	NS	ns1.above.com.
 kmovie4k.to.		7200	IN	NS	ns2.above.com.
 kmp.to.			7200	IN	NS	uns01.lolipop.jp.
@@ -21611,7 +21538,6 @@ koupim.to.		7200	IN	NS	ns3.websupport.sk.
 koupis.to.		7200	IN	NS	ns1.thinline.cz.
 koupis.to.		7200	IN	NS	ns2.thinline.cz.
 koupis.to.		7200	IN	NS	ns3.cesky-hosting.eu.
-koxxjlayxhmlft.to.	7200	IN	A	127.0.0.1
 koyano.to.		7200	IN	NS	ns01.hosting-srv.net.
 koyano.to.		7200	IN	NS	ns02.hosting-srv.net.
 koyo.to.		7200	IN	NS	ns01.gnajp.com.
@@ -21628,8 +21554,6 @@ kpmg.to.		7200	IN	NS	ns2.dreamhost.com.
 kpmg.to.		7200	IN	NS	ns3.dreamhost.com.
 kpnlwrydxanaegjobclaf.to. 7200	IN	A	127.0.0.1
 kpyjqkpyfnmyy.to.	7200	IN	A	127.0.0.1
-kqcvskb.to.		7200	IN	A	127.0.0.1
-kqroudgfwrumylcoducst.to. 7200	IN	A	127.0.0.1
 kqwjeluhmcmdy.to.	7200	IN	A	127.0.0.1
 kr.to.			7200	IN	NS	ns1.asadal.net.
 kr.to.			7200	IN	NS	ns2.asadal.net.
@@ -21646,6 +21570,7 @@ kraftklub.to.		7200	IN	NS	ns01.universal-music-services.de.
 kraftklub.to.		7200	IN	NS	ns02.universal-music-services.de.
 kraftklub.to.		7200	IN	NS	ns03.universal-music-services.de.
 kraftklub.to.		7200	IN	NS	ns04.universal-music-services.de.
+kraftwerk.to.		7200	IN	A	127.0.0.1
 krakow.to.		7200	IN	NS	dns.home.pl.
 krakow.to.		7200	IN	NS	dns2.home.pl.
 krakow.to.		7200	IN	NS	dns3.home.pl.
@@ -21705,7 +21630,6 @@ ksa.to.			7200	IN	NS	ns5.waieleid.com.
 ksa.to.			7200	IN	NS	ns6.waieleid.com.
 ksai.to.		7200	IN	NS	ns1.dns.ne.jp.
 ksai.to.		7200	IN	NS	ns2.dns.ne.jp.
-ksatxcefy.to.		7200	IN	A	127.0.0.1
 kshow.to.		7200	IN	NS	ns1.parkingcrew.net.
 kshow.to.		7200	IN	NS	ns2.parkingcrew.net.
 kshowonline.to.		7200	IN	NS	ns1.koreabeans.com.
@@ -21727,7 +21651,6 @@ kso.to.			7200	IN	NS	ns1.onlydomains.com.
 kso.to.			7200	IN	NS	ns2.onlydomains.com.
 ksr.to.			7200	IN	NS	ns1.dns.ne.jp.
 ksr.to.			7200	IN	NS	ns2.dns.ne.jp.
-ksvoxefktirjrnwm.to.	7200	IN	A	127.0.0.1
 ktatisycmkfku.to.	7200	IN	A	127.0.0.1
 kti.to.			7200	IN	NS	NS1.REGISTER.TO.
 kti.to.			7200	IN	NS	NS2.REGISTER.TO.
@@ -21894,7 +21817,6 @@ kwiket.to.		7200	IN	NS	ns66.1und1.de.
 kwizzme.to.		7200	IN	NS	ns65.1und1.de.
 kwizzme.to.		7200	IN	NS	ns66.1und1.de.
 kxmxdoxfevjfxrryfku.to.	7200	IN	A	127.0.0.1
-kxnewrodcf.to.		7200	IN	A	127.0.0.1
 ky.to.			7200	IN	NS	a.ns14.net.
 ky.to.			7200	IN	NS	b.ns14.net.
 ky.to.			7200	IN	NS	c.ns14.net.
@@ -22213,7 +22135,6 @@ lcn.to.			7200	IN	NS	ns3.lo-cality.com.
 lcs.to.			7200	IN	NS	ns.udag.de.
 lcs.to.			7200	IN	NS	ns.udag.net.
 lcs.to.			7200	IN	NS	ns.udag.org.
-lcxtfpqldfuayycb.to.	7200	IN	A	127.0.0.1
 ld.to.			7200	IN	NS	ns1.ld.to.
 ld.to.			7200	IN	NS	ns2.ld.to.
 ld.to.			7200	IN	NS	ns3.ld.to.
@@ -22259,7 +22180,6 @@ league.to.		7200	IN	NS	ns-cloud-b3.googledomains.com.
 league.to.		7200	IN	NS	ns-cloud-b4.googledomains.com.
 leahy.to.		7200	IN	NS	ns.netgate.net.
 leahy.to.		7200	IN	NS	ns2.netgate.net.
-leaking.to.		7200	IN	A	127.0.0.1
 lean.to.		7200	IN	NS	freedns1.registrar-servers.com.
 lean.to.		7200	IN	NS	freedns2.registrar-servers.com.
 lean.to.		7200	IN	NS	freedns3.registrar-servers.com.
@@ -22291,7 +22211,6 @@ leaside.to.		7200	IN	NS	NS3.REGISTER.TO.
 leaside.to.		7200	IN	NS	NS4.REGISTER.TO.
 leave.to.		7200	IN	NS	ns21.cloudns.net.
 leave.to.		7200	IN	NS	ns22.cloudns.net.
-lebamunykffirswduc.to.	7200	IN	A	127.0.0.1
 lebanon.to.		7200	IN	NS	NSC.NTX.NET.
 lebanon.to.		7200	IN	NS	NSX.NTX.NET.
 lebel.to.		7200	IN	NS	ns1.cloudns.net.
@@ -22416,8 +22335,6 @@ lester.to.		7200	IN	NS	ns2.us45.siteground.us.
 letgo.to.		7200	IN	NS	ns1.iwantmyname.net.
 letgo.to.		7200	IN	NS	ns2.iwantmyname.net.
 letgo.to.		7200	IN	NS	ns3.iwantmyname.net.
-letmewatch.to.		7200	IN	NS	ns1.parkingcrew.net.
-letmewatch.to.		7200	IN	NS	ns2.parkingcrew.net.
 letmewatchthis.to.	7200	IN	NS	pam.ns.cloudflare.com.
 letmewatchthis.to.	7200	IN	NS	owen.ns.cloudflare.com.
 letr.to.		7200	IN	NS	iris.ns.cloudflare.com.
@@ -22496,11 +22413,9 @@ ley.to.			7200	IN	NS	ns1.mailbank.com.
 ley.to.			7200	IN	NS	ns2.mailbank.com.
 lf.to.			7200	IN	NS	chuck.ns.cloudflare.com.
 lf.to.			7200	IN	NS	emily.ns.cloudflare.com.
-lfelkgock.to.		7200	IN	A	127.0.0.1
 lfiaqmsc.to.		7200	IN	A	127.0.0.1
 lft.to.			7200	IN	NS	ns-683.awsdns-21.net.
 lft.to.			7200	IN	NS	ns-1612.awsdns-09.co.uk.
-lfyeeamufehcrk.to.	7200	IN	A	127.0.0.1
 lg.to.			7200	IN	NS	ns1.parkingcrew.net.
 lg.to.			7200	IN	NS	ns2.parkingcrew.net.
 lga.to.			7200	IN	NS	ns-756.awsdns-30.net.
@@ -22749,7 +22664,6 @@ liquid.to.		7200	IN	NS	a.dns.park.io.
 liquid.to.		7200	IN	NS	b.dns.park.io.
 lira.to.		7200	IN	NS	ns1.mailbank.com.
 lira.to.		7200	IN	NS	ns2.mailbank.com.
-lirkmore.to.		7200	IN	A	127.0.0.1
 lisaot.to.		7200	IN	NS	ns-460.awsdns-57.com.
 lisaot.to.		7200	IN	NS	ns-735.awsdns-27.net.
 lisn.to.		7200	IN	NS	ns.udag.de.
@@ -22841,8 +22755,6 @@ lizzy.to.		7200	IN	NS	ns1.am3.siteground.biz.
 lizzy.to.		7200	IN	NS	ns2.am3.siteground.biz.
 ljfuqlnbkaxrq.to.	7200	IN	A	127.0.0.1
 ljjxogbvrowuvgd.to.	7200	IN	A	127.0.0.1
-ljqgbeg.to.		7200	IN	A	127.0.0.1
-ljtoyshqpaxsube.to.	7200	IN	A	127.0.0.1
 ljx.to.			7200	IN	NS	anna.ns.cloudflare.com.
 ljx.to.			7200	IN	NS	brad.ns.cloudflare.com.
 lk.to.			7200	IN	NS	ns.inwx.de.
@@ -22960,7 +22872,6 @@ loco.to.		7200	IN	NS	ns2.dreamhost.com.
 loco.to.		7200	IN	NS	ns3.dreamhost.com.
 locomote.to.		7200	IN	NS	ns4.zoneedit.com.
 locomote.to.		7200	IN	NS	ns16.zoneedit.com.
-locpwhjpybvkcai.to.	7200	IN	A	127.0.0.1
 lody.to.		7200	IN	NS	diva.ns.cloudflare.com.
 lody.to.		7200	IN	NS	jobs.ns.cloudflare.com.
 lof.to.			7200	IN	NS	sean.ns.cloudflare.com.
@@ -23044,6 +22955,7 @@ lookin.to.		7200	IN	NS	NS-398.AWSDNS-49.COM.
 lookin.to.		7200	IN	NS	NS-679.AWSDNS-20.NET.
 lookin.to.		7200	IN	NS	NS-1349.AWSDNS-40.ORG.
 lookin.to.		7200	IN	NS	NS-1604.AWSDNS-08.CO.UK.
+looking.to.		7200	IN	A	127.0.0.1
 looking-forward.to.	7200	IN	NS	ns65.1und1.de.
 looking-forward.to.	7200	IN	NS	ns66.1und1.de.
 looklook.to.		7200	IN	NS	ns1.howday.com.
@@ -23175,7 +23087,6 @@ loy.to.			7200	IN	NS	ns2.mailbank.com.
 loyalty.to.		7200	IN	NS	ns1.digitalocean.com.
 loyalty.to.		7200	IN	NS	ns2.digitalocean.com.
 loyalty.to.		7200	IN	NS	ns3.digitalocean.com.
-lpaqhgwirarnubw.to.	7200	IN	A	127.0.0.1
 lpc.to.			7200	IN	NS	ns.lpc-computer.de.
 lpc.to.			7200	IN	NS	ns02.versatel.de.
 lpc.to.			7200	IN	NS	ns03.versatel.de.
@@ -23223,10 +23134,8 @@ dns4.rw.ls.to.		7200	IN	A	5.9.174.86
 lsd.to.			7200	IN	NS	ns9.nameserverservice.de.
 lsd.to.			7200	IN	NS	ns10.nameserverservice.de.
 lsihsgckhbsibcaqvinii.to. 7200	IN	A	127.0.0.1
-lsjomictrnwhsftvax.to.	7200	IN	A	127.0.0.1
 lsn.to.			7200	IN	NS	freedns1.registrar-servers.com.
 lsn.to.			7200	IN	NS	freedns2.registrar-servers.com.
-lsqropsweanmlrpopx.to.	7200	IN	A	127.0.0.1
 lssdhgkjvmjnjc.to.	7200	IN	A	127.0.0.1
 lst.to.			7200	IN	NS	ns1.realwebsol.com.
 lst.to.			7200	IN	NS	ns2.realwebsol.com.
@@ -23274,6 +23183,7 @@ lucidaturapavimenti.to.	7200	IN	NS	dns1.gurucube.com.
 lucidaturapavimenti.to.	7200	IN	NS	dns2.gurucube.com.
 luck.to.		7200	IN	NS	ns1.bodis.com.
 luck.to.		7200	IN	NS	ns2.bodis.com.
+lucky7.to.		7200	IN	A	127.0.0.1
 ludoteca.to.		7200	IN	NS	pdns07.domaincontrol.com.
 ludoteca.to.		7200	IN	NS	pdns08.domaincontrol.com.
 luebeck.to.		7200	IN	NS	dns1.nsdns.info.
@@ -23370,7 +23280,6 @@ luxuryrealestate.to.	7200	IN	NS	NS2.101DOMAIN.COM.
 luxuryrealestate.to.	7200	IN	NS	NS5.101DOMAIN.COM.
 luxus.to.		7200	IN	NS	ns1.ims-firmen.de.
 luxus.to.		7200	IN	NS	ns2.ims-firmen.de.
-lvksaaxljwrkx.to.	7200	IN	A	127.0.0.1
 lvlup.to.		7200	IN	NS	ns1.lvlup.today.
 lvlup.to.		7200	IN	NS	ns2.lvlup.today.
 lvn.to.			7200	IN	NS	NS-50.AWSDNS-06.COM.
@@ -23851,7 +23760,6 @@ manutd.to.		7200	IN	NS	ns0.netenergy.net.
 manutd.to.		7200	IN	NS	ns1.netenergy.net.
 manyfes.to.		7200	IN	NS	dns1.dnscenter.com.br.
 manyfes.to.		7200	IN	NS	dns3.dnscenter.com.br.
-manyids.to.		7200	IN	A	127.0.0.1
 manyvids.to.		7200	IN	NS	cash.ns.cloudflare.com.
 manyvids.to.		7200	IN	NS	jade.ns.cloudflare.com.
 manywaters.to.		7200	IN	NS	ns1.secure.net.
@@ -23931,6 +23839,7 @@ marketbook.to.		7200	IN	NS	gtm2.sandhills.com.
 marketonga.to.		7200	IN	NS	ns1.diginet.to.
 marketonga.to.		7200	IN	NS	ns2.diginet.to.
 marketonga.to.		7200	IN	NS	dns-server.tonfon.to.
+marketplace.to.		7200	IN	A	127.0.0.1
 markets.to.		7200	IN	NS	a.dns.park.io.
 markets.to.		7200	IN	NS	b.dns.park.io.
 markkinointitoimis.to.	7200	IN	NS	ns-124.awsdns-15.com.
@@ -24296,7 +24205,6 @@ mdk.to.			7200	IN	NS	ns2.merdeka.com.
 mdk.to.			7200	IN	NS	ns3.merdeka.com.
 mdm.to.			7200	IN	NS	ns1.hans.hosteurope.de.
 mdm.to.			7200	IN	NS	ns2.hans.hosteurope.de.
-mdnbdhsyrvgcmsh.to.	7200	IN	A	127.0.0.1
 mdr.to.			7200	IN	NS	ns-28.awsdns-03.com.
 mdr.to.			7200	IN	NS	ns-849.awsdns-42.net.
 mdr.to.			7200	IN	NS	ns-1477.awsdns-56.org.
@@ -24352,6 +24260,8 @@ medaka.to.		7200	IN	NS	ns1.dns.ne.jp.
 medaka.to.		7200	IN	NS	ns2.dns.ne.jp.
 medi.to.		7200	IN	NS	p1.asadal.net.
 medi.to.		7200	IN	NS	p2.asadal.net.
+media.to.		7200	IN	NS	ns1.bodis.com.
+media.to.		7200	IN	NS	ns2.bodis.com.
 mediacenter.to.		7200	IN	NS	ns65.1und1.de.
 mediacenter.to.		7200	IN	NS	ns66.1und1.de.
 mediaimage.to.		7200	IN	NS	ns1.mediaimage.to.
@@ -24512,6 +24422,7 @@ mem.to.			7200	IN	NS	ns-1214.awsdns-23.org.
 mem.to.			7200	IN	NS	ns-1932.awsdns-49.co.uk.
 members.to.		7200	IN	NS	dns01.gmoserver.jp.
 members.to.		7200	IN	NS	dns02.gmoserver.jp.
+membership.to.		7200	IN	A	127.0.0.1
 meme.to.		7200	IN	NS	ns.meme.to.
 ns.meme.to.		7200	IN	A	202.171.137.131
 memen.to.		7200	IN	NS	into.pfarner.org.
@@ -24674,7 +24585,6 @@ mfi.to.			7200	IN	NS	ns1.nameserver.ch.
 mfi.to.			7200	IN	NS	ns2.nameserver.ch.
 mfpsgckcmbkouiyomhtkg.to. 7200	IN	A	127.0.0.1
 mfpvhrm.to.		7200	IN	A	127.0.0.1
-mfqifxqrwxgnlnafcid.to.	7200	IN	A	127.0.0.1
 mfs.to.			7200	IN	NS	ns1.vegasystems.de.
 mfs.to.			7200	IN	NS	ns2.vegasystems.de.
 mg.to.			7200	IN	NS	ns1186.dns.dyn.com.
@@ -24952,7 +24862,6 @@ mintmovies.to.		7200	IN	NS	ns14.cloudns.net.
 minu.to.		7200	IN	NS	ns1.onlydomains.com.
 minu.to.		7200	IN	NS	ns2.onlydomains.com.
 minu.to.		7200	IN	NS	ns3.onlydomains.com.
-minutes.to.		7200	IN	A	127.0.0.1
 mio.to.			7200	IN	NS	jean.ns.cloudflare.com.
 mio.to.			7200	IN	NS	todd.ns.cloudflare.com.
 miot.to.		7200	IN	NS	freedns1.registrar-servers.com.
@@ -25038,7 +24947,6 @@ miwdgodhlidjcwm.to.	7200	IN	A	127.0.0.1
 miwi.to.		7200	IN	NS	ns1.netpilot.net.
 miwi.to.		7200	IN	NS	ns2.netpilot.net.
 miwi.to.		7200	IN	NS	ns3.netpilot.net.
-miwtpyyp.to.		7200	IN	A	127.0.0.1
 mix.to.			7200	IN	NS	a.dns.park.io.
 mixi.to.		7200	IN	NS	ns.gransy.com.
 mixi.to.		7200	IN	NS	ns2.gransy.com.
@@ -25077,7 +24985,6 @@ mjd.to.			7200	IN	NS	NS2.MJD.TO.
 NS1.mjd.to.		7200	IN	A	128.199.217.201
 NS2.mjd.to.		7200	IN	A	72.51.37.46
 mjgflqgmlqpvjuwe.to.	7200	IN	A	127.0.0.1
-mjmfjuljd.to.		7200	IN	A	127.0.0.1
 mjn.to.			7200	IN	NS	ns01.mjn.com.
 mjn.to.			7200	IN	NS	ns02.mjn.com.
 mjwsvgbmltsrwckh.to.	7200	IN	A	127.0.0.1
@@ -25199,7 +25106,6 @@ mnr.to.			7200	IN	NS	ns13.dnsmadeeasy.com.
 mnt.to.			7200	IN	NS	ns1.linode.com.
 mnt.to.			7200	IN	NS	ns2.linode.com.
 mnt.to.			7200	IN	NS	ns3.linode.com.
-mnwubeldecof.to.	7200	IN	A	127.0.0.1
 mo.to.			7200	IN	NS	ns0.bartok.ad.jp.
 mo.to.			7200	IN	NS	ns1.bartok.ad.jp.
 mob.to.			7200	IN	NS	ns.udag.de.
@@ -25735,8 +25641,6 @@ movienight.to.		7200	IN	NS	adi.ns.cloudflare.com.
 movienight.to.		7200	IN	NS	woz.ns.cloudflare.com.
 movieonline.to.		7200	IN	NS	jamie.ns.cloudflare.com.
 movieonline.to.		7200	IN	NS	elliot.ns.cloudflare.com.
-moviepilot.to.		7200	IN	NS	ns1.parkingcrew.net.
-moviepilot.to.		7200	IN	NS	ns2.parkingcrew.net.
 movierules.to.		7200	IN	NS	guy.ns.cloudflare.com.
 movierules.to.		7200	IN	NS	meera.ns.cloudflare.com.
 movierulez.to.		7200	IN	NS	guy.ns.cloudflare.com.
@@ -25747,6 +25651,7 @@ movierulz.to.		7200	IN	NS	pns1.cloudns.net.
 movierulz.to.		7200	IN	NS	pns2.cloudns.net.
 movierulz.to.		7200	IN	NS	pns3.cloudns.net.
 movierulz.to.		7200	IN	NS	pns4.cloudns.net.
+movies.to.		7200	IN	A	127.0.0.1
 movies-online.to.	7200	IN	NS	NS1.REGISTER.TO.
 movies-online.to.	7200	IN	NS	NS2.REGISTER.TO.
 movies-online.to.	7200	IN	NS	NS3.REGISTER.TO.
@@ -25961,6 +25866,7 @@ mrt.to.			7200	IN	NS	a.ns14.net.
 mrt.to.			7200	IN	NS	b.ns14.net.
 mrt.to.			7200	IN	NS	c.ns14.net.
 mrt.to.			7200	IN	NS	d.ns14.net.
+mrvine.to.		7200	IN	A	127.0.0.1
 mrvines.to.		7200	IN	NS	ns1.above.com.
 mrvines.to.		7200	IN	NS	ns2.above.com.
 mrx.to.			7200	IN	NS	NS1.REGISTER.TO.
@@ -25970,7 +25876,6 @@ mrx.to.			7200	IN	NS	NS4.REGISTER.TO.
 msb.to.			7200	IN	NS	ns1.cnchost.com.
 msb.to.			7200	IN	NS	ns1.lifeway.com.
 msb.to.			7200	IN	NS	ns2.cnchost.com.
-msbnwsauy.to.		7200	IN	A	127.0.0.1
 msf.to.			7200	IN	NS	max.ns.cloudflare.com.
 msf.to.			7200	IN	NS	edna.ns.cloudflare.com.
 msg.to.			7200	IN	NS	ns1.sedoparking.com.
@@ -25988,7 +25893,6 @@ msp.to.			7200	IN	NS	ns1.onlydomains.com.
 msp.to.			7200	IN	NS	ns2.onlydomains.com.
 mspo.to.		7200	IN	NS	sv.myplanet.jp.
 mspo.to.		7200	IN	NS	sv.myplanet.org.
-mssduddwqavwticpyvhys.to. 7200	IN	A	127.0.0.1
 mst.to.			7200	IN	NS	ns1.iwantmyname.net.
 mst.to.			7200	IN	NS	ns2.iwantmyname.net.
 mst.to.			7200	IN	NS	ns3.iwantmyname.net.
@@ -26012,7 +25916,6 @@ mto.to.			7200	IN	NS	ns2.iwantmyname.net.
 mto.to.			7200	IN	NS	ns3.iwantmyname.net.
 mtp.to.			7200	IN	NS	2nd.dnsv.jp.
 mtp.to.			7200	IN	NS	ns1.loppi.jp.
-mtrcajpdg.to.		7200	IN	A	127.0.0.1
 mtrl.to.		7200	IN	NS	dns.voerde.globvill.de.
 mtrl.to.		7200	IN	NS	dns.globvill.de.
 mttr.to.		7200	IN	NS	NS-301.AWSDNS-37.COM.
@@ -26035,8 +25938,6 @@ muchogus.to.		7200	IN	NS	NS1.REGISTER.TO.
 muchogus.to.		7200	IN	NS	NS2.REGISTER.TO.
 muchogus.to.		7200	IN	NS	NS3.REGISTER.TO.
 muchogus.to.		7200	IN	NS	NS4.REGISTER.TO.
-muffa.to.		7200	IN	NS	ns-1232.awsdns-26.org.
-muffa.to.		7200	IN	NS	ns-1949.awsdns-51.co.uk.
 mug.to.			7200	IN	NS	NS1.REGISTER.TO.
 mug.to.			7200	IN	NS	NS2.REGISTER.TO.
 mug.to.			7200	IN	NS	NS3.REGISTER.TO.
@@ -26368,6 +26269,7 @@ mypay.to.		7200	IN	NS	ns-317.awsdns-39.com.
 mypay.to.		7200	IN	NS	ns-896.awsdns-48.net.
 mypay.to.		7200	IN	NS	ns-1179.awsdns-19.org.
 mypay.to.		7200	IN	NS	ns-1807.awsdns-33.co.uk.
+myphoto.to.		7200	IN	A	127.0.0.1
 myplace.to.		7200	IN	NS	dns.home.pl.
 myplace.to.		7200	IN	NS	dns2.home.pl.
 myplace.to.		7200	IN	NS	dns3.home.pl.
@@ -26719,7 +26621,6 @@ nationweb.to.		7200	IN	NS	ns-207.awsdns-25.com.
 nationweb.to.		7200	IN	NS	ns-884.awsdns-46.net.
 nationweb.to.		7200	IN	NS	ns-1194.awsdns-21.org.
 nationweb.to.		7200	IN	NS	ns-1698.awsdns-20.co.uk.
-natopie.to.		7200	IN	A	127.0.0.1
 natre.to.		7200	IN	NS	ns1.websupport.sk.
 natre.to.		7200	IN	NS	ns2.websupport.sk.
 natre.to.		7200	IN	NS	ns3.websupport.sk.
@@ -26854,7 +26755,6 @@ ndqctagmdb.to.		7200	IN	A	127.0.0.1
 ndra.to.		7200	IN	NS	hades.myth.co.uk.
 ndra.to.		7200	IN	NS	persephone.myth.co.uk.
 ndtnefgcndyuipgg.to.	7200	IN	A	127.0.0.1
-nduapxjiqgwnmcucjo.to.	7200	IN	A	127.0.0.1
 ne.to.			7200	IN	NS	NS7.dnszi.com.
 ne.to.			7200	IN	NS	NS16.dnszi.com.
 ne.to.			7200	IN	NS	NS55.dnszi.com.
@@ -27050,6 +26950,7 @@ networkappliance.to.	7200	IN	NS	ns5.netnames.net.
 networkappliance.to.	7200	IN	NS	ns6.netnames.net.
 networking.to.		7200	IN	NS	a.dns.park.io.
 networking.to.		7200	IN	NS	b.dns.park.io.
+networks.to.		7200	IN	A	127.0.0.1
 networld.to.		7200	IN	NS	ns1.no-ip.com.
 networld.to.		7200	IN	NS	ns2.no-ip.com.
 netzkino.to.		7200	IN	NS	ns1.above.com.
@@ -27188,8 +27089,6 @@ ns1.ngx.to.		7200	IN	A	176.124.112.100
 ns2.ngx.to.		7200	IN	A	176.124.113.200
 nh.to.			7200	IN	NS	a.dns.park.io.
 nh.to.			7200	IN	NS	b.dns.park.io.
-nhcnicbsiovqbaiiieiy.to. 7200	IN	A	127.0.0.1
-nhdjwvp.to.		7200	IN	A	127.0.0.1
 nhhotel.to.		7200	IN	NS	ns.dinahosting.com.
 nhhotel.to.		7200	IN	NS	ns2.dinahosting.com.
 nhkafctjljg.to.		7200	IN	A	127.0.0.1
@@ -27271,7 +27170,6 @@ nihei.to.		7200	IN	NS	ns1.xserver.jp.
 nihei.to.		7200	IN	NS	ns2.xserver.jp.
 nihei.to.		7200	IN	NS	ns3.xserver.jp.
 nihei.to.		7200	IN	NS	ns4.xserver.jp.
-nihnawwuprequb.to.	7200	IN	A	127.0.0.1
 nihon.to.		7200	IN	NS	ns1.first-web.ne.jp.
 nihon.to.		7200	IN	NS	ns2.first-web.ne.jp.
 niigata.to.		7200	IN	NS	ns1.dns.ne.jp.
@@ -27387,7 +27285,6 @@ nl.to.			7200	IN	NS	ns1.nl.to.
 nl.to.			7200	IN	NS	ns2.nl.to.
 ns1.nl.to.		7200	IN	A	212.72.184.71
 ns2.nl.to.		7200	IN	A	212.72.184.92
-nlaxkxrm.to.		7200	IN	A	127.0.0.1
 nlb.to.			7200	IN	NS	ns1.parkingcrew.net.
 nlb.to.			7200	IN	NS	ns2.parkingcrew.net.
 nlbbxxrqgx.to.		7200	IN	A	127.0.0.1
@@ -27423,7 +27320,6 @@ nnet.to.		7200	IN	NS	ns6.netnames.net.
 nnh.to.			7200	IN	NS	sv.nnh.to.
 nnh.to.			7200	IN	NS	ns2.atworks.co.jp.
 sv.nnh.to.		7200	IN	A	210.189.68.36
-nnkflabdri.to.		7200	IN	A	127.0.0.1
 nnm.to.			7200	IN	NS	ns1.above.com.
 nnm.to.			7200	IN	NS	ns2.above.com.
 nnm-club.to.		7200	IN	NS	ns1.parkingcrew.net.
@@ -27570,15 +27466,14 @@ notebook.to.		7200	IN	NS	a.dns.park.io.
 notebook.to.		7200	IN	NS	b.dns.park.io.
 noted.to.		7200	IN	NS	ns1.buyvm.net.
 noted.to.		7200	IN	NS	ns2.buyvm.net.
-nothing.to.		7200	IN	NS	ns.m0g.net.
+nothing.to.		7200	IN	NS	ns1.m0g.net.
 nothing.to.		7200	IN	NS	ns1.hivane.net.
+nothing.to.		7200	IN	NS	ns3.hivane.net.
 nothing.to.		7200	IN	NS	nssec.online.net.
 notice.to.		7200	IN	NS	a.dns.park.io.
 notice.to.		7200	IN	NS	b.dns.park.io.
 notification.to.	7200	IN	NS	a.dns.park.io.
 notification.to.	7200	IN	NS	b.dns.park.io.
-notify.to.		7200	IN	NS	ns7.blackpepper.in.
-notify.to.		7200	IN	NS	ns8.blackpepper.in.
 notinkansasanymoreto.to. 7200	IN	NS	ns1.variomedia.de.
 notinkansasanymoreto.to. 7200	IN	NS	ns2.variomedia.de.
 noto.to.		7200	IN	NS	dns01.gmoserver.jp.
@@ -27604,6 +27499,7 @@ novelplanet.to.		7200	IN	NS	ns3.gransy.com.
 novelplanet.to.		7200	IN	NS	ns4.gransy.com.
 novie4k.to.		7200	IN	NS	ns1.above.com.
 novie4k.to.		7200	IN	NS	ns2.above.com.
+novinky.to.		7200	IN	A	127.0.0.1
 novo.to.		7200	IN	NS	ns-47.awsdns-05.com.
 novo.to.		7200	IN	NS	ns-980.awsdns-58.net.
 novo.to.		7200	IN	NS	ns-1184.awsdns-20.org.
@@ -27648,7 +27544,6 @@ npqoonwcmctm.to.	7200	IN	A	127.0.0.1
 nps.to.			7200	IN	NS	ns1.argewebhosting.eu.
 nps.to.			7200	IN	NS	ns2.argewebhosting.com.
 nps.to.			7200	IN	NS	ns3.argewebhosting.nl.
-npveksquwij.to.		7200	IN	A	127.0.0.1
 npvph.to.		7200	IN	NS	ns269.websitewelcome.com.
 npvph.to.		7200	IN	NS	ns270.websitewelcome.com.
 npvpho.to.		7200	IN	NS	ns1.bleakimage.com.
@@ -27678,7 +27573,6 @@ ns2.to.			7200	IN	NS	ns1.to.
 ns2.to.			7200	IN	NS	ns2.to.
 ns3.to.			7200	IN	NS	ns1.to.
 ns3.to.			7200	IN	NS	ns2.to.
-nsgteepeb.to.		7200	IN	A	127.0.0.1
 nshispeed.to.		7200	IN	NS	ns01.is.nl.
 nshispeed.to.		7200	IN	NS	ns02.is.nl.
 nshispeed.to.		7200	IN	NS	ns03.is.nl.
@@ -27765,6 +27659,7 @@ nutramigen.to.		7200	IN	NS	ns02.mjn.com.
 nutri.to.		7200	IN	NS	dns1.dnshosting.it.
 nutri.to.		7200	IN	NS	dns2.dnshosting.it.
 nutri.to.		7200	IN	NS	dns3.dns-hosting.it.
+nuvpqnikyceegllfvcwdtpm.to. 7200 IN	A	127.0.0.1
 nvgtwwem.to.		7200	IN	A	127.0.0.1
 nvph.to.		7200	IN	NS	ns1.bleakimage.com.
 nvph.to.		7200	IN	NS	ns2.bleakimage.com.
@@ -27776,7 +27671,6 @@ nwez.to.		7200	IN	NS	JEAN.NS.CLOUDFLARE.COM.
 nwihrxupioynkxu.to.	7200	IN	A	127.0.0.1
 nwirxdyjow.to.		7200	IN	A	127.0.0.1
 nwlclyfsy.to.		7200	IN	A	127.0.0.1
-nwotrtjgeuxmlyihdc.to.	7200	IN	A	127.0.0.1
 nwy.to.			7200	IN	NS	ns.checkdomain.de.
 nwy.to.			7200	IN	NS	ns2.checkdomain.de.
 nx.to.			7200	IN	NS	ns0.xname.org.
@@ -27942,7 +27836,6 @@ obstaw.to.		7200	IN	NS	pdns142.ultradns.org.
 obu.to.			7200	IN	NS	ns1.dns.ne.jp.
 obu.to.			7200	IN	NS	ns2.dns.ne.jp.
 obupxhwjbfbxo.to.	7200	IN	A	127.0.0.1
-obutkvfrijxafs.to.	7200	IN	A	127.0.0.1
 oc.to.			7200	IN	NS	ns1.enquiry.io.
 oc2c1dc33e70e9f17957acc8b5d84761cc.to. 7200 IN A 127.0.0.1
 occupa.to.		7200	IN	NS	srv4.tektronik.it.
@@ -28028,7 +27921,6 @@ odeon.to.		7200	IN	NS	NS2.MEDIATEMPLE.NET.
 odium.to.		7200	IN	NS	ns2.he.net.
 odium.to.		7200	IN	NS	ns3.he.net.
 odium.to.		7200	IN	NS	ns4.he.net.
-odjnnnvpvdq.to.		7200	IN	A	127.0.0.1
 odkryj.to.		7200	IN	NS	cns7.my-hosting-panel.com.
 odkryj.to.		7200	IN	NS	cns8.my-hosting-panel.com.
 odl.to.			7200	IN	NS	ns1.simpledns.co.uk.
@@ -28148,7 +28040,6 @@ ogi.to.			7200	IN	NS	ns10.dnsmadeeasy.com.
 ogi.to.			7200	IN	NS	ns11.dnsmadeeasy.com.
 ogihara.to.		7200	IN	NS	ns1.andit.co.jp.
 ogihara.to.		7200	IN	NS	ns2.andit.co.jp.
-ogkqdgmomfnb.to.	7200	IN	A	127.0.0.1
 ogmvpbkfwmrnhtota.to.	7200	IN	A	127.0.0.1
 ogni.to.		7200	IN	NS	ns-378.awsdns-47.com.
 ogni.to.		7200	IN	NS	ns-759.awsdns-30.net.
@@ -28168,7 +28059,6 @@ oheya.to.		7200	IN	NS	ns3.fas.jp.
 ns.oheya.to.		7200	IN	A	210.143.111.171
 ohkoshi.to.		7200	IN	NS	ns1.dns.ne.jp.
 ohkoshi.to.		7200	IN	NS	ns2.dns.ne.jp.
-ohkqsvhqiyhkkaggom.to.	7200	IN	A	127.0.0.1
 ohl.to.			7200	IN	NS	NS.OVH.NET.
 ohl.to.			7200	IN	NS	DNS.OVH.NET.
 ohlsson.to.		7200	IN	NS	ns1.mailbank.com.
@@ -28252,7 +28142,6 @@ okoshi.to.		7200	IN	NS	ns4.sphere.ad.jp.
 okpota.to.		7200	IN	NS	ns1.iwantmyname.net.
 okpota.to.		7200	IN	NS	ns2.iwantmyname.net.
 okpota.to.		7200	IN	NS	ns3.iwantmyname.net.
-oksuciaogsbudgyk.to.	7200	IN	A	127.0.0.1
 okt.to.			7200	IN	NS	ns-142.awsdns-17.com.
 okt.to.			7200	IN	NS	ns-801.awsdns-36.net.
 okt.to.			7200	IN	NS	ns-1514.awsdns-61.org.
@@ -28284,7 +28173,6 @@ oleoletv.to.		7200	IN	NS	ns1.above.com.
 oleoletv.to.		7200	IN	NS	ns2.above.com.
 olfa.to.		7200	IN	NS	ns1.digitalocean.com.
 olfa.to.		7200	IN	NS	ns2.digitalocean.com.
-olhoscxunv.to.		7200	IN	A	127.0.0.1
 oliver.to.		7200	IN	NS	ns3.sphere.ad.jp.
 oliver.to.		7200	IN	NS	ns4.sphere.ad.jp.
 olivia.to.		7200	IN	NS	ns3.sphere.ad.jp.
@@ -28372,7 +28260,6 @@ onaoshi.to.		7200	IN	NS	ns1.dns.ne.jp.
 onaoshi.to.		7200	IN	NS	ns2.dns.ne.jp.
 onboard.to.		7200	IN	NS	ns21.cloudns.net.
 onboard.to.		7200	IN	NS	ns22.cloudns.net.
-oncehcojolbeqsgtfki.to.	7200	IN	A	127.0.0.1
 oncomo.to.		7200	IN	NS	ns1.synserver.de.
 oncomo.to.		7200	IN	NS	ns2.synserver.de.
 oncomo.to.		7200	IN	NS	ns3.synserver.de.
@@ -28500,8 +28387,6 @@ onlinespiele.to.	7200	IN	NS	freedns1.registrar-servers.com.
 onlinespiele.to.	7200	IN	NS	freedns2.registrar-servers.com.
 onlinespiele.to.	7200	IN	NS	freedns3.registrar-servers.com.
 onlinespiele.to.	7200	IN	NS	freedns4.registrar-servers.com.
-onlinewatch.to.		7200	IN	NS	ns1.parkingcrew.net.
-onlinewatch.to.		7200	IN	NS	ns2.parkingcrew.net.
 onlyfun.to.		7200	IN	NS	ns1.above.com.
 onlyfun.to.		7200	IN	NS	ns2.above.com.
 onlyyou.to.		7200	IN	NS	dns3.register.com.
@@ -28558,7 +28443,6 @@ onway.to.		7200	IN	NS	ns2.ignum.cz.
 onweb.to.		7200	IN	NS	ns1.above.com.
 onweb.to.		7200	IN	NS	ns2.above.com.
 onxyxldlra.to.		7200	IN	A	127.0.0.1
-ooamooevpsioetnctbswe.to. 7200	IN	A	127.0.0.1
 oobtelcbtxet.to.	7200	IN	A	127.0.0.1
 ooh.to.			7200	IN	NS	ns1.dns.ne.jp.
 ooh.to.			7200	IN	NS	ns2.dns.ne.jp.
@@ -28674,8 +28558,6 @@ opx.to.			7200	IN	NS	ns-1830.awsdns-36.co.uk.
 oq.to.			7200	IN	NS	kate.ns.cloudflare.com.
 oq.to.			7200	IN	NS	merlin.ns.cloudflare.com.
 oqlwamap.to.		7200	IN	A	127.0.0.1
-oqrdyofgltxjmuqiohtb.to. 7200	IN	A	127.0.0.1
-oqssghobgemioiw.to.	7200	IN	A	127.0.0.1
 oqxonyiybgeuudkndw.to.	7200	IN	A	127.0.0.1
 or.to.			7200	IN	NS	a.dns.park.io.
 or2.to.			7200	IN	NS	ns.or2.to.
@@ -28708,7 +28590,6 @@ ore.to.			7200	IN	NS	sakura.i-bow.com.
 oretta.to.		7200	IN	NS	ns3.iwantmyname.net.
 oretta.to.		7200	IN	NS	ns63.domaincontrol.com.
 oretta.to.		7200	IN	NS	ns64.domaincontrol.com.
-orflemvojxkavpkg.to.	7200	IN	A	127.0.0.1
 adventist.org.to.	7200	IN	NS	ns1.dnspark.net.
 adventist.org.to.	7200	IN	NS	ns3.dnspark.net.
 adventist.org.to.	7200	IN	NS	ns5.dnspark.net.
@@ -28858,7 +28739,6 @@ oswald.to.		7200	IN	NS	ns2.hostpoint.ch.
 oswqfeqlwgrpfrh.to.	7200	IN	A	127.0.0.1
 osx.to.			7200	IN	NS	ns0.netenergy.net.
 osx.to.			7200	IN	NS	ns1.netenergy.net.
-osxqvymitrfo.to.	7200	IN	A	127.0.0.1
 ot.to.			7200	IN	NS	ns-430.awsdns-53.com.
 ot.to.			7200	IN	NS	ns-1010.awsdns-62.net.
 ot.to.			7200	IN	NS	ns-1470.awsdns-55.org.
@@ -28877,7 +28757,6 @@ otestuj.to.		7200	IN	NS	ns03.trademarkarea.com.
 otevreme.to.		7200	IN	NS	ns.forpsi.cz.
 otevreme.to.		7200	IN	NS	ns.forpsi.it.
 otevreme.to.		7200	IN	NS	ns.forpsi.net.
-others.to.		7200	IN	A	127.0.0.1
 otkuda.to.		7200	IN	NS	ns1.digitalocean.com.
 otkuda.to.		7200	IN	NS	ns2.digitalocean.com.
 otkuda.to.		7200	IN	NS	ns3.digitalocean.com.
@@ -28888,10 +28767,6 @@ otl.to.			7200	IN	NS	NS4.REGISTER.TO.
 otlawrcww.to.		7200	IN	A	127.0.0.1
 oto.to.			7200	IN	NS	dns1.pcp.pl.
 oto.to.			7200	IN	NS	dns2.pcp.pl.
-otokojuku.to.		7200	IN	NS	ns1.emwpartners.com.
-otokojuku.to.		7200	IN	NS	ns2.emwpartners.com.
-otokojuku.to.		7200	IN	NS	ns3.iisdns.net.
-otokojuku.to.		7200	IN	NS	ns4.iisdns.net.
 otou.to.		7200	IN	NS	ns.otou.to.
 ns.otou.to.		7200	IN	A	163.172.139.4
 otoy.to.		7200	IN	NS	ns-453.awsdns-56.com.
@@ -29032,6 +28907,7 @@ owl.to.			7200	IN	NS	NS-1830.AWSDNS-36.CO.UK.
 owned.to.		7200	IN	NS	ns.inwx.de.
 owned.to.		7200	IN	NS	ns2.inwx.de.
 owned.to.		7200	IN	NS	ns3.inwx.de.
+owners.to.		7200	IN	A	127.0.0.1
 ox.to.			7200	IN	NS	ns3.dnszi.com.
 ox.to.			7200	IN	NS	ns18.dnszi.com.
 ox.to.			7200	IN	NS	ns51.dnszi.com.
@@ -29374,7 +29250,6 @@ passage.to.		7200	IN	NS	ns1.dnsimple.com.
 passage.to.		7200	IN	NS	ns2.dnsimple.com.
 passage.to.		7200	IN	NS	ns3.dnsimple.com.
 passage.to.		7200	IN	NS	ns4.dnsimple.com.
-passages.to.		7200	IN	A	127.0.0.1
 passfo.to.		7200	IN	NS	ns1.ns-serve.net.
 passfo.to.		7200	IN	NS	ns2.ns-serve.net.
 passmail.to.		7200	IN	NS	ns.kbstar.com.
@@ -29571,6 +29446,7 @@ pearl.to.		7200	IN	NS	ns.udag.net.
 pearl.to.		7200	IN	NS	ns.udag.org.
 pearldiver.to.		7200	IN	NS	ns1.integr8tech.ca.
 pearldiver.to.		7200	IN	NS	ns2.integr8tech.ca.
+pearlmovies.to.		7200	IN	A	127.0.0.1
 peauvavau.to.		7200	IN	NS	ns1.startlogic.com.
 peauvavau.to.		7200	IN	NS	ns2.startlogic.com.
 pec.to.			7200	IN	NS	NS1.REGISTER.TO.
@@ -29711,7 +29587,6 @@ perri.to.		7200	IN	NS	ns-173.awsdns-21.com.
 perri.to.		7200	IN	NS	ns-616.awsdns-13.net.
 perri.to.		7200	IN	NS	ns-1362.awsdns-42.org.
 perri.to.		7200	IN	NS	ns-1984.awsdns-56.co.uk.
-person.to.		7200	IN	A	127.0.0.1
 personal.to.		7200	IN	NS	NS1.REGISTER.TO.
 personal.to.		7200	IN	NS	NS2.REGISTER.TO.
 personal.to.		7200	IN	NS	NS3.REGISTER.TO.
@@ -29790,21 +29665,18 @@ ns2.pfilgroup.to.	7200	IN	A	103.242.127.20
 ns3.pfilgroup.to.	7200	IN	A	174.37.196.55
 pfo.to.			7200	IN	NS	kate.ns.cloudflare.com.
 pfo.to.			7200	IN	NS	merlin.ns.cloudflare.com.
-pfpvlcdt.to.		7200	IN	A	127.0.0.1
 pgcqxrrylphhqqokir.to.	7200	IN	A	127.0.0.1
 pgd.to.			7200	IN	NS	ns1.pgmail.com.br.
 pgd.to.			7200	IN	NS	ns2.pgmail.com.br.
 pgdrivribh.to.		7200	IN	A	127.0.0.1
 pgfdtkojlgnmmo.to.	7200	IN	A	127.0.0.1
 pgmymipketqoihssxnb.to.	7200	IN	A	127.0.0.1
-pgpibkqce.to.		7200	IN	A	127.0.0.1
 pgs.to.			7200	IN	NS	lady.ns.cloudflare.com.
 pgs.to.			7200	IN	NS	chuck.ns.cloudflare.com.
 ph.to.			7200	IN	NS	ns-322.awsdns-40.com.
 ph.to.			7200	IN	NS	ns-992.awsdns-60.net.
 ph.to.			7200	IN	NS	ns-1032.awsdns-01.org.
 ph.to.			7200	IN	NS	ns-1683.awsdns-18.co.uk.
-phadellwhbtshglqc.to.	7200	IN	A	127.0.0.1
 phantom.to.		7200	IN	NS	ns1199.dns.dyn.com.
 phantom.to.		7200	IN	NS	ns2128.dns.dyn.com.
 phantom.to.		7200	IN	NS	ns3170.dns.dyn.com.
@@ -29827,7 +29699,6 @@ phau.to.		7200	IN	NS	NS1.REGISTER.TO.
 phau.to.		7200	IN	NS	NS2.REGISTER.TO.
 phau.to.		7200	IN	NS	NS3.REGISTER.TO.
 phau.to.		7200	IN	NS	NS4.REGISTER.TO.
-phbmqnghhx.to.		7200	IN	A	127.0.0.1
 phd.to.			7200	IN	NS	NS1.REGISTER.TO.
 phd.to.			7200	IN	NS	NS2.REGISTER.TO.
 phd.to.			7200	IN	NS	NS3.REGISTER.TO.
@@ -29861,7 +29732,6 @@ phim14.to.		7200	IN	NS	NS1.REGISTER.TO.
 phim14.to.		7200	IN	NS	NS2.REGISTER.TO.
 phim14.to.		7200	IN	NS	NS3.REGISTER.TO.
 phim14.to.		7200	IN	NS	NS4.REGISTER.TO.
-phlsscoeuybtlqtrbvam.to. 7200	IN	A	127.0.0.1
 pho.to.			7200	IN	NS	ns-160.awsdns-20.com.
 pho.to.			7200	IN	NS	ns-834.awsdns-40.net.
 pho.to.			7200	IN	NS	ns-1109.awsdns-10.org.
@@ -29961,7 +29831,6 @@ picobello.to.		7200	IN	NS	ns2.vevida.net.
 picobello.to.		7200	IN	NS	ns3.vevida.com.
 pics.to.		7200	IN	NS	lee.ns.cloudflare.com.
 pics.to.		7200	IN	NS	abby.ns.cloudflare.com.
-picsplace.to.		7200	IN	A	127.0.0.1
 picture.to.		7200	IN	NS	ns1.idealab.com.
 picture.to.		7200	IN	NS	ns2.idealab.com.
 pictures.to.		7200	IN	NS	a.dns.park.io.
@@ -30188,7 +30057,6 @@ pizzica.to.		7200	IN	NS	ns2.dzndns.com.
 pjs.to.			7200	IN	NS	rush.easydns.com.
 pjs.to.			7200	IN	NS	nirvana.easydns.net.
 pjs.to.			7200	IN	NS	motorhead.easydns.org.
-pkdhulhvmskxcypq.to.	7200	IN	A	127.0.0.1
 pkg.to.			7200	IN	NS	ns1.appcubate.com.
 pkg.to.			7200	IN	NS	ns2.appcubate.com.
 pkpfrwvu.to.		7200	IN	A	127.0.0.1
@@ -30272,6 +30140,7 @@ playboy.to.		7200	IN	NS	a.dns.park.io.
 playboy.to.		7200	IN	NS	b.dns.park.io.
 played.to.		7200	IN	NS	jean.ns.cloudflare.com.
 played.to.		7200	IN	NS	noah.ns.cloudflare.com.
+playedd.to.		7200	IN	A	127.0.0.1
 player.to.		7200	IN	NS	ns1.ks.bgwe.eu.
 player.to.		7200	IN	NS	ns2.ks.bgwe.eu.
 playersplus.to.		7200	IN	NS	dns1.idp365.net.
@@ -30358,7 +30227,6 @@ plug.to.		7200	IN	NS	ns1.above.com.
 plug.to.		7200	IN	NS	ns2.above.com.
 plugg.to.		7200	IN	NS	ns-378.awsdns-47.com.
 plugg.to.		7200	IN	NS	ns-1140.awsdns-14.org.
-plugin.to.		7200	IN	NS	a.dns.park.io.
 plum.to.		7200	IN	NS	ns3.sphere.ad.jp.
 plum.to.		7200	IN	NS	ns4.sphere.ad.jp.
 plumber.to.		7200	IN	NS	a.dns.park.io.
@@ -30422,7 +30290,6 @@ pnt.to.			7200	IN	NS	ns1.rack7.net.
 pnt.to.			7200	IN	NS	ns2.rack7.net.
 pnw.to.			7200	IN	NS	dns-sa1.plala.or.jp.
 pnw.to.			7200	IN	NS	dns-sd1.plala.or.jp.
-pnxtobywotbvpbpkqp.to.	7200	IN	A	127.0.0.1
 po.to.			7200	IN	NS	NSB.NTX.NET.
 po.to.			7200	IN	NS	NSX.NTX.NET.
 pobierz.to.		7200	IN	NS	dns1.domeny.tv.
@@ -30648,7 +30515,6 @@ popcorn-time.to.	7200	IN	NS	miki.ns.cloudflare.com.
 popcorn-time.to.	7200	IN	NS	henry.ns.cloudflare.com.
 popcorn4ever.to.	7200	IN	NS	ns1.above.com.
 popcorn4ever.to.	7200	IN	NS	ns2.above.com.
-popcorntime.to.		7200	IN	A	127.0.0.1
 popcorntime-tracker.to.	7200	IN	NS	chin.ns.cloudflare.com.
 popcorntime-tracker.to.	7200	IN	NS	kurt.ns.cloudflare.com.
 popieram.to.		7200	IN	NS	dns.home.pl.
@@ -30672,7 +30538,6 @@ poptalk.to.		7200	IN	NS	ns-1065.awsdns-05.org.
 poptalk.to.		7200	IN	NS	ns-1809.awsdns-34.co.uk.
 popup.to.		7200	IN	NS	ns1.leaseweb.nl.
 popup.to.		7200	IN	NS	ns4.leaseweb.net.
-popvjrgqffdpw.to.	7200	IN	A	127.0.0.1
 por.to.			7200	IN	NS	ns1.first-ns.de.
 por.to.			7200	IN	NS	robotns2.second-ns.de.
 por.to.			7200	IN	NS	robotns3.second-ns.com.
@@ -31226,6 +31091,7 @@ procedure.to.		7200	IN	NS	ns-1369.awsdns-43.org.
 procedure.to.		7200	IN	NS	ns-1567.awsdns-03.co.uk.
 proceed.to.		7200	IN	NS	ns1.ls25webhosting.com.
 proceed.to.		7200	IN	NS	ns2.ls25webhosting.com.
+process.to.		7200	IN	A	127.0.0.1
 proclime.to.		7200	IN	NS	ns1.regzone.cz.
 proclime.to.		7200	IN	NS	ns1.regzone.de.
 proclime.to.		7200	IN	NS	ns1.regzone.info.
@@ -31305,6 +31171,7 @@ projectfree-tv.to.	7200	IN	NS	ns1.projectfree-tv.to.
 ns1.projectfree-tv.to.	7200	IN	A	179.43.133.134
 projectfreetv.to.	7200	IN	NS	ns1.parkingcrew.net.
 projectfreetv.to.	7200	IN	NS	ns2.parkingcrew.net.
+projectpc.to.		7200	IN	A	127.0.0.1
 projects.to.		7200	IN	NS	a.ns14.net.
 projects.to.		7200	IN	NS	b.ns14.net.
 projektuj.to.		7200	IN	NS	dns.home.pl.
@@ -31390,7 +31257,6 @@ proxy.to.		7200	IN	NS	ns1.parkingcrew.net.
 proxy.to.		7200	IN	NS	ns2.parkingcrew.net.
 prp.to.			7200	IN	NS	ns1.greengeeks.com.
 prp.to.			7200	IN	NS	ns2.greengeeks.com.
-prpemgunaenipdbbee.to.	7200	IN	A	127.0.0.1
 prpr.to.		7200	IN	NS	f1g1ns1.dnspod.net.
 prpr.to.		7200	IN	NS	f1g1ns2.dnspod.net.
 prq.to.			7200	IN	NS	ns1.webxl.ru.
@@ -31697,6 +31563,7 @@ putlockerfree.to.	7200	IN	NS	chad.ns.cloudflare.com.
 putlockerfree.to.	7200	IN	NS	hera.ns.cloudflare.com.
 putlockerhd.to.		7200	IN	NS	coco.ns.cloudflare.com.
 putlockerhd.to.		7200	IN	NS	stan.ns.cloudflare.com.
+putlockers.to.		7200	IN	A	127.0.0.1
 putlockers9.to.		7200	IN	NS	ns1.sedoparking.com.
 putlockers9.to.		7200	IN	NS	ns2.sedoparking.com.
 putlockerseries.to.	7200	IN	NS	irma.ns.cloudflare.com.
@@ -31735,7 +31602,6 @@ pxl.to.			7200	IN	NS	NS2.PIXELSYSTEM.NET.
 pxlgmz.to.		7200	IN	NS	ns.checkdomain.de.
 pxlgmz.to.		7200	IN	NS	ns2.checkdomain.de.
 pxrnvtkcofhexrsn.to.	7200	IN	A	127.0.0.1
-pxspxgjbntovtijxewd.to.	7200	IN	A	127.0.0.1
 pyefmpglies.to.		7200	IN	A	127.0.0.1
 pyhwjheyvtcrtihjgwgtd.to. 7200	IN	A	127.0.0.1
 pyln.to.		7200	IN	NS	ns1.iwantmyname.net.
@@ -31755,7 +31621,6 @@ pyxis.to.		7200	IN	NS	ns0.pyxis.to.
 pyxis.to.		7200	IN	NS	ns1.pyxis.to.
 ns0.pyxis.to.		7200	IN	A	196.44.131.98
 ns1.pyxis.to.		7200	IN	A	196.44.131.180
-pyyxdaoyeacqatdvi.to.	7200	IN	A	127.0.0.1
 pzz.to.			7200	IN	NS	ns1.r4ns.com.
 pzz.to.			7200	IN	NS	ns2.r4ns.net.
 q.to.			7200	IN	NS	NS1.top3003.why3s.com.
@@ -31835,7 +31700,6 @@ qa9f216f7145963dc0d69d876762f100b6.to. 7200 IN A 127.0.0.1
 qabf780f4978e7a3b2d7c13f7a1723bfd4.to. 7200 IN A 127.0.0.1
 qatar.to.		7200	IN	NS	ns21.domaincontrol.com.
 qatar.to.		7200	IN	NS	ns22.domaincontrol.com.
-qaxteyaepjnfax.to.	7200	IN	A	127.0.0.1
 qb.to.			7200	IN	NS	kate.ns.cloudflare.com.
 qb.to.			7200	IN	NS	merlin.ns.cloudflare.com.
 qb39a67d54642c40be98a4af8ebb7bb77e.to. 7200 IN A 127.0.0.1
@@ -31917,12 +31781,10 @@ qiq.to.			7200	IN	NS	ns2.dns.ne.jp.
 qjueyjskwk.to.		7200	IN	A	127.0.0.1
 qjyfmbsxecbvsvarep.to.	7200	IN	A	127.0.0.1
 qjymsrepaslvqijrydoqh.to. 7200	IN	A	127.0.0.1
-qjyxhvbytujipppta.to.	7200	IN	A	127.0.0.1
 qk.to.			7200	IN	NS	ns1.qk.to.
 qk.to.			7200	IN	NS	ns2.qk.to.
 ns1.qk.to.		7200	IN	A	125.227.206.109
 ns2.qk.to.		7200	IN	A	175.182.250.69
-qkprowysxgtocgebxogjx.to. 7200	IN	A	127.0.0.1
 qkwknxuxx.to.		7200	IN	A	127.0.0.1
 qlciwunabkm.to.		7200	IN	A	127.0.0.1
 qlick.to.		7200	IN	NS	NS1.REGISTER.TO.
@@ -31952,7 +31814,6 @@ qlofwgenjwvyxqbqbapjp.to. 7200	IN	A	127.0.0.1
 qlttsxx.to.		7200	IN	A	127.0.0.1
 qm.to.			7200	IN	NS	ns1.above.com.
 qm.to.			7200	IN	NS	ns2.above.com.
-qmificandfjvgmcfxm.to.	7200	IN	A	127.0.0.1
 qn.to.			7200	IN	NS	NS1.2TLD.NET.
 qn.to.			7200	IN	NS	NS2.2TLD.NET.
 qna.to.			7200	IN	NS	ns1.softlayer.com.
@@ -32022,7 +31883,6 @@ qsicnwfdkohayi.to.	7200	IN	A	127.0.0.1
 qsn.to.			7200	IN	NS	a.dns.gandi.net.
 qsn.to.			7200	IN	NS	b.dns.gandi.net.
 qsn.to.			7200	IN	NS	c.dns.gandi.net.
-qsrcavhln.to.		7200	IN	A	127.0.0.1
 qsy.to.			7200	IN	NS	ns.hosteurope.com.
 qsy.to.			7200	IN	NS	ns2.hosteurope.com.
 qt.to.			7200	IN	NS	kate.ns.cloudflare.com.
@@ -32167,8 +32027,6 @@ qusotdma.to.		7200	IN	A	127.0.0.1
 qut.to.			7200	IN	NS	ns1.qut.edu.au.
 qut.to.			7200	IN	NS	ns2.qut.edu.au.
 qut.to.			7200	IN	NS	ns3.qut.edu.au.
-qvhkxydakjtyudcxfopp.to. 7200	IN	A	127.0.0.1
-qvytjwjemghpqnqvr.to.	7200	IN	A	127.0.0.1
 qw.to.			7200	IN	NS	ns10.qw.to.
 qw.to.			7200	IN	NS	ns11.qw.to.
 qw.to.			7200	IN	NS	nsscs.qw.to.
@@ -32526,7 +32384,6 @@ rcel.to.		7200	IN	NS	NS3.AFRAID.ORG.
 rcel.to.		7200	IN	NS	NS4.AFRAID.ORG.
 rci.to.			7200	IN	NS	ns-41.awsdns-05.com.
 rci.to.			7200	IN	NS	ns-1425.awsdns-50.org.
-rcicpwief.to.		7200	IN	A	127.0.0.1
 rck.to.			7200	IN	NS	ns.udag.de.
 rck.to.			7200	IN	NS	ns.udag.net.
 rck.to.			7200	IN	NS	ns.udag.org.
@@ -32963,7 +32820,6 @@ rekomenduje.to.		7200	IN	NS	ip221ds.ima.pl.
 rekomendujemy.to.	7200	IN	NS	ip7.ima.pl.
 rekomendujemy.to.	7200	IN	NS	mail.ziaja.com.pl.
 rekomendujemy.to.	7200	IN	NS	ip221ds.ima.pl.
-rekvluucjpggaqegild.to.	7200	IN	A	127.0.0.1
 rel.to.			7200	IN	NS	ns1.contabo.net.
 rel.to.			7200	IN	NS	ns2.contabo.net.
 rel.to.			7200	IN	NS	ns3.contabo.net.
@@ -32991,6 +32847,7 @@ relating.to.		7200	IN	NS	ns2.mediatemple.net.
 relation.to.		7200	IN	NS	ns1.redhat.com.
 relation.to.		7200	IN	NS	ns2.redhat.com.
 relation.to.		7200	IN	NS	ns3.redhat.com.
+relationship.to.	7200	IN	A	127.0.0.1
 relative.to.		7200	IN	NS	ns1.linode.com.
 relative.to.		7200	IN	NS	ns2.linode.com.
 relative.to.		7200	IN	NS	ns3.linode.com.
@@ -33004,7 +32861,6 @@ relayr.to.		7200	IN	NS	ns65.1und1.de.
 relayr.to.		7200	IN	NS	ns66.1und1.de.
 release.to.		7200	IN	NS	andy.ns.cloudflare.com.
 release.to.		7200	IN	NS	lisa.ns.cloudflare.com.
-releases.to.		7200	IN	A	127.0.0.1
 religion.to.		7200	IN	NS	ns0.netenergy.net.
 religion.to.		7200	IN	NS	ns1.netenergy.net.
 relink.to.		7200	IN	NS	jo.ns.cloudflare.com.
@@ -33157,7 +33013,6 @@ req.to.			7200	IN	NS	NS4.REGISTER.TO.
 request.to.		7200	IN	NS	a.dns.park.io.
 request.to.		7200	IN	NS	b.dns.park.io.
 required.to.		7200	IN	A	127.0.0.1
-requirement.to.		7200	IN	A	127.0.0.1
 res.to.			7200	IN	NS	ns1.openprovider.nl.
 res.to.			7200	IN	NS	ns2.openprovider.nl.
 res.to.			7200	IN	NS	ns3.openprovider.nl.
@@ -33324,7 +33179,6 @@ rff.to.			7200	IN	NS	ns.rff.to.
 rff.to.			7200	IN	NS	ns-kg022.ocn.ad.jp.
 ns.rff.to.		7200	IN	A	220.110.221.74
 rfjdvpw.to.		7200	IN	A	127.0.0.1
-rfjisclghxmltfxoqbj.to.	7200	IN	A	127.0.0.1
 rfplmbruhhnllxlj.to.	7200	IN	A	127.0.0.1
 rfrc.to.		7200	IN	NS	a.ns.openfusion.net.
 rfrc.to.		7200	IN	NS	c.ns.openfusion.net.
@@ -33526,7 +33380,6 @@ rmg.to.			7200	IN	NS	ns-293.awsdns-36.com.
 rmg.to.			7200	IN	NS	ns-913.awsdns-50.net.
 rmg.to.			7200	IN	NS	ns-1087.awsdns-07.org.
 rmg.to.			7200	IN	NS	ns-1706.awsdns-21.co.uk.
-rmhltfvkqr.to.		7200	IN	A	127.0.0.1
 rms.to.			7200	IN	NS	ns1.above.com.
 rms.to.			7200	IN	NS	ns2.above.com.
 rmvwruslpmtebm.to.	7200	IN	A	127.0.0.1
@@ -33545,8 +33398,6 @@ ro.to.			7200	IN	NS	ns2.elfde.com.
 roa.to.			7200	IN	NS	ns1.vevida.net.
 roa.to.			7200	IN	NS	ns2.vevida.net.
 roa.to.			7200	IN	NS	ns3.vevida.com.
-road.to.		7200	IN	NS	NS51.DOMAINCONTROL.COM.
-road.to.		7200	IN	NS	NS52.DOMAINCONTROL.COM.
 roads.to.		7200	IN	NS	ns1.hostnet.nl.
 roads.to.		7200	IN	NS	ns2.hostnetbv.com.
 roads.to.		7200	IN	NS	ns3.hostnetbv.nl.
@@ -33800,7 +33651,6 @@ royco.to.		7200	IN	NS	ns2.vavatauwebhosting.com.
 royd.to.		7200	IN	NS	NS1.DREAMHOST.COM.
 royd.to.		7200	IN	NS	NS2.DREAMHOST.COM.
 royd.to.		7200	IN	NS	NS3.DREAMHOST.COM.
-roylmfrbbvgp.to.	7200	IN	A	127.0.0.1
 rozbal.to.		7200	IN	NS	ns.slovanet.net.
 rozbal.to.		7200	IN	NS	ns1.slovanet.net.
 rozlicz.to.		7200	IN	NS	ns1.easyisp.pl.
@@ -33843,7 +33693,6 @@ rpmalert.to.		7200	IN	NS	ns-103.awsdns-12.com.
 rpmalert.to.		7200	IN	NS	ns-736.awsdns-28.net.
 rpmalert.to.		7200	IN	NS	ns-1283.awsdns-32.org.
 rpmalert.to.		7200	IN	NS	ns-1961.awsdns-53.co.uk.
-rppvcwekocskvqbsj.to.	7200	IN	A	127.0.0.1
 rpt.to.			7200	IN	NS	ns1.he.net.
 rpt.to.			7200	IN	NS	ns3.he.net.
 rpt.to.			7200	IN	NS	ns4.he.net.
@@ -33929,8 +33778,6 @@ rugby.to.		7200	IN	NS	ns1123.websitewelcome.com.
 rugby.to.		7200	IN	NS	ns1124.websitewelcome.com.
 ruggiero.to.		7200	IN	NS	dns1.opsknowledge.com.
 ruggiero.to.		7200	IN	NS	dns2.opsknowledge.com.
-rugtsnpbvtfwwnthghw.to.	7200	IN	A	127.0.0.1
-rugwbwrnxetkcvnqfjytd.to. 7200	IN	A	127.0.0.1
 run.to.			7200	IN	NS	NS1.BODIS.COM.
 run.to.			7200	IN	NS	NS2.BODIS.COM.
 rune.to.		7200	IN	NS	ns01.trademarkarea.com.
@@ -34021,7 +33868,6 @@ rwy.to.			7200	IN	NS	ns2.hans.hosteurope.de.
 rx.to.			7200	IN	NS	ns1.above.com.
 rx.to.			7200	IN	NS	ns2.above.com.
 rxfsnnojgnnminnmus.to.	7200	IN	A	127.0.0.1
-rxiihux.to.		7200	IN	A	127.0.0.1
 rxmamwqymbrwdicombh.to.	7200	IN	A	127.0.0.1
 ry.to.			7200	IN	NS	ns3.maid-san.jp.
 ry.to.			7200	IN	NS	ns4.maid-san.jp.
@@ -34033,7 +33879,6 @@ ryhfclmawqpjeajukly.to.	7200	IN	A	127.0.0.1
 ryirqawwx.to.		7200	IN	A	127.0.0.1
 ryp.to.			7200	IN	NS	ns-727.awsdns-26.net.
 ryp.to.			7200	IN	NS	ns-1903.awsdns-45.co.uk.
-rysgaxtphgnadlpimdbitrk.to. 7200 IN	A	127.0.0.1
 rysuj.to.		7200	IN	NS	dns.home.pl.
 rysuj.to.		7200	IN	NS	dns2.home.pl.
 rysuj.to.		7200	IN	NS	dns3.home.pl.
@@ -34228,8 +34073,6 @@ sakai.to.		7200	IN	NS	uns01.lolipop.jp.
 sakai.to.		7200	IN	NS	uns02.lolipop.jp.
 sakaimako.to.		7200	IN	NS	ns1.dns.ne.jp.
 sakaimako.to.		7200	IN	NS	ns2.dns.ne.jp.
-sakaki.to.		7200	IN	NS	ns0.kagoya.net.
-sakaki.to.		7200	IN	NS	ns1.kagoya.net.
 sakamo.to.		7200	IN	NS	ns-cloud-b1.googledomains.com.
 sakamo.to.		7200	IN	NS	ns-cloud-b2.googledomains.com.
 sakamo.to.		7200	IN	NS	ns-cloud-b3.googledomains.com.
@@ -34317,6 +34160,10 @@ sam.to.			7200	IN	NS	NS4.REGISTER.TO.
 sama.to.		7200	IN	NS	ns.sama.to.
 ns.sama.to.		7200	IN	A	221.186.153.210
 same.to.		7200	IN	NS	ns5.kasserver.com.
+samento.to.		7200	IN	NS	ns11.cloudns.net.
+samento.to.		7200	IN	NS	ns12.cloudns.net.
+samento.to.		7200	IN	NS	pns11.cloudns.net.
+samento.to.		7200	IN	NS	pns12.cloudns.net.
 samgreen.to.		7200	IN	NS	ns1.digitalocean.com.
 samgreen.to.		7200	IN	NS	ns2.digitalocean.com.
 samgreen.to.		7200	IN	NS	ns3.digitalocean.com.
@@ -34713,7 +34560,6 @@ scroll.to.		7200	IN	NS	NS2.BODIS.COM.
 scuba.to.		7200	IN	NS	a.dns.park.io.
 scuba.to.		7200	IN	NS	b.dns.park.io.
 scusmhacrwlytulrqpom.to. 7200	IN	A	127.0.0.1
-scvvnxqecnbrp.to.	7200	IN	A	127.0.0.1
 sd.to.			7200	IN	NS	ns1.hosting-sys.jp.
 sd.to.			7200	IN	NS	ns2.hosting-sys.jp.
 sd04860df96aac98aeeba41972fa719d37.to. 7200 IN A 127.0.0.1
@@ -34788,6 +34634,7 @@ secc.to.		7200	IN	NS	NS3.REGISTER.TO.
 secc.to.		7200	IN	NS	NS4.REGISTER.TO.
 secmail.to.		7200	IN	NS	ns1.powerserverplus.net.
 secmail.to.		7200	IN	NS	ns3.powerserverplus.net.
+second.to.		7200	IN	A	127.0.0.1
 secondlifegrid.to.	7200	IN	NS	ns1.netnames.net.
 secondlifegrid.to.	7200	IN	NS	ns2.netnames.net.
 secotools.to.		7200	IN	NS	ns.sandvik.com.
@@ -35150,6 +34997,7 @@ sexting.to.		7200	IN	NS	NS1.REGISTER.TO.
 sexting.to.		7200	IN	NS	NS2.REGISTER.TO.
 sexting.to.		7200	IN	NS	NS3.REGISTER.TO.
 sexting.to.		7200	IN	NS	NS4.REGISTER.TO.
+sextorrent.to.		7200	IN	A	127.0.0.1
 sextoys.to.		7200	IN	NS	ns65.1und1.de.
 sextoys.to.		7200	IN	NS	ns66.1und1.de.
 sextube.to.		7200	IN	NS	ns1.i-did-it-to-your-mom.com.
@@ -35796,7 +35644,6 @@ sjb.to.			7200	IN	NS	ns-635.awsdns-15.net.
 sjb.to.			7200	IN	NS	ns-1427.awsdns-50.org.
 sjb.to.			7200	IN	NS	ns-1676.awsdns-17.co.uk.
 sjbgretdpbcafgjllr.to.	7200	IN	A	127.0.0.1
-sjbwhvyanrjrt.to.	7200	IN	A	127.0.0.1
 sjn.to.			7200	IN	NS	ns1.sjn-ag.de.
 sjn.to.			7200	IN	NS	ns2.sjn-ag.de.
 sjn.to.			7200	IN	NS	ns3.sjn-ag.de.
@@ -36276,7 +36123,6 @@ sohi.to.		7200	IN	NS	ns-1310.awsdns-35.org.
 sohi.to.		7200	IN	NS	ns-2033.awsdns-62.co.uk.
 sohos.to.		7200	IN	NS	dns0.heteml.jp.
 sohos.to.		7200	IN	NS	dns1.heteml.jp.
-soibujff.to.		7200	IN	A	127.0.0.1
 soja.to.		7200	IN	NS	ns1.netart.pl.
 soja.to.		7200	IN	NS	ns2.netart.pl.
 sokolov.to.		7200	IN	NS	ns1.sokolov.to.
@@ -36801,7 +36647,6 @@ sqex.to.		7200	IN	NS	eur3.akam.net.
 sqex.to.		7200	IN	NS	USE4.AKAM.NET.
 sqex.to.		7200	IN	NS	asia1.akam.net.
 sqex.to.		7200	IN	NS	ns1-180.akam.net.
-sqffkunpkipja.to.	7200	IN	A	127.0.0.1
 sqkuobljwgthmhogwehi.to. 7200	IN	A	127.0.0.1
 sqrl.to.		7200	IN	NS	ns1.asia.cloudns.net.
 sqrl.to.		7200	IN	NS	ns2.asia.cloudns.net.
@@ -36816,7 +36661,6 @@ squex.to.		7200	IN	NS	dns2.cscdns.net.
 squires.to.		7200	IN	NS	NS1.DREAMHOST.COM.
 squires.to.		7200	IN	NS	NS2.DREAMHOST.COM.
 squires.to.		7200	IN	NS	NS3.DREAMHOST.COM.
-squwqxeinthr.to.	7200	IN	A	127.0.0.1
 sqvhmmpinrlyubyvpk.to.	7200	IN	A	127.0.0.1
 sqz.to.			7200	IN	NS	ns.namespace4you.de.
 sqz.to.			7200	IN	NS	ns2.namespace4you.de.
@@ -36824,7 +36668,6 @@ sr.to.			7200	IN	NS	ns1.dstn.com.
 sr.to.			7200	IN	NS	NS1.SAINTS.NET.
 sr.to.			7200	IN	NS	ns2.dstn.com.
 sr.to.			7200	IN	NS	NS2.SAINTS.NET.
-srbrejmyecmuil.to.	7200	IN	A	127.0.0.1
 src.to.			7200	IN	NS	ns1.gigahost.dk.
 srf.to.			7200	IN	NS	blue.selachian.net.
 srf.to.			7200	IN	NS	blacktip.selachian.net.
@@ -36851,7 +36694,6 @@ srx.to.			7200	IN	NS	NS1.REGISTER.TO.
 srx.to.			7200	IN	NS	NS2.REGISTER.TO.
 srx.to.			7200	IN	NS	NS3.REGISTER.TO.
 srx.to.			7200	IN	NS	NS4.REGISTER.TO.
-srxmkithsaixi.to.	7200	IN	A	127.0.0.1
 ss.to.			7200	IN	NS	NS1.VALUE-DOMAIN.COM.
 ss.to.			7200	IN	NS	NS2.VALUE-DOMAIN.COM.
 ss123movies.to.		7200	IN	NS	ns1.parkingcrew.net.
@@ -37164,6 +37006,7 @@ stix.to.		7200	IN	NS	ns3.dnsmadeeasy.com.
 stk.to.			7200	IN	NS	ns1.neti.to.
 stk.to.			7200	IN	NS	ns2.neti.to.
 stk.to.			7200	IN	NS	ns3.neti.to.
+stlkvpnhpgln.to.	7200	IN	A	127.0.0.1
 stm.to.			7200	IN	NS	dns0.heteml.jp.
 stm.to.			7200	IN	NS	dns1.heteml.jp.
 stmichaelparish-lapaha.to. 7200	IN	NS	ns1.pasifikahosting.com.
@@ -37178,8 +37021,6 @@ stoc.to.		7200	IN	NS	NS3.REGISTER.TO.
 stoc.to.		7200	IN	NS	NS4.REGISTER.TO.
 stock.to.		7200	IN	NS	DNS1.COMSOLTECH.COM.
 stock.to.		7200	IN	NS	DNS2.COMSOLTECH.COM.
-stockexchange.to.	7200	IN	NS	ns1411.websitewelcome.com.
-stockexchange.to.	7200	IN	NS	ns1412.websitewelcome.com.
 stockmarket.to.		7200	IN	NS	NS1.REGISTER.TO.
 stockmarket.to.		7200	IN	NS	NS2.REGISTER.TO.
 stockmarket.to.		7200	IN	NS	NS3.REGISTER.TO.
@@ -37854,7 +37695,6 @@ syl.to.			7200	IN	NS	ns2.netim.net.
 syl.to.			7200	IN	NS	ns3.netim.net.
 syl.to.			7200	IN	NS	ns4.netim.net.
 sylgdxaaejrgkauqrjf.to.	7200	IN	A	127.0.0.1
-symbolism.to.		7200	IN	A	127.0.0.1
 symc.to.		7200	IN	NS	udns1.ultradns.net.
 symc.to.		7200	IN	NS	udns2.ultradns.net.
 symmes.to.		7200	IN	NS	ns-188.awsdns-23.com.
@@ -38558,7 +38398,6 @@ techfreak.to.		7200	IN	NS	ns1.mailbank.com.
 techfreak.to.		7200	IN	NS	ns2.mailbank.com.
 technique.to.		7200	IN	NS	a.dns.park.io.
 technique.to.		7200	IN	NS	b.dns.park.io.
-techno.to.		7200	IN	A	127.0.0.1
 technology.to.		7200	IN	NS	ns1.enquiry.io.
 technos.to.		7200	IN	NS	ns.namedserver.net.
 technos.to.		7200	IN	NS	ns2.namedserver.net.
@@ -38830,9 +38669,7 @@ tfs.to.			7200	IN	NS	ns2.phase8.net.
 tg.to.			7200	IN	NS	a.dns.park.io.
 tga.to.			7200	IN	NS	2nd.dnsv.jp.
 tga.to.			7200	IN	NS	ns1.loppi.jp.
-tgoxrpa.to.		7200	IN	A	127.0.0.1
 tgsggpyguvkvsbmgmdin.to. 7200	IN	A	127.0.0.1
-tgtbinmblxg.to.		7200	IN	A	127.0.0.1
 th.to.			7200	IN	NS	ns1.digitalocean.com.
 th.to.			7200	IN	NS	ns2.digitalocean.com.
 th.to.			7200	IN	NS	ns3.digitalocean.com.
@@ -38967,8 +38804,10 @@ thegreyarea.to.		7200	IN	NS	NS1.REGISTER.TO.
 thegreyarea.to.		7200	IN	NS	NS2.REGISTER.TO.
 thegreyarea.to.		7200	IN	NS	NS3.REGISTER.TO.
 thegreyarea.to.		7200	IN	NS	NS4.REGISTER.TO.
-thehometeam.to.		7200	IN	NS	ns.webtechdezine.com.
-thehometeam.to.		7200	IN	NS	ns2.webtechdezine.com.
+thehometeam.to.		7200	IN	NS	ns1-08.azure-dns.com.
+thehometeam.to.		7200	IN	NS	ns2-08.azure-dns.net.
+thehometeam.to.		7200	IN	NS	ns3-08.azure-dns.org.
+thehometeam.to.		7200	IN	NS	ns4-08.azure-dns.info.
 thehotelguide.to.	7200	IN	NS	ns3a.secondarydomainnameserver.com.
 thehotelguide.to.	7200	IN	NS	ns4a.primarydomainnameserver.com.
 theinformant.to.	7200	IN	NS	ns31.domaincontrol.com.
@@ -39316,7 +39155,6 @@ tinytillia.to.		7200	IN	NS	a4.nstld.com.
 tinytillia.to.		7200	IN	NS	f4.nstld.com.
 tinytillia.to.		7200	IN	NS	g4.nstld.com.
 tinytillia.to.		7200	IN	NS	l4.nstld.com.
-tioexkdudvigd.to.	7200	IN	A	127.0.0.1
 tion.to.		7200	IN	NS	NS1.WEST-DATACENTER.NET.
 tion.to.		7200	IN	NS	NS2.WEST-DATACENTER.NET.
 tip.to.			7200	IN	NS	ns1.linode.com.
@@ -39390,7 +39228,6 @@ tkm.to.			7200	IN	NS	ns-1746.awsdns-26.co.uk.
 tkme.to.		7200	IN	NS	ns.paksys.co.uk.
 tkme.to.		7200	IN	NS	ns.paksys.com.
 tkme.to.		7200	IN	NS	ns.paksys.net.
-tkoraihsuftqtqtbjyr.to.	7200	IN	A	127.0.0.1
 tkp.to.			7200	IN	NS	ns-225.awsdns-28.com.
 tkp.to.			7200	IN	NS	ns-1450.awsdns-53.org.
 tks.to.			7200	IN	NS	ns1.dns.ne.jp.
@@ -39608,7 +39445,6 @@ tokubai.to.		7200	IN	NS	NS-386.AWSDNS-48.COM.
 tokubai.to.		7200	IN	NS	NS-553.AWSDNS-05.NET.
 tokubai.to.		7200	IN	NS	NS-1227.AWSDNS-25.ORG.
 tokubai.to.		7200	IN	NS	NS-1899.AWSDNS-45.CO.UK.
-tokuma.to.		7200	IN	A	127.0.0.1
 tokyo.to.		7200	IN	NS	ns1.hostgo.com.
 tokyo.to.		7200	IN	NS	ns2.hostgo.com.
 tokyo-jp.to.		7200	IN	NS	ns3.freeservers.com.
@@ -39682,8 +39518,6 @@ toner.to.		7200	IN	NS	ns.inwx.de.
 toner.to.		7200	IN	NS	ns2.inwx.de.
 toner.to.		7200	IN	NS	ns3.inwx.eu.
 toner.to.		7200	IN	NS	ns4.inwx.com.
-tonetalk.to.		7200	IN	NS	uns01.lolipop.jp.
-tonetalk.to.		7200	IN	NS	uns02.lolipop.jp.
 tonga.to.		7200	IN	NS	ns0.dnsmadeeasy.com.
 tonga.to.		7200	IN	NS	ns1.dnsmadeeasy.com.
 tonga-energy.to.	7200	IN	NS	ns79.mdwebhosting.com.au.
@@ -39866,7 +39700,6 @@ topsight.to.		7200	IN	NS	ns1.fatcow.com.
 topsight.to.		7200	IN	NS	ns2.fatcow.com.
 topspin.to.		7200	IN	NS	ns65.1und1.de.
 topspin.to.		7200	IN	NS	ns66.1und1.de.
-topsqkslrdwjffsd.to.	7200	IN	A	127.0.0.1
 topup.to.		7200	IN	NS	NS1.101DOMAIN.COM.
 topup.to.		7200	IN	NS	NS2.101DOMAIN.COM.
 topup.to.		7200	IN	NS	NS5.101DOMAIN.COM.
@@ -39953,13 +39786,14 @@ torp.to.		7200	IN	NS	ns1.gratisdns.dk.
 torp.to.		7200	IN	NS	ns2.gratisdns.dk.
 torrens.to.		7200	IN	NS	ns1.above.com.
 torrens.to.		7200	IN	NS	ns2.above.com.
+torrent.to.		7200	IN	A	127.0.0.1
+torrent-download.to.	7200	IN	A	127.0.0.1
 torrent-downloads.to.	7200	IN	NS	ed.ns.cloudflare.com.
 torrent-downloads.to.	7200	IN	NS	dina.ns.cloudflare.com.
 torrent-galaxy.to.	7200	IN	NS	ns1.above.com.
 torrent-galaxy.to.	7200	IN	NS	ns2.above.com.
 torrent-hitz.to.	7200	IN	NS	ns1.above.com.
 torrent-hitz.to.	7200	IN	NS	ns2.above.com.
-torrentay.to.		7200	IN	A	127.0.0.1
 torrentbay.to.		7200	IN	NS	ns1.parkingcrew.net.
 torrentbay.to.		7200	IN	NS	ns2.parkingcrew.net.
 torrentbest.to.		7200	IN	NS	ns1.above.com.
@@ -39989,7 +39823,6 @@ torrentsearch.to.	7200	IN	NS	ns1.above.com.
 torrentsearch.to.	7200	IN	NS	ns2.above.com.
 torrentseu.to.		7200	IN	NS	ns1.sedoparking.com.
 torrentseu.to.		7200	IN	NS	ns2.sedoparking.com.
-torrentt.to.		7200	IN	A	127.0.0.1
 torrentus.to.		7200	IN	NS	ed.ns.cloudflare.com.
 torrentus.to.		7200	IN	NS	dina.ns.cloudflare.com.
 torrenty.to.		7200	IN	NS	anna.ns.cloudflare.com.
@@ -40192,8 +40025,8 @@ tracked.to.		7200	IN	NS	dns3.name-services.com.
 tracked.to.		7200	IN	NS	dns4.name-services.com.
 tracker.to.		7200	IN	NS	ed.ns.cloudflare.com.
 tracker.to.		7200	IN	NS	dina.ns.cloudflare.com.
-tracker1.to.		7200	IN	A	127.0.0.1
-tracker3.to.		7200	IN	A	127.0.0.1
+tracker2.to.		7200	IN	A	127.0.0.1
+trackerprq.to.		7200	IN	A	127.0.0.1
 tracks.to.		7200	IN	NS	ns.checkdomain.de.
 tracks.to.		7200	IN	NS	ns2.checkdomain.de.
 tractorhouse.to.	7200	IN	NS	gtm1.sandhills.com.
@@ -41068,7 +40901,6 @@ ubr.to.			7200	IN	NS	pdns80.ultradns.net.
 ubr.to.			7200	IN	NS	pdns80.ultradns.org.
 ubuy.to.		7200	IN	NS	ns1.antagus.de.
 ubuy.to.		7200	IN	NS	ns2.antagus.de.
-ubwvqsmpodal.to.	7200	IN	A	127.0.0.1
 uc.to.			7200	IN	NS	ns1.cloudevelops.cz.
 uc.to.			7200	IN	NS	ns2.cloudevelops.com.
 uc.to.			7200	IN	NS	ns3.cloudevelops.eu.
@@ -41627,7 +41459,6 @@ user.to.		7200	IN	NS	ns.comtru.co.kr.
 user.to.		7200	IN	NS	ns.comtru.net.
 users.to.		7200	IN	NS	pdns05.domaincontrol.com.
 users.to.		7200	IN	NS	pdns06.domaincontrol.com.
-usfpcnfuvdvcwjjlutw.to.	7200	IN	A	127.0.0.1
 usfuqmm.to.		7200	IN	A	127.0.0.1
 usg.to.			7200	IN	NS	ns1.101domain.com.
 usg.to.			7200	IN	NS	ns2.101domain.com.
@@ -41733,7 +41564,6 @@ uyc.to.			7200	IN	NS	n2.uyc.to.
 uyc.to.			7200	IN	NS	ns.uyc.to.
 n2.uyc.to.		7200	IN	A	222.228.158.11
 ns.uyc.to.		7200	IN	A	222.228.158.10
-uyepuqrlarwqilvewkbuy.to. 7200	IN	A	127.0.0.1
 uyodfdu.to.		7200	IN	A	127.0.0.1
 uzgodnij.to.		7200	IN	NS	dns.home.pl.
 uzgodnij.to.		7200	IN	NS	dns2.home.pl.
@@ -42117,7 +41947,6 @@ vgroup.to.		7200	IN	NS	ns2.easyhosting.com.
 vgroup.to.		7200	IN	NS	ns3.easyhosting.com.
 vgroup.to.		7200	IN	NS	ns4.easyhosting.com.
 vgycgssuyhotw.to.	7200	IN	A	127.0.0.1
-vhauxqeysnyqjfvvomk.to.	7200	IN	A	127.0.0.1
 vhisper.to.		7200	IN	NS	NS1.REGISTER.TO.
 vhisper.to.		7200	IN	NS	NS2.REGISTER.TO.
 vhisper.to.		7200	IN	NS	NS3.REGISTER.TO.
@@ -42150,8 +41979,6 @@ vib.to.			7200	IN	NS	theo.ns.cloudflare.com.
 vib.to.			7200	IN	NS	connie.ns.cloudflare.com.
 vibe.to.		7200	IN	NS	ns1.provenpixel.com.
 vibe.to.		7200	IN	NS	ns2.provenpixel.com.
-vibeo.to.		7200	IN	NS	ns1.parkingcrew.net.
-vibeo.to.		7200	IN	NS	ns2.parkingcrew.net.
 vibers.to.		7200	IN	NS	ns1.provenpixel.com.
 vibers.to.		7200	IN	NS	ns2.provenpixel.com.
 vibes.to.		7200	IN	NS	ns-507.awsdns-63.com.
@@ -42228,10 +42055,6 @@ videozone.to.		7200	IN	NS	ns2.bndbind.org.
 vidgg.to.		7200	IN	NS	ns1.dns191.net.
 vidgg.to.		7200	IN	NS	ns2.dns191.net.
 vidgg.to.		7200	IN	NS	ns3.dns191.net.
-vidics.to.		7200	IN	NS	ns1.vidics.to.
-vidics.to.		7200	IN	NS	ns2.vidics.to.
-ns1.vidics.to.		7200	IN	A	37.46.121.153
-ns2.vidics.to.		7200	IN	A	185.7.33.126
 vidio.to.		7200	IN	NS	ns1.mr06.mycpanelcloud.co.uk.
 vidio.to.		7200	IN	NS	ns2.mr06.mycpanelcloud.co.uk.
 vidnow.to.		7200	IN	NS	anna.ns.cloudflare.com.
@@ -42259,10 +42082,6 @@ viewme.to.		7200	IN	NS	ns2.cnnt.pl.
 views.to.		7200	IN	NS	ns.vuurwerk.nl.
 views.to.		7200	IN	NS	NS2.VUURWERK.NET.
 views.to.		7200	IN	NS	NS3.VUURWERK.NET.
-viewsfromthe6.to.	7200	IN	NS	NS1.REGISTER.TO.
-viewsfromthe6.to.	7200	IN	NS	NS2.REGISTER.TO.
-viewsfromthe6.to.	7200	IN	NS	NS3.REGISTER.TO.
-viewsfromthe6.to.	7200	IN	NS	NS4.REGISTER.TO.
 viflnnwcadsdrfperquc.to. 7200	IN	A	127.0.0.1
 vignette.to.		7200	IN	NS	a4.nstld.com.
 vignette.to.		7200	IN	NS	f4.nstld.com.
@@ -42300,7 +42119,6 @@ vink.to.		7200	IN	NS	ns3198.dns.dyn.com.
 vink.to.		7200	IN	NS	ns4152.dns.dyn.com.
 vino.to.		7200	IN	NS	ns1.tsohost.co.uk.
 vino.to.		7200	IN	NS	ns2.tsohost.co.uk.
-vinsesatnlpt.to.	7200	IN	A	127.0.0.1
 viola.to.		7200	IN	NS	NS1.NO-IP.COM.
 viola.to.		7200	IN	NS	NS2.NO-IP.COM.
 viola.to.		7200	IN	NS	NS3.NO-IP.COM.
@@ -42444,7 +42262,6 @@ vixvids.to.		7200	IN	NS	jay.ns.cloudflare.com.
 vixvids.to.		7200	IN	NS	lara.ns.cloudflare.com.
 viz.to.			7200	IN	NS	a.dns.park.io.
 viz.to.			7200	IN	NS	b.dns.park.io.
-vkavijfuggvwgbgy.to.	7200	IN	A	127.0.0.1
 vknjiqwnevk.to.		7200	IN	A	127.0.0.1
 vlad.to.		7200	IN	NS	NS1.DREAMHOST.COM.
 vlad.to.		7200	IN	NS	NS2.DREAMHOST.COM.
@@ -42492,13 +42309,11 @@ vmw.to.			7200	IN	NS	pns.dtag.de.
 vmw.to.			7200	IN	NS	secondary007.dtag.net.
 vn.to.			7200	IN	NS	ns1.infomaniak.ch.
 vn.to.			7200	IN	NS	ns2.infomaniak.ch.
-vnjvudnaq.to.		7200	IN	A	127.0.0.1
 vnn.to.			7200	IN	NS	NS1.BODIS.COM.
 vnn.to.			7200	IN	NS	NS2.BODIS.COM.
 vnyowonqoqkiasn.to.	7200	IN	A	127.0.0.1
 vo.to.			7200	IN	NS	f1g1ns1.dnspod.net.
 vo.to.			7200	IN	NS	f1g1ns2.dnspod.net.
-voadjjckfkmm.to.	7200	IN	A	127.0.0.1
 vocal.to.		7200	IN	NS	ns1.dreamhost.com.
 vocal.to.		7200	IN	NS	ns2.dreamhost.com.
 vocan.to.		7200	IN	NS	ns-99.awsdns-12.com.
@@ -42646,8 +42461,6 @@ vps-hosting.to.		7200	IN	NS	max.ns.cloudflare.com.
 vps-hosting.to.		7200	IN	NS	dana.ns.cloudflare.com.
 vpxgissbdrx.to.		7200	IN	A	127.0.0.1
 vqalsxy.to.		7200	IN	A	127.0.0.1
-vqebjendaghfns.to.	7200	IN	A	127.0.0.1
-vqkxucjm.to.		7200	IN	A	127.0.0.1
 vqnoeaggtjjg.to.	7200	IN	A	127.0.0.1
 vr.to.			7200	IN	NS	f1g1ns1.dnspod.net.
 vr.to.			7200	IN	NS	f1g1ns2.dnspod.net.
@@ -42695,7 +42508,6 @@ vst.to.			7200	IN	NS	NS-1720.AWSDNS-23.CO.UK.
 vsxrfhkv.to.		7200	IN	A	127.0.0.1
 vt.to.			7200	IN	NS	ns.namespace4you.de.
 vt.to.			7200	IN	NS	ns2.namespace4you.de.
-vtggewcriprmlttldfget.to. 7200	IN	A	127.0.0.1
 vts.to.			7200	IN	NS	ns.udag.de.
 vts.to.			7200	IN	NS	ns.udag.net.
 vts.to.			7200	IN	NS	ns.udag.org.
@@ -42716,14 +42528,9 @@ vurb.to.		7200	IN	NS	ns-489.awsdns-61.com.
 vurb.to.		7200	IN	NS	ns-777.awsdns-33.net.
 vurb.to.		7200	IN	NS	ns-1192.awsdns-21.org.
 vurb.to.		7200	IN	NS	ns-1573.awsdns-04.co.uk.
-vurwilildntiwdq.to.	7200	IN	A	127.0.0.1
 vuurwerk.to.		7200	IN	NS	ns.vuurwerk.nl.
 vuurwerk.to.		7200	IN	NS	NS2.VUURWERK.NET.
 vuurwerk.to.		7200	IN	NS	NS3.VUURWERK.NET.
-vv.to.			7200	IN	NS	ace.vv.to.
-vv.to.			7200	IN	NS	zeus.vv.to.
-ace.vv.to.		7200	IN	A	61.219.165.19
-zeus.vv.to.		7200	IN	A	210.61.162.218
 vvs.to.			7200	IN	NS	dns9.hosthongkong.com.
 vvs.to.			7200	IN	NS	dns10.hosthongkong.com.
 vvv.to.			7200	IN	NS	ns1.xserver.jp.
@@ -42797,9 +42604,6 @@ vyprodej.to.		7200	IN	NS	ns2.attivo.eu.
 vyresime.to.		7200	IN	NS	ns1.regzone.cz.
 vyresime.to.		7200	IN	NS	ns1.regzone.de.
 vyresime.to.		7200	IN	NS	ns1.regzone.info.
-vyriesime.to.		7200	IN	NS	ns1.websupport.sk.
-vyriesime.to.		7200	IN	NS	ns2.websupport.sk.
-vyriesime.to.		7200	IN	NS	ns3.websupport.sk.
 vyrob.to.		7200	IN	NS	NS1.REGISTER.TO.
 vyrob.to.		7200	IN	NS	NS2.REGISTER.TO.
 vyrob.to.		7200	IN	NS	NS3.REGISTER.TO.
@@ -43287,7 +43091,6 @@ wave.to.		7200	IN	NS	ns1.wave.to.
 wave.to.		7200	IN	NS	ns2.wave.to.
 ns1.wave.to.		7200	IN	A	163.172.153.148
 ns2.wave.to.		7200	IN	A	163.172.155.31
-wavseljfgixyshxqqicqy.to. 7200	IN	A	127.0.0.1
 wawa.to.		7200	IN	NS	ns1.above.com.
 wawa.to.		7200	IN	NS	ns2.above.com.
 wawa-mania.to.		7200	IN	NS	ns1.wawa-mania.to.
@@ -43357,7 +43160,6 @@ wc6fa91d69709cef61c38c0136fd86924e.to. 7200 IN A 127.0.0.1
 wcn.to.			7200	IN	NS	ns1.above.com.
 wcn.to.			7200	IN	NS	ns2.above.com.
 wcnqdqcojfqejpgncbu.to.	7200	IN	A	127.0.0.1
-wcpotrrsvmpqdskqokkhj.to. 7200	IN	A	127.0.0.1
 wd.to.			7200	IN	NS	a.dns.park.io.
 wd035d57dd0c1e46d94eccd76a5b19c3fd.to. 7200 IN A 127.0.0.1
 wd3931e0cc90e2234ab7143aefb342b901.to. 7200 IN A 127.0.0.1
@@ -43879,7 +43681,6 @@ whowants.to.		7200	IN	NS	NS1.REGISTER.TO.
 whowants.to.		7200	IN	NS	NS2.REGISTER.TO.
 whowants.to.		7200	IN	NS	NS3.REGISTER.TO.
 whowants.to.		7200	IN	NS	NS4.REGISTER.TO.
-whpiisastv.to.		7200	IN	A	127.0.0.1
 whr.to.			7200	IN	NS	NS1.101DOMAIN.COM.
 whr.to.			7200	IN	NS	NS2.101DOMAIN.COM.
 whr.to.			7200	IN	NS	NS5.101DOMAIN.COM.
@@ -43960,9 +43761,6 @@ wikireseller.to.	7200	IN	NS	eva.ns.cloudflare.com.
 wikireseller.to.	7200	IN	NS	greg.ns.cloudflare.com.
 wikstrom.to.		7200	IN	NS	ns1.mailbank.com.
 wikstrom.to.		7200	IN	NS	ns2.mailbank.com.
-wil.to.			7200	IN	NS	ns1.dreamhost.com.
-wil.to.			7200	IN	NS	ns2.dreamhost.com.
-wil.to.			7200	IN	NS	ns3.dreamhost.com.
 wilco.to.		7200	IN	NS	NS2.PPI.NET.
 wilco.to.		7200	IN	NS	NSA.PPI.NET.
 wild.to.		7200	IN	NS	NS1.REGISTER.TO.
@@ -44043,6 +43841,7 @@ wink.to.		7200	IN	NS	ns1.next-web.ad.jp.
 wink.to.		7200	IN	NS	ns2.next-web.ad.jp.
 winner.to.		7200	IN	NS	ns1.leaseweb.nl.
 winner.to.		7200	IN	NS	ns4.leaseweb.net.
+winning.to.		7200	IN	A	127.0.0.1
 wins.to.		7200	IN	NS	ns.wins.to.
 wins.to.		7200	IN	NS	sec.wins.to.
 wins.to.		7200	IN	NS	ddns1.interlink.or.jp.
@@ -44197,7 +43996,6 @@ woof.to.		7200	IN	NS	ns2.onlydomains.com.
 woofgnylnqgtitv.to.	7200	IN	A	127.0.0.1
 woot.to.		7200	IN	NS	ns1.soramimi.jp.
 woot.to.		7200	IN	NS	ns2.soramimi.jp.
-wopuamgarh.to.		7200	IN	A	127.0.0.1
 word.to.		7200	IN	NS	NS1.UNIREGISTRYMARKET.LINK.
 word.to.		7200	IN	NS	NS2.UNIREGISTRYMARKET.LINK.
 wordpres.to.		7200	IN	NS	bob.ns.cloudflare.com.
@@ -44317,11 +44115,8 @@ wqdsmvywavbt.to.	7200	IN	A	127.0.0.1
 wqhbmccf.to.		7200	IN	A	127.0.0.1
 wqhcwxewpwgk.to.	7200	IN	A	127.0.0.1
 wqmatontimia.to.	7200	IN	A	127.0.0.1
-wqvquhvqbuxopbly.to.	7200	IN	A	127.0.0.1
 wqw.to.			7200	IN	NS	ns15.hostexcellence.com.
 wqw.to.			7200	IN	NS	ns16.hostexcellence.com.
-wramjixuqkcjqmi.to.	7200	IN	A	127.0.0.1
-wreppcxetkc.to.		7200	IN	A	127.0.0.1
 wrestling.to.		7200	IN	NS	ns1.above.com.
 wrestling.to.		7200	IN	NS	ns2.above.com.
 wri.to.			7200	IN	NS	ns1.onlydomains.com.
@@ -44394,7 +44189,6 @@ wtd.to.			7200	IN	NS	ns1.bdm.microsoftonline.com.
 wtd.to.			7200	IN	NS	ns2.bdm.microsoftonline.com.
 wte.to.			7200	IN	NS	dns1.cscdns.net.
 wte.to.			7200	IN	NS	dns2.cscdns.net.
-wteifohajspwdham.to.	7200	IN	A	127.0.0.1
 wtf.to.			7200	IN	NS	dns1.easydns.com.
 wtf.to.			7200	IN	NS	dns2.easydns.net.
 wtf.to.			7200	IN	NS	dns3.easydns.org.
@@ -44448,7 +44242,6 @@ wwf.to.			7200	IN	NS	ns2.101domain.com.
 wwf.to.			7200	IN	NS	ns5.101domain.com.
 wwl.to.			7200	IN	NS	ns.hostpoint.ch.
 wwl.to.			7200	IN	NS	ns2.hostpoint.ch.
-wwlvdxvbwggadqdh.to.	7200	IN	A	127.0.0.1
 wwvvpwvyuml.to.		7200	IN	A	127.0.0.1
 www.to.			7200	IN	NS	ns883.hostgator.com.
 www.to.			7200	IN	NS	ns884.hostgator.com.
@@ -44478,7 +44271,6 @@ wx.to.			7200	IN	NS	NS2.REGISTER.TO.
 wx.to.			7200	IN	NS	NS3.REGISTER.TO.
 wx.to.			7200	IN	NS	NS4.REGISTER.TO.
 wxkpasypi.to.		7200	IN	A	127.0.0.1
-wxnnbueimptikibaa.to.	7200	IN	A	127.0.0.1
 wxogswjsgn.to.		7200	IN	A	127.0.0.1
 wxomcdvycsawkoykwsnkn.to. 7200	IN	A	127.0.0.1
 wybieramy.to.		7200	IN	NS	ip7.ima.pl.
@@ -44552,7 +44344,6 @@ wymieniam.to.		7200	IN	NS	dns2.home.pl.
 wymieniam.to.		7200	IN	NS	dns3.home.pl.
 wynajmij.to.		7200	IN	NS	dns1.pcp.pl.
 wynajmij.to.		7200	IN	NS	dns2.pcp.pl.
-wynfmemktpar.to.	7200	IN	A	127.0.0.1
 wyobrazsobie.to.	7200	IN	NS	ns.lh.pl.
 wyobrazsobie.to.	7200	IN	NS	ns2.lighthosting.net.
 wyobrazsobie.to.	7200	IN	NS	ns3.az.pl.
@@ -44676,12 +44467,12 @@ xcopy.to.		7200	IN	NS	NS1.REGISTER.TO.
 xcopy.to.		7200	IN	NS	NS2.REGISTER.TO.
 xcopy.to.		7200	IN	NS	NS3.REGISTER.TO.
 xcopy.to.		7200	IN	NS	NS4.REGISTER.TO.
+xcpwoveo.to.		7200	IN	A	127.0.0.1
 xd.to.			7200	IN	NS	d.ns.to.
 xd.to.			7200	IN	NS	s.ns.to.
 xddtshqnqpvbblrimb.to.	7200	IN	A	127.0.0.1
 xe.to.			7200	IN	NS	ns1.parkingcrew.net.
 xe.to.			7200	IN	NS	NS2.parkingcrew.net.
-xemphim.to.		7200	IN	A	127.0.0.1
 xenap.to.		7200	IN	NS	ns1.dnsimple.com.
 xenap.to.		7200	IN	NS	ns2.dnsimple.com.
 xenap.to.		7200	IN	NS	ns3.dnsimple.com.
@@ -44696,23 +44487,19 @@ xerox.to.		7200	IN	NS	athena.xerox.com.
 xerox.to.		7200	IN	NS	betelgeuse.xerox.com.
 xeroxprinters.to.	7200	IN	NS	ns.domainnetwork.se.
 xeroxprinters.to.	7200	IN	NS	ns2.domainnetwork.se.
-xfbtwxibqkpsogw.to.	7200	IN	A	127.0.0.1
 xfidictmxvnrkurjr.to.	7200	IN	A	127.0.0.1
 xfiles.to.		7200	IN	NS	NS1.AFRAID.ORG.
 xfiles.to.		7200	IN	NS	NS2.AFRAID.ORG.
 xfiles.to.		7200	IN	NS	NS3.AFRAID.ORG.
 xfiles.to.		7200	IN	NS	NS4.AFRAID.ORG.
-xfqkbodxhoyp.to.	7200	IN	A	127.0.0.1
 xfr.to.			7200	IN	NS	ns1.ombu.ca.
 xfr.to.			7200	IN	NS	ns2.ombu.ca.
 xftqcmtqbcnsaiefvgdto.to. 7200	IN	A	127.0.0.1
-xfxkobbwommmgj.to.	7200	IN	A	127.0.0.1
 xhamster.to.		7200	IN	NS	ns1.parkingcrew.net.
 xhamster.to.		7200	IN	NS	ns2.parkingcrew.net.
 xhg.to.			7200	IN	NS	f1g1ns1.dnspod.net.
 xhg.to.			7200	IN	NS	f1g1ns2.dnspod.net.
 xhhefepgdivubpgbqwn.to.	7200	IN	A	127.0.0.1
-xhuxwpdmr.to.		7200	IN	A	127.0.0.1
 xi.to.			7200	IN	NS	ns1.elfde.com.
 xi.to.			7200	IN	NS	ns2.elfde.com.
 xian.to.		7200	IN	NS	ns1.hostmonster.com.
@@ -44730,6 +44517,7 @@ xis.to.			7200	IN	NS	picus.w3.is.
 arion.xis.to.		7200	IN	A	178.63.62.246
 xiusullehchu.to.	7200	IN	A	127.0.0.1
 xjkkgqryecqg.to.	7200	IN	A	127.0.0.1
+xkdxdkoqsfmcojdwwfk.to.	7200	IN	A	127.0.0.1
 xkino.to.		7200	IN	NS	ns1.above.com.
 xkino.to.		7200	IN	NS	ns2.above.com.
 xlinkz.to.		7200	IN	NS	ns1.worldwidedns.net.
@@ -44982,7 +44770,6 @@ xnxx.to.		7200	IN	NS	ns1.serverstack.com.
 xnxx.to.		7200	IN	NS	ns2.serverstack.com.
 xnxx.to.		7200	IN	NS	ns3.serverstack.com.
 xnxx.to.		7200	IN	NS	ns4.serverstack.com.
-xnykcibqkardngqrsujvy.to. 7200	IN	A	127.0.0.1
 xo.to.			7200	IN	NS	NS1.AFRAID.ORG.
 xo.to.			7200	IN	NS	NS2.AFRAID.ORG.
 xo.to.			7200	IN	NS	NS3.AFRAID.ORG.
@@ -45075,7 +44862,6 @@ xstream.to.		7200	IN	NS	ns4.inwx.com.
 xstreams.to.		7200	IN	NS	ns1.worldwidedns.net.
 xstreams.to.		7200	IN	NS	ns2.worldwidedns.net.
 xstreams.to.		7200	IN	NS	ns3.worldwidedns.net.
-xswiyql.to.		7200	IN	A	127.0.0.1
 xtape.to.		7200	IN	NS	ns1.above.com.
 xtape.to.		7200	IN	NS	ns2.above.com.
 xtapes.to.		7200	IN	NS	gail.ns.cloudflare.com.
@@ -45112,7 +44898,6 @@ xue.to.			7200	IN	NS	NS1.REGISTER.TO.
 xue.to.			7200	IN	NS	NS2.REGISTER.TO.
 xue.to.			7200	IN	NS	NS3.REGISTER.TO.
 xue.to.			7200	IN	NS	NS4.REGISTER.TO.
-xukbsfuvtpry.to.	7200	IN	A	127.0.0.1
 xup.to.			7200	IN	NS	nile.ns.cloudflare.com.
 xup.to.			7200	IN	NS	megan.ns.cloudflare.com.
 xuv.to.			7200	IN	NS	NS1.REGISTER.TO.
@@ -45129,9 +44914,7 @@ xvt.to.			7200	IN	NS	NS1.REGISTER.TO.
 xvt.to.			7200	IN	NS	NS2.REGISTER.TO.
 xvt.to.			7200	IN	NS	NS3.REGISTER.TO.
 xvt.to.			7200	IN	NS	NS4.REGISTER.TO.
-xvtjwddu.to.		7200	IN	A	127.0.0.1
 xwawkncousphfd.to.	7200	IN	A	127.0.0.1
-xwojonumne.to.		7200	IN	A	127.0.0.1
 xwqamxiwfnqiljrexdljf.to. 7200	IN	A	127.0.0.1
 xwtvyruepwjutfl.to.	7200	IN	A	127.0.0.1
 xwuayrr.to.		7200	IN	A	127.0.0.1
@@ -45162,7 +44945,6 @@ xy.to.			7200	IN	NS	ns4.cloudmouse.com.
 xyegeayxajf.to.		7200	IN	A	127.0.0.1
 xyggevldgodmwmingimq.to. 7200	IN	A	127.0.0.1
 xykgvqxdy.to.		7200	IN	A	127.0.0.1
-xypjuxqvqrnb.to.	7200	IN	A	127.0.0.1
 xyz.to.			7200	IN	NS	DNS1.NAME-SERVICES.COM.
 xyz.to.			7200	IN	NS	DNS2.NAME-SERVICES.COM.
 xyz.to.			7200	IN	NS	DNS3.NAME-SERVICES.COM.
@@ -45356,7 +45138,6 @@ ybdjbuufyefyqwgkwx.to.	7200	IN	A	127.0.0.1
 ybe724504036a23eccb3bd91a3bfa5c3f8.to. 7200 IN A 127.0.0.1
 yblqfgxpoamqajstjflgg.to. 7200	IN	A	127.0.0.1
 ybnqojvtbqxh.to.	7200	IN	A	127.0.0.1
-ybqbablaeq.to.		7200	IN	A	127.0.0.1
 yc.to.			7200	IN	NS	202.215.133.171.ap.gmobb-fix.jp.
 yc0e7bd84c979722070ba55d5fef3a5ef7.to. 7200 IN A 127.0.0.1
 yc526e0c2a26c3d8a9201842941b0f3ed5.to. 7200 IN A 127.0.0.1
@@ -45366,7 +45147,6 @@ ycc.to.			7200	IN	NS	kate.ns.cloudflare.com.
 ycc.to.			7200	IN	NS	merlin.ns.cloudflare.com.
 ycc4a31e30fb47cf3cec9c49d9de485b73.to. 7200 IN A 127.0.0.1
 ycchkjsxw.to.		7200	IN	A	127.0.0.1
-ycdbolghpehjeis.to.	7200	IN	A	127.0.0.1
 ycfbjtigkncwsiggawi.to.	7200	IN	A	127.0.0.1
 ychlpfvkqewpaduwmc.to.	7200	IN	A	127.0.0.1
 ycm.to.			7200	IN	NS	ns01.trademarkarea.com.
@@ -45379,7 +45159,6 @@ yd1ecbf7ed85bae7066018d7ce299ab05d.to. 7200 IN A 127.0.0.1
 yd3cba6b5d8122c6c98ed76eb16f6f874b.to. 7200 IN A 127.0.0.1
 yd52ed82ac521ceaba65284cfc5def7ce1.to. 7200 IN A 127.0.0.1
 yda1a944125e0bebbedaadcdde42726dad.to. 7200 IN A 127.0.0.1
-ydalfuocje.to.		7200	IN	A	127.0.0.1
 ydb95f8db1286cc4d08c300a94f3897f77.to. 7200 IN A 127.0.0.1
 ydb9a8d4c1e7de46ffea2d73ed7c97df08.to. 7200 IN A 127.0.0.1
 ydebbf5323556bbdc99ff841709dde02a7.to. 7200 IN A 127.0.0.1
@@ -45456,7 +45235,6 @@ yftespaindqeaktaunq.to.	7200	IN	A	127.0.0.1
 yg.to.			7200	IN	NS	ns1.cdmon.net.
 yg.to.			7200	IN	NS	ns2.cdmon.net.
 yg.to.			7200	IN	NS	ns3.cdmon.net.
-ygojiwkngufplylvijkdb.to. 7200	IN	A	127.0.0.1
 ygxvqjcbqhvyjurhxb.to.	7200	IN	A	127.0.0.1
 ygyemauosrq.to.		7200	IN	A	127.0.0.1
 yh.to.			7200	IN	NS	a.dns.park.io.
@@ -45484,7 +45262,6 @@ yin.to.			7200	IN	NS	ns2.he.net.
 yin.to.			7200	IN	NS	ns3.he.net.
 yin.to.			7200	IN	NS	ns4.he.net.
 yinbickgvysrrluic.to.	7200	IN	A	127.0.0.1
-yingkebao.to.		7200	IN	A	127.0.0.1
 yippak.to.		7200	IN	NS	mns01.domaincontrol.com.
 yippak.to.		7200	IN	NS	mns02.domaincontrol.com.
 yis.to.			7200	IN	NS	NS1.REGISTER.TO.
@@ -45509,7 +45286,6 @@ ym123.to.		7200	IN	NS	NS3.REGISTER.TO.
 ym123.to.		7200	IN	NS	NS4.REGISTER.TO.
 ymb.to.			7200	IN	NS	f1g1ns1.dnspod.net.
 ymb.to.			7200	IN	NS	f1g1ns2.dnspod.net.
-ymgtkxnweoyty.to.	7200	IN	A	127.0.0.1
 ymk.to.			7200	IN	NS	ns1.raymay-sol.jp.
 ymk.to.			7200	IN	NS	ns2.raymay-sol.jp.
 ymp.to.			7200	IN	NS	ns1.easyname.eu.
@@ -46081,6 +45857,7 @@ zer0day.to.		7200	IN	NS	ns1.zer0day.pw.
 zer0day.to.		7200	IN	NS	ns2.zer0day.pw.
 zero.to.		7200	IN	NS	NS1.VALUE-DOMAIN.COM.
 zero.to.		7200	IN	NS	NS2.VALUE-DOMAIN.COM.
+zero0day.to.		7200	IN	A	127.0.0.1
 zerobeat.to.		7200	IN	NS	eagle.zerobeat.to.
 eagle.zerobeat.to.	7200	IN	A	210.226.169.193
 zerocdn.to.		7200	IN	NS	ns1.zerocdn.to.
@@ -46206,10 +45983,6 @@ zlikviduj.to.		7200	IN	NS	NS4.REGISTER.TO.
 zlo.to.			7200	IN	NS	dns.home.pl.
 zlo.to.			7200	IN	NS	dns2.home.pl.
 zlo.to.			7200	IN	NS	dns3.home.pl.
-zlp.to.			7200	IN	NS	NS-98.AWSDNS-12.COM.
-zlp.to.			7200	IN	NS	NS-647.AWSDNS-16.NET.
-zlp.to.			7200	IN	NS	NS-1283.AWSDNS-32.ORG.
-zlp.to.			7200	IN	NS	NS-2039.AWSDNS-62.CO.UK.
 zm.to.			7200	IN	NS	sv.myplanet.jp.
 zm.to.			7200	IN	NS	www.myplanet.ne.jp.
 zmen.to.		7200	IN	NS	ns1.webhouse.sk.
@@ -46407,4 +46180,4 @@ zzy.to.			7200	IN	NS	ns1.he.net.
 zzy.to.			7200	IN	NS	ns2.he.net.
 zzz.to.			7200	IN	NS	kate.ns.cloudflare.com.
 zzz.to.			7200	IN	NS	merlin.ns.cloudflare.com.
-to.			7200	IN	SOA	tonic.to. hostmaster.tonic.to. 2017030201 43200 7200 2592000 7200
+to.			7200	IN	SOA	tonic.to. hostmaster.tonic.to. 2017030202 43200 7200 2592000 7200

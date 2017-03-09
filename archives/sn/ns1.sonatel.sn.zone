@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sn. @ns1.sonatel.sn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017030900 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017030901 21600 3600 1209600 3600
 sn.			86400	IN	RRSIG	TXT 8 1 86400 20170404221109 20170306075222 10905 sn. Zvm7ummqNFJeUy2Y4vOuUcubPILvHo0nRYnX3hivkzNXZCLoDJb14mgG OnuRNnXzA+RtTzyP97C6Vk6nJIX+pQY52/ofhx+dPA6x4qep/NNvzTmg KZQLLrbbb2g9B8GyioKFCrfoMLoYMpGhM1Y40I91E0rGvO6AOhoYv2rq RW4=
 sn.			86400	IN	TXT	"v=spf1 -all"
 sn.			86400	IN	RRSIG	NS 8 1 86400 20170405221916 20170306075222 10905 sn. eXEYwguLKlgYn41u7P16bg/tjAzcAyBIS19FTJQziPNtTESmEUxJllxm 7HXAXTw+NXiydOwBDBoU4t+R8lhOcn2W11wi/NAqv3oiexaNeMh4qbAc NUTSOBbp6qHdzZSq7QKzIfd6tDTSI3NtPNPZe+uYaIGlS8ni+EjG7UFd tU4=
@@ -16,7 +16,7 @@ sn.			43200	IN	RRSIG	DNSKEY 8 1 43200 20170405093153 20170306075222 32482 sn. cu
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAaUFGJYSRmfo+C6B6bJD0WMZ7Z35fCvu6rYeKnN7gRc0DYETXJsX ECKYkRpTr7LqcjgzOWLCBI7mpg31Kwdeab8BcMdgz1zRuDq7Ad+rAjo2 7VFy6Psm2OjnwO1xOP7AeeL9Sq+q+fIcVlUQavKjsPFAcz0Vcyah9CyI 55Jfp2BX
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAeBHlePaiHDm2QTIz/wPutTSs0PBVLMrQFvf00LVFEZKRNZrfHiI JdwRSqylpZWqJxbnBBXTsRsqce4zCNuq8U9rYMyNrizmMFerPmrIF0Rb 29wt0PKbgvJMxHt3/blvCL5kYtpZLpINUh3R4vtGRa4TKLRN/BHJ0kHn JyM03pBh
 sn.			43200	IN	DNSKEY	257 3 8 AwEAAbtBoi+R3s3nxMcnhiVzYNpwetz1ZsD8Lx18+bA4lZpOTm9LP3LO ocXA0s4btHhVg/o9LfbqcWBMdAXKT38fNo/PdRbjxLT9/xN82Suth09l JIiIIQUv5DSOBwywDwNjxH1881WF5ZPe69PWMIKWaBskiWBawn13spBm 8bqXyhfDeGKZL/38fG/qCeH6EfoVvgmG4VJWjNamAcacSKwCo/DKxrhB ciGAaNbSOTvNJhWhqRpNoYKEGwFUQbCb5yAn8VJpuB4K40V5qMGl2lE7 eQ0j6nJS+TyaUi4K4o/N/YahFiFNELZIzJtV5zzVgojHV44miLA27yGG ag0ze822ar8=
-sn.			86400	IN	RRSIG	SOA 8 1 86400 20170407220404 20170309090501 10905 sn. 130WdlhzsfsU4f6cTSgNvyBpCZSdFj4JKslE7K8yJGL+jTdrkisZ07ou cb/rbe3nlLdaygnrcOSGZOvHoyl/HRwwisQt3iEgSf8OR9+9KsWX9Zv2 KtTqy80Lf+//6xUbt/AwbhghwJxnDYOeEx4bd2h6ZkKBQrjXVvw6X1L5 jzo=
+sn.			86400	IN	RRSIG	SOA 8 1 86400 20170408121939 20170309170502 10905 sn. Ip9jeT5vvN0WWFEERT7vo6o59A/zXWC6YTMXlVTq3hKlTl5W0JDwIQiS 4UKhl1BaHrfJDrbVB8bW2yCvnEnwdbxRryyuHl6NpRya+643CFy6gTpH slyN2ec/P5y+3uLiKYLh4V3qQW9sa18uafcukL4vvAPH5IvGyGpJ7WMB uIE=
 1000services.sn.	86400	IN	NS	ns411.websitewelcome.com.
 1000services.sn.	86400	IN	NS	ns412.websitewelcome.com.
 100pour100.sn.		86400	IN	NS	ns1.kheweul.com.
@@ -8222,8 +8222,8 @@ satuc.sn.		86400	IN	NS	ns3.kheweul.net.
 satuc.sn.		86400	IN	NS	ns4.kheweul.net.
 saturne.sn.		86400	IN	NS	ns.sonatel.sn.
 saturne.sn.		86400	IN	NS	ns2.sonatel.sn.
-savana.sn.		86400	IN	NS	ns.sonatel.sn.
-savana.sn.		86400	IN	NS	ns2.sonatel.sn.
+savana.sn.		86400	IN	NS	ns200.anycast.me.
+savana.sn.		86400	IN	NS	dns200.anycast.me.
 sbm.sn.			86400	IN	NS	ns4043.hostgator.com.
 sbm.sn.			86400	IN	NS	ns4044.hostgator.com.
 sbma.sn.		86400	IN	NS	ns1.infomaniak.ch.
@@ -19420,4 +19420,4 @@ vvjvblks96uc45tdqg8dqcn9l2m7tic1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170405175913
 vvjvblks96uc45tdqg8dqcn9l2m7tic1.sn. 3600 IN NSEC3 1 0 1 189B134C7747D6F5 VVQ8PTGQNPB3B86VTO4U6LU9KFL8O2RO NS
 vvq8ptgqnpb3b86vto4u6lu9kfl8o2ro.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170404230516 20170306075222 10905 sn. WSrmbviKvYSceKBP4jaDlpJJtWc8bbkAHrRtgAZ984eMCqEa7EqRXKKX HR+EJhuf22gm/oET+tLSA8Vx5VD1jDqLg7x02CVOu2Rn+4gsE+q3fudN WpEJzbpjkYrAt+UNR79zbrhTAaqWqneKU/GtrfL9xw6ZJ1oJtM9fabMA jKk=
 vvq8ptgqnpb3b86vto4u6lu9kfl8o2ro.sn. 3600 IN NSEC3 1 0 1 189B134C7747D6F5 0004BF404T36N12UIK5HMQIB9GL2T1TL NS
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017030900 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017030901 21600 3600 1209600 3600

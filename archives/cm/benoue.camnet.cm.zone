@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017032407 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017032414 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1490335219"
+cm.			86400	IN	TXT	"Generation Time: 1490360421"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -4099,6 +4099,7 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 166555.cm.		86400	IN	NS	ns6.myhostadmin.net.
 1666.cm.		86400	IN	NS	ns7.cnmsn.net.
 1666.cm.		86400	IN	NS	ns8.cnmsn.net.
+16666.cm.		86400	IN	NS	v1s1.xundns.com.
 16666.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 16666.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 166666.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -5193,6 +5194,7 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 2000.cm.		86400	IN	NS	ns2.dnsv1.com.
 2000.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 2000.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+20000.cm.		86400	IN	NS	v1s1.xundns.com.
 20000.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 20000.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 200000.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -6630,6 +6632,7 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 25444.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 2548.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 2548.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
+255.cm.			86400	IN	NS	ns2.dnsv1.com.
 255.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 255.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 2550.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -7601,12 +7604,9 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 2927.cm.		86400	IN	NS	ns2.ndns.cn.
 292888.cm.		86400	IN	NS	ns3.myhostadmin.net.
 292888.cm.		86400	IN	NS	ns4.myhostadmin.net.
-2929.cm.		86400	IN	NS	ns1.myhostadmin.net.
-2929.cm.		86400	IN	NS	ns2.myhostadmin.net.
-2929.cm.		86400	IN	NS	ns3.myhostadmin.net.
-2929.cm.		86400	IN	NS	ns4.myhostadmin.net.
-2929.cm.		86400	IN	NS	ns5.myhostadmin.net.
-2929.cm.		86400	IN	NS	ns6.myhostadmin.net.
+2929.cm.		86400	IN	NS	v1s1.xundns.com.
+2929.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+2929.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 29291.cm.		86400	IN	NS	ns5.myhostadmin.net.
 29291.cm.		86400	IN	NS	ns6.myhostadmin.net.
 292929.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -7869,6 +7869,7 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 3000.cm.		86400	IN	NS	ns2.dnsv1.com.
 3000.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 3000.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+30000.cm.		86400	IN	NS	v1s1.xundns.com.
 30000.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 30000.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 300000.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -8322,6 +8323,7 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 3199.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 31999.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 31999.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+32.cm.			86400	IN	NS	ns2.dnsv1.com.
 32.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 32.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 320.cm.			86400	IN	NS	ns2.dnsv1.com.
@@ -9679,6 +9681,7 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 366366.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 3664.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 3664.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+3666.cm.		86400	IN	NS	v1s1.xundns.com.
 3666.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 3666.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 366666.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -13423,6 +13426,7 @@ ns02.3ub.cm.		86400	IN	A	219.94.232.205
 5396.cm.		86400	IN	NS	ns2.ndns.cn.
 5397.cm.		86400	IN	NS	ns1.ndns.cn.
 5397.cm.		86400	IN	NS	ns2.ndns.cn.
+5398.cm.		86400	IN	NS	ns2.dnsv1.com.
 5398.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5398.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5399.cm.		86400	IN	NS	ns1.4.cn.
@@ -13893,10 +13897,12 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 5558.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 555814.cm.		86400	IN	NS	ns1.dns.com.
 555814.cm.		86400	IN	NS	ns2.dns.com.
+555888.cm.		86400	IN	NS	v1s1.xundns.com.
 555888.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 555888.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5559.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5559.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+555999.cm.		86400	IN	NS	ns2.dnsv1.com.
 555999.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 555999.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 555pj.cm.		86400	IN	NS	ns1.jiasule.net.
@@ -14086,6 +14092,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 5605.cm.		86400	IN	NS	ns6.myhostadmin.net.
 5607.cm.		86400	IN	NS	ns3.myhostadmin.net.
 5607.cm.		86400	IN	NS	ns4.myhostadmin.net.
+5608.cm.		86400	IN	NS	ns2.dnsv1.com.
 5608.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5608.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5609.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -14109,6 +14116,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 56161.cm.		86400	IN	NS	ns4.myhostadmin.net.
 5617.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5617.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+5618.cm.		86400	IN	NS	ns2.dnsv1.com.
 5618.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5618.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5619.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -14149,6 +14157,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 5635.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5637.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5637.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+5638.cm.		86400	IN	NS	ns2.dnsv1.com.
 5638.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5638.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 563888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -14435,6 +14444,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 5705.cm.		86400	IN	NS	ns2.ndns.cn.
 5706.cm.		86400	IN	NS	ns1.ndns.cn.
 5706.cm.		86400	IN	NS	ns2.ndns.cn.
+5708.cm.		86400	IN	NS	ns2.dnsv1.com.
 5708.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5708.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5709.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -14915,6 +14925,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 5906.cm.		86400	IN	NS	ns4.myhostadmin.net.
 5907.cm.		86400	IN	NS	ns1.myhostadmin.net.
 5907.cm.		86400	IN	NS	ns2.myhostadmin.net.
+5908.cm.		86400	IN	NS	ns2.dnsv1.com.
 5908.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5908.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 590999.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -14957,6 +14968,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 59259.cm.		86400	IN	NS	ns4.myhostadmin.net.
 592777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 592777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+5928.cm.		86400	IN	NS	ns2.dnsv1.com.
 5928.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5928.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 59292.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -14982,6 +14994,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 5937.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 593777.cm.		86400	IN	NS	ns1.myhostadmin.net.
 593777.cm.		86400	IN	NS	ns2.myhostadmin.net.
+5938.cm.		86400	IN	NS	ns2.dnsv1.com.
 5938.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5938.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 593888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -14995,6 +15008,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 5940.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 59444.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 59444.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+5948.cm.		86400	IN	NS	ns2.dnsv1.com.
 5948.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5948.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 595.cm.			86400	IN	NS	ns2.dnsv1.com.
@@ -15054,6 +15068,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 5977.cm.		86400	IN	NS	ns2.4.cn.
 597777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 597777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+5978.cm.		86400	IN	NS	ns2.dnsv1.com.
 5978.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5978.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 597888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -15234,6 +15249,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6016.cm.		86400	IN	NS	ns2.ndns.cn.
 6017.cm.		86400	IN	NS	ns1.ndns.cn.
 6017.cm.		86400	IN	NS	ns2.ndns.cn.
+6018.cm.		86400	IN	NS	ns2.dnsv1.com.
 6018.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6018.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6019.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15261,6 +15277,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6026.cm.		86400	IN	NS	ns2.ndns.cn.
 6027.cm.		86400	IN	NS	ns1.ndns.cn.
 6027.cm.		86400	IN	NS	ns2.ndns.cn.
+6028.cm.		86400	IN	NS	ns2.dnsv1.com.
 6028.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6028.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6029.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15286,6 +15303,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6036.cm.		86400	IN	NS	ns2.ndns.cn.
 6037.cm.		86400	IN	NS	ns1.ndns.cn.
 6037.cm.		86400	IN	NS	ns2.ndns.cn.
+6038.cm.		86400	IN	NS	ns2.dnsv1.com.
 6038.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6038.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6039.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15311,6 +15329,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6046.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6047.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6047.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+6048.cm.		86400	IN	NS	ns2.dnsv1.com.
 6048.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6048.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6049.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -15338,6 +15357,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6056.cm.		86400	IN	NS	ns2.ndns.cn.
 6057.cm.		86400	IN	NS	ns1.ndns.cn.
 6057.cm.		86400	IN	NS	ns2.ndns.cn.
+6058.cm.		86400	IN	NS	ns2.dnsv1.com.
 6058.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6058.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6059.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15363,6 +15383,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 606666.cm.		86400	IN	NS	ns6.myhostadmin.net.
 6067.cm.		86400	IN	NS	ns1.ndns.cn.
 6067.cm.		86400	IN	NS	ns2.ndns.cn.
+6068.cm.		86400	IN	NS	ns2.dnsv1.com.
 6068.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6068.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6069.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15390,6 +15411,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6077.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 607777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 607777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+6078.cm.		86400	IN	NS	ns2.dnsv1.com.
 6078.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6078.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6079.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15442,6 +15464,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 609609.cm.		86400	IN	NS	ns2.myhostadmin.net.
 6097.cm.		86400	IN	NS	ns1.ndns.cn.
 6097.cm.		86400	IN	NS	ns2.ndns.cn.
+6098.cm.		86400	IN	NS	ns2.dnsv1.com.
 6098.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6098.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6099.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -15471,6 +15494,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6106.cm.		86400	IN	NS	ns2.ndns.cn.
 6107.cm.		86400	IN	NS	ns1.ndns.cn.
 6107.cm.		86400	IN	NS	ns2.ndns.cn.
+6108.cm.		86400	IN	NS	ns2.dnsv1.com.
 6108.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6108.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6109.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15517,6 +15541,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6127.cm.		86400	IN	NS	ns2.ndns.cn.
 612777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 612777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+6128.cm.		86400	IN	NS	ns2.dnsv1.com.
 6128.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6128.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6129.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15557,6 +15582,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 61444.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6145.cm.		86400	IN	NS	ns1.ndns.cn.
 6145.cm.		86400	IN	NS	ns2.ndns.cn.
+6148.cm.		86400	IN	NS	ns2.dnsv1.com.
 6148.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6148.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 615.cm.			86400	IN	NS	ns2.dnsv1.com.
@@ -15650,6 +15676,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6177.cm.		86400	IN	NS	ns2.4.cn.
 617788.cm.		86400	IN	NS	ns1.myhostadmin.net.
 617788.cm.		86400	IN	NS	ns2.myhostadmin.net.
+6178.cm.		86400	IN	NS	ns2.dnsv1.com.
 6178.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6178.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 617888.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15740,6 +15767,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6206.cm.		86400	IN	NS	ns2.ndns.cn.
 6207.cm.		86400	IN	NS	ns1.ndns.cn.
 6207.cm.		86400	IN	NS	ns2.ndns.cn.
+6208.cm.		86400	IN	NS	ns2.dnsv1.com.
 6208.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6208.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6209.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15819,6 +15847,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6237.cm.		86400	IN	NS	ns2.ndns.cn.
 623777.cm.		86400	IN	NS	ns5.myhostadmin.net.
 623777.cm.		86400	IN	NS	ns6.myhostadmin.net.
+6238.cm.		86400	IN	NS	ns2.dnsv1.com.
 6238.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6238.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 623888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -15943,6 +15972,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 62777.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 627777.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 627777.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+6278.cm.		86400	IN	NS	ns2.dnsv1.com.
 6278.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6278.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 627888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -15997,6 +16027,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6297.cm.		86400	IN	NS	ns2.ndns.cn.
 629777.cm.		86400	IN	NS	ns5.myhostadmin.net.
 629777.cm.		86400	IN	NS	ns6.myhostadmin.net.
+6298.cm.		86400	IN	NS	ns2.dnsv1.com.
 6298.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6298.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 629888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -16027,6 +16058,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6306.cm.		86400	IN	NS	ns2.ndns.cn.
 6307.cm.		86400	IN	NS	ns1.ndns.cn.
 6307.cm.		86400	IN	NS	ns2.ndns.cn.
+6308.cm.		86400	IN	NS	ns2.dnsv1.com.
 6308.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6308.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6309.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -16058,6 +16090,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6317.cm.		86400	IN	NS	ns2.ndns.cn.
 631777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 631777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+6318.cm.		86400	IN	NS	ns2.dnsv1.com.
 6318.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6318.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 631888.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -16089,6 +16122,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6327.cm.		86400	IN	NS	ns2.ndns.cn.
 632777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 632777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+6328.cm.		86400	IN	NS	ns2.dnsv1.com.
 6328.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6328.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 632888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -16168,6 +16202,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6357.cm.		86400	IN	NS	ns2.ndns.cn.
 635777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 635777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+6358.cm.		86400	IN	NS	ns2.dnsv1.com.
 6358.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6358.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6359.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -16213,6 +16248,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6367.cm.		86400	IN	NS	ns2.ndns.cn.
 636777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 636777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+6368.cm.		86400	IN	NS	ns2.dnsv1.com.
 6368.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6368.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6369.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -16238,6 +16274,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6376.cm.		86400	IN	NS	ns2.ndns.cn.
 6377.cm.		86400	IN	NS	ns1.bodis.com.
 6377.cm.		86400	IN	NS	ns2.bodis.com.
+6378.cm.		86400	IN	NS	ns2.dnsv1.com.
 6378.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6378.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 637888.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -16290,6 +16327,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6397.cm.		86400	IN	NS	ns2.ndns.cn.
 639777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 639777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+6398.cm.		86400	IN	NS	ns2.dnsv1.com.
 6398.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6398.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6399.cm.		86400	IN	NS	ns1.4.cn.
@@ -16462,6 +16500,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6486.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6487.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6487.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+6488.cm.		86400	IN	NS	ns2.dnsv1.com.
 6488.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6488.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 649.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -16494,6 +16533,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6506.cm.		86400	IN	NS	ns2.ndns.cn.
 6507.cm.		86400	IN	NS	ns1.ndns.cn.
 6507.cm.		86400	IN	NS	ns2.ndns.cn.
+6508.cm.		86400	IN	NS	ns2.dnsv1.com.
 6508.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6508.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6509.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -16521,6 +16561,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6517.cm.		86400	IN	NS	ns2.ndns.cn.
 651777.cm.		86400	IN	NS	ns1.myhostadmin.net.
 651777.cm.		86400	IN	NS	ns2.myhostadmin.net.
+6518.cm.		86400	IN	NS	ns2.dnsv1.com.
 6518.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6518.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6519.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -16585,6 +16626,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6536.cm.		86400	IN	NS	ns2.ndns.cn.
 6537.cm.		86400	IN	NS	ns1.ndns.cn.
 6537.cm.		86400	IN	NS	ns2.ndns.cn.
+6538.cm.		86400	IN	NS	ns2.dnsv1.com.
 6538.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6538.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 653888.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -16646,6 +16688,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6563.cm.		86400	IN	NS	ns2.ndns.cn.
 6564.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6564.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+6565.cm.		86400	IN	NS	v1s1.xundns.com.
 6565.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6565.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 65651.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -16697,6 +16740,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6576.cm.		86400	IN	NS	ns2.ndns.cn.
 6577.cm.		86400	IN	NS	ns1.bodis.com.
 6577.cm.		86400	IN	NS	ns2.bodis.com.
+6578.cm.		86400	IN	NS	ns2.dnsv1.com.
 6578.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6578.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 657888.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -16943,6 +16987,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6652.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6653.cm.		86400	IN	NS	ns1.bodis.com.
 6653.cm.		86400	IN	NS	ns2.bodis.com.
+6655.cm.		86400	IN	NS	ns2.dnsv1.com.
 6655.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6655.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 66555.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -17009,6 +17054,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 66659.cm.		86400	IN	NS	ns2.ndns.cn.
 6666.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6666.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+66666.cm.		86400	IN	NS	ns2.dnsv1.com.
 66666.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 66666.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 666666.cm.		86400	IN	NS	ns1.4.cn.
@@ -17052,6 +17098,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 66698.cm.		86400	IN	NS	ns2.ndns.cn.
 666980.cm.		86400	IN	NS	ns5.myhostadmin.net.
 666980.cm.		86400	IN	NS	ns6.myhostadmin.net.
+666999.cm.		86400	IN	NS	ns2.dnsv1.com.
 666999.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 666999.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 667.cm.			86400	IN	NS	ns2.dnsv1.com.
@@ -17223,6 +17270,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6706.cm.		86400	IN	NS	ns2.ndns.cn.
 6707.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6707.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+6708.cm.		86400	IN	NS	ns2.dnsv1.com.
 6708.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6708.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6709.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -17258,6 +17306,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 67171.cm.		86400	IN	NS	ns6.myhostadmin.net.
 671777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 671777.cm.		86400	IN	NS	ns4.myhostadmin.net.
+6718.cm.		86400	IN	NS	ns2.dnsv1.com.
 6718.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6718.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 671888.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -17608,6 +17657,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6806.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6807.cm.		86400	IN	NS	ns1.ndns.cn.
 6807.cm.		86400	IN	NS	ns2.ndns.cn.
+6808.cm.		86400	IN	NS	ns2.dnsv1.com.
 6808.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6808.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6809.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -17895,6 +17945,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6906.cm.		86400	IN	NS	ns2.ndns.cn.
 6907.cm.		86400	IN	NS	ns1.ndns.cn.
 6907.cm.		86400	IN	NS	ns2.ndns.cn.
+6908.cm.		86400	IN	NS	ns2.dnsv1.com.
 6908.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6908.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6909.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -17920,6 +17971,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6915.cm.		86400	IN	NS	ns2.ndns.cn.
 6917.cm.		86400	IN	NS	ns1.ndns.cn.
 6917.cm.		86400	IN	NS	ns2.ndns.cn.
+6918.cm.		86400	IN	NS	ns2.dnsv1.com.
 6918.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6918.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 69191.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -17968,6 +18020,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6936.cm.		86400	IN	NS	ns2.ndns.cn.
 6937.cm.		86400	IN	NS	ns1.ndns.cn.
 6937.cm.		86400	IN	NS	ns2.ndns.cn.
+6938.cm.		86400	IN	NS	ns2.dnsv1.com.
 6938.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6938.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 693888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -18039,6 +18092,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6967.cm.		86400	IN	NS	ns2.ndns.cn.
 6968.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6968.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+6969.cm.		86400	IN	NS	v1s1.xundns.com.
 6969.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6969.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 69691.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -18076,6 +18130,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6976.cm.		86400	IN	NS	ns2.ndns.cn.
 6977.cm.		86400	IN	NS	ns1.bodis.com.
 6977.cm.		86400	IN	NS	ns2.bodis.com.
+6978.cm.		86400	IN	NS	ns2.dnsv1.com.
 6978.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6978.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 697888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -18251,6 +18306,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7006.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7007.cm.		86400	IN	NS	ns5.myhostadmin.net.
 7007.cm.		86400	IN	NS	ns6.myhostadmin.net.
+7008.cm.		86400	IN	NS	ns2.dnsv1.com.
 7008.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7008.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7009.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -18273,6 +18329,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7016.cm.		86400	IN	NS	ns2.ndns.cn.
 7017.cm.		86400	IN	NS	ns1.ndns.cn.
 7017.cm.		86400	IN	NS	ns2.ndns.cn.
+7018.cm.		86400	IN	NS	ns2.dnsv1.com.
 7018.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7018.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7019.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -18297,6 +18354,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7026.cm.		86400	IN	NS	ns2.ndns.cn.
 7027.cm.		86400	IN	NS	ns1.ndns.cn.
 7027.cm.		86400	IN	NS	ns2.ndns.cn.
+7028.cm.		86400	IN	NS	ns2.dnsv1.com.
 7028.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7028.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7029.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -18321,6 +18379,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7036.cm.		86400	IN	NS	ns2.ndns.cn.
 7037.cm.		86400	IN	NS	ns1.ndns.cn.
 7037.cm.		86400	IN	NS	ns2.ndns.cn.
+7038.cm.		86400	IN	NS	ns2.dnsv1.com.
 7038.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7038.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7039.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -18369,6 +18428,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7056.cm.		86400	IN	NS	ns2.ndns.cn.
 7057.cm.		86400	IN	NS	ns1.ndns.cn.
 7057.cm.		86400	IN	NS	ns2.ndns.cn.
+7058.cm.		86400	IN	NS	ns2.dnsv1.com.
 7058.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7058.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7059.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -18393,6 +18453,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 70666.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7067.cm.		86400	IN	NS	ns1.ndns.cn.
 7067.cm.		86400	IN	NS	ns2.ndns.cn.
+7068.cm.		86400	IN	NS	ns2.dnsv1.com.
 7068.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7068.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7069.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -18413,6 +18474,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7075.cm.		86400	IN	NS	ns2.ndns.cn.
 7076.cm.		86400	IN	NS	ns1.ndns.cn.
 7076.cm.		86400	IN	NS	ns2.ndns.cn.
+7078.cm.		86400	IN	NS	ns2.dnsv1.com.
 7078.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7078.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7079.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -18463,6 +18525,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7096.cm.		86400	IN	NS	ns2.ndns.cn.
 7097.cm.		86400	IN	NS	ns1.ndns.cn.
 7097.cm.		86400	IN	NS	ns2.ndns.cn.
+7098.cm.		86400	IN	NS	ns2.dnsv1.com.
 7098.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7098.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 70999.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -18487,6 +18550,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7106.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7107.cm.		86400	IN	NS	ns1.ndns.cn.
 7107.cm.		86400	IN	NS	ns2.ndns.cn.
+7108.cm.		86400	IN	NS	ns2.dnsv1.com.
 7108.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7108.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7109.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -18538,6 +18602,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7126.cm.		86400	IN	NS	ns2.ndns.cn.
 7127.cm.		86400	IN	NS	ns1.ndns.cn.
 7127.cm.		86400	IN	NS	ns2.ndns.cn.
+7128.cm.		86400	IN	NS	ns2.dnsv1.com.
 7128.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7128.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 712888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -18563,6 +18628,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7136.cm.		86400	IN	NS	ns2.ndns.cn.
 7137.cm.		86400	IN	NS	ns6.dnsdun.com.
 7137.cm.		86400	IN	NS	ns6.dnsdun.net.
+7138.cm.		86400	IN	NS	ns2.dnsv1.com.
 7138.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7138.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 713888.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -18714,6 +18780,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7196.cm.		86400	IN	NS	ns2.ndns.cn.
 7197.cm.		86400	IN	NS	ns1.ndns.cn.
 7197.cm.		86400	IN	NS	ns2.ndns.cn.
+7198.cm.		86400	IN	NS	ns2.dnsv1.com.
 7198.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7198.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 719888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -18746,6 +18813,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7206.cm.		86400	IN	NS	ns2.ndns.cn.
 7207.cm.		86400	IN	NS	ns1.ndns.cn.
 7207.cm.		86400	IN	NS	ns2.ndns.cn.
+7208.cm.		86400	IN	NS	ns2.dnsv1.com.
 7208.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7208.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7209.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -18770,6 +18838,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7216.cm.		86400	IN	NS	ns2.ndns.cn.
 7217.cm.		86400	IN	NS	ns1.ndns.cn.
 7217.cm.		86400	IN	NS	ns2.ndns.cn.
+7218.cm.		86400	IN	NS	ns2.dnsv1.com.
 7218.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7218.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 721888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -18812,6 +18881,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7235.cm.		86400	IN	NS	ns2.ndns.cn.
 7236.cm.		86400	IN	NS	ns1.ndns.cn.
 7236.cm.		86400	IN	NS	ns2.ndns.cn.
+7238.cm.		86400	IN	NS	ns2.dnsv1.com.
 7238.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7238.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 723888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -18856,6 +18926,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7256.cm.		86400	IN	NS	ns2.ndns.cn.
 7257.cm.		86400	IN	NS	ns1.ndns.cn.
 7257.cm.		86400	IN	NS	ns2.ndns.cn.
+7258.cm.		86400	IN	NS	ns2.dnsv1.com.
 7258.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7258.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 725888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -18880,6 +18951,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7266.cm.		86400	IN	NS	ns6.myhostadmin.net.
 7267.cm.		86400	IN	NS	ns1.ndns.cn.
 7267.cm.		86400	IN	NS	ns2.ndns.cn.
+7268.cm.		86400	IN	NS	ns2.dnsv1.com.
 7268.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7268.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 726888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -18906,6 +18978,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7277.cm.		86400	IN	NS	ns2.4.cn.
 72777.cm.		86400	IN	NS	ns1.ndns.cn.
 72777.cm.		86400	IN	NS	ns2.ndns.cn.
+7278.cm.		86400	IN	NS	ns2.dnsv1.com.
 7278.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7278.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 727877.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -18960,6 +19033,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7296.cm.		86400	IN	NS	ns2.ndns.cn.
 7297.cm.		86400	IN	NS	ns1.ndns.cn.
 7297.cm.		86400	IN	NS	ns2.ndns.cn.
+7298.cm.		86400	IN	NS	ns2.dnsv1.com.
 7298.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7298.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 729888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -18988,6 +19062,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7306.cm.		86400	IN	NS	ns2.ndns.cn.
 7307.cm.		86400	IN	NS	ns1.ndns.cn.
 7307.cm.		86400	IN	NS	ns2.ndns.cn.
+7308.cm.		86400	IN	NS	ns2.dnsv1.com.
 7308.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7308.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7309.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -19013,6 +19088,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7316.cm.		86400	IN	NS	ns2.ndns.cn.
 7317.cm.		86400	IN	NS	ns1.ndns.cn.
 7317.cm.		86400	IN	NS	ns2.ndns.cn.
+7318.cm.		86400	IN	NS	ns2.dnsv1.com.
 7318.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7318.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 731888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -19038,6 +19114,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7326.cm.		86400	IN	NS	ns2.ndns.cn.
 7327.cm.		86400	IN	NS	ns1.ndns.cn.
 7327.cm.		86400	IN	NS	ns2.ndns.cn.
+7328.cm.		86400	IN	NS	ns2.dnsv1.com.
 7328.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7328.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 732888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -19078,6 +19155,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7345.cm.		86400	IN	NS	ns2.51dns.com.
 73456.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 73456.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+7348.cm.		86400	IN	NS	ns2.dnsv1.com.
 7348.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7348.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 735.cm.			86400	IN	NS	ns2.dnsv1.com.
@@ -19105,6 +19183,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 73567.cm.		86400	IN	NS	ns4.myhostadmin.net.
 7357.cm.		86400	IN	NS	ns1.ndns.cn.
 7357.cm.		86400	IN	NS	ns2.ndns.cn.
+7358.cm.		86400	IN	NS	ns2.dnsv1.com.
 7358.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7358.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 735888.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -19132,6 +19211,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7366.cm.		86400	IN	NS	ns2.myhostadmin.net.
 7367.cm.		86400	IN	NS	ns1.ndns.cn.
 7367.cm.		86400	IN	NS	ns2.ndns.cn.
+7368.cm.		86400	IN	NS	ns2.dnsv1.com.
 7368.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7368.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 736888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -19209,6 +19289,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7396.cm.		86400	IN	NS	ns2.ndns.cn.
 7397.cm.		86400	IN	NS	ns1.ndns.cn.
 7397.cm.		86400	IN	NS	ns2.ndns.cn.
+7398.cm.		86400	IN	NS	ns2.dnsv1.com.
 7398.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7398.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 739888.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -19437,6 +19518,7 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7506.cm.		86400	IN	NS	ns2.ndns.cn.
 7507.cm.		86400	IN	NS	ns1.ndns.cn.
 7507.cm.		86400	IN	NS	ns2.ndns.cn.
+7508.cm.		86400	IN	NS	ns2.dnsv1.com.
 7508.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7508.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 7509.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -20252,6 +20334,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 7779.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 77799.cm.		86400	IN	NS	ns3.myhostadmin.net.
 77799.cm.		86400	IN	NS	ns4.myhostadmin.net.
+777999.cm.		86400	IN	NS	ns2.dnsv1.com.
 777999.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 777999.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 777mg.cm.		86400	IN	NS	ns2.dnsdun.com.
@@ -20917,6 +21000,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 7978.cm.		86400	IN	NS	ns2.myhostadmin.net.
 797888.cm.		86400	IN	NS	ns1.myhostadmin.net.
 797888.cm.		86400	IN	NS	ns2.myhostadmin.net.
+7979.cm.		86400	IN	NS	v1s1.xundns.com.
 7979.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 7979.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 79795.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -21134,6 +21218,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8016.cm.		86400	IN	NS	park2.ndns.cn.
 8017.cm.		86400	IN	NS	park1.ndns.cn.
 8017.cm.		86400	IN	NS	park2.ndns.cn.
+8018.cm.		86400	IN	NS	ns2.dnsv1.com.
 8018.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8018.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8019.cm.		86400	IN	NS	park1.ndns.cn.
@@ -21158,6 +21243,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 80268.cm.		86400	IN	NS	ns5.dnsdun.net.
 8027.cm.		86400	IN	NS	park1.ndns.cn.
 8027.cm.		86400	IN	NS	park2.ndns.cn.
+8028.cm.		86400	IN	NS	ns2.dnsv1.com.
 8028.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8028.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8029.cm.		86400	IN	NS	park1.ndns.cn.
@@ -21178,6 +21264,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8036.cm.		86400	IN	NS	park2.ndns.cn.
 8037.cm.		86400	IN	NS	park1.ndns.cn.
 8037.cm.		86400	IN	NS	park2.ndns.cn.
+8038.cm.		86400	IN	NS	ns2.dnsv1.com.
 8038.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8038.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8039.cm.		86400	IN	NS	park1.ndns.cn.
@@ -21244,6 +21331,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 806666.cm.		86400	IN	NS	ns2.myhostadmin.net.
 8067.cm.		86400	IN	NS	park1.ndns.cn.
 8067.cm.		86400	IN	NS	park2.ndns.cn.
+8068.cm.		86400	IN	NS	ns2.dnsv1.com.
 8068.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8068.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 80683.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -21270,6 +21358,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8077.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 807777.cm.		86400	IN	NS	ns5.myhostadmin.net.
 807777.cm.		86400	IN	NS	ns6.myhostadmin.net.
+8078.cm.		86400	IN	NS	ns2.dnsv1.com.
 8078.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8078.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8079.cm.		86400	IN	NS	park1.ndns.cn.
@@ -21316,6 +21405,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8096.cm.		86400	IN	NS	park2.ndns.cn.
 8097.cm.		86400	IN	NS	park1.ndns.cn.
 8097.cm.		86400	IN	NS	park2.ndns.cn.
+8098.cm.		86400	IN	NS	ns2.dnsv1.com.
 8098.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8098.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 80999.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -21343,6 +21433,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8106.cm.		86400	IN	NS	park2.ndns.cn.
 8107.cm.		86400	IN	NS	park1.ndns.cn.
 8107.cm.		86400	IN	NS	park2.ndns.cn.
+8108.cm.		86400	IN	NS	ns2.dnsv1.com.
 8108.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8108.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8109.cm.		86400	IN	NS	park1.ndns.cn.
@@ -21555,6 +21646,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8206.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8207.cm.		86400	IN	NS	park1.ndns.cn.
 8207.cm.		86400	IN	NS	park2.ndns.cn.
+8208.cm.		86400	IN	NS	ns2.dnsv1.com.
 8208.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8208.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8209.cm.		86400	IN	NS	park1.ndns.cn.
@@ -21885,6 +21977,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8381.cm.		86400	IN	NS	ns2.myhostadmin.net.
 8382.cm.		86400	IN	NS	ns3.myhostadmin.net.
 8382.cm.		86400	IN	NS	ns4.myhostadmin.net.
+8383.cm.		86400	IN	NS	v1s1.xundns.com.
 8383.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8383.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 83831.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -23354,6 +23447,8 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 888casino.cm.		86400	IN	NS	dns3.idp365.net.
 888cmp.cm.		86400	IN	NS	ns1.dns.com.
 888cmp.cm.		86400	IN	NS	ns2.dns.com.
+888crown.cm.		86400	IN	NS	ns1.dns.com.
+888crown.cm.		86400	IN	NS	ns2.dns.com.
 888dafa.cm.		86400	IN	NS	ns1.dns.com.
 888dafa.cm.		86400	IN	NS	ns2.dns.com.
 888funcity.cm.		86400	IN	NS	ns1.cloud-dns.net.
@@ -23475,6 +23570,7 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8906.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8907.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8907.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+8908.cm.		86400	IN	NS	ns2.dnsv1.com.
 8908.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 8908.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 89089.cm.		86400	IN	NS	ns5.dnsdun.com.
@@ -24676,6 +24772,7 @@ dns50.8d.cm.		86400	IN	A	69.169.35.14
 9391.cm.		86400	IN	NS	park2.ndns.cn.
 9392.cm.		86400	IN	NS	park1.ndns.cn.
 9392.cm.		86400	IN	NS	park2.ndns.cn.
+9393.cm.		86400	IN	NS	v1s1.xundns.com.
 9393.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 9393.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 93931.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -25051,6 +25148,7 @@ dns50.8d.cm.		86400	IN	A	69.169.35.14
 9565.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 9566.cm.		86400	IN	NS	ns1.4.cn.
 9566.cm.		86400	IN	NS	ns2.4.cn.
+9567.cm.		86400	IN	NS	ns2.dnsv1.com.
 9567.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 9567.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 95678.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -25836,6 +25934,7 @@ dns50.8d.cm.		86400	IN	A	69.169.35.14
 98968.cm.		86400	IN	NS	ns2.myhostadmin.net.
 9897.cm.		86400	IN	NS	ns1.bodis.com.
 9897.cm.		86400	IN	NS	ns2.bodis.com.
+9898.cm.		86400	IN	NS	v1s1.xundns.com.
 9898.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 9898.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 98981.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -33774,8 +33873,6 @@ cestello.cm.		86400	IN	NS	ns1.p09.dynect.net.
 cestello.cm.		86400	IN	NS	ns2.p09.dynect.net.
 cestello.cm.		86400	IN	NS	ns3.p09.dynect.net.
 cestello.cm.		86400	IN	NS	ns4.p09.dynect.net.
-cet.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
-cet.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 cetic.cm.		86400	IN	NS	dns1.supremedns.com.
 cetic.cm.		86400	IN	NS	dns2.supremedns.com.
 cetic.cm.		86400	IN	NS	dns3.supremedns.com.
@@ -36546,6 +36643,8 @@ danche.cm.		86400	IN	NS	ns3.myhostadmin.net.
 danche.cm.		86400	IN	NS	ns4.myhostadmin.net.
 dancheng.cm.		86400	IN	NS	ns3.myhostadmin.net.
 dancheng.cm.		86400	IN	NS	ns4.myhostadmin.net.
+dandan.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+dandan.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 dandb.cm.		86400	IN	NS	dns1.idp365.net.
 dandb.cm.		86400	IN	NS	dns2.idp365.net.
 dandb.cm.		86400	IN	NS	dns3.idp365.net.
@@ -36565,10 +36664,6 @@ dangpu.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 dangpu.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 dani.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 dani.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-daniel.cm.		86400	IN	NS	ns1.iwantmyname.net.
-daniel.cm.		86400	IN	NS	ns2.iwantmyname.net.
-daniel.cm.		86400	IN	NS	ns3.iwantmyname.net.
-daniel.cm.		86400	IN	NS	ns4.iwantmyname.net.
 danmurphy.cm.		86400	IN	NS	ns0.telstra.net.
 danmurphy.cm.		86400	IN	NS	ns1.telstra.net.
 danmurphys.cm.		86400	IN	NS	ns0.telstra.net.
@@ -39772,6 +39867,10 @@ etv.cm.			86400	IN	NS	ns1.bodis.com.
 etv.cm.			86400	IN	NS	ns2.bodis.com.
 eu.cm.			86400	IN	NS	ns1.parkingcrew.net.
 eu.cm.			86400	IN	NS	ns2.parkingcrew.net.
+eurocosmetics.cm.	86400	IN	NS	ns1.lwsdns.com.
+eurocosmetics.cm.	86400	IN	NS	ns2.lwsdns.com.
+eurocosmetics.cm.	86400	IN	NS	ns3.lwsdns.com.
+eurocosmetics.cm.	86400	IN	NS	ns4.lwsdns.com.
 eurodns.cm.		86400	IN	NS	ns1.eurodns.com.
 eurodns.cm.		86400	IN	NS	ns2.eurodns.com.
 eurodrive.cm.		86400	IN	NS	ns1.is-fun.net.
@@ -41958,8 +42057,6 @@ gaizhuang.cm.		86400	IN	NS	ns5.myhostadmin.net.
 gaizhuang.cm.		86400	IN	NS	ns6.myhostadmin.net.
 gal.cm.			86400	IN	NS	ns1.dnbiz.com.
 gal.cm.			86400	IN	NS	ns2.dnbiz.com.
-galacasino.cm.		86400	IN	NS	ns1.luckyns.com.
-galacasino.cm.		86400	IN	NS	ns2.luckyns.com.
 galantamine.cm.		86400	IN	NS	ns1.jnj.com.
 galantamine.cm.		86400	IN	NS	ns3.jnj.com.
 galantamine.cm.		86400	IN	NS	ns5.jnj.com.
@@ -50183,6 +50280,8 @@ kids.cm.		86400	IN	NS	ns3.myhostadmin.net.
 kids.cm.		86400	IN	NS	ns4.myhostadmin.net.
 kids.cm.		86400	IN	NS	ns5.myhostadmin.net.
 kids.cm.		86400	IN	NS	ns6.myhostadmin.net.
+kiehls.cm.		86400	IN	NS	ns1.dnspanel.com.
+kiehls.cm.		86400	IN	NS	ns2.dnspanel.com.
 kiini.cm.		86400	IN	NS	ns1.prosygma-cm.com.
 kiini.cm.		86400	IN	NS	ns2.prosygma-cm.com.
 kijiji.cm.		86400	IN	NS	ns1.p13.dynect.net.
@@ -53745,8 +53844,6 @@ meizu.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 meizu.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 mekis.cm.		86400	IN	NS	blinuxns7.securehostdns.com.
 mekis.cm.		86400	IN	NS	blinuxns8.securehostdns.com.
-mekka.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-mekka.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 melaleuca.cm.		86400	IN	NS	ns1.parklogic.com.
 melaleuca.cm.		86400	IN	NS	ns2.parklogic.com.
 melaleuca.cm.		86400	IN	NS	ns3.parklogic.com.
@@ -55833,6 +55930,8 @@ mycigna.cm.		86400	IN	NS	ns2.parkingcrew.net.
 myciti.cm.		86400	IN	NS	ns1.parklogic.com.
 myciti.cm.		86400	IN	NS	ns2.parklogic.com.
 myciti.cm.		86400	IN	NS	ns3.parklogic.com.
+mycloud.cm.		86400	IN	NS	ns1.dnspanel.com.
+mycloud.cm.		86400	IN	NS	ns2.dnspanel.com.
 mycoalition.cm.		86400	IN	NS	a.dns.gandi.net.
 mycoalition.cm.		86400	IN	NS	b.dns.gandi.net.
 mycoalition.cm.		86400	IN	NS	c.dns.gandi.net.
@@ -55864,8 +55963,6 @@ myexpressticket.cm.	86400	IN	NS	vps1.globexcamhost.com.
 myexpressticket.cm.	86400	IN	NS	vps2.globexcamhost.com.
 myfico.cm.		86400	IN	NS	ns1.parkingcrew.net.
 myfico.cm.		86400	IN	NS	ns2.parkingcrew.net.
-myfitnesspal.cm.	86400	IN	NS	ns1.parkingcrew.net.
-myfitnesspal.cm.	86400	IN	NS	ns2.parkingcrew.net.
 myfordpass.cm.		86400	IN	NS	dns005.ford.com.
 myfordpass.cm.		86400	IN	NS	dns006.ford.com.
 myfordpass.cm.		86400	IN	NS	extdns001.ford.com.
@@ -64788,6 +64885,7 @@ sjh.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 sjh.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 sjh1000.cm.		86400	IN	NS	ns3.myhostadmin.net.
 sjh1000.cm.		86400	IN	NS	ns4.myhostadmin.net.
+sjhgd.cm.		86400	IN	NS	v1s1.xundns.com.
 sjhgd.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 sjhgd.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 sjhvip.cm.		86400	IN	NS	ns5.myhostadmin.net.
@@ -64886,10 +64984,6 @@ sky.cm.			86400	IN	NS	ns2.rentondc.com.
 sky-tours.cm.		86400	IN	NS	ns1.instradns.com.
 sky-tours.cm.		86400	IN	NS	ns2.instradns.com.
 sky-tours.cm.		86400	IN	NS	ns3.instradns.com.
-skybet.cm.		86400	IN	NS	ns1jlp.name.com.
-skybet.cm.		86400	IN	NS	ns2ckr.name.com.
-skybet.cm.		86400	IN	NS	ns3hjx.name.com.
-skybet.cm.		86400	IN	NS	ns4lrt.name.com.
 skydog.cm.		86400	IN	NS	ns2.east.net.
 skydog.cm.		86400	IN	NS	ns2.east.net.cn.
 skyflavour.cm.		86400	IN	NS	ns1.ipmirror.com.
@@ -64919,10 +65013,6 @@ skytrust.cm.		86400	IN	NS	dns2.registrar-servers.com.
 skytrust.cm.		86400	IN	NS	dns3.registrar-servers.com.
 skytrust.cm.		86400	IN	NS	dns4.registrar-servers.com.
 skytrust.cm.		86400	IN	NS	dns5.registrar-servers.com.
-skyvegas.cm.		86400	IN	NS	ns1jlp.name.com.
-skyvegas.cm.		86400	IN	NS	ns2ckr.name.com.
-skyvegas.cm.		86400	IN	NS	ns3hjx.name.com.
-skyvegas.cm.		86400	IN	NS	ns4lrt.name.com.
 sl.cm.			86400	IN	NS	dns1.registrar-servers.com.
 sl.cm.			86400	IN	NS	dns2.registrar-servers.com.
 slack.cm.		86400	IN	NS	ns1.bodis.com.
@@ -65335,6 +65425,8 @@ solarenergy.cm.		86400	IN	NS	ns1.parkingcrew.net.
 solarenergy.cm.		86400	IN	NS	ns2.parkingcrew.net.
 solarsystem.cm.		86400	IN	NS	ns107.ovh.net.
 solarsystem.cm.		86400	IN	NS	dns107.ovh.net.
+solarys.cm.		86400	IN	NS	cns33.webhostbox.net.
+solarys.cm.		86400	IN	NS	cns34.webhostbox.net.
 solderis.cm.		86400	IN	NS	ns1.cloudhosting.co.uk.
 solderis.cm.		86400	IN	NS	ns2.cloudhosting.co.uk.
 solea.cm.		86400	IN	NS	ns1.netnames.net.
@@ -74645,8 +74737,6 @@ yd.cm.			86400	IN	NS	ns1.sedoparking.com.
 yd.cm.			86400	IN	NS	ns2.sedoparking.com.
 yd97.cm.		86400	IN	NS	ns1.myhostadmin.net.
 yd97.cm.		86400	IN	NS	ns2.myhostadmin.net.
-yda.cm.			86400	IN	NS	ns16.ovh.net.
-yda.cm.			86400	IN	NS	dns16.ovh.net.
 ydb.cm.			86400	IN	NS	ns5.myhostadmin.net.
 ydb.cm.			86400	IN	NS	ns6.myhostadmin.net.
 ydl.cm.			86400	IN	NS	dns1.registrar-servers.com.
@@ -76751,4 +76841,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017032407 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017032414 28800 3600 604800 86400

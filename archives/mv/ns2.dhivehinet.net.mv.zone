@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017040601 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017040803 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -81,7 +81,8 @@ adidas.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 adkhospital.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
 adktravels.mv.		3600	IN	NS	ns1.mediatemple.net.
 adktravels.mv.		3600	IN	NS	ns2.mediatemple.net.
-admz.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+admz.mv.		3600	IN	NS	bill.ns.cloudflare.com.
+admz.mv.		3600	IN	NS	dora.ns.cloudflare.com.
 adsense.mv.		3600	IN	NS	ns1.markmonitor.com.
 adsense.mv.		3600	IN	NS	ns3.markmonitor.com.
 adss.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
@@ -219,8 +220,8 @@ aquasolutions.mv.	3600	IN	NS	ns1.bluehost.com.
 aquasolutions.mv.	3600	IN	NS	ns2.bluehost.com.
 aquiline.mv.		3600	IN	NS	ns1.carnation.arvixe.com.
 aquiline.mv.		3600	IN	NS	ns2.carnation.arvixe.com.
-aqvablue.mv.		3600	IN	A	202.1.201.147
 aqvablue.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
+aqvablue.mv.		3600	IN	A	202.1.201.147
 ara.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 archive.mv.		3600	IN	NS	bart.ns.cloudflare.com.
 archive.mv.		3600	IN	NS	fiona.ns.cloudflare.com.
@@ -413,6 +414,7 @@ blackleaf.mv.		3600	IN	NS	ns57.domaincontrol.com.
 blackleaf.mv.		3600	IN	NS	ns58.domaincontrol.com.
 blak.mv.		3600	IN	NS	ns1.hiyaal.com.
 blak.mv.		3600	IN	NS	ns2.hiyaal.com.
+blazon.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 bliss.mv.		3600	IN	NS	dale.ns.cloudflare.com.
 bliss.mv.		3600	IN	NS	deb.ns.cloudflare.com.
 blogger.mv.		3600	IN	NS	ns1.markmonitor.com.
@@ -1051,8 +1053,8 @@ finlays.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 finolhu.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 firstcapital.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 firstin.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-fishinfo.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 fishinfo.mv.		3600	IN	A	202.1.201.147
+fishinfo.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.fishinfo.mv.	3600	IN	CNAME	fishinfo.mv.
 fishtree.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 fit4life.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
@@ -1277,7 +1279,10 @@ hamps.mv.		3600	IN	NS	ns2.host-care.com.
 hamza.mv.		3600	IN	NS	ns.inmotionhosting.com.
 hamza.mv.		3600	IN	NS	ns2.inmotionhosting.com.
 handicrafts.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
-handmade.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+handmade.mv.		3600	IN	NS	ns1.limitlesshosting.net.
+handmade.mv.		3600	IN	NS	ns2.limitlesshosting.net.
+handmade.mv.		3600	IN	NS	ns3.limitlesshosting.net.
+handmade.mv.		3600	IN	NS	ns4.limitlesshosting.net.
 handy.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 happyramadan.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 hardwarehub.mv.		3600	IN	NS	ns123.websitewelcome.com.
@@ -1754,9 +1759,10 @@ lifesupport.mv.		3600	IN	NS	ns1.bluehost.com.
 lifesupport.mv.		3600	IN	NS	ns2.bluehost.com.
 limestone.mv.		3600	IN	NS	ns1.justhost.com.
 limestone.mv.		3600	IN	NS	ns2.justhost.com.
-limitless.mv.		3600	IN	NS	ns1.digitalocean.com.
-limitless.mv.		3600	IN	NS	ns2.digitalocean.com.
-limitless.mv.		3600	IN	NS	ns3.digitalocean.com.
+limitless.mv.		3600	IN	NS	ns1.limitlesshosting.net.
+limitless.mv.		3600	IN	NS	ns2.limitlesshosting.net.
+limitless.mv.		3600	IN	NS	ns3.limitlesshosting.net.
+limitless.mv.		3600	IN	NS	ns4.limitlesshosting.net.
 links.mv.		3600	IN	NS	ns100.dnsnetservice.com.
 lintel.mv.		3600	IN	NS	ns1.hostmonster.com.
 lintel.mv.		3600	IN	NS	ns2.hostmonster.com.
@@ -1826,7 +1832,8 @@ maakunbe.mv.		3600	IN	NS	ns3.digitalocean.com.
 node.machine.mv.	3600	IN	A	202.1.193.93
 maco.mv.		3600	IN	NS	ns6047.hostgator.com.
 maco.mv.		3600	IN	NS	ns6048.hostgator.com.
-made.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+made.mv.		3600	IN	NS	bill.ns.cloudflare.com.
+made.mv.		3600	IN	NS	dora.ns.cloudflare.com.
 madhana.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.madhana.mv.		3600	IN	CNAME	madhana.mv.
 madhanee-edhuruge.mv.	3600	IN	NS	ns1.linode.com.
@@ -2742,12 +2749,12 @@ silverscene.mv.		3600	IN	NS	ns3.silverscene.mv.
 ns1.silverscene.mv.	3600	IN	A	173.245.58.51
 ns2.silverscene.mv.	3600	IN	A	173.245.59.41
 ns3.silverscene.mv.	3600	IN	A	198.41.222.173
+silvert.mv.		3600	IN	TXT	"google-site-verification=-IYVv7lPEa6sV81SAePSfCopDzETNzF0WqY_8v9WUe8"
 silvert.mv.		3600	IN	MX	1 aspmx.l.google.com.
 silvert.mv.		3600	IN	MX	5 alt1.aspmx.l.google.com.
 silvert.mv.		3600	IN	MX	5 alt2.aspmx.l.google.com.
 silvert.mv.		3600	IN	MX	10 aspmx2.googlemail.com.
 silvert.mv.		3600	IN	MX	10 aspmx3.googlemail.com.
-silvert.mv.		3600	IN	TXT	"google-site-verification=-IYVv7lPEa6sV81SAePSfCopDzETNzF0WqY_8v9WUe8"
 simtravels.mv.		3600	IN	NS	ns1.digitalocean.com.
 simtravels.mv.		3600	IN	NS	ns2.digitalocean.com.
 simtravels.mv.		3600	IN	NS	ns3.digitalocean.com.
@@ -3020,7 +3027,10 @@ today.mv.		3600	IN	NS	ns1.digitalocean.com.
 today.mv.		3600	IN	NS	ns2.digitalocean.com.
 today.mv.		3600	IN	NS	ns3.digitalocean.com.
 tollyjoymaldives.mv.	3600	IN	NS	host05.dhivehinet.net.mv.
-topten.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+topten.mv.		3600	IN	NS	ns1.limitlesshosting.net.
+topten.mv.		3600	IN	NS	ns2.limitlesshosting.net.
+topten.mv.		3600	IN	NS	ns3.limitlesshosting.net.
+topten.mv.		3600	IN	NS	ns4.limitlesshosting.net.
 topup.mv.		3600	IN	NS	dion.ns.cloudflare.com.
 topup.mv.		3600	IN	NS	ivy.ns.cloudflare.com.
 tork.mv.		3600	IN	NS	melkor.sgn.sca.se.
@@ -3098,6 +3108,7 @@ ubay.mv.		3600	IN	NS	ns2.raajje.net.
 ubuy.mv.		3600	IN	NS	ns1.101domain.com.
 ubuy.mv.		3600	IN	NS	ns2.101domain.com.
 ubuy.mv.		3600	IN	NS	ns5.101domain.com.
+Ufaa.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 ulhandhu.mv.		3600	IN	NS	ns1.mediatemple.net.
 ulhandhu.mv.		3600	IN	NS	ns2.mediatemple.net.
 umar2018.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -3317,7 +3328,8 @@ woo.mv.			3600	IN	NS	ns.liquidweb.com.
 woo.mv.			3600	IN	NS	ns1.liquidweb.com.
 woodhouse.mv.		3600	IN	NS	ns1.ipage.com.
 woodhouse.mv.		3600	IN	NS	ns2.ipage.com.
-woodpro.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+woodpro.mv.		3600	IN	NS	Ns5999.hostgator.com.
+woodpro.mv.		3600	IN	NS	Ns6000.hostgator.com.
 wordofmouth.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 wp.mv.			3600	IN	A	27.114.159.188
 wrem.mv.		3600	IN	A	202.1.201.147
@@ -3380,4 +3392,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017040601 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017040803 1800 1800 3600 3600

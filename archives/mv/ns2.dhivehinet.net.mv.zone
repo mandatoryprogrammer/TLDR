@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017040803 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017040901 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -510,6 +510,7 @@ cam4.mv.		3600	IN	NS	ns2.101domain.com.
 caminvestment.mv.	3600	IN	A	202.1.201.147
 caminvestment.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.caminvestment.mv.	3600	IN	CNAME	caminvestment.mv.
+camp.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 canon.mv.		3600	IN	NS	rns1.rightsdns.com.
 canon.mv.		3600	IN	NS	rns2.rightsdns.com.
 canopus.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -560,7 +561,8 @@ chfs.mv.		3600	IN	NS	ns1.ipage.com.
 chfs.mv.		3600	IN	NS	ns2.ipage.com.
 childrensplace.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 chocodate.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-choiceinvestment.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
+choiceinvestment.mv.	3600	IN	NS	ns3002.mochahost.com.
+choiceinvestment.mv.	3600	IN	NS	ns4002.mochahost.com.
 chopart.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 cim.mv.			3600	IN	A	202.1.207.33
 cim.mv.			3600	IN	MX	10 dedicated806.dhivehinet.net.mv.
@@ -1849,6 +1851,7 @@ magpie.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
 mail.mv.		3600	IN	MX	1 fajko.dhivehinet.net.mv.
 mail.mv.		3600	IN	MX	10 avs01.dhivehinet.net.mv.
 mail.mv.		3600	IN	MX	20 mx01.dhivehinet.mv.
+majiinvestment.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 majlistv.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 makai.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 makam.mv.		3600	IN	NS	ns19.ixwebhosting.com.
@@ -1871,6 +1874,7 @@ maldives.mv.		3600	IN	CNAME	www.dhivehinet.net.mv.
 maldives-traveller.mv.	3600	IN	A	202.1.201.147
 maldives-traveller.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.maldives-traveller.mv. 3600	IN	CNAME	maldives-traveller.mv.
+maldivesbuzz.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 maldivesexclusive.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 maldivesforjapan.mv.	3600	IN	NS	host14.dhivehinet.net.mv.
 maldivesgottalent.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1995,6 +1999,7 @@ miadhu.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 mial.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 mib.mv.			3600	IN	NS	host01.dhivehinet.net.mv.
 miba.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+micronet.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 micros.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.micros.mv.		3600	IN	CNAME	www.micros.com.au.
 micros-fidelio.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
@@ -2546,8 +2551,10 @@ rashuhimeyn.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 rashuhiyaa.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 raskan.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 razzan.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-Rbinternational.mv.	3600	IN	NS	ns1.buzzmaldives.com.
-Rbinternational.mv.	3600	IN	NS	ns2.buzzmaldives.com.
+rbinternational.mv.	3600	IN	NS	ns1.sgp28.siteground.asia.
+rbinternational.mv.	3600	IN	NS	ns2.sgp28.siteground.asia.
+rbinternational.mv.	3600	IN	NS	ns1.buzzmaldives.com.
+rbinternational.mv.	3600	IN	NS	ns2.buzzmaldives.com.
 rcc.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 rdcs.mv.		3600	IN	NS	ns4027.hostgator.com.
 rdcs.mv.		3600	IN	NS	ns4028.hostgator.com.
@@ -3392,4 +3399,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017040803 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017040901 1800 1800 3600 3600

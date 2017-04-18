@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017041701 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017041801 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -83,7 +83,8 @@ adidas.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 adkhospital.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
 adktravels.mv.		3600	IN	NS	ns1.mediatemple.net.
 adktravels.mv.		3600	IN	NS	ns2.mediatemple.net.
-adl.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
+adl.mv.			3600	IN	NS	ns1.inmotionhosting.com.
+adl.mv.			3600	IN	NS	ns2.inmotionhosting.com.
 admz.mv.		3600	IN	NS	bill.ns.cloudflare.com.
 admz.mv.		3600	IN	NS	dora.ns.cloudflare.com.
 adsense.mv.		3600	IN	NS	ns1.markmonitor.com.
@@ -245,8 +246,8 @@ asia.mv.		3600	IN	A	202.1.203.100
 asiaexperience.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 ask.mv.			3600	IN	NS	NS1.WEST-DATACENTER.NET.
 ask.mv.			3600	IN	NS	NS2.WEST-DATACENTER.NET.
-asna.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 asna.mv.		3600	IN	A	208.55.250.186
+asna.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.asna.mv.		3600	IN	CNAME	asna.mv.
 asr.mv.			3600	IN	NS	ns8195.hostgator.com.
 asr.mv.			3600	IN	NS	ns8196.hostgator.com.
@@ -940,6 +941,7 @@ efixit.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 egg.mv.			3600	IN	NS	ns1.bluehost.com.
 egg.mv.			3600	IN	NS	ns2.bluehost.com.
 egov.mv.		3600	IN	NS	host02.dhivehinet.net.mv.
+ehchissrocks.mv.	3600	IN	NS	host15.dhivehinet.net.mv.
 ehee.mv.		3600	IN	NS	ns6237.hostgator.com.
 ehee.mv.		3600	IN	NS	ns6238.hostgator.com.
 eightcubed.mv.		3600	IN	NS	dns.site5.com.
@@ -1052,7 +1054,9 @@ fenaka.mv.		3600	IN	NS	host02.dhivehinet.net.mv.
 fendainvestment.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 Fenfushi.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 fiftyshades.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
-fihaara.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+fihaara.mv.		3600	IN	NS	ns1.digitalocean.com.
+fihaara.mv.		3600	IN	NS	ns2.digitalocean.com.
+fihaara.mv.		3600	IN	NS	ns3.digitalocean.com.
 filecloud.mv.		3600	IN	NS	ns1.thn.me.
 filecloud.mv.		3600	IN	NS	ns2.thn.me.
 filofax.mv.		3600	IN	NS	ns1.netnames.net.
@@ -2377,7 +2381,9 @@ paanpinos.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 package.mv.		3600	IN	NS	ns6391.hostgator.com.
 package.mv.		3600	IN	NS	ns6392.hostgator.com.
 page.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
-palmwaves.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+palmwaves.mv.		3600	IN	NS	ns1.wordpress.com.
+palmwaves.mv.		3600	IN	NS	ns2.wordpress.com.
+palmwaves.mv.		3600	IN	NS	ns3.wordpress.com.
 panasonic.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 pandora.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 papayas.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -2515,6 +2521,7 @@ promise.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 property.mv.		3600	IN	NS	dns.site5.com.
 property.mv.		3600	IN	NS	dns2.site5.com.
 psm.mv.			3600	IN	NS	host14.dhivehinet.net.mv.
+psmconnect.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 psmnews.mv.		3600	IN	NS	ns-1690.awsdns-19.co.uk.
 psmnews.mv.		3600	IN	NS	ns-423.awsdns-52.com.
 psmnews.mv.		3600	IN	NS	ns-1070.awsdns-05.org.
@@ -3030,13 +3037,13 @@ thelaundry.mv.		3600	IN	NS	ns2.wix.com.
 thescent.mv.		3600	IN	NS	ns1.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns2.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns3.digitalocean.com.
+thesmallmaldivesislandco.mv. 3600 IN	A	188.227.206.201
+thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 thesmallmaldivesislandco.mv. 3600 IN	MX	10 ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX2.GOOGLEMAIL.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX3.GOOGLEMAIL.COM.
-thesmallmaldivesislandco.mv. 3600 IN	A	188.227.206.201
-thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 www.thesmallmaldivesislandco.mv. 3600 IN CNAME	thesmallmaldivesislandco.mv.
 theta.mv.		3600	IN	NS	ns1.sgp28.siteground.asia.
 theta.mv.		3600	IN	NS	ns2.sgp28.siteground.asia.
@@ -3431,4 +3438,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017041701 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017041801 1800 1800 3600 3600

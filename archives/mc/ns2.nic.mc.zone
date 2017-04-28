@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mc. @ns2.nic.mc. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mc.			3600	IN	SOA	ns1.nic.mc. root.nic.mc. 2017042500 10800 7200 604800 3600
+mc.			3600	IN	SOA	ns1.nic.mc. root.nic.mc. 2017042801 10800 7200 604800 3600
 mc.			3600	IN	NS	mc.cctld.authdns.ripe.net.
 mc.			3600	IN	NS	ns1.nic.mc.
 mc.			3600	IN	NS	ns2.nic.mc.
@@ -41,6 +41,8 @@ mc.			3600	IN	NS	ns2.nic.mc.
 3fvision.mc.		3600	IN	NS	ns2.monaco-telecom.net.
 3s2i.mc.		3600	IN	NS	dns1.namebay.com.
 3s2i.mc.		3600	IN	NS	dns2.namebay.com.
+a-artpartners.mc.	3600	IN	NS	ns110.ovh.net.
+a-artpartners.mc.	3600	IN	NS	dns110.ovh.net.
 a-m-s.mc.		3600	IN	NS	ns1.monaco-telecom.mc.
 a-m-s.mc.		3600	IN	NS	ns2.monaco-telecom.net.
 a2c.mc.			3600	IN	NS	ns1.monaco-telecom.mc.
@@ -3388,9 +3390,8 @@ lemuseeimaginaire.mc.	3600	IN	NS	dns1.namebay.com.
 lemuseeimaginaire.mc.	3600	IN	NS	dns2.namebay.com.
 lepinocchio.mc.		3600	IN	NS	ns1.monaco-telecom.mc.
 lepinocchio.mc.		3600	IN	NS	ns2.monaco-telecom.net.
-lerougeetleblanc.mc.	3600	IN	NS	a.dns.gandi.net.
-lerougeetleblanc.mc.	3600	IN	NS	b.dns.gandi.net.
-lerougeetleblanc.mc.	3600	IN	NS	c.dns.gandi.net.
+lerougeetleblanc.mc.	3600	IN	NS	dns1.namebay.com.
+lerougeetleblanc.mc.	3600	IN	NS	dns2.namebay.com.
 les-chaufours.mc.	3600	IN	NS	ns1.notari.net.
 les-chaufours.mc.	3600	IN	NS	ns2.notari.net.
 lescale.mc.		3600	IN	NS	ns13.ovh.net.
@@ -6777,4 +6778,4 @@ zzaz.mc.		3600	IN	NS	ns2.digitalocean.com.
 zzaz.mc.		3600	IN	NS	ns3.digitalocean.com.
 zzino.mc.		3600	IN	NS	ns1.monaco-telecom.mc.
 zzino.mc.		3600	IN	NS	ns2.monaco-telecom.net.
-mc.			3600	IN	SOA	ns1.nic.mc. root.nic.mc. 2017042500 10800 7200 604800 3600
+mc.			3600	IN	SOA	ns1.nic.mc. root.nic.mc. 2017042801 10800 7200 604800 3600

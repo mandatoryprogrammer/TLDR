@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017042601 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017042901 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -60,9 +60,9 @@ ac.mv.			3600	IN	A	202.1.203.100
 acco.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 accord.mv.		3600	IN	NS	ns100.whbdns.com.
 accord.mv.		3600	IN	NS	ns101.whbdns.com.
-aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 aceaviation.mv.		3600	IN	MX	10 mx1.emailsrvr.com.
 aceaviation.mv.		3600	IN	MX	20 mx2.emailsrvr.com.
+aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 k1._domainkey.aceaviation.mv. 3600 IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUNCaeAxrpJzLqHr/OdSl55nbwxLTtvpmBX4UReuwXaO++Uf8DAr4cujaShtzqTzokYZz6jnpY4jGYQktUV+q4azEWkIJbnaeGQRnrgntLLMBtW0DDOZ1obgo5qQehGphguTNS4/AXp0xanI11kuTKfQuShlLFFCMZPwRfiPYCLQIDAQAB"
 email.aceaviation.mv.	3600	IN	CNAME	mailgun.org.
 acetravels.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -430,6 +430,7 @@ bluefieldsmaldives.mv.	3600	IN	NS	host04.dhivehinet.net.mv.
 blueocean.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 blueoceanventures.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 bluestream.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
+bluesurge.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 bluetribe.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 bluewhalegroup.mv.	3600	IN	NS	host16.dhivehinet.net.mv.
 bluezing.mv.		3600	IN	NS	ns1.justhost.com.
@@ -461,6 +462,7 @@ bov.mv.			3600	IN	NS	host16.dhivehinet.net.mv.
 brackets.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 breadmatters.mv.	3600	IN	NS	ns1.bluehost.com.
 breadmatters.mv.	3600	IN	NS	ns2.bluehost.com.
+breathelife.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 breeman.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 bridalboutique.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 bro.mv.			3600	IN	NS	ns1.bluehost.com.
@@ -913,8 +915,6 @@ easydeals.mv.		3600	IN	NS	ns3.afraid.org.
 easydeals.mv.		3600	IN	NS	ns4.afraid.org.
 eat.mv.			3600	IN	NS	ns3303.hostgator.com.
 eat.mv.			3600	IN	NS	ns3304.hostgator.com.
-ebazaar.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
-ebazaaru.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 ecocare.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 ecocare.mv.		3600	IN	NS	ns1661.hostgator.com.
 ecocare.mv.		3600	IN	NS	ns1662.hostgator.com.
@@ -956,7 +956,6 @@ emkaldocosh.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.emkaldocosh.mv.	3600	IN	CNAME	emkaldocosh.mv.
 employment.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 emporo.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-encube.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 endowmaldives.mv.	3600	IN	NS	ns1.sgp17.siteground.asia.
 endowmaldives.mv.	3600	IN	NS	ns2.sgp17.siteground.asia.
 enzi.mv.		3600	IN	NS	ns1.hostmonster.com.
@@ -969,6 +968,7 @@ epl.mv.			3600	IN	NS	dns2.namecheaphosting.com.
 epocho.mv.		3600	IN	NS	ns27.domaincontrol.com.
 epocho.mv.		3600	IN	NS	ns28.domaincontrol.com.
 equalise.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
+equics.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 er-estore.mv.		3600	IN	NS	dion.ns.cloudflare.com.
 er-estore.mv.		3600	IN	NS	ivy.ns.cloudflare.com.
 eshop.mv.		3600	IN	NS	ns1.bluehost.com.
@@ -1732,6 +1732,7 @@ laamu.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 ladonlaw.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 lafarge.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 lagrande.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
+lalifestyle.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 lalizas.mv.		3600	IN	NS	ns1.mediatemple.net.
 lalizas.mv.		3600	IN	NS	ns2.mediatemple.net.
 lalizas.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1781,6 +1782,7 @@ library.mv.		3600	IN	NS	ns2.bluehost.com.
 lifeinsurance.mv.	3600	IN	NS	dns1.easydns.com.
 lifeinsurance.mv.	3600	IN	NS	dns2.easydns.net.
 lifestyles.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+lifestyletrend.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 lifesupport.mv.		3600	IN	NS	ns1.bluehost.com.
 lifesupport.mv.		3600	IN	NS	ns2.bluehost.com.
 lightnshade.mv.		3600	IN	NS	ns1.101domain.com.
@@ -2040,6 +2042,7 @@ minipc.mv.		3600	IN	NS	ns2.inmotionhosting.com.
 minivandhuvas.mv.	3600	IN	A	202.1.207.33
 minivandhuvas.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.minivandhuvas.mv.	3600	IN	CNAME	minivandhuvas.mv.
+mintbox.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 mipss.mv.		3600	IN	NS	ns0.dnsmadeeasy.com.
 mipss.mv.		3600	IN	NS	ns1.dnsmadeeasy.com.
 mipss.mv.		3600	IN	NS	ns2.dnsmadeeasy.com.
@@ -2555,7 +2558,8 @@ radisson.mv.		3600	IN	NS	ns3.markmonitor.com.
 radisson.mv.		3600	IN	NS	ns5.markmonitor.com.
 radissonblu.mv.		3600	IN	NS	ns1.markmonitor.com.
 radissonblu.mv.		3600	IN	NS	ns3.markmonitor.com.
-raiva.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+raiva.mv.		3600	IN	NS	ns1.justhost.com.
+raiva.mv.		3600	IN	NS	ns2.justhost.com.
 rakkaa.mv.		3600	IN	NS	ns71.domaincontrol.com.
 rakkaa.mv.		3600	IN	NS	ns72.domaincontrol.com.
 rangalhu.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -2707,7 +2711,6 @@ searchmaldives.mv.	3600	IN	NS	DNS.SITE5.COM.
 searchmaldives.mv.	3600	IN	NS	DNS2.SITE5.COM.
 searetreats.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 searex.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-seasidemaldives.mv.	3600	IN	NS	NS1.JUSTHOST.COM.
 seasonholidays.mv.	3600	IN	NS	ns14.wixdns.net.
 seasonparadise.mv.	3600	IN	NS	ns1.wordpress.com.
 seasonparadise.mv.	3600	IN	NS	ns2.wordpress.com.
@@ -3422,4 +3425,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017042601 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017042901 1800 1800 3600 3600

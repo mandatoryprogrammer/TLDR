@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ng. @nsa.nic.net.ng. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017050334 10800 3600 604800 3600
-ng.			21600	IN	TXT	"Generation Time: 1493827556"
+ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017050340 10800 3600 604800 3600
+ng.			21600	IN	TXT	"Generation Time: 1493838363"
 ng.			21600	IN	NS	ns1.nic.net.ng.
 ng.			21600	IN	NS	ns2.nic.net.ng.
 ng.			21600	IN	NS	ns5.nic.net.ng.
@@ -92,10 +92,10 @@ ns2.1stattorneys.ng.	21600	IN	A	23.227.135.35
 234junk.ng.		21600	IN	NS	ns12.eapps.com.
 234junk.ng.		21600	IN	NS	ns13.eapps.com.
 234junk.ng.		21600	IN	NS	ns14.eapps.com.
-234star.ng.		21600	IN	NS	ns1.whogohost.com.
-234star.ng.		21600	IN	NS	ns2.whogohost.com.
-234stars.ng.		21600	IN	NS	ns1.whogohost.com.
-234stars.ng.		21600	IN	NS	ns2.whogohost.com.
+234star.ng.		21600	IN	NS	jim.ns.cloudflare.com.
+234star.ng.		21600	IN	NS	liv.ns.cloudflare.com.
+234stars.ng.		21600	IN	NS	jim.ns.cloudflare.com.
+234stars.ng.		21600	IN	NS	liv.ns.cloudflare.com.
 247cash.ng.		21600	IN	NS	dns1.namecheaphosting.com.
 247cash.ng.		21600	IN	NS	dns2.namecheaphosting.com.
 247doctors.ng.		21600	IN	NS	ns1.whogohost.com.
@@ -5628,8 +5628,8 @@ coregroupafrica.ng.	21600	IN	NS	ns2.lexsynergy.us.
 coregroupafrica.ng.	21600	IN	NS	ns3.lexsynergy.info.
 coremigration.ng.	21600	IN	NS	ns21.whogohost.com.
 coremigration.ng.	21600	IN	NS	ns22.whogohost.com.
-coretvnews.ng.		21600	IN	NS	ns1.pathwaymedia.com.ng.
-coretvnews.ng.		21600	IN	NS	ns2.pathwaymedia.com.ng.
+coretvnews.ng.		21600	IN	NS	ns3.whogohost.com.
+coretvnews.ng.		21600	IN	NS	ns4.whogohost.com.
 corian.ng.		21600	IN	NS	pdns1.ultradns.net.
 corian.ng.		21600	IN	NS	pdns2.ultradns.net.
 corian.ng.		21600	IN	NS	pdns3.ultradns.org.
@@ -8576,8 +8576,8 @@ farmers.ng.		21600	IN	NS	ns2.mddservices.com.
 farmers.ng.		21600	IN	NS	ns3.mddservices.com.
 farmersdirect.ng.	21600	IN	NS	ns53.whogohost.com.
 farmersdirect.ng.	21600	IN	NS	ns54.whogohost.com.
-farmersmarket.ng.	21600	IN	NS	ns7.qservers.net.
-farmersmarket.ng.	21600	IN	NS	ns8.qservers.net.
+farmersmarket.ng.	21600	IN	NS	ns35.qservers.net.
+farmersmarket.ng.	21600	IN	NS	ns36.qservers.net.
 farmfresh.ng.		21600	IN	NS	ns31.whogohost.com.
 farmfresh.ng.		21600	IN	NS	ns32.whogohost.com.
 farmgateway.ng.		21600	IN	NS	ns8107.hostgator.com.
@@ -8846,6 +8846,8 @@ fiberinternet.ng.	21600	IN	NS	ns43.whogohost.com.
 fiberinternet.ng.	21600	IN	NS	ns44.whogohost.com.
 fibre.ng.		21600	IN	NS	ulla.ns.cloudflare.com.
 fibre.ng.		21600	IN	NS	peyton.ns.cloudflare.com.
+fica.ng.		21600	IN	NS	ns23.smartwebng.com.
+fica.ng.		21600	IN	NS	ns24.smartwebng.com.
 fidc.ng.		21600	IN	NS	ns10.dnsmadeeasy.com.
 fidc.ng.		21600	IN	NS	ns11.dnsmadeeasy.com.
 fidc.ng.		21600	IN	NS	ns12.dnsmadeeasy.com.
@@ -10043,8 +10045,8 @@ gear4music.ng.		21600	IN	NS	ns4.netim.net.
 gear4music.ng.		21600	IN	NS	ns5.netim.net.
 geari.ng.		21600	IN	NS	ns1.geari.ng.
 geari.ng.		21600	IN	NS	ns2.geari.ng.
-ns1.geari.ng.		21600	IN	AAAA	2a00:1a48:7901:0:b666:dc23:0:e
 ns1.geari.ng.		21600	IN	A	162.13.77.77
+ns1.geari.ng.		21600	IN	AAAA	2a00:1a48:7901:0:b666:dc23:0:e
 ns2.geari.ng.		21600	IN	AAAA	2001:4802:7903:100:ec44:1647:0:30
 ns2.geari.ng.		21600	IN	A	146.20.56.56
 gearone.ng.		21600	IN	NS	ns1.web4africa.com.
@@ -10346,9 +10348,8 @@ glia.ng.		21600	IN	NS	ns55.domaincontrol.com.
 glia.ng.		21600	IN	NS	ns56.domaincontrol.com.
 glink.ng.		21600	IN	NS	ns1.gospelph.com.
 glink.ng.		21600	IN	NS	ns2.gospelph.com.
-glint.ng.		21600	IN	NS	ns1.digitalocean.com.
-glint.ng.		21600	IN	NS	ns2.digitalocean.com.
-glint.ng.		21600	IN	NS	ns3.digitalocean.com.
+glint.ng.		21600	IN	NS	dedns49702.hostwindsdns.com.
+glint.ng.		21600	IN	NS	dedns49703.hostwindsdns.com.
 glitters.ng.		21600	IN	NS	ns1.upperserver23.com.
 glitters.ng.		21600	IN	NS	ns2.upperserver23.com.
 glitz.ng.		21600	IN	NS	ns29.doveserver.com.
@@ -15606,6 +15607,8 @@ mazars.ng.		21600	IN	NS	b.ns.mailclub.eu.
 mazars.ng.		21600	IN	NS	c.ns.mailclub.com.
 mba.ng.			21600	IN	NS	ns1.icecoolcontracts.com.
 mba.ng.			21600	IN	NS	ns2.icecoolcontracts.com.
+mbc.ng.			21600	IN	NS	ns35.qservers.net.
+mbc.ng.			21600	IN	NS	ns36.qservers.net.
 mbcgroup.ng.		21600	IN	NS	ns0.registeram.com.
 mbcgroup.ng.		21600	IN	NS	ns1.registeram.com.
 mbcgroup.ng.		21600	IN	NS	ns2.registeram.com.
@@ -16613,8 +16616,10 @@ mtcm.ng.		21600	IN	NS	ns2.benurmal.com.
 mtiba.ng.		21600	IN	NS	ns.inmotionhosting.com.
 mtiba.ng.		21600	IN	NS	ns1.webaukhosting.net.
 mtiba.ng.		21600	IN	NS	ns2.inmotionhosting.com.
-mtl.ng.			21600	IN	NS	ns1.bluehost.com.
-mtl.ng.			21600	IN	NS	ns2.bluehost.com.
+mtl.ng.			21600	IN	NS	ns1.web4africa.com.
+mtl.ng.			21600	IN	NS	ns2.web4africa.com.
+mtl.ng.			21600	IN	NS	ns3.web4africa.com.
+mtl.ng.			21600	IN	NS	ns4.web4africa.com.
 mtn.ng.			21600	IN	NS	ns1.icecoolcontracts.com.
 mtn.ng.			21600	IN	NS	ns2.icecoolcontracts.com.
 mtncloud.ng.		21600	IN	NS	ns1.iafrica.com.
@@ -16727,8 +16732,8 @@ my36chocolates.ng.	21600	IN	NS	ns2.vevida.net.
 my36chocolates.ng.	21600	IN	NS	ns3.vevida.com.
 my931.ng.		21600	IN	NS	ns1.upperserver23.com.
 my931.ng.		21600	IN	NS	ns2.upperserver23.com.
-mya.ng.			21600	IN	NS	ns1.bh-ht-3.webhostbox.net.
-mya.ng.			21600	IN	NS	ns2.bh-ht-3.webhostbox.net.
+mya.ng.			21600	IN	NS	ns1.bh-ht-1.webhostbox.net.
+mya.ng.			21600	IN	NS	ns2.bh-ht-1.webhostbox.net.
 myadmission.ng.		21600	IN	NS	ns1.web4africa.com.
 myadmission.ng.		21600	IN	NS	ns2.web4africa.com.
 myadmission.ng.		21600	IN	NS	ns3.web4africa.com.
@@ -22682,8 +22687,8 @@ shirts.ng.		21600	IN	NS	ns23.whogohost.com.
 shirts.ng.		21600	IN	NS	ns24.whogohost.com.
 shoes.ng.		21600	IN	NS	ns1.above.com.
 shoes.ng.		21600	IN	NS	ns2.above.com.
-shoeville.ng.		21600	IN	NS	ns21.smartwebng.com.
-shoeville.ng.		21600	IN	NS	ns22.smartwebng.com.
+shoeville.ng.		21600	IN	NS	ns61.domaincontrol.com.
+shoeville.ng.		21600	IN	NS	ns62.domaincontrol.com.
 shola.ng.		21600	IN	NS	ns1.web4africa.com.
 shola.ng.		21600	IN	NS	ns2.web4africa.com.
 shola.ng.		21600	IN	NS	ns3.web4africa.com.
@@ -29168,4 +29173,4 @@ zurey.ng.		21600	IN	NS	ns2.myhosting.com.
 zwoop.ng.		21600	IN	NS	ns1.lexsynergy.net.
 zwoop.ng.		21600	IN	NS	ns2.lexsynergy.us.
 zwoop.ng.		21600	IN	NS	ns3.lexsynergy.info.
-ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017050334 10800 3600 604800 3600
+ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017050340 10800 3600 604800 3600

@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ng. @nsa.nic.net.ng. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017050415 10800 3600 604800 3600
-ng.			21600	IN	TXT	"Generation Time: 1493881555"
+ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017050421 10800 3600 604800 3600
+ng.			21600	IN	TXT	"Generation Time: 1493892351"
 ng.			21600	IN	NS	ns1.nic.net.ng.
 ng.			21600	IN	NS	ns2.nic.net.ng.
 ng.			21600	IN	NS	ns5.nic.net.ng.
@@ -102,8 +102,14 @@ ns2.1stattorneys.ng.	21600	IN	A	23.227.135.35
 247doctors.ng.		21600	IN	NS	ns2.whogohost.com.
 247forex.ng.		21600	IN	NS	ns1.qservers.net.
 247forex.ng.		21600	IN	NS	ns2.qservers.net.
+247forexrate.ng.	21600	IN	NS	ns1.qservers.net.
+247forexrate.ng.	21600	IN	NS	ns2.qservers.net.
+247forextrade.ng.	21600	IN	NS	ns1.qservers.net.
+247forextrade.ng.	21600	IN	NS	ns2.qservers.net.
 247fx.ng.		21600	IN	NS	ns1.qservers.net.
 247fx.ng.		21600	IN	NS	ns2.qservers.net.
+247fxrate.ng.		21600	IN	NS	ns1.qservers.net.
+247fxrate.ng.		21600	IN	NS	ns2.qservers.net.
 247property.ng.		21600	IN	NS	ns1.qservers.net.
 247property.ng.		21600	IN	NS	ns2.qservers.net.
 247rentals.ng.		21600	IN	NS	ns1.qservers.net.
@@ -8985,6 +8991,8 @@ findmydoc.ng.		21600	IN	NS	ns1.upperserver23.com.
 findmydoc.ng.		21600	IN	NS	ns2.upperserver23.com.
 findmydoctor.ng.	21600	IN	NS	ns1.upperserver23.com.
 findmydoctor.ng.	21600	IN	NS	ns2.upperserver23.com.
+findmydrug.ng.		21600	IN	NS	dns1.namecheaphosting.com.
+findmydrug.ng.		21600	IN	NS	dns2.namecheaphosting.com.
 findmymedic.ng.		21600	IN	NS	ns3.utiware.net.
 findmymedic.ng.		21600	IN	NS	ns5.utiware.net.
 findmyschool.ng.	21600	IN	NS	ns1.whogohost.com.
@@ -10047,8 +10055,8 @@ geari.ng.		21600	IN	NS	ns1.geari.ng.
 geari.ng.		21600	IN	NS	ns2.geari.ng.
 ns1.geari.ng.		21600	IN	AAAA	2a00:1a48:7901:0:b666:dc23:0:e
 ns1.geari.ng.		21600	IN	A	162.13.77.77
-ns2.geari.ng.		21600	IN	A	146.20.56.56
 ns2.geari.ng.		21600	IN	AAAA	2001:4802:7903:100:ec44:1647:0:30
+ns2.geari.ng.		21600	IN	A	146.20.56.56
 gearone.ng.		21600	IN	NS	ns1.web4africa.com.
 gearone.ng.		21600	IN	NS	ns2.web4africa.com.
 gearone.ng.		21600	IN	NS	ns3.web4africa.com.
@@ -13868,6 +13876,9 @@ kmall.ng.		21600	IN	NS	ns1.p06.dynect.net.
 kmall.ng.		21600	IN	NS	ns2.p06.dynect.net.
 kmall.ng.		21600	IN	NS	ns3.p06.dynect.net.
 kmall.ng.		21600	IN	NS	ns4.p06.dynect.net.
+kmxasasx.ng.		21600	IN	NS	ns1.instradns.com.
+kmxasasx.ng.		21600	IN	NS	ns2.instradns.com.
+kmxasasx.ng.		21600	IN	NS	ns3.instradns.com.
 knabu.ng.		21600	IN	NS	ns27.domaincontrol.com.
 knabu.ng.		21600	IN	NS	ns28.domaincontrol.com.
 kncld.ng.		21600	IN	NS	ns1.donpedrohost.com.
@@ -14457,8 +14468,8 @@ lemmi.ng.		21600	IN	NS	ns1.gigalayer.com.
 lemmi.ng.		21600	IN	NS	ns2.gigalayer.com.
 lemon.ng.		21600	IN	NS	ns1.whogohost.com.
 lemon.ng.		21600	IN	NS	ns2.whogohost.com.
-lend.ng.		21600	IN	NS	ns1.bbnlab.net.
-lend.ng.		21600	IN	NS	ns2.bbnlab.net.
+lend.ng.		21600	IN	NS	ns1.ipage.com.
+lend.ng.		21600	IN	NS	ns2.ipage.com.
 lend.ng.		21600	IN	NS	ns3.bbnlab.net.
 lend.ng.		21600	IN	NS	ns4.bbnlab.net.
 lendcove.ng.		21600	IN	NS	ns-44.awsdns-05.com.
@@ -16617,10 +16628,8 @@ mtcm.ng.		21600	IN	NS	ns8182.hostgator.com.
 mtiba.ng.		21600	IN	NS	ns.inmotionhosting.com.
 mtiba.ng.		21600	IN	NS	ns1.webaukhosting.net.
 mtiba.ng.		21600	IN	NS	ns2.inmotionhosting.com.
-mtl.ng.			21600	IN	NS	ns1.web4africa.com.
-mtl.ng.			21600	IN	NS	ns2.web4africa.com.
-mtl.ng.			21600	IN	NS	ns3.web4africa.com.
-mtl.ng.			21600	IN	NS	ns4.web4africa.com.
+mtl.ng.			21600	IN	NS	ns1.meristemtest.com.
+mtl.ng.			21600	IN	NS	ns2.meristemtest.com.
 mtn.ng.			21600	IN	NS	ns1.icecoolcontracts.com.
 mtn.ng.			21600	IN	NS	ns2.icecoolcontracts.com.
 mtncloud.ng.		21600	IN	NS	ns1.iafrica.com.
@@ -29177,4 +29186,4 @@ zurey.ng.		21600	IN	NS	ns2.myhosting.com.
 zwoop.ng.		21600	IN	NS	ns1.lexsynergy.net.
 zwoop.ng.		21600	IN	NS	ns2.lexsynergy.us.
 zwoop.ng.		21600	IN	NS	ns3.lexsynergy.info.
-ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017050415 10800 3600 604800 3600
+ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017050421 10800 3600 604800 3600

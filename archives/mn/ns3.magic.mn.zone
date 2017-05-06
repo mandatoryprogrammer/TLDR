@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mn. @ns3.magic.mn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008179972 10800 7200 604800 86400
-mn.			900	IN	RRSIG	SOA 7 1 900 20170527004001 20170505234001 35828 mn. A4jf71uKywnIjReNziyRWx1iTMyWEdBp0ToouuPXOkHEU0Wpf2x+ukVN FytlAQk+/9T6C8acBhfgz4ntuz74Wq0GDKKvvNjsn7tWakgboDkOy4iu JU18qw8WyJxedouF9AyKXm4+hCAeG2oGGjOzv7CIbCrUEj4JZ751KASo x04=
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008179977 10800 7200 604800 86400
+mn.			900	IN	RRSIG	SOA 7 1 900 20170527041512 20170506031512 35828 mn. koS4nN5c++QVe18gIrEVey66XpZZsYbANmYPbB5HNWppUcpYIWK00UsF x4gp6e8VcaqyAavfilNP4dI6gU+A57na9KZiyEuTMu5jRfNNOur/V1JY b+YIfR9oV8wMKo25p0LnEH+yoRQeqO3RMDbORJ5/zioHzYyuKZTL2hh9 8Ng=
 mn.			86400	IN	NS	a0.cctld.afilias-nst.info.
 mn.			86400	IN	NS	a2.cctld.afilias-nst.info.
 mn.			86400	IN	NS	b0.cctld.afilias-nst.org.
@@ -140,8 +140,8 @@ ns2.1000zar.mn.		86400	IN	A	43.231.113.108
 112.mn.			86400	IN	NS	ns2fln.name.com.
 112.mn.			86400	IN	NS	ns3cfp.name.com.
 112.mn.			86400	IN	NS	ns4lqx.name.com.
-114.mn.			86400	IN	NS	dns20.parkpage.foundationapi.com.
-114.mn.			86400	IN	NS	dns19.parkpage.foundationapi.com.
+114.mn.			86400	IN	NS	ns1.ezdnscenter.com.
+114.mn.			86400	IN	NS	ns2.ezdnscenter.com.
 117.mn.			86400	IN	NS	ns1bqx.name.com.
 117.mn.			86400	IN	NS	ns2fln.name.com.
 117.mn.			86400	IN	NS	ns3cfp.name.com.
@@ -26025,6 +26025,8 @@ laaqfgclhhkwro.mn.	86400	IN	NS	ns4.sinkhole.ch.
 lab.mn.			86400	IN	NS	ns1.itools.mn.
 lab.mn.			86400	IN	NS	ns2.itools.mn.
 lab.mn.			86400	IN	NS	ns3.itools.mn.
+laba.mn.		86400	IN	NS	b.ezdnscenter.com.
+laba.mn.		86400	IN	NS	a.ezdnscenter.com.
 labo.mn.		86400	IN	NS	ns1.dns.mn.
 labo.mn.		86400	IN	NS	ns2.dns.mn.
 labo.mn.		86400	IN	NS	ns3.dns.mn.
@@ -29660,8 +29662,8 @@ mgvisghftixfukmf.mn.	86400	IN	NS	ns3.sinkhole.ch.
 mgvisghftixfukmf.mn.	86400	IN	NS	ns4.sinkhole.ch.
 mha.mn.			86400	IN	NS	ns1.cp-46.webhostbox.net.
 mha.mn.			86400	IN	NS	ns2.cp-46.webhostbox.net.
-mhah.mn.		86400	IN	NS	dns19.parkpage.foundationapi.com.
-mhah.mn.		86400	IN	NS	dns20.parkpage.foundationapi.com.
+mhah.mn.		86400	IN	NS	ns2.tomamjilt.com.
+mhah.mn.		86400	IN	NS	ns1.tomamjilt.com.
 mhc.mn.			86400	IN	NS	dns3.magicnet.mn.
 mhc.mn.			86400	IN	NS	dns4.magicnet.mn.
 mhc.mn.			86400	IN	NS	dns5.magicnet.mn.
@@ -34859,10 +34861,8 @@ news365.mn.		86400	IN	NS	ns1.dns.mn.
 news365.mn.		86400	IN	NS	ns2.dns.mn.
 news365.mn.		86400	IN	NS	ns3.dns.mn.
 news365.mn.		86400	IN	NS	ns4.dns.mn.
-news76.mn.		86400	IN	NS	ns4.dns.mn.
-news76.mn.		86400	IN	NS	ns3.dns.mn.
-news76.mn.		86400	IN	NS	ns2.dns.mn.
-news76.mn.		86400	IN	NS	ns1.dns.mn.
+news76.mn.		86400	IN	NS	ns2.datacenter.mn.
+news76.mn.		86400	IN	NS	ns1.datacenter.mn.
 newsagency.mn.		86400	IN	NS	ns1.adsolux.com.
 newsagency.mn.		86400	IN	NS	ns2.adsolux.com.
 newsbox.mn.		86400	IN	NS	ns1.tomamjilt.com.
@@ -53954,7 +53954,7 @@ zzz.mn.			86400	IN	NS	04.dnsv.jp.
 1hqugrdaat3icbparouqr4t9ca39onc2.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1KED78CPGM4B6DRULKHF34DJCMHADU50 A RRSIG
 1hqugrdaat3icbparouqr4t9ca39onc2.mn. 86400 IN RRSIG NSEC3 7 2 86400 20170525132807 20170504122807 35828 mn. dx5U5XcatgzbP97EEGsmuQekoscNGmmymgo7clEXyTs8lwuJL2is0PDA bVwISvfjbN/Q2cG3wf0fthvBvJWdy+Bw7il+n3BBZnnA7Ka3i78RxqJm W9AOrDmtRfmrY7L2/usncNfSkkUKpr645fBDZNbKirLGtK6GzYtseL3X n5c=
 1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2L6TNI94TUBPIP4GOJQ0EU7SDAECIFLU NS SOA RRSIG DNSKEY NSEC3PARAM
-1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20170527004001 20170505234001 35828 mn. f6isrWDWn64JU1Oxv8cXU/1oJ1dr/4TbPKlPW6VycOqUI82szuKKa0lr mpm2mma41gvkHzXj1oXv3o9mZMPuNvpzfPqxvHBckR4zJSkEZH5CIU74 Sq3kImwblkhIs5fRtEx658oMsykzo030335QlxI/qfmebeH6J+uf4z7q s2g=
+1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20170527041512 20170506031512 35828 mn. 1NUKo/qyasbhG5SL3lRkaMcLyEtcxQJG4Kt0fRE/0KnwKZlF/suIPIwl fwus4tL7C6cSOD6P3bBNH6P3mgzaWSra5cbih9QAWNnU4qLnb+qdAivq dbwE25qHa3Iy1GOZdMFhziplCjCVazK+w//BKBJl8XAFqOZmdwwTPpZ+ sx0=
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2M56JMVKP6GUKCHIQOO900RSBBD2Q971 A RRSIG
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN RRSIG NSEC3 7 2 86400 20170525132807 20170504122807 35828 mn. YUocwp66AA7POWSUU3oNw/LvxB3gaTIaXhT+qbhdkrarPO794g7NBoU7 2+SqODscREPYvDQPV3j3q7U5hzcsZYk5jgM7x0oeEcGo3Oh+5CyzDzhI /rmaqQ6ihzr9iUPgE82appwKHPj1jhFgLSqtMfIbyuEG4M3tjeT7EwWu Zlk=
 2m56jmvkp6gukchiqoo900rsbbd2q971.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2MALQVTNO8R9OPM9LQPJHD8A7OR0L5PB A RRSIG
@@ -54139,4 +54139,4 @@ vp7hfgb51jjnunpiupkaic554ar7mb76.mn. 86400 IN NSEC3 1 1 1 D399EAAB VT59995BA0D1B
 vp7hfgb51jjnunpiupkaic554ar7mb76.mn. 86400 IN RRSIG NSEC3 7 2 86400 20170525132807 20170504122807 35828 mn. sbdZ+9R+u1pRcsizl5QqbNs3YNwFI3hcFfBGu9DiGoXEk1SKb+o05Xjs DbrudfZMNwbMqLKMoVPwBKzXDN2212h7QBiEwb0pcxK07JKi5bynN6NC 51J9Mtuw6G534ShHSFOVX9bPIgi5q6aYr1/Km3aYJ0HLjkaMyyaxLJAN e04=
 vt59995ba0d1begsn6rv2auvbqdej9qu.mn. 86400 IN NSEC3 1 1 1 D399EAAB 041KLEK7K6MPSCOCFGAPT5FRKO49R91S A RRSIG
 vt59995ba0d1begsn6rv2auvbqdej9qu.mn. 86400 IN RRSIG NSEC3 7 2 86400 20170525132807 20170504122807 35828 mn. XtfqKegkUipVHMrryyYkWTjAYHnShVTXd3BT1KXPxGs0s5maGEp5I2MA sxFHGrj/qDOeBY72yEirhRSvvh1DcLwu2YiQvngIHw8J3XK7jtBW/+Wi n97N7fLepk4xc0Vp3AU6s31rLVUXTuAlxuwKZjxONKP1N2nLBG6zantT 55U=
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008179972 10800 7200 604800 86400
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008179977 10800 7200 604800 86400

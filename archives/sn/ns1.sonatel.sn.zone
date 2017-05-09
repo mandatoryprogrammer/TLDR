@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sn. @ns1.sonatel.sn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017050800 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017050900 21600 3600 1209600 3600
 sn.			86400	IN	RRSIG	TXT 8 1 86400 20170606172909 20170508072737 34134 sn. IWfKN9czzjNW5ynnVGLx+NMNbMuwbjiOoJXODk5LcyrLgH9byAE/QjFf KqP3PXxEpESJ4A8xkefnyJSccKP3TjHlBvHDbJzUFv2n8O97FpOpbvvJ wOtFigve/y/DcmzMtAjvncAk+JyLbvFbmH7cjxRo5z7bJKBA1nB45bz7 MtM=
 sn.			86400	IN	TXT	"v=spf1 -all"
 sn.			86400	IN	RRSIG	NS 8 1 86400 20170606214624 20170508072737 34134 sn. FdSt2cxtKGoNL+d8ElzC7mnXQVlMY9kANDPbCgev1c+9TQsJqlkbZZ5W +TAO/XDn0VaegNtPinC1dY7jCcVVPtGH3L73uhiWXA3HLsgtIzqPsEBd r6xNuczOpsHWvWH6uUeAiQCqScUusUr2UVKgyNH1ngoRKWrVEEwCyBM7 aBQ=
@@ -16,7 +16,7 @@ sn.			43200	IN	RRSIG	DNSKEY 8 1 43200 20170607090708 20170508072737 32482 sn. Wn
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAaUFGJYSRmfo+C6B6bJD0WMZ7Z35fCvu6rYeKnN7gRc0DYETXJsX ECKYkRpTr7LqcjgzOWLCBI7mpg31Kwdeab8BcMdgz1zRuDq7Ad+rAjo2 7VFy6Psm2OjnwO1xOP7AeeL9Sq+q+fIcVlUQavKjsPFAcz0Vcyah9CyI 55Jfp2BX
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAbCClbkCUU6wQRSznE2lep/9K7mhkv9NbLNPAuIl94DSVy7IXbw7 TbdBvRKgV8t44ovaVJvD2oGnTf0uqSKJc6QcZZcS1FOEQ7vfu0741m+W ALFg4PmZ84FlZ7KFlKLmXTDxLNjqyUpu9RpkVWJoty3MGOLt56QXSu1V S98SSiDv
 sn.			43200	IN	DNSKEY	257 3 8 AwEAAbtBoi+R3s3nxMcnhiVzYNpwetz1ZsD8Lx18+bA4lZpOTm9LP3LO ocXA0s4btHhVg/o9LfbqcWBMdAXKT38fNo/PdRbjxLT9/xN82Suth09l JIiIIQUv5DSOBwywDwNjxH1881WF5ZPe69PWMIKWaBskiWBawn13spBm 8bqXyhfDeGKZL/38fG/qCeH6EfoVvgmG4VJWjNamAcacSKwCo/DKxrhB ciGAaNbSOTvNJhWhqRpNoYKEGwFUQbCb5yAn8VJpuB4K40V5qMGl2lE7 eQ0j6nJS+TyaUi4K4o/N/YahFiFNELZIzJtV5zzVgojHV44miLA27yGG ag0ze822ar8=
-sn.			86400	IN	RRSIG	SOA 8 1 86400 20170607032441 20170508130502 34134 sn. jX618ulyekw354C7jB6S0gS2w3P9cu99+XvtindOPSu3r8eQd5/USQ9f mUyS8ytdCpdYGjvTJHDMteWM03phw+kCupNu+bgZ8/rVZoNbk/KAUI/T 5fRetpBqTqI0MletvwXOAsY+RzkW9ZRVp9Iwce92DRBSTuyDdSxiXyu1 Mo0=
+sn.			86400	IN	RRSIG	SOA 8 1 86400 20170608155203 20170509090501 34134 sn. LCsvcMgIBvbm587G+2JSg5wxMLCnlx+0iq3X+QyhRnul69+5Ff7pKtX9 8kUtbWJOIEimzfrug9hJrq1aAZiElQO+szR17abB9D+D79ZZwMuz8T2b ARQLR/SRttZB/Eya+Ocpi4XAVhsGrc+xHlbAXR/+W+zhzVJ3P4iHReG9 2SI=
 101domain.sn.		86400	IN	NS	ns1.101domain.com.
 101domain.sn.		86400	IN	NS	ns2.101domain.com.
 101domain.sn.		86400	IN	NS	ns5.101domain.com.
@@ -776,9 +776,6 @@ arcgis.sn.		86400	IN	NS	ns1.markmonitor.com.
 arcgis.sn.		86400	IN	NS	ns2.markmonitor.com.
 arcgis.sn.		86400	IN	NS	ns3.markmonitor.com.
 arcgis.sn.		86400	IN	NS	ns4.markmonitor.com.
-archibuc.sn.		86400	IN	NS	ns.arc.sn.
-archibuc.sn.		86400	IN	NS	ns2.arc.sn.
-archibuc.sn.		86400	IN	NS	ns3.arc.sn.
 archiconceptint.sn.	86400	IN	NS	ns1.kheweul.net.
 archiconceptint.sn.	86400	IN	NS	ns2.kheweul.net.
 archidiocesedkr.sn.	86400	IN	NS	nsmpro1.nordnet.com.
@@ -925,9 +922,6 @@ assia.sn.		86400	IN	NS	ns1.digissol.net.
 assia.sn.		86400	IN	NS	ns2.digissol.net.
 assises-education.sn.	86400	IN	NS	ns1.kheweul.net.
 assises-education.sn.	86400	IN	NS	ns2.kheweul.net.
-assistancemedicale.sn.	86400	IN	NS	ns.arc.sn.
-assistancemedicale.sn.	86400	IN	NS	ns2.arc.sn.
-assistancemedicale.sn.	86400	IN	NS	ns3.arc.sn.
 assistic.sn.		86400	IN	NS	ns8267.hostgator.com.
 assistic.sn.		86400	IN	NS	ns8268.hostgator.com.
 assurancefacile.sn.	86400	IN	NS	pdns07.domaincontrol.com.
@@ -1007,8 +1001,6 @@ audi.sn.		86400	IN	NS	ns2.audi.de.
 audi.sn.		86400	IN	NS	ns5.xc-ns.de.
 aug2g.sn.		86400	IN	NS	ns1.ispfr.net.
 aug2g.sn.		86400	IN	NS	ns2.ispfr.net.
-auto-parts.sn.		86400	IN	NS	ns.arc.sn.
-auto-parts.sn.		86400	IN	NS	ns3.arc.sn.
 autofast.sn.		86400	IN	NS	ns1.cetsi.fr.
 autofast.sn.		86400	IN	NS	ns2.cetsi.eu.
 autofast.sn.		86400	IN	NS	ns3.cetsi.info.
@@ -1248,8 +1240,6 @@ bht.sn.			86400	IN	NS	ns3.kheweul.net.
 bht.sn.			86400	IN	NS	ns4.kheweul.net.
 bia.sn.			86400	IN	NS	ns.arc.sn.
 bia.sn.			86400	IN	NS	ns3.arc.sn.
-biaoverseas.sn.		86400	IN	NS	ns.arc.sn.
-biaoverseas.sn.		86400	IN	NS	ns3.arc.sn.
 bibleaudio.sn.		86400	IN	NS	ns.rackspace.com.
 bibleaudio.sn.		86400	IN	NS	ns2.rackspace.com.
 biblinum-ucaoisg.sn.	86400	IN	NS	ns.arc.sn.
@@ -2409,8 +2399,6 @@ csip.sn.		86400	IN	NS	ns101.ovh.net.
 csip.sn.		86400	IN	NS	dns101.ovh.net.
 csisn.sn.		86400	IN	NS	ns102.ovh.net.
 csisn.sn.		86400	IN	NS	dns102.ovh.net.
-cslsenegal.sn.		86400	IN	NS	ns.arc.sn.
-cslsenegal.sn.		86400	IN	NS	ns3.arc.sn.
 css.sn.			86400	IN	NS	ns200.anycast.me.
 css.sn.			86400	IN	NS	dns200.anycast.me.
 cstm.sn.		86400	IN	NS	ns.sonatel.sn.
@@ -2622,9 +2610,6 @@ desert.sn.		86400	IN	NS	ns1.infi.net.
 desert.sn.		86400	IN	NS	ns2.infi.net.
 desert.sn.		86400	IN	NS	ns3.infi.net.
 desert.sn.		86400	IN	NS	ns4.infi.net.
-desk.sn.		86400	IN	NS	ns.arc.sn.
-desk.sn.		86400	IN	NS	ns2.arc.sn.
-desk.sn.		86400	IN	NS	ns3.arc.sn.
 destiform.sn.		86400	IN	NS	ns1.kheweul.net.
 destiform.sn.		86400	IN	NS	ns2.kheweul.net.
 destiform.sn.		86400	IN	NS	ns3.kheweul.net.
@@ -2834,8 +2819,6 @@ dot.sn.			86400	IN	NS	dns.ucad.sn.
 douanes.sn.		86400	IN	NS	ns1.douanes.sn.
 douanes.sn.		86400	IN	NS	ns2.sonatel.sn.
 ns1.douanes.sn.		86400	IN	A	213.154.78.131
-doubledoveafrica.sn.	86400	IN	NS	ns.arc.sn.
-doubledoveafrica.sn.	86400	IN	NS	ns3.arc.sn.
 doxjamm.sn.		86400	IN	NS	ns1.kheweul.net.
 doxjamm.sn.		86400	IN	NS	ns2.kheweul.net.
 doxjamm.sn.		86400	IN	NS	ns3.kheweul.net.
@@ -2920,8 +2903,6 @@ e-sante.sn.		86400	IN	NS	sdns1.ovh.net.
 e-sante.sn.		86400	IN	NS	ns321816.ip-5-39-68.eu.
 e-ucad.sn.		86400	IN	NS	ns1.bluehost.com.
 e-ucad.sn.		86400	IN	NS	ns2.bluehost.com.
-eai-thies.sn.		86400	IN	NS	ns.arc.sn.
-eai-thies.sn.		86400	IN	NS	ns3.arc.sn.
 eastpak.sn.		86400	IN	NS	ns1.vfc.com.
 eastpak.sn.		86400	IN	NS	ns2.vfc.com.
 easy-tv.sn.		86400	IN	NS	a.ns.mailclub.fr.
@@ -3522,8 +3503,6 @@ ewt.sn.			86400	IN	NS	ns200.anycast.me.
 ewt.sn.			86400	IN	NS	dns200.anycast.me.
 examen.sn.		86400	IN	NS	ns1.bluehost.com.
 examen.sn.		86400	IN	NS	ns2.bluehost.com.
-excom.sn.		86400	IN	NS	ns.arc.sn.
-excom.sn.		86400	IN	NS	ns3.arc.sn.
 executech.sn.		86400	IN	NS	ns200.anycast.me.
 executech.sn.		86400	IN	NS	dns200.anycast.me.
 exetco.sn.		86400	IN	NS	ns109.ovh.net.
@@ -3792,8 +3771,6 @@ fondationcms.sn.	86400	IN	NS	ns1.cms.sn.
 fondationcms.sn.	86400	IN	NS	ns2.cms.sn.
 fondationcms.sn.	86400	IN	NS	ns3.cms.sn.
 fondationcms.sn.	86400	IN	NS	ns4.cms.sn.
-fondationdabakh.sn.	86400	IN	NS	ns.arc.sn.
-fondationdabakh.sn.	86400	IN	NS	ns3.arc.sn.
 fondationorange.sn.	86400	IN	NS	ns.sonatel.sn.
 fondationorange.sn.	86400	IN	NS	ns2.sonatel.sn.
 fondationsonatel.sn.	86400	IN	NS	ns.sonatel.sn.
@@ -3900,12 +3877,9 @@ ftf.sn.			86400	IN	NS	ns200.anycast.me.
 ftf.sn.			86400	IN	NS	dns200.anycast.me.
 fujitsu.sn.		86400	IN	NS	rns1.rightsdns.com.
 fujitsu.sn.		86400	IN	NS	rns2.rightsdns.com.
-fumoa.sn.		86400	IN	NS	ns.arc.sn.
-fumoa.sn.		86400	IN	NS	ns3.arc.sn.
 funiber.sn.		86400	IN	NS	ns3.acens.net.
 funiber.sn.		86400	IN	NS	ns7.acens.net.
 funx.sn.		86400	IN	NS	ns.linkedpartners.com.
-futuris.sn.		86400	IN	NS	ns.arc.sn.
 futursmedias.sn.	86400	IN	NS	ns1.galgui.net.
 futursmedias.sn.	86400	IN	NS	ns2.galgui.net.
 futursmediastv.sn.	86400	IN	NS	ns.sonatel.sn.
@@ -4025,8 +3999,6 @@ gerecasarl.sn.		86400	IN	NS	ns1.kheweul.net.
 gerecasarl.sn.		86400	IN	NS	ns2.kheweul.net.
 germ.sn.		86400	IN	NS	ns1.kheweul.net.
 germ.sn.		86400	IN	NS	ns2.kheweul.net.
-gess.sn.		86400	IN	NS	ns.arc.sn.
-gess.sn.		86400	IN	NS	ns3.arc.sn.
 gestiondeprojets.sn.	86400	IN	NS	ns.gestiondeprojets.sn.
 ns.gestiondeprojets.sn.	86400	IN	A	62.193.209.195
 gesvac-ucao.sn.		86400	IN	NS	ns.arc.sn.
@@ -4523,14 +4495,10 @@ horlogesenegal.sn.	86400	IN	NS	ns.sonatel.sn.
 horlogesenegal.sn.	86400	IN	NS	ns2.sonatel.sn.
 hortisol.sn.		86400	IN	NS	ns1.digissol.net.
 hortisol.sn.		86400	IN	NS	ns2.digissol.net.
-hotelbooking.sn.	86400	IN	NS	ns1.malihosting.com.
-hotelbooking.sn.	86400	IN	NS	ns2.malihosting.com.
 hotelmamecoumbabang.sn.	86400	IN	NS	ns.sonatel.sn.
 hotelmamecoumbabang.sn.	86400	IN	NS	ns2.sonatel.sn.
 hotelocean.sn.		86400	IN	NS	ns108.ovh.net.
 hotelocean.sn.		86400	IN	NS	dns108.ovh.net.
-hotelsbooking.sn.	86400	IN	NS	ns1.malihosting.com.
-hotelsbooking.sn.	86400	IN	NS	ns2.malihosting.com.
 hotmail.sn.		86400	IN	NS	ns1.msft.net.
 hotmail.sn.		86400	IN	NS	ns2.msft.net.
 hotmail.sn.		86400	IN	NS	ns3.msft.net.
@@ -4580,9 +4548,6 @@ hyundaisenegal.sn.	86400	IN	NS	ns1.rigorcg.pt.
 hyundaisenegal.sn.	86400	IN	NS	ns2.rigorcg.pt.
 i-groupe.sn.		86400	IN	NS	ns110.ovh.net.
 i-groupe.sn.		86400	IN	NS	dns110.ovh.net.
-i2as.sn.		86400	IN	NS	ns.arc.sn.
-i2as.sn.		86400	IN	NS	ns2.arc.sn.
-i2as.sn.		86400	IN	NS	ns3.arc.sn.
 i2ogroup.sn.		86400	IN	NS	ns1.mghosteur.com.
 i2ogroup.sn.		86400	IN	NS	ns2.mghosteur.com.
 i3t.sn.			86400	IN	NS	ns1.validname.com.
@@ -4625,8 +4590,6 @@ icsuarl.sn.		86400	IN	NS	ns200.anycast.me.
 icsuarl.sn.		86400	IN	NS	dns200.anycast.me.
 icts.sn.		86400	IN	NS	ns1.accountsupport.com.
 icts.sn.		86400	IN	NS	ns2.accountsupport.com.
-idc.sn.			86400	IN	NS	ns.arc.sn.
-idc.sn.			86400	IN	NS	ns3.arc.sn.
 idconsulting.sn.	86400	IN	NS	ns1.kheweul.net.
 idconsulting.sn.	86400	IN	NS	ns2.kheweul.net.
 ideal.sn.		86400	IN	NS	ns1.kheweul.net.
@@ -4809,8 +4772,6 @@ inp.sn.			86400	IN	NS	ns1.kheweul.net.
 inp.sn.			86400	IN	NS	ns2.kheweul.net.
 ins.sn.			86400	IN	NS	ns.ovh.net.
 ins.sn.			86400	IN	NS	ns25.ovh.net.
-inscriptionisja.sn.	86400	IN	NS	ns.arc.sn.
-inscriptionisja.sn.	86400	IN	NS	ns3.arc.sn.
 insist.sn.		86400	IN	NS	ns1.ipage.com.
 instagram.sn.		86400	IN	NS	ns1.lovellsnames.org.
 instagram.sn.		86400	IN	NS	ns2.lovellsnames.org.
@@ -4957,8 +4918,6 @@ isim.sn.		86400	IN	NS	ns200.anycast.me.
 isim.sn.		86400	IN	NS	dns200.anycast.me.
 isjadakar.sn.		86400	IN	NS	ns.arc.sn.
 isjadakar.sn.		86400	IN	NS	ns3.arc.sn.
-isjapostbac.sn.		86400	IN	NS	ns.arc.sn.
-isjapostbac.sn.		86400	IN	NS	ns3.arc.sn.
 ism.sn.			86400	IN	NS	ns.sonatel.sn.
 ism.sn.			86400	IN	NS	ns2.sonatel.sn.
 ismec.sn.		86400	IN	NS	ns1.kheweul.net.
@@ -5292,8 +5251,6 @@ kogitaction.sn.		86400	IN	NS	ns.sonatel.sn.
 kogitaction.sn.		86400	IN	NS	ns2.sonatel.sn.
 kohler.sn.		86400	IN	NS	ns-east.cerf.net.
 kohler.sn.		86400	IN	NS	ns-west.cerf.net.
-komatsu.sn.		86400	IN	NS	ns.arc.sn.
-komatsu.sn.		86400	IN	NS	ns3.arc.sn.
 komkom.sn.		86400	IN	NS	ns.tpsnet.sn.
 komkom.sn.		86400	IN	NS	ns2.tpsnet.sn.
 kpax.sn.		86400	IN	NS	ns1.kheweul.net.
@@ -5323,8 +5280,6 @@ laa.sn.			86400	IN	NS	sdns2.ovh.net.
 laa.sn.			86400	IN	NS	ns386118.ovh.net.
 labanqueoutarde.sn.	86400	IN	NS	ns20.ovh.net.
 labanqueoutarde.sn.	86400	IN	NS	dns20.ovh.net.
-labelbleu.sn.		86400	IN	NS	ns.arc.sn.
-labelbleu.sn.		86400	IN	NS	ns3.arc.sn.
 labobio24.sn.		86400	IN	NS	ns1.labobio24.sn.
 labobio24.sn.		86400	IN	NS	ns2.labobio24.sn.
 ns1.labobio24.sn.	86400	IN	A	196.207.254.13
@@ -5564,9 +5519,6 @@ levis.sn.		86400	IN	NS	nans1.levi.com.
 levis.sn.		86400	IN	NS	nans2.levi.com.
 levistrauss.sn.		86400	IN	NS	nans1.levi.com.
 levistrauss.sn.		86400	IN	NS	nans2.levi.com.
-lex-environnement.sn.	86400	IN	NS	ns.arc.sn.
-lex-environnement.sn.	86400	IN	NS	ns2.arc.sn.
-lex-environnement.sn.	86400	IN	NS	ns3.arc.sn.
 lexida.sn.		86400	IN	NS	ns2.cyberultra.net.
 lexida.sn.		86400	IN	NS	ns3.cyberultra.net.
 lexlighters.sn.		86400	IN	NS	dns.site5.com.
@@ -5631,10 +5583,6 @@ locotrans.sn.		86400	IN	NS	ns1.sonatel.sn.
 locotrans.sn.		86400	IN	NS	ns2.sonatel.sn.
 logicsystem.sn.		86400	IN	NS	ns1.kheweul.net.
 logicsystem.sn.		86400	IN	NS	ns2.kheweul.net.
-logicweb.sn.		86400	IN	NS	ns1.logicweb.sn.
-logicweb.sn.		86400	IN	NS	ns2.logicweb.sn.
-ns1.logicweb.sn.	86400	IN	A	204.44.118.42
-ns2.logicweb.sn.	86400	IN	A	212.18.233.66
 logisen.sn.		86400	IN	NS	ns.sonatel.sn.
 logisen.sn.		86400	IN	NS	ns2.sonatel.sn.
 lonase.sn.		86400	IN	NS	ns23.domaincontrol.com.
@@ -5649,9 +5597,6 @@ loome.sn.		86400	IN	NS	dns200.anycast.me.
 lor.sn.			86400	IN	NS	a.dns.gandi.net.
 lor.sn.			86400	IN	NS	b.dns.gandi.net.
 lor.sn.			86400	IN	NS	c.dns.gandi.net.
-loto.sn.		86400	IN	NS	ns.arc.sn.
-loto.sn.		86400	IN	NS	ns2.arc.sn.
-loto.sn.		86400	IN	NS	ns3.arc.sn.
 lotraf.sn.		86400	IN	NS	ns1.kheweul.net.
 lotraf.sn.		86400	IN	NS	ns2.kheweul.net.
 lotraf.sn.		86400	IN	NS	ns3.kheweul.net.
@@ -5695,7 +5640,6 @@ lulubeats.sn.		86400	IN	NS	tns.innterdns.net.
 lundbeck.sn.		86400	IN	NS	ns.domainnetwork.se.
 lundbeck.sn.		86400	IN	NS	ns2.domainnetwork.se.
 lundbeck.sn.		86400	IN	NS	ns3.domainnetwork.com.
-luxmission.sn.		86400	IN	NS	ns.arc.sn.
 lvs.sn.			86400	IN	NS	ns1.kheweul.net.
 lvs.sn.			86400	IN	NS	ns2.kheweul.net.
 lvs.sn.			86400	IN	NS	ns3.kheweul.net.
@@ -5911,8 +5855,6 @@ masterofficedeco.sn.	86400	IN	NS	ns1.ipage.com.
 masterofficedeco.sn.	86400	IN	NS	ns2.ipage.com.
 mastrategiemarketing.sn. 86400	IN	NS	ns4.ikoula.com.
 mastrategiemarketing.sn. 86400	IN	NS	ns5.ikoula.com.
-matele.sn.		86400	IN	NS	ns.arc.sn.
-matele.sn.		86400	IN	NS	ns3.arc.sn.
 matequip.sn.		86400	IN	NS	ns16.ovh.net.
 matequip.sn.		86400	IN	NS	dns16.ovh.net.
 matforce.sn.		86400	IN	NS	ns1.ipage.com.
@@ -6085,10 +6027,6 @@ minsenegal.sn.		86400	IN	NS	ns1.kheweul.net.
 minsenegal.sn.		86400	IN	NS	ns2.kheweul.net.
 minutemaid.sn.		86400	IN	NS	ns1.efedus.com.
 minutemaid.sn.		86400	IN	NS	ns2.efedus.com.
-mira.sn.		86400	IN	NS	ns1.easydns.com.
-mira.sn.		86400	IN	NS	ns2.easydns.com.
-mira.sn.		86400	IN	NS	remote1.easydns.com.
-mira.sn.		86400	IN	NS	remote2.easydns.com.
 mis.sn.			86400	IN	NS	ns1.101domain.com.
 mis.sn.			86400	IN	NS	ns2.101domain.com.
 mis.sn.			86400	IN	NS	ns5.101domain.com.
@@ -6573,8 +6511,6 @@ odej.sn.		86400	IN	NS	ns3.kheweul.net.
 odej.sn.		86400	IN	NS	ns4.kheweul.net.
 odigeo.sn.		86400	IN	NS	ns1.edreams.com.
 odigeo.sn.		86400	IN	NS	ns2.edreams.com.
-odyssee.sn.		86400	IN	NS	ns.arc.sn.
-odyssee.sn.		86400	IN	NS	ns3.arc.sn.
 off.sn.			86400	IN	NS	ns111.ovh.net.
 off.sn.			86400	IN	NS	dns111.ovh.net.
 officechoice.sn.	86400	IN	NS	ns200.anycast.me.
@@ -6673,9 +6609,6 @@ opis.sn.		86400	IN	NS	ns1.servconfig.com.
 opis.sn.		86400	IN	NS	ns2.servconfig.com.
 opsd.sn.		86400	IN	NS	ns1.validname.com.
 opsd.sn.		86400	IN	NS	ns2.validname.com.
-optic.sn.		86400	IN	NS	ns.arc.sn.
-optic.sn.		86400	IN	NS	ns2.arc.sn.
-optic.sn.		86400	IN	NS	ns3.arc.sn.
 optimis.sn.		86400	IN	NS	ns10.ovh.net.
 optimis.sn.		86400	IN	NS	dns10.ovh.net.
 optimum.sn.		86400	IN	NS	ns20.ovh.net.
@@ -6855,8 +6788,6 @@ palmbeach.sn.		86400	IN	NS	ns.sonatel.sn.
 palmbeach.sn.		86400	IN	NS	ns2.sonatel.sn.
 palmolive.sn.		86400	IN	NS	dns.greensoft.com.
 palmolive.sn.		86400	IN	NS	dns2.greensoft.com.
-pamecas.sn.		86400	IN	NS	ns200.anycast.me.
-pamecas.sn.		86400	IN	NS	dns200.anycast.me.
 panamas.sn.		86400	IN	NS	ns1.kheweul.net.
 panamas.sn.		86400	IN	NS	ns2.kheweul.net.
 panasonic.sn.		86400	IN	NS	rns1.rightsdns.com.
@@ -7188,8 +7119,6 @@ press.sn.		86400	IN	NS	ns3.infi.net.
 press.sn.		86400	IN	NS	ns4.infi.net.
 pressea.sn.		86400	IN	NS	ns1.amen.fr.
 pressea.sn.		86400	IN	NS	ns2.amen.fr.
-pressecafe.sn.		86400	IN	NS	ns.arc.sn.
-pressecafe.sn.		86400	IN	NS	ns3.arc.sn.
 pressing-paris-dakar.sn. 86400	IN	NS	ns16.ovh.net.
 pressing-paris-dakar.sn. 86400	IN	NS	dns16.ovh.net.
 presta-service.sn.	86400	IN	NS	ns109.ovh.net.
@@ -7539,8 +7468,6 @@ rolex.sn.		86400	IN	NS	ns3.p09.dynect.net.
 rolex.sn.		86400	IN	NS	ns4.p09.dynect.net.
 roly.sn.		86400	IN	NS	dns9.servidoresdns.net.
 roly.sn.		86400	IN	NS	dns10.servidoresdns.net.
-rondpoint.sn.		86400	IN	NS	ns.arc.sn.
-rondpoint.sn.		86400	IN	NS	ns3.arc.sn.
 rosalux.sn.		86400	IN	NS	ns1.infomaniak.ch.
 rosalux.sn.		86400	IN	NS	ns2.infomaniak.ch.
 rouletaboule.sn.	86400	IN	NS	ns1.amen.fr.
@@ -7821,8 +7748,6 @@ scn.sn.			86400	IN	NS	ns.sonatel.sn.
 scn.sn.			86400	IN	NS	ns2.sonatel.sn.
 scool.sn.		86400	IN	NS	ns.sonatel.sn.
 scool.sn.		86400	IN	NS	ns2.sonatel.sn.
-scpkanjohouda.sn.	86400	IN	NS	ns.arc.sn.
-scpkanjohouda.sn.	86400	IN	NS	ns3.arc.sn.
 screendesign.sn.	86400	IN	NS	ns1.kheweul.com.
 screendesign.sn.	86400	IN	NS	ns2.kheweul.com.
 scs.sn.			86400	IN	NS	ns1.karlhost.com.
@@ -8055,7 +7980,6 @@ senmarketingdistribution.sn. 86400 IN	NS	ns200.anycast.me.
 senmarketingdistribution.sn. 86400 IN	NS	dns200.anycast.me.
 senmediaprod.sn.	86400	IN	NS	ns103.ovh.net.
 senmediaprod.sn.	86400	IN	NS	dns103.ovh.net.
-senomar.sn.		86400	IN	NS	ns.arc.sn.
 senpack.sn.		86400	IN	NS	ns.sonatel.sn.
 senpack.sn.		86400	IN	NS	ns2.sonatel.sn.
 senpanier.sn.		86400	IN	NS	ns1.centraldns.eu.
@@ -8275,7 +8199,6 @@ simes-international.sn.	86400	IN	NS	ns104.ovh.net.
 simes-international.sn.	86400	IN	NS	dns104.ovh.net.
 simes-logistic.sn.	86400	IN	NS	ns104.ovh.net.
 simes-logistic.sn.	86400	IN	NS	dns104.ovh.net.
-simpa.sn.		86400	IN	NS	ns.arc.sn.
 simtech.sn.		86400	IN	NS	ns106.ovh.net.
 simtech.sn.		86400	IN	NS	dns106.ovh.net.
 simus.sn.		86400	IN	NS	ns1.simus.sn.
@@ -8374,8 +8297,6 @@ smartvod.sn.		86400	IN	NS	ns2.101domain.com.
 smartvod.sn.		86400	IN	NS	ns5.101domain.com.
 smcady.sn.		86400	IN	NS	ns.sonatel.sn.
 smcady.sn.		86400	IN	NS	ns2.sonatel.sn.
-smco.sn.		86400	IN	NS	ns.arc.sn.
-smco.sn.		86400	IN	NS	ns3.arc.sn.
 smilesenegal.sn.	86400	IN	NS	ns.sonatel.sn.
 smilesenegal.sn.	86400	IN	NS	ns2.sonatel.sn.
 smis.sn.		86400	IN	NS	ns.sonatel.sn.
@@ -8407,8 +8328,6 @@ snat.sn.		86400	IN	NS	ns1.kheweul.net.
 snat.sn.		86400	IN	NS	ns2.kheweul.net.
 snat.sn.		86400	IN	NS	ns3.kheweul.net.
 snat.sn.		86400	IN	NS	ns4.kheweul.net.
-sncaaduna.sn.		86400	IN	NS	ns.arc.sn.
-sncaaduna.sn.		86400	IN	NS	ns3.arc.sn.
 sncot.sn.		86400	IN	NS	ns411.websitewelcome.com.
 sncot.sn.		86400	IN	NS	ns412.websitewelcome.com.
 sndc.sn.		86400	IN	NS	ns1.kheweul.net.
@@ -8676,9 +8595,6 @@ spherex.sn.		86400	IN	NS	ns1.kheweul.net.
 spherex.sn.		86400	IN	NS	ns2.kheweul.net.
 spherex.sn.		86400	IN	NS	ns3.kheweul.net.
 spherex.sn.		86400	IN	NS	ns4.kheweul.net.
-spids.sn.		86400	IN	NS	ns.arc.sn.
-spids.sn.		86400	IN	NS	ns2.arc.sn.
-spids.sn.		86400	IN	NS	ns3.arc.sn.
 spinlet.sn.		86400	IN	NS	ns0.xname.org.
 spinlet.sn.		86400	IN	NS	ns1.xname.org.
 spinletbarth.sn.	86400	IN	NS	pns.innterdns.net.
@@ -8887,8 +8803,6 @@ sylladesign.sn.		86400	IN	NS	ns1.infomaniak.ch.
 sylladesign.sn.		86400	IN	NS	ns2.infomaniak.ch.
 symeps.sn.		86400	IN	NS	ns1.hostpapa.com.
 symeps.sn.		86400	IN	NS	ns2.hostpapa.com.
-synaptics.sn.		86400	IN	NS	ns.arc.sn.
-synaptics.sn.		86400	IN	NS	ns3.arc.sn.
 synergies.sn.		86400	IN	NS	ns.sonatel.sn.
 synergies.sn.		86400	IN	NS	ns2.sonatel.sn.
 synethique.sn.		86400	IN	NS	ns1.kheweul.net.
@@ -8962,9 +8876,6 @@ tal.sn.			86400	IN	NS	ns.sonatel.sn.
 tal.sn.			86400	IN	NS	ns2.sonatel.sn.
 tallybi.sn.		86400	IN	NS	sdns2.ovh.net.
 tallybi.sn.		86400	IN	NS	vps316541.ovh.net.
-tambaco.sn.		86400	IN	NS	ns.arc.sn.
-tambaco.sn.		86400	IN	NS	ns2.validname.com.
-tambaco.sn.		86400	IN	NS	ns3.arc.sn.
 taminternational.sn.	86400	IN	NS	ns200.anycast.me.
 taminternational.sn.	86400	IN	NS	dns200.anycast.me.
 tamtam.sn.		86400	IN	NS	ns19.ovh.net.
@@ -9531,8 +9442,6 @@ upam.sn.		86400	IN	NS	ns3.kheweul.net.
 upam.sn.		86400	IN	NS	ns4.kheweul.net.
 upf.sn.			86400	IN	NS	ns101.ovh.net.
 upf.sn.			86400	IN	NS	dns101.ovh.net.
-upic.sn.		86400	IN	NS	ns.arc.sn.
-upic.sn.		86400	IN	NS	ns3.arc.sn.
 upm.sn.			86400	IN	NS	ns13.ovh.net.
 upm.sn.			86400	IN	NS	dns13.ovh.net.
 ups.sn.			86400	IN	NS	nsa.ups.com.
@@ -9658,8 +9567,6 @@ visionrufisque.sn.	86400	IN	NS	ns1.validname.com.
 visionrufisque.sn.	86400	IN	NS	ns2.validname.com.
 vital.sn.		86400	IN	NS	ns10a.haisoft.net.
 vital.sn.		86400	IN	NS	ns10b.haisoft.net.
-vitalait.sn.		86400	IN	NS	ns.arc.sn.
-vitalait.sn.		86400	IN	NS	ns3.arc.sn.
 vitalpharm.sn.		86400	IN	NS	ns106.ovh.net.
 vitalpharm.sn.		86400	IN	NS	dns106.ovh.net.
 vitogaz.sn.		86400	IN	NS	ns1.iptwins.net.
@@ -9732,8 +9639,6 @@ waa.sn.			86400	IN	NS	ns1.kheweul.net.
 waa.sn.			86400	IN	NS	ns2.kheweul.net.
 waa.sn.			86400	IN	NS	ns3.kheweul.net.
 waa.sn.			86400	IN	NS	ns4.kheweul.net.
-waame.sn.		86400	IN	NS	ns1.infomaniak.ch.
-waame.sn.		86400	IN	NS	ns2.infomaniak.ch.
 wafa.sn.		86400	IN	NS	uranus.bcm.ma.
 wafa.sn.		86400	IN	NS	mercure.bcm.co.ma.
 wafaassurance.sn.	86400	IN	NS	mrozia.mtds.ma.
@@ -10382,10 +10287,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 19dtdul5p92bi0a20v1h50alg2hfobf2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 19RJGTNAPTKM6OGNUTNTVDL9M3MSUF2F NS
 19rjgtnaptkm6ognutntvdl9m3msuf2f.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607223045 20170508072737 34134 sn. Jw4pyc2x1P0nWlAUq9lisFW3a1ATmmY0YLK39tN6XyM3wDsJwQ2nMuaQ 6pzxRPcpQh2NKTcDGB0gflM/2devykcXlDMfAn7eD3XS7m45YNvXs5Wk lsbr3JUabD/7jOMRUYCA2BfG3BCb/ztz8g0j1duBRsajLTtmJLqy2frF dX4=
 19rjgtnaptkm6ognutntvdl9m3msuf2f.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 1A16G7DUTO6J2T10VIBK4PKBINLTN4O3 NS
-1a16g7duto6j2t10vibk4pkbinltn4o3.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606210616 20170508072737 34134 sn. VKv7T3mdOiR/e+ZsFkiar7Qa8Xgfja3BT+Qrq6G21Zh4KWZWXyefL/W8 H6yCfJz4LvixJwHpUBhuIfwpRHwR1olMiHudANyoeR7S81SOdoT6m2rH vownU9dPyt0XpI8PwLD/v8GOXuGbjiO3a2KHx9gkXKx3qpVq7HuW5Nwa 3oE=
-1a16g7duto6j2t10vibk4pkbinltn4o3.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 1A5CLKL44LLAC7HKB12QTLA50O2RSAH8 NS
-1a5clkl44llac7hkb12qtla50o2rsah8.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607070434 20170508072737 34134 sn. JfqB0icQ5Y4tKbTYjMoeyU295bCwiymBp8u/4ZjoZcKXbm+5qurs2bJI dHm6+jnmx6ozHQLNi8ia6iJ7eFffeI4TmlDpUYBx7p6T1D4MNQYXdnxe CbINht3nP4S3dVA+hldFc7YdFg91e2ObsIYQkmf4mhgV9YPTCErBYyvl Ioc=
-1a5clkl44llac7hkb12qtla50o2rsah8.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 1AF0IJS87FMF7KDJDC2520F7KN14UES0 NS
+1a16g7duto6j2t10vibk4pkbinltn4o3.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608062639 20170509090501 34134 sn. e3hh2Ax7Pq9rmXLFUf9f/gTw7Uwy3v5J87e2fygfnhXuwjmdCxwazGQC X+fywr/35zwS8W9lIdin4eND189pFkxR3TzsX50P1vXag2YNvrIpwSg9 Tpt8CX+WjsFYHj7SgP3ONyTOERl5GHpjUgyDtVHXDkQCVf6O0VqTGzkU fZ8=
+1a16g7duto6j2t10vibk4pkbinltn4o3.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 1AF0IJS87FMF7KDJDC2520F7KN14UES0 NS
 1af0ijs87fmf7kdjdc2520f7kn14ues0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607150820 20170508072737 34134 sn. En3ncAp/AbSylGmBSCXLYu70XXSV+KqY8nq+CBSf7fEylSSsackBOEz1 gPvOqicRw1s8smIPGGa4Jh3vedvO+4M0DbyfaNPs1RXcZY0ldlC7wlM9 QVepLNVGPKL0+gPfBIGEh31sjC7qlJhZISWxQiP4JHFclKbogwCRk47v Gio=
 1af0ijs87fmf7kdjdc2520f7kn14ues0.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 1AIDM0I4F75DQJGI1FP6VNRCCOS420K5 NS
 1aidm0i4f75dqjgi1fp6vnrccos420k5.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607212616 20170508072737 34134 sn. RW5hup1f/VRrvYOZVfLOoMVAJahEOc5mJUs0WMlomePutuG+Z4ribrcc YraHxfut9I02sbynjANRMhEJcIB7h9co3RS3VUztlhnVJgYJj69ziQSj Rxcub7cZ+9DBCJejymDRJp/azHaYMvJN37oyAJx5g/YSxh6JLzKciFGt rGU=
@@ -10734,12 +10637,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 2lqp71sgnr90evj8262sk75uodipdv9s.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 2LSO90ET9B37C8PN32AFB44EOEMU3JN2 NS
 2lso90et9b37c8pn32afb44eoemu3jn2.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607204800 20170508072737 34134 sn. huT3G17ll2v8xQwBMVJFUvf4JjwB/OWB2JhcSilHKe4Fa/zrC6mfsPUm lu0Rx1LTKGLGz7jXEqFJu6EeRcmxDdeplTF9I4PIC/C4LKminYITJb1q ujHQV/t/kUt9Yvd5Zur5q1CC4UbIIvrxZe2WrH/LMnZ6jywTbhVLiDtW jNk=
 2lso90et9b37c8pn32afb44eoemu3jn2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 2MCUHDMVM1MCUI35P01HA90Q12G16N7V NS
-2mcuhdmvm1mcui35p01ha90q12g16n7v.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606174427 20170508072737 34134 sn. JTvXpo5rzgQpWyXTuUa655HQGOJ1Mx7mv4LIDKQgaoTaAnoQYMcc5UEm qZ8n4+ixwF+1xcLwOJvHPu5FQ7b7IyuYBSBxNfvxmhu0fvkGldhGxe9G r6YU7aV54DUj7lINeVmP5I1vUGm8Jh/keqjfkgetwoLK07b6RzyyUiZ6 Clk=
-2mcuhdmvm1mcui35p01ha90q12g16n7v.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 2MG1MM23A5IOG07TIDBOLN02R9TRA0F1 NS
-2mg1mm23a5iog07tidboln02r9tra0f1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607124548 20170508072737 34134 sn. FwUFWtCHNK16N/xjEpJOc9p+5huOHx8jFcumIb7ymhDQcMD6HMU/tjUY vNj47JwEzJreGvze9+0elo3YGEeh0Zd1Hx+NM9PBfFd8m5JoHpzc+rWr X/w7E/C4mNUOP/3kuN5Bn9/EAIUfqHozAZnTATbOHfWatCrpNtpVOH3k Wu4=
-2mg1mm23a5iog07tidboln02r9tra0f1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 2MQSF4N4CATTIB9L1HHOCHRVTBCU1211 NS
-2mqsf4n4cattib9l1hhochrvtbcu1211.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606190537 20170508072737 34134 sn. aLS7oJF3+Mxg18D++JiU214LRyqXGLuFNolC+PqURW007G1IsJk5S1qH SEUopc0U4g8dz3sWedcs+j6KxW8zYz5v8gXO3sOLhTmr577rbZD/Lh0A TCZnhr/i+Mg6+AHlY4g6NwIGJijE8ujlMiwDraC/ORX3FGit/1TY4UrJ pRo=
-2mqsf4n4cattib9l1hhochrvtbcu1211.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 2NGG9JUT042B4T980IGR7KNUTLM8M4B1 NS
+2mcuhdmvm1mcui35p01ha90q12g16n7v.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608122513 20170509090501 34134 sn. VpUmL3ITt7lDTUVAjVpdLI9Biv2/kmfFWeqsba9xplllj6bdIF2Zvhnb gfGMUddZrybIhOdIcVt7UHWj7ZsQ23KAKJ3yyBzpF9wBTXN7DgBfFzfL iSoqB9CKfyLCClpI+qJXMT8auJXLDOQvIV+icm5ajSaq4we0EKVg68iy T14=
+2mcuhdmvm1mcui35p01ha90q12g16n7v.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 2NGG9JUT042B4T980IGR7KNUTLM8M4B1 NS
 2ngg9jut042b4t980igr7knutlm8m4b1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607210643 20170508072737 34134 sn. Al9evoPR+f59VfLrHNVYPa4t+pfGs/4u6IaG/kVctNLazUCxYe6EhRp2 eBbMimN7uzzAy+gc9mchrDuCda12m/uY5rFI7vEqyPxmRigvd8uLQrPe jmE9uZRW6bFmSb93k64t/Raf1Hp3H4SREQJR6Cv6Du5lqZQmk4b6eYDt HZ8=
 2ngg9jut042b4t980igr7knutlm8m4b1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 2NJ0BTETC8MVEJ3B2ALSMLC8S43FEC8Q NS
 2nj0btetc8mvej3b2alsmlc8s43fec8q.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607140750 20170508072737 34134 sn. gD3GoyO7orS/p4HnZtOFrg8jcyQyDAToNznQwq0FdfXa1IR+VcEeE1XA gz2yeaxHrK3W4oeFTtYJUfL6fJj4qPw6IbVyrBBHgHPCDfURY+lgvnQE XIIAks4dqQh4UdqO3gytqgz8Z+tkWqcoB8UwHwQ6f+9dzhfzBkxFA1Sh Gu4=
@@ -10826,10 +10725,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 3103u8u9r7p1fs279j2odr680q98bjls.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3150VI708IIAPV1085DU2NVM06PF80OV NS
 3150vi708iiapv1085du2nvm06pf80ov.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607072033 20170508072737 34134 sn. Sv3LhIRszOg0JeSW10URSFPxATSmhN00ecOrmGWI1FmxGsn0cfW/bpM3 izholVkLiqFFQHqY8Ed6mIobvPnaRoLQEDW9weQu5INeR2mXZsiSiC8w b/TA13YjgQl0vhnCfImZSH2KteJg2IEdOk6TQ8BB9kehN+Gw2kD7vwdH Fps=
 3150vi708iiapv1085du2nvm06pf80ov.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 315SUFSLR4D1J7H6463C41JUC7BO4OP4 NS
-315sufslr4d1j7h6463c41juc7bo4op4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607121127 20170508072737 34134 sn. nLtQeUycOszj6HnJSbGguAIrMry0BVbBXvid7saETE/1AgIFIThexl6L G9gH0+QNnjIPVMoDaMGaefiAMcoZ9cxEP1bQgM84YkNdCer7K0Ph/052 TmQ9CU0g0kWdR7hjb+ae6p5qOFfOB4+jhzNr+trnmZxDgqAzurYUoPZZ wlY=
-315sufslr4d1j7h6463c41juc7bo4op4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 316RSAQI4HLF5Q7N9QGE6HEIEDJJHPK7 NS
-316rsaqi4hlf5q7n9qge6heiedjjhpk7.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607081130 20170508072737 34134 sn. lfzMFd6tSgTO+BeH5Bk6whFC7s0RtoYQidFrN1E+JRbNpxwgZCNJc7Pn WGPVPqtKSNAVUYffF6d19ntVRHbgB9XqRSS7UO3MvIo5xboRresR8AqZ J2fEVAoaQDoDnmwczu1LQ/8jCRfh62ptZgDuy9et56LgYodoGsRGe4Ae mKU=
-316rsaqi4hlf5q7n9qge6heiedjjhpk7.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 31BLA9VJRULQJEFND61GJTJ7EEHCSD3G NS
+315sufslr4d1j7h6463c41juc7bo4op4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608223741 20170509090501 34134 sn. VWt6jWQpr/IGHictq6SrK0V6DKk21Ku/lhEJsOGXQ5nX+bRPVrm9RLyr PtihQI98HHxh+M42Mp4kmw5S2uB3bDheLx0J0pyX9gtFYEz9HJPvTtA1 gZAL9s/+syhLRGK6skp03GHaXQVJbO4vvVujILwqZ5FLnMzqNAn6YaRg zEc=
+315sufslr4d1j7h6463c41juc7bo4op4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 31BLA9VJRULQJEFND61GJTJ7EEHCSD3G NS
 31bla9vjrulqjefnd61gjtj7eehcsd3g.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606215320 20170508072737 34134 sn. owZPsvHLfob+KJRPc9m1K44ucktCTtw0wm7a0ZsDjGuPctTkBG0zNVQT faSfiCCUutLy32LkyL7wxK9waFKEZ9MCCsIxAAU2CT0PwW6gnDd8IGvM ZRTu0Zsl3VZcnUQE04c/hRJ5ehpW76n8mOTgEibsLJGZBp9YYC4dM22m DlY=
 31bla9vjrulqjefnd61gjtj7eehcsd3g.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 31G3JOCI0B88BL9H210DD4M4A1OBQJOC NS
 31g3joci0b88bl9h210dd4m4a1obqjoc.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607160338 20170508072737 34134 sn. jCcCG6aW1VKOph8jeDcijoHeEnRuVqEC9tfDVRYilNExdQlxM4hOZkb2 IK9/w75xA34C3kTbv5bI7V4J42hEcvlSPSLlEUTvnfd619jt8fJumcF1 Cy89Y5LRVWq5HehXLi1SQeM2XRrxCBlW9pHHJRXNwVayuQ6tAIam9ite IQo=
@@ -10904,10 +10801,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 3af5rjar0ta23stbh3ojnmokahkrlhr4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3ALGOS214ITF2VP9KCCFDCL818R9ASL8 NS
 3algos214itf2vp9kccfdcl818r9asl8.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607060921 20170508072737 34134 sn. dFrQiCdMDrsfmXqH8K45ZVbmdlJ8KSRMtZx1GjyJ/67G7tgDAGT1GtsH ojFvRYwd6vKRQzcPdOwW72YRW2rwbJJ6IUsA7WOCWu8Xa9DKKUgOo/sd L4XQeaPNZoFoAtZ4KMfS5pco6ePNo3UiGlY/zI8DIrfRcMi0XzGMwdqp vTg=
 3algos214itf2vp9kccfdcl818r9asl8.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3AQVOERHGO409KCFRED11MFN40VUQ1PC NS
-3aqvoerhgo409kcfred11mfn40vuq1pc.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607011116 20170508072737 34134 sn. Q6izJ5n4Zg0cO4mgfVz8h/skpvyE0lBmh2gjy+dib04sjBvd4I8SDWVE dBlaGVGCp1VNtxQtjwEvNPrYJXQf6LPdnH9YFRhgu6SMQSxG6yCcuwTh xHxJgnEYS8DLPetlIdTAJRh1X0HUVzSAwamuradfP7yCVaxmsEHSUqer iII=
-3aqvoerhgo409kcfred11mfn40vuq1pc.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3B2C286GOOETNMC2GIOIPLNC27VQ402L NS
-3b2c286gooetnmc2gioiplnc27vq402l.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607155121 20170508072737 34134 sn. EbTTXVLsLaI/whJENX7TN+pyKb/BzHsTWWb3PtxBNQnKV4E3nqGWszZ7 FywYKjKXBt4x5xf4GDOSImf8lqzEBpAdflGw3ntfDY22JeamlVY+sZUu pLWLRayBFFDptgfR05U+KJU23hAISIPOYMhRM8ZnWDc4jhz7i6aUvQqj z4Q=
-3b2c286gooetnmc2gioiplnc27vq402l.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3B51H1UR7E9ID6DLBOCA6MJCVEJEEUIP NS
+3aqvoerhgo409kcfred11mfn40vuq1pc.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608041926 20170509090501 34134 sn. mFxajAiwd6F+7alxh43Pq/MRyGofSYdMcnWbWuCk/U55n1MPP/zMqECh Wjtt2JvfQMUnJwIeyEoMSfEPftKpf0CoSLkuTvIymS9V1OQiJMOAIqFh gwIashvF1sELlpi0JsiZYxZxlhT/ydppjYJ0eKyXlJs8E+OvuUN+rCaz G0w=
+3aqvoerhgo409kcfred11mfn40vuq1pc.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3B51H1UR7E9ID6DLBOCA6MJCVEJEEUIP NS
 3b51h1ur7e9id6dlboca6mjcvejeeuip.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607165430 20170508072737 34134 sn. DMv+cm61vHYlV3oiUVjCA8M8HGn0ZrlX17XAAkqtP/J8RgxvpyoTapah kruStbpi/T9S7WYjbCI5x6g6CCUjgWj+y3mhdrhChCOrjGTMtDibX/SS c25QhrQ6WUDLbVeE6S+Dw3Ssf/u0o4eqoOldzcKHu4Jj60XVnaYeMvQ+ yfs=
 3b51h1ur7e9id6dlboca6mjcvejeeuip.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3BSAP4RTJQCMS5KRC52L1TIJH25UTS54 NS
 3bsap4rtjqcms5krc52l1tijh25uts54.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606185847 20170508072737 34134 sn. XBY1CJAo1K5JN8OzYwzZTsiGUP83w3dlor9Z3XN/k+1Nb/Kc/Sa1GfRY PzJn0r0aVMkkiaKrIVIosr5XFphTeTp20PE7b/lNEjQ2JaNQTcLtMBye +bfLVnlv/WIO6XQ2gINikc69+pC1kUQzU9Uhof3Nh002O82pj8qyWEvl nZA=
@@ -10978,10 +10873,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 3j0il65jepabsqpc173n73iffiijrtgd.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3J1FLJBKT7QLBOC0RM5IHL15L5043KJL NS
 3j1fljbkt7qlboc0rm5ihl15l5043kjl.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607114425 20170508072737 34134 sn. TPAYCIil5gxqwUqRkwIKEzp4IDEiKvOvHKlokHMuAhxo8xJ0z0kL4oLZ vUZOWTW8UGxYzVp76XeKSpj/D2OsiCZUlVHP3idyy3LlSW9AF7VLpUiL sCUYIyZyJZ5tNn/p7BVwHZV4vcP6YHIz9xEWY/9nhQV/dzBPhh1zXwqB i3Y=
 3j1fljbkt7qlboc0rm5ihl15l5043kjl.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3JBRN1T2DR3RRMUO7SUG1LVATSD7HEP1 NS
-3jbrn1t2dr3rrmuo7sug1lvatsd7hep1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607204429 20170508072737 34134 sn. PZGzX0QHeXGnXNX8Cdh8YnCW2OVJWg8Wy4G0Vop1xpAKZqqHisB3uEdE BBFQuKhSBHKFy+3P5nIdnGFwa0sdEqs580ZjbaDtJN+DOR4WljjLc+L0 GSePQPCa5cHo/4JpNxPC+9ciRajhicTwvMCCEZMl9SGiAcwwwd7Zqmja tII=
-3jbrn1t2dr3rrmuo7sug1lvatsd7hep1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3JO16ISHMK4IV43M3EB0RCEECISNJ973 NS
-3jo16ishmk4iv43m3eb0rceecisnj973.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607183633 20170508072737 34134 sn. MCQ9FMyNFRRtHTnH8JtBZh5x3HRvzXUNZ0ittTMeHEnw5pwR3m/Te8ux aXzlblv3IlkuHkNx2R53UQTXp5z0/B9eM35Xz25TM3CJGhIWONQX0Bkq 2PfoUi3Q9ZwHHXueCDtw/iod/BWfcn8/bym0+bVTLHByuxLGCiH1YGJR i0A=
-3jo16ishmk4iv43m3eb0rceecisnj973.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3JS4EQLFST0QQB44G0L47D9NTPIFS8GH NS
+3jbrn1t2dr3rrmuo7sug1lvatsd7hep1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608203322 20170509090501 34134 sn. J/GYj3t5OX8qRb29NmqJZzHWq5ca6xFuNkGP8xSmH/X3ABFkqdAwZQx/ EPjdwYNZ+G6sdHUg7lOdoPdjHAerhuU7JYDl417wFju3AlXdvQjWRsEm HQs2U4AcJEeEDuCLP4Id8OGqwrCKO4bnZASfZ3Lpqbg2KVZtzZcLo64I JTk=
+3jbrn1t2dr3rrmuo7sug1lvatsd7hep1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3JS4EQLFST0QQB44G0L47D9NTPIFS8GH NS
 3js4eqlfst0qqb44g0l47d9ntpifs8gh.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607140342 20170508072737 34134 sn. Cf0toneXJ0uh/0ggvPAtIYpPVsNNNBXQmQwflP11i+mALxiKwaDEunmu yxREj8mlld8+tuiBJB+teZGA7S0JcY1AHx0NnS8qeZ9NzPWqq4d5nkhN bxHpe8czmYgHc8FWmAnRkXtEWsTiezkV3T+l+cBeuPDG5bKbEsY6AhqK 6+c=
 3js4eqlfst0qqb44g0l47d9ntpifs8gh.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3KCLUVIN3JKCHF57BL18OUQDTD16LJQT NS
 3kcluvin3jkchf57bl18ouqdtd16ljqt.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607072308 20170508072737 34134 sn. D2k3LPdYxSr9o1fw3disBgWSiqiIzkXHozt5YduR7sdURJj/A5QEsn8O /0WP1zZv3ns6/fpmixM6OI1j1cT1CWlOsQq2DVbO+TWS3MLmynZOMy7l reX9jCx4ndyuqfi01YncV9/zasM7x6jPtFaKmh0z2gFmEUKfN9VRwhJ2 KZo=
@@ -11080,10 +10973,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 3v21k52a0074m0eg9dvlvjh33fjnapt1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3V5DA7EUHTFFCE74CB8TKB21OR253TH5 NS
 3v5da7euhtffce74cb8tkb21or253th5.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607124541 20170508072737 34134 sn. Kae8grXe52vlr1IL0BpSW1Grpq+rHszzwcxUhLDB++xZ/czYhtpbqTa+ KwKoDfk2QDAxyPID781FzuIW3MEYl4vFHgcMSFzdC9U8fxKdZt01u8gB K66dVbYYATvdYMbyZJMPaYfsy8A6Gmmmv4eupuuUB3d9muFff0gcb20V XzY=
 3v5da7euhtffce74cb8tkb21or253th5.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3V68P2U46QME8MOE8AH9RH7LRDTTBANF NS
-3v68p2u46qme8moe8ah9rh7lrdttbanf.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606213600 20170508072737 34134 sn. OC2ujsRr+bD7x1LWwh7GhuhNFx2ykV61scepCFleUPOQSTIiTLTmQ8jz lh0jaB+h1KsftfG341NfMwGG/4t9f+h4uvsZscNHekhFXKhkBb6iAMg0 4LQ26VNqOcbOirQjeYzS1x3VUG52OAE025klCagySXgI/UFtadt2HfA7 kj0=
-3v68p2u46qme8moe8ah9rh7lrdttbanf.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3V6CMEP0PQV3EO324QPJ8NGCQGIUAP0F NS
-3v6cmep0pqv3eo324qpj8ngcqgiuap0f.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607000151 20170508072737 34134 sn. fmELwVoT1BWUoU0WuKOAPKIFOqDo0JT5bFV7cyw58SyaU1uQhWsG2Tat iY+ajklvKQH+u+mcl+VQED1Zd/1lloetZN2edCm2pSCPOZ56YQmqg2K/ 4YJQlS4OYRImHN3HmEhiPwuHHKDeXD6jZQhWYIfSr4JftQkxfX8BW0U4 CBQ=
-3v6cmep0pqv3eo324qpj8ngcqgiuap0f.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3VDTJ2H0BFO4A61V8Q1GSUAOTEE4QFTR NS
+3v68p2u46qme8moe8ah9rh7lrdttbanf.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607210330 20170509090501 34134 sn. gqKVjZ6TtYjxcloLbdZmd3zZJd8O3R5GonhgVW0pvNMAPc9AKj1abEjj wAbfHCrREJanATq0ooY3kU1VrG58BH8rYU4BMD6q1v2wvWk+1BaBSzpl /NP+z5EYkoklR6EXnEZeKaLbplVX9GqxFYxQ+ES+L+FNdN3IsobenRj/ Uwg=
+3v68p2u46qme8moe8ah9rh7lrdttbanf.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 3VDTJ2H0BFO4A61V8Q1GSUAOTEE4QFTR NS
 3vdtj2h0bfo4a61v8q1gsuaotee4qftr.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607041646 20170508072737 34134 sn. aZREQepilh6ga48RcLdsryuwK56IzjnoKLaxDuQQRHnZpBJW2nGdNdk+ 6ddK2DQ5V6Ot3EwBH5/fL41DD/z2GbI1bPysD03Pto1WCjklmWT7Exnl /VKginLiakgIAvJOhijWQWV3Um2eEJrgpH83VdU9/0c5HPuEeaFFIU17 taE=
 3vdtj2h0bfo4a61v8q1gsuaotee4qftr.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 404IRQRFL3R5AIROHH81I5J6PH11DRMI NS
 404irqrfl3r5airohh81i5j6ph11drmi.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607213229 20170508072737 34134 sn. Abq0xjaeglqCd/GOOFKFYsRD4tjqw1cD4DWIktvUHVzKwpMO7D7/kqb2 QKK2wX23cBJ9kkC7mFtYtvtw5dFqtV6LkN8TqVKlkN4t18Jkd3UDNLNv cpeb96cH3x/UknPrSgUooPGNo+qZ3UttAEVPmbR1HZIZhfyWDrTaE1Yr Tx8=
@@ -11124,10 +11015,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 45je8jp2iocep689820fjtb1uurdhc5a.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 466Q3QGUA2E03JLINS1EHFNK991TJ2KM NS
 466q3qgua2e03jlins1ehfnk991tj2km.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606180236 20170508072737 34134 sn. g6hzlxETEdXPoU4w6i6IZyNVuJNJ/qBJhXOIN8xI1iqgl0mspnjHJjO0 JTfUh8GpC1DPsRKr/wR5KlzqR0xggCPHZq99bx5P/DOH0RUIu3eKBm+y NithQe/hjziwQWU2e9agbEVRL/vKNtwh13X+mqfoyOrAli6bJH3y+mVr 968=
 466q3qgua2e03jlins1ehfnk991tj2km.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 46BOOL48EHLUIHMNVO4NS47IACCEBNBB NS
-46bool48ehluihmnvo4ns47iaccebnbb.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607141850 20170508072737 34134 sn. SbGQYtx7HWLwy67MolxAg8QDwg6StwKpUT2Sof+37NBLlvbzOktEHzaU +98BxFiuYtGfMqm9/5nibFwh7NAIbeLxiQSPnPnI6eEXRh0ZzmNuqMdv c1PO9gZIY4ZN8EN9Votmz1MUgkduS1Q7D+1sRdz/FyxkV4u3Dfqa0tt4 CyI=
-46bool48ehluihmnvo4ns47iaccebnbb.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 46DI01EEGNFOPPDRGRF9QCC78MN6UQ38 NS
-46di01eegnfoppdrgrf9qcc78mn6uq38.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607075707 20170508072737 34134 sn. jLt1I56vmD9ENCjKtUwjmnkKLkiI0jZhmkYkD0kmZ4jMX4xTDyqtqtOj nnzEVn356jFqmf0xXCp9JPQ/bdOX8hbAoqcKS7RX6zifu8W154ny7E6n bGfQJnrgw2vlvrnvBwIDaHb4uh0xiuNU3DYuVoobDTJEtWYgTJrwJofo ttM=
-46di01eegnfoppdrgrf9qcc78mn6uq38.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 46LFV0I9KQFOFND2IA21AJ9008BGJVA5 NS
+46bool48ehluihmnvo4ns47iaccebnbb.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608205021 20170509090501 34134 sn. HkX3MZb4htB1StiZvl4hEhWECtTMsn3lU/yTv6Pjrp0JzXh8Wdgchbfu kzuth0MiIAghaEgByIgTuPdXzTCKD3p+MnCljjsBUfCmnHAph3JtthNJ nkXgCKVf4mEtYLqXcEleRNsaQ6AC1t5iOWfesuof4ys74qQOdGgerMwc G2w=
+46bool48ehluihmnvo4ns47iaccebnbb.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 46LFV0I9KQFOFND2IA21AJ9008BGJVA5 NS
 46lfv0i9kqfofnd2ia21aj9008bgjva5.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607191132 20170508072737 34134 sn. c9tTkXXU5Vy/OoF6RPpZxI55EXrOd6qfdittSTd/yA4M0hP8wnlR4YGn k2/iYR/z8cWXaLgBNsm9E60McbGeAJTYPrGI4R+e6t6jbjjCgocnuccM VN9i6VNSkSnxB5QspJni2Md+eXcsMbGdKZ/lbeNvDRZYPg9Pybe5hGJx PIg=
 46lfv0i9kqfofnd2ia21aj9008bgjva5.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 46MEA3ES4PSM3GU3B3GJOQQQMN6MQJLN NS
 46mea3es4psm3gu3b3gjoqqqmn6mqjln.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607172835 20170508072737 34134 sn. XhBaU29hZ2J9ZTvMfgPrXss2JmIosfmaRNmGnZVrBCZPaJVBtFlX7jxK 3kK0kCi/6WCSI7aZrZc3SM9V3cSvyqEXnPo/cD5mQjb0eE6xvO8LW+LY rmPt7Xh4P/1CA76tKpiYa1dU3NdTE97oj/7WY3UqFQdsHveTXEeCm+wT ugY=
@@ -11204,10 +11093,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 4dtcclr7o7u5cqjc10c7bv1gku7qn8d2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 4EHEM6JVH8KDLL644LIEOEMMOEK66HOH NS
 4ehem6jvh8kdll644lieoemmoek66hoh.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606181657 20170508072737 34134 sn. Rcy+G3e6GIP1UqR+N+Hh+Pfi8MRrt3FrXCERlH4Nc1abv3U98v8uB7cW 8m3/yqcuLa3PIysC5aKrRU/b5G7stBmdb6nx8Kfls0zrRM3NwnHxYdns zkHsoI0awO9QOo08HLQGCG7ow/1y+ADnyeak9s8iB38ymgY6eUrNi0j1 CVs=
 4ehem6jvh8kdll644lieoemmoek66hoh.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 4ER0A0KK2J4S24HTAQ93UBMU501FTQ6S NS
-4er0a0kk2j4s24htaq93ubmu501ftq6s.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607212527 20170508072737 34134 sn. SD1oXWdHOmR2/USUxuImDwFkZnwIagK4VtHPbZHW1IM5JZVX9esv9N52 lQDJMx/9aDUFXDAfFoZxgluhXsZlviNLwWIf9FqxvtPv9EYa2ZtP8XZt c0+Br8FUO8Uf0LUff4EO6aQ0+6XfNipoWfOmEakj8TxbZPiz1nuzHeAm BVE=
-4er0a0kk2j4s24htaq93ubmu501ftq6s.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 4ERSKN2ICK6J6V1GV5MROGC13PNKI2ST NS
-4erskn2ick6j6v1gv5mrogc13pnki2st.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606231024 20170508072737 34134 sn. kSNPx5inUrfpFt6gSzTk7nTxj6FnwMePqtNkpMFLZ6HepfqkWnO/EiOA NwUeqiLRK/NkZNbpQDhj6p4cfz2BtVCKNSe0GXttxk9fEsvmKw6kKp44 pnI2eKwIikGHkwf60iLdZnmi5lDCJZtMyPWn+5+XKNlbOyZRlL73uVvS rAQ=
-4erskn2ick6j6v1gv5mrogc13pnki2st.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 4ETR5M6IMI5ET82MNQ3Q5OMF92O8MJTU NS
+4er0a0kk2j4s24htaq93ubmu501ftq6s.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607195550 20170509090501 34134 sn. FiZ7zNgRWd7X92EneUJYQ04NEzoCEFygo+pl9P/hmL6nhw/3w/6s1jTE FSfrQJ1jcIOwhQXcu+aymMWmX5aeJQq5oocI/ATnUYUnqEiXMqCNIGqF zrKNvxDZQL8UiX7Aa1ZG+LyJsKciaB1FHDJP0LfeP2ptvgrom8/DEx3z 9Ns=
+4er0a0kk2j4s24htaq93ubmu501ftq6s.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 4ETR5M6IMI5ET82MNQ3Q5OMF92O8MJTU NS
 4etr5m6imi5et82mnq3q5omf92o8mjtu.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607160639 20170508072737 34134 sn. EZkBeaBRYE7hEXM4v/nxbUlqufTjPHQ0/MuevlOn4xUEM4EaEJHn5F0w PVrxK77NgeGnox0NgJkzqG63xpmqG5u3Blwr+VNzTZMPV6eUXmQwslCr 5/B6YwIOxJrhsjYtyf6/qV6Ognk/Sk8ruQoRL5FvFoG/UvRhq6J43fZ9 OQU=
 4etr5m6imi5et82mnq3q5omf92o8mjtu.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 4F816HH4CFI8QTD5Q4KD8Q57H0PPP4LJ NS
 4f816hh4cfi8qtd5q4kd8q57h0ppp4lj.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607030757 20170508072737 34134 sn. kSTV98xBRVv3cIIpOsenNN8SLBPKsLiyzybDjw5eWIjNX0JkkZkvD0rJ 56OhJ758ufYGaQ7aMFqXO+lk4M5N9PQFi/jc/OmbqqxwIqehw+ERhm91 uocshGBeAI8rklH3oo8p6a/LGHW17wc0Zscf+ZKqg2ltL6Hv/x4avFAL 458=
@@ -11364,10 +11251,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 56ft0a5ms0cbed7f384fib4jac2f2joc.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 56TI98KTSS9TDQGHO36IN91QUN08QTUL NS
 56ti98ktss9tdqgho36in91qun08qtul.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606203334 20170508072737 34134 sn. eGdI6YV9sLxv3423a1dN8JfdJhAEbbRmVMDeGyPPRoRRiyJxKBD3tFfC 0DmiD5Q4GdBzPVrYi/cdyyRnMSeinREAn8gidkLhkAvwFD65C45lKaNQ 2MUslvnY91MWXOwjXirOJ77dw0xPxTCFQUbflpcxEVgDCX6G9W/mHPRb kTg=
 56ti98ktss9tdqgho36in91qun08qtul.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 5768TB1D48R5205L9LTQS0PAORUR70RS NS
-5768tb1d48r5205l9ltqs0paorur70rs.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607162856 20170508072737 34134 sn. nhrciGv1g3ZeVZtNtLZ77whxfwtpebb+NN7ZOM3n8NDe0HTDHALbo2Pm ZWT6EKcVl9YOaVv71uz1rJf9ScvexixGUJBkaGLRgiUWS0xSVEW/nfq5 yPL3NHZpuN70MkOPjDOHM+ut54Q8WzQcdnLhTahG/jxI2J6sBkP6ZIIZ XcU=
-5768tb1d48r5205l9ltqs0paorur70rs.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 579G9RE6OK0JF2Q78UTASTER8OV8IHR2 NS
-579g9re6ok0jf2q78utaster8ov8ihr2.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607021749 20170508072737 34134 sn. Jk8EvUk5AILwRczrhMNkjp+gkhdKq/kzQy2UQMYtzw1+W22qF69nrMS5 NLrHVyCn9ovWATLwOJiUfAHbOHJbxkqUA/Egve67ss2wPWX9jJ2c2b7u qsn62EQv1tCiIry/0lJnUmanHZiSxWvrj3FGRqhPA+ggv7zZF9MkwhZE eNs=
-579g9re6ok0jf2q78utaster8ov8ihr2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 57HVNMCGUKR2M63M5UAKN8R9MR7QSR5J NS
+5768tb1d48r5205l9ltqs0paorur70rs.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170609001821 20170509090501 34134 sn. L5KM6fJMAd+KBv7/KF14or7nUbtWq6NIZPOTtd+byuLClQuPg8Dgh3nk Lclvg7PXzrlgg8yD8KUxORu9N8OEkHO00w8JzakzixPMMUcvqK4MGQNi X3m3bREuktYVy7t/9P0XhlNIj3Q0J40RokLh0AXSg4pXlSLiFTKIHPYu JAo=
+5768tb1d48r5205l9ltqs0paorur70rs.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 57HVNMCGUKR2M63M5UAKN8R9MR7QSR5J NS
 57hvnmcgukr2m63m5uakn8r9mr7qsr5j.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607115244 20170508072737 34134 sn. eE0Bis8qJjp5exLdJBkPlSH/cYuTbn+uj+3rLCxvpegO06q6OZQMPQKJ tx1mod0YOgr/IVldniVHCcmZxnGDY4ZjJcC5cMiWfHjShyk2ALhEpoRa 3kMN6tUnmYmbwkRhSEbVGvOzc+x5NvJ4TCl0VMjDR6H7bJUOOUma4Tsv 4cI=
 57hvnmcgukr2m63m5uakn8r9mr7qsr5j.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 57TA4NOVGUEHGBE55P4T76N6BFRP5V5U NS
 57ta4novguehgbe55p4t76n6bfrp5v5u.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606205602 20170508072737 34134 sn. LGLcwrSdSB6yGANRagIIgZ+zkQ9nz612u16fVxlR2azqvFDuEeYJozva OcHyv1tH4tfpujlbBtsMGzjZaVwt+dh6G51boLeoiL1hXWFjIZtLfG/J jZYY0kaG/1dk9aAaJECEMt/wQhVHXjWypMHsWH+KDhY0Fln4K5y1ORxf 3KI=
@@ -11544,10 +11429,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 5tghho8hs011hacdnmbqdh5skp1pjen1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 5THKT3Q9R3RFNETM6K8BR5KOHJO3BI9E NS
 5thkt3q9r3rfnetm6k8br5kohjo3bi9e.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607151100 20170508072737 34134 sn. U7KVNT7sPTYkMpGpvfsI7RVEP07f9vgqVeu0fr75yyy2iZYvKN99HjsI gMGGtU4gowGxBcwxgoNBOFImUDwTaKScTt7/JQCqe7Kk/bx2rqgnDW3m ISrPgub2BQGheN2c8DTt4hXfujYeUqZX6wZ8pbIGMFLbvtMS9oQ/FDKW gOk=
 5thkt3q9r3rfnetm6k8br5kohjo3bi9e.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 5TT9DACMFRCE68JIDCDO9BSITC1E971M NS
-5tt9dacmfrce68jidcdo9bsitc1e971m.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607204245 20170508072737 34134 sn. Sd7GOkqaF7LLf51bl8jaYwfQvXgUWj6TCsR2IqvJr5h6rcFPr/s+lifH YyKyvv0KcjiWKkQruPhv1pwAUitRECBoPZ7syt2Igzf5rirafLZPwo8+ PB55+oKi9RT3Qm+zjiyT92YKc2H3FVhldbjWvUJwcIVc3Gt1LHgMLjP6 2eE=
-5tt9dacmfrce68jidcdo9bsitc1e971m.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 5TV8JSCTTU5DLL8DP5QGU6VBIFBA1IAQ NS
-5tv8jscttu5dll8dp5qgu6vbifba1iaq.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607043113 20170508072737 34134 sn. fgJduZjS3BTvDFm6xSO5PHEYOhxAV0dV+eY76axW0/FfdNiHKbUznNZt oZKlYlxkg49cz4zalkQ2LkSy9+wN2zydjARyw+Hz17HJnqqo4zZLibcR aN03jXOncDcLO/wJA76lToJ95WvbEN2WBxJiBzNELeXFKIGBSCf0zTrN mk8=
-5tv8jscttu5dll8dp5qgu6vbifba1iaq.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 5U0D10SQB6M81NVMP9EGEGRS2Q6O66CD NS
+5tt9dacmfrce68jidcdo9bsitc1e971m.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608203148 20170509090501 34134 sn. KFCLuII9pIAeSq05p4Rf8VRsibiSrC5N+IQXjupAH901Ngg+R2u7JDHq qSuUUgQEjz+ZRwHTRFJIukjzksQD6ao+PGvjAiulTgyCGuElFt9YyubS lCL3/VipALKk5b7q43Fr8zQSNY53zHhOVKSLpyTtvDTaJKU1bB+X8H5F dT0=
+5tt9dacmfrce68jidcdo9bsitc1e971m.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 5U0D10SQB6M81NVMP9EGEGRS2Q6O66CD NS
 5u0d10sqb6m81nvmp9egegrs2q6o66cd.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606212109 20170508072737 34134 sn. bn4BDnKzNefRIUnh196QhxiqV9TGqeFDV+ZsuUrB8BfHjdGLFp8RqW3D uWHQz9+xLI0a+DrHaIpbj/q1Gh7T6ys13VnQ9IDEWjo43WkeoQStY3Yc NyHVNzEmMv9Y88sl6Pimf4EWp+O6iorwNSImbvtPTgSqOleukVGPhyQJ KEY=
 5u0d10sqb6m81nvmp9egegrs2q6o66cd.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 5U13VGSSSBKKNBTDATG9O38BEJLU8KUP NS
 5u13vgsssbkknbtdatg9o38bejlu8kup.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607161955 20170508072737 34134 sn. dv0O/BGi/QHsabObkIaQvpGM3pvyhcc5P5UsY5QMPyVBgOqRhJgG7irr pW97bxaAacMKutOMLf88SfoiTv6ax4sOicuXwffQnN4lFttQdyanyfsj toLKenIexD1Jc4B6ls+eNHGfl2Q/Y5Naqdq68oo8Xfn2CXxz4YtHr0Pm K+E=
@@ -11676,10 +11559,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 6d6o97mjqn4ni7apj2bnh7siak5kkhg2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 6D9DPUUGCPTMUFN68993E60A1HL4O5D5 NS
 6d9dpuugcptmufn68993e60a1hl4o5d5.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606190637 20170508072737 34134 sn. IlEFKDw4KF7VuGMWHnp+mtyxUpOZjVakZncBRWLTy+ouyE0Gs0srYM0k VBPZQyjsbcjGERbl3YBPy8k7SV3XOM96APR/DLZqbXeL+5GoR0GuaL4n if18TqIbzsYjUESmv4d+Gn0I7Iwkg2gXV8PCMo19kiz2I2k9a3ow/wVb jL0=
 6d9dpuugcptmufn68993e60a1hl4o5d5.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 6DP6B0TN76OCEB9G38KOFN1LA5OBHV6J NS
-6dp6b0tn76oceb9g38kofn1la5obhv6j.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607184625 20170508072737 34134 sn. IDedosh6QZADMYf+QOrWCjp/ETdgiyJcaw7ym9mXEoQqD1mYCV9AXLQN jVKoUskUy37ePRt40s+j8/u8kZBqp5W0KtcWrm89Vp2EM9Fv8lOZU0Hp lPZ6Hd6OjW3qH7B3ewfcSXWIFtGQvxgqThm5FlftAsm5QsAMJ2WwOzvv D6s=
-6dp6b0tn76oceb9g38kofn1la5obhv6j.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 6DQ6LQLEO8OORL5KGDT5M2O76GIS9GLM NS
-6dq6lqleo8oorl5kgdt5m2o76gis9glm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607134117 20170508072737 34134 sn. ThtYThwN2LrJwPHne/GCPE6g6s0a1r9sQQFM/AvkxCpM23qwMW0CQAHW l3ho2ovA5Bj8dHVGdkQfl9fl6MKQCbyc3t7HTnQlb4m5WfWRfeNw0/+d 62aHLjSqZqbp3WwprQozzPrn5690nGSocICo17K62Tr3a9jHZgA4eaEK BdM=
-6dq6lqleo8oorl5kgdt5m2o76gis9glm.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 6DRVAGMV77FB21VDECKU3CBNLE9QDL7U NS
+6dp6b0tn76oceb9g38kofn1la5obhv6j.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608142043 20170509090501 34134 sn. T/i+fFffmCaRk536XsVh1/WIE3QkTVFFgcmpUYOheQhqOZFHZBhTIkFz 3Ll0XhbIWt/fgvvYolpqt7b0nKvFo9apUoCLI5OT/aqKPJN5s1nVqGgH Ej/Ev7Ar5R/S3wFAv7IXjXhrXidngDnL56gErMsKwshiz7zOg+nX3Yso bm0=
+6dp6b0tn76oceb9g38kofn1la5obhv6j.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 6DRVAGMV77FB21VDECKU3CBNLE9QDL7U NS
 6drvagmv77fb21vdecku3cbnle9qdl7u.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606175641 20170508072737 34134 sn. TaJH5cWcfoRm8v8Tfs+FNezxHONUBhu+R5K2LLnxDJDBigrfrNnIN7RB vY10kQjUrKhaA6iUYcOa8pfA2xaz80YdcCh0y6Q8wHzUbIL4Fwmh36oj JF37FM4lgW29Ypoq4+rLKR6fHvfYOOFFZyHVZ2n4yFAWwGS9hs9uar71 T3E=
 6drvagmv77fb21vdecku3cbnle9qdl7u.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 6E1N0M3IO92941FLIOR0TS6U2F0STKGM NS
 6e1n0m3io92941flior0ts6u2f0stkgm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606181733 20170508072737 34134 sn. iB5kMfR2B2O2oyHyqeVNruS992seMcIQDTdudNImszyIqGBc9vUnDDAw iOvfdlaVRmXsKxmuYwNE8c5PGpMaxVu31FmLbUozikoPYQ2p/pDg8f1J Rof/LAkpcB3WOsXxm39F+QWSpmITRvkcRRxYeNtlHRRaymQt5K+Ev2mC wP8=
@@ -11820,10 +11701,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 710cjitd1375fr74nik8lcq9p4rrrp7c.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 712MN4VOTHQE3DBP35DMLTRSF6ILLSNN NS
 712mn4vothqe3dbp35dmltrsf6illsnn.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606200304 20170508072737 34134 sn. YROTsBBq2fGmbHzG0lhaqc5GD+aRZKBBiPF8s47vF/kkWABIT7cPeG05 CcHz0q8IF4RRZAFY4NwsiYsZP/TpeKgFrliTliB7jFjL0S32Ujx2WUZW kq3vKRZ7UnWXDKLtQ8MDU3h1EVNc6DSCNseAJdIEMpwMAQ0xMvXZKSVR lAQ=
 712mn4vothqe3dbp35dmltrsf6illsnn.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 71BINACOHI8KNHI2I3MAKSI4BH5NTV5R NS
-71binacohi8knhi2i3maksi4bh5ntv5r.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607153452 20170508072737 34134 sn. TC62Shx1kBmP0rw/W7t0fZDkg6SF8jI+VEVfp5vMbfp7o0EwZOGPxJQj Cphq2EdICbytp0fd356+k7VhwCuZLUZCCcK5Bh2Y6BqV/lgvJCuGLJEY +ngtgRZq+ObP9mnqA7V5N78CKwj1oLE4TxGRAodIYiZyD8NdiQQryO3+ fd0=
-71binacohi8knhi2i3maksi4bh5ntv5r.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 71F5MJ6O1R8TMJU0ACJR8KCMVJ1TJJCI NS
-71f5mj6o1r8tmju0acjr8kcmvj1tjjci.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607070027 20170508072737 34134 sn. ZkonhdSdCLvil0snDpWKyGX0ogvQJBgf+mpUrewwz8384scEVqcwUct2 k5gEbrsNw199fyOagpFlGhOWEYDLsXqPdcb5zYXZjR2VDie34jFrg86a EMfojDInRdLcycs0VIwvXLLBrnqGSbPEnP9bLVdWtu/4S06ra10Lcmcx ftI=
-71f5mj6o1r8tmju0acjr8kcmvj1tjjci.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 71KMUA23HE96G31AVT2PGCBBJ6ECIUVL NS
+71binacohi8knhi2i3maksi4bh5ntv5r.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608202216 20170509090501 34134 sn. G3HigxiPq5WwCgoeuM8brBv8o3pGxZawk635gxuH+zPgtKZCbjBI8n4x s9xnxYurZSCCzb7usdknhkZRbTPKkqpf6eoDnStNQp7NRkfaEZp5cCWx XmC3AfvyG6tx27WP8VJ3NXc1ol5teJ6eUIF0xNr4Z77LUpiAbl6KUGIX 2IQ=
+71binacohi8knhi2i3maksi4bh5ntv5r.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 71KMUA23HE96G31AVT2PGCBBJ6ECIUVL NS
 71kmua23he96g31avt2pgcbbj6eciuvl.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607042953 20170508072737 34134 sn. LS4Ykd71vJPkIBGieywgLhofYpxFEnEL0CM5XMPsSJdweQjL5CU5gb3i 35QIVXnsiavztNckXfOOEaZXdWWjd/9IXJAiD9y4MYXKgb7LtD1BFQgD 9pahqtDMo7kP2wHC51rPXo3V5mMZF1dhIWZzOU3Ln5hvEQBImmEAhi2S msw=
 71kmua23he96g31avt2pgcbbj6eciuvl.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 71LUP972JK771BOL4MDO19M5J3H7EDVC NS
 71lup972jk771bol4mdo19m5j3h7edvc.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607131852 20170508072737 34134 sn. FHb+KC8dHyjPOHDw8luxMX+sYzrbXIXgpXs+PAreZXBsvO0qkOMWoz1+ hriTRLmzAw9/1b5CUZciv1AQEL4PjFwSiM0Soxc/unxUVW9My22v+a96 CWXs8kJ5hq6NNm7zupRji6KprGLX0vQvtpIqRHSrOImZqt5bwy2mci8y u90=
@@ -12060,10 +11939,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 7tddej124gqvqi9db814d1vfe0rhllpl.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 7TV4Q69LKAB5LB465MGEQJA49KIBM97F NS
 7tv4q69lkab5lb465mgeqja49kibm97f.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607171110 20170508072737 34134 sn. ErQpoVWipsFVTQxNWJNX7CbSljJ2gP/Ny7yXYUmITuQrq5F5XV6HE43Y BG/L7gz3bf6IYBQEVOJJ3pmC/Jg9PYwMggrf7iNlnXKaK6QfiUID0lUb +R1TpniAzr03/LEdZINh7A/bWLZycWQXNSZ8+/NNewp+d902oxDPYiIn huE=
 7tv4q69lkab5lb465mgeqja49kibm97f.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 7U9DIO9RCD2P25DJ4FTS42LF979H8KOS NS
-7u9dio9rcd2p25dj4fts42lf979h8kos.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607210523 20170508072737 34134 sn. UQK2+jtFo8JzsCdCiRYCvmO6b7kfjjpSzds20SieYUC/51yEbsBQcePx erQV3xeXiFuvoyJVtZ9ttwaoCagxx6o2urCYCfJ5d5B+01JsFNtTaC4t kDGLA7WVhUiNKQ5A1T9Pad/+nBQbOBWo1W8fOMDaEMwatM2kkhNzEjDL C6U=
-7u9dio9rcd2p25dj4fts42lf979h8kos.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 7UC8H5F01H7IAVEL6PRJA500PV9A7NUB NS
-7uc8h5f01h7iavel6prja500pv9a7nub.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607014104 20170508072737 34134 sn. o+YMXyUoZNHnRc39xgGCKZZEp8tFwSTVaEmjVg6V6qndp5LI+yzFMmZO AbOrO1OiS0GEflW8nqsWItm9VhCiEiLngbjcLgWlotk7Xxps32y4oDHS 2TuBUrsjU8OZDi/t0ZlsQClMwXSWzBEnue4O3lugvxRIMY9YSJ51PfhS xGE=
-7uc8h5f01h7iavel6prja500pv9a7nub.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 7VS4I6UKO6B4H9Q6HK9H7KQE1AQCIVI4 NS
+7u9dio9rcd2p25dj4fts42lf979h8kos.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608005717 20170509090501 34134 sn. QJVnED+oLgFf7bUhUVkopOV9Dk+XyX7AN+bSs2mmtdwIqpBO/8ncznT0 QNfbQHMVGKl15uf5GWIG8xSDmk1hMRr0bfFm9jrt9U+JIBf9edl9Prno 0gFnUXJoOTjYeukT4wlATsgUbv3LTI96vTVDgvU3G0FKvP+N/38cD97p KlY=
+7u9dio9rcd2p25dj4fts42lf979h8kos.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 7VS4I6UKO6B4H9Q6HK9H7KQE1AQCIVI4 NS
 7vs4i6uko6b4h9q6hk9h7kqe1aqcivi4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606174703 20170508072737 34134 sn. RBodyYbUsQpF24h7vcpicl8WcF7geY0P5Yib2GL7YH59CZVX+lMxJ7IZ G94TwNzCctBseoxBNyCs1krUQ9x9Neb/7/+1d7I7RIIlkwQUN37Rr1Wu 5AAYjNFXP50CotbRHPV7MLxBWG8rSIySjpbDEySnc4MFTq9EycS1o8bQ j0o=
 7vs4i6uko6b4h9q6hk9h7kqe1aqcivi4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 803KMDEBB4GT2URRQONS9OSGB55C8EID NS
 803kmdebb4gt2urrqons9osgb55c8eid.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607210612 20170508072737 34134 sn. UqmoOZ5DucO2QfbkqqR2x3Vpd8aCOj/YIhaGnmOETdciaazUKMYVOm2U l+JUIVIIAr+NmrjHQgQPqMai4EPQ0KUAZHaDAnl7j02AGM/9058sM9Ro BaYhaFzzdyRnSazmbQcF0sr+3t3l7hklxvtNAzHO9GLzU3nkgJynK/03 KmA=
@@ -12196,10 +12073,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 8eushakgt5d6huqkp7v8ngr9q6ng3q95.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8F1GC96PDJEF9JKPVUIAELRU8AU9G6PE NS
 8f1gc96pdjef9jkpvuiaelru8au9g6pe.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607042725 20170508072737 34134 sn. DAQPwUUm+5cqg5oXnSPJxfAlxej0aKO+Ut1kABscczq3n/VxxL1S66Np GxWS7sIK+itPj4sFh7YClcbh6irI9XshWHbPIjp6AHEWDFSoLr6PBmCx BHof6D/bcSXjybjsiQPPB5Mx5JA9qEvvt3hVlemSN6ignwDgzDNN4Odg usc=
 8f1gc96pdjef9jkpvuiaelru8au9g6pe.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8FL0NFMHI5A99PS03MSL23COU4L8D7DQ NS
-8fl0nfmhi5a99ps03msl23cou4l8d7dq.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606193956 20170508072737 34134 sn. UYh4TW/0cSXEIyvTMuw5+EZeGW5NZfCjhlsiSJFkei3b/m4J2vmHC3M1 gD1vt157jMI0U2u1ueavrKjy1AnI4IxyytvMpt19XYMls1oT8UDNaIMe WkUu+Xt6H3bI76FC5dlYeY/4KeC1YTG8vdIRYTGWL60TdE9F0NRAUEYL 9Qo=
-8fl0nfmhi5a99ps03msl23cou4l8d7dq.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8FT3AL9OIRI08JQ4L4KES9AG1VURJSPC NS
-8ft3al9oiri08jq4l4kes9ag1vurjspc.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607103108 20170508072737 34134 sn. G6XBp0Lf1D6GJaCsn4jIV14347uAvhEZk2qnW1quf2OIr7ODE/MWQrJ6 WaxtaeddQ5VMXY1idgPNXSH2tZS9IIaQbQLkaldRiFooFPju212UTpfD QACnTI+6eqLNaiAk2VXqFWbsscn2Pwfr12N8O6pE6vu3a4J+msZqWmaa RcA=
-8ft3al9oiri08jq4l4kes9ag1vurjspc.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8GGTMGGG4796SGUMUC372EMPEIEDUN82 NS
+8fl0nfmhi5a99ps03msl23cou4l8d7dq.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608044853 20170509090501 34134 sn. njYay6hMSd+UnZQxCaXrs9jMlSk83NZxWl+FcfN+leJhxzE4LwHBBHlu kJkMmznp/pQS6Sb/sQV3DYJA2iasxXe4aAnnTfTEkwiwubPaIL9pPwso pwAkZHZ1tpF5DM/0EQVIoqbO/RAmVuY2P0YjjwqfKqtES4aO++Xoxu+v cUU=
+8fl0nfmhi5a99ps03msl23cou4l8d7dq.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8GGTMGGG4796SGUMUC372EMPEIEDUN82 NS
 8ggtmggg4796sgumuc372empeiedun82.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607014933 20170508072737 34134 sn. fagh24LTQUGsNOcJCkBtWAQHLSa4GWMTuVHWrIuF0Yw3NiFBpzwKRhQ1 iF8aYY/1RntJbr+L63GHBFeHEokhKzybPf7BoFoci0M3kPhYX6OKRC4l oB4NbwBHhMui1aMKNnw3VJo9riWaZMwy6bOkSFconOpJylOEllHpt6hZ ZlQ=
 8ggtmggg4796sgumuc372empeiedun82.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8GK11R5TRBVO69O6E0QP52GFTDI5GNEV NS
 8gk11r5trbvo69o6e0qp52gftdi5gnev.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607153642 20170508072737 34134 sn. jmeZzfvGVC4WHw38nyo4nDUuDCUxLpDFArcwDc62XiSWH9IQL9jo3F8P 5M+2UzgZAWmkOfp+l34HRyOefcE1V1mmPk2M0YZVbGqUMZ8x6gCM+x+Y oU76F8Y8LDMQnoNvpkCIRZmWy4eJsSkJG8rTnUzootR2f8XH+AfVCP+8 Sew=
@@ -12256,10 +12131,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 8ls56dm9kbbs64m7d4vilbgnhmebc8ig.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8LV60MUK96AU4KOG5DKRNLN766M8L8IJ NS
 8lv60muk96au4kog5dkrnln766m8l8ij.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607224631 20170508072737 34134 sn. H9LSOX9Qv9ROXvhL3PVQQU2NPaojKmMVMPPg/fQINRTWxKZj79KUuAOG ZZkR0GVAu582dDf8/gx0gPILExQno44r5NKmMxm1kbuXidj7shXIHkQn A/k89kdxGgMQPWqYV0ZTRBZMUgqSvOF0SFeTXB+yZzETXqg2bw4XRc5Z 9tc=
 8lv60muk96au4kog5dkrnln766m8l8ij.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8MGUFLM05U86O1HV9MQ018EKI31C92QM NS
-8mguflm05u86o1hv9mq018eki31c92qm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607134113 20170508072737 34134 sn. SEXaG9jqqegPNkN5DnhZQIznDE0pq5ZKWXbBOnqTBS0fFaMQ+f2XbY5K 2/oo5tfS+7dz8YIbD2EsxABPgQv0VsqvkmUC8Y5f0sZeDpcyJikb+JRI Dm7Q9h919Kes9gdpLYx2p4iD0UJLInHPAABM4su1V/V7oJgKFMe/XuvX ku4=
-8mguflm05u86o1hv9mq018eki31c92qm.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8MHIHDF4SKIJHEGILGGP93TU8GDEHH5K NS
-8mhihdf4skijhegilggp93tu8gdehh5k.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607140913 20170508072737 34134 sn. aMVgoPR7uRSgapsCvMnEbWDuHYFYIwMFAyw1jZcx+uECh1IIX5GYh54V h5WrgXh6ZxhmoDfGtXveqjTiiKEpg1GwBKpX3PrwmR7dDLCQi107IJq+ N4UJ7axfdTjL9a2t8PL7jLYDCj6fknSaa4hHcFHV+34X6hu7y+Zwqk0a cWA=
-8mhihdf4skijhegilggp93tu8gdehh5k.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8MSD57NOEML5NB3IT4SERLR9L2OAV51F NS
+8mguflm05u86o1hv9mq018eki31c92qm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608033446 20170509090501 34134 sn. GkTt4Bj6p48bYsnwlPFfQvWYTfGTZ5jztPCzye1hO9c75zGu/WSBY9BJ 4f3i3XW/lWn0Y66oGs94EQBjZg/v7HUcfNDWy0c8aaKT7NJeQhyLZ5zh 1W5DV2EqXjXsKLchTYQTEUjsglSnxK+7d5ShWcLPUqJHD/hyjhwraoqF i88=
+8mguflm05u86o1hv9mq018eki31c92qm.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8MSD57NOEML5NB3IT4SERLR9L2OAV51F NS
 8msd57noeml5nb3it4serlr9l2oav51f.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607125408 20170508072737 34134 sn. ZSzKNG0XQqYIxfbbceX9/grsKZz8/EeHMSEQMGmf+SxZ0gqoHNYIT/oe TGlS//jik1V2IdeHoOcM7tQKsN7oyu0Wyfz6WOTnd9GLGpH05ogJKDPs M04VG+bK5AlmiJrCTgcfnFbR/MFnnYy9I6+ODQ47gDbVw1sEXdDh2Y5m dG4=
 8msd57noeml5nb3it4serlr9l2oav51f.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 8N76E0434TRV6A9D82PH2NDNHJF4GEAH NS
 8n76e0434trv6a9d82ph2ndnhjf4geah.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607025132 20170508072737 34134 sn. n58pSaaVprL+1RslELasAwyiEsOXOhEsPf8T6YSJnDhB78cgG6cCy5rI YJH0PXqYwIRuIRhbzr2usfMbdGsbsNTkTpNiEMQHW0P4tyqzmG5t0BM4 SZXJfS6OalEtUJX2son1c4jPCTy7EWYbUQhkGBb5jnvywNUrYnO7ssck CGI=
@@ -12494,10 +12367,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 9j487ikv7q54kbdm2o6i9uksdtkpevg9.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9JAVKMGBD4USGM4PPR654P99PTSOOHVO NS
 9javkmgbd4usgm4ppr654p99ptsoohvo.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606174623 20170508072737 34134 sn. a3OqfGU2fFK5H3tILW5DwaKDm/5ROY9N7ASlpt1BhdHy3C63kDjKBgVD YYoJyjWapcvwKIuFAqQo8r/bccIE1QdKHInXxF/IbtdenlEcAhPmaGUO SKWTflYygm16L9l197t6d+k6RqdqdxGwPsKHM/AHWOz0mhgERLBAlOvG doM=
 9javkmgbd4usgm4ppr654p99ptsoohvo.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9JH3KJVEBF00TV4H5128VQDOBIRCBGV6 NS
-9jh3kjvebf00tv4h5128vqdobircbgv6.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607010123 20170508072737 34134 sn. axcWHA/L8U9r6WCztNgwasyUaMd4asobWHaOy0bwhQVRVAzhOHLSuDlJ mC97Rx/eClGRiOp9otOZSHKGAhJ03YzYDv5SqR9qOpBVu52E0gEHiOyS vkFlypfiboT4kDUGRLMI86cIfrwNDYnWWJYR2XwyBy2xvt6kkOvtJCtE xQQ=
-9jh3kjvebf00tv4h5128vqdobircbgv6.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9JIPCPMCTBOULJ26DV3VLGANAQ7T19I4 NS
-9jipcpmctboulj26dv3vlganaq7t19i4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607152038 20170508072737 34134 sn. PSt/MK+gkf1hMzdew9G0bjN1S34/XjDc/driOtuAFYG1z8WiGIzi/Xkd lo56sg1YRD+OgDT4DQsSAzLNPhL5n2NMp/mDiI7rR0b4EHDyiiJcr8pi 40h4s/YK0OZzMUapUG6y9L9AroYisOPMcY2rIiZcHvyESbBQ0gIxpcgF 83Y=
-9jipcpmctboulj26dv3vlganaq7t19i4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9JIPSCS1AJ90C09DIA62ETUB90LB650Q NS
+9jh3kjvebf00tv4h5128vqdobircbgv6.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170609003639 20170509090501 34134 sn. TGilUqzzAsSwGtK/P6KDc4KAHuuYD4rAqTDRjFNKMoIgkHKiUJsn6TA0 Q1Xg6rSa6xq/Ncg6doYQ3A3vggFjZkCfIvgZCo41yEHG8MiVUkLAQ8hj ZoIHjUI9D5QBDql6p72+ghbArPF8MQb0xbXmPiyqgOSN438P7ytLyjnR Mlg=
+9jh3kjvebf00tv4h5128vqdobircbgv6.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9JIPSCS1AJ90C09DIA62ETUB90LB650Q NS
 9jipscs1aj90c09dia62etub90lb650q.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607103608 20170508072737 34134 sn. Zb/yTG+Poa+iBnOrhxkkdu6NJHNtqqC70pWR8eLGMwME5ij6mZcyDjxJ +9RbZqGkNRMGCNh8n60vbmz08bSqVe0TztHjjqQCLEXjITLLfmGXFdZ7 99mopbObx4XA734PV8mzRVhyXwoRBTUjoXDDNXB/WbjeuDpWN+H672TZ yCo=
 9jipscs1aj90c09dia62etub90lb650q.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9JOR0RI11T0OG3DRU5VC3AHQTC8TJ472 NS
 9jor0ri11t0og3dru5vc3ahqtc8tj472.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607091334 20170508072737 34134 sn. LpXwQsPZNW+nhIcVZ2XcN+X6xhi/qq5e+BsjlUi9ScEj+0Pw+HriqyGW GB6bH2lRGGrymO8e/r7UYWSsaM6Q0VLnQVL3TXOMokc5xHymvKrjiEWf IkodAyZp3y4rJWrK5PXyJYaVoc0qaQsYevjnkB6/ovCYm6KFEOk1kHCv qJI=
@@ -12542,10 +12413,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 9n109nh7j2a6hpn0mboclno0logi5e6p.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9N37PRVDTMBNG148JQST26BDETUFIRJR NS
 9n37prvdtmbng148jqst26bdetufirjr.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606185529 20170508072737 34134 sn. ReE4sgsLDCGMt2vu3NcCtFr/bV1ar24LKMmPNwDHaQjJf5XIuDYKsFIs 5EbcdYh8sPMcrU82QMU1wi2MmKqb1WAuMIFlMgYGNBoHxgDM0+QfqF7P YGEsTc/Z7MGUky4npx5M36BrXMWy8xTQYgi3MXAzBNoxhJp/tMNZ+ApC g5Y=
 9n37prvdtmbng148jqst26bdetufirjr.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9N49MHH4BFHJK3ULEF1QR78A6BE0N1S6 NS
-9n49mhh4bfhjk3ulef1qr78a6be0n1s6.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607052311 20170508072737 34134 sn. hazd4A7T2k7VM9IC2X3H8gyx+2jtQT2aiznjZQh8ERTyJiJKKS+7Czjt kG8FAJpyZsMxqKqJEr2MBi0djS83y0TPHnlrBafMOwz8gZe/r3a3cDvm eJmM5twca1TtzUY/eTagKy8WFIsawxHJs+uHBVag/0MOh/CzrnNL4Eu7 Hww=
-9n49mhh4bfhjk3ulef1qr78a6be0n1s6.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9N5JKJ4D2KU6VASNM2REBT6GR9AUTHGJ NS
-9n5jkj4d2ku6vasnm2rebt6gr9authgj.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606233107 20170508072737 34134 sn. caBc/1uIIoTppzQkyFLuHiIU2wu7dU/VVCK10iFqbXUscVdQMRJqgnZ8 Hho6KB7nRfYbG0ZfmSNUahDFoQOLWGNDH7HoOkvGkpIqQDIkLSxqPtBs DAKW3+9yiIBO/zh9jbxPwQzTjd/uuEmZSTbkXJTJxbgPIi8CCmArcRGE LPw=
-9n5jkj4d2ku6vasnm2rebt6gr9authgj.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9NJF591355BVF8FAF156ASCULEG878JA NS
+9n49mhh4bfhjk3ulef1qr78a6be0n1s6.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608211836 20170509090501 34134 sn. BFdxYJfLrQhJ5U367l9gUXuOTvOOcm5NPKqOOKXDZHiO47ZhfxTqynEa GA/J/BOL07sDbaIu74m/nFN82yC9tO9Twwv5mg9AkzFJfc5oVlBDB4sj z08PVIecSO3rel05OwqY63QUTwpS0yCJ6AREvWIGNJGinIqT1SJbm5bz 4W0=
+9n49mhh4bfhjk3ulef1qr78a6be0n1s6.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9NJF591355BVF8FAF156ASCULEG878JA NS
 9njf591355bvf8faf156asculeg878ja.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607042743 20170508072737 34134 sn. Iq6xcerNYCSb1V2L/n3lEy02xbioCmSbmFZXAezOOzKTZJrE0weE5W9C F8c+B8Cfn41wviUtW/5c64WGU3GH/U1/f+EOtJRRDsXiaC/F2s3DGkjd 1VVG3gdvtlocWDGhzi0eVu6u9CiyDsUOA3/CsUvd1NPiQ4JtRMIIm4f8 Khg=
 9njf591355bvf8faf156asculeg878ja.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9NPOCG4KQR2O77JSMF5KQSPHR47TDI2K NS
 9npocg4kqr2o77jsmf5kqsphr47tdi2k.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607004700 20170508072737 34134 sn. Ul+16zOBdGDXXJvDqjq1lA6E6z9/LpLde1Bj64ikIsCed63XraDr6aoM gDL/5VuF4tr92SudyxrcoP0bYHKfggDsuqT5EQtgrpfEo8W/esbiugli idZewg20hmhpFS+PHj59nup8AIrri+NqnwYG+asfcZRojrLAIkhKrQ3z +58=
@@ -12598,10 +12467,8 @@ zoetis.sn.		86400	IN	NS	a3.verisigndns.com.
 9uhkvlgi820uvss9nr70g30jv7ooi8c4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9V4D26DJJFEQA6PBAHTG2LMI0Q471O82 NS
 9v4d26djjfeqa6pbahtg2lmi0q471o82.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607082259 20170508072737 34134 sn. EXZOXmw148IDVPDhdTxkg+s3ICvXU6/5KIOhNw+0yhpoF6WA36QQRcS+ HXY+Que2xNcPD04HX+QmObpxynUDAcBF31+52wH6kqB/5ds8IaAwMsQM jloAv9i5h65aXu1bL4ddRqop+fJWUtmO5NTklMqlhoyaTmwaOWVAb7ff oYI=
 9v4d26djjfeqa6pbahtg2lmi0q471o82.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9V7SOJF4U2KJES7EJN6BUHHJQNSVE3UJ NS
-9v7sojf4u2kjes7ejn6buhhjqnsve3uj.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607061639 20170508072737 34134 sn. SdgbrlVQjEQoQe9kb/IxvdaRcPkx+cWHT9ZkcuD2+41e7tqBH5yaS/xG 2RYZWr3eV1VhgYhCkUCOyjYcAvWt6yfelgoSWxMg5YYWBdPcrN/pyQt4 FY9q1bgK89HWx7GFVBUo3NGbr1XNeGDlLnrb7M1kCErvYf01zciZkvET 9dg=
-9v7sojf4u2kjes7ejn6buhhjqnsve3uj.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9V8IJDU3U1QSRF31KNEFO4PLR0ADPN1A NS
-9v8ijdu3u1qsrf31knefo4plr0adpn1a.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607034022 20170508072737 34134 sn. aTmZytMZBCpsSyIsXd/Vp3Lc1Bbc3ZhudvnM+QX4eycUdQoecnKpLTQY Ww92LiiTMW95WCq1HU0RgFCUWHSDC/ziNOZ/D4vhEPvT3AYO7lMUqc3z y0FoIzadstVfYPP8OlOHXdp72fqfQ5b4Pn5JdTi+fIbKSmKKBUYmJQQL +tE=
-9v8ijdu3u1qsrf31knefo4plr0adpn1a.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9VD7K9KJFBRAOI5IBAHOPST8HQO5DVL2 NS
+9v7sojf4u2kjes7ejn6buhhjqnsve3uj.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608045026 20170509090501 34134 sn. RrXQ5R7vT3PfJtkdCfWN1mSllJYb9EC9tFIHwOX3Sk+8y/XXAu47shpz U20dauJFeBpydFDZDz5Gk6K2JXZgOuDThQEosmuZ7MF8TgMvpgeEigeq HK8EAvLWJOfWrp3oe23Yp/T7UjyKxqCGfw+eiERLmND0v1hEoGDFiQLU 7lo=
+9v7sojf4u2kjes7ejn6buhhjqnsve3uj.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9VD7K9KJFBRAOI5IBAHOPST8HQO5DVL2 NS
 9vd7k9kjfbraoi5ibahopst8hqo5dvl2.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607004913 20170508072737 34134 sn. CTEplbEcNjcnjStGpeNi6upm2HgQT+bpu7f+ICIpCToweepvuRs3AX2E nAH/qWPolHDrLlr9Ks/2dAcv7GdyCKpZtrnX3t9+25tHbDsnU1iiRz5g eQvKC3XtSW1y9zufzPqfYe+t2sXFljOBn9mHicKXIstbshloYBDTzwW7 R3k=
 9vd7k9kjfbraoi5ibahopst8hqo5dvl2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 9VDJ90CQ1A5L1V2D3V06SRMM9AM1UAB0 NS
 9vdj90cq1a5l1v2d3v06srmm9am1uab0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607011530 20170508072737 34134 sn. Dq9nszBUA/PUtn/rV4JxfCaUslLM7i84vf5QMRyInFhniCFp4XEvgORR n3+QFTmqRfzlvgZYw1pQmwLkIm0uOwn8HxnClL8TecyNkxCG3GIK9pyj 6hzQprRE+i06JduNUiF3kB8S2kxJs8qfB+tMIh2tTdTg1JlzZL5J8W/Q hx8=
@@ -12742,10 +12609,8 @@ aeln3het59j35q172lhigikj02oab07o.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607012323
 aeln3het59j35q172lhigikj02oab07o.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 AFSF3ONQOJJE6P9ABA5IJ676A0VUSDKG NS
 afsf3onqojje6p9aba5ij676a0vusdkg.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607025832 20170508072737 34134 sn. P2qUnn6fj22qavFxobzLkjqbHGuoy3BAHMKqEP1cWDbQBu+N5m/xUWqs pRdQZY9Doe9zDMtWjBLJEDk76rdLWHHMTOrTPp+mZsW22MXAV/LPt9QM eWK8+A/ijIIyJZGqqwIdQNj463XOxbYRNnmK9wKWd2owCP37HIFhUJr/ pFg=
 afsf3onqojje6p9aba5ij676a0vusdkg.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 AG6MHF57T6TMNIMGHRTS8V8D7JRQ6F2M NS
-ag6mhf57t6tmnimghrts8v8d7jrq6f2m.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607183301 20170508072737 34134 sn. Q5gj46ThvMm3gDrHQaC/tDpeYOdPXgE+NzZe+A5pLgPtcgJP/3Ygazmz zOpxvZYFPHHaMCjTGbucKxNHfQpYU86WCb1YkRP4cCBvb0Fm4YjIfj9d rLzoyMXRoZ3QQYWAj/gFLKC3r4jTnFd5M69aIEhjPvmR++pWhJGvMLk0 4WA=
-ag6mhf57t6tmnimghrts8v8d7jrq6f2m.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 AGP6RVISPUPSIHK3U2ULNBJV2ALT2E2U NS
-agp6rvispupsihk3u2ulnbjv2alt2e2u.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607070128 20170508072737 34134 sn. Q4JgwvELhGVQ/h32yUtcq6IHxqamcc4x2hqsH2Ovv8HPqyLhvoY9qCoL TprSKlYOppTzWTDn5JvVj7QH2aIsiwJylltDSvQf6b5kJJOr9Wigr4yD slrc7xA/WEiH3GT/MO3RDUQlvJ2DnacVtphtwbqqm2gIX4tIjC8mroKr dWY=
-agp6rvispupsihk3u2ulnbjv2alt2e2u.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 AGVO2V0JSNOEJH35EG8572JI5PG0GAF2 NS
+ag6mhf57t6tmnimghrts8v8d7jrq6f2m.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608154714 20170509090501 34134 sn. nLUrJwZhfozYRF6epszPZmNP6qVh85VDN28ZKlDyEsMC21JFRE88lj0A ccR6rHzoJkxAsaGVZ5s0GC/oZzfwnhLHG4JizYnERZVFUYufsHe33ypZ NcDRg+a/mzC8ONjzlXyc0+mP5ET3HdCASaQh1h1aDm5CoJAl6tU6oTCa Mns=
+ag6mhf57t6tmnimghrts8v8d7jrq6f2m.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 AGVO2V0JSNOEJH35EG8572JI5PG0GAF2 NS
 agvo2v0jsnoejh35eg8572ji5pg0gaf2.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607095649 20170508072737 34134 sn. BabVpjVCCkuTtaL7YAGs4tgT9/gktuTPYUQP9IdH2TF3XiwpZZdaAv4A cl+U3MUDOCXit/waDg19T0SoLjqRUXD41tUxDRXyUNzdRh2sEx8b0g9R 234bQnZjKukViP8n/f8BKlh6PDTRfC4wwfoPPF4fKYf4OC2z5ekBionb jrE=
 agvo2v0jsnoejh35eg8572ji5pg0gaf2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 AH44QSM5H5MBOA1553JK7S47IQN9VDN0 NS
 ah44qsm5h5mboa1553jk7s47iqn9vdn0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607151943 20170508072737 34134 sn. eWyI4KOATv5Vb1qrzfb3ur5TvCSehjnoTJ5uGXX6QBV6erWDdawbMz3r IicrDeiqq3PBWdd87P5gwQesqX6jUKPrqeBnLx1JiHKiHaDtZtHNYGlz vjT3LTyFSNqEV0PKKLQs9ODbF865HV4juwsT8tcOcvtQ1tWH0wcZBym5 OAg=
@@ -12792,10 +12657,8 @@ ao8ruqliib0bvh0sh5im390vd423s8vk.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606211023
 ao8ruqliib0bvh0sh5im390vd423s8vk.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 AOS3VMJATK5BP5LVTGAH51D096QM3MQR NS
 aos3vmjatk5bp5lvtgah51d096qm3mqr.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607172747 20170508072737 34134 sn. ALu6tQ5I1XUuTHRIHbnr26F09+lfLo/Lv6RZwpN4U7dMK+kymMUx4pS3 3TbnMax4NEziZ9CukQOLagvisciLZmPU+cX5oBxBaKla38IBCe+hv7p/ h8dlMFHDhVr0nCgFAmzgBijB93RRnbNq2/LGsvyHgvrkOrxXnRfoRPP6 tVY=
 aos3vmjatk5bp5lvtgah51d096qm3mqr.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 AP782VFT201MOPOJTGHCAQSA2DMQP991 NS
-ap782vft201mopojtghcaqsa2dmqp991.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606185357 20170508072737 34134 sn. UubaPNfO4VzkwIscP2TgDOoUEoOMOA4GHMioA6mAcdl73syUJa6UATK8 l6IaX13/yYKs5Hi3m854EkdA4yp0KzphYn+6wbTE0qSEoFwvIZdysTIm 4qMfSgTUQ/czlZOEr92NvogKnPEd0aDD5HKGHVKLedJAhaZ61CG7fdgb hgU=
-ap782vft201mopojtghcaqsa2dmqp991.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 APAH5HJF6JV47HI3U8IKHRPA18MAK9I6 NS
-apah5hjf6jv47hi3u8ikhrpa18mak9i6.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606204949 20170508072737 34134 sn. VXuhI6t8mqrYa52Hdooj/W+th21ObIOTsW2f9+Q2KsNmMc0rPQX30gdP NhMuabnKrgt4Czo5kdeCrBqHEolNCVrNOG3pR7FRcLX4U/7N3cufYWcq heuASZ2WHgu4oWunpy4Ufvp+Lt7/rjkuJVDfGGQI8MAt3xC6r35mGEvw uU8=
-apah5hjf6jv47hi3u8ikhrpa18mak9i6.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 APEJ9GQPLTH5J8VSB45A9021IOPQ06UQ NS
+ap782vft201mopojtghcaqsa2dmqp991.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608010520 20170509090501 34134 sn. nZVZ523kXo7NVnY7bSY2otVSAmkb7nTIFnxK9+uQgconXQunfcaQuEFz eFw+bA7mgw7PGsxmJCF9dlCNZouGBViW5Wz7o36qI6uRPRF35IDgqtc7 cf3kinv+AaDN/myg3N93U2UtaVK3fj4tZSYP5N/oQSqPgudxCqlAR0cK yi8=
+ap782vft201mopojtghcaqsa2dmqp991.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 APEJ9GQPLTH5J8VSB45A9021IOPQ06UQ NS
 apej9gqplth5j8vsb45a9021iopq06uq.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607023237 20170508072737 34134 sn. P2hL7bfKiojZRPKDERoSirht/Oo3mwPdaIUmwIatXsCvBVLHrSmP1rJo TZagDnTS/ew/rUKQ+FjEQJCr3bg+Pn8F5oCPqk6dOlYwmyFslKkWH5/f ryZKtUmrO/sLURBuxCaME9DPLyJiD2UFT7WFBDO8m27VAVOPsQ4v4PLO tkU=
 apej9gqplth5j8vsb45a9021iopq06uq.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 APO1TTAPQRVH69RMLBMU57CHJ304Q6CL NS
 apo1ttapqrvh69rmlbmu57chj304q6cl.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607174125 20170508072737 34134 sn. jpDek6zpXjW/+K7/eXdD0CpGEDvdbMIsz8DtsbBMZZpDaiUQ3XeIkako QJwQAxRimq0qhr2/NdaF7+k9CVZiuwkf8eh5BQ/rI13vDkToBh4jJW5I rpUTawpGuuJKGxop6uNFNyRAhF4FpoTEA7iYnUBiV9Q2ZsUx+eng9e1R di8=
@@ -13010,10 +12873,8 @@ bj5qfifdlk6ammr04v48tom5ij22do3u.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607180444
 bj5qfifdlk6ammr04v48tom5ij22do3u.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 BJGLL3ODABKR17ULTMKE0GH8TCLQU83T NS
 bjgll3odabkr17ultmke0gh8tclqu83t.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607123516 20170508072737 34134 sn. d2hmMYkvt7J/PCDI2efKTtE1AERrTqe+LksMa45J5IZmJTh55QmWkW9M crMmASpQeyKI4Z16HZ7XFYvmyRy65+w3+SkWQLYhHvCsyh8jLACNPGfH zjLL7jFg34By9fnrr54O+5U0PSCl1hxJ9wul9zJ+AUueBhMjCdbZ+ezn pAw=
 bjgll3odabkr17ultmke0gh8tclqu83t.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 BK8JJIHLJR9LAQI3EITSEI6NAK2M59FH NS
-bk8jjihljr9laqi3eitsei6nak2m59fh.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607065333 20170508072737 34134 sn. XgczzIpnI0AoR2wbrvuR47UkL9eumTbcDUwrAJxwd5uWfNCQkPXxBIs/ 09QEGUCug8GykFtgIdNDh1hfxlIOsfigvc29eR6EPgM8Ed5MMr9p60Xg 1tW9Y4bRKd8KcB+2l21BbgPuqJLxsGr1DoPQbG5RgNjtYTWzS/r2nsAi z5E=
-bk8jjihljr9laqi3eitsei6nak2m59fh.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 BK9O7KT4FSHJAQ463RMO9R7F0OIHHIIF NS
-bk9o7kt4fshjaq463rmo9r7f0oihhiif.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606222821 20170508072737 34134 sn. KlWeCcqCONvoGKIh8GlOB/fBE+De7QhOsA/GeD5gnpji/36cda9tEIHs Re+3esMlC7ha81mbSFFIJqPAr3U5NOpNt4m/PtBCWGGtNxTBEQaBOM+/ f1M/ICauSN+v/s5oBYFZLD5kxWDlyMTlr6JUB3NRC4cXvSVXMUoTICac Vgk=
-bk9o7kt4fshjaq463rmo9r7f0oihhiif.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 BKBKP3UJUECAKTG5HMR3JJRSAA6JMJ23 NS
+bk8jjihljr9laqi3eitsei6nak2m59fh.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608062010 20170509090501 34134 sn. PXhvbFlIOfGkUcAkQfk2n7534jaqNoVf0bdYIR4UUmcU1R2MbZOEy2+b v2Di/pyVVM1dDH0TzbGySlegb//FX0+QEK6XtwMT9RZMDn6DbXTtdP0J 0ka0mBB04jVsiG5Gjp99+sQ/CoR54iYNrqS4+0nfjLlsKr4guCy4pG0n EUQ=
+bk8jjihljr9laqi3eitsei6nak2m59fh.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 BKBKP3UJUECAKTG5HMR3JJRSAA6JMJ23 NS
 bkbkp3ujuecaktg5hmr3jjrsaa6jmj23.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607220736 20170508072737 34134 sn. HSiFy8k+GaGJTAiVikhohe5SDG5vO7T/VK+PlQXh1oWlWCkD7aluRcnl Rrjghgv67lMiyaQfM360o67Nc1rqfhpSLmxHr7qFDvcVdoflknoWw700 r3eTjUrftXBW0fs2VKZzbMZQQuoSwi6xNutO6RKg0v19mPyVMo1yYjby niM=
 bkbkp3ujuecaktg5hmr3jjrsaa6jmj23.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 BKHHRC4N1K9T5S4T6092I9J63F1H021O NS
 bkhhrc4n1k9t5s4t6092i9j63f1h021o.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607194405 20170508072737 34134 sn. VubLbhMbUAzwAmh4EJ9jXCqIOkg0QpDZ71B+bsO7Anp59V+ipRFrU61F +7oYlOYpwH3czIXnblmb2Ehabwyb8NarYzzbLTXvXFc0rmJiAowHw1Y9 704SjYINp890f4vc8tBoHutzuqj+IHEFaGZeeXSDEhcxPp+eJNLGMfgV AVg=
@@ -13452,10 +13313,8 @@ dbeppq17fdfso2uri9osq76mf8rkigpn.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607131142
 dbeppq17fdfso2uri9osq76mf8rkigpn.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 DBJ6VVS1EGPINMOC3CRL7A439MA2FCFG NS
 dbj6vvs1egpinmoc3crl7a439ma2fcfg.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607165012 20170508072737 34134 sn. S07dzl2kRiQ879wEi72Zyb8QEQQBVRIelz+gYrUzXduWZfSSqK71il3S GlxfiLJidIN1iqmFxamS8iVaSVD6U61KKZbNOFVtyXDJ48w7UOipTeNT 3ppc5HmR866PhZPuEl+4y6NAaQaRNFH9r09D4l70v9+w9cM1dIy8cQat +og=
 dbj6vvs1egpinmoc3crl7a439ma2fcfg.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 DBJUSE11SLMKGUP9DUQELSAP51QNEJMU NS
-dbjuse11slmkgup9duqelsap51qnejmu.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607203758 20170508072737 34134 sn. EBbBkmLEOOxhx4e3Kv62v/ZslaLxKeuz5bz7CglMhbBHg7ld4VwV5OyI ghFhhsoVwRZwcKdFIIVJjim4mXWn0nDkx7CKoxXhWa2Ya89fhzN5ZxFB lmxwM2IzeCm9k6eaNoOddsuE4JwYYix8daH9Rdq4OXy8SLZP5xsayGJv H5Y=
-dbjuse11slmkgup9duqelsap51qnejmu.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 DBSAT0VHKGNPEV4SNVR0OU8PKR4OV0MA NS
-dbsat0vhkgnpev4snvr0ou8pkr4ov0ma.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607061722 20170508072737 34134 sn. KioLcFkQdwYGJ6rQqN4FbumXHWkCrXlDfIAzBizbVY0tvHWj1P7WQJ5z IRcXlNd7WgL0uc1C3lVVMnCDXiaqQyXLPlJ04wr85hMoBHWOtBuEEjGe tQ7ZTOosUGMyexkSiedxleXu9zTzjvyiDibpvlRfH8hAsK+MVf6CVP3d 6W4=
-dbsat0vhkgnpev4snvr0ou8pkr4ov0ma.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 DBSUQJJ56PU8C0DELTK25V7NHRADHLUD NS
+dbjuse11slmkgup9duqelsap51qnejmu.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608132915 20170509090501 34134 sn. ZpMlW2Y/MV3KsHxwUbw49+SIODUe+BnFlaFpuf7m8G5IqwYgfDqEgodJ yqayfelWILL8cruK5fo4IFrExplX8rbIy9cYj7DLVUQuNWVU5W68sYpB 2GQQY2hrlzOPNO95JB1m7irYFlHIoUCLhGTyN6UmVuw9ylxrcgvWw87r aP4=
+dbjuse11slmkgup9duqelsap51qnejmu.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 DBSUQJJ56PU8C0DELTK25V7NHRADHLUD NS
 dbsuqjj56pu8c0deltk25v7nhradhlud.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607101209 20170508072737 34134 sn. UDYoo8NwEk1BRZYS8EKs3R7Bt99n/yhmKnr5ZM8yNknKH221WDoXD+6q p1KrctIpeIBICehwLSOVxjG4rNrhCyfPnvwx+dop0ticbYsET/etqz7f U/P1PeG0W8HLS1NnXMX9mFFzqTuTFNYKmbLmde35jEzmgTHD+gTgNIgn jj0=
 dbsuqjj56pu8c0deltk25v7nhradhlud.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 DC2I48CTRS0MOAFFLC9SUBPKP5QDSERR NS
 dc2i48ctrs0moafflc9subpkp5qdserr.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607193333 20170508072737 34134 sn. n2B3WAO6PZDKaMVv7Fb9Odq9PxmywZHGUELSFRU098n9v1uTGbaa27kb T5n0ug8VExxrv6ea+oxbAx8IClB2ottZV3W3xC0JoKrJ+46sy4nKl1zG hOmGJ2ElbV925B5O0ID0n/l1dkDKZGvO7NJLYIDrEilVJetmGt9Y0eTJ 7Lo=
@@ -13718,10 +13577,8 @@ efhng4ad0j16trd77m8erjciqsjkmjq1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607011904
 efhng4ad0j16trd77m8erjciqsjkmjq1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 EGDB2FFRDDPRFEMGJA8N09SI6FF3GQQL NS
 egdb2ffrddprfemgja8n09si6ff3gqql.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607064526 20170508072737 34134 sn. gvKL8xf4b21na/LwgkXzZrtISr+b02SdaW0R2L8S0dYlIy5uWFFXC28V z/vEb4w5UX1DgAFES3DWxbidZ4tftcHG5wg7oRC9DED0dSvmDVqhUo15 Fr88E8EVyccQWoG5C7uta8TiG6ENG0+YLlShrsUoeOHR98lJuUCxaCLr aAY=
 egdb2ffrddprfemgja8n09si6ff3gqql.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 EGFTE175699NO7EI1EH6H22ND2MM2MS6 NS
-egfte175699no7ei1eh6h22nd2mm2ms6.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607090453 20170508072737 34134 sn. ZwPRwjtKXdMrGA/Hq4jmo0/TZVFCEOB6TH2X/ztB7qmRL3MTRmYQ0mT5 0Xrbc22yWC2gdwrZepqyUtwDVDco9BUSik4sy01bPZIHhPTHUMURHCZQ OSQcrUJKLL/XIQ+FtPK4lVxGj5U3igF0Qc3a9x7qXSQgsPbc3IxN6Ngg Kwk=
-egfte175699no7ei1eh6h22nd2mm2ms6.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 EGM2GF1UQQGMHU11HURROGVB1SI16PON NS
-egm2gf1uqqgmhu11hurrogvb1si16pon.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607171820 20170508072737 34134 sn. V9pIfC80VbKMIr2UEqBbIUM1EEnE/ohU2vmeGZnCNPNU5sA2feWQj/0M 4FtDZUD/kFQIRQjq/UitYJ/xLqD60awbYjb8zm7PDCUH8YgyGKCgWAnJ o4rAMDTY/9bXe6csDasZdBS1IIU9JZVyeJkQf1LD8RWJMmNpd70d3Zdd p2k=
-egm2gf1uqqgmhu11hurrogvb1si16pon.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 EGNPL0N39KBE1V1FLC6K2QDCFJPT8L3G NS
+egfte175699no7ei1eh6h22nd2mm2ms6.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608182459 20170509090501 34134 sn. Efg+Cj9xJsdSqm8kK/s5duJERXP2WD67drHAKoANtBe648TL6UWrf/u0 ugIq6nlyMKxIwDx7Wq5f8whpLWw8JNE5FQJj9jIzMv7ndToQ5RRzrOz3 N1VEYTQ7L7EKwRvhZGAlabuqWts1O5JNOd1oi8biWv9109AJ6ANIsqDJ N28=
+egfte175699no7ei1eh6h22nd2mm2ms6.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 EGNPL0N39KBE1V1FLC6K2QDCFJPT8L3G NS
 egnpl0n39kbe1v1flc6k2qdcfjpt8l3g.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607214429 20170508072737 34134 sn. Z/KzCRLe1ERZjwNnRPFLWlDDMMEZzl0px+zsCesIcKhzs/VMnyt5ACrS 1+I0bRHMsTSocPEm9/ia2Qia11P41OSjFga8WcPk9k8eruxS1HcLoBmC Iuzv1W9Rx6PDZNRM7lFCGUHcUAo58RiKauwezY/JGROGSf29frbnt12k XRQ=
 egnpl0n39kbe1v1flc6k2qdcfjpt8l3g.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 EH124J2J66ROHQNLGHEAMRGRM2N0I0QV NS
 eh124j2j66rohqnlgheamrgrm2n0i0qv.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607025548 20170508072737 34134 sn. P4ZDquPlOwPZdSYAaQrg3s8dq7xzQQBLgpvNDfYuP6waMbV7eXBXBjRP N9fiuhh21B4jkEfhV63ney2p2OTKnmKMdSGsjOd2RqjSZNCqRb3Ttmjp oqK/Qk339mmcHm3R7wKTEq/f3GU7DejtWmshBfOOZsu788/XnHV4pv4Y gSs=
@@ -14024,10 +13881,8 @@ flr3ochvj5r7pmgil3565o349d2krlo0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607064820
 flr3ochvj5r7pmgil3565o349d2krlo0.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 FM12MU5JC6D2J0A87S3LJUSRBMV1AD8F NS
 fm12mu5jc6d2j0a87s3ljusrbmv1ad8f.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607063404 20170508072737 34134 sn. IW6Yu16QIMP/k5320WcLduxUkDNwGyCAJfP8OTnZotq6ByVjxImA/j2o 1pC8qegUVY58JqORmpraqf91CHYdvV6gPbiS4SHlht9e6upTSwQju8UM Td0IIiLh/qlva1cgBmzBA1ByiTk7BhMNKyIlQKVs9wSV0JRgDmNAP/tc rS4=
 fm12mu5jc6d2j0a87s3ljusrbmv1ad8f.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 FMB7UAHR84KUSR55N7LCTUV0GQJACIFA NS
-fmb7uahr84kusr55n7lctuv0gqjacifa.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606210910 20170508072737 34134 sn. lQQlaTdwRl9AGLbR2TYVOU4C9OKBSxXxHYnrjS8fZwGWe7NteiycOXd+ NvcLq/vZ9MR4b4BTDMA8JrfCMPUidovYf9EmAeTO3TgnwZuumPmiyWrs 7Cj0r1r8lMNyK0qOtmlT8afchPzGzpzIo0358UglPn3iWfr/YmvQOYW1 Fss=
-fmb7uahr84kusr55n7lctuv0gqjacifa.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 FMFLMPPC7717U1AFR2U8SF2DVL6JB3R0 NS
-fmflmppc7717u1afr2u8sf2dvl6jb3r0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606215047 20170508072737 34134 sn. ShK8Nd5hBQsabh+OIlVWCvIQJb39UZ4Du/AIZfGJ8BZMAeXGwuEYenfx zy66vnP7cyhIBtI6WPs2VVqzDDcQw5cZNQ7YydmE+M3C6exMXnduQef4 VK861B+ERQNXYMZmCBd1HotYsaENdxgwNdmK+Bzob+GCqpVYy/uwKAqP MXA=
-fmflmppc7717u1afr2u8sf2dvl6jb3r0.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 FMG3MR2LKNHOPSN2E6DV1CGLSLMGLIQE NS
+fmb7uahr84kusr55n7lctuv0gqjacifa.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608162821 20170509090501 34134 sn. KJx7rVbITdAPXIwpKxXfPIiA02mZvpGuI+ouBypv61kw0Rdj7u5sRBf6 qPeRHH/D0ebjSgUVPtjAeTyB6DnvT1QWMLdGHJiVTzFecKxBw1lFr3Q2 aqfUw3uB7T1s4FEfh/MncmKv/Dnl9gm0wjBb/4BtGwVnmOCtSx+6ADrV yw0=
+fmb7uahr84kusr55n7lctuv0gqjacifa.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 FMG3MR2LKNHOPSN2E6DV1CGLSLMGLIQE NS
 fmg3mr2lknhopsn2e6dv1cglslmgliqe.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607051600 20170508072737 34134 sn. ZiCuqIf1zReBQTrXQkLJ1BKHBpeNN3X5xcqDNMdysw4cZF2Am9QINSYY S5fPYK7LnTrZIJwSLi9KwHibOUNaB6iBk4NQZjwMVXE3JSZa+UCdLYp9 JtRQxUhknH5fsPBVXAchpU5M7x0kGV8T/ZieROX6YxymGKH/q6jiPfia oFg=
 fmg3mr2lknhopsn2e6dv1cglslmgliqe.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 FMLQR8O7C1LG19SLRNREV61NP6LTTDD7 NS
 fmlqr8o7c1lg19slrnrev61np6lttdd7.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607184953 20170508072737 34134 sn. UGdg1cOKMJwtLKeLtu5HELMdIm/82S8kIxmcwS+1TsKE0kuOl2m43J29 38PS+45amMBGJ3de7mBUgVEUaG1nv1ewkLlSgAaX88kE71CT0VqM+MLd rDesYakohf+JquZBxWwhYhk16+UJL4TBRYTRkpIeflHWDz3euTpsTq94 Oco=
@@ -14472,10 +14327,8 @@ hmb4e6tf5qdu5h7alsd15s7llbtltqai.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607192758
 hmb4e6tf5qdu5h7alsd15s7llbtltqai.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 HN39SCU1J2IA9N2SG791SCACGOLDLBP2 NS
 hn39scu1j2ia9n2sg791scacgoldlbp2.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607212530 20170508072737 34134 sn. Ml+ISMtOnZUcEw1xiWk5YcPISkDg1LUHJtyhSW+ToykROfHuD9Ho/3Ga dSXw3tkUUKE65qq9xGRCWzNlDSDfho5g1yuYyW8KxLLsVqyvXn0EqF6P eTtWRrocAFfTmorufSvJjjnq8ch3VTOZNB+Vw8LxnuzSZWEyDCGj0hjp n1o=
 hn39scu1j2ia9n2sg791scacgoldlbp2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 HN6G86KGN7A1FHKQE5M3RSJO8VO4NCDF NS
-hn6g86kgn7a1fhkqe5m3rsjo8vo4ncdf.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607181700 20170508072737 34134 sn. E7gtwpAzO5QkkeLC1qUCxI1iEij21nQecmNudUTOScc1/XJOX2TI5uHF 9PR1R6hzjVPM/ONXMt3CF5R+3IYxgPmdoG4FmJ//lXZko/8xl9ElggD4 igPN1JKsbVlpMj/g/65VBEZSInLtJJ4dXQmk7SxC5rzPSIH9Ia6J8oIW gLs=
-hn6g86kgn7a1fhkqe5m3rsjo8vo4ncdf.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 HNG6E8TJKB9CLL1IDT919V30KPCMHJB1 NS
-hng6e8tjkb9cll1idt919v30kpcmhjb1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607023217 20170508072737 34134 sn. aFFZuoQPBl2EWZtlBejrvb9ZdT1p0AqoCvXYGoxWzKYiRuuD9Ya61VKD hmYExHByJYMtrfOTsKwFFUoH5OE7kiMFRsTGUOLcKQQvDy+JxOL0bSOQ 1RTc3IvUCF/YhG8zodP5gpSdj3CbI0Wvv6QXU+ogCSlQKBID3cX6IFnT 0T0=
-hng6e8tjkb9cll1idt919v30kpcmhjb1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 HNMRTKL7T3B7PJBK7CE6426UN1MK3NRJ NS
+hn6g86kgn7a1fhkqe5m3rsjo8vo4ncdf.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607232821 20170509090501 34134 sn. cqumsiH4Of5vYmIYWoyyK06KsOyXNDHa9uXnWSi1368hCVwIWvbx9znu vx6AOBJTSYG5njOaUvgp9kciFA+10tNlYcTfO0J3ZdMb4IHDLKS1rTC+ nMKLpSyXjCIIt0AI74WhMgBTnGjTTv6crw3x3b5cuw+z+6n+vzhkxr8q bwo=
+hn6g86kgn7a1fhkqe5m3rsjo8vo4ncdf.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 HNMRTKL7T3B7PJBK7CE6426UN1MK3NRJ NS
 hnmrtkl7t3b7pjbk7ce6426un1mk3nrj.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607193055 20170508072737 34134 sn. El1Jxxd6uVP5+GM1YiR4RmfHtv/aQqJGkJPkB+j/ZqLKXQ6TI34b7xbb GVByspI1GMk+K2N4lgj32Se58uObhFwC8hD65k4gEqs5msU00ebJFmNd JGlIinUgXYmK8lXQYt3w3YVliY+4JvPqiuccDJ2YUhoSDXPhyhgUOtY+ LGw=
 hnmrtkl7t3b7pjbk7ce6426un1mk3nrj.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 HNVUIGEQ5NQBOG5H3IBPKR7MH3B0H9PM NS
 hnvuigeq5nqbog5h3ibpkr7mh3b0h9pm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607023259 20170508072737 34134 sn. RRq8q6glo+zQ7K74llv+slIJz6cDwPMes2uwqi2w4M3VFKIWnAS+bbH+ seLIK5j7M9P6MC5f9UmS7UEptdqgxeaY6VuPk7z53YJUovGwFOAfmzYE lm/53v53Yecn1PhcOf2ONTch1HMpyCx62ldl/7mj9SZBJLt0tbrf5wss RBE=
@@ -14730,10 +14583,8 @@ ihhpngtlvgvnenus0posk8pqa6jsm8hr.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607185332
 ihhpngtlvgvnenus0posk8pqa6jsm8hr.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 IIQGGV7NO0KI355MD9SQER3Q63GE2SSC NS
 iiqggv7no0ki355md9sqer3q63ge2ssc.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606222517 20170508072737 34134 sn. NCt2NtgJOPTxrPWP6KeQhtiTmic6AFRNRbfKFw9Q7qjyuzY8+xJF0KWV Or+r4J2N6+APGQHXzyfSa4k4kseqVWUptSKVrr/mopiUHy0MT5CXCXd8 BDl9XaDio05TjL4D4qMSFx6MUtOgp8rLo+FqPvDAulKIUv3G8KFnZHZj 524=
 iiqggv7no0ki355md9sqer3q63ge2ssc.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 IJ2CAP30OR418N2IUMN00SVC7R1MSVK1 NS
-ij2cap30or418n2iumn00svc7r1msvk1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606212121 20170508072737 34134 sn. YkIN8hLg3Q8t93CEDy5hc2Zn9WsQhQ+zE+0lAPz9FHTaK1YlvOELvZU/ Z9fWZJf4BzFvX4ow50frjQaTlvb/xs9G2kNQ7Ww0UvR9i1f3N+Oafmo1 zo2vIYoe8nKFH/3RrGTvES7WGeBSVe43ozvnmqJS4Y+mw0XCqcsPVJ5P n8U=
-ij2cap30or418n2iumn00svc7r1msvk1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 IJAHPJLCJ2A1EOKORAVSLDN6H61HCGFT NS
-ijahpjlcj2a1eokoravsldn6h61hcgft.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606213714 20170508072737 34134 sn. SiL/L5JJfMqNzf4nvVrUhhFzFlfKqhYpD7hzO25fzyo3fPFjDD73SWkO i97v29Im2DKY7b7wupfLTmME2rA1EOmBAJ4EYwgnIkN458cSKuNdGk/L iRzan3W3kJAPPji+E5Tddl/t+oDcwbY5CKShgpGGq3bviXPdVw+TIXCP uO8=
-ijahpjlcj2a1eokoravsldn6h61hcgft.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 IJDTF5MSHO7U5I1N7FEL1GSC2L6GNO76 NS
+ij2cap30or418n2iumn00svc7r1msvk1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607225059 20170509090501 34134 sn. KXVjypUHhnIoau8OnfWTXsAuHaJBk3dXFdSxkrCMK0eAPYnOk57J7jYP MfClln5S+4s+m7iJhmfIwDpFJ2MxFhXsw4TmMmtQGBMpONu/TwY8t1KO C8aWi3j2JwQz4Dxpdn4pht8pQdyTHsP76MQ3LP660sWhQaa2xhMPY50n ajU=
+ij2cap30or418n2iumn00svc7r1msvk1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 IJDTF5MSHO7U5I1N7FEL1GSC2L6GNO76 NS
 ijdtf5msho7u5i1n7fel1gsc2l6gno76.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606183820 20170508072737 34134 sn. lys8JgoBku9rPqAVU0uAe27RHhp1hAx/si5vAq5cbmuUNQPWEzuzrrIS zuZ42adk1olsIV0+eD1vfvTDl8snf7M4nZKcrrD5UNBiCgdIUuE72pPs Q5JEE9eg3bwoaoBFpuhSxUFrJOxct+PdKrAeKMTAETVGBmLKP6E64cbm D7g=
 ijdtf5msho7u5i1n7fel1gsc2l6gno76.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 IJJ10OD4GBDT61GCQEM9ASRNMGPRCBDU NS
 ijj10od4gbdt61gcqem9asrnmgprcbdu.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606213907 20170508072737 34134 sn. hi2ahYdmmt57re0YfBTSpiSUxPjL+TSHq8NfEVO1zrI03DiL6YWiDCNc qwzdE5fuejTKNKSiNaiYpYN6vMbx0J1YeKIZnQK7jOxT7ZOPrPNU4x9O rl7qce4NlOX66jpAF23B6CAXrJX1QeQa1AVTOLnzpRIONCPS5lFFsAwi 3B4=
@@ -14888,10 +14739,8 @@ j2tj7ulq78q01u0sh31ghc7c69vubuvu.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607110232
 j2tj7ulq78q01u0sh31ghc7c69vubuvu.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 J307I7HJIOKLENTFV1SI5FVD0TOB8D8V NS
 j307i7hjioklentfv1si5fvd0tob8d8v.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607231712 20170508072737 34134 sn. IEmKZqikoP/ILw/msa6UnWhbLlQPZTJ09mQEUfPf1wkDnbiUmqCm+E5h IPRm7hjyvjd5/2q/EcX0CtjCFnpCYAo91o9iUK5DO9l5QH/VxJpzeY0j 5KMwdJ/79uc4l170bjgJXFIbHZkNTUm6249kvwlwb1aEjzjK8hPgaQLj A+M=
 j307i7hjioklentfv1si5fvd0tob8d8v.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 J315DRA9F7MPPMELH9FN5OA7UEFK0SL4 NS
-j315dra9f7mppmelh9fn5oa7uefk0sl4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607223238 20170508072737 34134 sn. b/2DE7kTANrEi/JRUd6H/QDDsqXS0boJsaDmpavMCV4glCvCl282tzjH LrB5u7b8iZ5muMVzsIPsY6c+DkHtazSRKYQJLPjjF7ptJ+mOAL4h2AGw 0+WmAZ8+UUYV9WUYgpzMaZbJL55J+Y8LlSVa4kQzItLg0dkgSE2pE69D /N0=
-j315dra9f7mppmelh9fn5oa7uefk0sl4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 J31JCU81JO6GIEUHOA4CFV8G1M4BSBJU NS
-j31jcu81jo6gieuhoa4cfv8g1m4bsbju.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607152451 20170508072737 34134 sn. UsjRHxZZTYPwQB7JlOTJY1nPw/ABLpy9G00wB082k2P03mwrANAklqOy bELHREpS3mfRHzUxnfO46mmBEqja0WqwuLMNj8Kg2LltWBIsUUCYFYzW 2e8z51EX0X6cHqskC3Ot/CBvPB/SuOIOXLKA6eE1XFhVvlPj9RBT0jcW b6Q=
-j31jcu81jo6gieuhoa4cfv8g1m4bsbju.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 J3HOI77KMDH3ABORB2EURCHD00V2PGH7 NS
+j315dra9f7mppmelh9fn5oa7uefk0sl4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608093634 20170509090501 34134 sn. Q0jDTDd+Iv7T7ruSuOERjLNM9186Drhu3iZHcmnA+EhLSpCcX4S0KCkq csts1/OrqJY79ZgTEgLYrxbqZnEN0vKrfvZpNvHYovnLiCBiRBmuQebi J10CT3WVLiNXwwre8ZwpdIuGzjLzkeenFn8o/VMGVU1c/TdqCULizzbv wUk=
+j315dra9f7mppmelh9fn5oa7uefk0sl4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 J3HOI77KMDH3ABORB2EURCHD00V2PGH7 NS
 j3hoi77kmdh3aborb2eurchd00v2pgh7.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607174803 20170508072737 34134 sn. cwPCDUnbHWNmwsvGsieYvwJq3OFWUJoC722CT+V7UPX1CdyrVPRU8B9Z hPy6v3Hq4a8348qyUC8op//31veaW6uDyYINqhqrVSt5cMissCKfm/ys c5y4ulK8esdDVaKFlorTUyBKSzTB2yQHBPgAF7MB9AIH3HHrwsXbK6zK 5/w=
 j3hoi77kmdh3aborb2eurchd00v2pgh7.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 J3LB0ES4UO1QL9VBTRR6LA81INVM68C9 NS
 j3lb0es4uo1ql9vbtrr6la81invm68c9.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607011401 20170508072737 34134 sn. Oq9UchHCqMzzIt/tC4yHQWGKCfyE1zyRGJXaysS+9I7/mOVWQZRopfIT sxXT+V2mNsz3T+/3bXFMPCXCvAe+PwZ4k93ELYRnMgGt1MSGyg/nZHNn d80Dvw/2VSqNP42D9DTKLGOvWuzKMnbOjzRAzE2dEzuEeqV0c+Uv72Gz AK8=
@@ -15212,10 +15061,8 @@ k9df1i4utm74kab8mk30kb0moqvuuft8.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607180131
 k9df1i4utm74kab8mk30kb0moqvuuft8.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 K9NOO90194O2T7RARLMN0VLSRT2Q6QGT NS
 k9noo90194o2t7rarlmn0vlsrt2q6qgt.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607200425 20170508072737 34134 sn. mRRlH3BAPQVVCRsHRL9g7S4cOo81nkndPG2A1WzElYBjCopRNu1uT9lO VzRXa+yyfmUUTuWvXDRney4bupONYYiHZbYN4E1K87/gw77bPPQqkjvI ZjmHha2Dyi5vcJB9bjhnNROf5NgW1NHaW2byD7Pi1f5wb5y1BhswreEY 2OM=
 k9noo90194o2t7rarlmn0vlsrt2q6qgt.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 K9VCD1DSTGLKGNHJ6KECJQ9VIU52A9ND NS
-k9vcd1dstglkgnhj6kecjq9viu52a9nd.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606231800 20170508072737 34134 sn. TQMNzLXp7dAfw222Xd9iaMIsegESbqqzSpdm6rbciEEgaE7HKmmIsYTU n1HOR711YMutmizso4KLnXuNIaGovZHbGIFptUK0KnFDPR5VukBuubhR vJmIA1J2jCyLd5WJzDooKJyYqR/XsOE7Ieo/2yOLLKo1hzOLeMdMU2Oq pd0=
-k9vcd1dstglkgnhj6kecjq9viu52a9nd.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 KA08LB474FOTUP56CKLRFGFLVB5JNB08 NS
-ka08lb474fotup56cklrfgflvb5jnb08.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607172626 20170508072737 34134 sn. CTtQLZJJTqJZQW29YL5s1QNmNwUndhxjxggTJCWG1QePkLsU0uVinDfw /9iCAhHjrpgfCUPSwquSD/T90At9elypm6D07RScrfjPOtwb0uE6NFUH U9C+85QO+tauUOuZnXGwEYu5bGVzmBCY2XbNRv8zE9SXUUGtlNEetQXD U34=
-ka08lb474fotup56cklrfgflvb5jnb08.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 KA0DL738PM8J6EMCKQK2SMQNHTCHLK53 NS
+k9vcd1dstglkgnhj6kecjq9viu52a9nd.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608140157 20170509090501 34134 sn. XvY5qQ7qkffzc/Is28nPhfeEiFe8Fc6iFNFTSVPjpJGtx9llNYFOZx4l anElGL7Xdp6GD1j8WLpwjc2uAxHFcVlmBQpNecTP0nzfIAiDZrGQwKtP rPKkJS0XrpE5GG6wZDmHEQS+Um5/y8WEwh+iVioPPx/BzTandqRXmWwK If4=
+k9vcd1dstglkgnhj6kecjq9viu52a9nd.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 KA0DL738PM8J6EMCKQK2SMQNHTCHLK53 NS
 ka0dl738pm8j6emckqk2smqnhtchlk53.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607192239 20170508072737 34134 sn. l9DxeyrdztpEQ2jkA4QjADDzX3ikKku87JYE6YDkWh3smq0vsUT9SBRu vHDvDUI4qedyxu8uL4p5vlmSqZXKsJlG1pFz+E34V9JBD6iRhD2kU8TB lgVdV1ROez3YgVSxAUmlWRwDBM9hSK2SnpjxZYxIgD5rTzR83Ew64/XG MUk=
 ka0dl738pm8j6emckqk2smqnhtchlk53.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 KA113UF01ML5412SCMQ8VOFV7JBUT13U NS
 ka113uf01ml5412scmq8vofv7jbut13u.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607080732 20170508072737 34134 sn. Lt1mjwpe4Jk2Pp7tpnegmRs7myhf5esk1kpSl9GLhsmJvYC5rHSxM1CF Ntd4k3fOsPCBy3LOYCo4Sw+leT8QlPDtAyQSSG+Wju4lF701cjpLHdgW wnwj9q5kEw19TjnsoLEY2olzEK1OOw+szY526tJC6q4zvCx4hhIzNOaH t+E=
@@ -15402,10 +15249,8 @@ l1lcmcd8ouu22rvq4tmeofc8sa8kofkh.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607002158
 l1lcmcd8ouu22rvq4tmeofc8sa8kofkh.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 L1UDV3BP05BKC49DTO6C7PJKM6U5MSV1 NS
 l1udv3bp05bkc49dto6c7pjkm6u5msv1.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607094335 20170508072737 34134 sn. k+X83KVITXs56EWGrIhFAZ0ipGS3b+Rb4upCqoDQwirOS5SsVOWNEa71 uI1NG4B6yTt8YZ2zU+kZQaYSKXm6fA+639V0JuxpP4gG76ktk8i970+H vfQ/eRPE8nK+CYf/3rsNEQbR+CEtS0EgXz5CBmN3fo1T0viO+mfdhs+w QM4=
 l1udv3bp05bkc49dto6c7pjkm6u5msv1.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 L2DD1CD0LATF7FV2976NUFD214RHR21E NS
-l2dd1cd0latf7fv2976nufd214rhr21e.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607115503 20170508072737 34134 sn. MqZl8J56H7s7gL/jPo5B0ltlilWrRf/B2nRsPFMWBRDeo8UerCmPklnB 6jljwAhl1sE7jwnNihemN68tDfAb0SwDyP0d7CNmhbvPkfPwAbB58BYl BIUAEN+hxLfWXbkF3/ZNXfaxAZIEJVvZLfbbCcKOkSPxDgYcQvss2Tut GYw=
-l2dd1cd0latf7fv2976nufd214rhr21e.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 L2NUQDAE067IPTPL3TV966F5PMNHJBI5 NS
-l2nuqdae067iptpl3tv966f5pmnhjbi5.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607082558 20170508072737 34134 sn. o31ivwyMP/qCQcPQ9qmBif55kdk0HXwlvqjnRMYNIx3zhSVChVsY5kJS zei07EQuOm0aAqh5QhXBvmFSKHUlidbCBWhmFz5pFta91ChYUxu1JfAI 8+c0eHHQmcXBOQ+4AzEPoYnqNXH+xwotf6mOfKwfR3J67NAWtctu5JRW AKM=
-l2nuqdae067iptpl3tv966f5pmnhjbi5.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 L2R8QIR63GLOLN806GHITN0GQVETDPKB NS
+l2dd1cd0latf7fv2976nufd214rhr21e.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608181824 20170509090501 34134 sn. StR5lYcMSgov+osz6F7tsGLLDq8TR3MLX4FkQ5KncVTrEm0hOS7U0l9F SSxJEPR5qr+XvGYnRnkwtARAv+IvAdIMFBNSG8RgQN2QIr+MKVh7+9I5 8rUTJaJmoZx00G8B8ZXAAa8/2R8pVBdXH5kd2ih6HXidNRX8xPyBeeK/ wic=
+l2dd1cd0latf7fv2976nufd214rhr21e.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 L2R8QIR63GLOLN806GHITN0GQVETDPKB NS
 l2r8qir63gloln806ghitn0gqvetdpkb.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607202240 20170508072737 34134 sn. F6hOySR2dyRBZp+g4mdN3HkG/Wv5JQyXSQiTh7nLsSMihoD5TtS9ocFD 0yrxZk3PzriJ18y9Y1ALxL+hO4s1AY9sy75t+/31m4d1lvzn+lZ2bstP NNq/3BsS9rLdTVM0mBQxRmq9ralsAHWNs6NO19qGCe+0V1otL6svTq5R iQ4=
 l2r8qir63gloln806ghitn0gqvetdpkb.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 L2UTMFAPIIH23IRTJ275COV8PU67LKA4 NS
 l2utmfapiih23irtj275cov8pu67lka4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607033555 20170508072737 34134 sn. DrRi+QzgCPqI0bwPTfcNE12ph0ayaOAyVcQ8ukMZiXATl6AJ09DhH+K/ gzNu6MF0KU64chXC4GGA2BVOFG2hnnvN30NJ7io3im+u75RkB6qBlXib VxtlHFSnssVczTseMcHE86Mv/dE0Xgf4NeI+rU7GB5ioSEO+vCtFBUyD SmE=
@@ -15500,10 +15345,8 @@ levs5ih1mt7k8e8ao2tfdg0r2pb5d3qb.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607012722
 levs5ih1mt7k8e8ao2tfdg0r2pb5d3qb.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LF3B75T7MI526K0VL8KTDBH08PH5AU61 NS
 lf3b75t7mi526k0vl8ktdbh08ph5au61.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607201626 20170508072737 34134 sn. Ct1lFLta97qVQAfFw8i3a89462ONVdbJUKLzd/KPXaB2zno/QiFDnwwW abCWBl1uqliKFg/7VbN8SkWkfpjP3LHPkRN4I7NGMutYWSJWlIMTha4g u9Uf8rYfzBU+miZDfayDadN22rr8+HnXJuE7JtuMwBzj/IxaRdoQchox j5E=
 lf3b75t7mi526k0vl8ktdbh08ph5au61.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LFM1TIAM02O6KPU8AUHBDV2QC0ULHE1S NS
-lfm1tiam02o6kpu8auhbdv2qc0ulhe1s.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607224758 20170508072737 34134 sn. EXD14A9G8twq50QVr5P6R5E+o299yyj/6JgMfiGhDJNy2EIoDNnL3TZO prSRoq7HPSyWlBz605DUFJXrVNI5PQuHJ0Dwp8vUqipro7RYZe6HFseI LnsxnYBeG0MfDj6UXoA29oZWewcyY6lAptWD0hBJ8V8XCVrnNklERM/Z nz4=
-lfm1tiam02o6kpu8auhbdv2qc0ulhe1s.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LFQIA0NOQJ6R1JFIJL0KL6K9T0ADPD7F NS
-lfqia0noqj6r1jfijl0kl6k9t0adpd7f.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607101336 20170508072737 34134 sn. TCoqs/Zn2P1b/tpdunTkbbtoeuT6G7kii02KiPO+NdsZliUgHD9xYjf0 X8P7N+7X4/hBDeGDizLUOS2evJifsQGZtNC3AMr2YkLadeEuaXkt6UcW fWLrLIjvm2KdGZs7Eh0+6Fidw5rh2kBkI/6jovVf+gbFMKH1OZUZm+rz xDU=
-lfqia0noqj6r1jfijl0kl6k9t0adpd7f.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LFQV1UP9H9N98BQQQJJKFJJR6BQDH8FM NS
+lfm1tiam02o6kpu8auhbdv2qc0ulhe1s.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608065039 20170509090501 34134 sn. mtJkxlgvEKKRV5yK6XqQD6C5Cbo482C1YEe9iqMEH3ZZXOmjrO0mL6HM BqqQPvbMVX+BmE8860I+NpP0BAxMzxUHnig5AuFc9+7cA1NxQR09fdr2 rLZ5Row3EYOAR6LS2E8I5D/2sFCNhRw1sP0SwyOsEpOcrESHOtFTLZeN TWQ=
+lfm1tiam02o6kpu8auhbdv2qc0ulhe1s.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LFQV1UP9H9N98BQQQJJKFJJR6BQDH8FM NS
 lfqv1up9h9n98bqqqjjkfjjr6bqdh8fm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606213310 20170508072737 34134 sn. myISt+o8qo+XXPQVZYnn1QEVCFQRG2uWEDD5Cc6e9TgRJ14b1VbKadkF kOPQqrV4UIC9jiv9cDA+hH5OVBaTZtERsLJ0PzxCFrNet3/rEoq8kmp4 iMlLMPWzSgYnAQlqsUrFqYY/XN/5kr2gJFwycZcH5FzZUd/MsPWA15gq lGI=
 lfqv1up9h9n98bqqqjjkfjjr6bqdh8fm.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LFS3N5SNFO66G9H0VSF5HP340TRE98K7 NS
 lfs3n5snfo66g9h0vsf5hp340tre98k7.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607144004 20170508072737 34134 sn. YIbIktUzp2ThmVA7lUMGlYt0X3By8PBulpk6kHZkMED1ktSeFXy8xgke BgrbJdZQiZluZTzkuXfQUwlZQAYddTM9/h76Jv85bXVnrFbpaIXEehmU z8b7mDXRGn2hZGyrRcZXwIcBLh8o4SDW3ntB0fsq8QRyHgH+iVf8JU3a y5M=
@@ -15606,16 +15449,12 @@ ls25rksaa12lgmuqikd3a20shnge552c.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607081515
 ls25rksaa12lgmuqikd3a20shnge552c.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LS8G6OU987D6HHA5VEV1MLBG69V8KHHU NS
 ls8g6ou987d6hha5vev1mlbg69v8khhu.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607070231 20170508072737 34134 sn. IcWSzZ7Lc+zdlq/RoNOyRkqU/qu6tnJJFwvEmpd4nuZR47qP7S7W42Fh TrJq1iP154TaimxcP+0mEJq7tkZFts+iAqZvVhh7b6Q5QpbKe/LIMrGw nEAnJA9nl1WrPDoNaS17SCVZh5MkBoJFl6XMwr7ND0bz5S4jO7y21r3Z SU4=
 ls8g6ou987d6hha5vev1mlbg69v8khhu.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LSFG6ENA625JGOSC0F0SK1PAFKJV9CAK NS
-lsfg6ena625jgosc0f0sk1pafkjv9cak.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606223442 20170508072737 34134 sn. dC9LLaa12XR+LB51g2PlrvpKEQGuJKiI9OBmMrigV4wqw2F+5JbcCNhA Umzr4lsWCesNcgJAYm4KTGrIDiKIoERzyni7gyfqN6QGyAlv6JniVzGb Ylus6URS1KSr0n7E3ctJ9P8dhJtSjWs3k+pj5VWuKCzpCHj3t6i7BIu4 Vs0=
-lsfg6ena625jgosc0f0sk1pafkjv9cak.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LSQI7NGJVFAJDJSB9BC8N2S9QD91E3BV NS
-lsqi7ngjvfajdjsb9bc8n2s9qd91e3bv.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607034553 20170508072737 34134 sn. bXAGloKNSBzilRG3FNElbySlAIADCOsolIirD+uaCRV4UATVZ71QSYLZ MvogHKWYD06ZNAj7KiLrTn3aAAaf9lKyW+WnrQIiXj60Osj5sgCi/60T lMdKBr+luTB3rSPNHmdwVdt46G8iw7p1tRl6TIaDmHIIpx5bWRK4P8b5 q/g=
-lsqi7ngjvfajdjsb9bc8n2s9qd91e3bv.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LT07NUFGK9JBPPET515CTOUIU4BUQE9F NS
+lsfg6ena625jgosc0f0sk1pafkjv9cak.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608212231 20170509090501 34134 sn. mPKB/D4ZA5jB8w0p8jbDvB4SVMTGcFXr5FgnrpK/rzDFCUlDeZ2iHBE3 Fkh/2WsZFhG+d1Zlw65Nj1Rx58gAMIeKFF+wRepFbI1B/gKBupSL2WjV c2nWErVmJQAWzQl37uLLwj9OJpMJf+0cSPMFU/ymWpG822KAp7Kj0axZ i+k=
+lsfg6ena625jgosc0f0sk1pafkjv9cak.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LT07NUFGK9JBPPET515CTOUIU4BUQE9F NS
 lt07nufgk9jbppet515ctouiu4buqe9f.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607214328 20170508072737 34134 sn. ZrS5YzZrssthTSGOExpPo+gdIinVrGgUzoL8SW94WJIPf4Hb/+2sedhn rd4YZq0yBLuO9WdXX8YNG1MOrYazAGVvvpSdEKDJ65NK/sEDckX2+S5c f1ydwb2069RgxmTHHjuR9lASWEwMLc1jXGeRvtd3KKb+8zlx61f8C98J +mI=
 lt07nufgk9jbppet515ctouiu4buqe9f.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LT23JJTNLV7EC0QCOQONB33Q9JRGJL04 NS
-lt23jjtnlv7ec0qcoqonb33q9jrgjl04.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607231125 20170508072737 34134 sn. CvPHR+rE8NRgvUAYM+grMDmIhI2obAY/LkBULemQllBa24q3VLE8dJ0y 9Zb5/Ii6LYpNaOxuWvvOEmWXApgfkjTCYhpcCyhByV9fQwRZG0OroXAJ ZfoC9WsHbKN57rg8b0vobWasAMFy047KG5e+w2Ft0QsSrsAn2SgVSeWp PQk=
-lt23jjtnlv7ec0qcoqonb33q9jrgjl04.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LT5TEO704IILC7UQVG52PC3KAQ367GAI NS
-lt5teo704iilc7uqvg52pc3kaq367gai.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606192437 20170508072737 34134 sn. U5auBagHig6D0F6uc5/m5w6qSsk/2rTkqJcAW2ss0XctZTSogBIX4TEM 10SvOjPZIVmGWcx9XYg31qB7O1xOC3xjWIXBI1ayZ+R6zLoHJJztq6oG 0ESA5g6TkGWg/W4u5BuNF7iFHPqpKHX9iP1M4b3qVBkuViWWWUp2IbwK kCI=
-lt5teo704iilc7uqvg52pc3kaq367gai.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LTG1QUNK86UVN9OLO0J0CK0FFJQ2KE6V NS
+lt23jjtnlv7ec0qcoqonb33q9jrgjl04.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608182821 20170509090501 34134 sn. jsXqiSS9AvS1tBugcCYBZUyFWlkglI3dar9L617y3yi/r57H3naXtFIv B6c4r+mmiHAlzqdADZrvYCHaXY1Rl1UIKbwTFxoDQgyYyqN+sRVBnhmV qy0+z/mSfeNQCaTlvr+cll9DYsHBlPcyWNr4tnE0APy9fAAz7qRmuh3c 1fk=
+lt23jjtnlv7ec0qcoqonb33q9jrgjl04.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LTG1QUNK86UVN9OLO0J0CK0FFJQ2KE6V NS
 ltg1qunk86uvn9olo0j0ck0ffjq2ke6v.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607223649 20170508072737 34134 sn. dIS6x+ixjQKXrADkSNnDvfF69F4PcCubkM72YcHhPz5KJtw4DO/1B102 MX2JHlGYlPhh+d9snwNenF4JQnwa1MRKJDQIs8U4l/EVp0GPUeHIo17L Xvw8YboJ3GpaVRRbBhjw/juLC5oSTsnpQ3kYItf1pNsUkMWQNwlZ4vJA fDE=
 ltg1qunk86uvn9olo0j0ck0ffjq2ke6v.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 LTHED9SJR7HRUQIUL7PC41TGG852II8H NS
 lthed9sjr7hruqiul7pc41tgg852ii8h.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607145959 20170508072737 34134 sn. hFm4B8oeUeKmHC0Aylw1A39v4MMKhq1TrcXiIiRg62yIg0XxtSuvJVuQ L7ZoeK5PaAWjGDC7/hMBvf6IyD1bbau+QxsLqdVPq7Gm3BAY5od4vuzH uIrXvmBR7h8O2TOSKy7Ct0Ok1PrNlAI4gBkwOc5nINxA5/P+AWKOmTQT WAM=
@@ -15934,10 +15773,8 @@ n3229d3dlhji5lche2fae46ghc9s3qi2.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607185449
 n3229d3dlhji5lche2fae46ghc9s3qi2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 N36S4T2E9JF2QIN0FUA1D1TGKQVCK8JL NS
 n36s4t2e9jf2qin0fua1d1tgkqvck8jl.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606205030 20170508072737 34134 sn. DJWvrHrdiwcawIE7bWcDJHoj0r5k4mm+6dTeh+1vRhH+V0KG7+dANKLU 75gM8qJVpk7+TyRCPvik80XcmoZ5a7a7srqt/LNyi0ShZnUd1OgxT6mm oORIuG1KMB7sDb1ekCJWPpGYX/lRfPe5ls2d6w8i59QeXTPKmXXQzC+u zDw=
 n36s4t2e9jf2qin0fua1d1tgkqvck8jl.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 N371DO2209B41BOAJBE2376G56PIJ2QF NS
-n371do2209b41boajbe2376g56pij2qf.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607150027 20170508072737 34134 sn. o/b34jkpMnely72yqZvlrp/8nTXYGGJOjmBhhKtB0T7rwbXu4kaaNnv+ 9n/toV8RifK5Ra38QJP8eZWOMjGMh8ULDHUn0VFCC/bwggS6iwpc75R5 iK7LdO5PA1VTKZNfjHOitAvzlQFamdp7duIQ0G1TXzrp7opuS+4dtScg Shg=
-n371do2209b41boajbe2376g56pij2qf.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 N38MOUM1BFC6PB780SCQD10OLEFFKAOT NS
-n38moum1bfc6pb780scqd10oleffkaot.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606200617 20170508072737 34134 sn. JWtYyCJGG09d4IpC9ptVBLynudImBKyAaYq/vn+tHIcDNk8xmuDf0e2T guz73m0z830yUaXPqs5Ye04tjwKags0kXJEkfGATsPJwiepncTqabxvQ ycCcq7fofkFjOQlyOphyHoz72s+jESTxvhQhOyrJbb+9U6v5WVAaodMX +4M=
-n38moum1bfc6pb780scqd10oleffkaot.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 N3G0CVO30GL1RUUL442JVI3Q93TCNSBK NS
+n371do2209b41boajbe2376g56pij2qf.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608101655 20170509090501 34134 sn. F7Ojzlz+bxlRNlfWmj+4ZC6bPqE82z7aPf71/LwWijhKdrQXdG6JxRur tyg9gYG395mRBOos5eKWZOHSIoi6Ucs+QUY404GqQR5MMaRJlRiYztAn 0xO+7x0GsXVFTajhejrLKzOq7tdM2IV0bAqNT/qoe+itXDX1HocoGObf KZ4=
+n371do2209b41boajbe2376g56pij2qf.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 N3G0CVO30GL1RUUL442JVI3Q93TCNSBK NS
 n3g0cvo30gl1ruul442jvi3q93tcnsbk.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607000919 20170508072737 34134 sn. N15waQ8kcrx+bWDrgsuLWaKVtpcp97cKY7WhTnrqBvTPRHTjRCchliuh O+BTmROgDTjiKXHV/FoWikbzVmciG766jvJJMkcqZEUGxZbVp99fx19q v5zZN5JOViK5zuBRHoKurJw0qg+0uHUIXuu9h+K3rE1DtNcb4QolNCRI TE4=
 n3g0cvo30gl1ruul442jvi3q93tcnsbk.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 N3KMG57UV1GOVM6IF2UT3DUQK5T4IE3M NS
 n3kmg57uv1govm6if2ut3duqk5t4ie3m.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607195810 20170508072737 34134 sn. HGqHtvdZMUQVXBoZn7cUSOLGg2MKPP2Fc5KBl88DD5P5DnwMOgdp/ywU QSsG+dgsf8g0Gj7iyfis6zasFo2q1UuyEeIVj4xwOVGKDKjAOyg7HgOt YkKx+/Uc79ap8kLi+CJ6n8yBiOcrI3of3JFZFt51GkQkS3CKwqzjDjAy 5UU=
@@ -16738,10 +16575,8 @@ ps0t54k58q76n9fvnm65r91m49463ocj.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607200658
 ps0t54k58q76n9fvnm65r91m49463ocj.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 PSETJ1LU6OJSN2FCUO9OT5IJETK7IJT8 NS
 psetj1lu6ojsn2fcuo9ot5ijetk7ijt8.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606222828 20170508072737 34134 sn. idfMEwW9xiCoNxbqbv9/rtG/ERnGEuSv5weSkTTiV8wvO9GXzbl0V2j4 iKZQnN6jPbFT8fQumyIPOwrjKJSHiqgxRKzF/2Tm9zcQrT3VR8hRDQ7l 9aRQ0/4Fj4E5PYcrJMQS/7q7F6at3sabUCBYkk+EktR02ytXWv74OoRt JKI=
 psetj1lu6ojsn2fcuo9ot5ijetk7ijt8.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 PSHDKGQ46F958VU231C3VJ8D5C73D6OB NS
-pshdkgq46f958vu231c3vj8d5c73d6ob.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607013811 20170508072737 34134 sn. GeNLewpb37wLu2Dk6HXCEdjgQf9aRI8KvOHIT4PkcXEmI268OtTfeJdg 0AJUlfr0gk7vGJzws8wg69nHzNHE9le+6LaziZN8qa8OTgGYRdrsWYgd u9tB1JqNeP2iA437uVSZ51PFB8a6ZdNLJEqwSHkeGF48uRmaZhAhyrfN kvc=
-pshdkgq46f958vu231c3vj8d5c73d6ob.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 PTAPLQTQUK77ITSNM1NKEMEGGGQQ7GA9 NS
-ptaplqtquk77itsnm1nkemegggqq7ga9.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606213006 20170508072737 34134 sn. f24QwrLxPbev0GRgLjRu433INl+kZJxwA9GdXwrhs4sLu705ybvmHPWt 3pZRVZveyR0JYY7YSGPp27irfBIiEpObVOmi5OWvasRHDKz31ZSRXZUW V16HdsGojT8naeFdwek8mof4d8Sw0R8h/5ueRNPaWB/1cCdcFAJDHG+3 eBU=
-ptaplqtquk77itsnm1nkemegggqq7ga9.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 PTEV1PJ6M68N0TH8QO7N5J41DIUF0S6L NS
+pshdkgq46f958vu231c3vj8d5c73d6ob.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608185543 20170509090501 34134 sn. ewbCmLmiVNQZDs4BXyfzK1kxN+sD2l2VDF+NTsD541D6/t4gcNFJYUuv LFWQeeQTqtuXSbw+MUuIiO0Sg522prk9wl/EzKwh/vLgOOvg+mO1tjJH Qs3QSoXpsrmKmRb0F2mGgrjqjqRqydnAmuEk47GCAB+zc9RZ7tijCSbA epc=
+pshdkgq46f958vu231c3vj8d5c73d6ob.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 PTEV1PJ6M68N0TH8QO7N5J41DIUF0S6L NS
 ptev1pj6m68n0th8qo7n5j41diuf0s6l.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607212834 20170508072737 34134 sn. JjfEjGO4YA294r7YPDeQQ1PTKoNWR5dEf65ZaKaPnbFWKr7gjCxc8TQL mKmiLM8hzAamGf73w4zQpY1EdhZ8rJX7Pn77ixZDHDDaoFv6P8xvUgFe HSNghw2i3E+h3zDrBJgs0D2i0x7mEY4NSW2p6G6mirF8YD5lXVVvLI5u BzE=
 ptev1pj6m68n0th8qo7n5j41diuf0s6l.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 PU0KPE90136CM5NJJBNGUJNK19VAJH78 NS
 pu0kpe90136cm5njjbngujnk19vajh78.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607102018 20170508072737 34134 sn. Sw4/ZgF17hdl6OMSegES16ZVL5ZBkyFYnYIEBQSeBnnJbgdMe1xHXXYY +h+PKqMy5lajNl1EnLR5gBYpNtmM+uCeiDk58hqRjxlJgRMco/d6L9Bj isGcDRVV2drHqpGzmLCTImarnvlF5YHIR+VCXyTu58WwuKd9t1bHVjyb YL8=
@@ -16836,10 +16671,8 @@ q9dpmsj0vbn06v7pej9idv0d1ig8o38s.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607095010
 q9dpmsj0vbn06v7pej9idv0d1ig8o38s.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 Q9J4GP7LQNGRP422QP05VC7GHOTV3S2E NS
 q9j4gp7lqngrp422qp05vc7ghotv3s2e.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607104529 20170508072737 34134 sn. iDTAc4B7NfK6/+MEPRjA4llO+QetM+tf3w+NenhDyGt0KcVEkPTuYlN2 346fav4D/iPLAjrumtsAU93jUoygnf84YK4U4o5WFScs++YbPynjGE0f tbbaU895ixz95BU+S92hTvJJKqpoB8zjuE45YASiKbTuqIOcTsTpXggq aAY=
 q9j4gp7lqngrp422qp05vc7ghotv3s2e.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 Q9O1N0D7P9ULCQGOSSI7TQAFJR2OQI65 NS
-q9o1n0d7p9ulcqgossi7tqafjr2oqi65.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607122443 20170508072737 34134 sn. gC5obxi6LKu78t2CIda34s2U00trqIasA8MgNMiEjkS6K9nShbfdBejR A1YFEcrSEaLJ5yC+RvfhUfUCZ/TNFIzxwhPIufBn2EIAbvha196HDdh8 C2lGlsSDnEArd2L987br5cn2mZM1wMsZzmUrapm4mY/zAllsfniBNO8w CCY=
-q9o1n0d7p9ulcqgossi7tqafjr2oqi65.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QAO8Q89EA1SES3GBQAUEBQ7JJRTM1UK4 NS
-qao8q89ea1ses3gbqauebq7jjrtm1uk4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607125432 20170508072737 34134 sn. McIkjx3RnXfm/cL8AylUwovXoBfpVMjw+Xl9Vc3UuzZCCCZGNkzBfHL8 7H6aFE5K47yxImqa2cir83uhTUGmKKctn4wR8MlYpGB/sWSFF/NI2kR3 HNiRZQFptQ/dYR4kE4lGJuPLqSFZREOYRma293w+/K1D7GNXyY2VQXhp u5Y=
-qao8q89ea1ses3gbqauebq7jjrtm1uk4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QASTT710956QUO94AH61PTBJMLVGV1P9 NS
+q9o1n0d7p9ulcqgossi7tqafjr2oqi65.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608005202 20170509090501 34134 sn. XNJ3fiVfPHaieb1LlBJZL/aHfE7gqLJsTnbsmVuizPdNXNJ/hZSShU0J js6aaZ0WrJzmEMsBqyGroJ+arv1WE1xnFSliAMFxb4PI+8yODVYKrggd K+73X7CHQuQghS8RUIJtLK0HBv8pySY4mfQZtBmpr0xauH20kS2or1ci Xg4=
+q9o1n0d7p9ulcqgossi7tqafjr2oqi65.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QASTT710956QUO94AH61PTBJMLVGV1P9 NS
 qastt710956quo94ah61ptbjmlvgv1p9.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607165636 20170508072737 34134 sn. VAXZXTPSqS6RZcmmcq9zZvANazLiAun2lrrrcRF6pV1890Qyz4/nnYA5 t8DTs/WTlbloOT6Eo2jH6dDxiUBJJ68AvI+KitbkQu9Z9glj4PvJqCv5 amH9TR8fyROlxPqNiq7U0ldUABKvpLxcm+ZYViXMvv/4ezVTm7syYipC kgI=
 qastt710956quo94ah61ptbjmlvgv1p9.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QB2A4JT4ELJ9N3JA8B19O5616CL5T1U4 NS
 qb2a4jt4elj9n3ja8b19o5616cl5t1u4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607131100 20170508072737 34134 sn. oxW1LrjLoc4WH/Qg51tyw7eA1WTpD6XTXjTsqdMg/slhXzeukHn18Y1k PoSVi10vi1W4L5ggQ8Ak75Wji0B+lWDN0LLRd3Kj6DxuKJ9mAHkY2Y0f xCnnTX6m9r5Tm5w3B+q47vSl2voD1mN/XaRTnvMBP9hLwPUDbazv9PYW 94Q=
@@ -16858,10 +16691,8 @@ qd0rd64p6m0al9lsgv6tv1jop5vc85qn.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606215845
 qd0rd64p6m0al9lsgv6tv1jop5vc85qn.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QD1U67JPPQNCJSCJ9T9EBRDF5FJE7NTA NS
 qd1u67jppqncjscj9t9ebrdf5fje7nta.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607221107 20170508072737 34134 sn. VNN8XBqTn7mF/ZSCaf3LVHSSNm2K1JU4FbWU9VFQWBbaQGijDRyZtGDZ TlUfyAg07xyxd47FJSeVNXcJ3kHb6LaTxgVEB10/qgEJV6ihBfRH9VMe PmWRwR1eEtvLCoZj2ye5sAs/co0wfUYuFZtS2f3voSf7BiymWw9wXvD4 nHI=
 qd1u67jppqncjscj9t9ebrdf5fje7nta.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QDIG8V5NBHFRL61050MRILDSHLJU4SBO NS
-qdig8v5nbhfrl61050mrildshlju4sbo.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607093030 20170508072737 34134 sn. BGny+s0uYJlaZeq+1en+cNCinX1JFvMEN9jE8iREz2d9Np5+ALhtbVfr jyulas8/N2XLVMXMejG7EkzifzYNE3DM+QLLsOQL9OPnlLyl7u4MaCr3 O16q/qm5Ra97vb06glsLnwNN6IauhYQ1Hbn05Aq8+l9kVJ8NAUEiQs3y 0JM=
-qdig8v5nbhfrl61050mrildshlju4sbo.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QDO3QRA9TEEN5IHC9KE2PCUEV51GR9FB NS
-qdo3qra9teen5ihc9ke2pcuev51gr9fb.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606225825 20170508072737 34134 sn. UA/X24gpE+ADIy7XyuvBN+cKvNTUwYK/r9Qbz2YLFIvWSwJ+GlI8T0n1 Y8HDsn/WYGOFc0C9IAGvmwiYJfBjKd9h3DyNkLp6puJujYdqyDo1/7H/ SqtgyOueT//csDWa3N+6ipy3GJxH/+xAdaNbOcFbEQnq3lMvzCc/ev/u D2c=
-qdo3qra9teen5ihc9ke2pcuev51gr9fb.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QDRGTH9523S5RGDUMBNUFI6QQ3IH53C2 NS
+qdig8v5nbhfrl61050mrildshlju4sbo.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170609005405 20170509090501 34134 sn. Q07sWvgKI8wLzfwVDQQV3n3qlITxWLB++iTTxAmcA32iR3NY0ziFae3e YJIVrdc2/xjw3Ss/ipEtTrNzf45dygqrxqc9NgbtW6/JA6FfHefIoSJs idjEN+hQM2ApIL382zXWczl8zGlPFFKZ13ldsyvB9LHml1Z39b0VUltR f3o=
+qdig8v5nbhfrl61050mrildshlju4sbo.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QDRGTH9523S5RGDUMBNUFI6QQ3IH53C2 NS
 qdrgth9523s5rgdumbnufi6qq3ih53c2.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607105344 20170508072737 34134 sn. cwW1UE4DJ90wT4+6aQhxs7sSd6JQJ09Nz3FWQRJlvoT+DitzpZ4ACNXb /2IqtHNabeCyOipGJ1u+HytfttOeBvCHuX72QOfgatqbUDceWgEK8GxY ASL+kY4dr61DQfTegwTxk5W1huNK+kkA3Og6d5NF+LB9Zac5xxH1O4yj DsA=
 qdrgth9523s5rgdumbnufi6qq3ih53c2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 QE1ATV7EL12GQLOEOMTPKC348KMQ2QQL NS
 qe1atv7el12gqloeomtpkc348kmq2qql.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607093754 20170508072737 34134 sn. dmXg7BvPlJoBHDEEKD/HsTimpO3ZVBxczXI482aD8Pmp1fO1WgFK2Icx bSdNC0g3SN2+Y+E0Z0Xawh5NFZF+CXOMtNgsQ49jW82fWhuoHl/VtSIi 5ASnF+PNrVw/cWxpJYI8hXhLrq6skWdXFkWzA2ZFuWMVr4Vx8SS/Prc7 3HE=
@@ -17506,10 +17337,8 @@ srjhvntarjj5iivm1l7r2io19h6be01i.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607231817
 srjhvntarjj5iivm1l7r2io19h6be01i.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 SRO82A1PKT0VC7V2T9PBMJ6020KCSVUF NS
 sro82a1pkt0vc7v2t9pbmj6020kcsvuf.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607225829 20170508072737 34134 sn. hGcvcJdliJJMu2OYd992CHpm4WNSQOXB9qsdEKqrXV7ucyxDji9MkNm5 NFXYjhkgvl6eLY1e7aVGu3WjxfrtssZ1CIwhpCqwufc35lfQNdm186kB uKGt4S+xTiwMBFIz0+loR4iAwbBGHe7uDHiQQi1mTuMnR3vX9GL5CREU hcg=
 sro82a1pkt0vc7v2t9pbmj6020kcsvuf.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 SRT4H1UF30DISANJJMG5RKEDF26UFO57 NS
-srt4h1uf30disanjjmg5rkedf26ufo57.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607192348 20170508072737 34134 sn. jU6qQdrCDELzBe7s2c6RAR+AlxSqrBzG1XLr4EmNhvJlM5/Kn1kEQQyg PrWUwCfIDKVWkFqK1fbFIuiuqP8tv6PRudxuLXoqKHydOqtb7X49DYRj OIC86LM51/Ksvl7vu5I8AaRGXL1vfXGOWdaB/6njRa2uKqiBtfLtL0rI Ixc=
-srt4h1uf30disanjjmg5rkedf26ufo57.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 SS0KJA7VGIASJANMMEER13UM9P3736B2 A RRSIG
-ss0kja7vgiasjanmmeer13um9p3736b2.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607103707 20170508072737 34134 sn. pEK0zeoPWjO7zZiCvvGJQuKKEox5CV8/jQ9mi2/yE4U6ZbAfGK8RDCEp n+nEqfLYWDAPwQMbzSpxUgxkDFaNiQR4JqzDrl92Nlgsu/HluAj4KOGD BFNRHYDVXU2eS9Xsh6/waSj/NrKtXNnMda8dD3QSU9Dz0T0yKFbnDlQm LGo=
-ss0kja7vgiasjanmmeer13um9p3736b2.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 SS35JPPS786FOSKQ2S6RN1V64HFVK6UA NS
+srt4h1uf30disanjjmg5rkedf26ufo57.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607213319 20170509090501 34134 sn. Z9+TNJKSi+1Wio8ZgBwXsBJMb9RWiwTgw/coQiMVjUrbkGA+fZiiIOcz JKHRhbDOr+Jw1V5/V30ZdQh1WYLjwON5kNLFvsfTvsArLJanN4VezvhQ YTenXddJeJmQSzXAq+/65+m4Z5b62MEPR//8kbmSHinsQgb1zmzkpcOR gaY=
+srt4h1uf30disanjjmg5rkedf26ufo57.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 SS35JPPS786FOSKQ2S6RN1V64HFVK6UA A RRSIG
 ss35jpps786foskq2s6rn1v64hfvk6ua.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607193620 20170508072737 34134 sn. W3Wy5SBr0hpWkrMVcs8pKWF3Nc+nM3OGJcnh03RoXwf/VUyr5eym8jzy GJkkfM8LyEHZSo4RoNF/GUUGVbstJgjKpMi7gFAeZs+LliEu7IJxbLAp nnGEZL6pelvTLJ5TNm3kvA9PI61K4VsKCbcNssgIo4FrjD0mLQfVdBlI pgc=
 ss35jpps786foskq2s6rn1v64hfvk6ua.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 SSKSU9GGFT4F4PAGAKKS1EJUJP35VC09 NS
 ssksu9ggft4f4pagakks1ejujp35vc09.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606175833 20170508072737 34134 sn. MadITO1aFmTMbwpWmQAMbKaKGUhRmU0rrxAyrqF/vY/rv7oNhNXddtqC hrFRAgXap35jMtBsWvHf5RV3hWV1NFPCx6Shcglto2SPcOskHwrgeZ3J CsrwAi00atvTPe8R5rqdTbS86EeBCMUCOr9t6m9kdN0az7jAuhxRPDf+ mYY=
@@ -17558,10 +17387,8 @@ t0pkjnp558jfg82j53si3phkaub7scfu.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606184633
 t0pkjnp558jfg82j53si3phkaub7scfu.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T0VK1EOGLULL3CRPE7E6C2N8P1FEO8MD NS
 t0vk1eoglull3crpe7e6c2n8p1feo8md.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607072800 20170508072737 34134 sn. jk0p3tU56Qn7WtbdVu4dJpJXLihB5W7JuyJMs1RyChmg4587Ygma8SU4 pka+h1iQMiLP7V7NPtuIKlazLlPNmDO65TCJFhU5hL2vSb2jJhALhSw+ 6pRaaDsE/M6mNiE4dxu0h8R2ZodzEf2slKUXssf46LwsN+s+KzxfRNtY TFo=
 t0vk1eoglull3crpe7e6c2n8p1feo8md.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T10SBPGNUHH61GJHV1A73MJ9TDGUBRHT NS
-t10sbpgnuhh61gjhv1a73mj9tdgubrht.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607192054 20170508072737 34134 sn. l/i7DRziDefKtBOqauNMEOMSrdw7vkLGnjb/UlGGnAkS4d7vLcFEH4W4 kNlr3NaYdRjV2fhnkRPPmvoEWpiv8pEn5qjRECZ3z2GHgSh7seIgR+tm dz2MfuISTmDIvOEPBblEBAp/HUjQzfKJ/r9b1dk4SH/A+UkwjDCMMOyM 5uA=
-t10sbpgnuhh61gjhv1a73mj9tdgubrht.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T20JPUQM1ERDN3N3F3KIH2VIIGP860LP NS
-t20jpuqm1erdn3n3f3kih2viigp860lp.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606222440 20170508072737 34134 sn. CCJGRVCBKEj71UZBqQTwgkLJK1LX0rVSyIGuteyjkBvGYwh8kr136qkk SZ4Ft3e8xSLEhpX2Ty3Qk6KBUTNzkM7JTqYMOF3+kaSP1AE9b5rfeWZu G9oU6MIzCNHmtR4C5boyXlinf2p4trvrNC52pFU+hIx9MLhN3Ns9CsIX eQ8=
-t20jpuqm1erdn3n3f3kih2viigp860lp.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T20KMAPH77G6A9UHRC3GURJN0ETKTQ7T NS
+t10sbpgnuhh61gjhv1a73mj9tdgubrht.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608172749 20170509090501 34134 sn. GqaY1F2lFv6ALCeJFzbYGLbsGI2ZtZRXxBuy7Jo4fi8nieBcapiet8Al smLLcN8xphKFYUmvXLXrx9IRRhQu6BUxhTKJtyMKmnzlMaaxgWvexEGW 0/CsRVb7lZW2q/CQ72J28qEODTDqXysKSlDXFRfGNy4QD8evxO5jHvCj fE4=
+t10sbpgnuhh61gjhv1a73mj9tdgubrht.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T20KMAPH77G6A9UHRC3GURJN0ETKTQ7T NS
 t20kmaph77g6a9uhrc3gurjn0etktq7t.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607013233 20170508072737 34134 sn. MBeqwkLOVuACLV46wJz5jtxkMei4zKyNPj+wOxFWfg10OzfBs0a/uACm cu2iYq7nUNj63K6YMg5dMO+CJmcj4L4hhwE27ajFp5BUqO9f6kzvCiK+ t/kqNO03h+lrxAXHlIoduQrVbXG8OaoGWqlaooHFzn/OEYOTF7Zq/nGn y+0=
 t20kmaph77g6a9uhrc3gurjn0etktq7t.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T20LC4L08B3AA87HRJQ1OLJPQN0KBTO0 NS
 t20lc4l08b3aa87hrjq1oljpqn0kbto0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607190248 20170508072737 34134 sn. jibP+jYC+d1+98ISbLDo5+W/rSeFlODI5CSb9cBZuwZ9sNJoJjAVF8hd t6kUGeFEnRLw3jmDVrxFvKFy/iKJwfMWm8+SRtMu3V1It66muI8d7rGf hOGn0gtBLOGtos7C9vC/wOSwNw74ux28CwvHAcnb7dOdueV1Z+z8jyEa 5ew=
@@ -17624,10 +17451,8 @@ t8q2q1fb0mi9jsbe3da30a3b57sloh57.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607060811
 t8q2q1fb0mi9jsbe3da30a3b57sloh57.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T8U4643AJPUSGAFJ2VCPM6FF10HTTBBK NS
 t8u4643ajpusgafj2vcpm6ff10httbbk.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606180955 20170508072737 34134 sn. Qpr5bS0Qli1K+VyUhUtZtWva+Cf8bvH5AYarSDJ9TAEKpKfg8NspR18O zdf9YC7y/lKHuCpmmKdlbc+5e2IroTCRbmquQX+n0M14jnxLNe34j2dq FPeDfEGZ+uaF7Peb1UfgGOvy8os2bvUyeWz3PAFITNm+YvL7YSDhcxm+ Qgk=
 t8u4643ajpusgafj2vcpm6ff10httbbk.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T96MP3UMNUL71VBM0PFFOCPS9FVPD1HM NS
-t96mp3umnul71vbm0pffocps9fvpd1hm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607040922 20170508072737 34134 sn. WpKXNYCyIc+JFuakSTUVQmI370whl7Qjy5oY0GwCq15ACKM2zvP5YQ61 W0QgKZXIaOTnPUXFL7ahqMondDB7kMHnX3bvmS3PJJNc1xNwxoO0b/b/ RAhnahEiGcIleKj4rdXa4W0oEdDzHdJppFZG6EQImJrPALAPM6FbtIbd mRY=
-t96mp3umnul71vbm0pffocps9fvpd1hm.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T99JCSA87QRR0CHVNLV41DNKAGD6NTOA NS
-t99jcsa87qrr0chvnlv41dnkagd6ntoa.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607053308 20170508072737 34134 sn. muuCwLDtElh1i+G8hftQPXXzphmVNHHsbHS8BmcLOU/JgFp26ULzskBU G7RMWk76dmaXtXmX9FVQg6hhqfhmUqG1VHLn9tHd6aK+IxJI6AGMHM83 R64e6PNZYcfOe/dnQMysXpMKgGlr+sq568kUpR9mIPImpA07jCu9ghKc Fmo=
-t99jcsa87qrr0chvnlv41dnkagd6ntoa.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T9FL5CKBP99LJSTKNIRBB8NCDHQOM79R NS
+t96mp3umnul71vbm0pffocps9fvpd1hm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608162439 20170509090501 34134 sn. lXNrZMx/GCiWIDi6tYtzvTSYI9FpqdAhSwUY1sHeJGkUJF+qmPteFm6E LJ5ZqGv9B7GBqH5jGnCYQ0Vym6fSeLI/N2Jf1XPwySFkNgQLoPnPELu6 xM135ZpDvineC9CZG+SL/J24CD9dcprJ4E/Wj7eAgtfPmPQSL8LD8rZB zdY=
+t96mp3umnul71vbm0pffocps9fvpd1hm.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T9FL5CKBP99LJSTKNIRBB8NCDHQOM79R NS
 t9fl5ckbp99ljstknirbb8ncdhqom79r.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607211921 20170508072737 34134 sn. e+0XBGkgwFWp6aSf+HHqW5mgl38YnOItNHH/farWcfe4EpBDJhRGELUB JyXDtYTi49QBstfumzPyOYN5WQY0k/gRFqQPdp5Vg6Y/Z74I/DML9e6I BvBYYQM7u1hWbtmQ3GvhCnGvYZ0GE5476x8obdWRxiQeYECpVKiYCSUR pKg=
 t9fl5ckbp99ljstknirbb8ncdhqom79r.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 T9SPE05L08BDHC1UO6H8RRANFBM9MJV5 NS
 t9spe05l08bdhc1uo6h8rranfbm9mjv5.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606204656 20170508072737 34134 sn. F2vvbmDAaXtClRWEmaWK8F8QDO+a89YpT8SbnfO9psyJni6byVK7nuPx 9noKtCBDOyI+b0n08VBE3X3g3mxOwIstnIdnQMK1UtDk1GehoRqD+CpR RCuUI+nbxiK90AXEuj7JN5ygUYrT1bL+MneNs5JEi/G7oUhMOsrmDdN9 o/M=
@@ -17734,10 +17559,8 @@ tm9rtmj1rl03rl61k64hrgi5d55drsic.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607172635
 tm9rtmj1rl03rl61k64hrgi5d55drsic.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 TMAHNNJ854NP283E4Q7HJHHJDFP3AJRU NS
 tmahnnj854np283e4q7hjhhjdfp3ajru.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607135050 20170508072737 34134 sn. NBc0IfzJfVhkBeCTP7FKUaPa+1eODWxxu5ZNenALDb2lv0tFmnZ82oY1 SDNdvTqBQmmjMZu9xQTW9qMBNS9GZ9AuZWWfE1LFIC3s7HqQCdIwO8UV PkI+oUR3Qo28r73EK+Qn5e53NRcff4Qqip5qDlcKVXuYk/p7Xyb2t7K5 l/s=
 tmahnnj854np283e4q7hjhhjdfp3ajru.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 TMHG9VT8891MHPEB29QSVJN1EMM4K92O NS
-tmhg9vt8891mhpeb29qsvjn1emm4k92o.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606212918 20170508072737 34134 sn. QbcUbiUw5GWjJnWMNdJnSQNa58H/GcsM/Wv1n6IR5PP5R9pxbW4nzYdH g8qAHOtynJGnbsgFMZCEA22ciQCGYPDlJXkW4ZJjv33B3Afw5epnZYxX 6nYweRNxyDXTOmvxNaX+x7O/5Cv55KDpfujYGrzae0VrIvvkVxOAM0Ev MvM=
-tmhg9vt8891mhpeb29qsvjn1emm4k92o.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 TMJPVOG6KC72BRSHCC4UMGLEFNQF340H NS
-tmjpvog6kc72brshcc4umglefnqf340h.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607211657 20170508072737 34134 sn. mq6VsECKw7869D1MpySGTRpsMxflB9N5j1/AXAnoRtcFIkQvwaXZ9yyJ 1QzRO6v2wGw2O6Cgoe0aEQ/G3BGEY8ND1t/d6V5wgJAMs5KwNjs1qGSP 4U8sUTCrzIjpS2ToCWNAl1wNdwzbFy9JF04ZPAJZPjeRCR7eid1q80Af 2NY=
-tmjpvog6kc72brshcc4umglefnqf340h.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 TMR7A1STF2EITAUEJLLQDCH9BUHQ2GCM NS
+tmhg9vt8891mhpeb29qsvjn1emm4k92o.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608094246 20170509090501 34134 sn. VGefSddXMpxDib9WFKfGThJzOHDyZMf3CcMeCFhFo+RTya5PVxIBBaWy YvH/LkihuLy1lJ9Bf8TeAPvtElSQCg7/rDhjUu5UplfJwlaffIfs9yN7 nIsh9C2cbHHsXfFl3DCO3hUx981XNaHWDmc46lMxd9T092mMLbZcbYA9 kHo=
+tmhg9vt8891mhpeb29qsvjn1emm4k92o.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 TMR7A1STF2EITAUEJLLQDCH9BUHQ2GCM NS
 tmr7a1stf2eitauejllqdch9buhq2gcm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607104503 20170508072737 34134 sn. pMCOZgZFxA/Xh3v9u9tv9Nd3oHYOT9vaaW4RWo5cszcFaRQ3ByxruV2n gnhsV6w2fqK4sLNomvFOaWjTkTNjhbTOoMN9m6knpoUXINTZkhiFKDEa hg/qGBkjz6I82J5azg63xhPXBlbDfCeSOhNW8YAL0E9+O6QjnUEgjLHG Mrk=
 tmr7a1stf2eitauejllqdch9buhq2gcm.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 TMSCI5OJDNA7RVLFI79GJMQ3GCI1258O NS
 tmsci5ojdna7rvlfi79gjmq3gci1258o.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607115723 20170508072737 34134 sn. aeuCux7jFeOzbLEWNEB7PsNI38f6Ba9OFtDRVeF+NN6eqJ43GfHtObvj 2/eC2dAUDDN8oLEMBPe9JAVW3rHvLUSpyK2tilV4uULGGrj8BpEYHB/x uZmHh/8dzPIDlYIysTLhKsRtCPg1om+V+GYmehZWYT5FqefOEHsh3W1p 3G0=
@@ -17974,10 +17797,8 @@ ujr3nn4hdqupgdba63tcn24b16j1fm0d.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607005519
 ujr3nn4hdqupgdba63tcn24b16j1fm0d.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 UJSJER43R9U4HEDIAMNRLAJ8H9VC0RJA NS
 ujsjer43r9u4hediamnrlaj8h9vc0rja.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607055126 20170508072737 34134 sn. MfjcNl1iCzzU527ppNDcBxxZUQEUcfY/J0tSwoChz5rBhQdW+v/nwwXh MHGkMzmSlsVvGfisD2a/Pmk2aQjhRQ9DFPJffDaP1KhSdcdpK59CDeul NHdCBF6zjeNM/o6qwmIQ7wCh7zZQofFkq5/fsfYYlHLYgYZ7Ij5CdJ7D pQg=
 ujsjer43r9u4hediamnrlaj8h9vc0rja.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 UK2RS2FJ9QQDTNMVQC64EKGNIBHMTJ0D NS
-uk2rs2fj9qqdtnmvqc64ekgnibhmtj0d.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607050408 20170508072737 34134 sn. Sr9Z6YAx5ax59Wen/FzWv5Ch9qzzTttS8HSppC3G8v1IVdJX4lbY4JjB MibJYXzCWTMR80sZsX8kysnARGKXNo2SFDvsk1I9ZQXFXCJ8dfr6HW+1 woWtX1rcA/OVqwFmoH4ZOKdl/YQmepAhULjbtA8EzrC07FvOUs1FH6rk MJw=
-uk2rs2fj9qqdtnmvqc64ekgnibhmtj0d.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 UK7TOLRI0A71AOMKPKRD1UI8E759T6RU NS
-uk7tolri0a71aomkpkrd1ui8e759t6ru.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607181650 20170508072737 34134 sn. ZpE0k1648NrHByZup0uX4LFmz9cFFNd8an2AYgT9LhnHtQ+Dy9FkP4Ut v4ywbdTjGBHcot76LJLwWB6Ta/yUjGsYvaH39oNF2F7oxcb3eRmuwxE+ PE7ErPdcZ7mbedI2kNVuRpW6Oj7zWuDzC3nLJ/xEQKZNI8tyVXUL2AG/ CDY=
-uk7tolri0a71aomkpkrd1ui8e759t6ru.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 UKARP1QVPEGDHNVM3COVDTLAMS37TOFQ NS
+uk2rs2fj9qqdtnmvqc64ekgnibhmtj0d.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608140214 20170509090501 34134 sn. ouxLRZ7IHJjyJrUuKnq7dJT12XPunqUZwHFNdNEKPR+Ucn9Qj7BwZPhV OJBPksWH9PTWDAq7R2exUl3KiDTGopTFgvhQ52frxA9JF09s5YVUHdvg SQ15NeA4v9Xs8PrusW2xxLdKOurYe+ab6MH1MfeUeRPr72jRXYHt4iGM /tU=
+uk2rs2fj9qqdtnmvqc64ekgnibhmtj0d.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 UKARP1QVPEGDHNVM3COVDTLAMS37TOFQ NS
 ukarp1qvpegdhnvm3covdtlams37tofq.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607054509 20170508072737 34134 sn. OkAK+ROyAqdfPm/VJuwtnAN7GJ/2jI/4qrwxVjNFWW1kSNwJbmWCxAmc z+kbSn3rVcxax08Z7muafYjICwaIC9k4kagCtmlpmEkv/yCyjmtUzWF+ BIIZy3rYHx7vQdIlq0zEJhMPF+FBAsz769c61gueywJUrmV/wIkd6E4h doM=
 ukarp1qvpegdhnvm3covdtlams37tofq.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 UKQ6PF9KM85MJJ5BONNSHVUBROEM0MUC NS
 ukq6pf9km85mjj5bonnshvubroem0muc.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607124446 20170508072737 34134 sn. M2buJH1HohnMhDOGgdGY7StUwB+3M9fbGGDCr2h+FcOZG/o4uhGBuhjp 4nkD6h1rhr0Uis3l9SvE2f0YPptjydJvPmL0fF8X+2y3CBve+LaSNKgz QgMsiKaaiJzODnY36LjItBqWUa85nQ73nHvvmiPEKTAK3S71TN8TRoBY xNM=
@@ -18134,10 +17955,8 @@ va3cqdtoc08f1u21q90rh2hiksbn424l.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606215314
 va3cqdtoc08f1u21q90rh2hiksbn424l.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 VAFTKBFRTQ4U4TV6RF221O95U72HH342 NS
 vaftkbfrtq4u4tv6rf221o95u72hh342.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607195053 20170508072737 34134 sn. dakHG7Ob4VihE/HVWjFfRrmUCRghv0thxTwZbCicsQlby9S6pRk20eJp Qp2+kuJG57XscH2cE4tAmW7gRQ7ozg3e5JJV1DcWuaeX5EwnP8/I50f1 gl9tkgy7mzPlzPS0KZRU7b18IhWUvoBqHZNovF8dlerUbezO91R2/VPu Rnw=
 vaftkbfrtq4u4tv6rf221o95u72hh342.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 VAM5QBBD18P62B2HF9PBEOAR04LK3AF7 NS
-vam5qbbd18p62b2hf9pbeoar04lk3af7.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607143711 20170508072737 34134 sn. eOWZXIeQ0xLOfZcDT8ZngTcJqWY8HtbPO7xUCqGQTjLzjlUT7ac7gKfi 2m8UblAlq2Ir1gM59gmvJ6a8Nv7LQdQPcDavJaVo/KkOODaqQuTUoo0C H2SSRkhfKL9e7EdNzYXIZBNgH6XDOJnBE6ZMKavZjw/sQXrdv0TeVAP4 ny4=
-vam5qbbd18p62b2hf9pbeoar04lk3af7.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 VAMBD2DI6KU5QTEO33U8T4IN7PI8V4VJ NS
-vambd2di6ku5qteo33u8t4in7pi8v4vj.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607060140 20170508072737 34134 sn. e8PBGLdcozEXW186rwhfRYc2jr9WUrD2ZwCH8MYLd6laJzLQhoJi1Tbx zbdt2rzfRPf8PtBqr9EyjlS3QMptAEt0Oivlxuwez5e0hLQRLmkHoBUd Ptt4AwWG3KOIgsj5d8pQBsp8RMl1vLeNmRsCmDPLor+cFd1PosUtYZOh Pew=
-vambd2di6ku5qteo33u8t4in7pi8v4vj.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 VBGAOSA59M4K3KRPUBL3959EOU97RD36 NS
+vam5qbbd18p62b2hf9pbeoar04lk3af7.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170608081333 20170509090501 34134 sn. LtEUpXUJJcJgGEzD63ldHpi/l20nM6BjLFVenzdXhuTSjDKU4mgImmqv EZQ1wAuE/Yg9MwPhNYwIeJba/oq7YdzN07X0A0hnbg9/0xwM3o8dWdz2 Sr+LatdttMWRI1sKshrvNIcm+Fs5vCC7bOIszf9znbjLNICIZbkQxtrn hqc=
+vam5qbbd18p62b2hf9pbeoar04lk3af7.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 VBGAOSA59M4K3KRPUBL3959EOU97RD36 NS
 vbgaosa59m4k3krpubl3959eou97rd36.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170606201706 20170508072737 34134 sn. n3rhZE7UORWoBRlBUkjGbxblWD1eDOdi34doUfdzkeOa6T07qkQrQYVq zA5/OMozi6Xt2Hrtvb8X0Vj2dIEdgGl1ti3UdFBmPBjeKaerAesguiSA CKVsicC8F8jKbns6q+y/LlcsileKcw/ek40z3E5f/NScojrF3wyAA+C6 I+Q=
 vbgaosa59m4k3krpubl3959eou97rd36.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 VC4DONU46NO5AEF86RG23RTK348CC574 NS
 vc4donu46no5aef86rg23rtk348cc574.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607223353 20170508072737 34134 sn. Oceb+TPFOHyehNYq/ESXE9HvQX8K95+ARm2g+xH/PpcE2DDTuXjVLOIY 3XK04RcK3yKWfeT1jhajNsMPmhzHQKyr6CrWHfQAv+2OTgzfKgMecgRE +u2t7+8XOYkFtZLTGlF8/+yrexfIiebBWe1g+e2vIimvVigQ6a1wyLkL 9/I=
@@ -18300,4 +18119,4 @@ vugjssrm8ccne02i9rb5cmuhh2t6gksc.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607150018
 vugjssrm8ccne02i9rb5cmuhh2t6gksc.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 VVI7PBCASQFNE3TRQQD9M1NS5ULCL5Q4 NS
 vvi7pbcasqfne3trqqd9m1ns5ulcl5q4.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170607163839 20170508072737 34134 sn. YtmtG6o00YHRnvsLh7+UXs7oTsTWxGBycUAGA71/EDnZaYNr2OUejt8f vic7pkoPhjJ2jUXvdsQmcTovulPWGmuufrtAd0yjfaeAh8skGxlDZ0hB 1FTnyU2B6P12Nvm8R9oOg2+q/GrCsrr/RY96UHhmXghVWmi12KRed6Eo E8k=
 vvi7pbcasqfne3trqqd9m1ns5ulcl5q4.sn. 3600 IN NSEC3 1 0 1 B8AEED7F92ED6072 00117RS1K1PLMN55RG8OVNGK9MVUI1E5 NS
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017050800 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017050900 21600 3600 1209600 3600

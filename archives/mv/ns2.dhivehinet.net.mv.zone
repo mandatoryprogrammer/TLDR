@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017051102 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017051301 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -313,7 +313,8 @@ b12.mv.			3600	IN	NS	ns1.buzzmaldives.com.
 b12.mv.			3600	IN	NS	ns2.buzzmaldives.com.
 b15.mv.			3600	IN	NS	ns1.westservers.net.
 b15.mv.			3600	IN	NS	ns2.westservers.net.
-baa.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
+baa.mv.			3600	IN	NS	ns8437.hostgator.com.
+baa.mv.			3600	IN	NS	ns8438.hostgator.com.
 baazaaru.mv.		3600	IN	NS	dns.site5.com.
 baazaaru.mv.		3600	IN	NS	dns2.site5.com.
 babygenius.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -2185,8 +2186,8 @@ mymobile.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 mynews.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 myoffice.mv.		3600	IN	NS	ns1.dhivehihost.com.
 myoffice.mv.		3600	IN	NS	ns2.dhivehihost.com.
-myphone.mv.		3600	IN	NS	dns1.namecheaphosting.com.
-myphone.mv.		3600	IN	NS	dns2.namecheaphosting.com.
+myphone.mv.		3600	IN	A	202.1.201.147
+www.myphone.mv.		3600	IN	CNAME	myphone.mv.
 mys.mv.			3600	IN	NS	ns6249.hostgator.com.
 mys.mv.			3600	IN	NS	ns6250.hostgator.com.
 mysettings.mv.		3600	IN	A	202.1.195.36
@@ -3436,4 +3437,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017051102 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017051301 1800 1800 3600 3600

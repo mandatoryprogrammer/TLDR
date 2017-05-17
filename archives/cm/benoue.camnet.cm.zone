@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017051714 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017051720 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1495026029"
+cm.			86400	IN	TXT	"Generation Time: 1495047621"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -7499,8 +7499,9 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 3333.cm.		86400	IN	NS	a.dnspod.com.
 3333.cm.		86400	IN	NS	b.dnspod.com.
 3333.cm.		86400	IN	NS	c.dnspod.com.
-33331.cm.		86400	IN	NS	ns1.dnsdun.com.
-33331.cm.		86400	IN	NS	ns2.dnsdun.net.
+33331.cm.		86400	IN	NS	a.dnspod.com.
+33331.cm.		86400	IN	NS	b.dnspod.com.
+33331.cm.		86400	IN	NS	c.dnspod.com.
 33333.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 33333.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 333333.cm.		86400	IN	NS	ns1.4.cn.
@@ -30447,6 +30448,8 @@ citymonitor.cm.		86400	IN	NS	atdns03.citynetwork.se.
 citynetwork.cm.		86400	IN	NS	atdns01.citynetwork.se.
 citynetwork.cm.		86400	IN	NS	atdns02.citynetwork.se.
 citynetwork.cm.		86400	IN	NS	atdns03.citynetwork.se.
+citysport.cm.		86400	IN	NS	ns1.iccnet.cm.
+citysport.cm.		86400	IN	NS	ns2.iccnet.cm.
 citytarget.cm.		86400	IN	NS	dns1.cscdns.net.
 citytarget.cm.		86400	IN	NS	dns2.cscdns.net.
 citytrust.cm.		86400	IN	NS	ns1.ringonet.info.
@@ -42922,6 +42925,9 @@ insgov.cm.		86400	IN	NS	dns1.name-services.com.
 insgov.cm.		86400	IN	NS	dns2.name-services.com.
 insgov.cm.		86400	IN	NS	dns3.name-services.com.
 insgov.cm.		86400	IN	NS	dns4.name-services.com.
+insider.cm.		86400	IN	NS	a.dnspod.com.
+insider.cm.		86400	IN	NS	b.dnspod.com.
+insider.cm.		86400	IN	NS	c.dnspod.com.
 inspections-conjointes-ic.cm. 86400 IN	NS	dns.site5.com.
 inspections-conjointes-ic.cm. 86400 IN	NS	dns2.site5.com.
 inspireindustry.cm.	86400	IN	NS	ns495.websitewelcome.com.
@@ -46776,11 +46782,9 @@ lao.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 laohu.cm.		86400	IN	NS	ns1166.ispapi.net.
 laohu.cm.		86400	IN	NS	ns2200.ispapi.net.
 laohu.cm.		86400	IN	NS	ns3188.ispapi.net.
-laohuji.cm.		86400	IN	NS	dns1.name-services.com.
-laohuji.cm.		86400	IN	NS	dns2.name-services.com.
-laohuji.cm.		86400	IN	NS	dns3.name-services.com.
-laohuji.cm.		86400	IN	NS	dns4.name-services.com.
-laohuji.cm.		86400	IN	NS	dns5.name-services.com.
+laohuji.cm.		86400	IN	NS	a.dnspod.com.
+laohuji.cm.		86400	IN	NS	b.dnspod.com.
+laohuji.cm.		86400	IN	NS	c.dnspod.com.
 laolao.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 laolao.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 laoli.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -49297,6 +49301,8 @@ mecalux.cm.		86400	IN	NS	dns2.mecalux.com.
 mechanicalturk.cm.	86400	IN	NS	ns-1.amazon.com.
 mechanicalturk.cm.	86400	IN	NS	ns-2.amazon.com.
 mechanicalturk.cm.	86400	IN	NS	ns-3.amazon.com.
+med-esthetic.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
+med-esthetic.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
 medcem.cm.		86400	IN	NS	ns269.edns1.com.
 medcem.cm.		86400	IN	NS	ns270.edns1.com.
 medco.cm.		86400	IN	NS	dns1.dnsspace.net.
@@ -58594,8 +58600,8 @@ s8.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 s8.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 s88.cm.			86400	IN	NS	ns5.dnsdun.com.
 s88.cm.			86400	IN	NS	ns5.dnsdun.net.
-s8s.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
-s8s.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+s8s.cm.			86400	IN	NS	ns1.dns.com.
+s8s.cm.			86400	IN	NS	ns2.dns.com.
 s9.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 s9.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 s99.cm.			86400	IN	NS	ns5.dnsdun.com.
@@ -61888,6 +61894,8 @@ suedtirol.cm.		86400	IN	NS	ns2.peer-internet.com.
 suedtirol.cm.		86400	IN	NS	ns3.peer-internet.com.
 suez-environnement.cm.	86400	IN	NS	ns1.prodomaines.com.
 suez-environnement.cm.	86400	IN	NS	ns2.prodomaines.com.
+suezwatertechnologies.cm. 86400	IN	NS	ns1.prodomaines.com.
+suezwatertechnologies.cm. 86400	IN	NS	ns2.prodomaines.com.
 sugar.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 sugar.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
 sugardaddie.cm.		86400	IN	NS	dns1.name-services.com.
@@ -71924,4 +71932,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017051714 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017051720 28800 3600 604800 86400

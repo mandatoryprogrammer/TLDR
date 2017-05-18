@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns1.nic.mr. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			604800	IN	SOA	ns1.nic.mr. root.mail.ustm.mr. 2017051501 3600 900 3600000 600
+mr.			604800	IN	SOA	ns1.nic.mr. root.mail.ustm.mr. 2017051701 3600 900 3600000 600
 mr.			604800	IN	NS	ns.univ-nkc.mr.
 mr.			604800	IN	NS	ns1.nic.mr.
 mr.			604800	IN	NS	ns3.nic.fr.
@@ -23,8 +23,9 @@ a-2.mr.			604800	IN	NS	ns2.web-dns1.com.
 a-2.mr.			604800	IN	NS	ns3.web-dns1.com.
 aad.mr.			604800	IN	NS	ns1.omnis.com.
 aad.mr.			604800	IN	NS	ns2.omnis.com.
-aau.mr.			604800	IN	NS	bow.mauritel.mr.
-aau.mr.			604800	IN	NS	aauserv.acces.mr.
+aau.mr.			604800	IN	NS	ns1.swisscenter.com.
+aau.mr.			604800	IN	NS	ns2.swisscenter.com.
+aau.mr.			604800	IN	NS	ns3.swisscenter.com.
 abacus.mr.		604800	IN	NS	ns1.adk-media.com.
 abc.mr.			604800	IN	NS	ns1.bluehost.com.
 abc.mr.			604800	IN	NS	ns2.bluehost.com.
@@ -39,9 +40,9 @@ accc.mr.		604800	IN	NS	ns20.ixwebhosting.com.
 accent.mr.		604800	IN	NS	ns01.trademarkarea.com.
 accent.mr.		604800	IN	NS	ns02.trademarkarea.com.
 accent.mr.		604800	IN	NS	ns03.trademarkarea.com.
-acces.mr.		604800	IN	NS	bow.mauritel.mr.
-acces.mr.		604800	IN	NS	aauserv.acces.mr.
-aauserv.acces.mr.	604800	IN	A	82.151.72.170
+acces.mr.		604800	IN	NS	ns1.swisscenter.com.
+acces.mr.		604800	IN	NS	ns2.swisscenter.com.
+acces.mr.		604800	IN	NS	ns3.swisscenter.com.
 access.mr.		604800	IN	NS	ns1.rhostbh.com.
 access.mr.		604800	IN	NS	ns2.rhostbh.com.
 accueilemploi.mr.	604800	IN	NS	srv01.anapej.mr.
@@ -323,8 +324,9 @@ anrpts.mr.		604800	IN	NS	srvanrpts.anrpts.mr.
 srvanrpts.anrpts.mr.	604800	IN	A	82.151.83.143
 ants-will.mr.		604800	IN	NS	ns1.fastspiders.com.
 ants-will.mr.		604800	IN	NS	ns2.fastspiders.com.
-apaus.mr.		604800	IN	NS	bow.mauritel.mr.
-apaus.mr.		604800	IN	NS	aauserv.acces.mr.
+apaus.mr.		604800	IN	NS	ns1.swisscenter.com.
+apaus.mr.		604800	IN	NS	ns2.swisscenter.com.
+apaus.mr.		604800	IN	NS	ns3.swisscenter.com.
 apbm.mr.		604800	IN	NS	ns1.elvadel.org.
 apbm.mr.		604800	IN	NS	ns2.elvadel.org.
 apecam.mr.		604800	IN	NS	ns1.bluehost.com.
@@ -1068,8 +1070,6 @@ desair.mr.		604800	IN	NS	ns15.ixwebhosting.com.
 desair.mr.		604800	IN	NS	ns16.ixwebhosting.com.
 dewliye.mr.		604800	IN	NS	ns1.amenworld.com.
 dewliye.mr.		604800	IN	NS	ns2.amenworld.com.
-dft.mr.			604800	IN	NS	bow.mauritel.mr.
-dft.mr.			604800	IN	NS	dtfserver.dtf.mr.
 dgct.mr.		604800	IN	NS	ns11.infomaniak.ch.
 dgct.mr.		604800	IN	NS	ns12.infomaniak.ch.
 dgsup.mr.		604800	IN	NS	ns.instantinternet.de.
@@ -1116,6 +1116,8 @@ dspcm.mr.		604800	IN	NS	bow.mauritel.mr.
 ns.dspcm.mr.		604800	IN	A	82.151.73.104
 dtcp.mr.		604800	IN	NS	bow.mauritel.mr.
 dtcp.mr.		604800	IN	NS	pmddns.pmd.mr.
+dtf.mr.			604800	IN	NS	bow.mauritel.mr.
+dtf.mr.			604800	IN	NS	dtfserver.dtf.mr.
 dtfserver.dtf.mr.	604800	IN	A	41.188.112.245
 dunair.mr.		604800	IN	NS	ns.univ-nkc.mr.
 dunair.mr.		604800	IN	NS	servdunair.dunair.mr.
@@ -3566,4 +3568,4 @@ ziwanya.mr.		604800	IN	NS	ns1.infomaniak.ch.
 ziwanya.mr.		604800	IN	NS	ns2.infomaniak.ch.
 ztr.mr.			604800	IN	NS	ns1.adk-media.com.
 ztr.mr.			604800	IN	NS	ns2.adk-media.com.
-mr.			604800	IN	SOA	ns1.nic.mr. root.mail.ustm.mr. 2017051501 3600 900 3600000 600
+mr.			604800	IN	SOA	ns1.nic.mr. root.mail.ustm.mr. 2017051701 3600 900 3600000 600

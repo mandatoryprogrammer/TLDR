@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR tj. @ns2.tojikiston.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2017051702 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2017051901 7200 3600 2678400 7200
 tj.			7200	IN	NS	tj.cctld.authdns.ripe.net.
 tj.			7200	IN	NS	ns1.nic.tj.
 tj.			7200	IN	NS	ns2.tojikiston.com.
@@ -144,8 +144,6 @@ tj.			7200	IN	NS	phloem.uoregon.edu.
 55group.tj.		7200	IN	NS	ns1.tojikiston.com.
 55pro.tj.		7200	IN	NS	ns.tojikiston.com.
 55pro.tj.		7200	IN	NS	ns1.tojikiston.com.
-55security.tj.		7200	IN	NS	ns.tojikiston.com.
-55security.tj.		7200	IN	NS	ns1.tojikiston.com.
 55spirit.tj.		7200	IN	NS	ns.tojikiston.com.
 55spirit.tj.		7200	IN	NS	ns1.tojikiston.com.
 55tours.tj.		7200	IN	NS	ns.tojikiston.com.
@@ -260,6 +258,8 @@ container.ac.tj.	7200	IN	NS	ns1.dns.millenniumarts.net.
 container.ac.tj.	7200	IN	NS	ns2.dns.millenniumarts.net.
 olx.ac.tj.		7200	IN	NS	dns01.naspers.com.
 olx.ac.tj.		7200	IN	NS	dns02.naspers.com.
+acad.tj.		7200	IN	NS	ns3.ism.tj.
+acad.tj.		7200	IN	NS	ns4.ism.tj.
 academy.tj.		7200	IN	NS	ns.tojikiston.com.
 academy.tj.		7200	IN	NS	ns1.tojikiston.com.
 acadlib.tj.		7200	IN	NS	pins1.eastera.tj.
@@ -493,8 +493,6 @@ akadia.tj.		7200	IN	NS	ns1.webaccess.co.id.
 akadia.tj.		7200	IN	NS	ns2.webaccess.co.id.
 akb.tj.			7200	IN	NS	ns1.bluehost.com.
 akb.tj.			7200	IN	NS	ns2.bluehost.com.
-akcia.tj.		7200	IN	NS	ns3.caravan.ru.
-akcia.tj.		7200	IN	NS	ns4.caravan.ru.
 akdn.tj.		7200	IN	NS	ns.sugdien.com.
 akdn.tj.		7200	IN	NS	ns2.tajnet.tj.
 akfix.tj.		7200	IN	NS	ns1.rsnx.ru.
@@ -965,8 +963,6 @@ arzon.tj.		7200	IN	NS	ns1.shedevr.com.
 arzon.tj.		7200	IN	NS	ns2.shedevr.com.
 arzoni.tj.		7200	IN	NS	ns73.iphoster.net.
 arzoni.tj.		7200	IN	NS	ns74.iphoster.net.
-arzontour.tj.		7200	IN	NS	dns1.yandex.net.
-arzontour.tj.		7200	IN	NS	dns2.yandex.net.
 as.tj.			7200	IN	NS	ns1.sedoparking.com.
 asad.tj.		7200	IN	NS	dns1.yandex.net.
 asal.tj.		7200	IN	NS	ns1.ehost.tj.
@@ -1128,8 +1124,10 @@ aurumoil.tj.		7200	IN	NS	ns3.timeweb.org.
 aurumoil.tj.		7200	IN	NS	ns4.timeweb.org.
 autism.tj.		7200	IN	NS	ns1.megafon.tj.
 autism.tj.		7200	IN	NS	ns2.megafon.tj.
-auto.tj.		7200	IN	NS	ns1.rspd.tj.
-auto.tj.		7200	IN	NS	ns2.rspd.tj.
+auto.tj.		7200	IN	NS	ns1.timeweb.ru.
+auto.tj.		7200	IN	NS	ns2.timeweb.ru.
+auto.tj.		7200	IN	NS	ns3.timeweb.org.
+auto.tj.		7200	IN	NS	ns4.timeweb.org.
 autobonus.tj.		7200	IN	NS	ns1.sprinthost.ru.
 autobonus.tj.		7200	IN	NS	ns2.sprinthost.ru.
 autoexpo.tj.		7200	IN	NS	ns1.rsnx.ru.
@@ -1208,8 +1206,8 @@ aviaterminal.tj.	7200	IN	NS	ns.tojikiston.com.
 aviaterminal.tj.	7200	IN	NS	ns1.tojikiston.com.
 avicenna.tj.		7200	IN	NS	ns1.rsnx.ru.
 avicenna.tj.		7200	IN	NS	ns2.rsnx.ru.
-avitcenna.tj.		7200	IN	NS	ns1.rsnx.ru.
-avitcenna.tj.		7200	IN	NS	ns2.rsnx.ru.
+avitcenna.tj.		7200	IN	NS	nc1.ihc.ru.
+avitcenna.tj.		7200	IN	NS	nc2.ihc.ru.
 avito.tj.		7200	IN	NS	ns1.mainehost.net.
 avito.tj.		7200	IN	NS	ns2.mainehost.net.
 avkd.tj.		7200	IN	NS	ns.tarena.tj.
@@ -1485,8 +1483,6 @@ bee-honey.tj.		7200	IN	NS	ns3.timeweb.org.
 bee-honey.tj.		7200	IN	NS	ns4.timeweb.org.
 beeline.tj.		7200	IN	NS	as.tacom.tj.
 beeline.tj.		7200	IN	NS	ns.tacom.tj.
-beemilk.tj.		7200	IN	NS	ns.tojikiston.com.
-beemilk.tj.		7200	IN	NS	ns1.tojikiston.com.
 beepcar.tj.		7200	IN	NS	ns.tojikiston.com.
 beepcar.tj.		7200	IN	NS	ns1.tojikiston.com.
 beer.tj.		7200	IN	NS	ns.server.tj.
@@ -1589,6 +1585,8 @@ bihon.tj.		7200	IN	NS	ns1.rsnx.ru.
 bihon.tj.		7200	IN	NS	ns2.rsnx.ru.
 bike.tj.		7200	IN	NS	ns1.sedoparking.com.
 bike.tj.		7200	IN	NS	ns2.sedoparking.com.
+bikhon.tj.		7200	IN	NS	ns1.rsnx.ru.
+bikhon.tj.		7200	IN	NS	ns2.rsnx.ru.
 bilet.tj.		7200	IN	NS	ns1.megafon.tj.
 bilet.tj.		7200	IN	NS	ns2.megafon.tj.
 bilet24.tj.		7200	IN	NS	ns1.domenator.com.
@@ -1616,6 +1614,8 @@ bio-oil.tj.		7200	IN	NS	ns1.activeby.net.
 bio-oil.tj.		7200	IN	NS	ns2.activeby.net.
 biodiv.tj.		7200	IN	NS	ns.tojikiston.com.
 biodiv.tj.		7200	IN	NS	ns1.tojikiston.com.
+bioethics.tj.		7200	IN	NS	ns1.timeweb.ru.
+bioethics.tj.		7200	IN	NS	ns2.timeweb.ru.
 biokishovarz.tj.	7200	IN	NS	ns1.timeweb.ru.
 biokishovarz.tj.	7200	IN	NS	ns2.timeweb.ru.
 biokishovarz.tj.	7200	IN	NS	ns3.timeweb.org.
@@ -1766,12 +1766,6 @@ blum.tj.		7200	IN	NS	ns9.managed-ip.com.
 blum.tj.		7200	IN	NS	ns10.managed-ip.com.
 bma.tj.			7200	IN	NS	ns1.rspd.tj.
 bma.tj.			7200	IN	NS	ns2.rspd.tj.
-bmail.tj.		7200	IN	NS	pins1.eastera.tj.
-bmail.tj.		7200	IN	NS	pins2.eastera.tj.
-bmgroup.tj.		7200	IN	NS	ns1.timeweb.ru.
-bmgroup.tj.		7200	IN	NS	ns2.timeweb.ru.
-bmgroup.tj.		7200	IN	NS	ns3.timeweb.org.
-bmgroup.tj.		7200	IN	NS	ns4.timeweb.org.
 bmmg-qt.tj.		7200	IN	NS	ns1.spaceweb.ru.
 bmmg-qt.tj.		7200	IN	NS	ns2.spaceweb.ru.
 bmmg-qt.tj.		7200	IN	NS	ns3.spaceweb.pro.
@@ -1916,8 +1910,10 @@ braven.tj.		7200	IN	NS	ns1.101domain.co.
 braven.tj.		7200	IN	NS	ns2.101domain.com.
 bravo.tj.		7200	IN	NS	ns1.ehost.tj.
 bravo.tj.		7200	IN	NS	ns2.ehost.tj.
-brconsult.tj.		7200	IN	NS	ns.tojikiston.com.
-brconsult.tj.		7200	IN	NS	ns1.tojikiston.com.
+brconsult.tj.		7200	IN	NS	ns1.timeweb.ru.
+brconsult.tj.		7200	IN	NS	ns2.timeweb.ru.
+brconsult.tj.		7200	IN	NS	ns3.timeweb.org.
+brconsult.tj.		7200	IN	NS	ns4.timeweb.org.
 breastcancer-spb.tj.	7200	IN	NS	ns1.regdom.kz.
 breastcancer-spb.tj.	7200	IN	NS	ns2.regdom.kz.
 brelki.tj.		7200	IN	NS	ns1.beget.com.
@@ -2003,8 +1999,6 @@ buy.tj.			7200	IN	NS	ns2.firstvds.ru.
 buzstartup.tj.		7200	IN	NS	ns1.site4now.net.
 buzstartup.tj.		7200	IN	NS	ns2.site4now.net.
 buzstartup.tj.		7200	IN	NS	ns3.site4now.net.
-buzzin.tj.		7200	IN	NS	ns.tojikiston.com.
-buzzin.tj.		7200	IN	NS	ns1.tojikiston.com.
 bwin.tj.		7200	IN	NS	ns1.ndns.cn.
 bwin.tj.		7200	IN	NS	ns2.ndns.cn.
 bx.tj.			7200	IN	NS	ns1.domainparking.ru.
@@ -3381,8 +3375,6 @@ commax.tj.		7200	IN	NS	ns.tojikiston.com.
 commax.tj.		7200	IN	NS	ns1.tojikiston.com.
 commerce.tj.		7200	IN	NS	ns1.get.tj.
 commerce.tj.		7200	IN	NS	ns2.get.tj.
-comnaqliyot.tj.		7200	IN	NS	pins1.eastera.tj.
-comnaqliyot.tj.		7200	IN	NS	pins2.eastera.tj.
 comon.tj.		7200	IN	NS	ns1.tajnet.ru.
 comon.tj.		7200	IN	NS	ns2.tajnet.ru.
 comp.tj.		7200	IN	NS	ns1.tajnet.ru.
@@ -3537,10 +3529,6 @@ cso.tj.			7200	IN	NS	ns1.tojikiston.com.
 cstrike.tj.		7200	IN	NS	ns.saturn.tj.
 cstrike.tj.		7200	IN	NS	ns1.saturn.tj.
 cstrike.tj.		7200	IN	NS	ns2.saturn.tj.
-ctmt.tj.		7200	IN	NS	ns1.timeweb.ru.
-ctmt.tj.		7200	IN	NS	ns2.timeweb.ru.
-ctmt.tj.		7200	IN	NS	ns3.timeweb.org.
-ctmt.tj.		7200	IN	NS	ns4.timeweb.org.
 cto.tj.			7200	IN	NS	ns1.ixbtservers.com.
 cto.tj.			7200	IN	NS	ns2.ixbtservers.com.
 cto.tj.			7200	IN	NS	ns3.ixbtservers.com.
@@ -3920,8 +3908,8 @@ disi.tj.		7200	IN	NS	ns1.ehost.tj.
 disi.tj.		7200	IN	NS	ns2.ehost.tj.
 disney.tj.		7200	IN	NS	sens01.dig.com.
 disney.tj.		7200	IN	NS	sens02.dig.com.
-dit.tj.			7200	IN	NS	ns1.tajnet.ru.
-dit.tj.			7200	IN	NS	ns2.tajnet.ru.
+dit.tj.			7200	IN	NS	ns3.get.tj.
+dit.tj.			7200	IN	NS	ns4.get.tj.
 diyor.tj.		7200	IN	NS	ns1.beget.com.
 diyor.tj.		7200	IN	NS	ns1.beget.pro.
 diyor.tj.		7200	IN	NS	ns2.beget.com.
@@ -4015,9 +4003,6 @@ dornbracht.tj.		7200	IN	NS	dns.webtop.de.
 dornbracht.tj.		7200	IN	NS	dns2.epag.net.
 dorobfight.tj.		7200	IN	NS	ns.tojikiston.com.
 dorobfight.tj.		7200	IN	NS	ns1.tojikiston.com.
-doru.tj.		7200	IN	NS	ns.masterhost.ru.
-doru.tj.		7200	IN	NS	ns1.masterhost.ru.
-doru.tj.		7200	IN	NS	ns2.masterhost.ru.
 doruho.tj.		7200	IN	NS	ns1.intercom.tj.
 doruho.tj.		7200	IN	NS	ns2.intercom.tj.
 doruhona.tj.		7200	IN	NS	ns1.tajnet.ru.
@@ -4147,10 +4132,6 @@ dushanbeair.tj.		7200	IN	NS	pins1.eastera.tj.
 dushanbeair.tj.		7200	IN	NS	pins2.eastera.tj.
 dushanbechess.tj.	7200	IN	NS	ns14.wixdns.net.
 dushanbechess.tj.	7200	IN	NS	ns15.wixdns.net.
-dushanbedesign.tj.	7200	IN	NS	ns1.timeweb.ru.
-dushanbedesign.tj.	7200	IN	NS	ns2.timeweb.ru.
-dushanbedesign.tj.	7200	IN	NS	ns3.timeweb.org.
-dushanbedesign.tj.	7200	IN	NS	ns4.timeweb.org.
 dushanbemaorif.tj.	7200	IN	NS	ns.tojikiston.com.
 dushanbemaorif.tj.	7200	IN	NS	ns1.tojikiston.com.
 dushanbeplaza.tj.	7200	IN	NS	ns.tarena.tj.
@@ -4279,8 +4260,6 @@ firdavsi.edu.tj.	7200	IN	NS	ns1.timeweb.ru.
 firdavsi.edu.tj.	7200	IN	NS	ns2.timeweb.ru.
 firdavsi.edu.tj.	7200	IN	NS	ns3.timeweb.org.
 firdavsi.edu.tj.	7200	IN	NS	ns4.timeweb.org.
-ktsu.edu.tj.		7200	IN	NS	ns1059.hostgator.com.
-ktsu.edu.tj.		7200	IN	NS	ns1060.hostgator.com.
 olx.edu.tj.		7200	IN	NS	dns01.naspers.com.
 olx.edu.tj.		7200	IN	NS	dns02.naspers.com.
 pricewaterhousecoopers.edu.tj. 7200 IN	NS	dns1.cscdns.net.
@@ -4668,8 +4647,6 @@ facebook.tj.		7200	IN	NS	ns1.lovellsnames.org.
 facebook.tj.		7200	IN	NS	ns3.lovellsnames.org.
 fackelmann.tj.		7200	IN	NS	dns.osn.de.
 fackelmann.tj.		7200	IN	NS	dns.osn.net.
-fadl.tj.		7200	IN	NS	ns.tojikiston.com.
-fadl.tj.		7200	IN	NS	ns1.tojikiston.com.
 faizobod.tj.		7200	IN	NS	ns1.rspd.tj.
 faizobod.tj.		7200	IN	NS	ns2.rspd.tj.
 falcon.tj.		7200	IN	NS	ns1.tajnet.ru.
@@ -4783,10 +4760,6 @@ fcbarqitojik.tj.	7200	IN	NS	ns1.intercom.tj.
 fcbarqitojik.tj.	7200	IN	NS	ns2.intercom.tj.
 fcdisi.tj.		7200	IN	NS	ns1.ehost.tj.
 fcdisi.tj.		7200	IN	NS	ns2.ehost.tj.
-fcravshan.tj.		7200	IN	NS	ns1.timeweb.ru.
-fcravshan.tj.		7200	IN	NS	ns2.timeweb.ru.
-fcravshan.tj.		7200	IN	NS	ns3.timeweb.org.
-fcravshan.tj.		7200	IN	NS	ns4.timeweb.org.
 fcsipar.tj.		7200	IN	NS	ns1.tajnet.ru.
 fcsipar.tj.		7200	IN	NS	ns2.tajnet.ru.
 fcss.tj.		7200	IN	NS	ns1.cloudns.net.
@@ -5033,8 +5006,8 @@ formula55.tj.		7200	IN	NS	ns1.tojikiston.com.
 formulas.tj.		7200	IN	NS	ns1.dreamhost.com.
 formulas.tj.		7200	IN	NS	ns2.dreamhost.com.
 formulas.tj.		7200	IN	NS	ns3.dreamhost.com.
-forrent.tj.		7200	IN	NS	ns1.beget.ru.
-forrent.tj.		7200	IN	NS	ns2.beget.ru.
+forrent.tj.		7200	IN	NS	ns3.get.tj.
+forrent.tj.		7200	IN	NS	ns4.get.tj.
 fortuna.tj.		7200	IN	NS	ns1.ipower.com.
 fortuna.tj.		7200	IN	NS	ns2.ipower.com.
 fortuna-ko.tj.		7200	IN	NS	ns1.peterhost.ru.
@@ -5165,8 +5138,6 @@ futsal.tj.		7200	IN	NS	ns1.adminvps.ru.
 futsal.tj.		7200	IN	NS	ns2.adminvps.net.
 futsal.tj.		7200	IN	NS	ns3.adminvps.ru.
 futsal.tj.		7200	IN	NS	ns4.adminvps.net.
-futzal.tj.		7200	IN	NS	ns.tojikiston.com.
-futzal.tj.		7200	IN	NS	ns1.tojikiston.com.
 fuzayl.tj.		7200	IN	NS	ns1.get.tj.
 fuzayl.tj.		7200	IN	NS	ns2.get.tj.
 fv.tj.			7200	IN	NS	ns1.domainparking.ru.
@@ -5567,6 +5538,8 @@ groupon.tj.		7200	IN	NS	ns1-68.akam.net.
 groupon.tj.		7200	IN	NS	ns1-209.akam.net.
 grundfos.tj.		7200	IN	NS	is1.grundfos.com.
 grundfos.tj.		7200	IN	NS	auth200.ns.uu.net.
+gruzchik.tj.		7200	IN	NS	ns.tojikiston.com.
+gruzchik.tj.		7200	IN	NS	ns1.tojikiston.com.
 gsakaynak.tj.		7200	IN	NS	pins1.eastera.tj.
 gsakaynak.tj.		7200	IN	NS	pins2.eastera.tj.
 gsm.tj.			7200	IN	NS	a.dns.dedicatedcentral.com.
@@ -5982,8 +5955,6 @@ hotornot.tj.		7200	IN	NS	gss1.monopost.com.
 hotornot.tj.		7200	IN	NS	gss2.monopost.com.
 hotpoint.tj.		7200	IN	NS	ns1.register.it.
 hotpoint.tj.		7200	IN	NS	ns2.register.it.
-hotspot.tj.		7200	IN	NS	ns.tojikiston.com.
-hotspot.tj.		7200	IN	NS	ns1.tojikiston.com.
 hotsprings.tj.		7200	IN	NS	ns1.tajnet.ru.
 hotsprings.tj.		7200	IN	NS	ns2.tajnet.ru.
 house.tj.		7200	IN	NS	ns1.sedoparking.com.
@@ -6322,8 +6293,8 @@ ns1.indigo.tj.		7200	IN	A	195.246.102.2
 ns2.indigo.tj.		7200	IN	A	195.246.103.2
 industry.tj.		7200	IN	NS	ns1.is-fun.net.
 industry.tj.		7200	IN	NS	ns2.is-fun.net.
-inet.tj.		7200	IN	NS	ns1.tajnet.ru.
-inet.tj.		7200	IN	NS	ns2.tajnet.ru.
+inet.tj.		7200	IN	NS	ns3.get.tj.
+inet.tj.		7200	IN	NS	ns4.get.tj.
 inews.tj.		7200	IN	NS	ns1.ucoz.net.
 inews.tj.		7200	IN	NS	ns2.ucoz.net.
 inf.tj.			7200	IN	NS	ns1.park-host.com.
@@ -6368,8 +6339,6 @@ innovation.tj.		7200	IN	NS	ns.tojikiston.com.
 innovation.tj.		7200	IN	NS	ns1.tojikiston.com.
 insharq.tj.		7200	IN	NS	ns1.valuehost.ru.
 insharq.tj.		7200	IN	NS	ns2.valuehost.ru.
-insof.tj.		7200	IN	NS	ns.tojikiston.com.
-insof.tj.		7200	IN	NS	ns1.tojikiston.com.
 instagram.tj.		7200	IN	NS	ns1.lovellsnames.org.
 instagram.tj.		7200	IN	NS	ns2.lovellsnames.org.
 instant.tj.		7200	IN	NS	ns1.get.tj.
@@ -6504,8 +6473,6 @@ ironking.tj.		7200	IN	NS	ns1.payvand.tj.
 ironking.tj.		7200	IN	NS	ns2.payvand.tj.
 ironmountain.tj.	7200	IN	NS	ns1.ironmountain.com.
 ironmountain.tj.	7200	IN	NS	ns2.ironmountain.com.
-irpco-rp.tj.		7200	IN	NS	ns.sugdien.com.
-irpco-rp.tj.		7200	IN	NS	ns2.tajnet.tj.
 irr.tj.			7200	IN	NS	ns1.intercom.tj.
 irr.tj.			7200	IN	NS	ns2.intercom.tj.
 irs.tj.			7200	IN	NS	ns.tojikiston.com.
@@ -6702,6 +6669,8 @@ jahon.tj.		7200	IN	NS	ns2.dreamhost.com.
 jahon.tj.		7200	IN	NS	ns3.dreamhost.com.
 jahonnamo.tj.		7200	IN	NS	ns.tojikiston.com.
 jahonnamo.tj.		7200	IN	NS	ns1.tojikiston.com.
+jaihun.tj.		7200	IN	NS	pins1.eastera.tj.
+jaihun.tj.		7200	IN	NS	pins2.eastera.tj.
 jamoat.tj.		7200	IN	NS	ns1.reg.ru.
 jamoat.tj.		7200	IN	NS	ns2.reg.ru.
 janome.tj.		7200	IN	NS	ns1.mne.ru.
@@ -6863,9 +6832,6 @@ k-flex.tj.		7200	IN	NS	ns1.get.tj.
 k-flex.tj.		7200	IN	NS	ns2.get.tj.
 ka.tj.			7200	IN	NS	ns-a1.conoha.io.
 ka.tj.			7200	IN	NS	ns-a2.conoha.io.
-kadbonu.tj.		7200	IN	NS	ns1.dreamhost.com.
-kadbonu.tj.		7200	IN	NS	ns2.dreamhost.com.
-kadbonu.tj.		7200	IN	NS	ns3.dreamhost.com.
 kadr.tj.		7200	IN	NS	ns.tarena-tj.org.
 kadr.tj.		7200	IN	NS	ns2.tarena.tj.
 kadurov.tj.		7200	IN	NS	ns1.megafon.tj.
@@ -7177,9 +7143,6 @@ kitchenaid.tj.		7200	IN	NS	ns1e.whirlpool.com.
 kitchenaid.tj.		7200	IN	NS	ns3e.whirlpool.com.
 kitk.tj.		7200	IN	NS	ns1.rspd.tj.
 kitk.tj.		7200	IN	NS	ns2.rspd.tj.
-kitob.tj.		7200	IN	NS	ns.masterhost.ru.
-kitob.tj.		7200	IN	NS	ns1.masterhost.ru.
-kitob.tj.		7200	IN	NS	ns2.masterhost.ru.
 kitobho.tj.		7200	IN	NS	ns1.tajnet.ru.
 kitobho.tj.		7200	IN	NS	ns2.tajnet.ru.
 kitobhona.tj.		7200	IN	NS	ns.tojikiston.com.
@@ -7735,8 +7698,6 @@ live.tj.		7200	IN	NS	ns1.tajnet.ru.
 live.tj.		7200	IN	NS	ns2.tajnet.ru.
 liveradio.tj.		7200	IN	NS	ns1.tajnet.ru.
 liveradio.tj.		7200	IN	NS	ns2.tajnet.ru.
-livesport.tj.		7200	IN	NS	ns.tojikiston.com.
-livesport.tj.		7200	IN	NS	ns1.tojikiston.com.
 lizing.tj.		7200	IN	NS	ns1.intercom.tj.
 lizing.tj.		7200	IN	NS	ns2.intercom.tj.
 lj.tj.			7200	IN	NS	ns1.ipower.com.
@@ -8401,8 +8362,6 @@ mehnat.tj.		7200	IN	NS	ns1.intercom.tj.
 mehnat.tj.		7200	IN	NS	ns2.intercom.tj.
 mehrbank.tj.		7200	IN	NS	dns1.yandex.net.
 mehrbank.tj.		7200	IN	NS	dns2.yandex.net.
-mehrivoris.tj.		7200	IN	NS	ns.tojikiston.com.
-mehrivoris.tj.		7200	IN	NS	ns1.tojikiston.com.
 meizu.tj.		7200	IN	NS	ns1.meizu.tj.
 meizu.tj.		7200	IN	NS	ns2.meizu.tj.
 ns1.meizu.tj.		7200	IN	A	88.198.141.188
@@ -8728,8 +8687,6 @@ moshina.tj.		7200	IN	NS	ns1.tajnet.ru.
 moshina.tj.		7200	IN	NS	ns2.tajnet.ru.
 moshinaifurushi.tj.	7200	IN	NS	ns1.tajnet.ru.
 moshinaifurushi.tj.	7200	IN	NS	ns2.tajnet.ru.
-moshinbozor.tj.		7200	IN	NS	ns01.000webhost.com.
-moshinbozor.tj.		7200	IN	NS	ns02.000webhost.com.
 moshinho.tj.		7200	IN	NS	ns.ps.kz.
 moshinho.tj.		7200	IN	NS	ns1.ps.kz.
 moshinifurushi.tj.	7200	IN	NS	ns1.tajnet.ru.
@@ -9960,8 +9917,6 @@ pamirbio.tj.		7200	IN	NS	pins1.eastera.tj.
 pamirbio.tj.		7200	IN	NS	pins2.eastera.tj.
 pamirbiopreparat.tj.	7200	IN	NS	pins1.eastera.tj.
 pamirbiopreparat.tj.	7200	IN	NS	pins2.eastera.tj.
-pamirecotourism.tj.	7200	IN	NS	dns1.hostiq.com.ua.
-pamirecotourism.tj.	7200	IN	NS	dns2.hostiq.com.ua.
 pamirgems.tj.		7200	IN	NS	beta.hostlife.net.
 pamirgems.tj.		7200	IN	NS	alpha.hostlife.net.
 pamirguide.tj.		7200	IN	NS	ns1.get.tj.
@@ -10419,10 +10374,6 @@ prmatt.tj.		7200	IN	NS	pins1.eastera.tj.
 prmatt.tj.		7200	IN	NS	pins2.eastera.tj.
 pro-tour.tj.		7200	IN	NS	ns1.megafon.tj.
 pro-tour.tj.		7200	IN	NS	ns2.megafontj.ru.
-probirnadzor.tj.	7200	IN	NS	ns1.timeweb.ru.
-probirnadzor.tj.	7200	IN	NS	ns2.timeweb.ru.
-probirnadzor.tj.	7200	IN	NS	ns3.timeweb.org.
-probirnadzor.tj.	7200	IN	NS	ns4.timeweb.org.
 processing.tj.		7200	IN	NS	ns1.tajnet.ru.
 processing.tj.		7200	IN	NS	ns2.tajnet.ru.
 procto.tj.		7200	IN	NS	ns49.iphoster.net.
@@ -10595,8 +10546,8 @@ qumsangir.tj.		7200	IN	NS	pins1.eastera.tj.
 qumsangir.tj.		7200	IN	NS	pins2.eastera.tj.
 quran.tj.		7200	IN	NS	ns1.tajnet.ru.
 quran.tj.		7200	IN	NS	ns2.tajnet.ru.
-qurghonteppa.tj.	7200	IN	NS	ns1.skyhost.pk.
-qurghonteppa.tj.	7200	IN	NS	ns2.skyhost.pk.
+qurghonteppa.tj.	7200	IN	NS	ns1.hothat.ru.
+qurghonteppa.tj.	7200	IN	NS	ns2.hothat.ru.
 qurut.tj.		7200	IN	NS	ns1.get.tj.
 qurut.tj.		7200	IN	NS	ns2.get.tj.
 quvvat.tj.		7200	IN	NS	pins1.eastera.tj.
@@ -10824,9 +10775,6 @@ report.tj.		7200	IN	NS	ns1.billur.net.
 report.tj.		7200	IN	NS	ns2.billur.net.
 resanda.tj.		7200	IN	NS	pins1.eastera.tj.
 resanda.tj.		7200	IN	NS	pins2.eastera.tj.
-research.tj.		7200	IN	NS	ns1.wordpress.com.
-research.tj.		7200	IN	NS	ns2.wordpress.com.
-research.tj.		7200	IN	NS	ns3.wordpress.com.
 resort.tj.		7200	IN	NS	ns1.sedoparking.com.
 resort.tj.		7200	IN	NS	ns2.sedoparking.com.
 resorts.tj.		7200	IN	NS	ns1.sedoparking.com.
@@ -11053,8 +11001,10 @@ russia.tj.		7200	IN	NS	ns1.tajnet.ru.
 russia.tj.		7200	IN	NS	ns2.tajnet.ru.
 russian.tj.		7200	IN	NS	ns1.get.tj.
 russian.tj.		7200	IN	NS	ns2.get.tj.
-rustam.tj.		7200	IN	NS	ns1.mastak.ru.
-rustam.tj.		7200	IN	NS	ns1.list-int.com.
+rustam.tj.		7200	IN	NS	ns1.timeweb.ru.
+rustam.tj.		7200	IN	NS	ns2.timeweb.ru.
+rustam.tj.		7200	IN	NS	ns3.timeweb.org.
+rustam.tj.		7200	IN	NS	ns4.timeweb.org.
 rustami-kosim.tj.	7200	IN	NS	ns.tojikiston.com.
 rustami-kosim.tj.	7200	IN	NS	ns1.tojikiston.com.
 rustrade.tj.		7200	IN	NS	pins1.eastera.tj.
@@ -11120,10 +11070,10 @@ safecity.tj.		7200	IN	NS	ns1.cloudns.net.
 safecity.tj.		7200	IN	NS	ns2.cloudns.net.
 safecity.tj.		7200	IN	NS	ns3.cloudns.net.
 safecity.tj.		7200	IN	NS	ns4.cloudns.net.
-safed-dara.tj.		7200	IN	NS	ns1.fullspace.ru.
-safed-dara.tj.		7200	IN	NS	ns2.fullspace.ru.
-safeddara.tj.		7200	IN	NS	ns1.fullspace.ru.
-safeddara.tj.		7200	IN	NS	ns2.fullspace.ru.
+safed-dara.tj.		7200	IN	NS	ns3.get.tj.
+safed-dara.tj.		7200	IN	NS	ns4.get.tj.
+safeddara.tj.		7200	IN	NS	ns3.get.tj.
+safeddara.tj.		7200	IN	NS	ns4.get.tj.
 safepay.tj.		7200	IN	NS	ns1.he.net.
 safepay.tj.		7200	IN	NS	ns2.he.net.
 safety.tj.		7200	IN	NS	ns1.get.tj.
@@ -11238,9 +11188,6 @@ salo.tj.		7200	IN	NS	ns1.kapsi.fi.
 salo.tj.		7200	IN	NS	ns2.kapsi.fi.
 salom.tj.		7200	IN	NS	ns.tojikiston.com.
 salom.tj.		7200	IN	NS	ns1.tojikiston.com.
-salomati.tj.		7200	IN	NS	ns.masterhost.ru.
-salomati.tj.		7200	IN	NS	ns1.masterhost.ru.
-salomati.tj.		7200	IN	NS	ns2.masterhost.ru.
 salomchat.tj.		7200	IN	NS	ns1.hostmetro.com.
 salomchat.tj.		7200	IN	NS	ns2.hostmetro.com.
 salon.tj.		7200	IN	NS	ns1.firstvds.ru.
@@ -11259,8 +11206,6 @@ samandschool.tj.	7200	IN	NS	ns3.timeweb.org.
 samandschool.tj.	7200	IN	NS	ns4.timeweb.org.
 sambo.tj.		7200	IN	NS	ns1.sedoparking.com.
 sambo.tj.		7200	IN	NS	ns2.sedoparking.com.
-samet.tj.		7200	IN	NS	ns.tojikiston.com.
-samet.tj.		7200	IN	NS	ns1.tojikiston.com.
 samimi.tj.		7200	IN	NS	ns1.timeweb.ru.
 samimi.tj.		7200	IN	NS	ns2.timeweb.ru.
 samimi.tj.		7200	IN	NS	ns3.timeweb.org.
@@ -11510,10 +11455,8 @@ shahriyor.tj.		7200	IN	NS	ns5.delux.tj.
 shahriyor.tj.		7200	IN	NS	ns6.delux.tj.
 shahrvand.tj.		7200	IN	NS	ns.tojikiston.com.
 shahrvand.tj.		7200	IN	NS	ns1.tojikiston.com.
-sham-va-sha.tj.		7200	IN	NS	ns1.spaceweb.ru.
-sham-va-sha.tj.		7200	IN	NS	ns2.spaceweb.ru.
-sham-va-sha.tj.		7200	IN	NS	ns3.spaceweb.pro.
-sham-va-sha.tj.		7200	IN	NS	ns4.spaceweb.pro.
+sham-va-sha.tj.		7200	IN	NS	ns1.hothat.ru.
+sham-va-sha.tj.		7200	IN	NS	ns2.hothat.ru.
 shambari.tj.		7200	IN	NS	ns.tojikiston.com.
 shambari.tj.		7200	IN	NS	ns1.tojikiston.com.
 shamrock.tj.		7200	IN	NS	ns1.101domain.com.
@@ -11573,10 +11516,6 @@ shior1.tj.		7200	IN	NS	ns.tojikiston.com.
 shior1.tj.		7200	IN	NS	ns1.tojikiston.com.
 shire.tj.		7200	IN	NS	ns1.netnames.net.
 shire.tj.		7200	IN	NS	ns2.netnames.net.
-shirin.tj.		7200	IN	NS	ns1.timeweb.ru.
-shirin.tj.		7200	IN	NS	ns2.timeweb.ru.
-shirin.tj.		7200	IN	NS	ns3.timeweb.org.
-shirin.tj.		7200	IN	NS	ns4.timeweb.org.
 shirini.tj.		7200	IN	NS	ns1.tajnet.ru.
 shirini.tj.		7200	IN	NS	ns2.tajnet.ru.
 shiriniho.tj.		7200	IN	NS	ns1.rsnx.ru.
@@ -11587,10 +11526,6 @@ shoes.tj.		7200	IN	NS	ns1.eurobyte.ru.
 shoes.tj.		7200	IN	NS	ns2.eurobyte.ru.
 shoes.tj.		7200	IN	NS	ns3.eurobyte.ru.
 shoes.tj.		7200	IN	NS	ns4.eurobyte.ru.
-shogird.tj.		7200	IN	NS	ns1.timeweb.ru.
-shogird.tj.		7200	IN	NS	ns2.timeweb.ru.
-shogird.tj.		7200	IN	NS	ns3.timeweb.org.
-shogird.tj.		7200	IN	NS	ns4.timeweb.org.
 shoh-sat.tj.		7200	IN	NS	ns1.tajnet.ru.
 shoh-sat.tj.		7200	IN	NS	ns2.tajnet.ru.
 shohin-bmt.tj.		7200	IN	NS	ns1.ehost.tj.
@@ -11615,12 +11550,10 @@ shon-mc.tj.		7200	IN	NS	ns.tojikiston.com.
 shon-mc.tj.		7200	IN	NS	ns1.tojikiston.com.
 shooting.tj.		7200	IN	NS	ns.tojikiston.com.
 shooting.tj.		7200	IN	NS	ns1.tojikiston.com.
-shop.tj.		7200	IN	NS	ns.tojikiston.com.
-shop.tj.		7200	IN	NS	ns1.tojikiston.com.
-shopnow.tj.		7200	IN	NS	ns6133.hostgator.com.
-shopnow.tj.		7200	IN	NS	ns6134.hostgator.com.
-shopping.tj.		7200	IN	NS	ns1.digitalocean.com.
-shopping.tj.		7200	IN	NS	ns2.digitalocean.com.
+shop.tj.		7200	IN	NS	ns1.timeweb.ru.
+shop.tj.		7200	IN	NS	ns2.timeweb.ru.
+shop.tj.		7200	IN	NS	ns3.timeweb.org.
+shop.tj.		7200	IN	NS	ns4.timeweb.org.
 shops.tj.		7200	IN	NS	ns1.get.tj.
 shops.tj.		7200	IN	NS	ns2.get.tj.
 shoptime.tj.		7200	IN	NS	ns1.get.tj.
@@ -11649,6 +11582,8 @@ siegenia-aubi.tj.	7200	IN	NS	ns1.is-fun.net.
 siegenia-aubi.tj.	7200	IN	NS	ns2.is-fun.net.
 sifat.tj.		7200	IN	NS	ns1.rsnx.ru.
 sifat.tj.		7200	IN	NS	ns2.rsnx.ru.
+sifat-2016.tj.		7200	IN	NS	ns1.ehost.tj.
+sifat-2016.tj.		7200	IN	NS	ns2.ehost.tj.
 sigma.tj.		7200	IN	NS	ns1.shedevr.com.
 sigma.tj.		7200	IN	NS	ns2.shedevr.com.
 silk.tj.		7200	IN	NS	ns1.get.tj.
@@ -11711,8 +11646,8 @@ sipehr.tj.		7200	IN	NS	ns1.hosting.reg.ru.
 sipehr.tj.		7200	IN	NS	ns2.hosting.reg.ru.
 sipehrhotel.tj.		7200	IN	NS	ns1.ihc.ru.
 sipehrhotel.tj.		7200	IN	NS	ns2.ihc.ru.
-sipos.tj.		7200	IN	NS	ns1.rsnx.ru.
-sipos.tj.		7200	IN	NS	ns2.rsnx.ru.
+sipos.tj.		7200	IN	NS	ns1.ehost.tj.
+sipos.tj.		7200	IN	NS	ns2.ehost.tj.
 sir.tj.			7200	IN	NS	ns1.hostinger.co.uk.
 sir.tj.			7200	IN	NS	ns2.hostinger.co.uk.
 siroyat.tj.		7200	IN	NS	ns.tarena.tj.
@@ -11725,10 +11660,6 @@ site.tj.		7200	IN	NS	ns1.sedoparking.com.
 site.tj.		7200	IN	NS	ns2.sedoparking.com.
 site-master.tj.		7200	IN	NS	pins1.eastera.tj.
 site-master.tj.		7200	IN	NS	pins2.eastera.tj.
-sites.tj.		7200	IN	NS	ns.sites.tj.
-sites.tj.		7200	IN	NS	ns1.sites.tj.
-ns.sites.tj.		7200	IN	A	178.79.182.158
-ns1.sites.tj.		7200	IN	A	89.222.177.153
 sitora.tj.		7200	IN	NS	ns1.get.tj.
 sitora.tj.		7200	IN	NS	ns2.get.tj.
 siyarov.tj.		7200	IN	NS	ns1.tajnet.ru.
@@ -11852,9 +11783,6 @@ social.tj.		7200	IN	NS	ns1.101domain.com.
 social.tj.		7200	IN	NS	ns2.101domain.com.
 society.tj.		7200	IN	NS	ns1.get.tj.
 society.tj.		7200	IN	NS	ns2.get.tj.
-sociology.tj.		7200	IN	NS	ns.masterhost.ru.
-sociology.tj.		7200	IN	NS	ns1.masterhost.ru.
-sociology.tj.		7200	IN	NS	ns2.masterhost.ru.
 sodiq.tj.		7200	IN	NS	ns1000.mochahost.com.
 sodiq.tj.		7200	IN	NS	ns2000.mochahost.com.
 sodirotbonk.tj.		7200	IN	NS	ns.tojikiston.com.
@@ -11942,8 +11870,6 @@ song.tj.		7200	IN	NS	ns1.activeby.net.
 song.tj.		7200	IN	NS	ns2.activby.net.
 songs.tj.		7200	IN	NS	mira.ns.cloudflare.com.
 songs.tj.		7200	IN	NS	toby.ns.cloudflare.com.
-sonia.tj.		7200	IN	NS	ns.tojikiston.com.
-sonia.tj.		7200	IN	NS	ns1.tojikiston.com.
 soniya.tj.		7200	IN	NS	ns.tojikiston.com.
 soniya.tj.		7200	IN	NS	ns1.tojikiston.com.
 sonora.tj.		7200	IN	NS	ns1.bdm.microsoftonline.com.
@@ -11981,14 +11907,14 @@ spa.tj.			7200	IN	NS	ns1.tajnet.ru.
 spa.tj.			7200	IN	NS	ns2.tajnet.ru.
 spa-haet.tj.		7200	IN	NS	ns.tojikiston.com.
 spa-haet.tj.		7200	IN	NS	ns1.tojikiston.com.
-spa-hayot.tj.		7200	IN	NS	ns1.tajnet.ru.
-spa-hayot.tj.		7200	IN	NS	ns2.tajnet.ru.
+spa-hayot.tj.		7200	IN	NS	ns3.get.tj.
+spa-hayot.tj.		7200	IN	NS	ns4.get.tj.
 space.tj.		7200	IN	NS	ns1.sedoparking.com.
 space.tj.		7200	IN	NS	ns2.sedoparking.com.
 spaces.tj.		7200	IN	NS	ns.sugdien.com.
 spaces.tj.		7200	IN	NS	ns2.tajnet.tj.
-spahayot.tj.		7200	IN	NS	ns1.fullspace.ru.
-spahayot.tj.		7200	IN	NS	ns2.fullspace.ru.
+spahayot.tj.		7200	IN	NS	ns3.get.tj.
+spahayot.tj.		7200	IN	NS	ns4.get.tj.
 spapharma.tj.		7200	IN	NS	ns1.rsnx.ru.
 spapharma.tj.		7200	IN	NS	ns2.rsnx.ru.
 sparepart.tj.		7200	IN	NS	ns1.rsnx.ru.
@@ -12482,10 +12408,6 @@ tachki.tj.		7200	IN	NS	ns02.parking.ru.
 tachki.tj.		7200	IN	NS	ns03.parking.ru.
 taciser.tj.		7200	IN	NS	pins1.eastera.tj.
 taciser.tj.		7200	IN	NS	pins2.eastera.tj.
-tacom.tj.		7200	IN	NS	as.tacom.tj.
-tacom.tj.		7200	IN	NS	ns.tacom.tj.
-as.tacom.tj.		7200	IN	A	85.9.129.36
-ns.tacom.tj.		7200	IN	A	85.9.129.38
 tades.tj.		7200	IN	NS	dns1.yandex.net.
 tades.tj.		7200	IN	NS	dns2.yandex.net.
 tadibel.tj.		7200	IN	NS	ns1.hosting.reg.ru.
@@ -13121,6 +13043,9 @@ tickets.tj.		7200	IN	NS	ns.tjpro.net.
 tickets.tj.		7200	IN	NS	ns2.tjpro.net.
 ticketservice.tj.	7200	IN	NS	dns1.yandex.net.
 ticketservice.tj.	7200	IN	NS	dns2.yandex.net.
+tickettj.tj.		7200	IN	NS	ns01.trademarkarea.com.
+tickettj.tj.		7200	IN	NS	ns02.trademarkarea.com.
+tickettj.tj.		7200	IN	NS	ns03.trademarkarea.com.
 tiffany.tj.		7200	IN	NS	dns1.cscdns.net.
 tiffany.tj.		7200	IN	NS	dns2.cscdns.net.
 tiflakon.tj.		7200	IN	NS	ns1.megafon.tj.
@@ -13198,8 +13123,8 @@ tjo.tj.			7200	IN	NS	ns.tojikiston.com.
 tjo.tj.			7200	IN	NS	ns1.tojikiston.com.
 tk.tj.			7200	IN	NS	ns1.rsnx.ru.
 tk.tj.			7200	IN	NS	ns2.rsnx.ru.
-tkd.tj.			7200	IN	NS	ns.majordomo.ru.
-tkd.tj.			7200	IN	NS	ns2.majordomo.ru.
+tkd.tj.			7200	IN	NS	ns3.get.tj.
+tkd.tj.			7200	IN	NS	ns4.get.tj.
 tlm.tj.			7200	IN	NS	ns1.timeweb.ru.
 tlm.tj.			7200	IN	NS	ns2.timeweb.ru.
 tlm.tj.			7200	IN	NS	ns3.timeweb.org.
@@ -13311,8 +13236,6 @@ tojvard.tj.		7200	IN	NS	dns1.yandex.net.
 tojvard.tj.		7200	IN	NS	dns2.yandex.net.
 tojvarz.tj.		7200	IN	NS	ns1.rsnx.ru.
 tojvarz.tj.		7200	IN	NS	ns2.rsnx.ru.
-tojweb.tj.		7200	IN	NS	ns.tojikiston.com.
-tojweb.tj.		7200	IN	NS	ns1.tojikiston.com.
 tojwood.tj.		7200	IN	NS	ns.sugdien.com.
 tojwood.tj.		7200	IN	NS	ns2.tajnet.tj.
 tok.tj.			7200	IN	NS	ns1.sedoparking.com.
@@ -13355,8 +13278,6 @@ topshop.tj.		7200	IN	NS	ns1.jino.ru.
 topshop.tj.		7200	IN	NS	ns2.jino.ru.
 topstar.tj.		7200	IN	NS	ns1.beget.ru.
 topstar.tj.		7200	IN	NS	ns2.beget.ru.
-toptjk.tj.		7200	IN	NS	ns1.ucoz.net.
-toptjk.tj.		7200	IN	NS	ns2.ucoz.net.
 topvideo.tj.		7200	IN	NS	ns.tojikiston.com.
 topvideo.tj.		7200	IN	NS	ns1.tojikiston.com.
 topvldeo.tj.		7200	IN	NS	ns.tojikiston.com.
@@ -13544,8 +13465,6 @@ trustpay.tj.		7200	IN	NS	ns.tojikiston.com.
 trustpay.tj.		7200	IN	NS	ns1.tojikiston.com.
 trustpilot.tj.		7200	IN	NS	ns-296.awsdns-37.com.
 trustpilot.tj.		7200	IN	NS	ns-516.awsdns-00.net.
-trustpilot.tj.		7200	IN	NS	ns-1230.awsdns-25.org.
-trustpilot.tj.		7200	IN	NS	ns-1931.awsdns-49.co.uk.
 truth.tj.		7200	IN	NS	ns1.sedoparking.com.
 truth.tj.		7200	IN	NS	ns2.sedoparking.com.
 ts.tj.			7200	IN	NS	pns11.cloudns.net.
@@ -13861,8 +13780,8 @@ vahdat.tj.		7200	IN	NS	ns.tojikiston.com.
 vahdat.tj.		7200	IN	NS	ns1.tojikiston.com.
 vak.tj.			7200	IN	NS	ns3.ism.tj.
 vak.tj.			7200	IN	NS	ns4.ism.tj.
-vakilon.tj.		7200	IN	NS	dns1.yandex.net.
-vakilon.tj.		7200	IN	NS	dns2.yandex.net.
+vakilon.tj.		7200	IN	NS	ns.tojikiston.com.
+vakilon.tj.		7200	IN	NS	ns1.tojikiston.com.
 vakuummash.tj.		7200	IN	NS	ns1.beget.ru.
 vakuummash.tj.		7200	IN	NS	ns2.beget.ru.
 valamat-zade.tj.	7200	IN	NS	ns1.intercom.tj.
@@ -14401,8 +14320,8 @@ wl.tj.			7200	IN	NS	ns2.get.tj.
 wm.tj.			7200	IN	NS	ns1.valuehost.ru.
 wm.tj.			7200	IN	NS	ns2.valuehost.ru.
 wm.tj.			7200	IN	NS	ns3.valuehost.ru.
-wm-khujand.tj.		7200	IN	NS	ns23.7skyhost.com.
-wm-khujand.tj.		7200	IN	NS	ns24.7skyhost.com.
+wm-khujand.tj.		7200	IN	NS	ns1.timeweb.ru.
+wm-khujand.tj.		7200	IN	NS	ns2.timeweb.ru.
 wm-ophthalmics.tj.	7200	IN	NS	ns1.wm-article.com.
 wmf.tj.			7200	IN	NS	ns1.rsnx.ru.
 wmf.tj.			7200	IN	NS	ns2.rsnx.ru.
@@ -14424,10 +14343,6 @@ women.tj.		7200	IN	NS	ns1.get.tj.
 women.tj.		7200	IN	NS	ns2.get.tj.
 womeninscience.tj.	7200	IN	NS	pins1.eastera.tj.
 womeninscience.tj.	7200	IN	NS	pins2.eastera.tj.
-womensport.tj.		7200	IN	NS	ns1.timeweb.ru.
-womensport.tj.		7200	IN	NS	ns2.timeweb.ru.
-womensport.tj.		7200	IN	NS	ns3.timeweb.org.
-womensport.tj.		7200	IN	NS	ns4.timeweb.org.
 wonderful.tj.		7200	IN	NS	ns1.rspd.tj.
 wonderful.tj.		7200	IN	NS	ns2.rspd.tj.
 woods.tj.		7200	IN	NS	ns1.firstvds.ru.
@@ -14923,4 +14838,4 @@ zz.tj.			7200	IN	NS	pns11.cloudns.net.
 zz.tj.			7200	IN	NS	pns12.cloudns.net.
 zzz.tj.			7200	IN	NS	ns1.ihc.ru.
 zzz.tj.			7200	IN	NS	ns2.ihc.ru.
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2017051702 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2017051901 7200 3600 2678400 7200

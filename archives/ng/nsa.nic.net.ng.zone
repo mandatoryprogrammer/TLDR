@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ng. @nsa.nic.net.ng. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017051946 10800 3600 604800 3600
-ng.			21600	IN	TXT	"Generation Time: 1495231554"
+ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017052003 10800 3600 604800 3600
+ng.			21600	IN	TXT	"Generation Time: 1495242355"
 ng.			21600	IN	NS	ns1.nic.net.ng.
 ng.			21600	IN	NS	ns2.nic.net.ng.
 ng.			21600	IN	NS	ns5.nic.net.ng.
@@ -232,6 +232,8 @@ ns2.4sale.ng.		21600	IN	A	216.246.124.169
 8thsenatewives.ng.	21600	IN	NS	ns28.whogohost.com.
 8trim.ng.		21600	IN	NS	ns1.whogohost.com.
 8trim.ng.		21600	IN	NS	ns2.whogohost.com.
+9-direct.ng.		21600	IN	NS	ns9.whogohost.com.
+9-direct.ng.		21600	IN	NS	ns10.whogohost.com.
 909wallet.ng.		21600	IN	NS	ns1.lexsynergy.net.
 909wallet.ng.		21600	IN	NS	ns2.lexsynergy.us.
 909wallet.ng.		21600	IN	NS	ns3.lexsynergy.info.
@@ -1485,8 +1487,6 @@ anytask.ng.		21600	IN	NS	ns1.web4africa.com.
 anytask.ng.		21600	IN	NS	ns2.web4africa.com.
 anytask.ng.		21600	IN	NS	ns3.web4africa.com.
 anytask.ng.		21600	IN	NS	ns4.web4africa.com.
-anythi.ng.		21600	IN	NS	ns1.sedoparking.com.
-anythi.ng.		21600	IN	NS	ns2.sedoparking.com.
 anywash.ng.		21600	IN	NS	sue.ns.cloudflare.com.
 anywash.ng.		21600	IN	NS	newt.ns.cloudflare.com.
 anywork.ng.		21600	IN	NS	dns1.namecheaphosting.com.
@@ -3523,8 +3523,6 @@ breadlifefoods.ng.	21600	IN	NS	ns1.web4africa.com.
 breadlifefoods.ng.	21600	IN	NS	ns2.web4africa.com.
 breadlifefoods.ng.	21600	IN	NS	ns3.web4africa.com.
 breadlifefoods.ng.	21600	IN	NS	ns4.web4africa.com.
-breadlounge.ng.		21600	IN	NS	ns1.rdm.ng.
-breadlounge.ng.		21600	IN	NS	ns2.rdm.ng.
 breakfast.ng.		21600	IN	NS	ns1.digitalocean.com.
 breakfast.ng.		21600	IN	NS	ns2.digitalocean.com.
 breakfast.ng.		21600	IN	NS	ns3.digitalocean.com.
@@ -5328,8 +5326,6 @@ coker.ng.		21600	IN	NS	ns1.upperserver2.com.
 coker.ng.		21600	IN	NS	ns1.upperserver3.com.
 cokestudio.ng.		21600	IN	NS	ns3.ko.com.
 cokestudio.ng.		21600	IN	NS	ns4.ko.com.
-coldstone.ng.		21600	IN	NS	ns1.whogohost.com.
-coldstone.ng.		21600	IN	NS	ns2.whogohost.com.
 coldstonecreamery.ng.	21600	IN	NS	ns1.domain.com.
 coldstonecreamery.ng.	21600	IN	NS	ns2.domain.com.
 coldwellbanker.ng.	21600	IN	NS	ogre.mbp.ro.
@@ -6058,10 +6054,6 @@ ctrl4c.ng.		21600	IN	NS	ns4.ctrls.in.
 ctrl4c.ng.		21600	IN	NS	ns5.ctrls.in.
 ctrls.ng.		21600	IN	NS	ns4.ctrls.in.
 ctrls.ng.		21600	IN	NS	ns5.ctrls.in.
-ctv.ng.			21600	IN	NS	ns1.web4africa.com.
-ctv.ng.			21600	IN	NS	ns2.web4africa.com.
-ctv.ng.			21600	IN	NS	ns3.web4africa.com.
-ctv.ng.			21600	IN	NS	ns4.web4africa.com.
 cty.ng.			21600	IN	NS	ns1.domain.com.
 cty.ng.			21600	IN	NS	ns2.domain.com.
 cuba.ng.		21600	IN	NS	cp.nira.org.ng.
@@ -6473,8 +6465,6 @@ dedgemart.ng.		21600	IN	NS	ns55.whogohost.com.
 dedgemart.ng.		21600	IN	NS	ns56.whogohost.com.
 dedicatedservers.ng.	21600	IN	NS	ns1.ibstack.com.
 dedicatedservers.ng.	21600	IN	NS	ns2.ibstack.com.
-deedoveprojectors.ng.	21600	IN	NS	ns1.optiedgenigeria.com.
-deedoveprojectors.ng.	21600	IN	NS	ns2.optiedgenigeria.com.
 deeplearni.ng.		21600	IN	NS	ns-18.awsdns-02.com.
 deeplearni.ng.		21600	IN	NS	ns-782.awsdns-33.net.
 deeplearni.ng.		21600	IN	NS	ns-1227.awsdns-25.org.
@@ -7296,10 +7286,8 @@ easyentry.ng.		21600	IN	NS	ns1.trebligony.com.
 easyentry.ng.		21600	IN	NS	ns2.trebligony.com.
 easyfix.ng.		21600	IN	NS	ns1.dkstack.com.
 easyfix.ng.		21600	IN	NS	ns2.dkstack.com.
-easyfuel.ng.		21600	IN	NS	ns1.easyfuel.ng.
-easyfuel.ng.		21600	IN	NS	ns2.easyfuel.ng.
-ns1.easyfuel.ng.	21600	IN	A	108.167.187.141
-ns2.easyfuel.ng.	21600	IN	A	108.167.187.135
+easyfuel.ng.		21600	IN	NS	ns1.myfuel.ng.
+easyfuel.ng.		21600	IN	NS	ns2.myfuel.ng.
 easygoi.ng.		21600	IN	NS	ns.endora.cz.
 easygoi.ng.		21600	IN	NS	ns.endoraland.com.
 easyhire.ng.		21600	IN	NS	ns1.easyhire.ng.
@@ -8695,6 +8683,8 @@ farms2families.ng.	21600	IN	NS	ns1.web4africa.com.
 farms2families.ng.	21600	IN	NS	ns2.web4africa.com.
 farms2families.ng.	21600	IN	NS	ns3.web4africa.com.
 farms2families.ng.	21600	IN	NS	ns4.web4africa.com.
+farms2shelves.ng.	21600	IN	NS	ns1.whogohost.com.
+farms2shelves.ng.	21600	IN	NS	ns2.whogohost.com.
 farmshoppe.ng.		21600	IN	NS	ns1.upperserver23.com.
 farmshoppe.ng.		21600	IN	NS	ns2.upperserver23.com.
 faroeislands.ng.	21600	IN	NS	cp.nira.org.ng.
@@ -12083,8 +12073,6 @@ ibekachikwu.ng.		21600	IN	NS	ns1.bluehost.com.
 ibekachikwu.ng.		21600	IN	NS	ns2.bluehost.com.
 ibelieve.ng.		21600	IN	NS	ns7.qservers.net.
 ibelieve.ng.		21600	IN	NS	ns8.qservers.net.
-ibid.ng.		21600	IN	NS	ns1.upperserver23.com.
-ibid.ng.		21600	IN	NS	ns2.upperserver23.com.
 ibike.ng.		21600	IN	NS	ns1.upperserver23.com.
 ibike.ng.		21600	IN	NS	ns2.upperserver23.com.
 ibile.ng.		21600	IN	NS	ns1.whogohost.com.
@@ -12501,6 +12489,8 @@ infodesk.ng.		21600	IN	NS	ns1.infodesk.ng.
 infodesk.ng.		21600	IN	NS	ns2.infodesk.ng.
 ns1.infodesk.ng.	21600	IN	A	176.9.249.126
 ns2.infodesk.ng.	21600	IN	A	176.9.249.114
+infohub.ng.		21600	IN	NS	ns9.whogohost.com.
+infohub.ng.		21600	IN	NS	ns10.whogohost.com.
 infoisinfo.ng.		21600	IN	NS	ns-421.awsdns-52.com.
 infoisinfo.ng.		21600	IN	NS	ns-794.awsdns-35.net.
 infoisinfo.ng.		21600	IN	NS	ns-1193.awsdns-21.org.
@@ -13066,8 +13056,8 @@ italy.ng.		21600	IN	NS	cp.nira.org.ng.
 italy.ng.		21600	IN	NS	ns1.nira.org.ng.
 itan.ng.		21600	IN	NS	carl.ns.cloudflare.com.
 itan.ng.		21600	IN	NS	dawn.ns.cloudflare.com.
-itedgenews.ng.		21600	IN	NS	dns1.namecheaphosting.com.
-itedgenews.ng.		21600	IN	NS	dns2.namecheaphosting.com.
+itedgenews.ng.		21600	IN	NS	cns211.hostgator.com.
+itedgenews.ng.		21600	IN	NS	cns212.hostgator.com.
 itenics.ng.		21600	IN	NS	ns25.doveserver.com.
 itenics.ng.		21600	IN	NS	ns26.doveserver.com.
 itjobz.ng.		21600	IN	NS	ns1.eco-dns.co.uk.
@@ -13158,8 +13148,6 @@ jabo.ng.		21600	IN	NS	ns1.sedoparking.com.
 jabo.ng.		21600	IN	NS	ns2.sedoparking.com.
 jabra.ng.		21600	IN	NS	ns.domainnetwork.se.
 jabra.ng.		21600	IN	NS	ns2.domainnetwork.se.
-jabu.ng.		21600	IN	NS	ns1.gigalayer.com.
-jabu.ng.		21600	IN	NS	ns2.gigalayer.com.
 jackdaniels.ng.		21600	IN	NS	ns1.clt.peak-10.com.
 jackdaniels.ng.		21600	IN	NS	ns1.jax.peak-10.com.
 jackpot.ng.		21600	IN	NS	ns1.easyname.eu.
@@ -13743,9 +13731,6 @@ karigo.ng.		21600	IN	NS	ns1.bluehost.com.
 karigo.ng.		21600	IN	NS	ns2.bluehost.com.
 karisa.ng.		21600	IN	NS	ns1.servconfig.com.
 karisa.ng.		21600	IN	NS	ns2.servconfig.com.
-karti.ng.		21600	IN	NS	ns0.esentra.net.
-karti.ng.		21600	IN	NS	ns1.esentra.net.
-karti.ng.		21600	IN	NS	ns2.esentra.com.
 karz.ng.		21600	IN	NS	ns59.whogohost.com.
 karz.ng.		21600	IN	NS	ns60.whogohost.com.
 kashmatch.ng.		21600	IN	NS	ns0.registeram.com.
@@ -16064,9 +16049,6 @@ meter.ng.		21600	IN	NS	dns1.namecheaphosting.com.
 meter.ng.		21600	IN	NS	dns2.namecheaphosting.com.
 metrics.ng.		21600	IN	NS	ns1.whogohost.com.
 metrics.ng.		21600	IN	NS	ns2.whogohost.com.
-metro.ng.		21600	IN	NS	ns1.tsohost.co.uk.
-metro.ng.		21600	IN	NS	ns2.tsohost.co.uk.
-metro.ng.		21600	IN	NS	ns3.tsohost.co.uk.
 metrocafe.ng.		21600	IN	NS	ns0.hostakers.com.
 metrocafe.ng.		21600	IN	NS	ns1.hostakers.com.
 metrocafe.ng.		21600	IN	NS	ns2.hostakers.com.
@@ -23520,8 +23502,6 @@ smilefoods.ng.		21600	IN	NS	ns1.kokoflexdesign.com.
 smilefoods.ng.		21600	IN	NS	ns2.kokoflexdesign.com.
 smiles.ng.		21600	IN	NS	ns43.whogohost.com.
 smiles.ng.		21600	IN	NS	ns44.whogohost.com.
-smili.ng.		21600	IN	NS	ns1.sedoparking.com.
-smili.ng.		21600	IN	NS	ns2.sedoparking.com.
 smobilpay.ng.		21600	IN	NS	ns1.web4africa.com.
 smobilpay.ng.		21600	IN	NS	ns2.web4africa.com.
 smobilpay.ng.		21600	IN	NS	ns3.web4africa.com.
@@ -27370,8 +27350,6 @@ vanso.ng.		21600	IN	NS	ns-1583.awsdns-05.co.uk.
 vantagefunds.ng.	21600	IN	NS	ns0.registeram.com.
 vantagefunds.ng.	21600	IN	NS	ns1.registeram.com.
 vantagefunds.ng.	21600	IN	NS	ns2.registeram.com.
-vantagepoint.ng.	21600	IN	NS	ns2.skannet.com.ng.
-vantagepoint.ng.	21600	IN	NS	vpang.net.
 vantworks.ng.		21600	IN	NS	ns1.web4africa.com.
 vantworks.ng.		21600	IN	NS	ns2.web4africa.com.
 vantworks.ng.		21600	IN	NS	ns3.web4africa.com.
@@ -28806,10 +28784,6 @@ wulgo.ng.		21600	IN	NS	ns1.web4africa.com.
 wulgo.ng.		21600	IN	NS	ns2.web4africa.com.
 wulgo.ng.		21600	IN	NS	ns3.web4africa.com.
 wulgo.ng.		21600	IN	NS	ns4.web4africa.com.
-wulo.ng.		21600	IN	NS	ns1.335.xenserve.com.
-wulo.ng.		21600	IN	NS	ns1.whogohost.com.
-wulo.ng.		21600	IN	NS	ns2.335.xenserve.com.
-wulo.ng.		21600	IN	NS	ns2.whogohost.com.
 wuta.ng.		21600	IN	NS	ns1.web4africa.com.
 wuta.ng.		21600	IN	NS	ns2.web4africa.com.
 wuta.ng.		21600	IN	NS	ns3.web4africa.com.
@@ -29396,4 +29370,4 @@ zurey.ng.		21600	IN	NS	ns2.myhosting.com.
 zwoop.ng.		21600	IN	NS	ns1.lexsynergy.net.
 zwoop.ng.		21600	IN	NS	ns2.lexsynergy.us.
 zwoop.ng.		21600	IN	NS	ns3.lexsynergy.info.
-ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017051946 10800 3600 604800 3600
+ng.			21600	IN	SOA	nsa.nic.net.ng. hostmaster.nic.net.ng. 2017052003 10800 3600 604800 3600

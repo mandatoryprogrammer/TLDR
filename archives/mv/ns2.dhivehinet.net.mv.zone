@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017052102 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017052201 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -27,6 +27,7 @@ mv.			3600	IN	NS	mv-ns.anycast.pch.net.
 360.mv.			3600	IN	NS	ivy.ns.cloudflare.com.
 3ci.mv.			3600	IN	NS	host16.dhivehinet.net.mv.
 3heart.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+3l-group.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 4426.mv.		3600	IN	NS	ns1.sgp15.siteground.asia.
 4426.mv.		3600	IN	NS	ns2.sgp15.siteground.asia.
 567.mv.			3600	IN	NS	ns1.bluehost.com.
@@ -59,9 +60,9 @@ ac.mv.			3600	IN	A	202.1.203.100
 acco.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 accord.mv.		3600	IN	NS	ns100.whbdns.com.
 accord.mv.		3600	IN	NS	ns101.whbdns.com.
-aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 aceaviation.mv.		3600	IN	MX	10 mx1.emailsrvr.com.
 aceaviation.mv.		3600	IN	MX	20 mx2.emailsrvr.com.
+aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 k1._domainkey.aceaviation.mv. 3600 IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUNCaeAxrpJzLqHr/OdSl55nbwxLTtvpmBX4UReuwXaO++Uf8DAr4cujaShtzqTzokYZz6jnpY4jGYQktUV+q4azEWkIJbnaeGQRnrgntLLMBtW0DDOZ1obgo5qQehGphguTNS4/AXp0xanI11kuTKfQuShlLFFCMZPwRfiPYCLQIDAQAB"
 email.aceaviation.mv.	3600	IN	CNAME	mailgun.org.
 acetravels.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1039,6 +1040,8 @@ faanu.mv.		3600	IN	NS	ns1.hiyaal.com.
 faanu.mv.		3600	IN	NS	ns2.hiyaal.com.
 fahi.mv.		3600	IN	NS	ns8.wixdns.net.
 fahi.mv.		3600	IN	NS	ns9.wixdns.net.
+fahipay.mv.		3600	IN	NS	ns1.esfiyahost.com.
+fahipay.mv.		3600	IN	NS	ns2.esfiyahost.com.
 faiythoora.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 falishine.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
 fam.mv.			3600	IN	NS	ns01.domaincontrol.com.
@@ -1205,12 +1208,12 @@ gelmax.mv.		3600	IN	NS	ns1.bluehost.com.
 gelmax.mv.		3600	IN	NS	ns2.bluehost.com.
 gem.mv.			3600	IN	NS	host18.dhivehinet.net.mv.
 generaltrading.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
+gentro.mv.		3600	IN	TXT	"google-site-verification=KvNhnUsxQHjKJnpNTVRh9WjCg4hiYgqsQ3p4JYGH9sM"
 gentro.mv.		3600	IN	MX	1 ASPMX.L.GOOGLE.COM.
 gentro.mv.		3600	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
 gentro.mv.		3600	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
 gentro.mv.		3600	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
 gentro.mv.		3600	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
-gentro.mv.		3600	IN	TXT	"google-site-verification=KvNhnUsxQHjKJnpNTVRh9WjCg4hiYgqsQ3p4JYGH9sM"
 getahero.mv.		3600	IN	NS	ns1.bluehost.com.
 getahero.mv.		3600	IN	NS	ns2.bluehost.com.
 getaways.mv.		3600	IN	NS	ns3303.hostgator.com.
@@ -2034,6 +2037,7 @@ meradhooislandresortmaldives.mv. 3600 IN NS	ns3.domainnetwork.com.
 mesa.mv.		3600	IN	NS	ns1.rol.net.mv.
 mesa.mv.		3600	IN	NS	ns2.rol.net.mv.
 metrox.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
+meylugaa.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 mha.mv.			3600	IN	NS	host05.dhivehinet.net.mv.
 mhatech.mv.		3600	IN	NS	host18.dhivehinet.net.mv.
 mhcl.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
@@ -2447,7 +2451,8 @@ personalhealth.mv.	3600	IN	NS	ns-1362.awsdns-42.org.
 personalhealth.mv.	3600	IN	NS	ns-1991.awsdns-56.co.uk.
 personaltrainer.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 perspective.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-pfa.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
+pfa.mv.			3600	IN	NS	marjory.ns.cloudflare.com.
+pfa.mv.			3600	IN	NS	rudy.ns.cloudflare.com.
 pharmacyplus.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 photo.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.photo.mv.		3600	IN	CNAME	www.photo-mv.com.
@@ -2497,9 +2502,8 @@ pmo.mv.			3600	IN	NS	ns3.whois.com.
 pmo.mv.			3600	IN	NS	ns4.whois.com.
 pointinn.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 polco.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
-policelife.mv.		3600	IN	A	198.154.248.201
-cms.policelife.mv.	3600	IN	A	198.154.248.201
-www.policelife.mv.	3600	IN	CNAME	policelife.mv.
+policelife.mv.		3600	IN	NS	marjory.ns.cloudflare.com.
+policelife.mv.		3600	IN	NS	rudy.ns.cloudflare.com.
 popovo.mv.		3600	IN	NS	ns1.bluehost.com.
 popovo.mv.		3600	IN	NS	ns2.bluehost.com.
 port.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
@@ -2694,7 +2698,6 @@ salaf.mv.		3600	IN	NS	ns2.dreamhost.com.
 salaf.mv.		3600	IN	NS	ns3.dreamhost.com.
 salafi.mv.		3600	IN	NS	ns1.hostmonster.com.
 salafi.mv.		3600	IN	NS	ns2.hostmonster.com.
-salbokaru.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 sale.mv.		3600	IN	NS	my.privatedns.com.
 sale.mv.		3600	IN	NS	your.privatedns.com.
 saltcafeandrestaurant.mv. 3600	IN	NS	host04.dhivehinet.net.mv.
@@ -3456,4 +3459,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017052102 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017052201 1800 1800 3600 3600

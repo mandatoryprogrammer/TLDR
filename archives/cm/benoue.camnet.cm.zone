@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017060423 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017060505 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1496613622"
+cm.			86400	IN	TXT	"Generation Time: 1496635218"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -2814,8 +2814,8 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 12333.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 1234.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 1234.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-12345.cm.		86400	IN	NS	ns1.4.cn.
-12345.cm.		86400	IN	NS	ns2.4.cn.
+12345.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+12345.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 1234545.cm.		86400	IN	NS	ns1.dns.com.
 1234545.cm.		86400	IN	NS	ns2.dns.com.
 123456.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -25684,8 +25684,11 @@ barcap.cm.		86400	IN	NS	ns2.netnames.net.
 barcap.cm.		86400	IN	NS	ns5.netnames.net.
 barcelo.cm.		86400	IN	NS	ns1.entornodns.com.
 barcelo.cm.		86400	IN	NS	ns2.entornodns.com.
-barcelona.cm.		86400	IN	NS	ns1.crystone.net.
-barcelona.cm.		86400	IN	NS	ns2.crystone.net.
+barcelona.cm.		86400	IN	NS	ns01.crystone.se.
+barcelona.cm.		86400	IN	NS	ns02.crystone.se.
+barcelona.cm.		86400	IN	NS	ns03.crystone.se.
+barcelona.cm.		86400	IN	NS	ns04.crystone.se.
+barcelona.cm.		86400	IN	NS	ns05.crystone.se.
 barclaycardus.cm.	86400	IN	NS	ns1.bodis.com.
 barclaycardus.cm.	86400	IN	NS	ns2.bodis.com.
 barclays.cm.		86400	IN	NS	ns1.netnames.net.
@@ -32575,8 +32578,8 @@ dan.cm.			86400	IN	NS	ns.dan.tv.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 ns.dan.cm.		86400	IN	A	185.92.222.117
+ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -39674,8 +39677,6 @@ h88.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 h888.cm.		86400	IN	NS	ns1184.ispapi.net.
 h888.cm.		86400	IN	NS	ns2196.ispapi.net.
 h888.cm.		86400	IN	NS	ns3223.ispapi.net.
-h89.cm.			86400	IN	NS	ns5.myhostadmin.net.
-h89.cm.			86400	IN	NS	ns6.myhostadmin.net.
 h9.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 h9.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 h99.cm.			86400	IN	NS	ns5.dnsdun.com.
@@ -53949,9 +53950,6 @@ opensky.cm.		86400	IN	NS	dns1.registrar-servers.com.
 opensky.cm.		86400	IN	NS	dns2.registrar-servers.com.
 opensource.cm.		86400	IN	NS	ns1.above.com.
 opensource.cm.		86400	IN	NS	ns2.above.com.
-openstreetmap.cm.	86400	IN	NS	a.dns.gandi.net.
-openstreetmap.cm.	86400	IN	NS	b.dns.gandi.net.
-openstreetmap.cm.	86400	IN	NS	c.dns.gandi.net.
 openstudio.cm.		86400	IN	NS	dns1.registrar-servers.com.
 openstudio.cm.		86400	IN	NS	dns2.registrar-servers.com.
 opentable.cm.		86400	IN	NS	ns1.dnspanel.com.
@@ -60971,9 +60969,6 @@ sogecash.cm.		86400	IN	NS	tigdns01.socgen.com.
 sogecash.cm.		86400	IN	NS	tigdns02.socgen.com.
 sogecashnet.cm.		86400	IN	NS	tigdns01.socgen.com.
 sogecashnet.cm.		86400	IN	NS	tigdns02.socgen.com.
-sogefi-sig.cm.		86400	IN	NS	a.dns.gandi.net.
-sogefi-sig.cm.		86400	IN	NS	b.dns.gandi.net.
-sogefi-sig.cm.		86400	IN	NS	c.dns.gandi.net.
 sogo.cm.		86400	IN	NS	ns7.01isp.com.
 sogo.cm.		86400	IN	NS	ns8.01isp.net.
 sogou.cm.		86400	IN	NS	ns1.dragonparking.com.
@@ -72036,4 +72031,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017060423 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017060505 28800 3600 604800 86400

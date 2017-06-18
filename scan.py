@@ -246,7 +246,7 @@ def write_dig_output( hostname, nameserver, dig_output, is_gzipped ):
 
     if is_gzipped:
         proc = subprocess.Popen([
-            "/bin/gzip", filename
+            "/bin/gzip", "-f", filename
         ], stdout=subprocess.PIPE)
         output = proc.stdout.read()
 

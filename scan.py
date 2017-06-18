@@ -224,7 +224,7 @@ def pprint( input_dict ):
         )
     )
 
-def write_dig_output( hostname, nameserver, dig_output ):
+def write_dig_output( hostname, nameserver, dig_output, is_gzipped ):
     if hostname == ".":
         hostname = "root"
 
@@ -243,6 +243,12 @@ def write_dig_output( hostname, nameserver, dig_output ):
         dig_output
     )
     file_handler.close()
+
+    if is_gzipped:
+        proc = subprocess.Popen([
+            "/bin/gzip", filename
+        ], stdout=subprocess.PIPE)
+        output = proc.stdout.read()
 
 def get_dig_axfr_output( hostname, nameserver ):
     proc = subprocess.Popen([
@@ -292,11 +298,20 @@ if __name__ == "__main__":
                 "hostname": "."
             })
 
-        write_dig_output(
-            ".",
-            root_ns,
-            zone_data,
-        )
+        if( len( zone_data ) > 99614720 ): # Max github file size.
+            write_dig_output(
+                ".",
+                root_ns,
+                zone_data,
+                True,
+            )
+        else:
+            write_dig_output(
+                ".",
+                root_ns,
+                zone_data,
+                False,
+            )
 
     tlds = dnstool.get_root_tlds()
 
@@ -306,6 +321,7 @@ if __name__ == "__main__":
         nameservers = dnstool.get_nameserver_list(
             full_tld
         )
+
         for nameserver in nameservers:
             zone_data = get_dig_axfr_output(
                 full_tld,
@@ -318,11 +334,20 @@ if __name__ == "__main__":
                     "hostname": tld,
                 })
 
-            write_dig_output(
-                full_tld,
-                nameserver,
-                zone_data,
-            )
+            if( len( zone_data ) > 99614720 ): # Max github file size.
+                write_dig_output(
+                    full_tld,
+                    nameserver,
+                    zone_data,
+                    True,
+                )
+            else:
+                write_dig_output(
+                    full_tld,
+                    nameserver,
+                    zone_data,
+                    False,
+                )
 
     # Create markdown file of zone-transfer enabled nameservers
     zone_transfer_enabled_markdown = "# List of TLDs & Roots With Zone Transfers Currently Enabled\n\n"

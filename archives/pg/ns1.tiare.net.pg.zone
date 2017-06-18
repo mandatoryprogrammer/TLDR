@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR pg. @ns1.tiare.net.pg. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017060201 14400 7200 1728000 14400
+pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017061400 14400 7200 1728000 14400
 pg.			172800	IN	NS	ns.UU.NET.
 pg.			172800	IN	NS	ns1.tiare.net.PG.
 pg.			172800	IN	NS	ns1.unitech.ac.PG.
@@ -114,6 +114,9 @@ pomtech.AC.pg.		172800	IN	NS	ns2.datec.net.pg.
 pomtech.AC.pg.		172800	IN	NS	ns3.datec.net.pg.
 santamaria.AC.pg.	172800	IN	NS	ns1.kulamail.net.
 santamaria.AC.pg.	172800	IN	NS	ns2.kulamail.net.
+shics.AC.pg.		172800	IN	NS	ns1.datec.net.pg.
+shics.AC.pg.		172800	IN	NS	ns2.datec.net.pg.
+shics.AC.pg.		172800	IN	NS	ns3.datec.net.pg.
 sil.AC.pg.		172800	IN	NS	ns1.dwu.ac.pg.
 sil.AC.pg.		172800	IN	NS	dns1.pngarnet.ac.pg.
 smit.AC.pg.		172800	IN	NS	ns1.siteground139.com.
@@ -445,8 +448,10 @@ blue7team.COM.pg.	172800	IN	NS	ns3.datec.net.pg.
 bmna.COM.pg.		172800	IN	NS	ns1.global.net.pg.
 bmna.COM.pg.		172800	IN	NS	ns2.global.net.pg.
 bmna.COM.pg.		172800	IN	NS	ns3.global.net.pg.
-bmobile.COM.pg.		172800	IN	NS	ns1.invoc.com.au.
 bmobile.COM.pg.		172800	IN	NS	ns1.bmobile.com.pg.
+bmobile.COM.pg.		172800	IN	NS	ns1.netcraft.com.au.
+bmobile.COM.pg.		172800	IN	NS	ns2.netcraft.com.au.
+bmobile.COM.pg.		172800	IN	NS	ns3.netcraft.com.au.
 ns1.bmobile.COM.pg.	172800	IN	A	202.52.133.163
 bnbm.COM.pg.		172800	IN	NS	ns1.datec.net.pg.
 bnbm.COM.pg.		172800	IN	NS	ns2.datec.net.pg.
@@ -1487,8 +1492,8 @@ jemalawyers.COM.pg.	172800	IN	NS	ns2.qnetau.com.
 jemalawyers.COM.pg.	172800	IN	NS	ns3.qnetau.com.
 jiwakabuilders.COM.pg.	172800	IN	NS	ns1.global.net.pg.
 jiwakabuilders.COM.pg.	172800	IN	NS	ns2.global.net.pg.
-jktlim.COM.pg.		172800	IN	NS	ns1.online.net.pg.
-jktlim.COM.pg.		172800	IN	NS	ns2.online.net.pg.
+jktlim.COM.pg.		172800	IN	NS	pdns11.domaincontrol.com.
+jktlim.COM.pg.		172800	IN	NS	pdns12.domaincontrol.com.
 jlwcontractors.COM.pg.	172800	IN	NS	ns1.datec.net.pg.
 jlwcontractors.COM.pg.	172800	IN	NS	ns2.datec.net.pg.
 jlwcontractors.COM.pg.	172800	IN	NS	ns3.datec.net.pg.
@@ -1531,8 +1536,6 @@ jzgroup.COM.pg.		172800	IN	NS	ns3.datec.net.pg.
 kabairabeachhideaway.COM.pg. 172800 IN	NS	ns1.qnetau.com.
 kabairabeachhideaway.COM.pg. 172800 IN	NS	ns2.qnetau.com.
 kabairabeachhideaway.COM.pg. 172800 IN	NS	ns3.qnetau.com.
-kabairadive.COM.pg.	172800	IN	NS	ns1.global.net.pg.
-kabairadive.COM.pg.	172800	IN	NS	ns2.global.net.pg.
 kairuandsons.COM.pg.	172800	IN	NS	ns1.telinet.com.pg.
 kairuandsons.COM.pg.	172800	IN	NS	ns2.telinet.com.pg.
 kalaisi.COM.pg.		172800	IN	NS	ns1.telinet.com.pg.
@@ -3145,6 +3148,8 @@ sunrise.COM.pg.		172800	IN	NS	ns3.datec.net.pg.
 superservicehardware.COM.pg. 172800 IN	NS	ns1.datec.net.pg.
 superservicehardware.COM.pg. 172800 IN	NS	ns2.datec.net.pg.
 superservicehardware.COM.pg. 172800 IN	NS	ns3.datec.net.pg.
+supremepharma.COM.pg.	172800	IN	NS	ns1.digiteccloud.com.
+supremepharma.COM.pg.	172800	IN	NS	ns2.digiteccloud.com.
 svl.COM.pg.		172800	IN	NS	ns8423.hostgator.com.
 svl.COM.pg.		172800	IN	NS	ns8424.hostgator.com.
 svs.COM.pg.		172800	IN	NS	ns1.global.net.pg.
@@ -3207,8 +3212,8 @@ teleoks.COM.pg.		172800	IN	NS	ns2.datec.net.pg.
 teleoks.COM.pg.		172800	IN	NS	ns3.datec.net.pg.
 telikomix.COM.pg.	172800	IN	NS	ns1.telinet.com.pg.
 telikomix.COM.pg.	172800	IN	NS	ns2.telinet.com.pg.
-telikompng.COM.pg.	172800	IN	NS	ns1.tiare.net.pg.
-telikompng.COM.pg.	172800	IN	NS	ns2.tiare.net.pg.
+telikompng.COM.pg.	172800	IN	NS	ns1.telinet.com.pg.
+telikompng.COM.pg.	172800	IN	NS	ns2.telinet.com.pg.
 TELINET.COM.pg.		172800	IN	NS	ns1.telinet.com.pg.
 TELINET.COM.pg.		172800	IN	NS	ns2.telinet.com.pg.
 ns1.TELINET.COM.pg.	172800	IN	A	124.240.221.33
@@ -3982,6 +3987,9 @@ pmnec.GOV.pg.		172800	IN	NS	ns2.datec.net.pg.
 pmnec.GOV.pg.		172800	IN	NS	ns3.datec.net.pg.
 png.GOV.pg.		172800	IN	NS	ns1.datec.net.pg.
 png.GOV.pg.		172800	IN	NS	ns2.datec.net.pg.
+pngapec2018.GOV.pg.	172800	IN	NS	ns1.datec.net.pg.
+pngapec2018.GOV.pg.	172800	IN	NS	ns2.datec.net.pg.
+pngapec2018.GOV.pg.	172800	IN	NS	ns3.datec.net.pg.
 pngcir.GOV.pg.		172800	IN	NS	ns1.datec.net.pg.
 pngcir.GOV.pg.		172800	IN	NS	ns2.datec.net.pg.
 pngcir.GOV.pg.		172800	IN	NS	ns3.datec.net.pg.
@@ -4019,6 +4027,9 @@ pngonline.GOV.pg.	172800	IN	NS	ns2.datec.net.pg.
 pngparliament-pac.GOV.pg. 172800 IN	NS	ns1.datec.net.pg.
 pngparliament-pac.GOV.pg. 172800 IN	NS	ns2.datec.net.pg.
 pngparliament-pac.GOV.pg. 172800 IN	NS	ns3.datec.net.pg.
+pngsactionsecretariat.GOV.pg. 172800 IN	NS	ns1.datec.net.pg.
+pngsactionsecretariat.GOV.pg. 172800 IN	NS	ns2.datec.net.pg.
+pngsactionsecretariat.GOV.pg. 172800 IN	NS	ns3.datec.net.pg.
 pngsf.GOV.pg.		172800	IN	NS	ns1.telinet.com.pg.
 pngsf.GOV.pg.		172800	IN	NS	ns2.telinet.com.pg.
 pngvision2050.GOV.pg.	172800	IN	NS	ns111.mochahost.com.
@@ -4736,4 +4747,4 @@ ywamships.org.pg.	172800	IN	NS	ns3.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns1.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns2.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns3.qnetau.com.
-pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017060201 14400 7200 1728000 14400
+pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017061400 14400 7200 1728000 14400

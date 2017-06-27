@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017062202 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017062701 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -14,7 +14,9 @@ mv.			3600	IN	NS	mv-ns.anycast.pch.net.
 101domains.mv.		3600	IN	NS	ns1.101domain.com.
 101domains.mv.		3600	IN	NS	ns2.101domain.com.
 101domains.mv.		3600	IN	NS	ns5.101domain.com.
-13news.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+13news.mv.		3600	IN	NS	ns1.digitalocean.com.
+13news.mv.		3600	IN	NS	ns2.digitalocean.com.
+13news.mv.		3600	IN	NS	ns3.digitalocean.com.
 181.mv.			3600	IN	NS	ns1.afraid.org.
 181.mv.			3600	IN	NS	ns2.afraid.org.
 181.mv.			3600	IN	NS	ns3.afraid.org.
@@ -1099,8 +1101,8 @@ find.mv.		3600	IN	NS	ns3.digitalocean.com.
 finlays.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 finolhu.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 firstin.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-fishinfo.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 fishinfo.mv.		3600	IN	A	202.1.201.147
+fishinfo.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.fishinfo.mv.	3600	IN	CNAME	fishinfo.mv.
 fit4life.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 fitron.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
@@ -2380,6 +2382,9 @@ ns2.ooredoo.mv.		3600	IN	A	202.153.85.20
 ooredoomaldives.mv.	3600	IN	NS	ns1.ooredoo.mv.
 ooredoomaldives.mv.	3600	IN	NS	ns2.ooredoo.mv.
 openmitv.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
+opentable.mv.		3600	IN	NS	ns01.trademarkarea.com.
+opentable.mv.		3600	IN	NS	ns02.trademarkarea.com.
+opentable.mv.		3600	IN	NS	ns03.trademarkarea.com.
 opentv.mv.		3600	IN	NS	NS1.ROL.NET.MV.
 opentv.mv.		3600	IN	NS	NS2.ROL.NET.MV.
 optimo.mv.		3600	IN	NS	ns1.wix.com.
@@ -2857,7 +2862,8 @@ smallmaldivesislandco.mv. 3600	IN	NS	ns1.dreamhost.com.
 smallmaldivesislandco.mv. 3600	IN	NS	ns2.dreamhost.com.
 smallmaldivesislandco.mv. 3600	IN	NS	ns3.dreamhost.com.
 smarine.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
-smart.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+smart.mv.		3600	IN	NS	ns1.sgp32.siteground.asia.
+smart.mv.		3600	IN	NS	ns2.sgp32.siteground.asia.
 smartbuy.mv.		3600	IN	NS	ns1.weblink.in.
 smartbuy.mv.		3600	IN	NS	ns2.weblink.in.
 smartcareer.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
@@ -3472,4 +3478,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017062202 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017062701 1800 1800 3600 3600

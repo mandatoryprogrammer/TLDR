@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017070106 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017070113 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1498885225"
+cm.			86400	IN	TXT	"Generation Time: 1498910427"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -631,8 +631,8 @@ cm.			86400	IN	TXT	"Generation Time: 1498885225"
 0299.cm.		86400	IN	NS	ns2.ndns.cn.
 02999.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 02999.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-03.cm.			86400	IN	NS	ns1.dnsv1.com.
-03.cm.			86400	IN	NS	ns2.dnsv1.com.
+03.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
+03.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 030.cm.			86400	IN	NS	ns1.myhostadmin.net.
 030.cm.			86400	IN	NS	ns2.myhostadmin.net.
 030.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -28811,6 +28811,8 @@ campri.cm.		86400	IN	NS	ns5.netnames.net.
 campri.cm.		86400	IN	NS	ns6.netnames.net.
 camprotec.cm.		86400	IN	NS	ns1.lws-hosting.com.
 camprotec.cm.		86400	IN	NS	ns2.lws-hosting.com.
+campusjeunes.cm.	86400	IN	NS	dns1.registrar-servers.com.
+campusjeunes.cm.	86400	IN	NS	dns2.registrar-servers.com.
 campyabassi.cm.		86400	IN	NS	ns200.anycast.me.
 campyabassi.cm.		86400	IN	NS	dns200.anycast.me.
 camrail.cm.		86400	IN	NS	ns1.cetsi.fr.
@@ -32600,8 +32602,8 @@ dan.cm.			86400	IN	NS	ns.dan.tv.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	A	185.92.222.117
 ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
+ns.dan.cm.		86400	IN	A	185.92.222.117
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -41035,6 +41037,8 @@ hgw.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 hgw.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 hgxjw.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 hgxjw.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+hgyl.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+hgyl.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 hgylc.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 hgylc.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 hgyz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -44250,6 +44254,8 @@ jf.cm.			86400	IN	NS	bizcn1.dnspod.net.
 jf.cm.			86400	IN	NS	bizcn2.dnspod.net.
 jfb.cm.			86400	IN	NS	ns5.myhostadmin.net.
 jfb.cm.			86400	IN	NS	ns6.myhostadmin.net.
+jffoil.cm.		86400	IN	NS	blinuxns7.securehostdns.com.
+jffoil.cm.		86400	IN	NS	blinuxns8.securehostdns.com.
 jfh.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 jfh.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 jfp.cm.			86400	IN	NS	ns5.myhostadmin.net.
@@ -55558,6 +55564,8 @@ pjw.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 pjw.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 pjy.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 pjy.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+pjyl.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+pjyl.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 pjylc.cm.		86400	IN	NS	ns1.jiasule.net.
 pjylc.cm.		86400	IN	NS	ns2.jiasule.net.
 pk.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -70256,6 +70264,8 @@ yhy.cm.			86400	IN	NS	ns2.myhostadmin.net.
 yhyh.cm.		86400	IN	NS	ns1.ispapi.net.
 yhyh.cm.		86400	IN	NS	ns2.ispapi.net.
 yhyh.cm.		86400	IN	NS	ns3.ispapi.net.
+yhyl.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+yhyl.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 yhylc.cm.		86400	IN	NS	ns5.myhostadmin.net.
 yhylc.cm.		86400	IN	NS	ns6.myhostadmin.net.
 yi.cm.			86400	IN	NS	ns1.bodis.com.
@@ -72041,4 +72051,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017070106 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017070113 28800 3600 604800 86400

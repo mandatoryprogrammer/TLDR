@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017071007 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017071014 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1499666419"
+cm.			86400	IN	TXT	"Generation Time: 1499691617"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -2510,6 +2510,8 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 113.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 1130.cm.		86400	IN	NS	ns1.ndns.cn.
 1130.cm.		86400	IN	NS	ns2.ndns.cn.
+113015.cm.		86400	IN	NS	ns1.dns.com.
+113015.cm.		86400	IN	NS	ns2.dns.com.
 1131.cm.		86400	IN	NS	ns1.4.cn.
 1131.cm.		86400	IN	NS	ns2.4.cn.
 1132.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -5344,6 +5346,8 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 2301.cm.		86400	IN	NS	ns2.ndns.cn.
 2301313.cm.		86400	IN	NS	ns1.myhostadmin.net.
 2301313.cm.		86400	IN	NS	ns2.myhostadmin.net.
+23015.cm.		86400	IN	NS	ns1.dns.com.
+23015.cm.		86400	IN	NS	ns2.dns.com.
 2302.cm.		86400	IN	NS	ns1.ndns.cn.
 2302.cm.		86400	IN	NS	ns2.ndns.cn.
 2303.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -6798,6 +6802,12 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 3013.cm.		86400	IN	NS	ns2.ndns.cn.
 3015.cm.		86400	IN	NS	ns1.ndns.cn.
 3015.cm.		86400	IN	NS	ns2.ndns.cn.
+30150.cm.		86400	IN	NS	ns1.dns.com.
+30150.cm.		86400	IN	NS	ns2.dns.com.
+30154.cm.		86400	IN	NS	ns1.dns.com.
+30154.cm.		86400	IN	NS	ns2.dns.com.
+30156.cm.		86400	IN	NS	ns1.dns.com.
+30156.cm.		86400	IN	NS	ns2.dns.com.
 3016.cm.		86400	IN	NS	ns1.ndns.cn.
 3016.cm.		86400	IN	NS	ns2.ndns.cn.
 3017.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -9727,6 +9737,8 @@ ns02.3ub.cm.		86400	IN	A	219.94.232.205
 4430.cm.		86400	IN	NS	park2.ndns.cn.
 4430.cm.		86400	IN	NS	expired-ns1.niceisp.com.
 4430.cm.		86400	IN	NS	expired-ns2.niceisp.com.
+443015.cm.		86400	IN	NS	ns1.dns.com.
+443015.cm.		86400	IN	NS	ns2.dns.com.
 4431.cm.		86400	IN	NS	park1.ndns.cn.
 4431.cm.		86400	IN	NS	park2.ndns.cn.
 4431.cm.		86400	IN	NS	expired-ns1.niceisp.com.
@@ -13708,6 +13720,8 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6300.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6301.cm.		86400	IN	NS	ns1.ndns.cn.
 6301.cm.		86400	IN	NS	ns2.ndns.cn.
+63015.cm.		86400	IN	NS	ns1.dns.com.
+63015.cm.		86400	IN	NS	ns2.dns.com.
 6302.cm.		86400	IN	NS	ns1.ndns.cn.
 6302.cm.		86400	IN	NS	ns2.ndns.cn.
 6303.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -19321,6 +19335,8 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8829.cm.		86400	IN	NS	ns2.bodis.com.
 883.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 883.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+883015.cm.		86400	IN	NS	ns1.dns.com.
+883015.cm.		86400	IN	NS	ns2.dns.com.
 8831.cm.		86400	IN	NS	ns1.4.cn.
 8831.cm.		86400	IN	NS	ns2.4.cn.
 8832.cm.		86400	IN	NS	ns1.4.cn.
@@ -47183,11 +47199,8 @@ lens.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 lens.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 lenskart.cm.		86400	IN	NS	ns1.bodis.com.
 lenskart.cm.		86400	IN	NS	ns2.bodis.com.
-leo.cm.			86400	IN	NS	ns1.he.net.
-leo.cm.			86400	IN	NS	ns2.he.net.
-leo.cm.			86400	IN	NS	ns3.he.net.
-leo.cm.			86400	IN	NS	ns4.he.net.
-leo.cm.			86400	IN	NS	ns5.he.net.
+leo.cm.			86400	IN	NS	lou.ns.cloudflare.com.
+leo.cm.			86400	IN	NS	rachel.ns.cloudflare.com.
 leolotto.cm.		86400	IN	NS	a.ns14.net.
 leolotto.cm.		86400	IN	NS	b.ns14.net.
 leolotto.cm.		86400	IN	NS	c.ns14.net.
@@ -48439,10 +48452,11 @@ lycamobile.cm.		86400	IN	NS	ns2.brandshelter.de.
 lycamobile.cm.		86400	IN	NS	ns3.brandshelter.info.
 lycamobile.cm.		86400	IN	NS	ns4.brandshelter.net.
 lycamobile.cm.		86400	IN	NS	ns5.brandshelter.us.
-lycaradio.cm.		86400	IN	NS	ns1.dnsbycomodo.net.
-lycaradio.cm.		86400	IN	NS	ns2.dnsbycomodo.net.
-lycaradio.cm.		86400	IN	NS	ns3.dnsbycomodo.net.
-lycaradio.cm.		86400	IN	NS	ns4.dnsbycomodo.net.
+lycaradio.cm.		86400	IN	NS	ns1.brandshelter.com.
+lycaradio.cm.		86400	IN	NS	ns2.brandshelter.de.
+lycaradio.cm.		86400	IN	NS	ns3.brandshelter.info.
+lycaradio.cm.		86400	IN	NS	ns4.brandshelter.net.
+lycaradio.cm.		86400	IN	NS	ns5.brandshelter.us.
 lycatv.cm.		86400	IN	NS	ns1.dnsbycomodo.net.
 lycatv.cm.		86400	IN	NS	ns2.dnsbycomodo.net.
 lycatv.cm.		86400	IN	NS	ns3.dnsbycomodo.net.
@@ -59004,10 +59018,11 @@ say.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 say.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 saya.cm.		86400	IN	NS	ns1.webhostingpad.com.
 saya.cm.		86400	IN	NS	ns2.webhostingpad.com.
-sayo.cm.		86400	IN	NS	ns1.dnsbycomodo.net.
-sayo.cm.		86400	IN	NS	ns2.dnsbycomodo.net.
-sayo.cm.		86400	IN	NS	ns3.dnsbycomodo.net.
-sayo.cm.		86400	IN	NS	ns4.dnsbycomodo.net.
+sayo.cm.		86400	IN	NS	ns1.brandshelter.com.
+sayo.cm.		86400	IN	NS	ns2.brandshelter.de.
+sayo.cm.		86400	IN	NS	ns3.brandshelter.info.
+sayo.cm.		86400	IN	NS	ns4.brandshelter.net.
+sayo.cm.		86400	IN	NS	ns5.brandshelter.us.
 sb-788.cm.		86400	IN	NS	ns1.dns.com.
 sb-788.cm.		86400	IN	NS	ns2.dns.com.
 sb138.cm.		86400	IN	NS	ns1.4.cn.
@@ -64339,6 +64354,8 @@ trucksbrakes.cm.	86400	IN	NS	b.dns.gandi.net.
 trucksbrakes.cm.	86400	IN	NS	c.dns.gandi.net.
 true.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 true.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+truecaller.cm.		86400	IN	NS	ns1.bodis.com.
+truecaller.cm.		86400	IN	NS	ns2.bodis.com.
 truecar.cm.		86400	IN	NS	ns1.dnspanel.com.
 truecar.cm.		86400	IN	NS	ns2.dnspanel.com.
 truecredit.cm.		86400	IN	NS	ns1.dnspanel.com.
@@ -72016,4 +72033,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017071007 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017071014 28800 3600 604800 86400

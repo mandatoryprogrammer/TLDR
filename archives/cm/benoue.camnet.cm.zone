@@ -1,9 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017071111 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1499767228"
-cm.			86400	IN	A	195.24.205.60
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017071119 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -14,6 +12,8 @@ cm.			86400	IN	NS	mbam.camnet.cm.
 cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
+cm.			86400	IN	A	195.24.205.60
+cm.			86400	IN	TXT	"Generation Time: 1499796014"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -4304,8 +4304,6 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 19444.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 1946.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 1946.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-19461188.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-19461188.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 1947.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 1947.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 1949.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -12008,6 +12006,8 @@ ns02.3ub.cm.		86400	IN	A	219.94.232.205
 5540.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 55402.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 55402.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+5542.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+5542.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5544.cm.		86400	IN	NS	ns1.myhostadmin.net.
 5544.cm.		86400	IN	NS	ns2.myhostadmin.net.
 5544.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -49584,26 +49584,33 @@ mercedes-benz.cm.	86400	IN	NS	ns1.corpinter.net.
 mercedes-benz.cm.	86400	IN	NS	ns2.corpinter.de.
 mercedes-benz.cm.	86400	IN	NS	ns3.corpinter.net.
 mercedes-benz.cm.	86400	IN	NS	ns4.corpinter.de.
-merck.cm.		86400	IN	NS	ns4.merckgroup.com.
-merck.cm.		86400	IN	NS	igngate.merck.de.
-merck.cm.		86400	IN	NS	wingate.merck.de.
-merck.cm.		86400	IN	NS	inetgate.merck.de.
-merck-manual.cm.	86400	IN	NS	igngate.merck.de.
-merck-manual.cm.	86400	IN	NS	wingate.merck.de.
-merck-manual.cm.	86400	IN	NS	inetgate.merck.de.
-merck-manuals.cm.	86400	IN	NS	igngate.merck.de.
-merck-manuals.cm.	86400	IN	NS	wingate.merck.de.
-merck-manuals.cm.	86400	IN	NS	inetgate.merck.de.
-merckmanual.cm.		86400	IN	NS	igngate.merck.de.
-merckmanual.cm.		86400	IN	NS	wingate.merck.de.
-merckmanual.cm.		86400	IN	NS	inetgate.merck.de.
-merckmanuals.cm.	86400	IN	NS	igngate.merck.de.
-merckmanuals.cm.	86400	IN	NS	wingate.merck.de.
-merckmanuals.cm.	86400	IN	NS	inetgate.merck.de.
-merckserono.cm.		86400	IN	NS	ns4.merckgroup.com.
-merckserono.cm.		86400	IN	NS	igngate.merck.de.
-merckserono.cm.		86400	IN	NS	wingate.merck.de.
-merckserono.cm.		86400	IN	NS	inetgate.merck.de.
+merck.cm.		86400	IN	NS	ns01.brandshelter.com.
+merck.cm.		86400	IN	NS	ns02.brandshelter.net.
+merck-manual.cm.	86400	IN	NS	ns1.brandshelter.com.
+merck-manual.cm.	86400	IN	NS	ns2.brandshelter.de.
+merck-manual.cm.	86400	IN	NS	ns3.brandshelter.info.
+merck-manual.cm.	86400	IN	NS	ns4.brandshelter.net.
+merck-manual.cm.	86400	IN	NS	ns5.brandshelter.us.
+merck-manuals.cm.	86400	IN	NS	ns1.brandshelter.com.
+merck-manuals.cm.	86400	IN	NS	ns2.brandshelter.de.
+merck-manuals.cm.	86400	IN	NS	ns3.brandshelter.info.
+merck-manuals.cm.	86400	IN	NS	ns4.brandshelter.net.
+merck-manuals.cm.	86400	IN	NS	ns5.brandshelter.us.
+merckmanual.cm.		86400	IN	NS	ns1.brandshelter.com.
+merckmanual.cm.		86400	IN	NS	ns2.brandshelter.de.
+merckmanual.cm.		86400	IN	NS	ns3.brandshelter.info.
+merckmanual.cm.		86400	IN	NS	ns4.brandshelter.net.
+merckmanual.cm.		86400	IN	NS	ns5.brandshelter.us.
+merckmanuals.cm.	86400	IN	NS	ns1.brandshelter.com.
+merckmanuals.cm.	86400	IN	NS	ns2.brandshelter.de.
+merckmanuals.cm.	86400	IN	NS	ns3.brandshelter.info.
+merckmanuals.cm.	86400	IN	NS	ns4.brandshelter.net.
+merckmanuals.cm.	86400	IN	NS	ns5.brandshelter.us.
+merckserono.cm.		86400	IN	NS	ns1.brandshelter.com.
+merckserono.cm.		86400	IN	NS	ns2.brandshelter.de.
+merckserono.cm.		86400	IN	NS	ns3.brandshelter.info.
+merckserono.cm.		86400	IN	NS	ns4.brandshelter.net.
+merckserono.cm.		86400	IN	NS	ns5.brandshelter.us.
 mercola.cm.		86400	IN	NS	ns1.sedoparking.com.
 mercola.cm.		86400	IN	NS	ns2.sedoparking.com.
 mercure.cm.		86400	IN	NS	ns1.netnames.net.
@@ -63869,8 +63876,9 @@ tomshardware.cm.	86400	IN	NS	ns-1521.awsdns-62.org.
 tomshardware.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 tomsnyderproductions.cm. 86400	IN	NS	ns1.scholastic.com.
 tomsnyderproductions.cm. 86400	IN	NS	ns2.scholastic.com.
-tomtom.cm.		86400	IN	NS	ns1.ns-1.be.
-tomtom.cm.		86400	IN	NS	ns2.ns-1.be.
+tomtom.cm.		86400	IN	NS	ns1.dopla.eu.
+tomtom.cm.		86400	IN	NS	ns2.dopla.eu.
+tomtom.cm.		86400	IN	NS	ns3.dopla.eu.
 tomtop.cm.		86400	IN	NS	ns1.bodis.com.
 tomtop.cm.		86400	IN	NS	ns2.bodis.com.
 tones.cm.		86400	IN	NS	buy.internettraffic.com.
@@ -72053,4 +72061,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017071111 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017071119 28800 3600 604800 86400

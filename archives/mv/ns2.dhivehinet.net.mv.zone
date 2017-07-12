@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017071201 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017071202 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -62,9 +62,9 @@ ac.mv.			3600	IN	A	202.1.203.100
 acco.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 accord.mv.		3600	IN	NS	ns100.whbdns.com.
 accord.mv.		3600	IN	NS	ns101.whbdns.com.
+aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 aceaviation.mv.		3600	IN	MX	10 mx1.emailsrvr.com.
 aceaviation.mv.		3600	IN	MX	20 mx2.emailsrvr.com.
-aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 k1._domainkey.aceaviation.mv. 3600 IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUNCaeAxrpJzLqHr/OdSl55nbwxLTtvpmBX4UReuwXaO++Uf8DAr4cujaShtzqTzokYZz6jnpY4jGYQktUV+q4azEWkIJbnaeGQRnrgntLLMBtW0DDOZ1obgo5qQehGphguTNS4/AXp0xanI11kuTKfQuShlLFFCMZPwRfiPYCLQIDAQAB"
 email.aceaviation.mv.	3600	IN	CNAME	mailgun.org.
 acetravels.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -245,8 +245,8 @@ asia.mv.		3600	IN	A	202.1.203.100
 asiaexperience.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 ask.mv.			3600	IN	NS	NS1.WEST-DATACENTER.NET.
 ask.mv.			3600	IN	NS	NS2.WEST-DATACENTER.NET.
-asna.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 asna.mv.		3600	IN	A	208.55.250.186
+asna.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.asna.mv.		3600	IN	CNAME	asna.mv.
 asr.mv.			3600	IN	NS	ns8195.hostgator.com.
 asr.mv.			3600	IN	NS	ns8196.hostgator.com.
@@ -1183,7 +1183,9 @@ freelance2.mv.		3600	IN	NS	web-p-com-01.dhivehinet.mv.
 freelancer.mv.		3600	IN	NS	ns1.101domain.com.
 freelancer.mv.		3600	IN	NS	ns5.101domain.com.
 freelancer.mv.		3600	IN	NS	ns2.101domain.com.
-freenet.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+freenet.mv.		3600	IN	NS	ns1.dreamhost.com.
+freenet.mv.		3600	IN	NS	ns2.dreamhost.com.
+freenet.mv.		3600	IN	NS	ns3.dreamhost.com.
 frozenlemons.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
 fsm.mv.			3600	IN	NS	host16.dhivehinet.net.mv.
 ftptest.mv.		3600	IN	A	202.1.207.33
@@ -1413,6 +1415,7 @@ hmh.mv.			3600	IN	NS	ns-1173.awsdns-18.org.
 hmh.mv.			3600	IN	NS	ns-1010.awsdns-62.net.
 hoadha.mv.		3600	IN	NS	ns1.sgp35.siteground.asia.
 hoadha.mv.		3600	IN	NS	ns2.sgp35.siteground.asia.
+hoadhaa.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 hoffen.mv.		3600	IN	NS	ns41.domaincontrol.com.
 hoffen.mv.		3600	IN	NS	ns42.domaincontrol.com.
 holhi.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -3122,13 +3125,13 @@ thelaundry.mv.		3600	IN	NS	ns2.wix.com.
 thescent.mv.		3600	IN	NS	ns1.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns2.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns3.digitalocean.com.
-thesmallmaldivesislandco.mv. 3600 IN	A	188.227.206.201
-thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 thesmallmaldivesislandco.mv. 3600 IN	MX	10 ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX2.GOOGLEMAIL.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX3.GOOGLEMAIL.COM.
+thesmallmaldivesislandco.mv. 3600 IN	A	188.227.206.201
+thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 www.thesmallmaldivesislandco.mv. 3600 IN CNAME	thesmallmaldivesislandco.mv.
 theta.mv.		3600	IN	NS	ns1.sgp28.siteground.asia.
 theta.mv.		3600	IN	NS	ns2.sgp28.siteground.asia.
@@ -3522,4 +3525,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017071201 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017071202 1800 1800 3600 3600

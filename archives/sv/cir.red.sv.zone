@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @cir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017071902 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017072003 43200 3600 2592000 43200
 ns1.grupobgl.com.ar.	43200	IN	A	67.19.193.98
 ns2.grupobgl.com.ar.	43200	IN	A	67.19.193.99
 ns1.indisa.com.ar.	43200	IN	A	72.46.254.112
@@ -2133,7 +2133,10 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 a.sv.			43200	IN	NS	a.dnspod.com.
 a.sv.			43200	IN	NS	b.dnspod.com.
 a.sv.			43200	IN	NS	c.dnspod.com.
-abansa.sv.		43200	IN	NS	ns1.worldnic.com.
+abansa.sv.		43200	IN	NS	ns1-04.azure-dns.com.
+abansa.sv.		43200	IN	NS	ns2-04.azure-dns.net.
+abansa.sv.		43200	IN	NS	ns3-04.azure-dns.org.
+abansa.sv.		43200	IN	NS	ns4-04.azure-dns.info.
 abb.sv.			43200	IN	NS	nse1.abb.com.
 abb.sv.			43200	IN	NS	nse2.abb.com.
 abb.sv.			43200	IN	NS	nse3.abb.com.
@@ -3466,10 +3469,9 @@ adecoravi.com.sv.	43200	IN	NS	ns4.no-ip.com.
 adecoravi.com.sv.	43200	IN	NS	ns5.no-ip.com.
 adelante.com.sv.	43200	IN	NS	dnsbbva1.bbvamovil.com.
 adelante.com.sv.	43200	IN	NS	dnsbbva2.bbvamovil.com.
-ades.com.sv.		43200	IN	NS	dns02.unilever.com.
-ades.com.sv.		43200	IN	NS	dns04.unilever.com.
-ades.com.sv.		43200	IN	NS	dns88.unilever.com.
-ades.com.sv.		43200	IN	NS	dns91.unilever.com.
+ades.com.sv.		43200	IN	NS	ns2.ko.com.
+ades.com.sv.		43200	IN	NS	ns3.ko.com.
+ades.com.sv.		43200	IN	NS	ns4.ko.com.
 adif.com.sv.		43200	IN	NS	ns01.trademarkarea.com.
 adif.com.sv.		43200	IN	NS	ns02.trademarkarea.com.
 adif.com.sv.		43200	IN	NS	ns03.trademarkarea.com.
@@ -12217,21 +12219,29 @@ mercedes-benz.com.sv.	43200	IN	NS	ns2.corpinter.net.
 mercedes-benz.com.sv.	43200	IN	NS	ns3.corpinter.net.
 merch.com.sv.		43200	IN	NS	ns15.domaincontrol.com.
 merch.com.sv.		43200	IN	NS	ns16.domaincontrol.com.
-merck.com.sv.		43200	IN	NS	igngate.merck.de.
+merck.com.sv.		43200	IN	NS	ns01.brandshelter.com.
+merck.com.sv.		43200	IN	NS	ns02.brandshelter.com.
 merck.com.sv.		43200	IN	NS	wingate.merck.de.
-merck.com.sv.		43200	IN	NS	inetgate.merck.de.
-merck-manual.com.sv.	43200	IN	NS	igngate.merck.de.
-merck-manual.com.sv.	43200	IN	NS	wingate.merck.de.
-merck-manual.com.sv.	43200	IN	NS	inetgate.merck.de.
-merck-manuals.com.sv.	43200	IN	NS	igngate.merck.de.
-merck-manuals.com.sv.	43200	IN	NS	wingate.merck.de.
-merck-manuals.com.sv.	43200	IN	NS	inetgate.merck.de.
-merckmanual.com.sv.	43200	IN	NS	igngate.merck.de.
-merckmanual.com.sv.	43200	IN	NS	wingate.merck.de.
-merckmanual.com.sv.	43200	IN	NS	inetgate.merck.de.
-merckmanuals.com.sv.	43200	IN	NS	igngate.merck.de.
-merckmanuals.com.sv.	43200	IN	NS	wingate.merck.de.
-merckmanuals.com.sv.	43200	IN	NS	inetgate.merck.de.
+merck-manual.com.sv.	43200	IN	NS	ns1.brandshelter.com.
+merck-manual.com.sv.	43200	IN	NS	ns2.brandshelter.de.
+merck-manual.com.sv.	43200	IN	NS	ns3.brandshelter.info.
+merck-manual.com.sv.	43200	IN	NS	ns4.brandshelter.net.
+merck-manual.com.sv.	43200	IN	NS	ns5.brandshelter.us.
+merck-manuals.com.sv.	43200	IN	NS	ns1.brandshelter.com.
+merck-manuals.com.sv.	43200	IN	NS	ns2.brandshelter.de.
+merck-manuals.com.sv.	43200	IN	NS	ns3.brandshelter.info.
+merck-manuals.com.sv.	43200	IN	NS	ns4.brandshelter.net.
+merck-manuals.com.sv.	43200	IN	NS	ns5.brandshelter.us.
+merckmanual.com.sv.	43200	IN	NS	ns1.brandshelter.com.
+merckmanual.com.sv.	43200	IN	NS	ns2.brandshelter.de.
+merckmanual.com.sv.	43200	IN	NS	ns3.brandshelter.info.
+merckmanual.com.sv.	43200	IN	NS	ns4.brandshelter.net.
+merckmanual.com.sv.	43200	IN	NS	ns5.brandshelter.us.
+merckmanuals.com.sv.	43200	IN	NS	ns1.brandshelter.com.
+merckmanuals.com.sv.	43200	IN	NS	ns2.brandshelter.de.
+merckmanuals.com.sv.	43200	IN	NS	ns3.brandshelter.info.
+merckmanuals.com.sv.	43200	IN	NS	ns4.brandshelter.net.
+merckmanuals.com.sv.	43200	IN	NS	ns5.brandshelter.us.
 mercosal.com.sv.	43200	IN	NS	ns.rackspace.com.
 mercosal.com.sv.	43200	IN	NS	ns2.rackspace.com.
 mercosal.com.sv.	43200	IN	NS	ns3.solucionwebdns.com.
@@ -13602,8 +13612,8 @@ peek-a-boo.com.sv.	43200	IN	NS	ns1.dns.com.sv.
 peek-a-boo.com.sv.	43200	IN	NS	ns2.dns.com.sv.
 peek-a-boo.com.sv.	43200	IN	NS	ns3.dns.com.sv.
 peek-a-boo.com.sv.	43200	IN	NS	ns4.dns.com.sv.
-peekaboo.com.sv.	43200	IN	NS	ns8299.hostagtor.com.
-peekaboo.com.sv.	43200	IN	NS	ns8300.hostagtor.com.
+peekaboo.com.sv.	43200	IN	NS	ns8299.hostgator.com.
+peekaboo.com.sv.	43200	IN	NS	ns8300.hostgator.com.
 pega3.com.sv.		43200	IN	NS	ns1.cbnco.com.
 pega3.com.sv.		43200	IN	NS	ns2.cbnco.com.
 pennzoil.com.sv.	43200	IN	NS	dns1.shell.com.
@@ -14498,9 +14508,11 @@ reasa.com.sv.		43200	IN	NS	ns1.proaces.com.sv.
 reasa.com.sv.		43200	IN	NS	ns2.proaces.com.sv.
 reasaelsalvador.com.sv.	43200	IN	NS	ns1.worldsecuresystems.com.
 reasaelsalvador.com.sv.	43200	IN	NS	ns2.worldsecuresystems.com.
-rebif.com.sv.		43200	IN	NS	igngate.merck.de.
-rebif.com.sv.		43200	IN	NS	wingate.merck.de.
-rebif.com.sv.		43200	IN	NS	inetgate.merck.de.
+rebif.com.sv.		43200	IN	NS	ns1.brandshelter.com.
+rebif.com.sv.		43200	IN	NS	ns2.brandshelter.de.
+rebif.com.sv.		43200	IN	NS	ns3.brandshelter.info.
+rebif.com.sv.		43200	IN	NS	ns4.brandshelter.net.
+rebif.com.sv.		43200	IN	NS	ns5.brandshelter.us.
 recan.com.sv.		43200	IN	NS	ns1.elsalvadorwebsites.com.
 recan.com.sv.		43200	IN	NS	ns2.elsalvadorwebsites.com.
 recarga.com.sv.		43200	IN	NS	ns-46.awsdns-05.com.
@@ -17524,10 +17536,11 @@ vivendi.com.sv.		43200	IN	NS	a4.nstld.com.
 vivendi.com.sv.		43200	IN	NS	f4.nstld.com.
 vivendi.com.sv.		43200	IN	NS	g4.nstld.com.
 vivendi.com.sv.		43200	IN	NS	l4.nstld.com.
-vivera.com.sv.		43200	IN	NS	ns4.merckgroup.com.
-vivera.com.sv.		43200	IN	NS	igngate.merck.de.
-vivera.com.sv.		43200	IN	NS	wingate.merck.de.
-vivera.com.sv.		43200	IN	NS	inetgate.merck.de.
+vivera.com.sv.		43200	IN	NS	ns1.brandshelter.com.
+vivera.com.sv.		43200	IN	NS	ns2.brandshelter.de.
+vivera.com.sv.		43200	IN	NS	ns3.brandshelter.info.
+vivera.com.sv.		43200	IN	NS	ns4.brandshelter.net.
+vivera.com.sv.		43200	IN	NS	ns5.brandshelter.us.
 viverocafeelarco.com.sv. 43200	IN	NS	ns47.domaincontrol.com.
 viverocafeelarco.com.sv. 43200	IN	NS	ns48.domaincontrol.com.
 vivo.com.sv.		43200	IN	NS	ns1.inww.es.
@@ -21053,9 +21066,9 @@ mercermarshbeneficios.sv. 43200	IN	NS	ns03.mmc.com.
 mercermarshbenefits.sv.	43200	IN	NS	ns01.mmc.com.
 mercermarshbenefits.sv.	43200	IN	NS	ns02.mmc.com.
 mercermarshbenefits.sv.	43200	IN	NS	ns03.mmc.com.
-merck.sv.		43200	IN	NS	ns4.merckgroup.com.
+merck.sv.		43200	IN	NS	ns01.brandshelter.com.
+merck.sv.		43200	IN	NS	ns02.brandshelter.com.
 merck.sv.		43200	IN	NS	igngate.merck.de.
-merck.sv.		43200	IN	NS	wingate.merck.de.
 merck.sv.		43200	IN	NS	inetgate.merck.de.
 metrocentro.sv.		43200	IN	NS	pdns07.domaincontrol.com.
 metrocentro.sv.		43200	IN	NS	pdns08.domaincontrol.com.
@@ -23697,4 +23710,4 @@ ns2.internext.ws.	43200	IN	A	67.15.191.144
 ns1.rdcnet.ws.		43200	IN	A	208.109.204.30
 ns10.rdcnet.ws.		43200	IN	A	68.178.241.138
 ns2.rdcnet.ws.		43200	IN	A	208.109.204.33
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017071902 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017072003 43200 3600 2592000 43200

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cy. @ns1.ucy.ac.cy. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cy.			7200	IN	SOA	cynic.dns.cy. cydns.ucy.ac.cy. 2017041100 10800 3600 1209600 86400
+cy.			7200	IN	SOA	cynic.dns.cy. cydns.ucy.ac.cy. 2017072600 10800 3600 1209600 86400
 cy.			7200	IN	NS	ns1.ucy.ac.cy.
 cy.			7200	IN	NS	ns2.ucy.ac.cy.
 cy.			7200	IN	NS	ns3.ucy.ac.cy.
@@ -46,10 +46,12 @@ com.cy.			7200	IN	NS	sec3.apnic.net.
 com.cy.			7200	IN	NS	cy-ns.anycast.pch.net.
 com.cy.			7200	IN	NS	cynic.dns.cy.
 com.cy.			7200	IN	NS	estia.ics.forth.gr.
-ns1.cytanet.com.cy.	7200	IN	A	195.14.157.180
 ns1.cytanet.com.cy.	7200	IN	AAAA	2a00:1358:2000:a11:195:14:157:180
-ns2.cytanet.com.cy.	7200	IN	A	195.14.130.130
+ns1.cytanet.com.cy.	7200	IN	A	195.14.157.180
 ns2.cytanet.com.cy.	7200	IN	AAAA	2a00:1358:2000:a0a:195:14:130:130
+ns2.cytanet.com.cy.	7200	IN	A	195.14.130.130
+csirt.cy.		7200	IN	NS	ns1.cytanet.com.cy.
+csirt.cy.		7200	IN	NS	ns2.cytanet.com.cy.
 cybersafety.cy.		7200	IN	NS	ns1.cablenet-as.net.
 cybersafety.cy.		7200	IN	NS	ns2.cablenet-as.net.
 cybersafety.cy.		7200	IN	NS	ns3.cablenet-as.net.
@@ -137,4 +139,4 @@ tm.cy.			7200	IN	NS	ns3.ucy.ac.cy.
 tm.cy.			7200	IN	NS	cynic.dns.cy.
 unv.cy.			7200	IN	NS	ns2.unv.org.
 unv.cy.			7200	IN	NS	ns4.unv.org.
-cy.			7200	IN	SOA	cynic.dns.cy. cydns.ucy.ac.cy. 2017041100 10800 3600 1209600 86400
+cy.			7200	IN	SOA	cynic.dns.cy. cydns.ucy.ac.cy. 2017072600 10800 3600 1209600 86400

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017073002 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017080101 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -2334,9 +2334,8 @@ nfresh.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 nfth.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 ngo.mv.			3600	IN	MX	1000 mx01.dhivehinet.mv.
 ngoportal.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-nic.mv.			3600	IN	NS	ns1.101domain.com.
-nic.mv.			3600	IN	NS	ns2.101domain.com.
-nic.mv.			3600	IN	NS	ns3.101domain.com.
+nic.mv.			3600	IN	NS	f1g1ns1.dnspod.net.
+nic.mv.			3600	IN	NS	f1g1ns2.dnspod.net.
 niceprepaid.mv.		3600	IN	NS	host18.dhivehinet.net.mv.
 niceprepaid.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 nidhaaualislam.mv.	3600	IN	NS	ns1.bluehost.com.
@@ -2430,6 +2429,7 @@ oneavenue.mv.		3600	IN	NS	ns1.BlueHost.com.
 oneavenue.mv.		3600	IN	NS	ns2.BlueHost.com.
 onemap.mv.		3600	IN	NS	host15.dhivehinet.net.mv.
 oneplus.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
+oneweb.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 onhand.mv.		3600	IN	NS	ns1.ipage.com.
 onhand.mv.		3600	IN	NS	ns2.ipage.com.
 online.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -2533,6 +2533,10 @@ pfa.mv.			3600	IN	NS	rudy.ns.cloudflare.com.
 pharmacyplus.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 photo.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.photo.mv.		3600	IN	CNAME	www.photo-mv.com.
+photographer.mv.	3600	IN	NS	pdns01.domaincontrol.com.
+photographer.mv.	3600	IN	NS	pdns02.domaincontrol.com.
+photography.mv.		3600	IN	NS	pdns01.domaincontrol.com.
+photography.mv.		3600	IN	NS	pdns02.domaincontrol.com.
 physique.mv.		3600	IN	NS	ns149.ehosts.com.
 physique.mv.		3600	IN	NS	ns150.ehosts.com.
 picasa.mv.		3600	IN	NS	ns1.markmonitor.com.
@@ -2710,7 +2714,6 @@ redibles.mv.		3600	IN	NS	ns1.bluehost.com.
 redibles.mv.		3600	IN	NS	ns2.bluehost.com.
 ref.mv.			3600	IN	NS	dns.site5.com.
 ref.mv.			3600	IN	NS	dns2.site5.com.
-refreshwellness.mv.	3600	IN	NS	host15.dhivehinet.net.mv.
 relaxmaldives.mv.	3600	IN	NS	host04.dhivehinet.net.mv.
 reload.mv.		3600	IN	NS	ns9.routhost.com.
 reload.mv.		3600	IN	NS	ns10.routhost.com.
@@ -2768,7 +2771,8 @@ safebuilders.mv.	3600	IN	NS	ns203.asetservers.com.
 safevoyages.mv.		3600	IN	NS	ns201.asetservers.com.
 safevoyages.mv.		3600	IN	NS	ns202.asetservers.com.
 safevoyages.mv.		3600	IN	NS	ns203.asetservers.com.
-safira.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+safira.mv.		3600	IN	NS	becky.ns.cloudflare.com.
+safira.mv.		3600	IN	NS	elliot.ns.cloudflare.com.
 salaf.mv.		3600	IN	NS	ns1.dreamhost.com.
 salaf.mv.		3600	IN	NS	ns2.dreamhost.com.
 salaf.mv.		3600	IN	NS	ns3.dreamhost.com.
@@ -2794,6 +2798,7 @@ satheyka.mv.		3600	IN	NS	ns1.bluehost.com.
 satheyka.mv.		3600	IN	NS	ns2.bluehost.com.
 saudiembassy.mv.	3600	IN	NS	host15.dhivehinet.net.mv.
 scent.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+schneider.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 school.mv.		3600	IN	NS	NS1.BUSINESS.MV.
 school.mv.		3600	IN	NS	NS2.BUSINESS.MV.
 schools.mv.		3600	IN	NS	dns1.lonex.com.
@@ -3151,13 +3156,13 @@ thelaundry.mv.		3600	IN	NS	ns2.wix.com.
 thescent.mv.		3600	IN	NS	ns1.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns2.digitalocean.com.
 thescent.mv.		3600	IN	NS	ns3.digitalocean.com.
-thesmallmaldivesislandco.mv. 3600 IN	A	188.227.206.201
-thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 thesmallmaldivesislandco.mv. 3600 IN	MX	10 ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX2.GOOGLEMAIL.COM.
 thesmallmaldivesislandco.mv. 3600 IN	MX	30 ASPMX3.GOOGLEMAIL.COM.
+thesmallmaldivesislandco.mv. 3600 IN	A	188.227.206.201
+thesmallmaldivesislandco.mv. 3600 IN	TXT	"google-site-verification=lFhS5LD8hfd6gBeyFK3OyQDoPRUuzxG3-_pccFCmNVA"
 www.thesmallmaldivesislandco.mv. 3600 IN CNAME	thesmallmaldivesislandco.mv.
 theta.mv.		3600	IN	NS	ns1.sgp28.siteground.asia.
 theta.mv.		3600	IN	NS	ns2.sgp28.siteground.asia.
@@ -3241,6 +3246,8 @@ tropico.mv.		3600	IN	NS	ns1.bluehost.com.
 tropico.mv.		3600	IN	NS	ns2.bluehost.com.
 tros.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 truemaldives.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
+truemaldives.mv.	3600	IN	NS	becky.ns.cloudflare.com.
+truemaldives.mv.	3600	IN	NS	elliot.ns.cloudflare.com.
 trulymaldives.mv.	3600	IN	NS	ns1.hostmonster.com.
 trulymaldives.mv.	3600	IN	NS	ns2.hostmonster.com.
 trustpharmaceuticals.mv. 3600	IN	NS	host16.dhivehinet.net.mv.
@@ -3262,8 +3269,6 @@ tvmentertainment.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 tvmsports.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 tvmworld.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 twinklestar.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-tyke.mv.		3600	IN	NS	ns8217.hostgator.com.
-tyke.mv.		3600	IN	NS	ns8218.hostgator.com.
 ubay.mv.		3600	IN	NS	ns1.raajje.net.
 ubay.mv.		3600	IN	NS	ns2.raajje.net.
 ubuy.mv.		3600	IN	NS	ns-1300.awsdns-34.org.
@@ -3357,6 +3362,7 @@ verybigday.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 vessel.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 vestrade.mv.		3600	IN	NS	ns1.hiyaal.com.
 vestrade.mv.		3600	IN	NS	ns2.hiyaal.com.
+vevu.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 vfm.mv.			3600	IN	NS	host02.dhivehinet.net.mv.
 vfp.mv.			3600	IN	NS	cloe.ns.cloudflare.com.
 vfp.mv.			3600	IN	NS	glen.ns.cloudflare.com.
@@ -3562,4 +3568,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017073002 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017080101 1800 1800 3600 3600

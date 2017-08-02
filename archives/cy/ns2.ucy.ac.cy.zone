@@ -1,13 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cy. @ns2.ucy.ac.cy. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cy.			7200	IN	SOA	cynic.dns.cy. cydns.ucy.ac.cy. 2017072600 10800 3600 1209600 86400
+cy.			7200	IN	SOA	cynic.dns.cy. cydns.ucy.ac.cy. 2017080200 10800 3600 1209600 86400
 cy.			7200	IN	NS	cynic.dns.cy.
 cy.			7200	IN	NS	ns3.ucy.ac.cy.
 cy.			7200	IN	NS	ns1.ucy.ac.cy.
 cy.			7200	IN	NS	ns2.ucy.ac.cy.
 cy.			7200	IN	NS	ns02.savvis.net.
 cy.			7200	IN	NS	estia.ics.forth.gr.
+cy.			7200	IN	NS	cynic4.dns.cy.
 cy.			7200	IN	NS	sec3.apnic.net.
 cy.			7200	IN	NS	cy-ns.anycast.pch.net.
 3ce.cy.			7200	IN	NS	ns1.bluehost.com.
@@ -18,6 +19,7 @@ ac.cy.			7200	IN	NS	ns2.ucy.ac.cy.
 ac.cy.			7200	IN	NS	ns3.ucy.ac.cy.
 ac.cy.			7200	IN	NS	ns02.savvis.net.
 ac.cy.			7200	IN	NS	estia.ics.forth.gr.
+ac.cy.			7200	IN	NS	cynic4.dns.cy.
 ac.cy.			7200	IN	NS	sec3.apnic.net.
 ac.cy.			7200	IN	NS	cy-ns.anycast.pch.net.
 nameserver.pi.ac.cy.	7200	IN	A	185.42.35.194
@@ -34,6 +36,7 @@ biz.cy.			7200	IN	NS	ns02.savvis.net.
 biz.cy.			7200	IN	NS	estia.ics.forth.gr.
 biz.cy.			7200	IN	NS	sec3.apnic.net.
 biz.cy.			7200	IN	NS	cy-ns.anycast.pch.net.
+biz.cy.			7200	IN	NS	cynic4.dns.cy.
 centralbank.cy.		7200	IN	NS	ns1.cytanet.com.cy.
 centralbank.cy.		7200	IN	NS	ns2.cytanet.com.cy.
 centralbank.cy.		7200	IN	NS	ns1.wavespeed.net.
@@ -61,7 +64,9 @@ dns.cy.			7200	IN	NS	cynic.dns.cy.
 dns.cy.			7200	IN	NS	ns1.ucy.ac.cy.
 dns.cy.			7200	IN	NS	ns2.ucy.ac.cy.
 dns.cy.			7200	IN	NS	ns3.ucy.ac.cy.
+dns.cy.			7200	IN	NS	cynic4.dns.cy.
 cynic.dns.cy.		7200	IN	A	194.42.29.1
+cynic4.dns.cy.		7200	IN	A	194.42.29.16
 kronos.dns.cy.		7200	IN	A	194.42.29.10
 eisac.cy.		7200	IN	NS	kronos.dns.cy.
 eisac.cy.		7200	IN	NS	cynic.dns.cy.
@@ -69,6 +74,7 @@ ekloges.cy.		7200	IN	NS	cynic.dns.cy.
 ekloges.cy.		7200	IN	NS	ns1.ucy.ac.cy.
 ekloges.cy.		7200	IN	NS	ns2.ucy.ac.cy.
 ekloges.cy.		7200	IN	NS	ns3.ucy.ac.cy.
+ekloges.cy.		7200	IN	NS	cynic4.dns.cy.
 erasmusplus.cy.		7200	IN	NS	pdns05.domaincontrol.com.
 erasmusplus.cy.		7200	IN	NS	pdns06.domaincontrol.com.
 eu2012.cy.		7200	IN	NS	cynic.dns.cy.
@@ -92,12 +98,14 @@ ltd.cy.			7200	IN	NS	ns2.ucy.ac.cy.
 ltd.cy.			7200	IN	NS	ns3.ucy.ac.cy.
 ltd.cy.			7200	IN	NS	sec3.apnic.net.
 ltd.cy.			7200	IN	NS	cy-ns.anycast.pch.net.
+ltd.cy.			7200	IN	NS	cynic4.dns.cy.
 name.cy.		7200	IN	NS	cynic.dns.cy.
 name.cy.		7200	IN	NS	ns1.ucy.ac.cy.
 name.cy.		7200	IN	NS	ns2.ucy.ac.cy.
 name.cy.		7200	IN	NS	ns3.ucy.ac.cy.
 name.cy.		7200	IN	NS	sec3.apnic.net.
 name.cy.		7200	IN	NS	cy-ns.anycast.pch.net.
+name.cy.		7200	IN	NS	cynic4.dns.cy.
 net.cy.			7200	IN	NS	cynic.dns.cy.
 net.cy.			7200	IN	NS	ns1.ucy.ac.cy.
 net.cy.			7200	IN	NS	ns2.ucy.ac.cy.
@@ -106,11 +114,13 @@ net.cy.			7200	IN	NS	ns02.savvis.net.
 net.cy.			7200	IN	NS	estia.ics.forth.gr.
 net.cy.			7200	IN	NS	sec3.apnic.net.
 net.cy.			7200	IN	NS	cy-ns.anycast.pch.net.
+net.cy.			7200	IN	NS	cynic4.dns.cy.
 nic.cy.			7200	IN	NS	cynic.dns.cy.
 nic.cy.			7200	IN	NS	ns1.ucy.ac.cy.
 nic.cy.			7200	IN	NS	ns2.ucy.ac.cy.
 nic.cy.			7200	IN	NS	ns3.ucy.ac.cy.
 nic.cy.			7200	IN	NS	estia.ics.forth.gr.
+nic.cy.			7200	IN	NS	cynic4.dns.cy.
 org.cy.			7200	IN	NS	cynic.dns.cy.
 org.cy.			7200	IN	NS	ns1.ucy.ac.cy.
 org.cy.			7200	IN	NS	ns2.ucy.ac.cy.
@@ -119,6 +129,7 @@ org.cy.			7200	IN	NS	ns02.savvis.net.
 org.cy.			7200	IN	NS	estia.ics.forth.gr.
 org.cy.			7200	IN	NS	sec3.apnic.net.
 org.cy.			7200	IN	NS	cy-ns.anycast.pch.net.
+org.cy.			7200	IN	NS	cynic4.dns.cy.
 parliament.cy.		7200	IN	NS	ns01.gov.cy.
 parliament.cy.		7200	IN	NS	ns02.gov.cy.
 press.cy.		86400	IN	NS	cynic.dns.cy.
@@ -127,16 +138,19 @@ press.cy.		86400	IN	NS	ns2.ucy.ac.cy.
 press.cy.		86400	IN	NS	ns3.ucy.ac.cy.
 press.cy.		86400	IN	NS	sec3.apnic.net.
 press.cy.		86400	IN	NS	cy-ns.anycast.pch.net.
+press.cy.		86400	IN	NS	cynic4.dns.cy.
 pro.cy.			7200	IN	NS	cynic.dns.cy.
 pro.cy.			7200	IN	NS	ns1.ucy.ac.cy.
 pro.cy.			7200	IN	NS	ns2.ucy.ac.cy.
 pro.cy.			7200	IN	NS	ns3.ucy.ac.cy.
 pro.cy.			7200	IN	NS	sec3.apnic.net.
 pro.cy.			7200	IN	NS	cy-ns.anycast.pch.net.
+pro.cy.			7200	IN	NS	cynic4.dns.cy.
 tm.cy.			7200	IN	NS	cynic.dns.cy.
 tm.cy.			7200	IN	NS	ns1.ucy.ac.cy.
 tm.cy.			7200	IN	NS	ns2.ucy.ac.cy.
 tm.cy.			7200	IN	NS	ns3.ucy.ac.cy.
+tm.cy.			7200	IN	NS	cynic4.dns.cy.
 unv.cy.			7200	IN	NS	ns4.unv.org.
 unv.cy.			7200	IN	NS	ns2.unv.org.
-cy.			7200	IN	SOA	cynic.dns.cy. cydns.ucy.ac.cy. 2017072600 10800 3600 1209600 86400
+cy.			7200	IN	SOA	cynic.dns.cy. cydns.ucy.ac.cy. 2017080200 10800 3600 1209600 86400

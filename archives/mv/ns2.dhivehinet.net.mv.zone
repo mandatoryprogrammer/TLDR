@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017080401 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017080702 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -237,7 +237,8 @@ archive.mv.		3600	IN	NS	bart.ns.cloudflare.com.
 archive.mv.		3600	IN	NS	fiona.ns.cloudflare.com.
 argyle.mv.		3600	IN	NS	ns1.mediatemple.net.
 aro.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
-aromatec.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+aromatec.mv.		3600	IN	NS	ns13.domaincontrol.com.
+aromatec.mv.		3600	IN	NS	ns14.domaincontrol.com.
 arpa.mv.		3600	IN	A	202.1.203.100
 artbutik.mv.		3600	IN	NS	ns1.bluehost.com.
 artbutik.mv.		3600	IN	NS	ns2.bluehost.com.
@@ -474,6 +475,7 @@ boalha.mv.		3600	IN	NS	ns800.raajjehost.com.
 boalha.mv.		3600	IN	NS	ns900.raajjehost.com.
 boatingawards.mv.	3600	IN	NS	ns1.bluehost.com.
 boatingawards.mv.	3600	IN	NS	ns2.bluehost.com.
+boats.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 boduveli.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 boduvelimaldives.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 boduveliresortandspa.mv. 3600	IN	NS	host13.dhivehinet.net.mv.
@@ -1047,7 +1049,8 @@ etravel.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 etukuri.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 evegarmen.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 evegarment.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
-evening.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+evening.mv.		3600	IN	NS	ns6573.hostgator.com.
+evening.mv.		3600	IN	NS	ns6574.hostgator.com.
 events.mv.		3600	IN	NS	ns1.bluehost.com.
 events.mv.		3600	IN	NS	ns2.bluehost.com.
 evergreen.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
@@ -1592,7 +1595,9 @@ indexfurniture.mv.	3600	IN	MX	1000 mx01.dhivehinet.mv.
 inews.mv.		3600	IN	NS	ns1139.hostgator.com.
 inews.mv.		3600	IN	NS	ns1140.hostgator.com.
 info.mv.		3600	IN	A	202.1.203.100
-infocart.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+infocart.mv.		3600	IN	NS	ns1.digitalocean.com.
+infocart.mv.		3600	IN	NS	ns2.digitalocean.com.
+infocart.mv.		3600	IN	NS	ns3.digitalocean.com.
 infranet.mv.		3600	IN	NS	ns1.bigcommerce.com.
 infranet.mv.		3600	IN	NS	ns2.bigcommerce.com.
 ingot.mv.		3600	IN	NS	ns8421.hostgator.com.
@@ -1869,7 +1874,8 @@ limitless.mv.		3600	IN	NS	ns2.limitlesshosting.net.
 limitless.mv.		3600	IN	NS	ns3.limitlesshosting.net.
 limitless.mv.		3600	IN	NS	ns4.limitlesshosting.net.
 links.mv.		3600	IN	NS	ns100.dnsnetservice.com.
-linktek.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+linktek.mv.		3600	IN	NS	ns8059.hostgator.com.
+linktek.mv.		3600	IN	NS	ns8060.hostgator.com.
 lintel.mv.		3600	IN	NS	ns1.hostmonster.com.
 lintel.mv.		3600	IN	NS	ns2.hostmonster.com.
 linux.mv.		3600	IN	CNAME	mlug.mv.
@@ -2533,10 +2539,8 @@ pfa.mv.			3600	IN	NS	rudy.ns.cloudflare.com.
 pharmacyplus.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 photo.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.photo.mv.		3600	IN	CNAME	www.photo-mv.com.
-photographer.mv.	3600	IN	NS	pdns01.domaincontrol.com.
-photographer.mv.	3600	IN	NS	pdns02.domaincontrol.com.
-photography.mv.		3600	IN	NS	pdns01.domaincontrol.com.
-photography.mv.		3600	IN	NS	pdns02.domaincontrol.com.
+photographer.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
+photography.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 physique.mv.		3600	IN	NS	ns149.ehosts.com.
 physique.mv.		3600	IN	NS	ns150.ehosts.com.
 picasa.mv.		3600	IN	NS	ns1.markmonitor.com.
@@ -3452,8 +3456,10 @@ webmail.mv.		3600	IN	MX	1 webmail.mv.
 webmail.mv.		3600	IN	A	202.1.207.14
 webns.mv.		3600	IN	A	202.1.207.20
 webstore.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
-wedding.mv.		3600	IN	NS	ns1.buzzmaldives.com.
-wedding.mv.		3600	IN	NS	ns2.buzzmaldives.com.
+wedding.mv.		3600	IN	NS	ns1.stackdns.com.
+wedding.mv.		3600	IN	NS	ns2.stackdns.com.
+wedding.mv.		3600	IN	NS	ns3.stackdns.com.
+wedding.mv.		3600	IN	NS	ns4.stackdns.com.
 weddings.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 wellsam.mv.		3600	IN	NS	nsgbr.comlaude.co.uk.
 wellsam.mv.		3600	IN	NS	nssui.comlaude.ch.
@@ -3501,8 +3507,8 @@ workspace.mv.		3600	IN	NS	ns1.digitalocean.com.
 workspace.mv.		3600	IN	NS	ns2.digitalocean.com.
 workspace.mv.		3600	IN	NS	ns3.digitalocean.com.
 wp.mv.			3600	IN	A	27.114.159.188
-wrem.mv.		3600	IN	A	202.1.201.147
 wrem.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
+wrem.mv.		3600	IN	A	202.1.201.147
 wrench.mv.		3600	IN	NS	ns1.ipage.com.
 wrench.mv.		3600	IN	NS	ns2.ipage.com.
 wtf.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
@@ -3564,4 +3570,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017080401 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017080702 1800 1800 3600 3600

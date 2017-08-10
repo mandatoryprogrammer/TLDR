@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sn. @ns1.sonatel.sn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017080900 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017081001 21600 3600 1209600 3600
 sn.			86400	IN	RRSIG	TXT 8 1 86400 20170902230556 20170803164935 50298 sn. BAC9OzJZYPDJPubANO2pneNLI+HycatYF4PogFWLXJJc1Sg0fKlPqHrh 89YG0z6oZ0Rmudqie+l5i+SwvKNhRcOXtlyjXISHWedUAxv+RGRnN9g0 R2eXkX0tqAFr/r8HB1hL/IOqz8D2ZoDEEIDxd3SUKbrr+LhgkxmWyhFI L5c=
 sn.			86400	IN	TXT	"v=spf1 -all"
 sn.			86400	IN	RRSIG	NS 8 1 86400 20170902025107 20170803164935 50298 sn. rof2xku0WAycYELbeVfzk6pO80PbsoZXmhenWYiVNL1vK4jI1HbRDSJf f9rlJ1F+jgsMj+IB9mGE1iVf9iNATPd4VzmIhAEfbAfpQe3Wt8dJK4if xz1Zab//cUAfiyMc9Wd/Mhm9nWZAkGDlwRQhXgvneB7kqw4NP+PRXcsb piM=
@@ -16,7 +16,7 @@ sn.			43200	IN	RRSIG	DNSKEY 8 1 43200 20170903071629 20170803164935 32482 sn. Ml
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAazDrpIhw4ldEgv15mL05M41/FHsHp1MQP6ossWpObCf9G1tKRvo YB4r2c33VO2m74lZ8BaNky6ZI8PNkmQZU31lbrEBXb3Poco/0H8Rdd4P MfAjpBW12HRS5LokSZC9m5VvV72bdBtzi/Fi6GAwrDmiX+uMmz6V0dsX TnZgCTd1
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAbCClbkCUU6wQRSznE2lep/9K7mhkv9NbLNPAuIl94DSVy7IXbw7 TbdBvRKgV8t44ovaVJvD2oGnTf0uqSKJc6QcZZcS1FOEQ7vfu0741m+W ALFg4PmZ84FlZ7KFlKLmXTDxLNjqyUpu9RpkVWJoty3MGOLt56QXSu1V S98SSiDv
 sn.			43200	IN	DNSKEY	257 3 8 AwEAAbtBoi+R3s3nxMcnhiVzYNpwetz1ZsD8Lx18+bA4lZpOTm9LP3LO ocXA0s4btHhVg/o9LfbqcWBMdAXKT38fNo/PdRbjxLT9/xN82Suth09l JIiIIQUv5DSOBwywDwNjxH1881WF5ZPe69PWMIKWaBskiWBawn13spBm 8bqXyhfDeGKZL/38fG/qCeH6EfoVvgmG4VJWjNamAcacSKwCo/DKxrhB ciGAaNbSOTvNJhWhqRpNoYKEGwFUQbCb5yAn8VJpuB4K40V5qMGl2lE7 eQ0j6nJS+TyaUi4K4o/N/YahFiFNELZIzJtV5zzVgojHV44miLA27yGG ag0ze822ar8=
-sn.			86400	IN	RRSIG	SOA 8 1 86400 20170908214740 20170809130501 50298 sn. pRqoH1+e8rGRBx6vA8U5Lkcq6xi+Q7JZ9x/TTBO1AKXt+WzZ0+hTwGC5 OJ0RzO9TF3LGoRDSl6Nm+HTlgk24/kdNli6Zjnfros5+W7cSB48GobZm eKmdHxWm5pTC1tjSvpojhzK58nGGKgdOamA0hCJ55yEq65XbBFIY9+oD Zfc=
+sn.			86400	IN	RRSIG	SOA 8 1 86400 20170909131336 20170810110503 50298 sn. dSxiUd4TjpjPmWby3mF52fXlguv7uPydXZq5BlE5mkuajfgfC6es863Y IahplJRNjj9aiKCzl6tta/DRjm/y0fUokcHZo3MZtT794GJrqA9wvqdh inG4YJZ8thJb5RgML84bFcghlohDLt4Xo8t7P8vOrEbN4OOoKKzUNirh zps=
 101domain.sn.		86400	IN	NS	ns1.101domain.com.
 101domain.sn.		86400	IN	NS	ns2.101domain.com.
 101domain.sn.		86400	IN	NS	ns5.101domain.com.
@@ -2372,8 +2372,10 @@ coselocvoyages.sn.	86400	IN	NS	ns.sonatel.sn.
 coselocvoyages.sn.	86400	IN	NS	ns2.sonatel.sn.
 cosemad.sn.		86400	IN	NS	ns1.infomaniak.ch.
 cosemad.sn.		86400	IN	NS	ns2.infomaniak.ch.
-coseprim.sn.		86400	IN	NS	ns107.ovh.net.
-coseprim.sn.		86400	IN	NS	dns107.ovh.net.
+coseprim.sn.		86400	IN	NS	ns1.kheweul.net.
+coseprim.sn.		86400	IN	NS	ns2.kheweul.net.
+coseprim.sn.		86400	IN	NS	ns3.kheweul.net.
+coseprim.sn.		86400	IN	NS	ns4.kheweul.net.
 cosetam.sn.		86400	IN	NS	ns19.ovh.net.
 cosetam.sn.		86400	IN	NS	dns19.ovh.net.
 coslo.sn.		86400	IN	NS	ns17.ovh.net.
@@ -2403,8 +2405,9 @@ coursupreme.sn.		86400	IN	NS	ns3.kheweul.net.
 coursupreme.sn.		86400	IN	NS	ns4.kheweul.net.
 courte-echelle.sn.	86400	IN	NS	ns.sonatel.sn.
 courte-echelle.sn.	86400	IN	NS	ns2.sonatel.sn.
-cousenegal.sn.		86400	IN	NS	ns8051.hostgator.com.
-cousenegal.sn.		86400	IN	NS	ns8052.hostgator.com.
+cousenegal.sn.		86400	IN	NS	a.dns.gandi.net.
+cousenegal.sn.		86400	IN	NS	b.dns.gandi.net.
+cousenegal.sn.		86400	IN	NS	c.dns.gandi.net.
 covestro.sn.		86400	IN	NS	pdns1.cscdns.net.
 covestro.sn.		86400	IN	NS	pdns2.cscdns.net.
 covoiturage.sn.		86400	IN	NS	ns18.ovh.net.
@@ -4869,8 +4872,8 @@ ilico.sn.		86400	IN	NS	ns.oxito.com.
 ilico.sn.		86400	IN	NS	ns2.oxito.com.
 imagine.sn.		86400	IN	NS	ns1.connexionservice.com.
 imagine.sn.		86400	IN	NS	ns6.gandi.net.
-iman.sn.		86400	IN	NS	ns1.kheweul.com.
-iman.sn.		86400	IN	NS	ns2.kheweul.com.
+iman.sn.		86400	IN	NS	ns19.ovh.net.
+iman.sn.		86400	IN	NS	dns19.ovh.net.
 imblabo-btp.sn.		86400	IN	NS	ns19.ovh.net.
 imblabo-btp.sn.		86400	IN	NS	dns19.ovh.net.
 imc.sn.			86400	IN	NS	ns1.kheweul.net.
@@ -5365,7 +5368,10 @@ kbsb.sn.		86400	IN	NS	ns17.ovh.net.
 kbsb.sn.		86400	IN	NS	dns17.ovh.net.
 kdinternational.sn.	86400	IN	NS	ns1.kheweul.net.
 kdinternational.sn.	86400	IN	NS	ns2.kheweul.net.
-kdior.sn.		86400	IN	NS	vps39949.lws-hosting.com.
+kdior.sn.		86400	IN	NS	ns1.lwsdns.com.
+kdior.sn.		86400	IN	NS	ns2.lwsdns.com.
+kdior.sn.		86400	IN	NS	ns3.lwsdns.com.
+kdior.sn.		86400	IN	NS	ns4.lwsdns.com.
 kebakeinde.sn.		86400	IN	NS	ns1.101domain.com.
 kebakeinde.sn.		86400	IN	NS	ns2.101domain.com.
 kebakeinde.sn.		86400	IN	NS	ns5.101domain.com.
@@ -7185,6 +7191,8 @@ petroservices.sn.	86400	IN	NS	ns1.kheweul.net.
 petroservices.sn.	86400	IN	NS	ns2.kheweul.net.
 petrossian.sn.		86400	IN	NS	ns1.perf1.com.
 petrossian.sn.		86400	IN	NS	ns2.perf1.fr.
+pfcsarl.sn.		86400	IN	NS	ns200.anycast.me.
+pfcsarl.sn.		86400	IN	NS	dns200.anycast.me.
 pharesetbalises.sn.	86400	IN	NS	ns.sonatel.sn.
 pharesetbalises.sn.	86400	IN	NS	ns2.sonatel.sn.
 pharmaciepapadjibrilgueye.sn. 86400 IN	NS	sdns2.ovh.net.
@@ -14789,8 +14797,10 @@ h9fdq6gi56j4h6o0ksrgfut7i88fu2pj.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170903023342
 h9fdq6gi56j4h6o0ksrgfut7i88fu2pj.sn. 3600 IN NSEC3 1 0 1 F7E28112A032B008 H9K9T523H0B0EPK6T114OL91OOF5TCKF NS
 h9k9t523h0b0epk6t114ol91oof5tckf.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170902142009 20170803164935 50298 sn. OG43QNo7dCCfrBQCtcqdywoAF/UrYnccAk8z+WOjY2Hfw9/OI7UcnSa+ jhQvL/O1+3fJccKD9u27y74SzSolQeqoqp7NorlBxU+L9DLpyeEDWI1v IgcU5c+K1WPKD3Tyb2p/JpO7Xq7dxeLX+R82ttuxvfDHWWhgCdiayeCB O1w=
 h9k9t523h0b0epk6t114ol91oof5tckf.sn. 3600 IN NSEC3 1 0 1 F7E28112A032B008 H9RJM32MHC4ME97FPHP96SEHG2D537R0 NS
-h9rjm32mhc4me97fphp96sehg2d537r0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170902175905 20170803164935 50298 sn. KFhZ9jvGdd10v/Yrw8qAi/vc3uKDIEI1T3mO+a3B3RyOv/KXB7eGRdPk PORr/yTXV9CnUUS8OQhx7M1UDdON+QUq2VoYT6bECwtwEjxNbryjH0qi EVMGj87YKQRgkni9vbrMRLOC256/PLSUQB3GKokb47PUP+FaZRFAyK2G 2pQ=
-h9rjm32mhc4me97fphp96sehg2d537r0.sn. 3600 IN NSEC3 1 0 1 F7E28112A032B008 HA2EOVQIP8BBEI00190DG2P61E206BA0 NS
+h9rjm32mhc4me97fphp96sehg2d537r0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170909194204 20170810090502 50298 sn. YMINnpVCk4htY66DmDp8Mgoo/DZ9FOq23+m929fdmhZe9aOvMhuRJdEU EkFvUWoYGSKylXA19wM+KaTViE/IaYT1ETwPS+uItbPUa0raV3HSejjM 7Cp6Uz8+6fTrSXmbJo5fo0UlIAFQV0Wri7eegiJwZkrd69lvAaXOAZZT EpM=
+h9rjm32mhc4me97fphp96sehg2d537r0.sn. 3600 IN NSEC3 1 0 1 F7E28112A032B008 H9VO6EU5OFDI01TSCLS6MNJ5U44HH7B6 NS
+h9vo6eu5ofdi01tscls6mnj5u44hh7b6.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170909071653 20170810090502 50298 sn. NzcQsB9JQlzh4B+Uak94KPtpHYL3nRKrBCLeATi3phxQPDTFM8Zbkpth pMCNk2sW5HFcZ6CoD+I7VJ499Q6tEhoToShANfwaGq/5YSgm+yE+Z8bx IwSy9j3MX5FhXaPEYTWggr3G6pVLJBDmaHpqgFy6yKGHn4LTMr+HiUKF aqg=
+h9vo6eu5ofdi01tscls6mnj5u44hh7b6.sn. 3600 IN NSEC3 1 0 1 F7E28112A032B008 HA2EOVQIP8BBEI00190DG2P61E206BA0 NS
 ha2eovqip8bbei00190dg2p61e206ba0.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170902025713 20170803164935 50298 sn. I4cC6XUULNrCnk1joM6iLYEwx3dShfbLm7m1aSeNMwAIgpMVxC2Gw9DT Hvc5OvKr3mV5H3iI8e4lHxHcVrhLtPcFsXcMY3IUfvYa7ROjkizgqw1g S68OX8X+Mc2HoxjphxQWfCDNVIfNOBVCx+QpqB9ET1nw3UXyOYgMMCx6 +L4=
 ha2eovqip8bbei00190dg2p61e206ba0.sn. 3600 IN NSEC3 1 0 1 F7E28112A032B008 HA561FH5PD7JCJV5SRE5Q0MHRR6P8JKT NS
 ha561fh5pd7jcjv5sre5q0mhrr6p8jkt.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170902154648 20170803164935 50298 sn. rNNuiLru50Oc+h2dLKjdn6ZFKSUstaEfqllw0AInGJC9STlcFMMaKPdF 7QchJHVYXnbnlfqmacP1+jMAjrcirK+eMuuKPw1v2p82B7TdxQAMKKe6 qd8k5gFMtkvJUS/VGK8ktkr6wOb2bZ8Vgi8muYYSkByblpcclOQ4rqcN v4E=
@@ -18743,4 +18753,4 @@ vvkm535f1h4sq10amknorgacl651t69o.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170902030611
 vvkm535f1h4sq10amknorgacl651t69o.sn. 3600 IN NSEC3 1 0 1 F7E28112A032B008 VVRFBD33UONITDFA9QTTDJEJUG65N5BI NS
 vvrfbd33uonitdfa9qttdjejug65n5bi.sn. 3600 IN RRSIG NSEC3 8 2 3600 20170902215151 20170803170502 50298 sn. pGHeH21U31R7eGU9TGqWxCLPVcyqNJDKyDPfUA+hb4C8e4vndHVYaliQ aISRtfZFL3vs3QPnF6VdrrDAjEpzzp734BRyrV7lU41R2e1vEiK6JdeB 2plJvLrcqz4zaJUPgr1ia+ZfAHvUNU5IMaFoqG+iiG0KtptOWgW22oLB ngI=
 vvrfbd33uonitdfa9qttdjejug65n5bi.sn. 3600 IN NSEC3 1 0 1 F7E28112A032B008 00DK5PV4OLSFGHCMQKV3LT5D4BNIDS2L NS
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017080900 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017081001 21600 3600 1209600 3600

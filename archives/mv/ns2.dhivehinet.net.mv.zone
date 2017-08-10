@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017080801 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017081002 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -766,6 +766,8 @@ dadi.mv.		3600	IN	NS	ns02.trademarkarea.com.
 dadi.mv.		3600	IN	NS	ns03.trademarkarea.com.
 daphne.mv.		3600	IN	NS	ns1.ipage.com.
 daphne.mv.		3600	IN	NS	ns2.ipage.com.
+dashonline.mv.		3600	IN	NS	pdns11.domaincontrol.com.
+dashonline.mv.		3600	IN	NS	pdns12.domaincontrol.com.
 dashonline.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 dataclub.mv.		3600	IN	NS	ns1.dhihost.net.
 dataclub.mv.		3600	IN	NS	ns2.dhihost.net.
@@ -1244,6 +1246,7 @@ gatewayschool.mv.	3600	IN	NS	ns57.domaincontrol.com.
 gatewayschool.mv.	3600	IN	NS	ns58.domaincontrol.com.
 gathing.mv.		3600	IN	NS	ns6051.hostgator.com.
 gathing.mv.		3600	IN	NS	ns6052.hostgator.com.
+gbay.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 gbh.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 gdmaldives.mv.		3600	IN	NS	ns1.bluehost.com.
 gdmaldives.mv.		3600	IN	NS	ns2.bluehost.com.
@@ -2262,12 +2265,12 @@ webmail.myemail.mv.	3600	IN	CNAME	myemail-mv.webmail.mymailsrvr.com.
 myfidelio.mv.		3600	IN	CNAME	www.micros.com.au.
 myhaveeru.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 www.myhaveeru.mv.	3600	IN	CNAME	myhaveeru.mv.
-mymail.mv.		3600	IN	TXT	"google-site-verification=CR22i03ZLWcsm5CuaKTUtY3oOdqmjM4cGCRaU-ETnLg"
 mymail.mv.		3600	IN	MX	1 ASPMX.L.GOOGLE.COM.
 mymail.mv.		3600	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
 mymail.mv.		3600	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
 mymail.mv.		3600	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
 mymail.mv.		3600	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
+mymail.mv.		3600	IN	TXT	"google-site-verification=CR22i03ZLWcsm5CuaKTUtY3oOdqmjM4cGCRaU-ETnLg"
 mymicros.mv.		3600	IN	CNAME	www.micros.com.au.
 mymobile.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 mymobile.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
@@ -2392,8 +2395,7 @@ object.mv.		3600	IN	NS	ns2.bluehost.com.
 obliq.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 oceanenterprises.mv.	3600	IN	NS	dns1.namecheaphosting.com.
 oceanenterprises.mv.	3600	IN	NS	dns2.namecheaphosting.com.
-oceangroup.mv.		3600	IN	NS	ns2.wixdns.net.
-oceangroup.mv.		3600	IN	NS	ns3.wixdns.net.
+oceangroup.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 oceanholdings.mv.	3600	IN	A	208.109.181.150
 oceanholdings.mv.	3600	IN	MX	1 ASPMX.L.GOOGLE.COM.
 oceanholdings.mv.	3600	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
@@ -3288,6 +3290,7 @@ ulhandhu.mv.		3600	IN	NS	ns1.mediatemple.net.
 ulhandhu.mv.		3600	IN	NS	ns2.mediatemple.net.
 umar2018.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 underwater.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+ungulhey.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 unica.mv.		3600	IN	NS	ns6405.hostgator.com.
 unica.mv.		3600	IN	NS	ns6406.hostgator.com.
 unicompany.mv.		3600	IN	NS	ns21.domaincontrol.com.
@@ -3473,6 +3476,7 @@ whalesubmarine.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 whatson.mv.		3600	IN	NS	ns1.dhivehihost.com.
 whatson.mv.		3600	IN	NS	ns2.dhivehihost.com.
 whitediamond.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
+whitehouse.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 whiteroom.mv.		3600	IN	NS	ns71.domaincontrol.com.
 whiteroom.mv.		3600	IN	NS	ns72.domaincontrol.com.
 whopper.mv.		3600	IN	NS	dns1.cscdns.net.
@@ -3570,4 +3574,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017080801 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017081002 1800 1800 3600 3600

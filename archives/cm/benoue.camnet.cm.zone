@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017082409 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017082415 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1503561623"
+cm.			86400	IN	TXT	"Generation Time: 1503583218"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -1114,8 +1114,8 @@ cm.			86400	IN	TXT	"Generation Time: 1503561623"
 057.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 0570.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0570.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-0571.cm.		86400	IN	NS	ns1.dnsv1.com.
-0571.cm.		86400	IN	NS	ns2.dnsv1.com.
+0571.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+0571.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0572.cm.		86400	IN	NS	ns1.4.cn.
 0572.cm.		86400	IN	NS	ns2.4.cn.
 0573.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -1130,8 +1130,8 @@ cm.			86400	IN	TXT	"Generation Time: 1503561623"
 0575.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0576.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0576.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-0577.cm.		86400	IN	NS	ns1.dnsv1.com.
-0577.cm.		86400	IN	NS	ns2.dnsv1.com.
+0577.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+0577.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 05777.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 05777.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0578.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -26020,6 +26020,8 @@ asseenontv.cm.		86400	IN	NS	ns1.sedoparking.com.
 asseenontv.cm.		86400	IN	NS	ns2.sedoparking.com.
 asset.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 asset.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+assetmanagement.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
+assetmanagement.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
 assnat.cm.		86400	IN	NS	a.dns.gandi.net.
 assnat.cm.		86400	IN	NS	b.dns.gandi.net.
 assnat.cm.		86400	IN	NS	c.dns.gandi.net.
@@ -34001,8 +34003,8 @@ dan.cm.			86400	IN	NS	ns.dan.tv.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 ns.dan.cm.		86400	IN	A	185.92.222.117
+ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -38439,8 +38441,10 @@ fleshlight.cm.		86400	IN	NS	dns4.name-services.com.
 fleshlight.cm.		86400	IN	NS	dns5.name-services.com.
 fleurdelotus.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
 fleurdelotus.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
-flex.cm.		86400	IN	NS	ns49.domaincontrol.com.
-flex.cm.		86400	IN	NS	ns50.domaincontrol.com.
+flex.cm.		86400	IN	NS	ns1.bdm.microsoftonline.com.
+flex.cm.		86400	IN	NS	ns2.bdm.microsoftonline.com.
+flex.cm.		86400	IN	NS	ns3.bdm.microsoftonline.com.
+flex.cm.		86400	IN	NS	ns4.bdm.microsoftonline.com.
 flexico.cm.		86400	IN	NS	indom10.indomco.com.
 flexico.cm.		86400	IN	NS	indom20.indomco.net.
 flexico.cm.		86400	IN	NS	indom30.indomco.fr.
@@ -39798,6 +39802,8 @@ gesam.cm.		86400	IN	NS	ns6.gesam.cm.
 ns6.gesam.cm.		86400	IN	A	197.159.3.115
 gescol.cm.		86400	IN	NS	ns1.legtux.org.
 gescol.cm.		86400	IN	NS	ns2.legtux.org.
+gestiondesactifs.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
+gestiondesactifs.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
 get.cm.			86400	IN	NS	jeff.ns.cloudflare.com.
 get.cm.			86400	IN	NS	lily.ns.cloudflare.com.
 get-home.cm.		86400	IN	NS	ns1.mboahost.com.
@@ -60050,6 +60056,8 @@ sago.cm.		86400	IN	NS	ns1.globexcamhost.com.
 sago.cm.		86400	IN	NS	ns2.globexcamhost.com.
 sahamassurance.cm.	86400	IN	NS	ns1.sahamdns.net.
 sahamassurance.cm.	86400	IN	NS	ns2.sahamdns.net.
+sahelia.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
+sahelia.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 sahelmusic.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
 sahelmusic.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 saheloo.cm.		86400	IN	NS	ns1.first-ns.de.
@@ -60235,6 +60243,8 @@ saoso.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 saoso.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 sap.cm.			86400	IN	NS	ns1.bodis.com.
 sap.cm.			86400	IN	NS	ns2.bodis.com.
+sapougroup.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
+sapougroup.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 sapporo.cm.		86400	IN	NS	ns1.value-domain.com.
 sapporo.cm.		86400	IN	NS	ns2.value-domain.com.
 sapporo.cm.		86400	IN	NS	ns3.value-domain.com.
@@ -69677,6 +69687,8 @@ www5163.cm.		86400	IN	NS	ns1.dns.com.
 www5163.cm.		86400	IN	NS	ns2.dns.com.
 www6008.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 www6008.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+www600wan.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+www600wan.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 www6163.cm.		86400	IN	NS	ns1.dns.com.
 www6163.cm.		86400	IN	NS	ns2.dns.com.
 www777.cm.		86400	IN	NS	ns1.dnsdun.com.
@@ -73387,4 +73399,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017082409 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017082415 28800 3600 604800 86400

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR pg. @ns2.tiare.net.pg. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017082500 14400 7200 1728000 14400
+pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017083100 14400 7200 1728000 14400
 pg.			172800	IN	NS	ns.UU.NET.
 pg.			172800	IN	NS	ns1.tiare.net.PG.
 pg.			172800	IN	NS	ns1.unitech.ac.PG.
@@ -90,6 +90,9 @@ pims.AC.pg.		172800	IN	NS	ns3.datec.net.pg.
 PNGARNET.AC.pg.		172800	IN	NS	ns1.dwu.ac.pg.
 PNGARNET.AC.pg.		172800	IN	NS	dns1.pngarnet.ac.pg.
 dns1.PNGARNET.AC.pg.	172800	IN	A	202.80.164.222
+pngei.AC.pg.		172800	IN	NS	ns1.qnetau.com.
+pngei.AC.pg.		172800	IN	NS	ns2.qnetau.com.
+pngei.AC.pg.		172800	IN	NS	ns3.qnetau.com.
 pngipa.AC.pg.		172800	IN	NS	ns1.qnetau.com.
 pngipa.AC.pg.		172800	IN	NS	ns2.qnetau.com.
 pngipa.AC.pg.		172800	IN	NS	ns3.qnetau.com.
@@ -1680,8 +1683,6 @@ kongocoffee.COM.pg.	172800	IN	NS	ns2.websiteg.com.au.
 konnokii.COM.pg.	172800	IN	NS	ns1.qnetau.com.
 konnokii.COM.pg.	172800	IN	NS	ns2.qnetau.com.
 konnokii.COM.pg.	172800	IN	NS	ns3.qnetau.com.
-kopkopcollege.COM.pg.	172800	IN	NS	ns1.daltron.com.pg.
-kopkopcollege.COM.pg.	172800	IN	NS	ns2.daltron.com.pg.
 kopunye.COM.pg.		172800	IN	NS	ns1.rhostjh.com.
 kopunye.COM.pg.		172800	IN	NS	ns2.rhostjh.com.
 kosem.COM.pg.		172800	IN	NS	ns1.rhostjh.com.
@@ -3228,9 +3229,8 @@ tasmantanks.COM.pg.	172800	IN	NS	ns2.global.net.pg.
 tasmantanks.COM.pg.	172800	IN	NS	ns3.global.net.pg.
 taubmans.COM.pg.	172800	IN	NS	ns1.global.net.pg.
 taubmans.COM.pg.	172800	IN	NS	ns2.global.net.pg.
-tcbtravel.COM.pg.	172800	IN	NS	nsdal01.crucial.com.au.
-tcbtravel.COM.pg.	172800	IN	NS	nssyd01.crucial.com.au.
-tcbtravel.COM.pg.	172800	IN	NS	nssyd02.crucial.com.au.
+tcbtravel.COM.pg.	172800	IN	NS	art.ns.cloudflare.com.
+tcbtravel.COM.pg.	172800	IN	NS	kim.ns.cloudflare.com.
 tcf.COM.pg.		172800	IN	NS	ns1.qnetau.com.
 tcf.COM.pg.		172800	IN	NS	ns2.qnetau.com.
 tcf.COM.pg.		172800	IN	NS	ns3.qnetau.com.
@@ -4804,4 +4804,4 @@ ywamships.org.pg.	172800	IN	NS	ns3.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns1.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns2.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns3.qnetau.com.
-pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017082500 14400 7200 1728000 14400
+pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017083100 14400 7200 1728000 14400

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017090201 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017090202 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -90,6 +90,7 @@ adktravels.mv.		3600	IN	NS	ns1.mediatemple.net.
 adktravels.mv.		3600	IN	NS	ns2.mediatemple.net.
 adl.mv.			3600	IN	NS	ns1.inmotionhosting.com.
 adl.mv.			3600	IN	NS	ns2.inmotionhosting.com.
+ads.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
 adsense.mv.		3600	IN	NS	ns1.markmonitor.com.
 adsense.mv.		3600	IN	NS	ns3.markmonitor.com.
 adss.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
@@ -570,7 +571,6 @@ carprice.mv.		3600	IN	NS	ns03.trademarkarea.com.
 carrom.mv.		3600	IN	NS	ns9.securenet-server.net.
 carrom.mv.		3600	IN	NS	ns10.securenet-server.net.
 cartunes.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
-casify.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 cat.mv.			3600	IN	A	202.1.203.100
 cbyconstance.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 ced.mv.			3600	IN	NS	host15.dhivehinet.net.mv.
@@ -1244,6 +1244,7 @@ gameon.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 gamer.mv.		3600	IN	TXT	"v=spf1 ip4:202.1.207.1 ip4:202.1.203.19 mx ptr a:mx01.dhivehinet.mv a:avs01.dhivehinet.net.mv mx:mx01.dhivehinet.mv mx:avs01.dhivehinet.net.mv  ~all"
 gamer.mv.		3600	IN	MX	1000 fajko.dhivehinet.net.mv.
 mail.gamer.mv.		3600	IN	CNAME	mx01.dhivehinet.mv.
+games.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 gaming.mv.		3600	IN	A	124.195.195.23
 cs.gaming.mv.		3600	IN	A	124.195.195.23
 ganglia.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
@@ -3347,7 +3348,9 @@ uthuruboduveli.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 vaadhoo.mv.		3600	IN	NS	ns1.justhost.com.
 vaadhoo.mv.		3600	IN	NS	ns2.justhost.com.
 vaahaka.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
-vaanuvaa.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+vaanuvaa.mv.		3600	IN	NS	ns1.digitalocean.com.
+vaanuvaa.mv.		3600	IN	NS	ns2.digitalocean.com.
+vaanuvaa.mv.		3600	IN	NS	ns3.digitalocean.com.
 vacationer.mv.		3600	IN	NS	ns1.ipage.com.
 vacationer.mv.		3600	IN	NS	ns2.ipage.com.
 vacationislands.mv.	3600	IN	NS	ns4021.hostgator.com.
@@ -3604,4 +3607,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017090201 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017090202 1800 1800 3600 3600

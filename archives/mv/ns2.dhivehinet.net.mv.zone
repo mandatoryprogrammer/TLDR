@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mv. @ns2.dhivehinet.net.mv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017091401 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017091501 1800 1800 3600 3600
 mv.			3600	IN	NS	ns.mv.
 mv.			3600	IN	NS	ns.dhivehinet.net.mv.
 mv.			3600	IN	NS	ns2.dhivehinet.net.mv.
@@ -67,9 +67,9 @@ ac.mv.			3600	IN	A	202.1.203.100
 acco.mv.		3600	IN	NS	host04.dhivehinet.net.mv.
 accord.mv.		3600	IN	NS	ns100.whbdns.com.
 accord.mv.		3600	IN	NS	ns101.whbdns.com.
+aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 aceaviation.mv.		3600	IN	MX	10 mx1.emailsrvr.com.
 aceaviation.mv.		3600	IN	MX	20 mx2.emailsrvr.com.
-aceaviation.mv.		3600	IN	TXT	"v=spf1 include:mailgun.org ~all"
 k1._domainkey.aceaviation.mv. 3600 IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUNCaeAxrpJzLqHr/OdSl55nbwxLTtvpmBX4UReuwXaO++Uf8DAr4cujaShtzqTzokYZz6jnpY4jGYQktUV+q4azEWkIJbnaeGQRnrgntLLMBtW0DDOZ1obgo5qQehGphguTNS4/AXp0xanI11kuTKfQuShlLFFCMZPwRfiPYCLQIDAQAB"
 email.aceaviation.mv.	3600	IN	CNAME	mailgun.org.
 acetravels.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
@@ -386,7 +386,8 @@ bet365.mv.		3600	IN	NS	ns3.markmonitor.com.
 bet365.mv.		3600	IN	NS	ns5.markmonitor.com.
 beyond.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 bif.mv.			3600	IN	NS	host13.dhivehinet.net.mv.
-bigbaazaaru.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
+bigbaazaaru.mv.		3600	IN	NS	NS1.DIGITALOCEAN.COM.
+bigbaazaaru.mv.		3600	IN	NS	NS2.DIGITALOCEAN.COM.
 bigbasket.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 bigbooks.mv.		3600	IN	NS	ns2297.hostgator.com.
 bigbooks.mv.		3600	IN	NS	ns2298.hostgator.com.
@@ -1865,6 +1866,7 @@ lawyers.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 laze.mv.		3600	IN	NS	ns1.BlueHost.com.
 laze.mv.		3600	IN	NS	ns2.BlueHost.com.
 leads.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
+learn.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 learncoding.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 lecute.mv.		3600	IN	NS	ns1.hostmonster.com.
 lecute.mv.		3600	IN	NS	ns2.hostmonster.com.
@@ -2560,7 +2562,7 @@ peekaboo.mv.		3600	IN	NS	ns1.mydomain.com.
 peekaboo.mv.		3600	IN	NS	ns2.mydomain.com.
 peekaboo.mv.		3600	IN	NS	ns3.mydomain.com.
 penalcode.mv.		3600	IN	NS	host14.dhivehinet.net.mv.
-pentagram.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
+pentagram.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 peoplefactor.mv.	3600	IN	NS	ns6605.hostgator.com.
 peoplefactor.mv.	3600	IN	NS	ns6606.hostgator.com.
 perfectholidays.mv.	3600	IN	NS	ns6467.hostgator.com.
@@ -2637,6 +2639,7 @@ popovo.mv.		3600	IN	NS	ns2.bluehost.com.
 port.mv.		3600	IN	NS	host16.dhivehinet.net.mv.
 powerhardware.mv.	3600	IN	NS	ns1.beonservices.com.
 powerhardware.mv.	3600	IN	NS	ns2.beonservices.com.
+pozio.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 ppinternational.mv.	3600	IN	NS	host13.dhivehinet.net.mv.
 ppl.mv.			3600	IN	NS	DALE.NS.CLOUDFLARE.COM.
 ppl.mv.			3600	IN	NS	SARA.NS.CLOUDFLARE.COM.
@@ -3577,8 +3580,8 @@ work.mv.		3600	IN	NS	host13.dhivehinet.net.mv.
 workspace.mv.		3600	IN	NS	ns1.digitalocean.com.
 workspace.mv.		3600	IN	NS	ns2.digitalocean.com.
 workspace.mv.		3600	IN	NS	ns3.digitalocean.com.
-worldine.mv.		3600	IN	NS	ns1.sg8.fcomet.mv.
-worldine.mv.		3600	IN	NS	ns2.sg8.fcomet.mv.
+worldine.mv.		3600	IN	NS	ns1.sg8.fcomet.com.
+worldine.mv.		3600	IN	NS	ns2.sg8.fcomet.com.
 wp.mv.			3600	IN	A	27.114.159.188
 wrem.mv.		3600	IN	A	202.1.201.147
 wrem.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
@@ -3649,4 +3652,4 @@ www.zero.mv.		3600	IN	CNAME	zero.mv.
 zitahli.mv.		3600	IN	MX	1000 mx01.dhivehinet.mv.
 zmc.mv.			3600	IN	NS	ns1.webhostingpad.com.
 zmc.mv.			3600	IN	NS	ns2.webhostingpad.com.
-mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017091401 1800 1800 3600 3600
+mv.			3600	IN	SOA	ns.mv. hostmaster.dhivehinet.net.mv. 2017091501 1800 1800 3600 3600

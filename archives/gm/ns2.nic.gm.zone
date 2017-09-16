@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017090807 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017091603 3600 900 604800 3600
 gm.			3600	IN	NS	ns1.nic.gm.
 gm.			3600	IN	NS	ns2.nic.gm.
 gm.			3600	IN	NS	ns-gm.afrinic.net.
@@ -552,10 +552,12 @@ cbg.gm.			3600	IN	NS	ns2.unique.gm.
 cbg.gm.			3600	IN	NS	ns3.unique.gm.
 cconsulting.gm.		3600	IN	NS	ns0.ukfast.net.
 cconsulting.gm.		3600	IN	NS	ns1.ukfast.net.
-cctld-box.gm.		3600	IN	NS	ns1.ipmirror.com.
 cctld-box.gm.		3600	IN	NS	ns3.ipmirror.com.
-cctldbox.gm.		3600	IN	NS	ns1.ipmirror.com.
+cctld-box.gm.		3600	IN	NS	dns1.cscdns.net.
+cctld-box.gm.		3600	IN	NS	dns2.cscdns.net.
 cctldbox.gm.		3600	IN	NS	ns3.ipmirror.com.
+cctldbox.gm.		3600	IN	NS	dns1.cscdns.net.
+cctldbox.gm.		3600	IN	NS	dns2.cscdns.net.
 cdiscount.gm.		3600	IN	NS	dns1.cscdns.net.
 cdiscount.gm.		3600	IN	NS	dns2.cscdns.net.
 cellpay.gm.		3600	IN	NS	ns1.ams23.siteground.eu.
@@ -1314,6 +1316,8 @@ glaxosmithkline.gm.	3600	IN	NS	dns3.idp365.net.
 glaxowellcome.gm.	3600	IN	NS	dns1.idp365.net.
 glaxowellcome.gm.	3600	IN	NS	dns2.idp365.net.
 glaxowellcome.gm.	3600	IN	NS	dns3.idp365.net.
+glo.gm.			3600	IN	NS	ns1.cyberspaceman.co.uk.
+glo.gm.			3600	IN	NS	ns2.cyberspaceman.co.uk.
 globalnetwork.gm.	3600	IN	NS	ns1.gamtel.gm.
 globalnetwork.gm.	3600	IN	NS	ns2.gamtel.gm.
 globalproperties.gm.	3600	IN	NS	ns1.ipage.com.
@@ -1636,10 +1640,12 @@ ns.intouch.gm.		3600	IN	A	213.154.54.13
 ns2.intouch.gm.		3600	IN	A	213.154.95.126
 invest.gm.		3600	IN	NS	ns51.securenet-server.net.
 invest.gm.		3600	IN	NS	ns52.securenet-server.net.
-ip-mirror.gm.		3600	IN	NS	ns1.ipmirror.com.
 ip-mirror.gm.		3600	IN	NS	ns3.ipmirror.com.
-ipmirror.gm.		3600	IN	NS	ns1.ipmirror.com.
+ip-mirror.gm.		3600	IN	NS	dns1.cscdns.net.
+ip-mirror.gm.		3600	IN	NS	dns2.cscdns.net.
 ipmirror.gm.		3600	IN	NS	ns3.ipmirror.com.
+ipmirror.gm.		3600	IN	NS	dns1.cscdns.net.
+ipmirror.gm.		3600	IN	NS	dns2.cscdns.net.
 isisuccess.gm.		3600	IN	NS	dns5.nocserver.net.
 isisuccess.gm.		3600	IN	NS	dns6.nocserver.net.
 isisucess.gm.		3600	IN	NS	ns1.nextsite.com.
@@ -1851,12 +1857,18 @@ lem.gm.			3600	IN	NS	dns5.nocserver.net.
 lem.gm.			3600	IN	NS	dns6.nocserver.net.
 lemonfish.gm.		3600	IN	NS	ns1.geographicalmedia.com.
 lemonfish.gm.		3600	IN	NS	ns2.geographicalmedia.com.
+leolottery.gm.		3600	IN	NS	a.ns14.net.
+leolottery.gm.		3600	IN	NS	b.ns14.net.
+leolottery.gm.		3600	IN	NS	c.ns14.net.
 leolotto.gm.		3600	IN	NS	a.ns14.net.
 leolotto.gm.		3600	IN	NS	b.ns14.net.
 leolotto.gm.		3600	IN	NS	c.ns14.net.
 leos.gm.		3600	IN	NS	pns.innterdns.net.
 leos.gm.		3600	IN	NS	sns.innterdns.net.
 leos.gm.		3600	IN	NS	tns.innterdns.net.
+leovegaslotto.gm.	3600	IN	NS	a.ns14.net.
+leovegaslotto.gm.	3600	IN	NS	b.ns14.net.
+leovegaslotto.gm.	3600	IN	NS	c.ns14.net.
 levi.gm.		3600	IN	NS	nans1.levi.com.
 levi.gm.		3600	IN	NS	nans2.levi.com.
 levis.gm.		3600	IN	NS	nans1.levi.com.
@@ -2118,6 +2130,9 @@ mortgage.gm.		3600	IN	NS	ns2.fluxice.com.
 motorola.gm.		3600	IN	NS	ns1.motorolamobility.com.
 motorola.gm.		3600	IN	NS	ns3.motorolamobility.com.
 motorola.gm.		3600	IN	NS	ns4.motorolamobility.com.
+motul.gm.		3600	IN	NS	ns0.ordipat.fr.
+motul.gm.		3600	IN	NS	ns2.ordipat.fr.
+motul.gm.		3600	IN	NS	ns3.ordipat.fr.
 moukhtara.gm.		3600	IN	NS	ns1.pansa.net.
 moukhtara.gm.		3600	IN	NS	ns2.pansa.net.
 movies.gm.		3600	IN	NS	ns0.ukfast.net.
@@ -2654,8 +2669,9 @@ rym.gm.			3600	IN	NS	ns2.qth.nl.
 rym.gm.			3600	IN	NS	ns3.schaap.net.
 saamasang.gm.		3600	IN	NS	ns1.gamtel.gm.
 saamasang.gm.		3600	IN	NS	ns2.gamtel.gm.
-safestwhois.gm.		3600	IN	NS	ns1.ipmirror.com.
 safestwhois.gm.		3600	IN	NS	ns3.ipmirror.com.
+safestwhois.gm.		3600	IN	NS	dns1.cscdns.net.
+safestwhois.gm.		3600	IN	NS	dns2.cscdns.net.
 sagpa.gm.		3600	IN	NS	ns1.siteground270.com.
 sagpa.gm.		3600	IN	NS	ns2.siteground270.com.
 sahara.gm.		3600	IN	NS	ns1.gamtel.gm.
@@ -2743,6 +2759,9 @@ sdmo.gm.		3600	IN	NS	f4.nstld.com.
 sdmo.gm.		3600	IN	NS	g4.nstld.com.
 seafront.gm.		3600	IN	NS	ns1.netpagenetworks.net.
 seafront.gm.		3600	IN	NS	ns2.netpagenetworks.net.
+seafrontresidence.gm.	3600	IN	NS	c.ns14.net.
+seafrontresidence.gm.	3600	IN	NS	ns1.gamtel.gm.
+seafrontresidence.gm.	3600	IN	NS	ns2.gamtel.gm.
 seagam.gm.		3600	IN	NS	ns1.gamtel.gm.
 seagam.gm.		3600	IN	NS	ns2.gamtel.gm.
 search.gm.		3600	IN	NS	ns51.securenet-server.net.
@@ -3439,9 +3458,9 @@ zanussi.gm.		3600	IN	NS	ns.electrolux.se.
 zanussi.gm.		3600	IN	NS	ns2.domainnetwork.se.
 zenithbank.gm.		3600	IN	NS	ns3.anyservers.com.
 zenithbank.gm.		3600	IN	NS	ns4.anyservers.com.
-zentiva.gm.		3600	IN	NS	dns1.idp365.net.
-zentiva.gm.		3600	IN	NS	dns2.idp365.net.
-zentiva.gm.		3600	IN	NS	dns3.idp365.net.
+zentiva.gm.		3600	IN	NS	pdns1.ultradns.net.
+zentiva.gm.		3600	IN	NS	pdns2.ultradns.net.
+zentiva.gm.		3600	IN	NS	pdns3.ultradns.org.
 zetes-africard.gm.	3600	IN	NS	ns1.zetes.com.
 zetes-africard.gm.	3600	IN	NS	spdns3.cscdns.net.
 zewa.gm.		3600	IN	NS	melkor.sgn.sca.se.
@@ -3453,4 +3472,4 @@ zuerich.gm.		3600	IN	NS	ns.zurich.com.
 zuerich.gm.		3600	IN	NS	ns4.zurich.com.
 zurich.gm.		3600	IN	NS	ns.zurich.com.
 zurich.gm.		3600	IN	NS	ns4.zurich.com.
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017090807 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017091603 3600 900 604800 3600

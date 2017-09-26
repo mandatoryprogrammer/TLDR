@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sn. @ns1.sonatel.sn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017092500 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017092600 21600 3600 1209600 3600
 sn.			86400	IN	RRSIG	TXT 8 1 86400 20171022101051 20170922094454 50298 sn. RWiIJPDdFmpKkG94nxQAZX6v1D9/5jsS1kekE9GogdDQJ175MgVgZgqF FKLHgU92oo3fFP+prcphSlNldpZQ5ZGbRnvSW0pzriSCAQQ5q6r40LqN 5S5iTN+bhS4RwK7N2rAmt1MkmLeGJcO1WiiKKTvAIUoHY61qT8wjRBA5 /3g=
 sn.			86400	IN	TXT	"v=spf1 -all"
 sn.			86400	IN	RRSIG	NS 8 1 86400 20171022160115 20170922094454 50298 sn. KuSfa4Hb1ZHfRfFwUN3G6rXKOiwnk+6ZLboDPuMZydEArXkDk8AqOqLn vHc5ZOHH+vGKejDBO6WijIqhAIN7NVhJMSFnBnQ+cpkmNmxUnjvS2r+w oT8lc4ziZUDCkYhA94UOXbCGb6yTbOnn5bYXyg3xkUR5QWShgeC9VR47 sfM=
@@ -17,7 +17,7 @@ sn.			43200	IN	DNSKEY	256 3 8 AwEAAazDrpIhw4ldEgv15mL05M41/FHsHp1MQP6ossWpObCf9G
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAbCClbkCUU6wQRSznE2lep/9K7mhkv9NbLNPAuIl94DSVy7IXbw7 TbdBvRKgV8t44ovaVJvD2oGnTf0uqSKJc6QcZZcS1FOEQ7vfu0741m+W ALFg4PmZ84FlZ7KFlKLmXTDxLNjqyUpu9RpkVWJoty3MGOLt56QXSu1V S98SSiDv
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAcfmRz0TNn7wT4FZlK0bnmHyT69skzqFxBVAgAg7RmskGijyyl/N cFb2ytheTp3sin77lt+7GYRlacbVvc4nvgrKT68SGt+8kRfMtf98+E4b alekFAAhG7U2Qkm5ZGa2x0b4+Z/9X1Lm+TpGkaNSGVNnaaA+YiAKic7M jPvMRfKn
 sn.			43200	IN	DNSKEY	257 3 8 AwEAAbtBoi+R3s3nxMcnhiVzYNpwetz1ZsD8Lx18+bA4lZpOTm9LP3LO ocXA0s4btHhVg/o9LfbqcWBMdAXKT38fNo/PdRbjxLT9/xN82Suth09l JIiIIQUv5DSOBwywDwNjxH1881WF5ZPe69PWMIKWaBskiWBawn13spBm 8bqXyhfDeGKZL/38fG/qCeH6EfoVvgmG4VJWjNamAcacSKwCo/DKxrhB ciGAaNbSOTvNJhWhqRpNoYKEGwFUQbCb5yAn8VJpuB4K40V5qMGl2lE7 eQ0j6nJS+TyaUi4K4o/N/YahFiFNELZIzJtV5zzVgojHV44miLA27yGG ag0ze822ar8=
-sn.			86400	IN	RRSIG	SOA 8 1 86400 20171025050254 20170925110502 21123 sn. aLiB8yOTAZSvCGTw3akXBCccFe/Z4b7ZM0fELM5PLsQaZfLoqfp1i43R CMBiePlJlMmOCp4idtUb6CD7mN91MmreECjzOymZBZ7zST/pOUO7vyUZ bmAfs3EpsaDxi64o1foXQHWEl0GpJFd0dohlMV6Ue1x912jNHpWhJSaL Ie4=
+sn.			86400	IN	RRSIG	SOA 8 1 86400 20171026020823 20170926130502 21123 sn. hgcBzPmjSt2QjExBHgybtQvExz0oSFNX6BnC6FYuumWnbsPIXibK7Qq/ ELjilVsDut+PBN1XacI6V/yc+8DVhQ4EGE4c8dcQUcCKo2e3VNywKeDI Mpx1wI5X7wXdI+M03dh/3utwMR7dNpCeX5iZWz0l99k30C3kF18Nisbk wRo=
 101domain.sn.		86400	IN	NS	ns1.101domain.com.
 101domain.sn.		86400	IN	NS	ns2.101domain.com.
 101domain.sn.		86400	IN	NS	ns5.101domain.com.
@@ -1742,6 +1742,10 @@ carat.sn.		86400	IN	NS	ns5.netnames.net.
 carat.sn.		86400	IN	NS	ns6.netnames.net.
 carbay.sn.		86400	IN	NS	ns01.trademarkarea.com.
 carbay.sn.		86400	IN	NS	ns02.trademarkarea.com.
+carbay.sn.		86400	IN	NS	ns-304.awsdns-38.com.
+carbay.sn.		86400	IN	NS	ns-898.awsdns-48.net.
+carbay.sn.		86400	IN	NS	ns-1391.awsdns-45.org.
+carbay.sn.		86400	IN	NS	ns-2008.awsdns-59.co.uk.
 carbone14.sn.		86400	IN	NS	ns1.infomaniak.ch.
 carbone14.sn.		86400	IN	NS	ns2.infomaniak.ch.
 cardoz-figh.sn.		86400	IN	NS	ns.kimsufi.com.
@@ -5496,6 +5500,8 @@ karicis.sn.		86400	IN	NS	dns200.anycast.me.
 kartable.sn.		86400	IN	NS	a.dns.gandi.net.
 kartable.sn.		86400	IN	NS	b.dns.gandi.net.
 kartable.sn.		86400	IN	NS	c.dns.gandi.net.
+kashkash.sn.		86400	IN	NS	ns1.myultranova.com.
+kashkash.sn.		86400	IN	NS	ns2.myultranova.com.
 kashkash.sn.		86400	IN	NS	ns01.trademarkarea.com.
 kashkash.sn.		86400	IN	NS	ns02.trademarkarea.com.
 kashkash.sn.		86400	IN	NS	ns03.trademarkarea.com.
@@ -19184,4 +19190,4 @@ vvqevmm5hk332d8d7c8ajg40p5i8dgf5.sn. 3600 IN RRSIG NSEC3 8 2 3600 20171022040948
 vvqevmm5hk332d8d7c8ajg40p5i8dgf5.sn. 3600 IN NSEC3 1 0 1 9BD1FE277836BCDF VVU7LASKN36H2KTSQRF4TALQU2EFJABM NS
 vvu7laskn36h2ktsqrf4talqu2efjabm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20171022143628 20170922130502 21123 sn. gtGWpfaQk3ZgEWA7t6F/1YaYjD80EtWraNgZUGrkgyLldjdM+QHq5s4F yV+2sj+HMdMJlh887UyYtqDxvV6y+xLRk5Vxb9+o1aK6OeDrFANyMw7s 4dEJIC3a9y1mNk3rv+/L5nv7MnZK2lbUN+pezvjB/lB+BGM5Ji4s/xUP mJs=
 vvu7laskn36h2ktsqrf4talqu2efjabm.sn. 3600 IN NSEC3 1 0 1 9BD1FE277836BCDF 0063OB4M2OVKB3OB5A242KMPEM5TEPEF NS
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017092500 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017092600 21600 3600 1209600 3600

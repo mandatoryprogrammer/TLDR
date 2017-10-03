@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @cir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017100101 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017100201 43200 3600 2592000 43200
 ns1.grupobgl.com.ar.	43200	IN	A	67.19.193.98
 ns2.grupobgl.com.ar.	43200	IN	A	67.19.193.99
 ns1.indisa.com.ar.	43200	IN	A	72.46.254.112
@@ -2059,6 +2059,8 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 1.sv.			43200	IN	NS	a.dnspod.com.
 1.sv.			43200	IN	NS	b.dnspod.com.
 1.sv.			43200	IN	NS	c.dnspod.com.
+11.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+11.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 123.sv.			43200	IN	NS	ns1.400a.com.
 123.sv.			43200	IN	NS	ns2.400a.com.
 123.sv.			43200	IN	NS	ns3.400a.com.
@@ -2066,6 +2068,8 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 126chambersstreet.sv.	43200	IN	NS	dns4.avon.com.
 138.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
 138.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
+168.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+168.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 1800flowers.sv.		43200	IN	NS	ns1.markmonitor.com.
 1800flowers.sv.		43200	IN	NS	ns2.markmonitor.com.
 1800flowers.sv.		43200	IN	NS	ns3.markmonitor.com.
@@ -2105,6 +2109,8 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 6.sv.			43200	IN	NS	c.dnspod.com.
 66.sv.			43200	IN	NS	ns1.jiasule.net.
 66.sv.			43200	IN	NS	ns2.jiasule.net.
+666.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+666.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 6pm.sv.			43200	IN	NS	ns1.markmonitor.com.
 6pm.sv.			43200	IN	NS	ns3.markmonitor.com.
 6pm.sv.			43200	IN	NS	ns4.markmonitor.com.
@@ -2112,6 +2118,10 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 7.sv.			43200	IN	NS	a.dnspod.com.
 7.sv.			43200	IN	NS	b.dnspod.com.
 7.sv.			43200	IN	NS	c.dnspod.com.
+77.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+77.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
+777.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+777.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 7digital.sv.		43200	IN	NS	ns1.netnames.net.
 7digital.sv.		43200	IN	NS	ns2.netnames.net.
 7digital.sv.		43200	IN	NS	ns5.netnames.net.
@@ -2128,8 +2138,12 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 9.sv.			43200	IN	NS	a.dnspod.com.
 9.sv.			43200	IN	NS	b.dnspod.com.
 9.sv.			43200	IN	NS	c.dnspod.com.
+911.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+911.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 99.sv.			43200	IN	NS	ns1.jiasule.net.
 99.sv.			43200	IN	NS	ns2.jiasule.net.
+999.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+999.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 a.sv.			43200	IN	NS	a.dnspod.com.
 a.sv.			43200	IN	NS	b.dnspod.com.
 a.sv.			43200	IN	NS	c.dnspod.com.
@@ -3839,8 +3853,8 @@ alphavents.com.sv.	43200	IN	NS	ns1.mediatemple.net.
 alphavents.com.sv.	43200	IN	NS	ns2.mediatemple.net.
 alpomodoro.com.sv.	43200	IN	NS	ns1.asoshared.com.
 alpomodoro.com.sv.	43200	IN	NS	ns2.asoshared.com.
-alquilereslamascota.com.sv. 43200 IN	NS	ns55.domaincontrol.com.
-alquilereslamascota.com.sv. 43200 IN	NS	ns56.domaincontrol.com.
+alquilereslamascota.com.sv. 43200 IN	NS	ns67.domaincontrol.com.
+alquilereslamascota.com.sv. 43200 IN	NS	ns68.domaincontrol.com.
 alquimia.com.sv.	43200	IN	NS	ns1.softlayer.com.
 alquimia.com.sv.	43200	IN	NS	ns2.softlayer.com.
 alsasa.com.sv.		43200	IN	NS	ns-489.awsdns-61.com.
@@ -4144,8 +4158,8 @@ ariaslaw.com.sv.	43200	IN	NS	ns2.actionhosting.com.
 ariasranklaw.com.sv.	43200	IN	NS	dns1.namecheaphosting.com.
 ariasranklaw.com.sv.	43200	IN	NS	dns2.namecheaphosting.com.
 ariasranklaw.com.sv.	43200	IN	NS	dns3.namecheaphosting.com.
-ariastore.com.sv.	43200	IN	NS	ns1.arvixeshared.com.
-ariastore.com.sv.	43200	IN	NS	ns2.arvixeshared.com.
+ariastore.com.sv.	43200	IN	NS	ns6325.hostgator.com.
+ariastore.com.sv.	43200	IN	NS	ns6326.hostgator.com.
 ariasymunoz.com.sv.	43200	IN	NS	www.networksolutions.com.
 aristos.com.sv.		43200	IN	NS	mns01.domaincontrol.com.
 aristos.com.sv.		43200	IN	NS	mns02.domaincontrol.com.
@@ -6062,6 +6076,8 @@ clasesdemanejocentroamerica.com.sv. 43200 IN NS	ns2.no-ip.com.
 clasesdemanejocentroamerica.com.sv. 43200 IN NS	ns3.no-ip.com.
 clasesdemanejocentroamerica.com.sv. 43200 IN NS	ns4.no-ip.com.
 clasesdemanejocentroamerica.com.sv. 43200 IN NS	ns5.no-ip.com.
+clasificados.com.sv.	43200	IN	NS	dns1.namecheaphosting.com.
+clasificados.com.sv.	43200	IN	NS	dns2.namecheaphosting.com.
 clasiguia.com.sv.	43200	IN	NS	ns1145.dns.dyn.com.
 clasiguia.com.sv.	43200	IN	NS	ns2145.dns.dyn.com.
 clasiguia.com.sv.	43200	IN	NS	ns3147.dns.dyn.com.
@@ -7178,6 +7194,8 @@ dietco.com.sv.		43200	IN	NS	dns1.bitworks.com.sv.
 dietco.com.sv.		43200	IN	NS	dns2.bitworks.com.sv.
 digicel.com.sv.		43200	IN	NS	websal01.digicel.com.sv.
 websal01.digicel.com.sv. 43200	IN	A	200.89.80.49
+digicelbusiness.com.sv.	43200	IN	NS	ns1.digicelbusiness.com.sv.
+digicelbusiness.com.sv.	43200	IN	NS	ns2.digicelbusiness.com.sv.
 ns1.digicelbusiness.com.sv. 43200 IN	A	166.62.32.64
 ns2.digicelbusiness.com.sv. 43200 IN	A	166.62.32.64
 ns1.digicelempresas.com.sv. 43200 IN	A	166.62.32.64
@@ -7500,8 +7518,8 @@ drinkit.com.sv.		43200	IN	NS	ns6157.hostgator.com.
 drinkit.com.sv.		43200	IN	NS	ns6158.hostgator.com.
 drivealliance.com.sv.	43200	IN	NS	ns1.markmonitor.com.
 drivealliance.com.sv.	43200	IN	NS	ns2.markmonitor.com.
-drjorgepanameno.com.sv.	43200	IN	NS	ns1.mako.arvixe.com.
-drjorgepanameno.com.sv.	43200	IN	NS	ns2.mako.arvixe.com.
+drjorgepanameno.com.sv.	43200	IN	NS	ns6325.hostgator.com.
+drjorgepanameno.com.sv.	43200	IN	NS	ns6326.hostgator.com.
 drjuancarlosvalenzuela.com.sv. 43200 IN	NS	ns1.no-ip.com.
 drjuancarlosvalenzuela.com.sv. 43200 IN	NS	ns2.no-ip.com.
 drjuancarlosvalenzuela.com.sv. 43200 IN	NS	ns3.no-ip.com.
@@ -11161,8 +11179,8 @@ lapizzeria.com.sv.	43200	IN	NS	ns2.linode.com.
 lapizzeria.com.sv.	43200	IN	NS	ns3.linode.com.
 lapizzeria.com.sv.	43200	IN	NS	ns4.linode.com.
 lapizzeria.com.sv.	43200	IN	NS	ns5.linode.com.
-laplusbelle.com.sv.	43200	IN	NS	ns1.mako.arvixe.com.
-laplusbelle.com.sv.	43200	IN	NS	ns2.mako.arvixe.com.
+laplusbelle.com.sv.	43200	IN	NS	ns6325.hostgator.com.
+laplusbelle.com.sv.	43200	IN	NS	ns6326.hostgator.com.
 laportaplazahotel.com.sv. 43200	IN	NS	ns81.neothek.com.
 laportaplazahotel.com.sv. 43200	IN	NS	ns82.neothek.com.
 laposada.com.sv.	43200	IN	NS	ns1.tecnoserver.net.
@@ -13652,8 +13670,8 @@ pilsener.com.sv.	43200	IN	NS	arch.ns.cloudflare.com.
 pilsener.com.sv.	43200	IN	NS	miki.ns.cloudflare.com.
 pilum.com.sv.		43200	IN	NS	ns1.aplus.net.
 pilum.com.sv.		43200	IN	NS	ns2.aplus.net.
-pimentel.com.sv.	43200	IN	NS	ns13.servercorp.com.
-pimentel.com.sv.	43200	IN	NS	ns14.servercorp.com.
+pimentel.com.sv.	43200	IN	NS	ns143.websitewelcome.com.
+pimentel.com.sv.	43200	IN	NS	ns144.websitewelcome.com.
 pimi.com.sv.		43200	IN	NS	ns1.accountsupport.com.
 pimi.com.sv.		43200	IN	NS	ns2.accountsupport.com.
 pinguino.com.sv.	43200	IN	NS	dns02.unilever.com.
@@ -14207,6 +14225,8 @@ pumpop.com.sv.		43200	IN	NS	a.ns.pmovil.com.br.
 pumpop.com.sv.		43200	IN	NS	b.ns.pmovil.com.br.
 puntaroca.com.sv.	43200	IN	NS	ns1.bluehost.com.
 puntaroca.com.sv.	43200	IN	NS	ns2.bluehost.com.
+puntoaduaneroexpreso.com.sv. 43200 IN	NS	ns5.servinetsa.com.
+puntoaduaneroexpreso.com.sv. 43200 IN	NS	ns6.servinetsa.com.
 puntooptico.com.sv.	43200	IN	NS	kia.ns.cloudflare.com.
 puntooptico.com.sv.	43200	IN	NS	matt.ns.cloudflare.com.
 puntos.com.sv.		43200	IN	NS	ns1.maximumasp.com.
@@ -14289,6 +14309,8 @@ quimaqui.com.sv.	43200	IN	NS	ns181.websitewelcome.com.
 quimaqui.com.sv.	43200	IN	NS	ns182.websitewelcome.com.
 quintopiso.com.sv.	43200	IN	NS	ns1.save-solutions.com.br.
 quintopiso.com.sv.	43200	IN	NS	ns2.save-solutions.com.br.
+quiubo.com.sv.		43200	IN	NS	ns6113.hostgator.com.
+quiubo.com.sv.		43200	IN	NS	ns6114.hostgator.com.
 quiznos.com.sv.		43200	IN	NS	ns2178.dns.dyn.com.
 quiznos.com.sv.		43200	IN	NS	ns3149.dns.dyn.com.
 quiznos.com.sv.		43200	IN	NS	ns4174.dns.dyn.com.
@@ -15697,8 +15719,8 @@ somosurbanos.com.sv.	43200	IN	NS	ns1.grupodecima.com.
 somosurbanos.com.sv.	43200	IN	NS	ns2.grupodecima.com.
 sonax.com.sv.		43200	IN	NS	ns.namespace4you.de.
 sonax.com.sv.		43200	IN	NS	ns2.namespace4you.de.
-sonodigest.com.sv.	43200	IN	NS	ns1.mako.arvixe.com.
-sonodigest.com.sv.	43200	IN	NS	ns2.mako.arvixe.com.
+sonodigest.com.sv.	43200	IN	NS	ns6325.hostgator.com.
+sonodigest.com.sv.	43200	IN	NS	ns6326.hostgator.com.
 sonrisalud.com.sv.	43200	IN	NS	ns1.no-ip.com.
 sonrisalud.com.sv.	43200	IN	NS	ns2.no-ip.com.
 sonrisalud.com.sv.	43200	IN	NS	ns3.no-ip.com.
@@ -16277,6 +16299,8 @@ tecoloco.com.sv.	43200	IN	NS	ns2.myhostedby.com.
 tecplan.com.sv.		43200	IN	NS	ns01.trademarkarea.com.
 tecplan.com.sv.		43200	IN	NS	ns02.trademarkarea.com.
 tecplan.com.sv.		43200	IN	NS	ns03.trademarkarea.com.
+tecris.com.sv.		43200	IN	NS	ns1.host-care.com.
+tecris.com.sv.		43200	IN	NS	ns2.host-care.com.
 tecsa.com.sv.		43200	IN	NS	ns6083.hostgator.com.
 tecsa.com.sv.		43200	IN	NS	ns6084.hostgator.com.
 tectora.com.sv.		43200	IN	NS	dns1.cscdns.net.
@@ -17410,6 +17434,8 @@ visiteherbalife.com.sv.	43200	IN	NS	ns2.markmonitor.com.
 visiteherbalife.com.sv.	43200	IN	NS	ns3.markmonitor.com.
 visiteherbalife.com.sv.	43200	IN	NS	ns4.markmonitor.com.
 visiteherbalife.com.sv.	43200	IN	NS	ns5.markmonitor.com.
+vistatower.com.sv.	43200	IN	NS	pdns11.domaincontrol.com.
+vistatower.com.sv.	43200	IN	NS	pdns12.domaincontrol.com.
 vitaball.com.sv.	43200	IN	NS	a.ns14.net.
 vitaball.com.sv.	43200	IN	NS	b.ns14.net.
 vitaball.com.sv.	43200	IN	NS	c.ns14.net.
@@ -22044,6 +22070,8 @@ oxfam.org.sv.		43200	IN	NS	ns1.ascio.com.
 oxfam.org.sv.		43200	IN	NS	ns2.ascio.com.
 oxfamsol.org.sv.	43200	IN	NS	pam.ns.cloudflare.com.
 oxfamsol.org.sv.	43200	IN	NS	dave.ns.cloudflare.com.
+paraisodown.org.sv.	43200	IN	NS	ns1.alfahostings.com.
+paraisodown.org.sv.	43200	IN	NS	ns2.alfahostings.com.
 parroquiasantarosadelima.org.sv. 43200 IN NS	ns31.dnsnetservice.com.
 parroquiasantarosadelima.org.sv. 43200 IN NS	ns32.dnsnetservice.com.
 partido-democracia-cristiana.org.sv. 43200 IN NS ns3.navegante.com.sv.
@@ -23434,6 +23462,8 @@ vine.sv.		43200	IN	NS	ns4.p34.dynect.net.
 visa.sv.		43200	IN	NS	ns1.dnsvisa.com.
 visa.sv.		43200	IN	NS	ns2.dnsvisa.com.
 visa.sv.		43200	IN	NS	ns3.dnsvisa.com.
+vistatower.sv.		43200	IN	NS	pdns11.domaincontrol.com.
+vistatower.sv.		43200	IN	NS	pdns12.domaincontrol.com.
 vitaminshoppe.sv.	43200	IN	NS	ns01.trademarkarea.com.
 vitaminshoppe.sv.	43200	IN	NS	ns02.trademarkarea.com.
 vitaminshoppe.sv.	43200	IN	NS	ns03.trademarkarea.com.
@@ -23668,4 +23698,4 @@ ns2.internext.ws.	43200	IN	A	67.15.191.144
 ns1.rdcnet.ws.		43200	IN	A	208.109.204.30
 ns10.rdcnet.ws.		43200	IN	A	68.178.241.138
 ns2.rdcnet.ws.		43200	IN	A	208.109.204.33
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017100101 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017100201 43200 3600 2592000 43200

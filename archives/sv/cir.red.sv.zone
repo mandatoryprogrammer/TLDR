@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @cir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017100602 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017100901 43200 3600 2592000 43200
 ns1.grupobgl.com.ar.	43200	IN	A	67.19.193.98
 ns2.grupobgl.com.ar.	43200	IN	A	67.19.193.99
 ns1.indisa.com.ar.	43200	IN	A	72.46.254.112
@@ -2107,8 +2107,8 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 6.sv.			43200	IN	NS	a.dnspod.com.
 6.sv.			43200	IN	NS	b.dnspod.com.
 6.sv.			43200	IN	NS	c.dnspod.com.
-66.sv.			43200	IN	NS	ns1.jiasule.net.
-66.sv.			43200	IN	NS	ns2.jiasule.net.
+66.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+66.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 666.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
 666.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 6pm.sv.			43200	IN	NS	ns1.markmonitor.com.
@@ -2128,10 +2128,10 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 8.sv.			43200	IN	NS	a.dnspod.com.
 8.sv.			43200	IN	NS	b.dnspod.com.
 8.sv.			43200	IN	NS	c.dnspod.com.
-88.sv.			43200	IN	NS	ns1.jiasule.net.
-88.sv.			43200	IN	NS	ns2.jiasule.net.
-888.sv.			43200	IN	NS	ns1.jiasule.net.
-888.sv.			43200	IN	NS	ns2.jiasule.net.
+88.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+88.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
+888.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+888.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 888poker.sv.		43200	IN	NS	pdns1.ultradns.net.
 888poker.sv.		43200	IN	NS	pdns2.ultradns.net.
 888poker.sv.		43200	IN	NS	pdns3.ultradns.org.
@@ -2140,8 +2140,8 @@ sv.			43200	IN	NS	auth02.ns.uu.net.
 9.sv.			43200	IN	NS	c.dnspod.com.
 911.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
 911.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
-99.sv.			43200	IN	NS	ns1.jiasule.net.
-99.sv.			43200	IN	NS	ns2.jiasule.net.
+99.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
+99.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 999.sv.			43200	IN	NS	f1g1ns1.dnspod.net.
 999.sv.			43200	IN	NS	f1g1ns2.dnspod.net.
 a.sv.			43200	IN	NS	a.dnspod.com.
@@ -3857,8 +3857,8 @@ alphavents.com.sv.	43200	IN	NS	ns1.mediatemple.net.
 alphavents.com.sv.	43200	IN	NS	ns2.mediatemple.net.
 alpomodoro.com.sv.	43200	IN	NS	ns1.asoshared.com.
 alpomodoro.com.sv.	43200	IN	NS	ns2.asoshared.com.
-alquilereslamascota.com.sv. 43200 IN	NS	ns67.domaincontrol.com.
-alquilereslamascota.com.sv. 43200 IN	NS	ns68.domaincontrol.com.
+alquilereslamascota.com.sv. 43200 IN	NS	ns55.domaincontrol.com.
+alquilereslamascota.com.sv. 43200 IN	NS	ns56.domaincontrol.com.
 alquimia.com.sv.	43200	IN	NS	ns1.softlayer.com.
 alquimia.com.sv.	43200	IN	NS	ns2.softlayer.com.
 alsasa.com.sv.		43200	IN	NS	ns-489.awsdns-61.com.
@@ -3965,8 +3965,9 @@ amigosmabe.com.sv.	43200	IN	NS	ns1.nsmabenic.com.
 amigosmabe.com.sv.	43200	IN	NS	ns2.nsmabenic.com.
 amigotelcel.com.sv.	43200	IN	NS	ns3.navegante.com.sv.
 amigotelcel.com.sv.	43200	IN	NS	ns4.navegante.com.sv.
-amlconsulting.com.sv.	43200	IN	NS	ns3.securedc.com.
-amlconsulting.com.sv.	43200	IN	NS	ns4.securedc.com.
+amlconsulting.com.sv.	43200	IN	NS	ns1.hostinger.com.
+amlconsulting.com.sv.	43200	IN	NS	ns2.hostinger.com.
+amlconsulting.com.sv.	43200	IN	NS	ns3.hostinger.com.
 ampsolutions.com.sv.	43200	IN	NS	ns1.jpchost.com.
 ampsolutions.com.sv.	43200	IN	NS	ns2.jpchost.com.
 amsoluciones.com.sv.	43200	IN	NS	ns143.websitewelcome.com.
@@ -11500,6 +11501,9 @@ lineaexclusiva.com.sv.	43200	IN	NS	ns3.no-ip.com.
 lineaexclusiva.com.sv.	43200	IN	NS	ns4.no-ip.com.
 lineaexclusiva.com.sv.	43200	IN	NS	ns5.no-ip.com.
 lineasal.com.sv.	43200	IN	NS	gcasrv.explora.com.sv.
+linkatel.com.sv.	43200	IN	NS	ns01.trademarkarea.com.
+linkatel.com.sv.	43200	IN	NS	ns02.trademarkarea.com.
+linkatel.com.sv.	43200	IN	NS	ns03.trademarkarea.com.
 linkedin.com.sv.	43200	IN	NS	ns1.p43.dynect.net.
 linkedin.com.sv.	43200	IN	NS	ns2.p43.dynect.net.
 linkedin.com.sv.	43200	IN	NS	ns3.p43.dynect.net.
@@ -13274,8 +13278,8 @@ opticaideal.com.sv.	43200	IN	NS	ns2.no-ip.com.
 opticaideal.com.sv.	43200	IN	NS	ns3.no-ip.com.
 opticaideal.com.sv.	43200	IN	NS	ns4.no-ip.com.
 opticaideal.com.sv.	43200	IN	NS	ns5.no-ip.com.
-opticalajoya.com.sv.	43200	IN	NS	ns1.navega2.arvixevps.com.
-opticalajoya.com.sv.	43200	IN	NS	ns2.navega2.arvixevps.com.
+opticalajoya.com.sv.	43200	IN	NS	ns1.tigo.sv.
+opticalajoya.com.sv.	43200	IN	NS	ns2.tigo.sv.
 opticalcenter.com.sv.	43200	IN	NS	dns1.clubmipyme.com.
 opticalcenter.com.sv.	43200	IN	NS	dns2.clubmipyme.com.
 opticasfranklin.com.sv.	43200	IN	NS	dns1.validns.com.
@@ -14001,6 +14005,9 @@ primerbanco.com.sv.	43200	IN	NS	ns1.intercom.com.sv.
 primerbanco.com.sv.	43200	IN	NS	ns2.intercom.com.sv.
 primerenfoque.com.sv.	43200	IN	NS	ns1.accountsupport.com.
 primerenfoque.com.sv.	43200	IN	NS	ns2.accountsupport.com.
+primetimeshuttle.com.sv. 43200	IN	NS	ns01.trademarkarea.com.
+primetimeshuttle.com.sv. 43200	IN	NS	ns02.trademarkarea.com.
+primetimeshuttle.com.sv. 43200	IN	NS	ns03.trademarkarea.com.
 primevideo.com.sv.	43200	IN	NS	ns1.markmonitor.com.
 primevideo.com.sv.	43200	IN	NS	ns3.markmonitor.com.
 primevideo.com.sv.	43200	IN	NS	ns4.markmonitor.com.
@@ -20859,6 +20866,9 @@ lilipink.sv.		43200	IN	NS	ns03.trademarkarea.com.
 lilyoffrance.sv.	43200	IN	NS	ns3.fruit.com.
 lilyoffrance.sv.	43200	IN	NS	ns4.fruit.com.
 lilyoffrance.sv.	43200	IN	NS	ns5.fruit.com.
+linkatel.sv.		43200	IN	NS	ns01.trademarkarea.com.
+linkatel.sv.		43200	IN	NS	ns02.trademarkarea.com.
+linkatel.sv.		43200	IN	NS	ns03.trademarkarea.com.
 linkedin.sv.		43200	IN	NS	ns1.markmonitor.com.
 linkedin.sv.		43200	IN	NS	ns2.markmonitor.com.
 linkedin.sv.		43200	IN	NS	ns3.markmonitor.com.
@@ -22160,8 +22170,8 @@ progressio.org.sv.	43200	IN	NS	ns3.site4now.net.
 promar.org.sv.		43200	IN	NS	ns01.domaincontrol.com.
 promar.org.sv.		43200	IN	NS	ns02.domaincontrol.com.
 www.promemoria.org.sv.	43200	IN	A	198.50.205.114
-proseres.org.sv.	43200	IN	NS	ns1663.hostgator.com.
-proseres.org.sv.	43200	IN	NS	ns1664.hostgator.com.
+proseres.org.sv.	43200	IN	NS	ns1.medsal01.com.
+proseres.org.sv.	43200	IN	NS	ns2.medsal01.com.
 psp.org.sv.		43200	IN	NS	ns1.hostpapa.com.
 psp.org.sv.		43200	IN	NS	ns2.hostpapa.com.
 puertadeesperanza.org.sv. 43200	IN	NS	ns1.naranjaazul.net.
@@ -23752,4 +23762,4 @@ ns2.internext.ws.	43200	IN	A	67.15.191.144
 ns1.rdcnet.ws.		43200	IN	A	208.109.204.30
 ns10.rdcnet.ws.		43200	IN	A	68.178.241.138
 ns2.rdcnet.ws.		43200	IN	A	208.109.204.33
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017100602 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017100901 43200 3600 2592000 43200

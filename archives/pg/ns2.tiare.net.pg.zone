@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR pg. @ns2.tiare.net.pg. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017102400 14400 7200 1728000 14400
+pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017102600 14400 7200 1728000 14400
 pg.			172800	IN	NS	ns.UU.NET.
 pg.			172800	IN	NS	ns1.tiare.net.PG.
 pg.			172800	IN	NS	ns1.unitech.ac.PG.
@@ -466,6 +466,8 @@ boc.COM.pg.		172800	IN	NS	ns2.linde.com.
 boc.COM.pg.		172800	IN	NS	ns3.linde.com.
 boina.COM.pg.		172800	IN	NS	ns1.telinet.com.pg.
 boina.COM.pg.		172800	IN	NS	ns2.telinet.com.pg.
+bomalawyers.COM.pg.	172800	IN	NS	ns1.telinet.com.pg.
+bomalawyers.COM.pg.	172800	IN	NS	ns2.telinet.com.pg.
 bone.COM.pg.		172800	IN	NS	ns1.daltron.com.pg.
 bone.COM.pg.		172800	IN	NS	ns2.daltron.com.pg.
 bonnhr.COM.pg.		172800	IN	NS	ns1.telinet.com.pg.
@@ -794,6 +796,8 @@ destinations.COM.pg.	172800	IN	NS	ns1.online.net.pg.
 destinations.COM.pg.	172800	IN	NS	ns2.online.net.pg.
 devbank.COM.pg.		172800	IN	NS	ns1.online.net.pg.
 devbank.COM.pg.		172800	IN	NS	ns2.online.net.pg.
+devcon.COM.pg.		172800	IN	NS	dns1.doteasy.com.
+devcon.COM.pg.		172800	IN	NS	dns2.doteasy.com.
 dfk.COM.pg.		172800	IN	NS	ns2.wixdns.net.
 dfk.COM.pg.		172800	IN	NS	ns3.wixdns.net.
 dg.COM.pg.		172800	IN	NS	ns1.online.net.pg.
@@ -1307,6 +1311,9 @@ hgproperties.COM.pg.	172800	IN	NS	ns3.datec.net.pg.
 hiexpressportmoresby.COM.pg. 172800 IN	NS	ns1.datec.net.pg.
 hiexpressportmoresby.COM.pg. 172800 IN	NS	ns2.datec.net.pg.
 hiexpressportmoresby.COM.pg. 172800 IN	NS	ns3.datec.net.pg.
+highlandsbutchery.COM.pg. 172800 IN	NS	ns-527.awsdns-01.net.
+highlandsbutchery.COM.pg. 172800 IN	NS	ns-1305.awsdns-35.org.
+highlandsbutchery.COM.pg. 172800 IN	NS	ns-1983.awsdns-55.co.uk.
 highlandspetroleum.COM.pg. 172800 IN	NS	ns1.qnetau.com.
 highlandspetroleum.COM.pg. 172800 IN	NS	ns2.qnetau.com.
 highlandspetroleum.COM.pg. 172800 IN	NS	ns3.qnetau.com.
@@ -1570,8 +1577,9 @@ kaycee.COM.pg.		172800	IN	NS	ns2.qnetau.com.
 kaycee.COM.pg.		172800	IN	NS	ns3.qnetau.com.
 kaystarconstruction.COM.pg. 172800 IN	NS	ns1.telinet.com.pg.
 kaystarconstruction.COM.pg. 172800 IN	NS	ns2.telinet.com.pg.
-kbb.COM.pg.		172800	IN	NS	ns1.anchor.net.au.
-kbb.COM.pg.		172800	IN	NS	ns2.anchor.net.au.
+kbb.COM.pg.		172800	IN	NS	ns1.winhost.com.
+kbb.COM.pg.		172800	IN	NS	ns2.winhost.com.
+kbb.COM.pg.		172800	IN	NS	ns3.winhost.com.
 kbsa.COM.pg.		172800	IN	NS	ns1.global.net.pg.
 kbsa.COM.pg.		172800	IN	NS	ns2.global.net.pg.
 kch.COM.pg.		172800	IN	NS	ns1.qnetau.com.
@@ -3150,9 +3158,6 @@ svs.COM.pg.		172800	IN	NS	ns1.global.net.pg.
 svs.COM.pg.		172800	IN	NS	ns2.global.net.pg.
 svsmart.COM.pg.		172800	IN	NS	ns1.global.net.pg.
 svsmart.COM.pg.		172800	IN	NS	ns2.global.net.pg.
-swa.COM.pg.		172800	IN	NS	ns1.qnetau.com.
-swa.COM.pg.		172800	IN	NS	ns2.qnetau.com.
-swa.COM.pg.		172800	IN	NS	ns3.qnetau.com.
 swiftagencies.COM.pg.	172800	IN	NS	pdns07.domaincontrol.com.
 swiftagencies.COM.pg.	172800	IN	NS	pdns08.domaincontrol.com.
 swt.COM.pg.		172800	IN	NS	ns1.global.net.pg.
@@ -3532,9 +3537,6 @@ wheels.COM.pg.		172800	IN	NS	ns2.webolution.net.au.
 whitepages.COM.pg.	172800	IN	NS	ns1.optusnet.com.au.
 whitepages.COM.pg.	172800	IN	NS	ns5.datec.net.pg.
 whitepages.COM.pg.	172800	IN	NS	ns6.datec.net.pg.
-wildcat.COM.pg.		172800	IN	NS	ns1.qnetau.com.
-wildcat.COM.pg.		172800	IN	NS	ns2.qnetau.com.
-wildcat.COM.pg.		172800	IN	NS	ns3.qnetau.com.
 wimble.COM.pg.		172800	IN	NS	ns1.qnetau.com.
 wimble.COM.pg.		172800	IN	NS	ns2.qnetau.com.
 wimble.COM.pg.		172800	IN	NS	ns3.qnetau.com.
@@ -3747,8 +3749,8 @@ esaaladistrict.GOV.pg.	172800	IN	NS	ns2.qnetau.com.
 esaaladistrict.GOV.pg.	172800	IN	NS	ns3.qnetau.com.
 finance.GOV.pg.		172800	IN	NS	ns1.datec.net.pg.
 finance.GOV.pg.		172800	IN	NS	ns2.datec.net.pg.
-fisheries.GOV.pg.	172800	IN	NS	ns1.digiteccloud.com.
-fisheries.GOV.pg.	172800	IN	NS	ns2.digiteccloud.com.
+fisheries.GOV.pg.	172800	IN	NS	ns1.telinet.com.pg.
+fisheries.GOV.pg.	172800	IN	NS	ns2.telinet.com.pg.
 forestry.GOV.pg.	172800	IN	NS	ns1.datec.net.pg.
 forestry.GOV.pg.	172800	IN	NS	ns2.datec.net.pg.
 gg.GOV.pg.		172800	IN	NS	ns111.mochahost.com.
@@ -4297,6 +4299,9 @@ engaculturalshow.org.pg. 172800	IN	NS	ns1.telinet.com.pg.
 engaculturalshow.org.pg. 172800	IN	NS	ns2.telinet.com.pg.
 esp.org.pg.		172800	IN	NS	ns1.global.net.pg.
 esp.org.pg.		172800	IN	NS	ns2.global.net.pg.
+esports.org.pg.		172800	IN	NS	ns1.he.net.
+esports.org.pg.		172800	IN	NS	ns2.he.net.
+esports.org.pg.		172800	IN	NS	ns3.he.net.
 ethrdp.org.pg.		172800	IN	NS	ns1.daltron.com.pg.
 ethrdp.org.pg.		172800	IN	NS	ns2.daltron.com.pg.
 eupmu.org.pg.		172800	IN	NS	ns1.global.net.pg.
@@ -4724,4 +4729,4 @@ ywamships.org.pg.	172800	IN	NS	ns3.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns1.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns2.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns3.qnetau.com.
-pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017102400 14400 7200 1728000 14400
+pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2017102600 14400 7200 1728000 14400

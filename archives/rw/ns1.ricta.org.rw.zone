@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns1.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017103108 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1509433209"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017103111 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1509444016"
 rw.			3600	IN	NS	A.RW.DYNTLD.NET.
 rw.			3600	IN	NS	B.RW.DYNTLD.NET.
 rw.			3600	IN	NS	ns1.ricta.org.rw.
@@ -353,8 +353,8 @@ apps.rw.		3600	IN	NS	ns1.rdb.rw.
 apps.rw.		3600	IN	NS	ns2.aos.rw.
 aprfc.rw.		3600	IN	NS	ns4015.websitewelcome.com.
 aprfc.rw.		3600	IN	NS	ns4016.websitewelcome.com.
-aptc.rw.		3600	IN	NS	ns1.hostblueinc.com.
-aptc.rw.		3600	IN	NS	ns2.hostblueinc.com.
+aptc.rw.		3600	IN	NS	ns5.ricta.org.rw.
+aptc.rw.		3600	IN	NS	ns6.ricta.org.rw.
 aptis.rw.		3600	IN	NS	ns1.netnames.net.
 aptis.rw.		3600	IN	NS	ns2.netnames.net.
 arama.rw.		3600	IN	NS	ns337.websitewelcome.com.
@@ -441,8 +441,8 @@ audi.rw.		3600	IN	NS	ns2.audi.de.
 audi.rw.		3600	IN	NS	ns5.xc-ns.de.
 aukigali.rw.		3600	IN	NS	ns1.rdb.rw.
 aukigali.rw.		3600	IN	NS	ns3.rdb.rw.
-aurasoft.rw.		3600	IN	NS	ns1.bluehost.com.
-aurasoft.rw.		3600	IN	NS	ns2.bluehost.com.
+aurasoft.rw.		3600	IN	NS	ns5.ricta.org.rw.
+aurasoft.rw.		3600	IN	NS	ns6.ricta.org.rw.
 automate.rw.		3600	IN	NS	ns8391.hostgator.com.
 automate.rw.		3600	IN	NS	ns8392.hostgator.com.
 autozone.rw.		3600	IN	NS	a4.nstld.com.
@@ -1784,8 +1784,8 @@ gear.rw.		3600	IN	NS	ns1.igihehost.com.
 gear.rw.		3600	IN	NS	ns2.igihehost.com.
 gec.rw.			3600	IN	NS	ns1.imaginetrwone.com.
 gec.rw.			3600	IN	NS	ns2.imaginetrwone.com.
-geedo.rw.		3600	IN	NS	ns5.ricta.org.rw.
-geedo.rw.		3600	IN	NS	ns6.ricta.org.rw.
+geedo.rw.		3600	IN	NS	burt.ns.cloudflare.com.
+geedo.rw.		3600	IN	NS	jade.ns.cloudflare.com.
 genesis.rw.		3600	IN	NS	ns1.kaneza.com.
 genesis.rw.		3600	IN	NS	ns2.kaneza.com.
 geoconsult.rw.		3600	IN	NS	ns1.vodadns.com.
@@ -2153,6 +2153,8 @@ hviewtech.rw.		3600	IN	NS	ns1.hostblueinc.com.
 hviewtech.rw.		3600	IN	NS	ns2.hostblueinc.com.
 hyatt.rw.		3600	IN	NS	a4.nstld.com.
 hyatt.rw.		3600	IN	NS	f4.nstld.com.
+hybridengineering.rw.	3600	IN	NS	ns1.hostholik.com.
+hybridengineering.rw.	3600	IN	NS	ns2.hostholik.com.
 i-posita.rw.		3600	IN	NS	ns1.rdb.rw.
 i-posita.rw.		3600	IN	NS	ns2.aos.rw.
 i-posita.rw.		3600	IN	NS	ns3.aos.rw.
@@ -3677,6 +3679,10 @@ prime.rw.		3600	IN	NS	ns8213.hostgator.com.
 prime.rw.		3600	IN	NS	ns8214.hostgator.com.
 primetimepromotions.rw.	3600	IN	NS	ns1.codelabkenya.net.
 primetimepromotions.rw.	3600	IN	NS	ns2.codelabkenya.net.
+prisma.rw.		3600	IN	NS	ns1.inmotionhosting.com.
+prisma.rw.		3600	IN	NS	ns2.inmotionhosting.com.
+prismaventures.rw.	3600	IN	NS	ns1.inmotionhosting.com.
+prismaventures.rw.	3600	IN	NS	ns2.inmotionhosting.com.
 proafrica.rw.		3600	IN	NS	ns1.proafrica.rw.
 proafrica.rw.		3600	IN	NS	ns2.proafrica.rw.
 ns1.proafrica.rw.	3600	IN	A	197.243.18.208
@@ -3752,8 +3758,6 @@ radio.rw.		3600	IN	NS	ns1.igihe.club.
 radio.rw.		3600	IN	NS	ns2.igihe.club.
 radio10.rw.		3600	IN	NS	ns8181.hostgator.com.
 radio10.rw.		3600	IN	NS	ns8182.hostgator.com.
-radio5.rw.		3600	IN	NS	ns5.ricta.org.rw.
-radio5.rw.		3600	IN	NS	ns6.ricta.org.rw.
 radiomaria.rw.		3600	IN	NS	ns1.instradns.com.
 radiomaria.rw.		3600	IN	NS	ns2.instradns.com.
 radiotv10.rw.		3600	IN	NS	ns627.websitewelcome.com.
@@ -3793,8 +3797,8 @@ rasal.rw.		3600	IN	NS	ns1.kaneza.com.
 rasal.rw.		3600	IN	NS	ns2.kaneza.com.
 rayonsports.rw.		3600	IN	NS	ns5.ricta.org.rw.
 rayonsports.rw.		3600	IN	NS	ns6.ricta.org.rw.
-rayonyacu.rw.		3600	IN	NS	ns1.rdb.rw.
-rayonyacu.rw.		3600	IN	NS	ns2.aos.rw.
+rayonyacu.rw.		3600	IN	NS	ns5.ricta.org.rw.
+rayonyacu.rw.		3600	IN	NS	ns6.ricta.org.rw.
 rba.rw.			3600	IN	NS	ns1.hostholik.com.
 rba.rw.			3600	IN	NS	ns2.hostholik.com.
 rbl.rw.			3600	IN	NS	ns1.digitalmediawebhost.net.
@@ -4522,6 +4526,8 @@ sunquick.rw.		3600	IN	NS	ns1.ascio.net.
 sunquick.rw.		3600	IN	NS	ns2.ascio.net.
 suntop.rw.		3600	IN	NS	ns1.ascio.net.
 suntop.rw.		3600	IN	NS	ns2.ascio.net.
+supatec.rw.		3600	IN	NS	ns1.hostholik.com.
+supatec.rw.		3600	IN	NS	ns2.hostholik.com.
 superdry.rw.		3600	IN	NS	nsgbr.comlaude.co.uk.
 superdry.rw.		3600	IN	NS	nssui.comlaude.ch.
 superdry.rw.		3600	IN	NS	nsusa.comlaude.net.
@@ -4618,8 +4624,8 @@ theihanganeproject.rw.	3600	IN	NS	ns2.aos.rw.
 theihanganeproject.rw.	3600	IN	NS	ns3.aos.rw.
 thelighterscollections.rw. 3600	IN	NS	dn2.namecheaphosting.com.
 thelighterscollections.rw. 3600	IN	NS	dns1.namecheaphosting.com.
-themagazine.rw.		3600	IN	NS	ns1.bh-65.webhostbox.net.
-themagazine.rw.		3600	IN	NS	ns2.bh-65.webhostbox.net.
+themagazine.rw.		3600	IN	NS	dns1.namecheaphosting.com.
+themagazine.rw.		3600	IN	NS	dns2.namecheaphosting.com.
 themaranathaacademy.rw.	3600	IN	NS	ns1.bluehost.com.
 themaranathaacademy.rw.	3600	IN	NS	ns2.bluehost.com.
 theodore.rw.		3600	IN	NS	pdns1.sitevalley.com.
@@ -5221,4 +5227,4 @@ zuerich.rw.		3600	IN	NS	ns.zurich.com.
 zuerich.rw.		3600	IN	NS	ns4.zurich.com.
 zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017103108 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017103111 86400 7200 604800 3600

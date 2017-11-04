@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017102911 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110507 3600 900 604800 3600
 gm.			3600	IN	NS	ns1.nic.gm.
 gm.			3600	IN	NS	ns2.nic.gm.
 gm.			3600	IN	NS	ns-gm.afrinic.net.
@@ -878,8 +878,8 @@ efanet.gm.		3600	IN	NS	ns1.gamtel.gm.
 efanet.gm.		3600	IN	NS	ns2.gamtel.gm.
 eff.gm.			3600	IN	NS	ns1.gamtel.gm.
 eff.gm.			3600	IN	NS	ns2.gamtel.gm.
-efsth.gm.		3600	IN	NS	ns1.siteground339.com.
-efsth.gm.		3600	IN	NS	ns2.siteground339.com.
+efsth.gm.		3600	IN	NS	ns2.unique.gm.
+efsth.gm.		3600	IN	NS	ns3.unique.gm.
 egambia.gm.		3600	IN	NS	amit.ns.cloudflare.com.
 egambia.gm.		3600	IN	NS	lady.ns.cloudflare.com.
 eicg.gm.		3600	IN	NS	ns.inmotionhosting.com.
@@ -2315,6 +2315,8 @@ nhivedesigns.gm.	3600	IN	NS	ns1.justhost.com.
 nhivedesigns.gm.	3600	IN	NS	ns2.justhost.com.
 nic.gm.			3600	IN	NS	ns1.nextsite.com.
 nic.gm.			3600	IN	NS	ns3.nextsite.com.
+ns1.nic.gm.		3600	IN	A	194.63.250.217
+ns2.nic.gm.		3600	IN	A	196.49.1.87
 nic-direct.gm.		3600	IN	NS	ns1.ns-serve.net.
 nic-direct.gm.		3600	IN	NS	ns2.ns-serve.net.
 nicdirect.gm.		3600	IN	NS	ns1.ns-serve.net.
@@ -2511,6 +2513,8 @@ plantronics.gm.		3600	IN	NS	f4.nstld.com.
 plantronics.gm.		3600	IN	NS	g4.nstld.com.
 player-agent.gm.	3600	IN	NS	ns1.nextsite.com.
 player-agent.gm.	3600	IN	NS	ns3.nextsite.com.
+pointclick.gm.		3600	IN	NS	ns1.pointclick.net.
+pointclick.gm.		3600	IN	NS	ns2.pointclick.net.
 pokemon.gm.		3600	IN	NS	dns1.nintendo.com.
 pokemon.gm.		3600	IN	NS	dns2.nintendo.com.
 pokerstars.gm.		3600	IN	NS	pdns1.ultradns.net.
@@ -3518,4 +3522,6 @@ zuerich.gm.		3600	IN	NS	ns.zurich.com.
 zuerich.gm.		3600	IN	NS	ns4.zurich.com.
 zurich.gm.		3600	IN	NS	ns.zurich.com.
 zurich.gm.		3600	IN	NS	ns4.zurich.com.
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017102911 3600 900 604800 3600
+ns1.pointclick.net.	3600	IN	A	74.213.145.125
+ns2.pointclick.net.	3600	IN	A	50.59.102.60
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110507 3600 900 604800 3600

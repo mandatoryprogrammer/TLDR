@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2017110301 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2017110801 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -50,6 +50,8 @@ acif.cv.		28800	IN	NS	ns2.esoterica.com.
 mail.acif.cv.		28800	IN	A	80.172.241.53
 acl.cv.			28800	IN	NS	ns1.webhostingpad.com.
 acl.cv.			28800	IN	NS	ns2.webhostingpad.com.
+acomin.cv.		28800	IN	NS	ns3.dnstarvos.com.
+acomin.cv.		28800	IN	NS	ns4.dnstarvos.com.
 acount.cv.		28800	IN	NS	ns-346.awsdns-43.com.
 acount.cv.		28800	IN	NS	ns-751.awsdns-29.net.
 acount.cv.		28800	IN	NS	ns-1059.awsdns-04.org.
@@ -768,6 +770,8 @@ casino.cv.		28800	IN	NS	xvm50648.vps.cloud.tagadab.com.
 mail.casino.cv.		28800	IN	A	95.172.8.58
 casinoroyal.cv.		28800	IN	NS	ns1.n-gate.org.
 casinoroyal.cv.		28800	IN	NS	ns2.n-gate.org.
+catamarancruising.cv.	28800	IN	NS	parking1.ovh.net.
+catamarancruising.cv.	28800	IN	NS	parking2.ovh.net.
 caverca.cv.		28800	IN	NS	ns1.cphosting.com.
 caverca.cv.		28800	IN	NS	ns1.01besthosting.com.
 caverca.cv.		28800	IN	NS	ns2.cphosting.com.
@@ -3606,13 +3610,13 @@ soscaboverde.org.cv.	28800	IN	NS	ns2.isone.cv.
 orkut.cv.		28800	IN	NS	ns1.google.com.
 orkut.cv.		28800	IN	NS	ns2.google.com.
 orkut.cv.		28800	IN	AAAA	2a00:1450:400c:c01::56
-orteg.cv.		28800	IN	A	62.210.149.103
-orteg.cv.		28800	IN	A	72.20.38.137
-orteg.cv.		28800	IN	A	72.20.53.50
 orteg.cv.		28800	IN	NS	ns-326.awsdns-40.com.
 orteg.cv.		28800	IN	NS	ns-535.awsdns-02.net.
 orteg.cv.		28800	IN	NS	ns-1049.awsdns-03.org.
 orteg.cv.		28800	IN	NS	ns-1833.awsdns-37.co.uk.
+orteg.cv.		28800	IN	A	62.210.149.103
+orteg.cv.		28800	IN	A	72.20.38.137
+orteg.cv.		28800	IN	A	72.20.53.50
 ortet.cv.		28800	IN	NS	freedns1.registrar-servers.com.
 ortet.cv.		28800	IN	NS	freedns2.registrar-servers.com.
 ortet.cv.		28800	IN	NS	freedns3.registrar-servers.com.
@@ -3867,16 +3871,16 @@ asemana.publ.cv.	28800	IN	AAAA	2a01:68:100:1::2
 asemana.publ.cv.	28800	IN	A	91.121.162.16
 asemana.publ.cv.	28800	IN	NS	ns1.efedus.com.
 asemana.publ.cv.	28800	IN	NS	ns2.efedus.com.
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1819
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1827
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1981
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1a63
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1b48
 expressodasilhas.publ.cv. 28800	IN	NS	ns1.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns2.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns3.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns4.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns5.linode.com.
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1819
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1827
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1981
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1a63
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1b48
 inforpress.publ.cv.	28800	IN	NS	ns1.gov.cv.
 inforpress.publ.cv.	28800	IN	NS	ns2.gov.cv.
 noticiasdonorte.publ.cv. 28800	IN	NS	ns1.mediatemple.net.
@@ -4035,10 +4039,10 @@ robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-caboverde.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-caboverde.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
-robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kap-verden.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-kap-verden.cv. 28800 IN	NS	ns02.brandshelter.net.
+robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
+robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
@@ -4787,4 +4791,4 @@ yuri.cv.		28800	IN	NS	ns17.dollar2host.com.
 yuri.cv.		28800	IN	NS	ns18.dollar2host.com.
 zil.cv.			28800	IN	NS	ns1.dnstarvos.com.
 zil.cv.			28800	IN	NS	ns2.dnstarvos.com.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2017110301 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2017110801 86400 7200 2592000 300

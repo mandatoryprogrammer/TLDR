@@ -1,7 +1,9 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017110907 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017110914 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1510232420"
+cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -12,8 +14,6 @@ cm.			86400	IN	NS	mbam.camnet.cm.
 cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
-cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1510207227"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -1111,16 +1111,8 @@ cm.			86400	IN	TXT	"Generation Time: 1510207227"
 08.cm.			86400	IN	NS	ns2.dnbiz.com.
 080.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 080.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
-0805.cm.		86400	IN	NS	ns1.ndns.cn.
-0805.cm.		86400	IN	NS	ns2.ndns.cn.
-0806.cm.		86400	IN	NS	ns1.ndns.cn.
-0806.cm.		86400	IN	NS	ns2.ndns.cn.
-0807.cm.		86400	IN	NS	ns1.ndns.cn.
-0807.cm.		86400	IN	NS	ns2.ndns.cn.
 0808.cm.		86400	IN	NS	ns1.myhostadmin.net.
 0808.cm.		86400	IN	NS	ns2.myhostadmin.net.
-0809.cm.		86400	IN	NS	ns1.ndns.cn.
-0809.cm.		86400	IN	NS	ns2.ndns.cn.
 081.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 081.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 0811.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -1131,16 +1123,12 @@ cm.			86400	IN	TXT	"Generation Time: 1510207227"
 0812.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0813.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0813.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-0815.cm.		86400	IN	NS	ns1.ndns.cn.
-0815.cm.		86400	IN	NS	ns2.ndns.cn.
 0816.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0816.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0817.cm.		86400	IN	NS	ns4.myhostadmin.net.
 0817.cm.		86400	IN	NS	ns5.myhostadmin.net.
 0818.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0818.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-0819.cm.		86400	IN	NS	ns1.ndns.cn.
-0819.cm.		86400	IN	NS	ns2.ndns.cn.
 082.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 082.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 0820.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -1177,8 +1165,6 @@ cm.			86400	IN	TXT	"Generation Time: 1510207227"
 08444.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 085.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 085.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
-0850.cm.		86400	IN	NS	ns1.ndns.cn.
-0850.cm.		86400	IN	NS	ns2.ndns.cn.
 0851.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0851.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0852.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -1201,12 +1187,6 @@ cm.			86400	IN	TXT	"Generation Time: 1510207227"
 0859.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 086.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 086.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
-0860.cm.		86400	IN	NS	ns1.ndns.cn.
-0860.cm.		86400	IN	NS	ns2.ndns.cn.
-0861.cm.		86400	IN	NS	ns1.ndns.cn.
-0861.cm.		86400	IN	NS	ns2.ndns.cn.
-0862.cm.		86400	IN	NS	ns1.ndns.cn.
-0862.cm.		86400	IN	NS	ns2.ndns.cn.
 0863.cm.		86400	IN	NS	ns1.ndns.cn.
 0863.cm.		86400	IN	NS	ns2.ndns.cn.
 0865.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -1295,16 +1275,10 @@ cm.			86400	IN	TXT	"Generation Time: 1510207227"
 0916.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0917.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0917.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-0918.cm.		86400	IN	NS	ns1.ndns.cn.
-0918.cm.		86400	IN	NS	ns2.ndns.cn.
 0919.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0919.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 092.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 092.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
-0920.cm.		86400	IN	NS	ns1.ndns.cn.
-0920.cm.		86400	IN	NS	ns2.ndns.cn.
-0921.cm.		86400	IN	NS	ns1.ndns.cn.
-0921.cm.		86400	IN	NS	ns2.ndns.cn.
 0922.cm.		86400	IN	NS	ns1.ndns.cn.
 0922.cm.		86400	IN	NS	ns2.ndns.cn.
 09222.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -1315,10 +1289,6 @@ cm.			86400	IN	TXT	"Generation Time: 1510207227"
 0925.cm.		86400	IN	NS	ns2.ndns.cn.
 0926.cm.		86400	IN	NS	ns1.ndns.cn.
 0926.cm.		86400	IN	NS	ns2.ndns.cn.
-0927.cm.		86400	IN	NS	ns1.ndns.cn.
-0927.cm.		86400	IN	NS	ns2.ndns.cn.
-0928.cm.		86400	IN	NS	ns1.ndns.cn.
-0928.cm.		86400	IN	NS	ns2.ndns.cn.
 0929.cm.		86400	IN	NS	ns1.ndns.cn.
 0929.cm.		86400	IN	NS	ns2.ndns.cn.
 093.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -1361,12 +1331,8 @@ cm.			86400	IN	TXT	"Generation Time: 1510207227"
 0952.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0953.cm.		86400	IN	NS	ns1.ndns.cn.
 0953.cm.		86400	IN	NS	ns2.ndns.cn.
-0955.cm.		86400	IN	NS	ns1.ndns.cn.
-0955.cm.		86400	IN	NS	ns2.ndns.cn.
 09555.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 09555.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-0956.cm.		86400	IN	NS	ns1.ndns.cn.
-0956.cm.		86400	IN	NS	ns2.ndns.cn.
 0957.cm.		86400	IN	NS	ns1.ndns.cn.
 0957.cm.		86400	IN	NS	ns2.ndns.cn.
 0958.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -1391,22 +1357,14 @@ cm.			86400	IN	TXT	"Generation Time: 1510207227"
 097.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 0971.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 0971.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
-0976.cm.		86400	IN	NS	ns1.ndns.cn.
-0976.cm.		86400	IN	NS	ns2.ndns.cn.
 09777.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 09777.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 097788.cm.		86400	IN	NS	ns1.dns.com.
 097788.cm.		86400	IN	NS	ns2.dns.com.
 098.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 098.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
-0980.cm.		86400	IN	NS	ns1.ndns.cn.
-0980.cm.		86400	IN	NS	ns2.ndns.cn.
 0981.cm.		86400	IN	NS	ns1.ndns.cn.
 0981.cm.		86400	IN	NS	ns2.ndns.cn.
-0982.cm.		86400	IN	NS	ns1.ndns.cn.
-0982.cm.		86400	IN	NS	ns2.ndns.cn.
-0983.cm.		86400	IN	NS	ns1.ndns.cn.
-0983.cm.		86400	IN	NS	ns2.ndns.cn.
 0985.cm.		86400	IN	NS	ns1.ndns.cn.
 0985.cm.		86400	IN	NS	ns2.ndns.cn.
 0986.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -66545,4 +66503,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017110907 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2017110914 28800 3600 604800 86400

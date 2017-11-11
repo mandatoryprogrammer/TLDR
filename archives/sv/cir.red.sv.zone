@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @cir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017111001 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017111002 43200 3600 2592000 43200
 ns1.grupobgl.com.ar.	43200	IN	A	67.19.193.98
 ns2.grupobgl.com.ar.	43200	IN	A	67.19.193.99
 ns1.indisa.com.ar.	43200	IN	A	72.46.254.112
@@ -9761,6 +9761,8 @@ hipotecario.com.sv.	43200	IN	NS	dns1.navega.net.gt.
 hipotecario.com.sv.	43200	IN	NS	dns2.navega.net.gt.
 hipotecario.com.sv.	43200	IN	NS	hiponet.hipotecario.com.sv.
 hiponet.hipotecario.com.sv. 43200 IN	A	168.243.142.1
+hispanosshipping.com.sv. 43200	IN	NS	dns1.empresaweb.com.sv.
+hispanosshipping.com.sv. 43200	IN	NS	dns2.empresaweb.com.sv.
 hitachi.com.sv.		43200	IN	NS	rns1.rightsdns.com.
 hitachi.com.sv.		43200	IN	NS	rns2.rightsdns.com.
 hjnsonsonate.com.sv.	43200	IN	NS	ns7.hostingdepago.com.
@@ -10102,6 +10104,8 @@ igoogle.com.sv.		43200	IN	NS	ns2.google.com.
 igoogle.com.sv.		43200	IN	NS	ns3.google.com.
 igoogle.com.sv.		43200	IN	NS	ns4.google.com.
 ns.igsa.com.sv.		43200	IN	A	168.243.134.82
+iguana.com.sv.		43200	IN	NS	ns39.domaincontrol.com.
+iguana.com.sv.		43200	IN	NS	ns40.domaincontrol.com.
 iherb.com.sv.		43200	IN	NS	ns1.p05.dynect.net.
 iherb.com.sv.		43200	IN	NS	ns2.p05.dynect.net.
 iherb.com.sv.		43200	IN	NS	ns3.p05.dynect.net.
@@ -11034,8 +11038,11 @@ lagacetasuchitoto.com.sv. 43200	IN	NS	ns1669.websitewelcome.com.
 lagacetasuchitoto.com.sv. 43200	IN	NS	ns1670.websitewelcome.com.
 lagastroteca.com.sv.	43200	IN	NS	ns1.softlayer.com.
 lagastroteca.com.sv.	43200	IN	NS	ns2.softlayer.com.
-lageo.com.sv.		43200	IN	NS	ns.lageo.com.sv.
+lageo.com.sv.		43200	IN	NS	ns1.lageo.com.sv.
+lageo.com.sv.		43200	IN	NS	ns2.lageo.com.sv.
 ns.lageo.com.sv.	43200	IN	A	216.184.103.171
+ns1.lageo.com.sv.	43200	IN	A	216.184.103.171
+ns2.lageo.com.sv.	43200	IN	A	190.86.220.185
 lagotita.com.sv.	43200	IN	NS	dns1.wavenet.com.ar.
 lagotita.com.sv.	43200	IN	NS	dns2.wavenet.com.ar.
 lagranvia.com.sv.	43200	IN	NS	ns.telefonica-ca.net.
@@ -11910,6 +11917,8 @@ mayprod.com.sv.		43200	IN	NS	dns2.name-services.com.
 mayprod.com.sv.		43200	IN	NS	dns3.name-services.com.
 maytag.com.sv.		43200	IN	NS	ns.whirlpool.com.
 maytag.com.sv.		43200	IN	NS	ns2.whirlpool.com.
+mb.com.sv.		43200	IN	NS	ns6363.hostgator.com.
+mb.com.sv.		43200	IN	NS	ns6364.hostgator.com.
 mccann.com.sv.		43200	IN	NS	ns1.tigo.sv.
 mccann.com.sv.		43200	IN	NS	ns2.tigo.sv.
 mesallnxfw01.mccann.com.sv. 43200 IN	A	190.5.136.26
@@ -13445,6 +13454,8 @@ pdp.com.sv.		43200	IN	NS	ns1.tigo.sv.
 pdp.com.sv.		43200	IN	NS	ns2.tigo.sv.
 peaceland.com.sv.	43200	IN	NS	ns3.navegante.com.sv.
 peaceland.com.sv.	43200	IN	NS	ns4.navegante.com.sv.
+pediatrasasociados.com.sv. 43200 IN	NS	ns1429.websitewelcome.com.
+pediatrasasociados.com.sv. 43200 IN	NS	ns1430.websitewelcome.com.
 peek-a-boo.com.sv.	43200	IN	NS	ns1.dns.com.sv.
 peek-a-boo.com.sv.	43200	IN	NS	ns2.dns.com.sv.
 peek-a-boo.com.sv.	43200	IN	NS	ns3.dns.com.sv.
@@ -14052,7 +14063,8 @@ ps.com.sv.		43200	IN	NS	ns1.tigo.sv.
 ps.com.sv.		43200	IN	NS	ns2.tigo.sv.
 psa.com.sv.		43200	IN	NS	ns1.jpchost.com.
 psa.com.sv.		43200	IN	NS	ns2.jpchost.com.
-psb.com.sv.		43200	IN	NS	ns.lageo.com.sv.
+psb.com.sv.		43200	IN	NS	ns1.lageo.com.sv.
+psb.com.sv.		43200	IN	NS	ns2.lageo.com.sv.
 psi.com.sv.		43200	IN	NS	ns1.hostpapa.com.
 psi.com.sv.		43200	IN	NS	ns2.hostpapa.com.
 psielsalvador.com.sv.	43200	IN	NS	ns1.no-ip.com.
@@ -14917,9 +14929,8 @@ scanntech.com.sv.	43200	IN	NS	ns2.nameaction.com.
 scanpaygo.com.sv.	43200	IN	NS	ns1.instradns.com.
 scanpaygo.com.sv.	43200	IN	NS	ns2.instradns.com.
 scanpaygo.com.sv.	43200	IN	NS	ns3.instradns.com.
-scarts.com.sv.		43200	IN	NS	ns1.aplus.net.
-scarts.com.sv.		43200	IN	NS	ns2.aplus.net.
-scarts.com.sv.		43200	IN	NS	ns3.aplus.net.
+scarts.com.sv.		43200	IN	NS	ns8319.hostgator.com.
+scarts.com.sv.		43200	IN	NS	ns8320.hostgator.com.
 scentsy.com.sv.		43200	IN	NS	ns01.trademarkarea.com.
 scentsy.com.sv.		43200	IN	NS	ns02.trademarkarea.com.
 scentsy.com.sv.		43200	IN	NS	ns03.trademarkarea.com.
@@ -15201,8 +15212,8 @@ servitrans.com.sv.	43200	IN	NS	ns2.hostmonster.com.
 servyclean.com.sv.	43200	IN	NS	ns1.name.com.
 servyclean.com.sv.	43200	IN	NS	ns2.name.com.
 servyclean.com.sv.	43200	IN	NS	ns3.name.com.
-sesadecv.com.sv.	43200	IN	NS	ns1.navega2.arvixevps.com.
-sesadecv.com.sv.	43200	IN	NS	ns2.navega2.arvixevps.com.
+sesadecv.com.sv.	43200	IN	NS	ns1123.websitewelcome.com.
+sesadecv.com.sv.	43200	IN	NS	ns1124.websitewelcome.com.
 sesca.com.sv.		43200	IN	NS	ns1.softlayer.com.
 sesca.com.sv.		43200	IN	NS	ns2.softlayer.com.
 sescom.com.sv.		43200	IN	NS	ns1.fatcow.com.
@@ -21701,8 +21712,8 @@ fundaeduca.org.sv.	43200	IN	NS	ns3.navegante.com.sv.
 fundaeduca.org.sv.	43200	IN	NS	ns4.navegante.com.sv.
 fundafam.org.sv.	43200	IN	NS	1.nseasy.com.
 fundafam.org.sv.	43200	IN	NS	2.nseasy.com.
-fundageo.org.sv.	43200	IN	NS	ns.lageo.com.sv.
 fundageo.org.sv.	43200	IN	NS	ns1.lageo.com.sv.
+fundageo.org.sv.	43200	IN	NS	ns2.lageo.com.sv.
 fundahmer.org.sv.	43200	IN	NS	ns1.dns-esornet.com.
 fundahmer.org.sv.	43200	IN	NS	ns2.dns-esornet.com.
 fundamadrid.org.sv.	43200	IN	NS	ns1.dns.com.sv.
@@ -21719,9 +21730,8 @@ dns2.fundapyme.org.sv.	43200	IN	A	200.46.88.99
 fundar.org.sv.		43200	IN	NS	ns.hdiagnostico.com.sv.
 fundaricar.org.sv.	43200	IN	NS	ns1.grupodecima.com.
 fundaricar.org.sv.	43200	IN	NS	ns2.grupodecima.com.
-fundasal.org.sv.	43200	IN	NS	ns.telefonica-ca.net.
-fundasal.org.sv.	43200	IN	NS	nsgt.telefonica-ca.net.
-fundasal.org.sv.	43200	IN	NS	nssv.telefonica-ca.net.
+fundasal.org.sv.	43200	IN	NS	dns1.empresaweb.com.sv.
+fundasal.org.sv.	43200	IN	NS	dns2.empresaweb.com.sv.
 fundasalva.org.sv.	43200	IN	NS	ns1.rhostbh.com.
 fundasalva.org.sv.	43200	IN	NS	ns2.rhostbh.com.
 fundasida.org.sv.	43200	IN	NS	ns1.ivy.arvixe.com.
@@ -23563,4 +23573,4 @@ ns2.internext.ws.	43200	IN	A	67.15.191.144
 ns1.rdcnet.ws.		43200	IN	A	208.109.204.30
 ns10.rdcnet.ws.		43200	IN	A	68.178.241.138
 ns2.rdcnet.ws.		43200	IN	A	208.109.204.33
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017111001 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017111002 43200 3600 2592000 43200

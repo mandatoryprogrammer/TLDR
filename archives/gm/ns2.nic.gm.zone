@@ -1,7 +1,12 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110507 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110529 3600 900 604800 3600
+ns1086.ifastnet.com.	3600	IN	A	185.2.168.43
+ns2086.ifastnet.com.	3600	IN	A	185.2.168.76
+nameserver-a.nike.com.	3600	IN	A	156.53.53.53
+ns1.uk24.siteground.eu.	3600	IN	A	77.104.149.194
+ns2.uk24.siteground.eu.	3600	IN	A	77.104.171.145
 gm.			3600	IN	NS	ns1.nic.gm.
 gm.			3600	IN	NS	ns2.nic.gm.
 gm.			3600	IN	NS	ns-gm.afrinic.net.
@@ -1578,6 +1583,8 @@ ialc.gm.		3600	IN	NS	ns2.siteground145.com.
 ibm.gm.			3600	IN	NS	asia3.akam.net.
 ibm.gm.			3600	IN	NS	ns1-99.akam.net.
 ibm.gm.			3600	IN	NS	ns1-206.akam.net.
+iccgambia.gm.		3600	IN	NS	ns1086.ifastnet.com.
+iccgambia.gm.		3600	IN	NS	ns2086.ifastnet.com.
 icontech.gm.		3600	IN	NS	ns1.ams23.siteground.eu.
 icontech.gm.		3600	IN	NS	ns2.ams23.siteground.eu.
 ict.gm.			3600	IN	NS	ns1.ammics.net.
@@ -1893,9 +1900,15 @@ leoplaysafe.gm.		3600	IN	NS	c.ns14.net.
 leos.gm.		3600	IN	NS	pns.innterdns.net.
 leos.gm.		3600	IN	NS	sns.innterdns.net.
 leos.gm.		3600	IN	NS	tns.innterdns.net.
+leosafeplay.gm.		3600	IN	NS	a.ns14.net.
+leosafeplay.gm.		3600	IN	NS	b.ns14.net.
+leosafeplay.gm.		3600	IN	NS	c.ns14.net.
 leosport.gm.		3600	IN	NS	a.ns14.net.
 leosport.gm.		3600	IN	NS	b.ns14.net.
 leosport.gm.		3600	IN	NS	c.ns14.net.
+leosportbet.gm.		3600	IN	NS	a.ns14.net.
+leosportbet.gm.		3600	IN	NS	b.ns14.net.
+leosportbet.gm.		3600	IN	NS	c.ns14.net.
 leovegaslotto.gm.	3600	IN	NS	a.ns14.net.
 leovegaslotto.gm.	3600	IN	NS	b.ns14.net.
 leovegaslotto.gm.	3600	IN	NS	c.ns14.net.
@@ -2323,9 +2336,8 @@ nicdirect.gm.		3600	IN	NS	ns1.ns-serve.net.
 nicdirect.gm.		3600	IN	NS	ns2.ns-serve.net.
 nigeria-embassy.gm.	3600	IN	NS	ns1.ipage.com.
 nigeria-embassy.gm.	3600	IN	NS	ns2.ipage.com.
-nike.gm.		3600	IN	NS	ns1.nike.com.
 nike.gm.		3600	IN	NS	ns2.nike.com.
-nike.gm.		3600	IN	NS	ns3.nike.com.
+nike.gm.		3600	IN	NS	nameserver-a.nike.com.
 nikon.gm.		3600	IN	NS	ns1.ipmirror.com.
 nikon.gm.		3600	IN	NS	ns2.ipmirror.com.
 nikon.gm.		3600	IN	NS	ns3.ipmirror.com.
@@ -2750,6 +2762,8 @@ sanyangfestival.gm.	3600	IN	NS	ns1.gamtel.gm.
 sanyangfestival.gm.	3600	IN	NS	ns2.gamtel.gm.
 sap.gm.			3600	IN	NS	ns.sap-ag.de.
 sap.gm.			3600	IN	NS	ns2.sap-ag.de.
+sapphire.gm.		3600	IN	NS	ns1.uk24.siteground.eu.
+sapphire.gm.		3600	IN	NS	ns2.uk24.siteground.eu.
 sargeshotel.gm.		3600	IN	NS	ns2.unique.gm.
 sargeshotel.gm.		3600	IN	NS	ns3.unique.gm.
 sasco.gm.		3600	IN	NS	ns1.qth.nl.
@@ -3522,6 +3536,10 @@ zuerich.gm.		3600	IN	NS	ns.zurich.com.
 zuerich.gm.		3600	IN	NS	ns4.zurich.com.
 zurich.gm.		3600	IN	NS	ns.zurich.com.
 zurich.gm.		3600	IN	NS	ns4.zurich.com.
+a.ns14.net.		3600	IN	A	62.116.131.31
+b.ns14.net.		3600	IN	A	83.169.55.5
+b.ns14.net.		3600	IN	A	217.160.113.32
+c.ns14.net.		3600	IN	A	195.34.161.195
 ns1.pointclick.net.	3600	IN	A	74.213.145.125
 ns2.pointclick.net.	3600	IN	A	50.59.102.60
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110507 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110529 3600 900 604800 3600

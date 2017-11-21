@@ -1,7 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns3.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017112111 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017112114 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1511262013"
 rw.			3600	IN	NS	A.RW.DYNTLD.NET.
 rw.			3600	IN	NS	B.RW.DYNTLD.NET.
 rw.			3600	IN	NS	ns1.ricta.org.rw.
@@ -9,7 +10,6 @@ rw.			3600	IN	NS	ns3.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
 rw.			3600	IN	NS	fork.sth.dnsnode.net.
 rw.			3600	IN	NS	ns-rw.afrinic.net.
-rw.			3600	IN	TXT	"Generation Time: 1511251210"
 1000hills.rw.		3600	IN	NS	ns1.rhostjh.com.
 1000hills.rw.		3600	IN	NS	ns2.rhostjh.com.
 1000hillspromoters.rw.	3600	IN	NS	ns1.seburikoko.com.
@@ -926,8 +926,6 @@ centurycinemas.rw.	3600	IN	NS	ns1.imaginetrwone.com.
 centurycinemas.rw.	3600	IN	NS	ns2.imaginetrwone.com.
 centurypark.rw.		3600	IN	NS	ns1.imaginetserver.com.
 centurypark.rw.		3600	IN	NS	ns2.imaginetserver.com.
-cep.rw.			3600	IN	NS	ns5.ricta.org.rw.
-cep.rw.			3600	IN	NS	ns6.ricta.org.rw.
 certalaw.rw.		3600	IN	NS	ns1.kaneza.com.
 certalaw.rw.		3600	IN	NS	ns2.kaneza.com.
 cestrar.rw.		3600	IN	NS	ns1.rdb.rw.
@@ -1195,8 +1193,8 @@ daimler-ag.rw.		3600	IN	NS	ns1.corpinter.net.
 daimler-ag.rw.		3600	IN	NS	ns2.corpinter.de.
 damascene.rw.		3600	IN	NS	ns1.zahabuhost.com.
 damascene.rw.		3600	IN	NS	ns2.zahabuhost.com.
-dams.rw.		3600	IN	NS	ns1.kaneza.com.
-dams.rw.		3600	IN	NS	ns2.kaneza.com.
+dams.rw.		3600	IN	NS	ns5.ricta.org.rw.
+dams.rw.		3600	IN	NS	ns6.ricta.org.rw.
 dandb.rw.		3600	IN	NS	dns1.idp365.net.
 dandb.rw.		3600	IN	NS	dns2.idp365.net.
 das-ltd.rw.		3600	IN	NS	ns1.servconfig.com.
@@ -1296,8 +1294,8 @@ domain.rw.		3600	IN	NS	ns957.hostgator.com.
 domain.rw.		3600	IN	NS	ns958.hostgator.com.
 domains.rw.		3600	IN	NS	ns1.webhosting.co.rw.
 domains.rw.		3600	IN	NS	ns2.webhosting.co.rw.
-dominionrealestate.rw.	3600	IN	NS	ns1179.websitewelcome.com.
-dominionrealestate.rw.	3600	IN	NS	ns1180.websitewelcome.com.
+dominionrealestate.rw.	3600	IN	NS	ns5.ricta.org.rw.
+dominionrealestate.rw.	3600	IN	NS	ns6.ricta.org.rw.
 dominos.rw.		3600	IN	NS	ns03.dominos.com.
 dominos.rw.		3600	IN	NS	ns04.dominos.com.
 dominospizza.rw.	3600	IN	NS	ns03.dominos.com.
@@ -1466,8 +1464,8 @@ elitedigital.rw.	3600	IN	NS	ns1.afraid.org.
 elitedigital.rw.	3600	IN	NS	ns2.afraid.org.
 elitedigital.rw.	3600	IN	NS	ns3.afraid.org.
 elitedigital.rw.	3600	IN	NS	ns4.afraid.org.
-elizabetharden.rw.	3600	IN	NS	ns1.netnames.net.
-elizabetharden.rw.	3600	IN	NS	ns2.netnames.net.
+elizabetharden.rw.	3600	IN	NS	ns5.ricta.org.rw.
+elizabetharden.rw.	3600	IN	NS	ns6.ricta.org.rw.
 elle.rw.		3600	IN	NS	a.dns.gandi.net.
 elle.rw.		3600	IN	NS	b.dns.gandi.net.
 elle.rw.		3600	IN	NS	c.dns.gandi.net.
@@ -1719,6 +1717,8 @@ flyfarm.rw.		3600	IN	NS	nssui.comlaude.ch.
 flyfarm.rw.		3600	IN	NS	nsusa.comlaude.net.
 flygt.rw.		3600	IN	NS	ns4.ports.se.
 flygt.rw.		3600	IN	NS	ns5.ports.se.
+flyingblue.rw.		3600	IN	NS	ns3.afriregister.co.ke.
+flyingblue.rw.		3600	IN	NS	ns4.afriregister.co.ke.
 flytech.rw.		3600	IN	NS	ns1.theclickhost.com.
 flytech.rw.		3600	IN	NS	ns2.theclickhost.com.
 flyzipline.rw.		3600	IN	NS	ns1.afriregister.com.
@@ -4397,7 +4397,8 @@ sex.rw.			3600	IN	NS	ns1.sedoparking.com.
 sex.rw.			3600	IN	NS	ns2.sedoparking.com.
 shabaky.rw.		3600	IN	NS	ns949.websitewelcome.com.
 shabaky.rw.		3600	IN	NS	ns950.websitewelcome.com.
-sheleebkm.rw.		3600	IN	NS	wordpress.com.
+sheleebkm.rw.		3600	IN	NS	ns5.ricta.org.rw.
+sheleebkm.rw.		3600	IN	NS	ns6.ricta.org.rw.
 shell.rw.		3600	IN	NS	dns1.shell.com.
 shell.rw.		3600	IN	NS	dns2.shell.com.
 shield.rw.		3600	IN	NS	ns1.hostholik.com.
@@ -4558,8 +4559,8 @@ spiderbit.rw.		3600	IN	NS	ns1.adicthost.net.
 spiderbit.rw.		3600	IN	NS	ns2.adicthost.net.
 spirulina.rw.		3600	IN	NS	ns1.ipage.com.
 spirulina.rw.		3600	IN	NS	ns2.ipage.com.
-spiruline.rw.		3600	IN	NS	ns1.ipage.com.
-spiruline.rw.		3600	IN	NS	ns2.ipage.com.
+spiruline.rw.		3600	IN	NS	ns5.ricta.org.rw.
+spiruline.rw.		3600	IN	NS	ns6.ricta.org.rw.
 sportdirect.rw.		3600	IN	NS	ns1.netnames.net.
 sportdirect.rw.		3600	IN	NS	ns2.netnames.net.
 sports.rw.		3600	IN	NS	ns1671.websitewelcome.com.
@@ -4725,8 +4726,8 @@ thelighterscollections.rw. 3600	IN	NS	dn2.namecheaphosting.com.
 thelighterscollections.rw. 3600	IN	NS	dns1.namecheaphosting.com.
 themagazine.rw.		3600	IN	NS	dns1.namecheaphosting.com.
 themagazine.rw.		3600	IN	NS	dns2.namecheaphosting.com.
-themaranathaacademy.rw.	3600	IN	NS	ns5.ricta.org.rw.
-themaranathaacademy.rw.	3600	IN	NS	ns6.ricta.org.rw.
+themaranathaacademy.rw.	3600	IN	NS	ns1.bluehost.com.
+themaranathaacademy.rw.	3600	IN	NS	ns2.bluehost.com.
 theodore.rw.		3600	IN	NS	pdns1.sitevalley.com.
 theodore.rw.		3600	IN	NS	pdns2.sitevalley.com.
 theoffice.rw.		3600	IN	NS	ns1.webhostinghub.com.
@@ -4861,8 +4862,8 @@ trw.rw.			3600	IN	NS	dns1.cscdns.net.
 trw.rw.			3600	IN	NS	dns2.cscdns.net.
 tsindabet.rw.		3600	IN	NS	ns5.nameserverservice.de.
 tsindabet.rw.		3600	IN	NS	ns6.nameserverservice.de.
-tsotravel.rw.		3600	IN	NS	ns1.cc-creativecomms.com.
-tsotravel.rw.		3600	IN	NS	ns2.cc-creativecomms.com.
+tsotravel.rw.		3600	IN	NS	ns5.ricta.org.rw.
+tsotravel.rw.		3600	IN	NS	ns6.ricta.org.rw.
 tts.rw.			3600	IN	NS	ns1.afriregister.com.
 tts.rw.			3600	IN	NS	ns2.afriregister.com.
 tudor.rw.		3600	IN	NS	ns1.gva.ch.colt.net.
@@ -5337,4 +5338,4 @@ zuerich.rw.		3600	IN	NS	ns.zurich.com.
 zuerich.rw.		3600	IN	NS	ns4.zurich.com.
 zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017112111 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017112114 86400 7200 604800 3600

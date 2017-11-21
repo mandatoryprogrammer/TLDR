@@ -1,7 +1,9 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110529 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110552 3600 900 604800 3600
+ns55.domaincontrol.com.	3600	IN	A	216.69.185.28
+ns56.domaincontrol.com.	3600	IN	A	208.109.255.28
 ns1086.ifastnet.com.	3600	IN	A	185.2.168.43
 ns2086.ifastnet.com.	3600	IN	A	185.2.168.76
 nameserver-a.nike.com.	3600	IN	A	156.53.53.53
@@ -1008,8 +1010,8 @@ fayeforbanjul.gm.	3600	IN	NS	ns1.gamtel.gm.
 fayeforbanjul.gm.	3600	IN	NS	ns2.gamtel.gm.
 fddf.gm.		3600	IN	NS	ns1.gamtel.gm.
 fddf.gm.		3600	IN	NS	ns2.gamtel.gm.
-fdnf.gm.		3600	IN	NS	pdns07.domaincontrol.com.
-fdnf.gm.		3600	IN	NS	pdns08.domaincontrol.com.
+fdnf.gm.		3600	IN	NS	ns55.domaincontrol.com.
+fdnf.gm.		3600	IN	NS	ns56.domaincontrol.com.
 federalexpress.gm.	3600	IN	NS	dns1.cscdns.net.
 federalexpress.gm.	3600	IN	NS	dns2.cscdns.net.
 fedex.gm.		3600	IN	NS	dns1.cscdns.net.
@@ -1207,8 +1209,8 @@ gambiatours.gm.		3600	IN	NS	ns1.netpagenetworks.net.
 gambiatours.gm.		3600	IN	NS	ns2.netpagenetworks.net.
 gambiauniversalliberationchurch.gm. 3600 IN NS	ns1.gamtel.gm.
 gambiauniversalliberationchurch.gm. 3600 IN NS	ns2.gamtel.gm.
-gambis.gm.		3600	IN	NS	pdns11.domaincontrol.com.
-gambis.gm.		3600	IN	NS	pdns12.domaincontrol.com.
+gambis.gm.		3600	IN	NS	ns55.domaincontrol.com.
+gambis.gm.		3600	IN	NS	ns56.domaincontrol.com.
 gamcel.gm.		3600	IN	NS	ns1.gamtel.gm.
 gamcel.gm.		3600	IN	NS	ns2.gamtel.gm.
 gamchix.gm.		3600	IN	NS	ns1.gamtel.gm.
@@ -1591,8 +1593,8 @@ ict.gm.			3600	IN	NS	ns1.ammics.net.
 ict.gm.			3600	IN	NS	ns2.ammics.net.
 ideas-inc.gm.		3600	IN	NS	ns1.nextsite.com.
 ideas-inc.gm.		3600	IN	NS	ns3.nextsite.com.
-iec.gm.			3600	IN	NS	pdns07.domaincontrol.com.
-iec.gm.			3600	IN	NS	pdns08.domaincontrol.com.
+iec.gm.			3600	IN	NS	ns55.domaincontrol.com.
+iec.gm.			3600	IN	NS	ns56.domaincontrol.com.
 ielts.gm.		3600	IN	NS	ns1.netnames.net.
 ielts.gm.		3600	IN	NS	ns2.netnames.net.
 ielts.gm.		3600	IN	NS	ns5.netnames.net.
@@ -2737,8 +2739,8 @@ saint-gobain.gm.	3600	IN	NS	obs.ns1.fr.
 saintgobain.gm.		3600	IN	NS	ns2.observatoiredesmarques.fr.
 saintgobain.gm.		3600	IN	NS	ns3.nameshield.net.
 saintgobain.gm.		3600	IN	NS	obs.ns1.fr.
-saints.gm.		3600	IN	NS	ns1.eapps.com.
-saints.gm.		3600	IN	NS	ns2.eapps.com.
+saints.gm.		3600	IN	NS	ns55.domaincontrol.com.
+saints.gm.		3600	IN	NS	ns56.domaincontrol.com.
 sajcf.gm.		3600	IN	NS	ns1.qanet.gm.
 sajcf.gm.		3600	IN	NS	ns2.qanet.gm.
 salambatik.gm.		3600	IN	NS	ns1.siteground194.com.
@@ -3244,8 +3246,8 @@ typo3.gm.		3600	IN	NS	ns2.ns-serve.net.
 ubimet.gm.		3600	IN	NS	ns1.markmonitor.com.
 ubimet.gm.		3600	IN	NS	ns2.markmonitor.com.
 ubimet.gm.		3600	IN	NS	ns3.markmonitor.com.
-udp.gm.			3600	IN	NS	pdns11.domaincontrol.com.
-udp.gm.			3600	IN	NS	pdns12.domaincontrol.com.
+udp.gm.			3600	IN	NS	ns55.domaincontrol.com.
+udp.gm.			3600	IN	NS	ns56.domaincontrol.com.
 un.gm.			3600	IN	NS	ns1.gamtel.gm.
 un.gm.			3600	IN	NS	ns2.gamtel.gm.
 underberg.gm.		3600	IN	NS	dns.voerde.globvill.de.
@@ -3542,4 +3544,4 @@ b.ns14.net.		3600	IN	A	217.160.113.32
 c.ns14.net.		3600	IN	A	195.34.161.195
 ns1.pointclick.net.	3600	IN	A	74.213.145.125
 ns2.pointclick.net.	3600	IN	A	50.59.102.60
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110529 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110552 3600 900 604800 3600

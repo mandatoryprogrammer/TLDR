@@ -1,10 +1,15 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110571 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110587 3600 900 604800 3600
+ns45.domaincontrol.com.	3600	IN	A	216.69.185.23
+ns46.domaincontrol.com.	3600	IN	A	208.109.255.23
 ns55.domaincontrol.com.	3600	IN	A	216.69.185.28
 ns56.domaincontrol.com.	3600	IN	A	208.109.255.28
 nameserver-a.nike.com.	3600	IN	A	156.53.53.53
+a1.verisigndns.com.	3600	IN	A	209.112.113.33
+a2.verisigndns.com.	3600	IN	A	209.112.114.33
+a3.verisigndns.com.	3600	IN	A	69.36.145.33
 ns1.uk24.siteground.eu.	3600	IN	A	77.104.149.194
 ns2.uk24.siteground.eu.	3600	IN	A	77.104.171.145
 gm.			3600	IN	NS	ns1.nic.gm.
@@ -1020,12 +1025,14 @@ fhag.gm.		3600	IN	NS	ns1.siteground339.com.
 fhag.gm.		3600	IN	NS	ns2.siteground339.com.
 fidelity.gm.		3600	IN	NS	ns2.uk.fid-intl.com.
 fidelity.gm.		3600	IN	NS	ns3.uk.fid-intl.com.
-fidelityinternational.gm. 3600	IN	NS	ns2.uk.fid-intl.com.
-fidelityinternational.gm. 3600	IN	NS	ns3.uk.fid-intl.com.
+fidelityinternational.gm. 3600	IN	NS	a1.verisigndns.com.
+fidelityinternational.gm. 3600	IN	NS	a2.verisigndns.com.
+fidelityinternational.gm. 3600	IN	NS	a3.verisigndns.com.
 fidelityinvestments.gm.	3600	IN	NS	ns2.uk.fid-intl.com.
 fidelityinvestments.gm.	3600	IN	NS	ns3.uk.fid-intl.com.
-fidelityworldwideinvestment.gm.	3600 IN	NS	ns2.uk.fid-intl.com.
-fidelityworldwideinvestment.gm.	3600 IN	NS	ns3.uk.fid-intl.com.
+fidelityworldwideinvestment.gm.	3600 IN	NS	a1.verisigndns.com.
+fidelityworldwideinvestment.gm.	3600 IN	NS	a2.verisigndns.com.
+fidelityworldwideinvestment.gm.	3600 IN	NS	a3.verisigndns.com.
 fig.gm.			3600	IN	NS	ns1.netpagewireless.net.
 fig.gm.			3600	IN	NS	ns2.netpagewireless.net.
 findit.gm.		3600	IN	NS	ns1.enixns.com.
@@ -2657,6 +2664,8 @@ realestate.gm.		3600	IN	NS	ns51.securenet-server.net.
 realestate.gm.		3600	IN	NS	ns52.securenet-server.net.
 realtor.gm.		3600	IN	NS	ns1.gamtel.gm.
 realtor.gm.		3600	IN	NS	ns2.gamtel.gm.
+recharge.gm.		3600	IN	NS	ns1.gamtel.gm.
+recharge.gm.		3600	IN	NS	ns2.gamtel.gm.
 recruitment.gm.		3600	IN	NS	ns1.rapidswitch.com.
 recruitment.gm.		3600	IN	NS	ns2.rapidswitch.com.
 recruitment.gm.		3600	IN	NS	ns3.rapidswitch.com.
@@ -2766,6 +2775,8 @@ sapphire.gm.		3600	IN	NS	ns1.uk24.siteground.eu.
 sapphire.gm.		3600	IN	NS	ns2.uk24.siteground.eu.
 sargeshotel.gm.		3600	IN	NS	ns2.unique.gm.
 sargeshotel.gm.		3600	IN	NS	ns3.unique.gm.
+sarrconstructiongroup.gm. 3600	IN	NS	ns45.domaincontrol.com.
+sarrconstructiongroup.gm. 3600	IN	NS	ns46.domaincontrol.com.
 sasco.gm.		3600	IN	NS	ns1.qth.nl.
 sasco.gm.		3600	IN	NS	ns2.qth.nl.
 sasco.gm.		3600	IN	NS	ns3.schaap.net.
@@ -3542,4 +3553,4 @@ ns1.pointclick.net.	3600	IN	A	74.213.145.125
 ns2.pointclick.net.	3600	IN	A	50.59.102.60
 ns1.byethost26.org.	3600	IN	A	31.22.4.102
 ns2.byethost26.org.	3600	IN	A	31.22.4.103
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110571 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110587 3600 900 604800 3600

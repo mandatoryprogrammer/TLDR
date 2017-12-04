@@ -1,8 +1,10 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns3.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017120410 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1512371297"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017120413 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1512385693"
+rw.			3600	IN	NS	A.RW.DYNTLD.NET.
+rw.			3600	IN	NS	B.RW.DYNTLD.NET.
 rw.			3600	IN	NS	ns1.ricta.org.rw.
 rw.			3600	IN	NS	ns3.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
@@ -150,8 +152,6 @@ africamagic.rw.		3600	IN	NS	ns1.mweb.co.za.
 africamagic.rw.		3600	IN	NS	ns2.mweb.co.za.
 africanalliance.rw.	3600	IN	NS	titan.is.co.za.
 africanalliance.rw.	3600	IN	NS	jupiter.is.co.za.
-africar.rw.		3600	IN	NS	ns5.ricta.org.rw.
-africar.rw.		3600	IN	NS	ns6.ricta.org.rw.
 afrifame.rw.		3600	IN	NS	ns1.yegosites.com.
 afrifame.rw.		3600	IN	NS	ns2.yegosites.com.
 afrifamemusic.rw.	3600	IN	NS	ns1.yegosites.com.
@@ -2026,12 +2026,10 @@ gypsophilia.rw.		3600	IN	NS	ns1.ams30.siteground.eu.
 gypsophilia.rw.		3600	IN	NS	ns2.ams30.siteground.eu.
 habona.rw.		3600	IN	NS	ns6345.hostgator.com.
 habona.rw.		3600	IN	NS	ns6346.hostgator.com.
-hackeru.rw.		3600	IN	NS	ns3.afriregister.com.
-hackeru.rw.		3600	IN	NS	rc120.eacdirectory.com.
-hackeru.rw.		3600	IN	NS	rc121.eacdirectory.com.
-hackerupro.rw.		3600	IN	NS	ns3.afriregister.com.
-hackerupro.rw.		3600	IN	NS	rc120.eacdirectory.com.
-hackerupro.rw.		3600	IN	NS	rc121.eacdirectory.com.
+hackeru.rw.		3600	IN	NS	ns5.afriregister.co.ke.
+hackeru.rw.		3600	IN	NS	ns6.afriregister.co.ke.
+hackerupro.rw.		3600	IN	NS	ns5.afriregister.co.ke.
+hackerupro.rw.		3600	IN	NS	ns6.afriregister.co.ke.
 hafele.rw.		3600	IN	NS	ns3.lemarit.net.
 hafele.rw.		3600	IN	NS	ns4.lemarit.de.
 hafiyawe.rw.		3600	IN	NS	ns627.websitewelcome.com.
@@ -2489,8 +2487,8 @@ internic.rw.		3600	IN	NS	a4.nstld.com.
 internic.rw.		3600	IN	NS	f4.nstld.com.
 intertech.rw.		3600	IN	NS	ns1.adicthost.net.
 intertech.rw.		3600	IN	NS	ns2.adicthost.net.
-intiti.rw.		3600	IN	NS	ns6165.hostgator.com.
-intiti.rw.		3600	IN	NS	ns6166.hostgator.com.
+intiti.rw.		3600	IN	NS	ns5.afriregister.co.ke.
+intiti.rw.		3600	IN	NS	ns6.afriregister.co.ke.
 ints.rw.		3600	IN	NS	ns1.igihe.club.
 ints.rw.		3600	IN	NS	ns2.igihe.club.
 intumwa.rw.		3600	IN	NS	ns5.afriregister.com.
@@ -2770,8 +2768,6 @@ kigalimemorial.rw.	3600	IN	NS	ns-1387.awsdns-45.org.
 kigalimemorial.rw.	3600	IN	NS	ns-1676.awsdns-17.co.uk.
 kigalinewyearseve.rw.	3600	IN	NS	ns1.imaginetserver.com.
 kigalinewyearseve.rw.	3600	IN	NS	ns2.imaginetserver.com.
-kigaliout.rw.		3600	IN	NS	ns5.ricta.org.rw.
-kigaliout.rw.		3600	IN	NS	ns6.ricta.org.rw.
 kigalipost.rw.		3600	IN	NS	ns1.md-92.webhostbox.net.
 kigalipost.rw.		3600	IN	NS	ns2.md-92.webhostbox.net.
 kigaliup.rw.		3600	IN	NS	ns1.epizy.com.
@@ -3743,8 +3739,6 @@ pih.rw.			3600	IN	NS	ns2.afriregister.com.
 pih.rw.			3600	IN	NS	ns3.afriregister.com.
 pikca.rw.		3600	IN	NS	ns31.boxsecured.com.
 pikca.rw.		3600	IN	NS	ns32.boxsecured.com.
-pikiwash.rw.		3600	IN	NS	ns5.ricta.org.rw.
-pikiwash.rw.		3600	IN	NS	ns6.ricta.org.rw.
 pilipili.rw.		3600	IN	NS	ns1.afriregister.com.
 pilipili.rw.		3600	IN	NS	ns2.afriregister.com.
 pingdirectory.rw.	3600	IN	NS	ns5.ricta.org.rw.
@@ -4123,6 +4117,8 @@ rol.rw.			3600	IN	NS	ns2.aos.rw.
 rol.rw.			3600	IN	NS	ns3.aos.rw.
 rolex.rw.		3600	IN	NS	ns1.gva.ch.colt.net.
 rolex.rw.		3600	IN	NS	ns1.zrh1.ch.colt.net.
+romantic.rw.		3600	IN	NS	ns1-rocket.vivawebhost.com.
+romantic.rw.		3600	IN	NS	ns2-rocket.vivawebhost.com.
 ronkos.rw.		3600	IN	NS	ns1.afriregister.com.
 ronkos.rw.		3600	IN	NS	ns2.afriregister.com.
 rootca.rw.		3600	IN	NS	ns1.rdb.rw.
@@ -4461,8 +4457,8 @@ shop.rw.		3600	IN	NS	ns1.kaneza.com.
 shop.rw.		3600	IN	NS	ns2.kaneza.com.
 shopit.rw.		3600	IN	NS	ns1.c15724.sgvps.net.
 shopit.rw.		3600	IN	NS	ns2.c15724.sgvps.net.
-shora.rw.		3600	IN	NS	ns1.imaginetrwone.com.
-shora.rw.		3600	IN	NS	ns2.imaginetrwone.com.
+shora.rw.		3600	IN	NS	ns5.ricta.org.rw.
+shora.rw.		3600	IN	NS	ns6.ricta.org.rw.
 shyakafashionoutique.rw. 3600	IN	NS	ns10.wixdns.net.
 shyakafashionoutique.rw. 3600	IN	NS	ns11.wixdns.net.
 shyirahospital.rw.	3600	IN	NS	ns1.theclickhost.com.
@@ -5393,4 +5389,4 @@ zuerich.rw.		3600	IN	NS	ns.zurich.com.
 zuerich.rw.		3600	IN	NS	ns4.zurich.com.
 zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017120410 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2017120413 86400 7200 604800 3600

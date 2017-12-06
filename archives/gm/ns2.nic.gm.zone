@@ -1,7 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110600 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110617 3600 900 604800 3600
+ns5.anyservers.com.	3600	IN	A	77.79.239.202
 ns45.domaincontrol.com.	3600	IN	A	216.69.185.23
 ns46.domaincontrol.com.	3600	IN	A	208.109.255.23
 ns55.domaincontrol.com.	3600	IN	A	216.69.185.28
@@ -9,6 +10,7 @@ ns56.domaincontrol.com.	3600	IN	A	208.109.255.28
 Ns1.justhost.com.	3600	IN	A	162.159.24.49
 Ns2.justhost.com.	3600	IN	A	162.159.25.241
 nameserver-a.nike.com.	3600	IN	A	156.53.53.53
+nameserver-b.nike.com.	3600	IN	A	156.53.53.54
 a1.verisigndns.com.	3600	IN	A	209.112.113.33
 a2.verisigndns.com.	3600	IN	A	209.112.114.33
 a3.verisigndns.com.	3600	IN	A	69.36.145.33
@@ -1356,6 +1358,8 @@ globalnetwork.gm.	3600	IN	NS	ns1.gamtel.gm.
 globalnetwork.gm.	3600	IN	NS	ns2.gamtel.gm.
 globalproperties.gm.	3600	IN	NS	ns1.ipage.com.
 globalproperties.gm.	3600	IN	NS	ns2.ipage.com.
+globeoil.gm.		3600	IN	NS	ns1.netpagewireless.net.
+globeoil.gm.		3600	IN	NS	ns2.netpagewireless.net.
 gma.gm.			3600	IN	NS	ns1.dnspark.net.
 gma.gm.			3600	IN	NS	ns2.dnspark.net.
 gma.gm.			3600	IN	NS	ns3.dnspark.net.
@@ -1807,6 +1811,8 @@ kharafi.gm.		3600	IN	NS	ns1.netpagenetworks.net.
 kharafi.gm.		3600	IN	NS	ns2.netpagenetworks.net.
 kidcodersacademy.gm.	3600	IN	NS	ns1.justhost.com.
 kidcodersacademy.gm.	3600	IN	NS	ns2.justhost.com.
+kingbaker.gm.		3600	IN	NS	ns1.us104.siteground.us.
+kingbaker.gm.		3600	IN	NS	ns2.us104.siteground.us.
 kingfisher.gm.		3600	IN	NS	ns1.qth.nl.
 kingfisher.gm.		3600	IN	NS	ns2.qth.nl.
 kingfisher.gm.		3600	IN	NS	ns3.schaap.net.
@@ -2351,8 +2357,8 @@ nicdirect.gm.		3600	IN	NS	ns1.ns-serve.net.
 nicdirect.gm.		3600	IN	NS	ns2.ns-serve.net.
 nigeria-embassy.gm.	3600	IN	NS	ns1.ipage.com.
 nigeria-embassy.gm.	3600	IN	NS	ns2.ipage.com.
-nike.gm.		3600	IN	NS	ns2.nike.com.
 nike.gm.		3600	IN	NS	nameserver-a.nike.com.
+nike.gm.		3600	IN	NS	nameserver-b.nike.com.
 nikon.gm.		3600	IN	NS	ns1.ipmirror.com.
 nikon.gm.		3600	IN	NS	ns2.ipmirror.com.
 nikon.gm.		3600	IN	NS	ns3.ipmirror.com.
@@ -3541,6 +3547,7 @@ zanussi.gm.		3600	IN	NS	ns.electrolux.se.
 zanussi.gm.		3600	IN	NS	ns2.domainnetwork.se.
 zenithbank.gm.		3600	IN	NS	ns3.anyservers.com.
 zenithbank.gm.		3600	IN	NS	ns4.anyservers.com.
+zenithbank.gm.		3600	IN	NS	ns5.anyservers.com.
 zentiva.gm.		3600	IN	NS	pdns1.ultradns.net.
 zentiva.gm.		3600	IN	NS	pdns2.ultradns.net.
 zentiva.gm.		3600	IN	NS	pdns3.ultradns.org.
@@ -3557,6 +3564,8 @@ zurich.gm.		3600	IN	NS	ns.zurich.com.
 zurich.gm.		3600	IN	NS	ns4.zurich.com.
 NS1.MEDIATEMPLE.net.	3600	IN	A	64.207.128.246
 NS2.MEDIATEMPLE.net.	3600	IN	A	70.32.65.137
+ns1.netpagewireless.net. 3600	IN	A	197.255.195.130
+ns2.netpagewireless.net. 3600	IN	A	197.255.195.2
 a.ns14.net.		3600	IN	A	62.116.131.31
 b.ns14.net.		3600	IN	A	83.169.55.5
 b.ns14.net.		3600	IN	A	217.160.113.32
@@ -3565,4 +3574,6 @@ ns1.pointclick.net.	3600	IN	A	74.213.145.125
 ns2.pointclick.net.	3600	IN	A	50.59.102.60
 ns1.byethost26.org.	3600	IN	A	31.22.4.102
 ns2.byethost26.org.	3600	IN	A	31.22.4.103
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110600 3600 900 604800 3600
+ns1.us104.siteground.us. 3600	IN	A	77.104.161.74
+ns2.us104.siteground.us. 3600	IN	A	77.104.157.230
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017110617 3600 900 604800 3600

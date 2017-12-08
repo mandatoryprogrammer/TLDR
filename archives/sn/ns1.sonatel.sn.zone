@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sn. @ns1.sonatel.sn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017120701 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017120800 21600 3600 1209600 3600
 sn.			86400	IN	RRSIG	TXT 8 1 86400 20180102182225 20171204082053 21123 sn. PaRG8hdbTXlrhUj40AgR4ie10eBbNyRbOR6ORU4Yl51cVSReCVQKfQtC C0ilSQ0oQir5YKVYv2ufLWJH9dCoMgS136JIFhkz8ej2mpeADbidfto6 oNfifGh1ZtMwT6cD/G40MXvIuJo38NtC+vXIgoj+wTbYyslVq83SA6TW A6I=
 sn.			86400	IN	TXT	"v=spf1 -all"
 sn.			86400	IN	RRSIG	NS 8 1 86400 20180102223940 20171204082053 21123 sn. ZU3sZJOjVq2CG1faxrfzaah7Ix6dy9KcuDTTbjI2WoUpSX6OkTAwsS1m iJH92dDc+VAIHVKqGHUbDx+dhz+wx2kjVXiYf0H5Bp+yt9ue7okPkIlB jKxkMLUoF38Nwsv5Rqbt3n3N7Nzp5jpCy+fasGRAUKMwru6r6s4rPiuC Zrg=
@@ -16,7 +16,7 @@ sn.			43200	IN	RRSIG	DNSKEY 8 1 43200 20180103224747 20171204082053 32482 sn. lq
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAazDrpIhw4ldEgv15mL05M41/FHsHp1MQP6ossWpObCf9G1tKRvo YB4r2c33VO2m74lZ8BaNky6ZI8PNkmQZU31lbrEBXb3Poco/0H8Rdd4P MfAjpBW12HRS5LokSZC9m5VvV72bdBtzi/Fi6GAwrDmiX+uMmz6V0dsX TnZgCTd1
 sn.			43200	IN	DNSKEY	256 3 8 AwEAAcfmRz0TNn7wT4FZlK0bnmHyT69skzqFxBVAgAg7RmskGijyyl/N cFb2ytheTp3sin77lt+7GYRlacbVvc4nvgrKT68SGt+8kRfMtf98+E4b alekFAAhG7U2Qkm5ZGa2x0b4+Z/9X1Lm+TpGkaNSGVNnaaA+YiAKic7M jPvMRfKn
 sn.			43200	IN	DNSKEY	257 3 8 AwEAAbtBoi+R3s3nxMcnhiVzYNpwetz1ZsD8Lx18+bA4lZpOTm9LP3LO ocXA0s4btHhVg/o9LfbqcWBMdAXKT38fNo/PdRbjxLT9/xN82Suth09l JIiIIQUv5DSOBwywDwNjxH1881WF5ZPe69PWMIKWaBskiWBawn13spBm 8bqXyhfDeGKZL/38fG/qCeH6EfoVvgmG4VJWjNamAcacSKwCo/DKxrhB ciGAaNbSOTvNJhWhqRpNoYKEGwFUQbCb5yAn8VJpuB4K40V5qMGl2lE7 eQ0j6nJS+TyaUi4K4o/N/YahFiFNELZIzJtV5zzVgojHV44miLA27yGG ag0ze822ar8=
-sn.			86400	IN	RRSIG	SOA 8 1 86400 20180107024026 20171207150502 21123 sn. DBxRkenFNWWQbTl1D5A46mfjqxtTQGFFEVtsfVpnj/fgHMvRMfYAQjUY nCkCDlnYUuVxQFUXFJLVDmxkKFH6ETAUVEImz/nIqdRfoDbCa3v58UuF 5SX65bpBbJkpkldoz0yeHHiy7dmBK+AVHdCTzLKSISsAR4Oq6BGdzC0B 4FE=
+sn.			86400	IN	RRSIG	SOA 8 1 86400 20180108024910 20171208170502 21123 sn. clbYRiLb32hIatgfcyQP7wuGkct1HNkKugrFQatogWwSCY3bIdwa00iK hKwfpdNC1/tUU+sZSzoVXbPIfeOBcniazG6+Rl9SSO3IQBQBzUgMubwk yYmtclh2XVVwVI0J8OIeDlA3TgaDonr34eGm/XzDyETOILb7cE28PIhJ ncc=
 0vh-cl0ud.sn.		86400	IN	NS	ns104.ovh.net.
 0vh-cl0ud.sn.		86400	IN	NS	dns104.ovh.net.
 0vh-cloud.sn.		86400	IN	NS	ns104.ovh.net.
@@ -3159,8 +3159,10 @@ dsdrive.sn.		86400	IN	NS	b.dns.gandi.net.
 dsdrive.sn.		86400	IN	NS	c.dns.gandi.net.
 dsisenegal.sn.		86400	IN	NS	ns16.ovh.net.
 dsisenegal.sn.		86400	IN	NS	dns16.ovh.net.
-dsn.sn.			86400	IN	NS	ns173.ehosts.com.
-dsn.sn.			86400	IN	NS	ns174.ehosts.com.
+dsn.sn.			86400	IN	NS	ns1.ascio.com.
+dsn.sn.			86400	IN	NS	ns2.ascio.com.
+dsn.sn.			86400	IN	NS	ns3.ascio.com.
+dsn.sn.			86400	IN	NS	ns4.ascio.com.
 dsrse.sn.		86400	IN	NS	dns1.hosteur.com.
 dsrse.sn.		86400	IN	NS	dns2.hosteur.com.
 dstvondemand.sn.	86400	IN	NS	dns01.naspers.com.
@@ -4092,10 +4094,10 @@ fitnessboutique.sn.	86400	IN	NS	ns1.mailclub.fr.
 fitnessboutique.sn.	86400	IN	NS	ns2.mailclub.fr.
 flash.sn.		86400	IN	NS	ns1.snterra.com.
 flash.sn.		86400	IN	NS	ns2.snterra.com.
-flashvoiture.sn.	86400	IN	NS	ns1.sunudns.com.
-flashvoiture.sn.	86400	IN	NS	ns2.sunudns.com.
-flashvoiture.sn.	86400	IN	NS	ns3.sunudns.com.
-flashvoiture.sn.	86400	IN	NS	ns4.sunudns.com.
+flashvoiture.sn.	86400	IN	NS	ns1.ascio.com.
+flashvoiture.sn.	86400	IN	NS	ns2.ascio.com.
+flashvoiture.sn.	86400	IN	NS	ns3.ascio.com.
+flashvoiture.sn.	86400	IN	NS	ns4.ascio.com.
 fleur2peau.sn.		86400	IN	NS	ns14.ovh.net.
 fleur2peau.sn.		86400	IN	NS	dns14.ovh.net.
 flormar.sn.		86400	IN	NS	ns200.anycast.me.
@@ -5434,10 +5436,10 @@ ismzonenord.sn.		86400	IN	NS	ns4.kheweul.net.
 isoc.sn.		86400	IN	NS	ns.nic.sn.
 isoc.sn.		86400	IN	NS	ns.ucad.sn.
 isoc.sn.		86400	IN	NS	dns.ucad.sn.
-isosoft.sn.		86400	IN	NS	ns1.sunudns.com.
-isosoft.sn.		86400	IN	NS	ns2.sunudns.com.
-isosoft.sn.		86400	IN	NS	ns3.sunudns.com.
-isosoft.sn.		86400	IN	NS	ns4.sunudns.com.
+isosoft.sn.		86400	IN	NS	ns1.ascio.com.
+isosoft.sn.		86400	IN	NS	ns2.ascio.com.
+isosoft.sn.		86400	IN	NS	ns3.ascio.com.
+isosoft.sn.		86400	IN	NS	ns4.ascio.com.
 ispmsenegal.sn.		86400	IN	NS	ns200.anycast.me.
 ispmsenegal.sn.		86400	IN	NS	dns200.anycast.me.
 isra.sn.		86400	IN	NS	ns.isra.sn.
@@ -7189,10 +7191,10 @@ ocas.sn.		86400	IN	NS	ns3.kheweul.net.
 ocas.sn.		86400	IN	NS	ns4.kheweul.net.
 occ.sn.			86400	IN	NS	dean.ns.cloudflare.com.
 occ.sn.			86400	IN	NS	carol.ns.cloudflare.com.
-occasioncar.sn.		86400	IN	NS	ns1.sunudns.com.
-occasioncar.sn.		86400	IN	NS	ns2.sunudns.com.
-occasioncar.sn.		86400	IN	NS	ns3.sunudns.com.
-occasioncar.sn.		86400	IN	NS	ns4.sunudns.com.
+occasioncar.sn.		86400	IN	NS	ns1.ascio.com.
+occasioncar.sn.		86400	IN	NS	ns2.ascio.com.
+occasioncar.sn.		86400	IN	NS	ns3.ascio.com.
+occasioncar.sn.		86400	IN	NS	ns4.ascio.com.
 oceandrive.sn.		86400	IN	NS	ns1.kheweul.net.
 oceandrive.sn.		86400	IN	NS	ns2.kheweul.net.
 ocpgroup.sn.		86400	IN	NS	mrozia.mtds.ma.
@@ -8931,10 +8933,10 @@ seo.sn.			86400	IN	NS	ns200.anycast.me.
 seo.sn.			86400	IN	NS	dns200.anycast.me.
 seoh.sn.		86400	IN	NS	ns.arc.sn.
 seoh.sn.		86400	IN	NS	ns2.arc.sn.
-sep.sn.			86400	IN	NS	ns1.sunudns.com.
-sep.sn.			86400	IN	NS	ns2.sunudns.com.
-sep.sn.			86400	IN	NS	ns3.sunudns.com.
-sep.sn.			86400	IN	NS	ns4.sunudns.com.
+sep.sn.			86400	IN	NS	ns1.ascio.com.
+sep.sn.			86400	IN	NS	ns2.ascio.com.
+sep.sn.			86400	IN	NS	ns3.ascio.com.
+sep.sn.			86400	IN	NS	ns4.ascio.com.
 sepi.sn.		86400	IN	NS	ns200.anycast.me.
 sepi.sn.		86400	IN	NS	dns200.anycast.me.
 seps.sn.		86400	IN	NS	ns1.kheweul.net.
@@ -10176,10 +10178,10 @@ toyota.sn.		86400	IN	NS	rns1.rightsdns.com.
 toyota.sn.		86400	IN	NS	rns2.rightsdns.com.
 tpe.sn.			86400	IN	NS	ns1.kheweul.net.
 tpe.sn.			86400	IN	NS	ns2.kheweul.net.
-tpm-rhconsulting.sn.	86400	IN	NS	ns1.sunudns.com.
-tpm-rhconsulting.sn.	86400	IN	NS	ns2.sunudns.com.
-tpm-rhconsulting.sn.	86400	IN	NS	ns3.sunudns.com.
-tpm-rhconsulting.sn.	86400	IN	NS	ns4.sunudns.com.
+tpm-rhconsulting.sn.	86400	IN	NS	ns1.ascio.com.
+tpm-rhconsulting.sn.	86400	IN	NS	ns2.ascio.com.
+tpm-rhconsulting.sn.	86400	IN	NS	ns3.ascio.com.
+tpm-rhconsulting.sn.	86400	IN	NS	ns4.ascio.com.
 tps.sn.			86400	IN	NS	ns11.ovh.net.
 tps.sn.			86400	IN	NS	dns11.ovh.net.
 tpsnet.sn.		86400	IN	NS	ns.tpsnet.sn.
@@ -19950,4 +19952,4 @@ vvqevmm5hk332d8d7c8ajg40p5i8dgf5.sn. 3600 IN RRSIG NSEC3 8 2 3600 20180103072806
 vvqevmm5hk332d8d7c8ajg40p5i8dgf5.sn. 3600 IN NSEC3 1 0 1 9BD1FE277836BCDF VVU7LASKN36H2KTSQRF4TALQU2EFJABM NS
 vvu7laskn36h2ktsqrf4talqu2efjabm.sn. 3600 IN RRSIG NSEC3 8 2 3600 20180102204359 20171204082053 21123 sn. JxO6s4+c81Ogqz128iBArIq5M4tzSTvLpzDvFQJws2MZcfEBSnQ1hJQL ePO1i6LIeV/svcuMyUY+pUctIx+wx5fCybdVzJHJ+UYefwKQwsPOPYqR MNe6hFT/QKTkJcQ3v7K1anPCQP929l/V3quT8g7xIrhQ+hM0Us+/bQmv tMo=
 vvu7laskn36h2ktsqrf4talqu2efjabm.sn. 3600 IN NSEC3 1 0 1 9BD1FE277836BCDF 0063OB4M2OVKB3OB5A242KMPEM5TEPEF NS
-sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017120701 21600 3600 1209600 3600
+sn.			86400	IN	SOA	ns.ucad.sn. root.ucad.sn. 2017120800 21600 3600 1209600 3600

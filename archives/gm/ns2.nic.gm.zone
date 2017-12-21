@@ -1,20 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017120911 3600 900 604800 3600
-ns5.anyservers.com.	3600	IN	A	77.79.239.202
-ns45.domaincontrol.com.	3600	IN	A	216.69.185.23
-ns46.domaincontrol.com.	3600	IN	A	208.109.255.23
-ns55.domaincontrol.com.	3600	IN	A	216.69.185.28
-ns56.domaincontrol.com.	3600	IN	A	208.109.255.28
-Ns1.justhost.com.	3600	IN	A	162.159.24.49
-Ns2.justhost.com.	3600	IN	A	162.159.25.241
-nameserver-a.nike.com.	3600	IN	A	156.53.53.53
-nameserver-b.nike.com.	3600	IN	A	156.53.53.54
-a1.verisigndns.com.	3600	IN	A	209.112.113.33
-a2.verisigndns.com.	3600	IN	A	209.112.114.33
-a3.verisigndns.com.	3600	IN	A	69.36.145.33
-ns2.uk24.siteground.eu.	3600	IN	A	77.104.171.145
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017122176 3600 900 604800 3600
 gm.			3600	IN	NS	ns1.nic.gm.
 gm.			3600	IN	NS	ns2.nic.gm.
 gm.			3600	IN	NS	ns-gm.afrinic.net.
@@ -22,6 +9,10 @@ gm.			3600	IN	NS	ns-gm.afrinic.net.
 101domain.gm.		3600	IN	NS	ns2.101domain.com.
 101domains.gm.		3600	IN	NS	ns1.101domain.com.
 101domains.gm.		3600	IN	NS	ns2.101domain.com.
+118finder.gm.		3600	IN	NS	ns1.supercp.com.
+118finder.gm.		3600	IN	NS	ns2.supercp.com.
+118finder.gm.		3600	IN	NS	ns3.supercp.com.
+118finder.gm.		3600	IN	NS	ns4.supercp.com.
 20thcenturyfox.gm.	3600	IN	NS	ns1.foxfilm.com.
 20thcenturyfox.gm.	3600	IN	NS	ns2.foxfilm.com.
 3com.gm.		3600	IN	NS	ns1.hpe.com.
@@ -142,9 +133,10 @@ al-madinah.gm.		3600	IN	NS	ns2.siteground145.com.
 alamo.gm.		3600	IN	NS	ns1.markmonitor.com.
 alamo.gm.		3600	IN	NS	ns3.markmonitor.com.
 alamo.gm.		3600	IN	NS	ns6.markmonitor.com.
-alcatel.gm.		3600	IN	NS	deextdns.alcatel-lucent.com.
-alcatel.gm.		3600	IN	NS	frextdns.alcatel-lucent.com.
-alcatel.gm.		3600	IN	NS	ilextdns.alcatel-lucent.com.
+alcatel.gm.		3600	IN	NS	ns.nokia.com.
+alcatel.gm.		3600	IN	NS	ns2.nokia.com.
+alcatel.gm.		3600	IN	NS	ns3.nokia.com.
+alcatel.gm.		3600	IN	NS	ns4.nokia.com.
 alfalaah.gm.		3600	IN	NS	ns33.domaincontrol.com.
 alfalaah.gm.		3600	IN	NS	ns34.domaincontrol.com.
 alfob.gm.		3600	IN	NS	amit.ns.cloudflare.com.
@@ -280,8 +272,6 @@ autozone.gm.		3600	IN	NS	f4.nstld.com.
 autozone.gm.		3600	IN	NS	g4.nstld.com.
 avaya.gm.		3600	IN	NS	coextdns.avaya.com.
 avaya.gm.		3600	IN	NS	njextdns.avaya.com.
-avenuesolutions.gm.	3600	IN	NS	ns55.domaincontrol.com.
-avenuesolutions.gm.	3600	IN	NS	ns56.domaincontrol.com.
 avisu-thegambia.gm.	3600	IN	NS	ns1.nextsite.com.
 avisu-thegambia.gm.	3600	IN	NS	ns3.nextsite.com.
 avon.gm.		3600	IN	NS	a4.nstld.com.
@@ -311,6 +301,8 @@ bajam.gm.		3600	IN	NS	ns1.ams1.siteground.eu.
 bajam.gm.		3600	IN	NS	ns2.ams1.siteground.eu.
 bakadajihotel.gm.	3600	IN	NS	ns51.securenet-server.net.
 bakadajihotel.gm.	3600	IN	NS	ns52.securenet-server.net.
+bakery.gm.		3600	IN	NS	ns1.us104.siteground.us.
+bakery.gm.		3600	IN	NS	ns2.us104.siteground.us.
 balo.gm.		3600	IN	NS	ns1.gamtel.gm.
 balo.gm.		3600	IN	NS	ns2.gamtel.gm.
 bamboohotel.gm.		3600	IN	NS	ns0.ukfast.net.
@@ -560,8 +552,6 @@ capitalfm.gm.		3600	IN	NS	ns1.gamtel.gm.
 capitalfm.gm.		3600	IN	NS	ns2.gamtel.gm.
 car.gm.			3600	IN	NS	ns1.gamtel.gm.
 car.gm.			3600	IN	NS	ns2.gamtel.gm.
-caramel.gm.		3600	IN	NS	ns1.netpagewireless.net.
-caramel.gm.		3600	IN	NS	ns2.netpagewireless.net.
 cars.gm.		3600	IN	NS	ns0.ukfast.net.
 cartoonnetwork.gm.	3600	IN	NS	ns1.timewarner.net.
 cartoonnetwork.gm.	3600	IN	NS	ns3.timewarner.net.
@@ -766,12 +756,6 @@ dentist.gm.		3600	IN	NS	ns3.rapidswitch.com.
 dentons.gm.		3600	IN	NS	ns1.markmonitor.com.
 dentons.gm.		3600	IN	NS	ns2.markmonitor.com.
 dentons.gm.		3600	IN	NS	ns3.markmonitor.com.
-deutsche-telekom.gm.	3600	IN	NS	ns1.lovellsnames.org.
-deutsche-telekom.gm.	3600	IN	NS	ns3.lovellsnames.org.
-deutsche-telekom.gm.	3600	IN	NS	ns4.lovellsnames.org.
-deutschetelekom.gm.	3600	IN	NS	ns1.lovellsnames.org.
-deutschetelekom.gm.	3600	IN	NS	ns3.lovellsnames.org.
-deutschetelekom.gm.	3600	IN	NS	ns4.lovellsnames.org.
 dexperts.gm.		3600	IN	NS	ns1.ams13.siteground.eu.
 dexperts.gm.		3600	IN	NS	ns2.ams13.siteground.eu.
 dgbl.gm.		3600	IN	NS	dns1.2fit.eu.
@@ -883,8 +867,8 @@ educationalservices.gm.	3600	IN	NS	ns1.kmf.gm.
 educationalservices.gm.	3600	IN	NS	ns2.kmf.gm.
 edugambia.gm.		3600	IN	NS	ns1.linode.com.
 edugambia.gm.		3600	IN	NS	ns2.linode.com.
-edukid.gm.		3600	IN	NS	ns1.us105.siteground.us.
-edukid.gm.		3600	IN	NS	ns2.us105.siteground.us.
+edukid.gm.		3600	IN	NS	ns1.siteground339.com.
+edukid.gm.		3600	IN	NS	ns2.siteground339.com.
 edvantageafrica.gm.	3600	IN	NS	dns1.idp365.net.
 edvantageafrica.gm.	3600	IN	NS	dns2.idp365.net.
 ef.gm.			3600	IN	NS	ns.domainnetwork.se.
@@ -893,8 +877,8 @@ efanet.gm.		3600	IN	NS	ns1.gamtel.gm.
 efanet.gm.		3600	IN	NS	ns2.gamtel.gm.
 eff.gm.			3600	IN	NS	ns1.gamtel.gm.
 eff.gm.			3600	IN	NS	ns2.gamtel.gm.
-efsth.gm.		3600	IN	NS	ns2.unique.gm.
-efsth.gm.		3600	IN	NS	ns3.unique.gm.
+efsth.gm.		3600	IN	NS	ns1.siteground339.com.
+efsth.gm.		3600	IN	NS	ns2.siteground339.com.
 egambia.gm.		3600	IN	NS	amit.ns.cloudflare.com.
 egambia.gm.		3600	IN	NS	lady.ns.cloudflare.com.
 eicg.gm.		3600	IN	NS	ns.inmotionhosting.com.
@@ -1018,8 +1002,6 @@ fayeforbanjul.gm.	3600	IN	NS	ns1.gamtel.gm.
 fayeforbanjul.gm.	3600	IN	NS	ns2.gamtel.gm.
 fddf.gm.		3600	IN	NS	ns1.gamtel.gm.
 fddf.gm.		3600	IN	NS	ns2.gamtel.gm.
-fdnf.gm.		3600	IN	NS	ns55.domaincontrol.com.
-fdnf.gm.		3600	IN	NS	ns56.domaincontrol.com.
 federalexpress.gm.	3600	IN	NS	dns1.cscdns.net.
 federalexpress.gm.	3600	IN	NS	dns2.cscdns.net.
 fedex.gm.		3600	IN	NS	dns1.cscdns.net.
@@ -1097,6 +1079,8 @@ freshfunkyfajara.gm.	3600	IN	NS	ns02.zw-network.com.
 freshfunkyfajara.gm.	3600	IN	NS	ns03.zw-network.com.
 frisomat.gm.		3600	IN	NS	ns1.mailclub.fr.
 frisomat.gm.		3600	IN	NS	ns2.mailclub.fr.
+frss.gm.		3600	IN	NS	ns1.gamtel.gm.
+frss.gm.		3600	IN	NS	ns2.gamtel.gm.
 fsa.gm.			3600	IN	NS	ns1.ipower.gm.
 fsa.gm.			3600	IN	NS	ns2.ipower.gm.
 fsqa.gm.		3600	IN	NS	ns1.uk23.siteground.eu.
@@ -1219,8 +1203,6 @@ gambiatours.gm.		3600	IN	NS	ns1.netpagenetworks.net.
 gambiatours.gm.		3600	IN	NS	ns2.netpagenetworks.net.
 gambiauniversalliberationchurch.gm. 3600 IN NS	ns1.gamtel.gm.
 gambiauniversalliberationchurch.gm. 3600 IN NS	ns2.gamtel.gm.
-gambis.gm.		3600	IN	NS	ns55.domaincontrol.com.
-gambis.gm.		3600	IN	NS	ns56.domaincontrol.com.
 gamcel.gm.		3600	IN	NS	ns1.gamtel.gm.
 gamcel.gm.		3600	IN	NS	ns2.gamtel.gm.
 gamchix.gm.		3600	IN	NS	ns1.gamtel.gm.
@@ -1322,7 +1304,7 @@ gefunidore.gm.		3600	IN	NS	ns1.netpagenetworks.net.
 gefunidore.gm.		3600	IN	NS	ns2.netpagenetworks.net.
 gff.gm.			3600	IN	NS	ns1.netpagewireless.net.
 gff.gm.			3600	IN	NS	ns2.netpagewireless.net.
-gfscarrentals.gm.	3600	IN	NS	ns1.siteground339.com.
+gfscarrentals.gm.	3600	IN	NS	ns1.us105.siteground.us.
 gfscarrentals.gm.	3600	IN	NS	ns2.us105.siteground.us.
 gia.gm.			3600	IN	NS	ns1.gamtel.gm.
 gia.gm.			3600	IN	NS	ns2.gamtel.gm.
@@ -1420,8 +1402,6 @@ govi.gm.		3600	IN	NS	ns2.unique.gm.
 govi.gm.		3600	IN	NS	ns3.unique.gm.
 gphc.gm.		3600	IN	NS	ns1.gamtel.gm.
 gphc.gm.		3600	IN	NS	ns2.gamtel.gm.
-gpi.gm.			3600	IN	NS	ns1.netpagewireless.net.
-gpi.gm.			3600	IN	NS	ns2.netpagewireless.net.
 gppa.gm.		3600	IN	NS	ns1.netfirms.com.
 gppa.gm.		3600	IN	NS	ns2.netfirms.com.
 gppc.gm.		3600	IN	NS	ns1.gamtel.gm.
@@ -1605,8 +1585,6 @@ ict.gm.			3600	IN	NS	ns1.ammics.net.
 ict.gm.			3600	IN	NS	ns2.ammics.net.
 ideas-inc.gm.		3600	IN	NS	ns1.nextsite.com.
 ideas-inc.gm.		3600	IN	NS	ns3.nextsite.com.
-iec.gm.			3600	IN	NS	ns55.domaincontrol.com.
-iec.gm.			3600	IN	NS	ns56.domaincontrol.com.
 ielts.gm.		3600	IN	NS	ns1.netnames.net.
 ielts.gm.		3600	IN	NS	ns2.netnames.net.
 ielts.gm.		3600	IN	NS	ns5.netnames.net.
@@ -1740,8 +1718,6 @@ jerrehcamp.gm.		3600	IN	NS	ns1.siteground194.com.
 jerrehcamp.gm.		3600	IN	NS	ns2.siteground194.com.
 jewelofindia.gm.	3600	IN	NS	ns1.nextsite.com.
 jewelofindia.gm.	3600	IN	NS	ns3.nextsite.com.
-jfin.gm.		3600	IN	NS	ns55.domaincontrol.com.
-jfin.gm.		3600	IN	NS	ns56.domaincontrol.com.
 jfp.gm.			3600	IN	NS	ns1.gamtel.gm.
 jfp.gm.			3600	IN	NS	ns2.gamtel.gm.
 jgb.gm.			3600	IN	NS	ns1.trash.net.
@@ -1752,8 +1728,8 @@ jip.gm.			3600	IN	NS	ns1.gamtel.gm.
 jip.gm.			3600	IN	NS	ns2.gamtel.gm.
 jittercoms.gm.		3600	IN	NS	ns1.gamtel.gm.
 jittercoms.gm.		3600	IN	NS	ns2.gamtel.gm.
-jke.gm.			3600	IN	NS	ns1.mediatemple.net.
-jke.gm.			3600	IN	NS	ns2.mediatemple.net.
+jke.gm.			3600	IN	NS	.
+jke.gm.			3600	IN	NS	ns1.mediatemple.net.gm.
 job.gm.			3600	IN	NS	ns1.m03.siteground.biz.
 job.gm.			3600	IN	NS	ns2.m03.siteground.biz.
 jobs.gm.		3600	IN	NS	ns51.securenet-server.net.
@@ -1784,8 +1760,6 @@ justwalkin.gm.		3600	IN	NS	nsgbr.comlaude.co.uk.
 justwalkin.gm.		3600	IN	NS	nssui.comlaude.ch.
 justwalkout.gm.		3600	IN	NS	nsgbr.comlaude.co.uk.
 justwalkout.gm.		3600	IN	NS	nssui.comlaude.ch.
-kaaywin.gm.		3600	IN	NS	ns1.netpagenetworks.net.
-kaaywin.gm.		3600	IN	NS	ns2.netpagenetworks.net.
 kabakunku.gm.		3600	IN	NS	ns1.siteground194.com.
 kabakunku.gm.		3600	IN	NS	ns2.siteground194.com.
 kaira.gm.		3600	IN	NS	ns1.gamtel.gm.
@@ -1817,6 +1791,8 @@ kingfisher.gm.		3600	IN	NS	ns2.qth.nl.
 kingfisher.gm.		3600	IN	NS	ns3.schaap.net.
 kiraam.gm.		3600	IN	NS	ns69.domaincontrol.com.
 kiraam.gm.		3600	IN	NS	ns70.domaincontrol.com.
+kitchen.gm.		3600	IN	NS	ns1.us104.siteground.us.
+kitchen.gm.		3600	IN	NS	ns2.us104.siteground.us.
 kitchenaid.gm.		3600	IN	NS	s3e.whirlpool.com.
 kitchenaid.gm.		3600	IN	NS	ns1e.whirlpool.com.
 klm.gm.			3600	IN	NS	ns1.qth.nl.
@@ -1920,15 +1896,9 @@ leoplaysafe.gm.		3600	IN	NS	c.ns14.net.
 leos.gm.		3600	IN	NS	pns.innterdns.net.
 leos.gm.		3600	IN	NS	sns.innterdns.net.
 leos.gm.		3600	IN	NS	tns.innterdns.net.
-leosafeplay.gm.		3600	IN	NS	a.ns14.net.
-leosafeplay.gm.		3600	IN	NS	b.ns14.net.
-leosafeplay.gm.		3600	IN	NS	c.ns14.net.
 leosport.gm.		3600	IN	NS	a.ns14.net.
 leosport.gm.		3600	IN	NS	b.ns14.net.
 leosport.gm.		3600	IN	NS	c.ns14.net.
-leosportbet.gm.		3600	IN	NS	a.ns14.net.
-leosportbet.gm.		3600	IN	NS	b.ns14.net.
-leosportbet.gm.		3600	IN	NS	c.ns14.net.
 leovegaslotto.gm.	3600	IN	NS	a.ns14.net.
 leovegaslotto.gm.	3600	IN	NS	b.ns14.net.
 leovegaslotto.gm.	3600	IN	NS	c.ns14.net.
@@ -2312,8 +2282,6 @@ nema.gm.		3600	IN	NS	ns1.gamtel.gm.
 nema.gm.		3600	IN	NS	ns2.gamtel.gm.
 nemasu.gm.		3600	IN	NS	ns1.cyberspaceman.co.uk.
 nemasu.gm.		3600	IN	NS	ns2.cyberspaceman.co.uk.
-neptune.gm.		3600	IN	NS	ns1.netpagewireless.net.
-neptune.gm.		3600	IN	NS	ns2.netpagewireless.net.
 netflix.gm.		3600	IN	NS	ns-74.awsdns-09.com.
 netflix.gm.		3600	IN	NS	ns-569.awsdns-07.net.
 netflix.gm.		3600	IN	NS	ns-1077.awsdns-06.org.
@@ -2356,8 +2324,7 @@ nicdirect.gm.		3600	IN	NS	ns1.ns-serve.net.
 nicdirect.gm.		3600	IN	NS	ns2.ns-serve.net.
 nigeria-embassy.gm.	3600	IN	NS	ns1.ipage.com.
 nigeria-embassy.gm.	3600	IN	NS	ns2.ipage.com.
-nike.gm.		3600	IN	NS	nameserver-a.nike.com.
-nike.gm.		3600	IN	NS	nameserver-b.nike.com.
+nike.gm.		3600	IN	NS	ns3.nike.com.
 nikon.gm.		3600	IN	NS	ns1.ipmirror.com.
 nikon.gm.		3600	IN	NS	ns2.ipmirror.com.
 nikon.gm.		3600	IN	NS	ns3.ipmirror.com.
@@ -2492,9 +2459,6 @@ paradisefm.gm.		3600	IN	NS	ns1.vm148.sgvps.net.
 paradisefm.gm.		3600	IN	NS	ns2.vm148.sgvps.net.
 paradisesuites.gm.	3600	IN	NS	ns2.unique.gm.
 paradisesuites.gm.	3600	IN	NS	ns3.unique.gm.
-partybingo.gm.		3600	IN	NS	dns1.itsfogo.com.
-partybingo.gm.		3600	IN	NS	dns2.itsfogo.com.
-partybingo.gm.		3600	IN	NS	dns3.itsfogo.com.
 partycasino.gm.		3600	IN	NS	ns1.cyberispworld.com.
 partycasino.gm.		3600	IN	NS	ns2.cyberispworld.com.
 partypoker.gm.		3600	IN	NS	dns1.itsfogo.com.
@@ -2759,8 +2723,6 @@ saint-gobain.gm.	3600	IN	NS	obs.ns1.fr.
 saintgobain.gm.		3600	IN	NS	ns2.observatoiredesmarques.fr.
 saintgobain.gm.		3600	IN	NS	ns3.nameshield.net.
 saintgobain.gm.		3600	IN	NS	obs.ns1.fr.
-saints.gm.		3600	IN	NS	ns55.domaincontrol.com.
-saints.gm.		3600	IN	NS	ns56.domaincontrol.com.
 sajcf.gm.		3600	IN	NS	ns1.qanet.gm.
 sajcf.gm.		3600	IN	NS	ns2.qanet.gm.
 salambatik.gm.		3600	IN	NS	ns1.siteground194.com.
@@ -2784,8 +2746,6 @@ sanyangfestival.gm.	3600	IN	NS	ns1.gamtel.gm.
 sanyangfestival.gm.	3600	IN	NS	ns2.gamtel.gm.
 sap.gm.			3600	IN	NS	ns.sap-ag.de.
 sap.gm.			3600	IN	NS	ns2.sap-ag.de.
-sapphire.gm.		3600	IN	NS	ns1.uk24.siteground.eu.
-sapphire.gm.		3600	IN	NS	ns2.uk24.siteground.eu.
 sargeshotel.gm.		3600	IN	NS	ns2.unique.gm.
 sargeshotel.gm.		3600	IN	NS	ns3.unique.gm.
 sarrconstructiongroup.gm. 3600	IN	NS	ns45.domaincontrol.com.
@@ -3088,6 +3048,10 @@ supersonicz.gm.		3600	IN	NS	ns1.ipage.com.
 supersonicz.gm.		3600	IN	NS	ns2.ipage.com.
 suqs.gm.		3600	IN	NS	ns1.gamtel.gm.
 suqs.gm.		3600	IN	NS	ns2.gamtel.gm.
+survival.gm.		3600	IN	NS	ns1.supercp.com.
+survival.gm.		3600	IN	NS	ns2.supercp.com.
+survival.gm.		3600	IN	NS	ns3.supercp.com.
+survival.gm.		3600	IN	NS	ns4.supercp.com.
 swe-gam.gm.		3600	IN	NS	ns1.qth.nl.
 swe-gam.gm.		3600	IN	NS	ns2.qth.nl.
 swe-gam.gm.		3600	IN	NS	ns3.schaap.net.
@@ -3097,18 +3061,9 @@ syngenta.gm.		3600	IN	NS	dns1.cscdns.net.
 syngenta.gm.		3600	IN	NS	dns2.cscdns.net.
 szrecc.gm.		3600	IN	NS	ns1.mediatemple.net.
 szrecc.gm.		3600	IN	NS	ns2.mediatemple.net.
-t-com.gm.		3600	IN	NS	ns1.lovellsnames.org.
-t-com.gm.		3600	IN	NS	ns3.lovellsnames.org.
-t-com.gm.		3600	IN	NS	ns4.lovellsnames.org.
-t-mobile.gm.		3600	IN	NS	ns1.lovellsnames.org.
-t-mobile.gm.		3600	IN	NS	ns3.lovellsnames.org.
-t-mobile.gm.		3600	IN	NS	ns4.lovellsnames.org.
 t-online.gm.		3600	IN	NS	pns.dtag.de.
 t-online.gm.		3600	IN	NS	support.mesch.dtag.de.
 t-online.gm.		3600	IN	NS	secondary006.dtag.net.
-t-systems.gm.		3600	IN	NS	ns1.lovellsnames.org.
-t-systems.gm.		3600	IN	NS	ns3.lovellsnames.org.
-t-systems.gm.		3600	IN	NS	ns4.lovellsnames.org.
 tajmangroup.gm.		3600	IN	NS	ns1.ipage.com.
 tajmangroup.gm.		3600	IN	NS	ns2.ipage.com.
 takaful.gm.		3600	IN	NS	ns1.gamtel.gm.
@@ -3139,15 +3094,17 @@ teamtahawalbanjul.gm.	3600	IN	NS	ns1.gamtel.gm.
 teamtahawalbanjul.gm.	3600	IN	NS	ns2.gamtel.gm.
 tech-solutions.gm.	3600	IN	NS	ns1.uk23.siteground.eu.
 tech-solutions.gm.	3600	IN	NS	ns2.uk23.siteground.eu.
+techbiz.gm.		3600	IN	NS	ns1.dnspark.net.
+techbiz.gm.		3600	IN	NS	ns2.dnspark.net.
+techbiz.gm.		3600	IN	NS	ns3.dnspark.net.
 technology.gm.		3600	IN	NS	ns1.m03.siteground.biz.
 technology.gm.		3600	IN	NS	ns2.m03.siteground.biz.
 techtonits.gm.		3600	IN	NS	ns1.gamtel.gm.
 techtonits.gm.		3600	IN	NS	ns2.gamtel.gm.
-telekom.gm.		3600	IN	NS	ns1.lovellsnames.org.
-telekom.gm.		3600	IN	NS	ns3.lovellsnames.org.
-telekom.gm.		3600	IN	NS	ns4.lovellsnames.org.
 tena.gm.		3600	IN	NS	melkor.sgn.sca.se.
 tena.gm.		3600	IN	NS	tilion.sgn.sca.se.
+tenders.gm.		3600	IN	NS	ns31.domaincontrol.com.
+tenders.gm.		3600	IN	NS	ns32.domaincontrol.com.
 texaco.gm.		3600	IN	NS	a4.nstld.com.
 texaco.gm.		3600	IN	NS	f4.nstld.com.
 texaco.gm.		3600	IN	NS	g4.nstld.com.
@@ -3192,7 +3149,8 @@ timeless.gm.		3600	IN	NS	ns1.uk14.siteground.eu.
 timeless.gm.		3600	IN	NS	ns2.uk24.siteground.eu.
 tinnin.gm.		3600	IN	NS	ns1.uk24.siteground.eu.
 tinnin.gm.		3600	IN	NS	ns2.uk24.siteground.eu.
-tinnin.gm.		3600	IN	NS	ns2.us105.siteground.us.
+tinninpaints.gm.	3600	IN	NS	ns1.uk24.siteground.eu.
+tinninpaints.gm.	3600	IN	NS	ns2.uk24.siteground.eu.
 tinytillia.gm.		3600	IN	NS	a4.nstld.com.
 tinytillia.gm.		3600	IN	NS	f4.nstld.com.
 tinytillia.gm.		3600	IN	NS	g4.nstld.com.
@@ -3205,9 +3163,6 @@ tkmgroup.gm.		3600	IN	NS	ns1.netpagenetworks.net.
 tkmgroup.gm.		3600	IN	NS	ns2.netpagenetworks.net.
 tlp.gm.			3600	IN	NS	ns0.ukfast.net.
 tlp.gm.			3600	IN	NS	ns1.ukfast.net.
-tmobile.gm.		3600	IN	NS	ns1.lovellsnames.org.
-tmobile.gm.		3600	IN	NS	ns3.lovellsnames.org.
-tmobile.gm.		3600	IN	NS	ns4.lovellsnames.org.
 today.gm.		3600	IN	NS	amit.ns.cloudflare.com.
 today.gm.		3600	IN	NS	lady.ns.cloudflare.com.
 tonline.gm.		3600	IN	NS	pns.dtag.de.
@@ -3249,9 +3204,6 @@ truthdental.gm.		3600	IN	NS	ns1.gamtel.gm.
 truthdental.gm.		3600	IN	NS	ns2.gamtel.gm.
 trw.gm.			3600	IN	NS	dns1.cscdns.net.
 trw.gm.			3600	IN	NS	dns2.cscdns.net.
-tsystems.gm.		3600	IN	NS	ns1.lovellsnames.org.
-tsystems.gm.		3600	IN	NS	ns3.lovellsnames.org.
-tsystems.gm.		3600	IN	NS	ns4.lovellsnames.org.
 ttag.gm.		3600	IN	NS	ns0.ukfast.net.
 ttag.gm.		3600	IN	NS	ns1.ukfast.net.
 tudor.gm.		3600	IN	NS	ns1.p09.dynect.net.
@@ -3273,8 +3225,6 @@ typo3.gm.		3600	IN	NS	ns2.ns-serve.net.
 ubimet.gm.		3600	IN	NS	ns1.markmonitor.com.
 ubimet.gm.		3600	IN	NS	ns2.markmonitor.com.
 ubimet.gm.		3600	IN	NS	ns3.markmonitor.com.
-udp.gm.			3600	IN	NS	ns55.domaincontrol.com.
-udp.gm.			3600	IN	NS	ns56.domaincontrol.com.
 un.gm.			3600	IN	NS	ns1.gamtel.gm.
 un.gm.			3600	IN	NS	ns2.gamtel.gm.
 underberg.gm.		3600	IN	NS	dns.voerde.globvill.de.
@@ -3549,7 +3499,6 @@ zanussi.gm.		3600	IN	NS	ns.electrolux.se.
 zanussi.gm.		3600	IN	NS	ns2.domainnetwork.se.
 zenithbank.gm.		3600	IN	NS	ns3.anyservers.com.
 zenithbank.gm.		3600	IN	NS	ns4.anyservers.com.
-zenithbank.gm.		3600	IN	NS	ns5.anyservers.com.
 zentiva.gm.		3600	IN	NS	pdns1.ultradns.net.
 zentiva.gm.		3600	IN	NS	pdns2.ultradns.net.
 zentiva.gm.		3600	IN	NS	pdns3.ultradns.org.
@@ -3564,18 +3513,4 @@ zuerich.gm.		3600	IN	NS	ns.zurich.com.
 zuerich.gm.		3600	IN	NS	ns4.zurich.com.
 zurich.gm.		3600	IN	NS	ns.zurich.com.
 zurich.gm.		3600	IN	NS	ns4.zurich.com.
-NS1.MEDIATEMPLE.net.	3600	IN	A	64.207.128.246
-NS2.MEDIATEMPLE.net.	3600	IN	A	70.32.65.137
-ns1.netpagewireless.net. 3600	IN	A	197.255.195.130
-ns2.netpagewireless.net. 3600	IN	A	197.255.195.2
-a.ns14.net.		3600	IN	A	62.116.131.31
-b.ns14.net.		3600	IN	A	83.169.55.5
-b.ns14.net.		3600	IN	A	217.160.113.32
-c.ns14.net.		3600	IN	A	195.34.161.195
-ns1.pointclick.net.	3600	IN	A	74.213.145.125
-ns2.pointclick.net.	3600	IN	A	50.59.102.60
-ns1.byethost26.org.	3600	IN	A	31.22.4.102
-ns2.byethost26.org.	3600	IN	A	31.22.4.103
-ns1.us104.siteground.us. 3600	IN	A	77.104.161.74
-ns2.us104.siteground.us. 3600	IN	A	77.104.157.230
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017120911 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017122176 3600 900 604800 3600

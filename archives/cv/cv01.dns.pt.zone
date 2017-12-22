@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2017121101 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2017122201 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -248,8 +248,8 @@ anuncios.cv.		28800	IN	NS	ns-es.1and1-dns.com.
 anuncios.cv.		28800	IN	NS	ns-es.1and1-dns.org.
 mail.anuncios.cv.	28800	IN	A	217.160.128.149
 ns.anuncios.cv.		28800	IN	A	217.160.128.149
-anv.cv.			86400	IN	NS	ns1.webs24h.com.
-anv.cv.			86400	IN	NS	ns2.webs24h.com.
+anv.cv.			28800	IN	NS	bob.ns.cloudflare.com.
+anv.cv.			28800	IN	NS	wally.ns.cloudflare.com.
 anvsv.cv.		28800	IN	NS	bob.ns.cloudflare.com.
 anvsv.cv.		28800	IN	NS	wally.ns.cloudflare.com.
 aoc.cv.			28800	IN	NS	ns1.dreamhost.COM.
@@ -2125,6 +2125,10 @@ iue.edu.cv.		28800	IN	NS	ns1.gov.cv.
 iue.edu.cv.		28800	IN	NS	ns2.gov.cv.
 lac.edu.cv.		28800	IN	NS	ns7.securenet-server.net.
 lac.edu.cv.		28800	IN	NS	ns8.securenet-server.net.
+liceuludgerolima.edu.cv. 28800	IN	NS	ns1.pro-x-web.com.
+liceuludgerolima.edu.cv. 28800	IN	NS	ns2.pro-x-web.com.
+liceuludgerolima.edu.cv. 28800	IN	NS	ns3.pro-x-web.com.
+liceuludgerolima.edu.cv. 28800	IN	NS	ns4.pro-x-web.com.
 meia.edu.cv.		28800	IN	NS	ns1.dnsherse.com.
 meia.edu.cv.		28800	IN	NS	ns2.dnsherse.com.
 ulusofona.edu.cv.	28800	IN	NS	ns2.ip.pt.
@@ -2702,8 +2706,8 @@ icap.cv.		28800	IN	NS	ns3.nameresolve.com.
 icap.cv.		28800	IN	NS	ns4.nameresolve.com.
 icase.cv.		28800	IN	NS	ns1.gov.cv.
 icase.cv.		28800	IN	NS	ns2.gov.cv.
-icieg.cv.		28800	IN	NS	ns1.gov.cv.
-icieg.cv.		28800	IN	NS	ns2.gov.cv.
+icieg.cv.		28800	IN	NS	ns1.dnscpanel.com.
+icieg.cv.		28800	IN	NS	ns2.dnscpanel.com.
 icti.cv.		28800	IN	NS	ns1.gov.cv.
 icti.cv.		28800	IN	NS	ns2.gov.cv.
 idd.cv.			28800	IN	NS	dns1.ibername.com.
@@ -4856,4 +4860,4 @@ zil.cv.			28800	IN	NS	ns2.dnstarvos.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2017121101 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2017122201 86400 7200 2592000 300

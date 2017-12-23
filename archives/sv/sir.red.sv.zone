@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @sir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017122202 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017122203 43200 3600 2592000 43200
 ns1.grupobgl.com.ar.	43200	IN	A	67.19.193.98
 ns2.grupobgl.com.ar.	43200	IN	A	67.19.193.99
 ns1.indisa.com.ar.	43200	IN	A	72.46.254.112
@@ -4305,6 +4305,8 @@ askalo.com.sv.		43200	IN	NS	ns1.lo-cality.net.
 askalo.com.sv.		43200	IN	NS	ns2.lo-cality.org.
 askalo.com.sv.		43200	IN	NS	ns3.lo-cality.com.
 askalo.com.sv.		43200	IN	NS	ns4.lo-cality.info.
+aso.com.sv.		43200	IN	NS	ns1.medsal03.com.
+aso.com.sv.		43200	IN	NS	ns2.medsal03.com.
 asrural.com.sv.		43200	IN	NS	ns3.navegante.com.sv.
 asrural.com.sv.		43200	IN	NS	ns4.navegante.com.sv.
 assanet.com.sv.		43200	IN	NS	ns1.tcarrier.net.
@@ -8255,9 +8257,8 @@ exitoempresarial.com.sv. 43200	IN	NS	ns1.jpchost.com.
 exitoempresarial.com.sv. 43200	IN	NS	ns2.jpchost.com.
 exmodica.com.sv.	43200	IN	NS	ns3.navegante.com.sv.
 exmodica.com.sv.	43200	IN	NS	ns4.navegante.com.sv.
-expecove.com.sv.	43200	IN	NS	ns.telefonica-ca.net.
-expecove.com.sv.	43200	IN	NS	nssv.telefonica-ca.net.
-expecove.com.sv.	43200	IN	NS	nssv1.telefonica-ca.net.
+expecove.com.sv.	43200	IN	NS	srvdc-slv.crossinteramerica.com.
+expecove.com.sv.	43200	IN	NS	srvdc2-slv.crossinteramerica.com.
 expedia.com.sv.		43200	IN	NS	pdns1.ultradns.net.
 expedia.com.sv.		43200	IN	NS	pdns2.ultradns.net.
 expedia.com.sv.		43200	IN	NS	pdns3.ultradns.org.
@@ -13757,8 +13758,8 @@ prestamofeliz.com.sv.	43200	IN	NS	ns01.trademarkarea.com.
 prestamofeliz.com.sv.	43200	IN	NS	ns02.trademarkarea.com.
 prestamofeliz.com.sv.	43200	IN	NS	ns03.trademarkarea.com.
 prestauto.com.sv.	43200	IN	NS	gidem.net.
-presto.com.sv.		43200	IN	NS	nssv.telefonica-ca.net.
-presto.com.sv.		43200	IN	NS	nssv1.telefonica-ca.net.
+presto.com.sv.		43200	IN	NS	srvdc-slv.crossinteramerica.com.
+presto.com.sv.		43200	IN	NS	srvdc2-slv.crossinteramerica.com.
 prestomar.com.sv.	43200	IN	NS	pdns07.domaincontrol.com.
 prestomar.com.sv.	43200	IN	NS	pdns08.domaincontrol.com.
 pretec.com.sv.		43200	IN	NS	ns143.websitewelcome.com.
@@ -13946,8 +13947,8 @@ prosecura.com.sv.	43200	IN	NS	ns2.no-ip.com.
 prosecura.com.sv.	43200	IN	NS	ns3.no-ip.com.
 prosecura.com.sv.	43200	IN	NS	ns4.no-ip.com.
 prosecura.com.sv.	43200	IN	NS	ns5.no-ip.com.
-proseguros.com.sv.	43200	IN	NS	ns1.bluehost.com.
-proseguros.com.sv.	43200	IN	NS	ns2.bluehost.com.
+proseguros.com.sv.	43200	IN	NS	ns1.ipage.com.
+proseguros.com.sv.	43200	IN	NS	ns2.ipage.com.
 proser.com.sv.		43200	IN	NS	ns153.ehosts.com.
 proser.com.sv.		43200	IN	NS	ns154.ehosts.com.
 prosercon.com.sv.	43200	IN	NS	vns1.nocdirect.com.
@@ -15533,6 +15534,8 @@ solucionesdigitales.com.sv. 43200 IN	NS	dns1.supremedns.com.
 solucionesdigitales.com.sv. 43200 IN	NS	dns2.supremedns.com.
 solucionesdigitales.com.sv. 43200 IN	NS	dns3.supremedns.com.
 ns.solucionesgpl.com.sv. 43200	IN	A	168.243.234.106
+solutec.com.sv.		43200	IN	NS	ns1.jpchost.com.
+solutec.com.sv.		43200	IN	NS	ns2.jpchost.com.
 solutecno.com.sv.	43200	IN	NS	ns1.jpchost.com.
 solutecno.com.sv.	43200	IN	NS	ns2.jpchost.com.
 solutions.com.sv.	43200	IN	NS	ns6015.hostgator.com.
@@ -17904,8 +17907,10 @@ diz.sv.			43200	IN	NS	sens01.dig.com.
 dmedia.sv.		43200	IN	NS	ns1.softlayer.com.
 dmedia.sv.		43200	IN	NS	ns2.softlayer.com.
 dmp.sv.			43200	IN	NS	ns1.freehostia.com.
-dmte.sv.		43200	IN	NS	ns.inmotionhosting.com.
-dmte.sv.		43200	IN	NS	ns2.inmotionhosting.com.
+dmte.sv.		43200	IN	NS	ns1.name.com.
+dmte.sv.		43200	IN	NS	ns2.name.com.
+dmte.sv.		43200	IN	NS	ns3.name.com.
+dmte.sv.		43200	IN	NS	ns4.name.com.
 dollarama.sv.		43200	IN	NS	ns1.101domain.com.
 dollarama.sv.		43200	IN	NS	ns2.101domain.com.
 dollarama.sv.		43200	IN	NS	ns5.101domain.com.
@@ -19416,9 +19421,8 @@ correos.gob.sv.		43200	IN	NS	ns3.navegante.com.sv.
 correos.gob.sv.		43200	IN	NS	ns4.navegante.com.sv.
 correos.gob.sv.		43200	IN	NS	utilitarios.correos.gob.sv.
 utilitarios.correos.gob.sv. 43200 IN	A	190.86.209.83
-corsain.gob.sv.		43200	IN	NS	ns1.cablecolor.com.sv.
-corsain.gob.sv.		43200	IN	NS	ns2.cablecolor.com.sv.
-corsain.gob.sv.		43200	IN	NS	ns3.cablecolor.com.sv.
+corsain.gob.sv.		43200	IN	NS	ip-gt.190.57.120.11.telefonica-ca.net.
+corsain.gob.sv.		43200	IN	NS	ip-gt.190.57.121.11.telefonica-ca.net.
 corsatur.gob.sv.	43200	IN	NS	ns1.m74.siteground.biz.
 corsatur.gob.sv.	43200	IN	NS	ns2.m74.siteground.biz.
 cortedecuentas.gob.sv.	43200	IN	NS	ns1.intercom.com.sv.
@@ -22765,6 +22769,10 @@ solidar.sv.		43200	IN	NS	ns25.domaincontrol.com.
 solidar.sv.		43200	IN	NS	ns26.domaincontrol.com.
 solonoticias.sv.	43200	IN	NS	dns1.namecheaphosting.com.
 solonoticias.sv.	43200	IN	NS	dns2.namecheaphosting.com.
+solutec.sv.		43200	IN	NS	ns1.jpchost.com.
+solutec.sv.		43200	IN	NS	ns2.jpchost.com.
+solutecno.sv.		43200	IN	NS	ns1.jpchost.com.
+solutecno.sv.		43200	IN	NS	ns2.jpchost.com.
 somatuline.sv.		43200	IN	NS	ns-270.awsdns-33.com.
 somatuline.sv.		43200	IN	NS	ns-670.awsdns-19.net.
 somatuline.sv.		43200	IN	NS	ns-1409.awsdns-48.org.
@@ -23540,4 +23548,4 @@ ns2.internext.ws.	43200	IN	A	67.15.191.144
 ns1.rdcnet.ws.		43200	IN	A	208.109.204.30
 ns10.rdcnet.ws.		43200	IN	A	68.178.241.138
 ns2.rdcnet.ws.		43200	IN	A	208.109.204.33
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017122202 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2017122203 43200 3600 2592000 43200

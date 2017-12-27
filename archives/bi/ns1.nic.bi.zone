@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR bi. @ns1.nic.bi. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2017122714 21600 3600 604800 86400
-bi.			86400	IN	TXT	"Generation Time: 1514376614"
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2017122718 21600 3600 604800 86400
+bi.			86400	IN	TXT	"Generation Time: 1514391007"
 bi.			86400	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			86400	IN	NS	ns.nic.bi.
 bi.			86400	IN	NS	ns1.nic.bi.
@@ -177,6 +177,8 @@ abc.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 abc.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 abef.bi.		86400	IN	NS	ns1.afriregister.bi.
 abef.bi.		86400	IN	NS	ns2.afriregister.bi.
+abelo.bi.		86400	IN	NS	ns1.afriregister.bi.
+abelo.bi.		86400	IN	NS	ns2.afriregister.bi.
 abn.bi.			86400	IN	NS	ns1.afriregister.bi.
 abn.bi.			86400	IN	NS	ns2.afriregister.bi.
 abnamro.bi.		86400	IN	NS	a4.nstld.com.
@@ -2384,8 +2386,14 @@ ingrammicro.bi.		86400	IN	NS	dns1.emarkmonitor.com.
 ingrammicro.bi.		86400	IN	NS	dns2.emarkmonitor.com.
 inkino.bi.		86400	IN	NS	ns1.afriregister.bi.
 inkino.bi.		86400	IN	NS	ns2.afriregister.bi.
-inmo.bi.		86400	IN	NS	pdns1.ultradns.net.
-inmo.bi.		86400	IN	NS	pdns2.ultradns.net.
+inmo.bi.		86400	IN	NS	ns1.inmo.bi.
+inmo.bi.		86400	IN	NS	ns2.inmo.bi.
+inmo.bi.		86400	IN	NS	ns3.inmo.bi.
+inmo.bi.		86400	IN	NS	ns4.inmo.bi.
+ns1.inmo.bi.		86400	IN	A	198.51.44.8
+ns2.inmo.bi.		86400	IN	A	198.51.45.8
+ns3.inmo.bi.		86400	IN	A	198.51.44.72
+ns4.inmo.bi.		86400	IN	A	198.51.45.72
 insp.bi.		86400	IN	NS	ns1.dns-h.com.
 insp.bi.		86400	IN	NS	ns1.host-h.net.
 insp.bi.		86400	IN	NS	ns2.host-h.net.
@@ -5224,4 +5232,4 @@ zzp.bi.			86400	IN	NS	nameserver1.intellyhosting.nl.
 zzp.bi.			86400	IN	NS	nameserver2.intellyhosting.eu.
 zzp.bi.			86400	IN	NS	nameserver3.intellyhosting.be.
 zzp.bi.			86400	IN	NS	nameserver4.intellyhosting.com.
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2017122714 21600 3600 604800 86400
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2017122718 21600 3600 604800 86400

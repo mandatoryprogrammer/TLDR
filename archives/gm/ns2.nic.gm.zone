@@ -1,8 +1,13 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR gm. @ns2.nic.gm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017122243 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017122254 3600 900 604800 3600
 ns55.domaincontrol.com.	3600	IN	A	216.69.185.28
+ns1.dreamhost.com.	3600	IN	A	64.90.62.230
+ns2.dreamhost.com.	3600	IN	A	208.97.182.10
+ns3.dreamhost.com.	3600	IN	A	66.33.205.230
+NS83.hostgator.com.	3600	IN	A	50.87.144.90
+NS84.hostgator.com.	3600	IN	A	192.232.216.149
 gm.			3600	IN	NS	ns1.nic.gm.
 gm.			3600	IN	NS	ns2.nic.gm.
 gm.			3600	IN	NS	ns-gm.afrinic.net.
@@ -1063,8 +1068,9 @@ foresightaccountants.gm. 3600	IN	NS	ns1.ipower.com.
 foresightaccountants.gm. 3600	IN	NS	ns2.ipower.com.
 forewengam.gm.		3600	IN	NS	ns1.nextsite.com.
 forewengam.gm.		3600	IN	NS	ns3.nextsite.com.
-foroyaa.gm.		3600	IN	NS	ns1.cyon.ch.
-foroyaa.gm.		3600	IN	NS	ns2.cyon.ch.
+foroyaa.gm.		3600	IN	NS	ns1.dreamhost.com.
+foroyaa.gm.		3600	IN	NS	ns2.dreamhost.com.
+foroyaa.gm.		3600	IN	NS	ns3.dreamhost.com.
 forward.gm.		3600	IN	NS	ns1.vm148.sgvps.net.
 forward.gm.		3600	IN	NS	ns2.vm148.sgvps.net.
 fox.gm.			3600	IN	NS	ns01.foxinc.com.
@@ -2445,8 +2451,8 @@ overture.gm.		3600	IN	NS	ns1.overture.com.
 overture.gm.		3600	IN	NS	ns02.overture.com.
 owfd.gm.		3600	IN	NS	ns1.gamtel.gm.
 owfd.gm.		3600	IN	NS	ns2.gamtel.gm.
-oxfordbookshop.gm.	3600	IN	NS	ns.mainnameserver.com.
-oxfordbookshop.gm.	3600	IN	NS	ns2.mainnameserver.com.
+oxfordbookshop.gm.	3600	IN	NS	ns83.hostgator.com.
+oxfordbookshop.gm.	3600	IN	NS	ns84.hostgator.com.
 page.gm.		3600	IN	NS	ns1.qth.nl.
 page.gm.		3600	IN	NS	ns2.qth.nl.
 page.gm.		3600	IN	NS	ns3.schaap.net.
@@ -3523,4 +3529,4 @@ zuerich.gm.		3600	IN	NS	ns.zurich.com.
 zuerich.gm.		3600	IN	NS	ns4.zurich.com.
 zurich.gm.		3600	IN	NS	ns.zurich.com.
 zurich.gm.		3600	IN	NS	ns4.zurich.com.
-gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017122243 3600 900 604800 3600
+gm.			3600	IN	SOA	ns1.nic.gm. admin.nic.gm. 2017122254 3600 900 604800 3600

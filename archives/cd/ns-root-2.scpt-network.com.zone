@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cd. @ns-root-2.scpt-network.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152603 14400 3600 2419200 3600
+cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152604 14400 3600 2419200 3600
 cd.			86400	IN	TXT	"Generation Time: 1501576211"
 cd.			7200	IN	NS	.
 cd.			7200	IN	NS	igubu.saix.net.
@@ -283,8 +283,10 @@ cd.			7200	IN	NS	ns-root-5.scpt-network.com.
 7k7k.cd.		86400	IN	NS	arch.ns.cloudflare.com.
 7sur7.cd.		86400	IN	NS	ns1.7sur7.cd.
 7sur7.cd.		86400	IN	NS	ns2.7sur7.cd.
-ns1.7sur7.cd.		86400	IN	A	205.234.222.122
-ns2.7sur7.cd.		86400	IN	A	205.234.222.110
+7sur7.cd.		86400	IN	NS	ns3.7sur7.cd.
+ns1.7sur7.cd.		7200	IN	A	154.16.144.102
+ns2.7sur7.cd.		7200	IN	A	154.16.144.103
+ns3.7sur7.cd.		7200	IN	A	154.16.144.106
 8.cd.			86400	IN	NS	ns-430.awsdns-53.com.
 8.cd.			86400	IN	NS	ns-778.awsdns-33.net.
 8.cd.			86400	IN	NS	ns-1182.awsdns-19.org.
@@ -12912,4 +12914,4 @@ zuri.cd.		86400	IN	NS	ns4.francedns.com.
 zuri.cd.		86400	IN	NS	ns5.francedns.com.
 zurich.cd.		86400	IN	NS	dns1.cscdns.net.
 zurich.cd.		86400	IN	NS	dns2.cscdns.net.
-cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152603 14400 3600 2419200 3600
+cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152604 14400 3600 2419200 3600

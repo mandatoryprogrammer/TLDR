@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018010401 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018010801 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -1540,12 +1540,12 @@ qmpeople.com.cv.	28800	IN	NS	dns2.nettica.com.
 qmpeople.com.cv.	28800	IN	NS	dns3.nettica.com.
 qmpeople.com.cv.	28800	IN	NS	dns4.nettica.com.
 qmpeople.com.cv.	28800	IN	NS	dns5.nettica.com.
+ra-pessoaseorganizacoes.com.cv.	28800 IN NS	ns1000.mochahost.com.
+ra-pessoaseorganizacoes.com.cv.	28800 IN NS	ns2000.mochahost.com.
 ra-pessoaseorganizacoes.com.cv.	28800 IN A	130.185.80.200
 ra-pessoaseorganizacoes.com.cv.	28800 IN A	130.185.80.201
 ra-pessoaseorganizacoes.com.cv.	28800 IN A	130.185.80.210
 ra-pessoaseorganizacoes.com.cv.	28800 IN A	130.185.80.211
-ra-pessoaseorganizacoes.com.cv.	28800 IN NS	ns1000.mochahost.com.
-ra-pessoaseorganizacoes.com.cv.	28800 IN NS	ns2000.mochahost.com.
 radiomfm.com.cv.	28800	IN	NS	ns1.mydnspt.net.
 radiomfm.com.cv.	28800	IN	NS	ns2.mydnspt.net.
 real-estate.com.cv.	28800	IN	NS	ns1.myhostdns.com.
@@ -2646,6 +2646,8 @@ hostkriolo.cv.		28800	IN	NS	ns1.limoncv.com.
 hostkriolo.cv.		28800	IN	NS	ns2.limoncv.com.
 hotel.cv.		28800	IN	NS	xvm50648.vps.cloud.tagadab.com.
 mail.hotel.cv.		28800	IN	A	95.172.8.58
+hoteldaluz.cv.		28800	IN	NS	ns3.bravehost.com.
+hoteldaluz.cv.		28800	IN	NS	ns4.bravehost.com.
 hoteleduhorizonte.cv.	28800	IN	NS	dns1.prime.cv.
 hoteleduhorizonte.cv.	28800	IN	NS	dns2.prime.cv.
 hotelgaudi.cv.		28800	IN	NS	dns1.prime.cv.
@@ -3156,6 +3158,8 @@ mainservice.cv.		28800	IN	NS	ns1.mydnspt.net.
 mainservice.cv.		28800	IN	NS	ns2.mydnspt.net.
 mainservice.cv.		28800	IN	NS	ns7.mydnspt.net.
 mainservice.cv.		28800	IN	NS	ns8.mydnspt.net.
+maj.cv.			28800	IN	NS	b186ns1.hocnet.pt.
+maj.cv.			28800	IN	NS	b186ns2.hocnet.pt.
 mantadivingcenter.cv.	86400	IN	NS	dns1.rede1024.com.
 mantadivingcenter.cv.	86400	IN	NS	dns2.rede1024.com.
 mantadivingcenter.cv.	86400	IN	NS	dns3.rede1024.com.
@@ -3847,12 +3851,12 @@ predio.cv.		28800	IN	A	185.11.165.252
 predio.cv.		28800	IN	NS	ns1.dreamhost.com.
 predio.cv.		28800	IN	NS	ns2.dreamhost.com.
 predio.cv.		28800	IN	NS	ns3.dreamhost.com.
-presidencia.cv.		28800	IN	A	41.221.194.233
-presidencia.cv.		28800	IN	A	41.221.194.234
 presidencia.cv.		28800	IN	NS	dns1.rede1024.com.
 presidencia.cv.		28800	IN	NS	dns2.rede1024.com.
 presidencia.cv.		28800	IN	NS	dns3.rede1024.com.
 presidencia.cv.		28800	IN	NS	dns4.rede1024.com.
+presidencia.cv.		28800	IN	A	41.221.194.233
+presidencia.cv.		28800	IN	A	41.221.194.234
 presidenciais2011.cv.	28800	IN	NS	ns1.gov.cv.
 presidenciais2011.cv.	28800	IN	NS	ns2.gov.cv.
 primacis.cv.		28800	IN	NS	ns1.mydnspt.net.
@@ -4106,10 +4110,10 @@ robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-kapverden.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1000::7
-robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kap-verden.cv.	28800	IN	NS	ns01.brandshelter.com.
 robinson-kap-verden.cv.	28800	IN	NS	ns02.brandshelter.net.
+robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1000::7
+robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kapverden.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-kapverden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kapverden.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -4752,14 +4756,14 @@ varanda.cv.		28800	IN	NS	ns1.weblx-0.net.
 varanda.cv.		28800	IN	NS	ns2.weblx-0.net.
 vascaboverde.cv.	28800	IN	NS	ns1.rigorcg.pt.
 vascaboverde.cv.	28800	IN	NS	ns2.rigorcg.pt.
+vasconcelos.cv.		28800	IN	NS	ns11.wv.pt.
+vasconcelos.cv.		28800	IN	NS	ns12.wv.pt.
 vasconcelos.cv.		28800	IN	A	94.46.14.249
 vasconcelos.cv.		28800	IN	A	94.46.14.250
 vasconcelos.cv.		28800	IN	A	130.185.80.200
 vasconcelos.cv.		28800	IN	A	130.185.80.201
 vasconcelos.cv.		28800	IN	A	130.185.80.210
 vasconcelos.cv.		28800	IN	A	130.185.80.211
-vasconcelos.cv.		28800	IN	NS	ns11.wv.pt.
-vasconcelos.cv.		28800	IN	NS	ns12.wv.pt.
 veigacar.cv.		28800	IN	NS	ns1.mydnspt.net.
 veigacar.cv.		28800	IN	NS	ns2.mydnspt.net.
 veigacar.cv.		28800	IN	NS	ns7.mydnspt.net.
@@ -4818,10 +4822,10 @@ vivominimercado.cv.	28800	IN	NS	ns2.bh-74.webhostbox.net.
 vmconsultoria.cv.	28800	IN	NS	ns1.dreamhost.com.
 vmconsultoria.cv.	28800	IN	NS	ns2.dreamhost.com.
 vmconsultoria.cv.	28800	IN	NS	ns3.dreamhost.com.
-voxsys.cv.		28800	IN	NS	ns1.voxsys.com.pt.
-voxsys.cv.		28800	IN	NS	ns2.voxsys.com.pt.
 voxsys.cv.		28800	IN	A	185.11.165.251
 voxsys.cv.		28800	IN	A	185.11.165.252
+voxsys.cv.		28800	IN	NS	ns1.voxsys.com.pt.
+voxsys.cv.		28800	IN	NS	ns2.voxsys.com.pt.
 voz.cv.			28800	IN	NS	dns1.rede1024.com.
 voz.cv.			28800	IN	NS	dns2.rede1024.com.
 voz.cv.			28800	IN	NS	dns3.rede1024.com.
@@ -4872,4 +4876,4 @@ zil.cv.			28800	IN	NS	ns2.dnstarvos.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018010401 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018010801 86400 7200 2592000 300

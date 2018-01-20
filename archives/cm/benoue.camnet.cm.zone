@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018011923 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018012006 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1516399214"
+cm.			86400	IN	TXT	"Generation Time: 1516424423"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -5415,8 +5415,12 @@ ns02.3ub.cm.		86400	IN	A	219.94.232.205
 4000.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 400000.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 400000.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+4003.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+4003.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 40044.cm.		86400	IN	NS	ns1.dns.com.
 40044.cm.		86400	IN	NS	ns2.dns.com.
+4005.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+4005.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 4008.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 4008.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 400888.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -23595,8 +23599,8 @@ cne-minresi.cm.		86400	IN	NS	kim.camnet.cm.
 cne-minresi.cm.		86400	IN	NS	mbam.camnet.cm.
 cneminresi.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
 cneminresi.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
-cnet.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-cnet.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+cnet.cm.		86400	IN	NS	ns1.bodis.com.
+cnet.cm.		86400	IN	NS	ns2.bodis.com.
 cng.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 cng.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 cni.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -37209,8 +37213,6 @@ jecherche.cm.		86400	IN	NS	dns200.anycast.me.
 jecontacte.cm.		86400	IN	NS	ns1.101domain.com.
 jecontacte.cm.		86400	IN	NS	ns2.101domain.com.
 jecontacte.cm.		86400	IN	NS	ns5.101domain.com.
-jed.cm.			86400	IN	NS	ns1.alidns.com.
-jed.cm.			86400	IN	NS	ns2.alidns.com.
 jeep.cm.		86400	IN	NS	ns1.ndns.cn.
 jeep.cm.		86400	IN	NS	ns2.ndns.cn.
 jeff.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -40694,8 +40696,8 @@ lonelyplanettelevision.cm. 86400 IN	NS	dns1.stabletransit.com.
 lonelyplanettelevision.cm. 86400 IN	NS	dns2.stabletransit.com.
 long.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 long.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-longbang.cm.		86400	IN	NS	ns5.myhostadmin.net.
-longbang.cm.		86400	IN	NS	ns6.myhostadmin.net.
+longbang.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+longbang.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 longfa.cm.		86400	IN	NS	ns1.dnsv1.com.
 longfa.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 longfa.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
@@ -41406,8 +41408,6 @@ manulife.cm.		86400	IN	NS	ns1.bodis.com.
 manulife.cm.		86400	IN	NS	ns2.bodis.com.
 mao.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 mao.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
-maojin.cm.		86400	IN	NS	ns5.myhostadmin.net.
-maojin.cm.		86400	IN	NS	ns6.myhostadmin.net.
 maomiav.cm.		86400	IN	NS	ns1.lpdns.com.
 maomiav.cm.		86400	IN	NS	ns2.lpdns.com.
 maoming.cm.		86400	IN	NS	ns3.myhostadmin.net.
@@ -60768,8 +60768,6 @@ zhonglecai.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zhonglecai.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zhongshan.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 zhongshan.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
-zhongtong.cm.		86400	IN	NS	ns1.myhostadmin.net.
-zhongtong.cm.		86400	IN	NS	ns2.myhostadmin.net.
 zhou.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 zhou.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
 zhouzhuanxiang.cm.	86400	IN	NS	ns11.xincache.com.
@@ -61192,4 +61190,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018011923 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018012006 28800 3600 604800 86400

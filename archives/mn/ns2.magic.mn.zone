@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mn. @ns2.magic.mn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008190672 10800 7200 604800 86400
-mn.			900	IN	RRSIG	SOA 7 1 900 20180220194010 20180130184010 29559 mn. KcJwm4Jxihk8crGGXWzEPt9us297raAKHW8y80m3+bonlQb0W7jMxXGn JQkTGL7desgt/1Qa6fFM6Mkz2YEko/OKEnFl6HF4N5ZKzzMUv6l2m2+0 jdyEwKyXIsV244qJRkoOIJPPOdp7XiNHyipKbHCyRRj14S7ywxi3nfEB ZGI=
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008190674 10800 7200 604800 86400
+mn.			900	IN	RRSIG	SOA 7 1 900 20180220203838 20180130193838 29559 mn. GsgOJcoXnZVwrp4mPqZ92B44jFNNLdC1uiHXC8ndQvRCS8PPIsp83OxZ phlCe/lJ8h1XNEK+HNGePyzVDp1QetLjQj4wfdT1b6ECSjwAw9nHe6Xf 5xn6KnIlMrjBOTuU/EuY2prmXzeKyVthMfxKgrX541uMe+0bgPjFemjc NVM=
 mn.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20180220143120 20180130133120 29559 mn. WhF9WH/tr04X1xslRrNiexlmEg7682j/bekdYlvaz9yfC+2gXDG3KTru ja5J24mTeQwD1W/3CO1MiFebr8jjqnnyqfl3AL87sj2AYieOKuHIMtTQ FW0qmp/jCYhKedTwk7ucsM9t2gueqx60OYVbWKm01ftc4og6TOeR0hXe lgo=
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180220143120 20180130133120 12721 mn. FACYqpzDCbWwQUYuQmbnbmYpeP5SlLvy+IG6q49JL7jhye03kI8mAmzM DBd/tm46p4e+8vrCFXhj63k2cWG6c2JUyKXP7Dk1duPf+szRyQQyMQYB blhJ2o9aFE9M+AtzJfX2gdTA19CuCgDl1Rz7wKVe3OTjwGD+xWDqYB6f L8YCY4skfDu99PXx3PewGhKB1oLa0zdGykiYbVs+PfpGQ7MmhJfJum0R /VK/jALj/xxUFZLi8P8fQaKXo1JOnMkY+tnws0SGV/rkG4vTlKIPvrct J2EwdJ4hil5nCq6QkKdY+yxgvItiR2kxxyx5BA3QTGzcYo1IoKkws7Ar zbBsgA==
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180220143120 20180130133120 29559 mn. iVg/GI6QRyqV4Icj02MJTMajgaXik0EBbW5dfrkW5C4o6UenWyvBusIF qYyczvoY42ChbDj+7REukiCrBwvW6Xp1nNJEz50cEdJ1fX6/n2Pp/1pU MvzPFpCfgLcBnJ2KXMt6+tTxX5C2Nl7bzvNPj2mEIgTwJ5lWonzYb3an fAg=
@@ -4586,6 +4586,8 @@ badoo.mn.		86400	IN	NS	gss1.monopost.com.
 badoo.mn.		86400	IN	NS	gss2.monopost.com.
 badrakh-energy.mn.	86400	IN	NS	dns1.areva.com.
 badrakh-energy.mn.	86400	IN	NS	dns2.areva.com.
+badrakhenergy.mn.	86400	IN	NS	dns2.areva.com.
+badrakhenergy.mn.	86400	IN	NS	dns1.areva.com.
 badral.mn.		86400	IN	NS	ns8203.hostgator.com.
 badral.mn.		86400	IN	NS	ns8204.hostgator.com.
 badral-capital.mn.	86400	IN	NS	ns1.dns.mn.
@@ -52085,14 +52087,20 @@ victoriasecret.mn.	86400	IN	NS	ns1.lbidts.com.
 victoriasecret.mn.	86400	IN	NS	ns2.lbidts.com.
 victoriasecrets.mn.	86400	IN	NS	ns1.lbidts.com.
 victoriasecrets.mn.	86400	IN	NS	ns2.lbidts.com.
-victoriassecret.mn.	86400	IN	NS	a4.nstld.com.
-victoriassecret.mn.	86400	IN	NS	f4.nstld.com.
-victoriassecret.mn.	86400	IN	NS	g4.nstld.com.
-victoriassecret.mn.	86400	IN	NS	l4.nstld.com.
-victoriassecrets.mn.	86400	IN	NS	a4.nstld.com.
-victoriassecrets.mn.	86400	IN	NS	f4.nstld.com.
-victoriassecrets.mn.	86400	IN	NS	g4.nstld.com.
-victoriassecrets.mn.	86400	IN	NS	l4.nstld.com.
+victoriassecret.mn.	86400	IN	NS	ns2.markmonitor.com.
+victoriassecret.mn.	86400	IN	NS	ns4.markmonitor.com.
+victoriassecret.mn.	86400	IN	NS	ns6.markmonitor.com.
+victoriassecret.mn.	86400	IN	NS	ns7.markmonitor.com.
+victoriassecret.mn.	86400	IN	NS	ns5.markmonitor.com.
+victoriassecret.mn.	86400	IN	NS	ns3.markmonitor.com.
+victoriassecret.mn.	86400	IN	NS	ns1.markmonitor.com.
+victoriassecrets.mn.	86400	IN	NS	ns2.markmonitor.com.
+victoriassecrets.mn.	86400	IN	NS	ns4.markmonitor.com.
+victoriassecrets.mn.	86400	IN	NS	ns6.markmonitor.com.
+victoriassecrets.mn.	86400	IN	NS	ns7.markmonitor.com.
+victoriassecrets.mn.	86400	IN	NS	ns5.markmonitor.com.
+victoriassecrets.mn.	86400	IN	NS	ns3.markmonitor.com.
+victoriassecrets.mn.	86400	IN	NS	ns1.markmonitor.com.
 victoriatown.mn.	86400	IN	NS	ns3.vdc.mn.
 victoriatown.mn.	86400	IN	NS	ns4.vdc.mn.
 victorysports.mn.	86400	IN	NS	es1.itools.mn.
@@ -55283,7 +55291,7 @@ zzz.mn.			86400	IN	NS	04.dnsv.jp.
 1hqugrdaat3icbparouqr4t9ca39onc2.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1K00IAMANUCVVEJGLE0Q6UBSBS8H69KS A RRSIG
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180220143120 20180130133120 29559 mn. J+Gg/9Sh6IhnEQ2Yqf/j20FzougGew+thoms3A581BrECOR82YLqVRee o1lXYhgg02Nj3e8FpMD5OwXrEnLe0qhcw34ilt8rTpTLP3oeznuiJbZj dnk/ZSSfZ5924AV6neMxo2cINrENEZYcWSJ8pGu0lgQu3mOuEFbMFl14 SPQ=
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1KED78CPGM4B6DRULKHF34DJCMHADU50 A RRSIG
-1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180220194010 20180130184010 29559 mn. KXXBlatIyghdREl8mh+jPOo5gAzsShbKR4bp1uHm5+kGlHkGdfcXqIzj grCC091ljxkOmVIrpgjKWUvFkyLreENqlSVkv6Zl2H75SvJ13K4EZwa5 7W0C2DLzUdM65nYDxBZgHoB/LPUISKaq8cZzTRXVS4aETSHKtnT1x5Wh vII=
+1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180220203838 20180130193838 29559 mn. ZFRdU0wqMVJO0Auj+F2rsBGNs7FfiU1s22PbZs8lx6QbGFHOXUNujpR6 rx0lqn74JeDtD5EhWowjfG8nkpfBbTKlk4gmB1qHpausqj85C2tkAOXo PdhM5mvdNtEoEacI6APw9c0WJwjHI/4HRL2JbXCseyZlwUChlvJUyow+ 8SY=
 1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2L6TNI94TUBPIP4GOJQ0EU7SDAECIFLU NS SOA RRSIG DNSKEY NSEC3PARAM
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180220143120 20180130133120 29559 mn. Xi86hB3fWYR7vElU24MTV6BBCFz6IncuTej5Gkxc6g0Z/Ai1REQuqhJx ezyi+vUCPALCRtERVjC8M0JQx27eLPZ7ZtLkOym5MWHmeCaWtA3FHtcZ HGkxlAcCKzyt5Njn0KUVzskNJNzTbBPpp0EHwTKFcfam1HadlR5cMpi+ 09Y=
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2M56JMVKP6GUKCHIQOO900RSBBD2Q971 A RRSIG
@@ -55479,4 +55487,4 @@ v6225e8t5e0vefevkfb5k7r1mkl9q9o2.mn. 86400 IN RRSIG NSEC3 7 2 86400 201802201431
 v6225e8t5e0vefevkfb5k7r1mkl9q9o2.mn. 86400 IN NSEC3 1 1 1 D399EAAB VDJ4CJMEERK0B91BBLDR18SOMBJTO8BP A RRSIG
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180220143120 20180130133120 29559 mn. DwZXJfzQNLGbbVTD+trMvLzy2cMKVXZJuuQOdoCn6AaCzChQ/e1kH39o WOcAL7hG8BKt3xS5s/4650N7s3H3jhYDadGPnHv96SaE2eo3d/U+0Enj 9RdgNOazzngjoXQHM55EUneGwkiOBBWcDn24Kq8EoLeda9lSlyFy8qLo 1Po=
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN NSEC3 1 1 1 D399EAAB 00SFSBQQI54OBHFACAR8UTOV13UQ8OBN A RRSIG
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008190672 10800 7200 604800 86400
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008190674 10800 7200 604800 86400

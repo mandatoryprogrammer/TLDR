@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018021308 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018021316 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1518505218"
+cm.			86400	IN	TXT	"Generation Time: 1518534019"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -1785,6 +1785,8 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 138jt.cm.		86400	IN	NS	ns5.dnsdun.net.
 138sb.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 138sb.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+138t.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+138t.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 139.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 139.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 1390x.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -25898,8 +25900,8 @@ depuy.cm.		86400	IN	NS	ns5.jnj.com.
 depuymitek.cm.		86400	IN	NS	ns1.jnj.com.
 depuymitek.cm.		86400	IN	NS	ns3.jnj.com.
 depuymitek.cm.		86400	IN	NS	ns5.jnj.com.
-deri.cm.		86400	IN	NS	2nd.dnsv.jp.
-deri.cm.		86400	IN	NS	dns.jp-navi.info.
+deri.cm.		86400	IN	NS	ns1.dns.ne.jp.
+deri.cm.		86400	IN	NS	ns2.dns.ne.jp.
 dermabond.cm.		86400	IN	NS	ns1.jnj.com.
 dermabond.cm.		86400	IN	NS	ns3.jnj.com.
 dermabond.cm.		86400	IN	NS	ns5.jnj.com.
@@ -31931,9 +31933,10 @@ hawaiianairlines.cm.	86400	IN	NS	ns2.dnspanel.com.
 hawesandcurtis.cm.	86400	IN	NS	ns1.instradns.com.
 hawesandcurtis.cm.	86400	IN	NS	ns2.instradns.com.
 hawesandcurtis.cm.	86400	IN	NS	ns3.instradns.com.
-hawk.cm.		86400	IN	NS	ns1.101domain.com.
-hawk.cm.		86400	IN	NS	ns2.101domain.com.
-hawk.cm.		86400	IN	NS	ns5.101domain.com.
+hawk.cm.		86400	IN	NS	ns1-04.azure-dns.com.
+hawk.cm.		86400	IN	NS	ns2-04.azure-dns.net.
+hawk.cm.		86400	IN	NS	ns3-04.azure-dns.org.
+hawk.cm.		86400	IN	NS	ns4-04.azure-dns.info.
 hay.cm.			86400	IN	NS	ns3.myhostadmin.net.
 hay.cm.			86400	IN	NS	ns4.myhostadmin.net.
 hayat.cm.		86400	IN	NS	ns1.myhostadmin.net.
@@ -36378,10 +36381,8 @@ insure.cm.		86400	IN	NS	ns1.bodis.com.
 insure.cm.		86400	IN	NS	ns2.bodis.com.
 insures.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 insures.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-int.cm.			86400	IN	NS	lv3ns1.ffdns.net.
-int.cm.			86400	IN	NS	lv3ns2.ffdns.net.
-int.cm.			86400	IN	NS	lv3ns3.ffdns.net.
-int.cm.			86400	IN	NS	lv3ns4.ffdns.net.
+int.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
+int.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 integc.cm.		86400	IN	NS	ns1.francedns.com.
 integc.cm.		86400	IN	NS	ns2.francedns.com.
 integc.cm.		86400	IN	NS	ns3.francedns.com.
@@ -38020,8 +38021,8 @@ jpmorgansoyoucant.cm.	86400	IN	NS	ns1.jpmorganchase.com.
 jpmorgansoyoucant.cm.	86400	IN	NS	ns2.jpmorganchase.com.
 jpmorgansoyoucant.cm.	86400	IN	NS	ns05.jpmorganchase.com.
 jpmorgansoyoucant.cm.	86400	IN	NS	ns06.jpmorganchase.com.
-jpn.cm.			86400	IN	NS	2nd.dnsv.jp.
-jpn.cm.			86400	IN	NS	dns.jp-navi.info.
+jpn.cm.			86400	IN	NS	ns1.dns.ne.jp.
+jpn.cm.			86400	IN	NS	ns2.dns.ne.jp.
 jpost.cm.		86400	IN	NS	ns1.above.com.
 jpost.cm.		86400	IN	NS	ns2.above.com.
 jpr.cm.			86400	IN	NS	nsgbr.comlaude.co.uk.
@@ -38034,8 +38035,8 @@ jprnorganconnect.cm.	86400	IN	NS	ns06.jpmorganchase.com.
 jprupert.cm.		86400	IN	NS	nsgbr.comlaude.co.uk.
 jprupert.cm.		86400	IN	NS	nssui.comlaude.ch.
 jprupert.cm.		86400	IN	NS	nsusa.comlaude.net.
-jps.cm.			86400	IN	NS	2nd.dnsv.jp.
-jps.cm.			86400	IN	NS	dns.jp-navi.info.
+jps.cm.			86400	IN	NS	ns1.dns.ne.jp.
+jps.cm.			86400	IN	NS	ns2.dns.ne.jp.
 jq.cm.			86400	IN	NS	ns1.dns.com.
 jq.cm.			86400	IN	NS	ns2.dns.com.
 jqueryui.cm.		86400	IN	NS	ns1.above.com.
@@ -39743,8 +39744,6 @@ lamote.cm.		86400	IN	NS	ns2.rrpproxy.net.
 lamote.cm.		86400	IN	NS	ns3.rrpproxy.net.
 lampa.cm.		86400	IN	NS	ns1.google.com.
 lampa.cm.		86400	IN	NS	ns2.google.com.
-lampeduza.cm.		86400	IN	NS	ns1.dzdns.net.
-lampeduza.cm.		86400	IN	NS	ns2.dzdns.net.
 lampsplus.cm.		86400	IN	NS	dns1.cscdns.net.
 lampsplus.cm.		86400	IN	NS	dns2.cscdns.net.
 lampsplusopenbox.cm.	86400	IN	NS	dns1.cscdns.net.
@@ -57478,6 +57477,8 @@ wanyuri.cm.		86400	IN	NS	ns2.francedns.com.
 wanyuri.cm.		86400	IN	NS	cloudf02.francedns.com.
 wao.cm.			86400	IN	NS	ns3.myhostadmin.net.
 wao.cm.			86400	IN	NS	ns4.myhostadmin.net.
+waouhshop.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
+waouhshop.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 wap.cm.			86400	IN	NS	dns1.stabletransit.com.
 wap.cm.			86400	IN	NS	dns2.stabletransit.com.
 waptrick.cm.		86400	IN	NS	ns3.above.com.
@@ -61428,4 +61429,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.myhostadmin.net.
 zzzzz.cm.		86400	IN	NS	ns2.myhostadmin.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018021308 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018021316 28800 3600 604800 86400

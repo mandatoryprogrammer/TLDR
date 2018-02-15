@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018021201 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018021501 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -758,11 +758,8 @@ casanovainteriores.cv.	28800	IN	NS	ns2.salweb.net.
 casasdodireito.cv.	28800	IN	NS	ns1.nosiwebhosting.com.
 casasdodireito.cv.	28800	IN	NS	ns2.nosiwebhosting.com.
 casasdodireito.cv.	28800	IN	NS	ns3.nosiwebhosting.com.
-casasdosol.cv.		28800	IN	NS	ns.casasdosol.cv.
-casasdosol.cv.		28800	IN	NS	ns1.capeverdehosting.com.
-casasdosol.cv.		28800	IN	NS	ns2.capeverdehosting.com.
-mail.casasdosol.cv.	28800	IN	A	184.168.119.98
-ns.casasdosol.cv.	28800	IN	A	184.168.119.98
+casasdosol.cv.		28800	IN	NS	dns1.prime.cv.
+casasdosol.cv.		28800	IN	NS	dns2.prime.cv.
 casastrela.cv.		28800	IN	NS	dns1.prime.cv.
 casastrela.cv.		28800	IN	NS	dns2.prime.cv.
 casaviva.cv.		28800	IN	NS	sdns2.ovh.net.
@@ -2248,12 +2245,12 @@ enercom.cv.		28800	IN	NS	ns2.s805.sureserver.com.
 mail.enercom.cv.	28800	IN	A	195.8.222.42
 energiasrenovaveis.cv.	28800	IN	NS	ns1.ams9.siteground.eu.
 energiasrenovaveis.cv.	28800	IN	NS	ns2.ams9.siteground.eu.
-enf24.cv.		28800	IN	AAAA	2604:180:1::a954:8c1c
-enf24.cv.		28800	IN	AAAA	2a00:d880:3:2::613b:927c
-enf24.cv.		28800	IN	A	81.4.110.94
 enf24.cv.		28800	IN	NS	ns1.cloudnserver.com.
 enf24.cv.		28800	IN	NS	ns2.cloudnserver.com.
 enf24.cv.		28800	IN	NS	ns3.cloudnserver.com.
+enf24.cv.		28800	IN	AAAA	2604:180:1::a954:8c1c
+enf24.cv.		28800	IN	AAAA	2a00:d880:3:2::613b:927c
+enf24.cv.		28800	IN	A	81.4.110.94
 engeobra.cv.		28800	IN	NS	dns1859.dizinc.com.
 engeobra.cv.		28800	IN	NS	dns1860.dizinc.com.
 engitec.cv.		28800	IN	NS	dns1.rede1024.com.
@@ -2366,8 +2363,8 @@ fcs.cv.			28800	IN	NS	ns1.webs24h.com.
 fcs.cv.			28800	IN	NS	ns2.webs24h.com.
 fctenis.cv.		28800	IN	NS	ns.viaoceanica.net.
 fctenis.cv.		28800	IN	NS	ns2.viaoceanica.net.
-fdp.cv.			86400	IN	NS	ns1.webs24h.com.
-fdp.cv.			86400	IN	NS	ns2.webs24h.com.
+fdp.cv.			28800	IN	NS	ns1.webs24h.com.
+fdp.cv.			28800	IN	NS	ns2.webs24h.com.
 fecad.cv.		28800	IN	NS	ns25.worldnic.com.
 fecad.cv.		28800	IN	NS	ns26.worldnic.com.
 ferrogaita.cv.		28800	IN	NS	ns1.alojamentos14.com.
@@ -2662,14 +2659,14 @@ hoal.cv.		28800	IN	NS	ns5.he.net.
 hoovers.cv.		28800	IN	NS	dns1.idp365.net.
 hoovers.cv.		28800	IN	NS	dns2.idp365.net.
 hoovers.cv.		28800	IN	NS	dns3.idp365.net.
-hospitalbaptistadesousa.cv. 28800 IN	NS	ns1.mydnspt.net.
-hospitalbaptistadesousa.cv. 28800 IN	NS	ns2.mydnspt.net.
-hospitalbaptistadesousa.cv. 28800 IN	NS	ns15.hocnet.pt.
-hospitalbaptistadesousa.cv. 28800 IN	NS	ns16.hocnet.pt.
 hospitalbaptistadesousa.cv. 28800 IN	A	130.185.80.200
 hospitalbaptistadesousa.cv. 28800 IN	A	130.185.80.201
 hospitalbaptistadesousa.cv. 28800 IN	A	130.185.80.210
 hospitalbaptistadesousa.cv. 28800 IN	A	130.185.80.211
+hospitalbaptistadesousa.cv. 28800 IN	NS	ns1.mydnspt.net.
+hospitalbaptistadesousa.cv. 28800 IN	NS	ns2.mydnspt.net.
+hospitalbaptistadesousa.cv. 28800 IN	NS	ns15.hocnet.pt.
+hospitalbaptistadesousa.cv. 28800 IN	NS	ns16.hocnet.pt.
 hostels.cv.		28800	IN	NS	ns1.ptservidor.net.
 hostels.cv.		28800	IN	NS	ns2.ptservidor.net.
 hostels.cv.		28800	IN	NS	ns3.ptservidor.net.
@@ -3059,12 +3056,12 @@ kebracabana.cv.		28800	IN	NS	ns103.ovh.net.
 kebracabana.cv.		28800	IN	NS	dns103.ovh.net.
 keybusiness.cv.		28800	IN	NS	ns7.securenet-server.net.
 keybusiness.cv.		28800	IN	NS	ns8.securenet-server.net.
-khymnegoce.cv.		28800	IN	AAAA	2604:9a00:2100:a001:2::1
-khymnegoce.cv.		28800	IN	A	85.159.233.17
 khymnegoce.cv.		28800	IN	NS	ns1.cloudns.net.
 khymnegoce.cv.		28800	IN	NS	ns2.cloudns.net.
 khymnegoce.cv.		28800	IN	NS	ns3.cloudns.net.
 khymnegoce.cv.		28800	IN	NS	ns4.cloudns.net.
+khymnegoce.cv.		28800	IN	AAAA	2604:9a00:2100:a001:2::1
+khymnegoce.cv.		28800	IN	A	85.159.233.17
 kibo.cv.		28800	IN	NS	sdns2.ovh.net.
 kibo.cv.		28800	IN	NS	vps223984.ovh.net.
 mail.kibo.cv.		28800	IN	A	51.255.38.46
@@ -3566,9 +3563,9 @@ acrh.org.cv.		28800	IN	NS	ns1.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns2.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns3.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns4.nameresolve.com.
+acrides.org.cv.		28800	IN	A	41.221.194.233
 acrides.org.cv.		28800	IN	NS	ns1.gov.cv.
 acrides.org.cv.		28800	IN	NS	ns2.gov.cv.
-acrides.org.cv.		28800	IN	A	41.221.194.233
 adad.org.cv.		28800	IN	NS	ns.jcle.pt.
 adad.org.cv.		28800	IN	NS	ns.jcle.net.
 adventistas.org.cv.	28800	IN	NS	ns1.servconfig.com.
@@ -4933,4 +4930,4 @@ zil.cv.			28800	IN	NS	ns2.dnstarvos.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018021201 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018021501 86400 7200 2592000 300

@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR xn--fzc2c9e2c. @ns-d.nic.lk. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-xn--fzc2c9e2c.		86400	IN	SOA	ns-t.nic.lk. gihan.nic.lk. 2015112839 21600 10800 2592000 21600
-xn--fzc2c9e2c.		86400	IN	RRSIG	SOA 7 1 86400 20180314081359 20180212071359 26294 xn--fzc2c9e2c. izLbohJ7l6zyPsmGZ1CteehG8Pm4AL9ZFyqODm+XbLO9FF6geQf6zEWN V7tjRTaKmGPWNbx7Y0Fgez3BuqLb7N/33vys+pshnIskBJQOd/0ysYwW CYGYL51kqT+2Bku/dSUCBrDlu9DRY0X+ih2GMJxAp+g0Wc/wNou+EqBX lO0=
+xn--fzc2c9e2c.		86400	IN	SOA	ns-t.nic.lk. gihan.nic.lk. 2015112840 21600 10800 2592000 21600
+xn--fzc2c9e2c.		86400	IN	RRSIG	SOA 7 1 86400 20180317014000 20180215004000 26294 xn--fzc2c9e2c. UrqRVdMGvsvc0FTohfoWQkSjpzxdcJEblMpQxSH3PYrg9387Zvjix7yN wt9sbnJSE74KMkWeL8F59TgtUBaSbGX16p7H/Np9t7gyzriVyoGhxCfy s7TKcTvrkue2yW3yNcGTT3I/MFqkQ7jAlnHecpzUPGEbTcAbW9Y6XIV5 dXk=
 xn--fzc2c9e2c.		86400	IN	NS	lk.communitydns.net.
 xn--fzc2c9e2c.		86400	IN	NS	nic.lk-anycast.pch.net.
 xn--fzc2c9e2c.		86400	IN	NS	ns1.ac.lk.
@@ -92,12 +92,12 @@ test.xn--fzc2c9e2c.	86400	IN	RRSIG	TXT 7 2 86400 20180228053438 20180129045253 2
 test.xn--fzc2c9e2c.	86400	IN	TXT	"Second update"
 test.xn--fzc2c9e2c.	86400	IN	TXT	"First nsupdate record"
 test2.xn--fzc2c9e2c.	21600	IN	NSEC	test3.xn--fzc2c9e2c. TXT RRSIG NSEC
-test2.xn--fzc2c9e2c.	21600	IN	RRSIG	NSEC 7 2 21600 20180222134000 20180123133054 26294 xn--fzc2c9e2c. RLdHj9KM2JV/B+FstG4F3l/s1zigEm/lZraSHezqbtyReDq22e0NdeUL 6MYIe5ZkRfi6KoNjXr9XfrQUdbPx5xLLdb05H9vwxWKNHdpX0IWCRqe9 vkLy8tBeQQJ1GyS9FIzGVlZhjvnCmWB6PyZSO/A03E3MA9msC/5Rwejz ow4=
+test2.xn--fzc2c9e2c.	21600	IN	RRSIG	NSEC 7 2 21600 20180317013932 20180215004000 26294 xn--fzc2c9e2c. Z/CvPGpF3goWtf1ZecId6kFZ9LjCVoQBShDX0zCUJmRfoXZ0mAT/9+Nn 1+LvpzlSUDtv0Tsd4oqbc3Dq2aOymX3zokmDmhoxbXujfyfucTRLC84u I3ar74VDkAzCtTikzRNQaqMHA3K+wfZk0Sc8E+dPNpYpEkcK5jkn3MRh Fm4=
 test2.xn--fzc2c9e2c.	43200	IN	RRSIG	TXT 7 2 43200 20180314034126 20180212031305 26294 xn--fzc2c9e2c. iqlaTuq4HJunnCHaDanRlKqtqScyyr7H5UVrZr4FtzJ9kQrwPOYE6Uh4 8VXHf7y2pHs88ijg0F2ATjrpisA6+EG1SZmUQe3sggx0/aH50X4x2hHZ fpemSun8e/82+esbSB/kuoOb2a5aXkYs3/DrcYsHKMruX1akRS48R3Vu okU=
 test2.xn--fzc2c9e2c.	43200	IN	TXT	"second nsupdate record"
 test3.xn--fzc2c9e2c.	21600	IN	NSEC	westernhomes.xn--fzc2c9e2c. TXT RRSIG NSEC
-test3.xn--fzc2c9e2c.	21600	IN	RRSIG	NSEC 7 2 21600 20180222134000 20180123133054 26294 xn--fzc2c9e2c. ubnR5tvXtgbGU2MfJi0BfQKy8t3OtJtUmKn8txe558nn4tggVDmc3ZTv GHVyA3aUXENKd19vUZ4MREEEqCKRKKVhkqzFlMZu4Pc/lMhUa3ArO0i6 gvpCFqPNx4xqOhUf92qqDThH85RZwxNv0kNM91YFQKpC0KpWUh42lszH qpE=
-test3.xn--fzc2c9e2c.	43200	IN	RRSIG	TXT 7 2 43200 20180222134000 20180123133054 26294 xn--fzc2c9e2c. E7DhKN+xzWWDxD9BdLL2FWwcmwg9b5zI+fXo2HLOGN2E9ymd39i/G6HK 15ussl2ZG5mE3lRHeh/OvTX3mNJezy1ebhAh3VMXP3QvMjRtcWkBDwG/ NeRXl0NVOWRY9aXrVihfJLOtbJxZ5YHfhmaw+XgICmZ0ju4Sk/ZOeYKg JBs=
+test3.xn--fzc2c9e2c.	21600	IN	RRSIG	NSEC 7 2 21600 20180317013932 20180215004000 26294 xn--fzc2c9e2c. PyRoZmb6U2PzEKsDdA/+rJ3QgbnmcUmwE6fM9qaoEIrWJ3BL/X/a0tuq 2VqWVoICZTJ/YlFxgGvGCiKjTsZ63i997T4P6wKUeiW7t4Xquu91etoT 1/0apkrTcCbV4UKgH59gVi8m5bMsCCMbuuv5vyKAsT6Tc7E1JeGBSKQ8 RD8=
+test3.xn--fzc2c9e2c.	43200	IN	RRSIG	TXT 7 2 43200 20180317013932 20180215004000 26294 xn--fzc2c9e2c. fQu2wRweQNpPGTyVFZSO1YDS2zyrgMIsC4m9o4odYv2d0/FM3Yn7SggZ za4jtMYIM2BPWZhpYi+FM/dLAPhgZU8jXa5/ZPLgJm52ZHBwkenDOSTH GaIj+mJWgraF/SQzI+McRnM/2jtQjBqk5achjdjT6gt/x89QW8mLN2wV iC8=
 test3.xn--fzc2c9e2c.	43200	IN	TXT	"Third nsudate record"
 westernhomes.xn--fzc2c9e2c. 86400 IN	NS	ns1.linuxsecureserver.com.
 westernhomes.xn--fzc2c9e2c. 86400 IN	NS	ns2.linuxsecureserver.com.
@@ -964,4 +964,4 @@ xypex.xn--fzc2c9e2c.	86400	IN	TXT	"Xypex Chemical Corporation"
 xypex.xn--fzc2c9e2c.	86400	IN	RRSIG	TXT 7 2 86400 20180314042648 20180212035842 26294 xn--fzc2c9e2c. WKR2VBe2jtLIbzPHB+o5bDEfjfWl1ASqehuvcrE/iEBMGbHCvsRKx09h aUjhmuR124hGmYEaKwojfDELSq0yPWJ7edOh2RoDCdE7pZZ6FcrdWREd 6HtaydCaSrOCEyxvTHx7IRLgUJHc3A2jY1QW0t29KsJ2AyxgPBfgMwxQ x08=
 xypex.xn--fzc2c9e2c.	21600	IN	NSEC	xn--fzc2c9e2c. TXT RRSIG NSEC
 xypex.xn--fzc2c9e2c.	21600	IN	RRSIG	NSEC 7 2 21600 20180314042648 20180212035842 26294 xn--fzc2c9e2c. vvV05V0PNRoJX1A0kih42kVrUYcEcHKAtBP/3Kxg4h8IC84N8T42BG/r UuNtyImRhcw5ZWXYWc+eUC0GmxCe2HM0cbCXDwgY/Uj2jGeJqweIry0n y95mNxDJ+KgpQXJcFUFjq59NE9BQ6AEFtnKBr+Lf/hIk3+K6hz3nqwYi doc=
-xn--fzc2c9e2c.		86400	IN	SOA	ns-t.nic.lk. gihan.nic.lk. 2015112839 21600 10800 2592000 21600
+xn--fzc2c9e2c.		86400	IN	SOA	ns-t.nic.lk. gihan.nic.lk. 2015112840 21600 10800 2592000 21600

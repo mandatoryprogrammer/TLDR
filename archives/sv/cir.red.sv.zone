@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @cir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018022302 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018022602 43200 3600 2592000 43200
 ns1.grupobgl.com.ar.	43200	IN	A	67.19.193.98
 ns2.grupobgl.com.ar.	43200	IN	A	67.19.193.99
 ns1.indisa.com.ar.	43200	IN	A	72.46.254.112
@@ -3099,6 +3099,8 @@ claroconciertos.sv.	43200	IN	NS	dns1.cscdns.net.
 claroconciertos.sv.	43200	IN	NS	dns2.cscdns.net.
 claroconcursos.sv.	43200	IN	NS	dns1.cscdns.net.
 claroconcursos.sv.	43200	IN	NS	dns2.cscdns.net.
+claroconnect.sv.	43200	IN	NS	dns1.cscdns.net.
+claroconnect.sv.	43200	IN	NS	dns2.cscdns.net.
 clarocorporativo.sv.	43200	IN	NS	dns1.cscdns.net.
 clarocorporativo.sv.	43200	IN	NS	dns2.cscdns.net.
 clarocultura.sv.	43200	IN	NS	dns1.cscdns.net.
@@ -5942,6 +5944,8 @@ claroconciertos.com.sv.	43200	IN	NS	dns1.cscdns.net.
 claroconciertos.com.sv.	43200	IN	NS	dns2.cscdns.net.
 claroconcursos.com.sv.	43200	IN	NS	dns1.cscdns.net.
 claroconcursos.com.sv.	43200	IN	NS	dns2.cscdns.net.
+claroconnect.com.sv.	43200	IN	NS	dns1.cscdns.net.
+claroconnect.com.sv.	43200	IN	NS	dns2.cscdns.net.
 clarocorporativo.com.sv. 43200	IN	NS	ns3.navegante.com.sv.
 clarocorporativo.com.sv. 43200	IN	NS	ns4.navegante.com.sv.
 clarocultura.com.sv.	43200	IN	NS	dns1.cscdns.net.
@@ -9103,6 +9107,8 @@ gmail.com.sv.		43200	IN	NS	ns1.google.com.
 gmail.com.sv.		43200	IN	NS	ns2.google.com.
 gmail.com.sv.		43200	IN	NS	ns3.google.com.
 gmail.com.sv.		43200	IN	NS	ns4.google.com.
+gmp.com.sv.		43200	IN	NS	ns31.domaincontrol.com.
+gmp.com.sv.		43200	IN	NS	ns32.domaincontrol.com.
 gmsacv.com.sv.		43200	IN	NS	ns1.gmsacv.net.
 gmsacv.com.sv.		43200	IN	NS	ns2.gmsacv.net.
 gmt.com.sv.		43200	IN	NS	ns1.miradio.website.
@@ -9822,6 +9828,8 @@ hispanosshipping.com.sv. 43200	IN	NS	dns1.empresaweb.com.sv.
 hispanosshipping.com.sv. 43200	IN	NS	dns2.empresaweb.com.sv.
 hitachi.com.sv.		43200	IN	NS	rns1.rightsdns.com.
 hitachi.com.sv.		43200	IN	NS	rns2.rightsdns.com.
+hitachiaircon.com.sv.	43200	IN	NS	dns1.cscdns.net.
+hitachiaircon.com.sv.	43200	IN	NS	dns2.cscdns.net.
 hjnsonsonate.com.sv.	43200	IN	NS	ns7.hostingdepago.com.
 hjnsonsonate.com.sv.	43200	IN	NS	ns8.hostingdepago.com.
 hm.com.sv.		43200	IN	NS	a5-65.akam.net.
@@ -11651,8 +11659,8 @@ luaga.com.sv.		43200	IN	NS	dns1.amnetsal.com.
 luaga.com.sv.		43200	IN	NS	dns2.amnetsal.com.
 lubrimax.com.sv.	43200	IN	NS	ns1.mediatemple.net.
 lubrimax.com.sv.	43200	IN	NS	ns2.mediatemple.net.
-lubrimotors.com.sv.	43200	IN	NS	ns31.boxsecured.com.
-lubrimotors.com.sv.	43200	IN	NS	ns32.boxsecured.com.
+lubrimotors.com.sv.	43200	IN	NS	ns1.digitalocean.com.
+lubrimotors.com.sv.	43200	IN	NS	ns2.digitalocean.com.
 luca-d3.com.sv.		43200	IN	NS	ns1.nameaction.com.
 luca-d3.com.sv.		43200	IN	NS	ns2.nameaction.com.
 lucelec.com.sv.		43200	IN	NS	dns1.sn.com.sv.
@@ -13040,6 +13048,9 @@ nutech.com.sv.		43200	IN	NS	ns6237.hostgator.com.
 nutech.com.sv.		43200	IN	NS	ns6238.hostgator.com.
 nutramigen.com.sv.	43200	IN	NS	ns01.mjn.com.
 nutramigen.com.sv.	43200	IN	NS	ns02.mjn.com.
+nutriben.com.sv.	43200	IN	NS	ns1.linode.com.
+nutriben.com.sv.	43200	IN	NS	ns2.linode.com.
+nutriben.com.sv.	43200	IN	NS	ns4.linode.com.
 nutricenter.com.sv.	43200	IN	NS	ns1.panelboxmanager.com.
 nutricenter.com.sv.	43200	IN	NS	ns2.panelboxmanager.com.
 nutriciababy.com.sv.	43200	IN	NS	ns.domainnetwork.se.
@@ -13871,8 +13882,10 @@ praco.com.sv.		43200	IN	NS	ns2.amayahosting.com.
 pradaxa.com.sv.		43200	IN	NS	ns2.observatoiredesmarques.fr.
 pradaxa.com.sv.		43200	IN	NS	ns3.nameshield.net.
 pradaxa.com.sv.		43200	IN	NS	obs.ns1.fr.
-prado.com.sv.		43200	IN	NS	ns.prado.com.sv.
-ns.prado.com.sv.	43200	IN	A	190.86.189.83
+prado.com.sv.		43200	IN	NS	ns1.prado.com.sv.
+prado.com.sv.		43200	IN	NS	pdns13.domaincontrol.com.
+prado.com.sv.		43200	IN	NS	pdns14.domaincontrol.com.
+ns1.prado.com.sv.	43200	IN	A	186.26.113.201
 precision.com.sv.	43200	IN	NS	ns1.panelboxmanager.com.
 precision.com.sv.	43200	IN	NS	ns2.panelboxmanager.com.
 preco.com.sv.		43200	IN	NS	ns3.navegante.com.sv.
@@ -18368,6 +18381,8 @@ colegioeuroamericano2000.edu.sv. 43200 IN NS	ns69.domaincontrol.com.
 colegioeuroamericano2000.edu.sv. 43200 IN NS	ns70.domaincontrol.com.
 colegioevangelicocentroamericano.edu.sv. 43200 IN NS ns1.wix.com.
 colegioevangelicocentroamericano.edu.sv. 43200 IN NS ns2.wix.com.
+colegiofatima.edu.sv.	43200	IN	NS	ns9070.banahosting.com.
+colegiofatima.edu.sv.	43200	IN	NS	ns9071.banahosting.com.
 colegiogoldameir.edu.sv. 43200	IN	NS	ns6363.hostgator.com.
 colegiogoldameir.edu.sv. 43200	IN	NS	ns6364.hostgator.com.
 colegioguadalupano.edu.sv. 43200 IN	NS	ns113.ehosts.com.
@@ -18844,9 +18859,9 @@ elgranshowmanboletos.sv. 43200	IN	NS	ns1.foxfilm.com.
 elgranshowmanboletos.sv. 43200	IN	NS	ns2.foxfilm.com.
 eligetodo.sv.		43200	IN	NS	ns1.nameaction.com.
 eligetodo.sv.		43200	IN	NS	ns2.nameaction.com.
-elim.sv.		43200	IN	NS	ns1.elim.cloud.
-elim.sv.		43200	IN	NS	ns2.elim.cloud.
-elim.sv.		43200	IN	NS	ns3.elim.cloud.
+elim.sv.		43200	IN	NS	ns1.dreamhost.com.
+elim.sv.		43200	IN	NS	ns2.dreamhost.com.
+elim.sv.		43200	IN	NS	ns3.dreamhost.com.
 elindependiente.sv.	43200	IN	NS	ns1.accountsupport.com.
 elindependiente.sv.	43200	IN	NS	ns2.accountsupport.com.
 ella.sv.		43200	IN	NS	ns1145.dns.dyn.com.
@@ -19580,6 +19595,10 @@ conchagua.gob.sv.	43200	IN	NS	ns1.hostinger.es.
 conchagua.gob.sv.	43200	IN	NS	ns2.hostinger.es.
 conchagua.gob.sv.	43200	IN	NS	ns3.hostinger.es.
 conchagua.gob.sv.	43200	IN	NS	ns4.hostinger.es.
+conmigrantes.gob.sv.	43200	IN	A	201.247.99.206
+conmigrantes.gob.sv.	43200	IN	NS	www.conmigrantes.gob.sv.
+conmigrantes.gob.sv.	43200	IN	NS	conmigrantes.gob.sv.
+www.conmigrantes.gob.sv. 43200	IN	A	201.247.99.204
 conna.gob.sv.		43200	IN	NS	snd01.egob.sv.
 conna.gob.sv.		43200	IN	NS	snd02.egob.sv.
 consaa.gob.sv.		43200	IN	NS	ns7.hostnine.com.
@@ -21752,9 +21771,9 @@ educo.org.sv.		43200	IN	NS	wns31.hostgator.com.
 educo.org.sv.		43200	IN	NS	wns32.hostgator.com.
 edytrapoligonodonbosco.org.sv. 43200 IN	NS	ns3.navegante.com.sv.
 edytrapoligonodonbosco.org.sv. 43200 IN	NS	ns4.navegante.com.sv.
-elim.org.sv.		43200	IN	NS	ns1.elim.cloud.
-elim.org.sv.		43200	IN	NS	ns2.elim.cloud.
-elim.org.sv.		43200	IN	NS	ns3.elim.cloud.
+elim.org.sv.		43200	IN	NS	ns1.dreamhost.com.
+elim.org.sv.		43200	IN	NS	ns2.dreamhost.com.
+elim.org.sv.		43200	IN	NS	ns3.dreamhost.com.
 embajadacostarica.org.sv. 43200	IN	NS	ns477.websitewelcome.com.
 embajadacostarica.org.sv. 43200	IN	NS	ns478.websitewelcome.com.
 embajadaderepublicadominicana.org.sv. 43200 IN NS ns8011.hostgator.com.
@@ -23766,4 +23785,4 @@ ns2.internext.ws.	43200	IN	A	67.15.191.144
 ns1.rdcnet.ws.		43200	IN	A	208.109.204.30
 ns10.rdcnet.ws.		43200	IN	A	68.178.241.138
 ns2.rdcnet.ws.		43200	IN	A	208.109.204.33
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018022302 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018022602 43200 3600 2592000 43200

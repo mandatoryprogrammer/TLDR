@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018030101 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018030201 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -508,8 +508,8 @@ bintermais.cv.		28800	IN	NS	ns2.interdomain.net.
 bintermais.cv.		28800	IN	NS	ns3.interdomain.es.
 mail.bintermais.cv.	28800	IN	A	217.116.0.206
 mail2.bintermais.cv.	28800	IN	A	86.109.99.246
-biocontrol.cv.		28800	IN	NS	ns7.securenet-server.net.
-biocontrol.cv.		28800	IN	NS	ns8.securenet-server.net.
+biocontrol.cv.		28800	IN	NS	ns1.bluehost.com.
+biocontrol.cv.		28800	IN	NS	ns2.bluehost.com.
 biolab.cv.		28800	IN	NS	ns1.salweb.org.
 biolab.cv.		28800	IN	NS	ns2.salweb.org.
 bios.cv.		28800	IN	NS	ns1.evs46.com.
@@ -1120,12 +1120,12 @@ citydia.com.cv.		28800	IN	NS	ns1.entornodns.com.
 citydia.com.cv.		28800	IN	NS	ns2.entornodns.com.
 citydia.com.cv.		28800	IN	AAAA	::195.77.116.8
 citydia.com.cv.		28800	IN	AAAA	2a01:1c8:1001:2:be30:5bff:fedf:67ee
+cloud.com.cv.		28800	IN	A	213.13.28.116
+cloud.com.cv.		28800	IN	A	213.13.30.116
 cloud.com.cv.		28800	IN	NS	ns.sapo.pt.
 cloud.com.cv.		28800	IN	NS	ns2.sapo.pt.
 cloud.com.cv.		28800	IN	NS	dns01.sapo.pt.
 cloud.com.cv.		28800	IN	NS	dns02.sapo.pt.
-cloud.com.cv.		28800	IN	A	213.13.28.116
-cloud.com.cv.		28800	IN	A	213.13.30.116
 cloudpt.com.cv.		28800	IN	A	213.13.28.116
 cloudpt.com.cv.		28800	IN	A	213.13.30.116
 cloudpt.com.cv.		28800	IN	NS	ns.sapo.pt.
@@ -3521,6 +3521,9 @@ ofcv.cv.		28800	IN	NS	ns8170.hostgator.com.
 mail.ofcv.cv.		28800	IN	A	192.185.35.49
 ofertaglobalnegocios.cv. 28800	IN	NS	dns1.host-services.com.
 ofertaglobalnegocios.cv. 28800	IN	NS	dns2.host-services.com.
+oficinalizardo.cv.	28800	IN	NS	ns1.nosiwebhosting.com.
+oficinalizardo.cv.	28800	IN	NS	ns2.nosiwebhosting.com.
+oficinalizardo.cv.	28800	IN	NS	ns3.nosiwebhosting.com.
 oficomercial.cv.	28800	IN	NS	ns1.wtservers.com.
 oficomercial.cv.	28800	IN	NS	ns2.wtservers.com.
 oficomercial.cv.	28800	IN	NS	ns3.wtservers.com.
@@ -3850,14 +3853,14 @@ physios.cv.		28800	IN	NS	ns7.securenet-server.net.
 physios.cv.		28800	IN	NS	ns8.securenet-server.net.
 pin.cv.			28800	IN	NS	dns1.apthost.com.
 pin.cv.			28800	IN	NS	dns2.apthost.com.
+pivot.cv.		28800	IN	NS	ns1.instala.biz.
+pivot.cv.		28800	IN	NS	ns2.instala.biz.
 pivot.cv.		28800	IN	A	94.46.14.249
 pivot.cv.		28800	IN	A	94.46.14.250
 pivot.cv.		28800	IN	A	130.185.80.200
 pivot.cv.		28800	IN	A	130.185.80.201
 pivot.cv.		28800	IN	A	130.185.80.210
 pivot.cv.		28800	IN	A	130.185.80.211
-pivot.cv.		28800	IN	NS	ns1.instala.biz.
-pivot.cv.		28800	IN	NS	ns2.instala.biz.
 pixel.cv.		28800	IN	NS	ns1.mydnspt.net.
 pixel.cv.		28800	IN	NS	ns2.mydnspt.net.
 pj.cv.			28800	IN	NS	ns1.gov.cv.
@@ -3992,16 +3995,16 @@ asemana.publ.cv.	28800	IN	AAAA	2a01:68:100:1::2
 asemana.publ.cv.	28800	IN	A	91.121.162.16
 asemana.publ.cv.	28800	IN	NS	ns1.efedus.com.
 asemana.publ.cv.	28800	IN	NS	ns2.efedus.com.
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1819
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1827
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1981
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1a63
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1b48
 expressodasilhas.publ.cv. 28800	IN	NS	ns1.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns2.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns3.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns4.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns5.linode.com.
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1819
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1827
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1981
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1a63
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1b48
 inforpress.publ.cv.	28800	IN	NS	ns1.gov.cv.
 inforpress.publ.cv.	28800	IN	NS	ns2.gov.cv.
 noticiasdonorte.publ.cv. 28800	IN	NS	ns1.mediatemple.net.
@@ -4044,17 +4047,17 @@ ranatrans.cv.		28800	IN	NS	ns02.trademarkarea.com.
 ranatrans.cv.		28800	IN	NS	ns03.trademarkarea.com.
 rank.cv.		28800	IN	NS	ns1000.mochahost.com.
 rank.cv.		28800	IN	NS	ns2000.mochahost.com.
-razao.cv.		28800	IN	A	213.13.28.116
-razao.cv.		28800	IN	A	213.13.30.116
 razao.cv.		28800	IN	NS	ns1.webhs.org.
 razao.cv.		28800	IN	NS	ns2.webhs.org.
 razao.cv.		28800	IN	NS	ns3.webhs.org.
+razao.cv.		28800	IN	A	213.13.28.116
+razao.cv.		28800	IN	A	213.13.30.116
+rcv.cv.			28800	IN	A	213.13.28.116
+rcv.cv.			28800	IN	A	213.13.30.116
 rcv.cv.			28800	IN	NS	ns.sapo.pt.
 rcv.cv.			28800	IN	NS	ns2.sapo.pt.
 rcv.cv.			28800	IN	NS	dns01.sapo.pt.
 rcv.cv.			28800	IN	NS	dns02.sapo.pt.
-rcv.cv.			28800	IN	A	213.13.28.116
-rcv.cv.			28800	IN	A	213.13.30.116
 rcvmais.cv.		28800	IN	NS	ns.sapo.pt.
 rcvmais.cv.		28800	IN	NS	ns2.sapo.pt.
 rcvmais.cv.		28800	IN	NS	dns01.sapo.pt.
@@ -4598,6 +4601,10 @@ supertech.cv.		28800	IN	NS	ns2.weblx-1.net.
 sustentar.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
 sustentar.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
 sustentar.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
+swhouse-um.cv.		28800	IN	NS	ns-88.awsdns-11.com.
+swhouse-um.cv.		28800	IN	NS	ns-591.awsdns-09.net.
+swhouse-um.cv.		28800	IN	NS	ns-1342.awsdns-39.org.
+swhouse-um.cv.		28800	IN	NS	ns-1944.awsdns-51.co.uk.
 swvm.cv.		28800	IN	NS	ns1000.mochahost.com.
 swvm.cv.		28800	IN	NS	ns2000.mochahost.com.
 systec.cv.		28800	IN	NS	ns1.efeito.net.
@@ -4751,10 +4758,10 @@ tudonumclick.cv.	28800	IN	AAAA	2600:2000:1000::7
 tudonumclick.cv.	28800	IN	AAAA	2600:2000:1001::7
 tudonumclick.cv.	28800	IN	NS	dns1.ibername.com.
 tudonumclick.cv.	28800	IN	NS	dns2.ibername.com.
-tui-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
-tui-cabo-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
 tui-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 tui-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
+tui-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
+tui-cabo-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
 tui-cape-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 tui-cape-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
 tui-cape-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -4961,4 +4968,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018030101 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018030201 86400 7200 2592000 300

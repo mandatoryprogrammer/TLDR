@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR bi. @ns1.nic.bi. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018030708 21600 3600 604800 86400
-bi.			86400	IN	TXT	"Generation Time: 1520403021"
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018030712 21600 3600 604800 86400
+bi.			86400	IN	TXT	"Generation Time: 1520417411"
 bi.			86400	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			86400	IN	NS	ns.nic.bi.
 bi.			86400	IN	NS	ns1.nic.bi.
@@ -22,6 +22,8 @@ bi.			86400	IN	NS	ns-bi.afrinic.net.
 10.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 100.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 100.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
+10000.bi.		86400	IN	NS	f1g1ns1.dnspod.net.
+10000.bi.		86400	IN	NS	f1g1ns2.dnspod.net.
 101domain.bi.		86400	IN	NS	ns1.101domain.com.
 101domain.bi.		86400	IN	NS	ns2.101domain.com.
 101domain.bi.		86400	IN	NS	ns5.101domain.com.
@@ -517,6 +519,8 @@ atm.bi.			86400	IN	NS	ns2.101domain.com.
 atm.bi.			86400	IN	NS	ns5.101domain.com.
 audi.bi.		86400	IN	NS	ns2.audi.de.
 audi.bi.		86400	IN	NS	ns5.xc-ns.de.
+audience.bi.		86400	IN	NS	cruz.ns.cloudflare.com.
+audience.bi.		86400	IN	NS	apollo.ns.cloudflare.com.
 audio.bi.		86400	IN	NS	ns1.101domain.com.
 audio.bi.		86400	IN	NS	ns2.101domain.com.
 audio.bi.		86400	IN	NS	ns5.101domain.com.
@@ -2762,6 +2766,11 @@ infocom.bi.		86400	IN	NS	ns2.afriregister.bi.
 infor.bi.		86400	IN	NS	ns1.hostnet.nl.
 infor.bi.		86400	IN	NS	ns2.hostnetbv.com.
 infor.bi.		86400	IN	NS	ns3.hostnetbv.nl.
+infovizion.bi.		86400	IN	NS	ns1.francedns.com.
+infovizion.bi.		86400	IN	NS	ns2.francedns.com.
+infovizion.bi.		86400	IN	NS	ns3.francedns.com.
+infovizion.bi.		86400	IN	NS	ns4.francedns.com.
+infovizion.bi.		86400	IN	NS	ns5.francedns.com.
 ingelvac.bi.		86400	IN	NS	ns2.observatoiredesmarques.fr.
 ingelvac.bi.		86400	IN	NS	ns3.nameshield.net.
 ingelvac.bi.		86400	IN	NS	obs.ns1.fr.
@@ -3872,8 +3881,6 @@ nhk.bi.			86400	IN	NS	ns2.101domain.com.
 nhk.bi.			86400	IN	NS	ns5.101domain.com.
 ni.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 ni.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
-nibitegekaadvocates.bi.	86400	IN	NS	ns1.afriregister.bi.
-nibitegekaadvocates.bi.	86400	IN	NS	ns2.afriregister.bi.
 nic.bi.			86400	IN	NS	bi.cctld.authdns.ripe.net.
 nic.bi.			86400	IN	NS	ns.nic.bi.
 nic.bi.			86400	IN	NS	ns1.nic.bi.
@@ -4182,9 +4189,10 @@ pamoja.bi.		86400	IN	NS	ns1.lovellsnames.org.
 pamoja.bi.		86400	IN	NS	ns2.lovellsnames.org.
 pamoja.bi.		86400	IN	NS	ns3.lovellsnames.org.
 pamoja.bi.		86400	IN	NS	ns4.lovellsnames.org.
-pamusab.bi.		86400	IN	NS	ns1.contabo.net.
-pamusab.bi.		86400	IN	NS	ns2.contabo.net.
-pamusab.bi.		86400	IN	NS	ns3.contabo.net.
+pamusab.bi.		86400	IN	NS	ns1.pamusab.bi.
+pamusab.bi.		86400	IN	NS	ns2.pamusab.bi.
+ns1.pamusab.bi.		86400	IN	A	93.104.209.183
+ns2.pamusab.bi.		86400	IN	A	178.238.229.27
 pan.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 pan.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 panalytics.bi.		86400	IN	NS	ns1.101domain.com.
@@ -6092,4 +6100,4 @@ zzp.bi.			86400	IN	NS	nameserver1.intellyhosting.nl.
 zzp.bi.			86400	IN	NS	nameserver2.intellyhosting.eu.
 zzp.bi.			86400	IN	NS	nameserver3.intellyhosting.be.
 zzp.bi.			86400	IN	NS	nameserver4.intellyhosting.com.
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018030708 21600 3600 604800 86400
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018030712 21600 3600 604800 86400

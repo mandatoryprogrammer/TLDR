@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mn. @ns2.magic.mn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008192203 10800 7200 604800 86400
-mn.			900	IN	RRSIG	SOA 7 1 900 20180329180535 20180308170535 29559 mn. ZB7T2l6IbynfFbaw8VHEDjWJgze4LOcf49OZNUwZpGMdx8XkkaBp1PiJ NO7sdy3sJs0YQWMg5hopxe2iG7/pNZbNai4YZaQdafy9mj24y+1k2OZE z/og9X7hMXs+6UOYQuHrrnfNBaT+iwEpHz4PWFjZETN91Xr206L+mVMT tY0=
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008192222 10800 7200 604800 86400
+mn.			900	IN	RRSIG	SOA 7 1 900 20180330050909 20180309040909 29559 mn. o2RH/pMpzx562Ax95zNbdJgSY9lCV5lfTwSZP4+SE7UrdogyaWeWlnkc RonR6mqNguHSBLApOYw+6xoUaJKuzzgH6hRBPukc+hzVo1W1ZyLi6v7g oLLuAar+y4RuAO+/WsxspfuY70SEslO5WOGazm7GIAqJ4cra/sBniFBK viQ=
 mn.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20180328102751 20180307092751 29559 mn. kB7jUriWyqu9r95k6p7nQKteoMsm5y8Mb7/2Y4mqmRrR0Y1l/6dbOsCg v+9Qb4LKyPV38MzaWZuKPNgdo7hQt2YoKTMND0y05HL/VNR1be69yGK3 cTH7lLHn0DLEJDcNm3IP0WMjLgL4w+6M62f3bKnztGDH/ir6ioaawVAf FQc=
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180328102751 20180307092751 12721 mn. WRYXksAMERU6336esxkFe+/NXbVHkwaidNUDR5j1dzKTZIJqwWSgfCAd n48261dUn3rcCT9Qls6YjmGC12dBn8zwEEO04mEltPwHTKOHRAPyAkob CN6wTBvFQV96e3tH+JgBPwkBAGezeJKl41IHpFy2cART1gsSxmDfOGJK muZukb9Rq8NnZK+pv7dmFQv8ckIsTV32OMeY8LQb8kX+pm25qefbUlpX seogDeZVVNpnxT9yiMr4s5fm+E34NjNffp1lVsvr43w1DyW061iic3BL 4M2NDiyx3Pj3buBXhior/jRZkcoie8xWYUqmbPyTl4JVWcF/BIKf+92T ec5hFg==
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180328102751 20180307092751 29559 mn. PS5pJwctZi5WxL5nKob25kqDMo+SJLLswDvaUplNAZGgEZDUgpHM/RxV jgc20V1uBEylyNONhQo3+HS9c+DdLq0I9mHykmAAuCjYosOhNkE0aYQO ByYhG97ViL4YiLH55Mgo+yKycurnP1g+QmxijIlhLTzaqYksTpUP3Qer n4E=
@@ -1328,6 +1328,10 @@ agrofarm.mn.		86400	IN	NS	ns3.dns.mn.
 agrofarm.mn.		86400	IN	NS	ns4.dns.mn.
 agroinfo.mn.		86400	IN	NS	ns1.cp-45.webhostbox.net.
 agroinfo.mn.		86400	IN	NS	ns2.cp-45.webhostbox.net.
+agroinfo9.mn.		86400	IN	NS	ns4.dns.mn.
+agroinfo9.mn.		86400	IN	NS	ns3.dns.mn.
+agroinfo9.mn.		86400	IN	NS	ns2.dns.mn.
+agroinfo9.mn.		86400	IN	NS	ns1.dns.mn.
 agromachtech.mn.	86400	IN	NS	ns1.dns.mn.
 agromachtech.mn.	86400	IN	NS	ns2.dns.mn.
 agromachtech.mn.	86400	IN	NS	ns3.dns.mn.
@@ -4542,8 +4546,8 @@ badma.mn.		86400	IN	NS	headcodomains.mars.orderbox-dns.com.
 badma.mn.		86400	IN	NS	headcodomains.earth.orderbox-dns.com.
 badma.mn.		86400	IN	NS	headcodomains.venus.orderbox-dns.com.
 badma.mn.		86400	IN	NS	headcodomains.mercury.orderbox-dns.com.
-badminton.mn.		86400	IN	NS	ns1.nameserver.mn.
-badminton.mn.		86400	IN	NS	ns2.nameserver.mn.
+badminton.mn.		86400	IN	NS	brit.ns.cloudflare.com.
+badminton.mn.		86400	IN	NS	arch.ns.cloudflare.com.
 badoo.mn.		86400	IN	NS	gss1.monopost.com.
 badoo.mn.		86400	IN	NS	gss2.monopost.com.
 badrakh-energy.mn.	86400	IN	NS	dns1.areva.com.
@@ -4617,8 +4621,6 @@ baina.mn.		86400	IN	NS	ns1.parkingcrew.net.
 baina.mn.		86400	IN	NS	ns2.parkingcrew.net.
 bainga.mn.		86400	IN	NS	dns1.namecheaphosting.com.
 bainga.mn.		86400	IN	NS	dns2.namecheaphosting.com.
-bainuu.mn.		86400	IN	NS	ns1.nameserver.mn.
-bainuu.mn.		86400	IN	NS	ns2.nameserver.mn.
 bair.mn.		86400	IN	NS	ns1.dns.mn.
 bair.mn.		86400	IN	NS	ns2.dns.mn.
 bair.mn.		86400	IN	NS	ns3.dns.mn.
@@ -4716,8 +4718,8 @@ banjig.mn.		86400	IN	NS	admi516687.venus.orderbox-dns.com.
 banjig.mn.		86400	IN	NS	admi516687.mercury.orderbox-dns.com.
 bank.mn.		86400	IN	NS	ns15.domaincontrol.com.
 bank.mn.		86400	IN	NS	ns16.domaincontrol.com.
-bankamerica.mn.		86400	IN	NS	ns3.bankofamerica.com.
-bankamerica.mn.		86400	IN	NS	ns4.bankofamerica.com.
+bankamerica.mn.		86400	IN	NS	dns2.cscdns.net.
+bankamerica.mn.		86400	IN	NS	dns1.cscdns.net.
 bankcard.mn.		86400	IN	NS	mdns.mobinet.mn.
 bankcard.mn.		86400	IN	NS	sdns.mobinet.mn.
 acsmc.bankcard.mn.	86400	IN	A	202.131.226.94
@@ -9118,8 +9120,10 @@ chk11.mn.		86400	IN	NS	ns17.domaincontrol.com.
 chk11.mn.		86400	IN	NS	ns18.domaincontrol.com.
 chmmgroup.mn.		86400	IN	NS	ns1.cp-29.webhostbox.net.
 chmmgroup.mn.		86400	IN	NS	ns2.cp-29.webhostbox.net.
-choco.mn.		86400	IN	NS	ns1.dorgio.mn.
-choco.mn.		86400	IN	NS	ns2.dorgio.mn.
+choco.mn.		86400	IN	NS	ns4.dns.mn.
+choco.mn.		86400	IN	NS	ns3.dns.mn.
+choco.mn.		86400	IN	NS	ns2.dns.mn.
+choco.mn.		86400	IN	NS	ns1.dns.mn.
 chocolate.mn.		86400	IN	NS	ns1.dns.mn.
 chocolate.mn.		86400	IN	NS	ns2.dns.mn.
 chocolate.mn.		86400	IN	NS	ns3.dns.mn.
@@ -14117,8 +14121,10 @@ ekon.mn.		86400	IN	NS	ns1.cp-34.webhostbox.net.
 ekon.mn.		86400	IN	NS	ns2.cp-34.webhostbox.net.
 ekona.mn.		86400	IN	NS	ns1.cp-34.webhostbox.net.
 ekona.mn.		86400	IN	NS	ns2.cp-34.webhostbox.net.
-ekoss.mn.		86400	IN	NS	ns1.nameserver.mn.
-ekoss.mn.		86400	IN	NS	ns2.nameserver.mn.
+ekoss.mn.		86400	IN	NS	ns4.dns.mn.
+ekoss.mn.		86400	IN	NS	ns3.dns.mn.
+ekoss.mn.		86400	IN	NS	ns2.dns.mn.
+ekoss.mn.		86400	IN	NS	ns1.dns.mn.
 elajnrpogliqembc.mn.	86400	IN	NS	ns1.sinkhole.ch.
 elajnrpogliqembc.mn.	86400	IN	NS	ns2.sinkhole.ch.
 elajnrpogliqembc.mn.	86400	IN	NS	ns3.sinkhole.ch.
@@ -14961,8 +14967,8 @@ erchim.mn.		86400	IN	NS	mdns.mobinet.mn.
 erchim.mn.		86400	IN	NS	sdns.mobinet.mn.
 erchim-electric.mn.	86400	IN	NS	ns.inmotionhosting.com.
 erchim-electric.mn.	86400	IN	NS	ns2.inmotionhosting.com.
-erchim-service.mn.	86400	IN	NS	ns100.webhostingbuzz.com.
-erchim-service.mn.	86400	IN	NS	ns101.webhostingbuzz.com.
+erchim-service.mn.	86400	IN	NS	ns2.nameserver.mn.
+erchim-service.mn.	86400	IN	NS	ns1.nameserver.mn.
 erchim-undram.mn.	86400	IN	NS	ns1.dns.mn.
 erchim-undram.mn.	86400	IN	NS	ns2.dns.mn.
 erchim-undram.mn.	86400	IN	NS	ns3.dns.mn.
@@ -18883,10 +18889,8 @@ gobinews.mn.		86400	IN	NS	admi516687.mars.orderbox-dns.com.
 gobinews.mn.		86400	IN	NS	admi516687.earth.orderbox-dns.com.
 gobinews.mn.		86400	IN	NS	admi516687.venus.orderbox-dns.com.
 gobinews.mn.		86400	IN	NS	admi516687.mercury.orderbox-dns.com.
-gobintsakhir.mn.	86400	IN	NS	ns1.dns.mn.
-gobintsakhir.mn.	86400	IN	NS	ns2.dns.mn.
-gobintsakhir.mn.	86400	IN	NS	ns3.dns.mn.
-gobintsakhir.mn.	86400	IN	NS	ns4.dns.mn.
+gobintsakhir.mn.	86400	IN	NS	ns2.nameserver.mn.
+gobintsakhir.mn.	86400	IN	NS	ns1.nameserver.mn.
 gobioasis.mn.		86400	IN	NS	ns1.bluehost.com.
 gobioasis.mn.		86400	IN	NS	ns2.bluehost.com.
 gobioil.mn.		86400	IN	NS	ns69.domaincontrol.com.
@@ -19543,8 +19547,10 @@ greenagro.mn.		86400	IN	NS	ns4.dns.mn.
 greenassessment.mn.	86400	IN	NS	ns1.itools.mn.
 greenassessment.mn.	86400	IN	NS	ns2.itools.mn.
 greenassessment.mn.	86400	IN	NS	ns3.itools.mn.
-greenbelt.mn.		86400	IN	NS	ns1.nameserver.mn.
-greenbelt.mn.		86400	IN	NS	ns2.nameserver.mn.
+greenbelt.mn.		86400	IN	NS	ns4.dns.mn.
+greenbelt.mn.		86400	IN	NS	ns3.dns.mn.
+greenbelt.mn.		86400	IN	NS	ns2.dns.mn.
+greenbelt.mn.		86400	IN	NS	ns1.dns.mn.
 greenbeltfund.mn.	86400	IN	NS	ns1.nameserver.mn.
 greenbeltfund.mn.	86400	IN	NS	ns2.nameserver.mn.
 greenbuilding.mn.	86400	IN	NS	ns1.itools.mn.
@@ -20164,10 +20170,8 @@ hangal.mn.		86400	IN	NS	dns.site5.com.
 hangal.mn.		86400	IN	NS	dns2.site5.com.
 hangamj.mn.		86400	IN	NS	ns1.nameserver.mn.
 hangamj.mn.		86400	IN	NS	ns2.nameserver.mn.
-hani.mn.		86400	IN	NS	ns1.servage.net.
-hani.mn.		86400	IN	NS	ns2.servage.net.
-hani.mn.		86400	IN	NS	ns3.servage.net.
-hani.mn.		86400	IN	NS	ns4.servage.net.
+hani.mn.		86400	IN	NS	ns2.nameserver.mn.
+hani.mn.		86400	IN	NS	ns1.nameserver.mn.
 hanne.mn.		86400	IN	NS	ns.inwx.de.
 hanne.mn.		86400	IN	NS	ns2.inwx.de.
 hanne.mn.		86400	IN	NS	ns3.inwx.eu.
@@ -22616,10 +22620,8 @@ ilokoif.mn.		86400	IN	NS	ns1.sinkhole.ch.
 ilokoif.mn.		86400	IN	NS	ns2.sinkhole.ch.
 ilokoif.mn.		86400	IN	NS	ns3.sinkhole.ch.
 ilokoif.mn.		86400	IN	NS	ns4.sinkhole.ch.
-ilovemongolia.mn.	86400	IN	NS	admi516687.mars.orderbox-dns.com.
-ilovemongolia.mn.	86400	IN	NS	admi516687.earth.orderbox-dns.com.
-ilovemongolia.mn.	86400	IN	NS	admi516687.venus.orderbox-dns.com.
-ilovemongolia.mn.	86400	IN	NS	admi516687.mercury.orderbox-dns.com.
+ilovemongolia.mn.	86400	IN	NS	ns2.ipage.com.
+ilovemongolia.mn.	86400	IN	NS	ns1.ipage.com.
 iloveyou.mn.		86400	IN	NS	ns1.nameserver.mn.
 iloveyou.mn.		86400	IN	NS	ns2.nameserver.mn.
 iltgold.mn.		86400	IN	NS	ns1.dns.mn.
@@ -25787,10 +25789,8 @@ khuuli.mn.		86400	IN	NS	ns1.dns.mn.
 khuuli.mn.		86400	IN	NS	ns2.dns.mn.
 khuuli.mn.		86400	IN	NS	ns3.dns.mn.
 khuuli.mn.		86400	IN	NS	ns4.dns.mn.
-khuur.mn.		86400	IN	NS	ns1.dns.mn.
-khuur.mn.		86400	IN	NS	ns2.dns.mn.
-khuur.mn.		86400	IN	NS	ns3.dns.mn.
-khuur.mn.		86400	IN	NS	ns4.dns.mn.
+khuur.mn.		86400	IN	NS	ns2.nameserver.mn.
+khuur.mn.		86400	IN	NS	ns1.nameserver.mn.
 khuvsgul.mn.		86400	IN	NS	ns1.justhost.com.
 khuvsgul.mn.		86400	IN	NS	ns2.justhost.com.
 khuvsgulinfo.mn.	86400	IN	NS	ns1.s610.tmd.cloud.
@@ -27599,6 +27599,10 @@ lobfcqwkqxxwgqflhiga.mn. 86400	IN	NS	ns1.sinkhole.ch.
 lobfcqwkqxxwgqflhiga.mn. 86400	IN	NS	ns2.sinkhole.ch.
 lobfcqwkqxxwgqflhiga.mn. 86400	IN	NS	ns3.sinkhole.ch.
 lobfcqwkqxxwgqflhiga.mn. 86400	IN	NS	ns4.sinkhole.ch.
+lobid.mn.		86400	IN	NS	ns4.dns.mn.
+lobid.mn.		86400	IN	NS	ns3.dns.mn.
+lobid.mn.		86400	IN	NS	ns2.dns.mn.
+lobid.mn.		86400	IN	NS	ns1.dns.mn.
 lobo.mn.		86400	IN	NS	ns1.cp-41.webhostbox.net.
 lobo.mn.		86400	IN	NS	ns2.cp-41.webhostbox.net.
 local.mn.		86400	IN	NS	nimd519118.mars.orderbox-dns.com.
@@ -30797,8 +30801,6 @@ minu.mn.		86400	IN	NS	ns1.dns.mn.
 minu.mn.		86400	IN	NS	ns2.dns.mn.
 minu.mn.		86400	IN	NS	ns3.dns.mn.
 minu.mn.		86400	IN	NS	ns4.dns.mn.
-minutevideos.mn.	86400	IN	NS	ns1.nameserver.mn.
-minutevideos.mn.	86400	IN	NS	ns2.nameserver.mn.
 miot.mn.		86400	IN	NS	ns1.dns.mn.
 miot.mn.		86400	IN	NS	ns2.dns.mn.
 miot.mn.		86400	IN	NS	ns3.dns.mn.
@@ -31207,8 +31209,9 @@ mmnc.mn.		86400	IN	NS	ns1.dns.mn.
 mmnc.mn.		86400	IN	NS	ns2.dns.mn.
 mmnc.mn.		86400	IN	NS	ns3.dns.mn.
 mmnc.mn.		86400	IN	NS	ns4.dns.mn.
-mmnews.mn.		86400	IN	NS	ns1.nameserver.mn.
-mmnews.mn.		86400	IN	NS	ns2.nameserver.mn.
+mmnews.mn.		86400	IN	NS	ns2.itools.mn.
+mmnews.mn.		86400	IN	NS	ns1.itools.mn.
+mmnews.mn.		86400	IN	NS	ns3.itools.mn.
 ns1.mmnews.mn.		86400	IN	A	202.180.219.180
 ns2.mmnews.mn.		86400	IN	A	202.180.219.180
 mmo.mn.			86400	IN	NS	ns1.bluehost.com.
@@ -31890,6 +31893,9 @@ monemp.mn.		86400	IN	NS	dns5.magicnet.mn.
 monemp.mn.		86400	IN	NS	dns6.magicnet.mn.
 monenergy.mn.		86400	IN	NS	ns3.mobinet.mn.
 monenergy.mn.		86400	IN	NS	ns4.mobinet.mn.
+monenzyme.mn.		86400	IN	NS	ns2.itools.mn.
+monenzyme.mn.		86400	IN	NS	ns1.itools.mn.
+monenzyme.mn.		86400	IN	NS	ns3.itools.mn.
 mones.mn.		86400	IN	NS	ns1.dns.mn.
 mones.mn.		86400	IN	NS	ns2.dns.mn.
 mones.mn.		86400	IN	NS	ns3.dns.mn.
@@ -33088,8 +33094,8 @@ monpress.mn.		86400	IN	NS	ns1.dns.mn.
 monpress.mn.		86400	IN	NS	ns2.dns.mn.
 monpress.mn.		86400	IN	NS	ns3.dns.mn.
 monpress.mn.		86400	IN	NS	ns4.dns.mn.
-monprint.mn.		86400	IN	NS	ns1.cp-34.webhostbox.net.
-monprint.mn.		86400	IN	NS	ns2.cp-34.webhostbox.net.
+monprint.mn.		86400	IN	NS	ns2.nameserver.mn.
+monprint.mn.		86400	IN	NS	ns1.nameserver.mn.
 monrail.mn.		86400	IN	NS	dns7.magicnet.mn.
 monrail.mn.		86400	IN	NS	dns8.magicnet.mn.
 monrail.mn.		86400	IN	NS	dns9.magicnet.mn.
@@ -35855,8 +35861,10 @@ ngmrqbmrgwtkwykdrepn.mn. 86400	IN	NS	ns3.sinkhole.ch.
 ngmrqbmrgwtkwykdrepn.mn. 86400	IN	NS	ns4.sinkhole.ch.
 ngnex.mn.		86400	IN	NS	ns1.bluehost.com.
 ngnex.mn.		86400	IN	NS	ns2.bluehost.com.
-ngos.mn.		86400	IN	NS	ns1.nameserver.mn.
-ngos.mn.		86400	IN	NS	ns2.nameserver.mn.
+ngos.mn.		86400	IN	NS	ns4.dns.mn.
+ngos.mn.		86400	IN	NS	ns3.dns.mn.
+ngos.mn.		86400	IN	NS	ns2.dns.mn.
+ngos.mn.		86400	IN	NS	ns1.dns.mn.
 ngs.mn.			86400	IN	NS	rita.ns.cloudflare.com.
 ngs.mn.			86400	IN	NS	damon.ns.cloudflare.com.
 ngt.mn.			86400	IN	NS	es1.itools.mn.
@@ -38908,6 +38916,10 @@ peabodyenergy.mn.	86400	IN	NS	ns1.markmonitor.com.
 peabodyenergy.mn.	86400	IN	NS	ns2.markmonitor.com.
 peabodyenergy.mn.	86400	IN	NS	ns3.markmonitor.com.
 peabodyenergy.mn.	86400	IN	NS	ns4.markmonitor.com.
+peacekeepers.mn.	86400	IN	NS	ns4.dns.mn.
+peacekeepers.mn.	86400	IN	NS	ns3.dns.mn.
+peacekeepers.mn.	86400	IN	NS	ns2.dns.mn.
+peacekeepers.mn.	86400	IN	NS	ns1.dns.mn.
 peacemongolia.mn.	86400	IN	NS	ns1.dns.mn.
 peacemongolia.mn.	86400	IN	NS	ns2.dns.mn.
 peacemongolia.mn.	86400	IN	NS	ns3.dns.mn.
@@ -44128,10 +44140,8 @@ skillstech.mn.		86400	IN	NS	ns1.cp-19.webhostbox.net.
 skillstech.mn.		86400	IN	NS	ns2.cp-19.webhostbox.net.
 skin.mn.		86400	IN	NS	ns1579.websitewelcome.com.
 skin.mn.		86400	IN	NS	ns1580.websitewelcome.com.
-skinhouse.mn.		86400	IN	NS	amar668327.mars.orderbox-dns.com.
-skinhouse.mn.		86400	IN	NS	amar668327.earth.orderbox-dns.com.
-skinhouse.mn.		86400	IN	NS	amar668327.venus.orderbox-dns.com.
-skinhouse.mn.		86400	IN	NS	amar668327.mercury.orderbox-dns.com.
+skinhouse.mn.		86400	IN	NS	ns2.nameserver.mn.
+skinhouse.mn.		86400	IN	NS	ns1.nameserver.mn.
 skinny.mn.		86400	IN	NS	ns1.mediatemple.net.
 skinny.mn.		86400	IN	NS	ns2.mediatemple.net.
 skintech.mn.		86400	IN	NS	ns103.ovh.net.
@@ -44163,10 +44173,8 @@ sky1.mn.		86400	IN	NS	dns10.magicnet.mn.
 sky1.mn.		86400	IN	A	43.231.114.97
 ns.sky1.mn.		86400	IN	A	43.231.114.97
 www.sky1.mn.		86400	IN	A	43.231.114.97
-skyapartment.mn.	86400	IN	NS	ns1.dns.mn.
-skyapartment.mn.	86400	IN	NS	ns2.dns.mn.
-skyapartment.mn.	86400	IN	NS	ns3.dns.mn.
-skyapartment.mn.	86400	IN	NS	ns4.dns.mn.
+skyapartment.mn.	86400	IN	NS	ns2.nameserver.mn.
+skyapartment.mn.	86400	IN	NS	ns1.nameserver.mn.
 skycatering.mn.		86400	IN	NS	ns1.dns.mn.
 skycatering.mn.		86400	IN	NS	ns2.dns.mn.
 skycatering.mn.		86400	IN	NS	ns3.dns.mn.
@@ -44684,10 +44692,8 @@ sods-boutique.mn.	86400	IN	NS	ns1.infomaniak.ch.
 sods-boutique.mn.	86400	IN	NS	ns2.infomaniak.ch.
 sodsboutique.mn.	86400	IN	NS	ns1.infomaniak.ch.
 sodsboutique.mn.	86400	IN	NS	ns2.infomaniak.ch.
-sodtech.mn.		86400	IN	NS	ns1.dns.mn.
-sodtech.mn.		86400	IN	NS	ns2.dns.mn.
-sodtech.mn.		86400	IN	NS	ns3.dns.mn.
-sodtech.mn.		86400	IN	NS	ns4.dns.mn.
+sodtech.mn.		86400	IN	NS	es2.itools.mn.
+sodtech.mn.		86400	IN	NS	es1.itools.mn.
 sodura.mn.		86400	IN	NS	admi516687.mars.orderbox-dns.com.
 sodura.mn.		86400	IN	NS	admi516687.earth.orderbox-dns.com.
 sodura.mn.		86400	IN	NS	admi516687.venus.orderbox-dns.com.
@@ -45814,8 +45820,6 @@ stralfors.mn.		86400	IN	NS	a.ns14.net.
 stralfors.mn.		86400	IN	NS	b.ns14.net.
 stralfors.mn.		86400	IN	NS	c.ns14.net.
 stralfors.mn.		86400	IN	NS	d.ns14.net.
-strategy.mn.		86400	IN	NS	ns1.nameserver.mn.
-strategy.mn.		86400	IN	NS	ns2.nameserver.mn.
 stratu.mn.		86400	IN	NS	ns1gmz.name.com.
 stratu.mn.		86400	IN	NS	ns2hjl.name.com.
 stratu.mn.		86400	IN	NS	ns3cqz.name.com.
@@ -46165,8 +46169,10 @@ sureg.mn.		86400	IN	NS	ns1.dns.mn.
 sureg.mn.		86400	IN	NS	ns2.dns.mn.
 sureg.mn.		86400	IN	NS	ns3.dns.mn.
 sureg.mn.		86400	IN	NS	ns4.dns.mn.
-surgalt.mn.		86400	IN	NS	ns1.nameserver.mn.
-surgalt.mn.		86400	IN	NS	ns2.nameserver.mn.
+surgalt.mn.		86400	IN	NS	dns10.magicnet.mn.
+surgalt.mn.		86400	IN	NS	dns9.magicnet.mn.
+surgalt.mn.		86400	IN	NS	dns8.magicnet.mn.
+surgalt.mn.		86400	IN	NS	dns7.magicnet.mn.
 surgery.mn.		86400	IN	NS	ns1.cp-24.webhostbox.net.
 surgery.mn.		86400	IN	NS	ns2.cp-24.webhostbox.net.
 surguuli.mn.		86400	IN	NS	ns1.dns.mn.
@@ -46653,10 +46659,8 @@ taobao-agent.mn.	86400	IN	NS	ns1.dns.mn.
 taobao-agent.mn.	86400	IN	NS	ns2.dns.mn.
 taobao-agent.mn.	86400	IN	NS	ns3.dns.mn.
 taobao-agent.mn.	86400	IN	NS	ns4.dns.mn.
-taobaozuuch.mn.		86400	IN	NS	dns7.magicnet.mn.
-taobaozuuch.mn.		86400	IN	NS	dns8.magicnet.mn.
-taobaozuuch.mn.		86400	IN	NS	dns9.magicnet.mn.
-taobaozuuch.mn.		86400	IN	NS	dns10.magicnet.mn.
+taobaozuuch.mn.		86400	IN	NS	ns2.huslen.club.
+taobaozuuch.mn.		86400	IN	NS	ns1.huslen.club.
 taobuy.mn.		86400	IN	NS	dns21.isafespace.com.
 taobuy.mn.		86400	IN	NS	dns22.isafespace.com.
 taobuy.mn.		86400	IN	NS	dns23.isafespace.com.
@@ -53376,8 +53380,6 @@ worlds.mn.		86400	IN	NS	ns3.dns.mn.
 worlds.mn.		86400	IN	NS	ns4.dns.mn.
 worldstone.mn.		86400	IN	NS	ns1.ulaach.net.
 worldstone.mn.		86400	IN	NS	ns2.ulaach.net.
-worldstudy.mn.		86400	IN	NS	ns1.nameserver.mn.
-worldstudy.mn.		86400	IN	NS	ns2.nameserver.mn.
 worldtours.mn.		86400	IN	NS	ns775.websitewelcome.com.
 worldtours.mn.		86400	IN	NS	ns776.websitewelcome.com.
 worldtrucker.mn.	86400	IN	NS	a4.nstld.com.
@@ -55179,7 +55181,7 @@ zzz.mn.			86400	IN	NS	04.dnsv.jp.
 1hqugrdaat3icbparouqr4t9ca39onc2.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1K00IAMANUCVVEJGLE0Q6UBSBS8H69KS A RRSIG
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180328102751 20180307092751 29559 mn. dgzqVqnttZjgfRjs0iOaVva0GOoaVCGsXY7Rsv589VnV0d+WsmYXTPXb A9du+d7NDIAojNqhcSkXm6Bn7L44fSydIg3gk92tNhrMUZ4vd9Hbo+I/ 7/EO+PCIP62V+AEM3fPjvzr4f+JZYy0cr5JzBYPCFsqhEECkii0KRzGG c20=
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1KED78CPGM4B6DRULKHF34DJCMHADU50 A RRSIG
-1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180329180535 20180308170535 29559 mn. HiUcVYkpCEdKwLiuNaV6j3/hjifDEFTTg4mfkLQACRss3JDiY0jboNK8 c2z8TpbV3Ns/2h58iF3CUDFwwRX3/LwDYWfkqBZ5QomHzeS9c0O8wC8+ xhkQGVJLhdgvd7xvSeSjJHwdpkUIEgwj6UiJc/BWN9auARhLD5wBnNcY mXI=
+1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180330050909 20180309040909 29559 mn. cJoYPnRi6chn8UN3hhFjyMpvrmOii7blY8WDP9UyC2LYOp95GAqWDs3m 6ylLlOlR5Q6IHhqK9VVzMgTIBygQxfWjtN7Dvpm/t2gXqDKzOPCuyNko kW7B5TwoADYnXs/s1tg38ii6HoLMRn8kcBPIMUvkuFX8AQcWwuqpG/u6 Uuo=
 1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2L6TNI94TUBPIP4GOJQ0EU7SDAECIFLU NS SOA RRSIG DNSKEY NSEC3PARAM
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180328102751 20180307092751 29559 mn. kEJJGZemytv4jNai1d8/wh6E+LNmI86CFdt4o+yVzxrejcprJq5FeEi2 4nVvlSj80MTGAzEzPxSfAg09rzlr7RWUOJuhv3g/C1F/Rmuyso1VYuGC GZeMoFC9uJqwEA6D5u3UpBR3YcLScnYFeNWfpCgj12RFLX4lR4IWLgXi PvE=
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2M56JMVKP6GUKCHIQOO900RSBBD2Q971 A RRSIG
@@ -55377,4 +55379,4 @@ v6225e8t5e0vefevkfb5k7r1mkl9q9o2.mn. 86400 IN RRSIG NSEC3 7 2 86400 201803281027
 v6225e8t5e0vefevkfb5k7r1mkl9q9o2.mn. 86400 IN NSEC3 1 1 1 D399EAAB VDJ4CJMEERK0B91BBLDR18SOMBJTO8BP A RRSIG
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180328102751 20180307092751 29559 mn. AzV2iHZNKxv1S17zG/8nYZ5DmwBG5vb6FPfScBIjxYkgj2C25VI7JwlW 46T4+5KlPBPq28ivtTfB5KHPwn/DecH7W2O431mLnE3bsD4dnmu6ir4Q 3fL7Bd4buESS0a2bEo3iRBWZz3xa7Z2Ql6azWJ6DcaHJ4ouGrvuhigcp MLY=
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN NSEC3 1 1 1 D399EAAB 041KLEK7K6MPSCOCFGAPT5FRKO49R91S A RRSIG
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008192203 10800 7200 604800 86400
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008192222 10800 7200 604800 86400

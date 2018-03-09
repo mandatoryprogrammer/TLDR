@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ao. @ns02.dns.ao. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018030101 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018030901 86400 7200 2592000 3600
 ao.			3600	IN	TXT	"Angola - http://www.dns.ao/"
 ao.			3600	IN	NS	ao01.dns.pt.
 ao.			3600	IN	NS	ao03.dns.pt.
@@ -238,6 +238,8 @@ ns1.bicseguros.ao.	3600	IN	A	196.46.21.164
 ns2.bicseguros.ao.	3600	IN	A	196.46.21.194
 bir.ao.			3600	IN	NS	dns0.snet.co.ao.
 bir.ao.			3600	IN	NS	dns1.snet.co.ao.
+bmais.ao.		3600	IN	NS	ns1.angoweb.biz.
+bmais.ao.		3600	IN	NS	ns2.angoweb.biz.
 bna.ao.			3600	IN	NS	dns3.bna.ao.
 bna.ao.			3600	IN	NS	bnadns1.bna.ao.
 bna.ao.			3600	IN	NS	bnadns2.bna.ao.
@@ -335,6 +337,8 @@ cgs.ed.ao.		3600	IN	NS	dns1.ibername.com.
 cgs.ed.ao.		3600	IN	NS	dns2.ibername.com.
 cgs.ed.ao.		3600	IN	NS	dns3.ibername.net.
 cgs.ed.ao.		3600	IN	NS	dns4.ibername.net.
+educacaocuanzanorte.ed.ao. 3600	IN	NS	ns1.angoweb.biz.
+educacaocuanzanorte.ed.ao. 3600	IN	NS	ns2.angoweb.biz.
 esctsaurimo.ed.ao.	3600	IN	NS	ns1.maxnet.ao.
 esctsaurimo.ed.ao.	3600	IN	NS	ns2.maxnet.ao.
 fecuan.ed.ao.		3600	IN	NS	ns1.mstelcom.net.
@@ -799,6 +803,8 @@ larksen.ao.		3600	IN	NS	ns3.afraid.org.
 larksen.ao.		3600	IN	NS	ns4.afraid.org.
 luandaeditora.ao.	3600	IN	NS	ns1.textoeditora.pt.
 luandaeditora.ao.	3600	IN	NS	ns2.textoeditora.pt.
+maisbank.ao.		3600	IN	NS	ns1.angoweb.biz.
+maisbank.ao.		3600	IN	NS	ns2.angoweb.biz.
 martal.ao.		3600	IN	NS	a.ns.tuxdns.net.
 martal.ao.		3600	IN	NS	b.ns.tuxdns.net.
 maxnet.ao.		3600	IN	NS	ns1.maxnet.ao.
@@ -1081,4 +1087,4 @@ welvitcha.ao.		3600	IN	NS	ns.acs.ao.
 welvitcha.ao.		3600	IN	NS	ns1.acs.ao.
 xikilamoney.ao.		3600	IN	NS	ns.inventadomains.com.
 xikilamoney.ao.		3600	IN	NS	ns2.inventadomains.com.
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018030101 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018030901 86400 7200 2592000 3600

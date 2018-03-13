@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR tj. @ns2.tojikiston.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018031208 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018031305 7200 3600 2678400 7200
 tj.			7200	IN	NS	tj.cctld.authdns.ripe.net.
 tj.			7200	IN	NS	ns1.nic.tj.
 tj.			7200	IN	NS	ns2.tojikiston.com.
@@ -327,6 +327,8 @@ adler.tj.		7200	IN	NS	ns2.reg.ru.
 www.adlia.tj.		7200	IN	A	79.170.188.68
 admedia.tj.		7200	IN	NS	ns1.ht-systems.ru.
 admedia.tj.		7200	IN	NS	ns2.ht-systems.ru.
+admin.tj.		7200	IN	NS	ns1.get.tj.
+admin.tj.		7200	IN	NS	ns2.get.tj.
 adobe.tj.		7200	IN	NS	adobe-dns-01.adobe.com.
 adobe.tj.		7200	IN	NS	adobe-dns-03.adobe.com.
 adrenalin.tj.		7200	IN	NS	ns7.get.tj.
@@ -817,8 +819,8 @@ ant-tv.tj.		7200	IN	NS	ns1.timeweb.ru.
 ant-tv.tj.		7200	IN	NS	ns2.timeweb.ru.
 ant-tv.tj.		7200	IN	NS	ns3.timeweb.org.
 ant-tv.tj.		7200	IN	NS	ns4.timeweb.org.
-antares.tj.		7200	IN	NS	syzran.ens.mail.ru.
-antares.tj.		7200	IN	NS	voronezh.ens.mail.ru.
+antares.tj.		7200	IN	NS	ns1.ukit.com.
+antares.tj.		7200	IN	NS	ns2.ukit.com.
 anticafe.tj.		7200	IN	NS	pins1.eastera.tj.
 anticafe.tj.		7200	IN	NS	pins2.eastera.tj.
 anticorruption.tj.	7200	IN	NS	ns.tojikiston.com.
@@ -3815,8 +3817,10 @@ deloitte.tj.		7200	IN	NS	ns2.gldn.net.
 deloitte.tj.		7200	IN	NS	ns3.gldn.net.
 delta.tj.		7200	IN	NS	pins1.eastera.tj.
 delta.tj.		7200	IN	NS	pins2.eastera.tj.
-deltagps.tj.		7200	IN	NS	ns.tojikiston.com.
-deltagps.tj.		7200	IN	NS	ns1.tojikiston.com.
+deltagps.tj.		7200	IN	NS	ns1.timeweb.ru.
+deltagps.tj.		7200	IN	NS	ns2.timeweb.ru.
+deltagps.tj.		7200	IN	NS	ns3.timeweb.org.
+deltagps.tj.		7200	IN	NS	ns4.timeweb.org.
 deluxe.tj.		7200	IN	NS	ns1.sedoparking.com.
 deluxe.tj.		7200	IN	NS	ns2.sedoparking.com.
 dena.tj.		7200	IN	NS	ns1.reg.ru.
@@ -4027,6 +4031,8 @@ domofon.tj.		7200	IN	NS	pid1.srv53.net.
 domofon.tj.		7200	IN	NS	pid2.srv53.org.
 domofoni.tj.		7200	IN	NS	ns.tojikiston.com.
 domofoni.tj.		7200	IN	NS	ns1.tojikiston.com.
+don.tj.			7200	IN	NS	dns1.yandex.net.
+don.tj.			7200	IN	NS	dns2.yandex.net.
 dona.tj.		7200	IN	NS	ns1.rsnx.ru.
 dona.tj.		7200	IN	NS	ns2.rsnx.ru.
 donish.tj.		7200	IN	NS	ns1.ehost.tj.
@@ -4105,10 +4111,8 @@ dropbox.tj.		7200	IN	NS	ns.tojikiston.com.
 dropbox.tj.		7200	IN	NS	ns1.tojikiston.com.
 drsertus.tj.		7200	IN	NS	ns1.wm-article.com.
 drsertus.tj.		7200	IN	NS	ns2.wm-article.com.
-drug.tj.		7200	IN	NS	ns1.drug.tj.
-drug.tj.		7200	IN	NS	ns2.drug.tj.
-ns1.drug.tj.		7200	IN	A	176.56.229.20
-ns2.drug.tj.		7200	IN	A	176.56.229.20
+drug.tj.		7200	IN	NS	ns1.ispua.com.
+drug.tj.		7200	IN	NS	ns2.ispua.com.
 drugs.tj.		7200	IN	NS	ns1.sedoparking.com.
 drugs.tj.		7200	IN	NS	ns2.sedoparking.com.
 drweb.tj.		7200	IN	NS	ns1.sedoparking.com.
@@ -4193,8 +4197,10 @@ dusti.tj.		7200	IN	NS	ns1.abstragan.com.
 dusti.tj.		7200	IN	NS	ns2.abstragan.com.
 dusti-alisher.tj.	7200	IN	NS	ns1.ihc.ru.
 dusti-alisher.tj.	7200	IN	NS	ns2.ihc.ru.
-dutyfree.tj.		7200	IN	NS	ns1.h07.hvosting.ua.
-dutyfree.tj.		7200	IN	NS	ns2.h07.hvosting.ua.
+dutyfree.tj.		7200	IN	NS	ns1.hostinger.com.ua.
+dutyfree.tj.		7200	IN	NS	ns2.hostinger.com.ua.
+dutyfree.tj.		7200	IN	NS	ns3.hostinger.com.ua.
+dutyfree.tj.		7200	IN	NS	ns4.hostinger.com.ua.
 duxtur.tj.		7200	IN	NS	ns1.rsnx.ru.
 duxtur.tj.		7200	IN	NS	ns2.rsnx.ru.
 duzanda.tj.		7200	IN	NS	ns.tarena-tj.org.
@@ -4877,8 +4883,6 @@ finnair.tj.		7200	IN	NS	ns1.netnames.net.
 finnair.tj.		7200	IN	NS	ns2.netnames.net.
 fiorucci.tj.		7200	IN	NS	ns1.rrpproxy.net.
 fiorucci.tj.		7200	IN	NS	ns2.rrpproxy.net.
-fira.tj.		7200	IN	NS	ns.tarena-tj.org.
-fira.tj.		7200	IN	NS	ns2.tarena.tj.
 firat.tj.		7200	IN	NS	ns1.webkontrol.firatplastik.biz.tr.
 firat.tj.		7200	IN	NS	ns2.webkontrol.firatplastik.biz.tr.
 firatpen.tj.		7200	IN	NS	ns1.webkontrol.firatplastik.biz.tr.
@@ -10282,6 +10286,8 @@ rahmat2004.tj.		7200	IN	NS	ns.sugdien.com.
 rahmat2004.tj.		7200	IN	NS	ns2.tajnet.tj.
 rahsh.tj.		7200	IN	NS	ns.tojikiston.com.
 rahsh.tj.		7200	IN	NS	ns1.tojikiston.com.
+rahsh-khatlon.tj.	7200	IN	NS	ns1.hothat.ru.
+rahsh-khatlon.tj.	7200	IN	NS	ns2.hothat.ru.
 railway.tj.		7200	IN	NS	ns.tojikiston.com.
 railway.tj.		7200	IN	NS	ns1.tojikiston.com.
 rainbow.tj.		7200	IN	NS	ns1.tajnet.ru.
@@ -10845,6 +10851,8 @@ sanjobak.tj.		7200	IN	NS	ns3.timeweb.org.
 sanjobak.tj.		7200	IN	NS	ns4.timeweb.org.
 sanoat.tj.		7200	IN	NS	ns.tojikiston.com.
 sanoat.tj.		7200	IN	NS	ns1.tojikiston.com.
+saodat.tj.		7200	IN	NS	ns.tojikiston.com.
+saodat.tj.		7200	IN	NS	ns1.tojikiston.com.
 saodat-milk.tj.		7200	IN	NS	ns.tojikiston.com.
 saodat-milk.tj.		7200	IN	NS	ns1.tojikiston.com.
 sapeda112.tj.		7200	IN	NS	ns3.ism.tj.
@@ -14146,4 +14154,4 @@ zyclara.tj.		7200	IN	NS	ns1.domaininfo.com.
 zyclara.tj.		7200	IN	NS	ns2.domaininfo.com.
 zz.tj.			7200	IN	NS	pns11.cloudns.net.
 zz.tj.			7200	IN	NS	pns12.cloudns.net.
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018031208 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018031305 7200 3600 2678400 7200

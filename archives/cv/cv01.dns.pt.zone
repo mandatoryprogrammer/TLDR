@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018031601 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018031901 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -40,6 +40,9 @@ abccv.cv.		28800	IN	NS	ns1.agamids.com.
 abccv.cv.		28800	IN	NS	ns2.agamids.com.
 abraco.cv.		28800	IN	NS	ns3.dnstarvos.com.
 abraco.cv.		28800	IN	NS	ns4.dnstarvos.com.
+acacv.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
+acacv.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
+acacv.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
 academicadapraia.cv.	28800	IN	NS	ns1.servconfig.com.
 academicadapraia.cv.	28800	IN	NS	ns2.servconfig.com.
 academicamindelo.cv.	28800	IN	NS	ns25.boxsecured.com.
@@ -228,9 +231,9 @@ amp.cv.			28800	IN	NS	ns1.aguianet.com.
 amp.cv.			28800	IN	NS	ns2.aguianet.com.
 amp.cv.			28800	IN	NS	ns293.websitewelcome.com.
 amp.cv.			28800	IN	NS	ns294.websitewelcome.com.
+ams.cv.			28800	IN	A	41.221.194.233
 ams.cv.			28800	IN	NS	ns1.gov.cv.
 ams.cv.			28800	IN	NS	ns2.gov.cv.
-ams.cv.			28800	IN	A	41.221.194.233
 anac.cv.		28800	IN	NS	ns1.anac.cv.
 anac.cv.		28800	IN	NS	ns2.anac.cv.
 anac.cv.		28800	IN	NS	ns3.anac.cv.
@@ -1815,6 +1818,8 @@ csa.cv.			28800	IN	NS	ns-a1.vodafone.pt.
 csa.cv.			28800	IN	NS	ns-a2.vodafone.pt.
 csa.cv.			28800	IN	NS	ns-b1.vodafone.pt.
 csa.cv.			28800	IN	NS	ns-b2.vodafone.pt.
+csmj.cv.		28800	IN	NS	ns1.rhostjh.com.
+csmj.cv.		28800	IN	NS	ns2.rhostjh.com.
 ctcv.cv.		28800	IN	NS	ns1.digitalocean.com.
 ctcv.cv.		28800	IN	NS	ns2.digitalocean.com.
 ctcv.cv.		28800	IN	NS	ns3.digitalocean.com.
@@ -2858,8 +2863,8 @@ imp.cv.			28800	IN	NS	ns294.websitewelcome.com.
 mx-41-221-194-240.imp.cv. 28800	IN	A	41.221.194.240
 impar.cv.		28800	IN	NS	ns1.lxsistemas.com.
 impar.cv.		28800	IN	NS	ns2.lxsistemas.com.
-imperio.cv.		28800	IN	NS	ns1.cabosys.cv.
-imperio.cv.		28800	IN	NS	ns2.cabosys.cv.
+imperio.cv.		28800	IN	NS	ns5001.mochahost.com.
+imperio.cv.		28800	IN	NS	ns6001.mochahost.com.
 imporcar.cv.		28800	IN	NS	ns01.trademarkarea.com.
 imporcar.cv.		28800	IN	NS	ns02.trademarkarea.com.
 imporcar.cv.		28800	IN	NS	ns03.trademarkarea.com.
@@ -3225,10 +3230,10 @@ maj.cv.			28800	IN	NS	b186ns1.hocnet.pt.
 maj.cv.			28800	IN	NS	b186ns2.hocnet.pt.
 makeithappen.cv.	28800	IN	NS	ns1.bh-74.webhostbox.net.
 makeithappen.cv.	28800	IN	NS	ns2.bh-74.webhostbox.net.
-mantadivingcenter.cv.	28800	IN	NS	dns1.rede1024.com.
-mantadivingcenter.cv.	28800	IN	NS	dns2.rede1024.com.
-mantadivingcenter.cv.	28800	IN	NS	dns3.rede1024.com.
-mantadivingcenter.cv.	28800	IN	NS	dns4.rede1024.com.
+mantadivingcenter.cv.	86400	IN	NS	dns1.rede1024.com.
+mantadivingcenter.cv.	86400	IN	NS	dns2.rede1024.com.
+mantadivingcenter.cv.	86400	IN	NS	dns3.rede1024.com.
+mantadivingcenter.cv.	86400	IN	NS	dns4.rede1024.com.
 mantenha.cv.		28800	IN	NS	ns1.limoncv.com.
 mantenha.cv.		28800	IN	NS	ns2.limoncv.com.
 mantenha.cv.		28800	IN	NS	ns3.websitewelcome.com.
@@ -3601,9 +3606,9 @@ acrh.org.cv.		28800	IN	NS	ns1.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns2.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns3.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns4.nameresolve.com.
-acrides.org.cv.		28800	IN	A	41.221.194.233
 acrides.org.cv.		28800	IN	NS	ns1.gov.cv.
 acrides.org.cv.		28800	IN	NS	ns2.gov.cv.
+acrides.org.cv.		28800	IN	A	41.221.194.233
 adad.org.cv.		28800	IN	NS	ns.jcle.pt.
 adad.org.cv.		28800	IN	NS	ns.jcle.net.
 adventistas.org.cv.	28800	IN	NS	ns1.servconfig.com.
@@ -4160,15 +4165,15 @@ rm2.cv.			28800	IN	NS	ns1.siteground5.com.
 rm2.cv.			28800	IN	NS	ns2.siteground5.com.
 rmais.cv.		28800	IN	NS	ns1.limoncv.com.
 rmais.cv.		28800	IN	NS	ns2.limoncv.com.
-rni.cv.			28800	IN	AAAA	2600:2000:1000::7
-rni.cv.			28800	IN	AAAA	2600:2000:1001::7
 rni.cv.			28800	IN	NS	ns1.nosiwebhosting.com.
 rni.cv.			28800	IN	NS	ns2.nosiwebhosting.com.
 rni.cv.			28800	IN	NS	ns3.nosiwebhosting.com.
-robinson.cv.		28800	IN	NS	ns01.brandshelter.com.
-robinson.cv.		28800	IN	NS	ns02.brandshelter.net.
+rni.cv.			28800	IN	AAAA	2600:2000:1000::7
+rni.cv.			28800	IN	AAAA	2600:2000:1001::7
 robinson.cv.		28800	IN	AAAA	2600:2000:1000::7
 robinson.cv.		28800	IN	AAAA	2600:2000:1001::7
+robinson.cv.		28800	IN	NS	ns01.brandshelter.com.
+robinson.cv.		28800	IN	NS	ns02.brandshelter.net.
 robinson-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -4455,11 +4460,11 @@ sit.cv.			28800	IN	NS	ns2.bluehost.com.
 mail.sit.cv.		28800	IN	A	50.87.248.126
 sita.cv.		28800	IN	NS	b186ns1.hocnet.pt.
 sita.cv.		28800	IN	NS	b186ns2.hocnet.pt.
+sitam.cv.		28800	IN	NS	rns4a.justhost.com.
+sitam.cv.		28800	IN	NS	rns4b.justhost.com.
 sitam.cv.		28800	IN	AAAA	2620:115:c00f::c000:4a09
 sitam.cv.		28800	IN	AAAA	2a04:fa87:ffff::c6b5:7409
 sitam.cv.		28800	IN	AAAA	2a04:fa87:ffff::c6b5:7509
-sitam.cv.		28800	IN	NS	rns4a.justhost.com.
-sitam.cv.		28800	IN	NS	rns4b.justhost.com.
 skribi.cv.		28800	IN	NS	ns1.wordpress.COM.
 skribi.cv.		28800	IN	NS	ns2.wordpress.COM.
 skribi.cv.		28800	IN	NS	ns3.wordpress.COM.
@@ -4570,8 +4575,8 @@ sprite.cv.		28800	IN	NS	ns3.ko.com.
 sprite.cv.		28800	IN	NS	ns4.ko.com.
 square.cv.		28800	IN	NS	ns1.siteground263.com.
 square.cv.		28800	IN	NS	ns2.siteground263.com.
-src.cv.			86400	IN	NS	ns1.webs24h.com.
-src.cv.			86400	IN	NS	ns2.webs24h.com.
+src.cv.			28800	IN	NS	ns1.webs24h.com.
+src.cv.			28800	IN	NS	ns2.webs24h.com.
 staffpromo.cv.		28800	IN	NS	ns3.dnstarvos.com.
 staffpromo.cv.		28800	IN	NS	ns4.dnstarvos.com.
 stec.cv.		28800	IN	NS	ns1.stec.cv.
@@ -4982,4 +4987,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018031601 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018031901 86400 7200 2592000 300

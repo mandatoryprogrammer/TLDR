@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR bi. @ns1.nic.bi. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018031522 21600 3600 604800 86400
-bi.			86400	IN	TXT	"Generation Time: 1521144617"
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018032008 21600 3600 604800 86400
+bi.			86400	IN	TXT	"Generation Time: 1521526220"
 bi.			86400	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			86400	IN	NS	ns.nic.bi.
 bi.			86400	IN	NS	ns1.nic.bi.
@@ -14,8 +14,6 @@ bi.			86400	IN	NS	ns-bi.afrinic.net.
 01.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 08.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 08.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
-088.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
-088.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 10.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 10.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 100.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -303,8 +301,8 @@ ali.bi.			86400	IN	NS	ns2.afriregister.bi.
 alibaba.bi.		86400	IN	NS	ns1.101domain.com.
 alibaba.bi.		86400	IN	NS	ns2.101domain.com.
 alibaba.bi.		86400	IN	NS	ns5.101domain.com.
-alien.bi.		86400	IN	NS	f1g1ns1.dnspod.net.
-alien.bi.		86400	IN	NS	f1g1ns2.dnspod.net.
+alien.bi.		86400	IN	NS	ns1.sedoparking.com.
+alien.bi.		86400	IN	NS	ns2.sedoparking.com.
 all.bi.			86400	IN	NS	ns1.afriregister.bi.
 all.bi.			86400	IN	NS	ns2.afriregister.bi.
 allianz.bi.		86400	IN	NS	ns1.allianz.com.
@@ -393,8 +391,8 @@ animalplanet.bi.	86400	IN	NS	curie.netsol.com.
 animalplanet.bi.	86400	IN	NS	hertz.netsol.com.
 anssburundi.bi.		86400	IN	NS	ns1.afriregister.bi.
 anssburundi.bi.		86400	IN	NS	ns2.afriregister.bi.
-ant.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
-ant.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
+ant.bi.			86400	IN	NS	ns1.sedoparking.com.
+ant.bi.			86400	IN	NS	ns2.sedoparking.com.
 antistax.bi.		86400	IN	NS	ns1.sanofi-synthelabo.com.
 antistax.bi.		86400	IN	NS	ns2.sanofi-synthelabo.com.
 antistax.bi.		86400	IN	NS	ns3.sanofi-synthelabo.com.
@@ -476,6 +474,8 @@ arrow.bi.		86400	IN	NS	ns5.markmonitor.com.
 arrow.bi.		86400	IN	NS	ns6.markmonitor.com.
 art.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 art.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
+artificial.bi.		86400	IN	NS	ns1.sedoparking.com.
+artificial.bi.		86400	IN	NS	ns2.sedoparking.com.
 arts.bi.		86400	IN	NS	ns1.afriregister.co.ke.
 arts.bi.		86400	IN	NS	ns2.afriregister.co.ke.
 arw.bi.			86400	IN	NS	ns1.markmonitor.com.
@@ -599,8 +599,8 @@ bank.bi.		86400	IN	NS	ns1.4.cn.
 bank.bi.		86400	IN	NS	ns2.4.cn.
 bankamerica.bi.		86400	IN	NS	dns1.cscdns.net.
 bankamerica.bi.		86400	IN	NS	dns2.cscdns.net.
-bankofamerica.bi.	86400	IN	NS	ns3.bankofamerica.com.
-bankofamerica.bi.	86400	IN	NS	ns4.bankofamerica.com.
+bankofamerica.bi.	86400	IN	NS	dns1.cscdns.net.
+bankofamerica.bi.	86400	IN	NS	dns2.cscdns.net.
 bao.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 bao.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 barclays.bi.		86400	IN	NS	ns01.barclays.com.
@@ -975,8 +975,8 @@ bottegaveneta.bi.	86400	IN	NS	nsusa.comlaude.net.
 bourgault.bi.		86400	IN	NS	ns1.101domain.com.
 bourgault.bi.		86400	IN	NS	ns2.101domain.com.
 bourgault.bi.		86400	IN	NS	ns5.101domain.com.
-box.bi.			86400	IN	NS	ns1.bodis.com.
-box.bi.			86400	IN	NS	ns2.bodis.com.
+box.bi.			86400	IN	NS	ns1.sedoparking.com.
+box.bi.			86400	IN	NS	ns2.sedoparking.com.
 boxoffice.bi.		86400	IN	NS	ns1.mweb.co.za.
 boxoffice.bi.		86400	IN	NS	ns2.mweb.co.za.
 bpm.bi.			86400	IN	NS	ns1.101domain.com.
@@ -1044,8 +1044,8 @@ bulova.bi.		86400	IN	NS	a4.nstld.com.
 bulova.bi.		86400	IN	NS	f4.nstld.com.
 bulova.bi.		86400	IN	NS	g4.nstld.com.
 bulova.bi.		86400	IN	NS	l4.nstld.com.
-bunpud.bi.		86400	IN	NS	ns1.afriregister.co.ke.
-bunpud.bi.		86400	IN	NS	ns2.afriregister.co.ke.
+bunpud.bi.		86400	IN	NS	ns5.afriregister.co.ke.
+bunpud.bi.		86400	IN	NS	ns6.afriregister.co.ke.
 burea-aber.bi.		86400	IN	NS	ns1.afriregister.co.ke.
 burea-aber.bi.		86400	IN	NS	ns2.afriregister.co.ke.
 burundi-gov.bi.		86400	IN	NS	ns1.dns.ne.jp.
@@ -1422,6 +1422,8 @@ cosome.bi.		86400	IN	NS	ns2.afriregister.bi.
 cotecna.bi.		86400	IN	NS	a.ns.mailclub.fr.
 cotecna.bi.		86400	IN	NS	b.ns.mailclub.eu.
 cotecna.bi.		86400	IN	NS	c.ns.mailclub.com.
+courdescomptes.bi.	86400	IN	NS	ns1.afriregister.bi.
+courdescomptes.bi.	86400	IN	NS	ns2.afriregister.bi.
 covestro.bi.		86400	IN	NS	pdns1.cscdns.net.
 covestro.bi.		86400	IN	NS	pdns2.cscdns.net.
 cpu.bi.			86400	IN	NS	ns1.101domain.com.
@@ -1429,6 +1431,8 @@ cpu.bi.			86400	IN	NS	ns2.101domain.com.
 cpu.bi.			86400	IN	NS	ns5.101domain.com.
 crb.bi.			86400	IN	NS	ns1.afriregister.co.ke.
 crb.bi.			86400	IN	NS	ns2.afriregister.co.ke.
+creativepower.bi.	86400	IN	NS	ns1.afriregister.com.
+creativepower.bi.	86400	IN	NS	ns2.afriregister.com.
 credit.bi.		86400	IN	NS	ns1.sedoparking.com.
 credit.bi.		86400	IN	NS	ns1.sedoparking.com2.
 crmall.bi.		86400	IN	NS	ns1.bs2.com.br.
@@ -1658,8 +1662,6 @@ diva.bi.		86400	IN	NS	ns1.mediatemple.net.
 diva.bi.		86400	IN	NS	ns2.mediatemple.net.
 dlapiper.bi.		86400	IN	NS	dns1.cscdns.net.
 dlapiper.bi.		86400	IN	NS	dns2.cscdns.net.
-dn.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
-dn.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 dna.bi.			86400	IN	NS	ns1.101domain.com.
 dna.bi.			86400	IN	NS	ns2.101domain.com.
 dna.bi.			86400	IN	NS	ns5.101domain.com.
@@ -2162,6 +2164,8 @@ franke.bi.		86400	IN	NS	ns1.rrpproxy.net.
 franke.bi.		86400	IN	NS	ns2.aspectra.com.
 franke.bi.		86400	IN	NS	ns2.rrpproxy.net.
 franke.bi.		86400	IN	NS	ns3.rrpproxy.net.
+free.bi.		86400	IN	NS	f1g1ns1.dnspod.net.
+free.bi.		86400	IN	NS	f1g1ns2.dnspod.net.
 freesms.bi.		86400	IN	NS	ns1.business-server.net.
 freesms.bi.		86400	IN	NS	ns2.business-server.net.
 frn.bi.			86400	IN	NS	ns1.afriregister.bi.
@@ -2225,8 +2229,8 @@ ge.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 ge.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 geedo.bi.		86400	IN	NS	burt.ns.cloudflare.com.
 geedo.bi.		86400	IN	NS	jade.ns.cloudflare.com.
-gene.bi.		86400	IN	NS	f1g1ns1.dnspod.net.
-gene.bi.		86400	IN	NS	f1g1ns2.dnspod.net.
+gene.bi.		86400	IN	NS	ns1.sedoparking.com.
+gene.bi.		86400	IN	NS	ns2.sedoparking.com.
 genie.bi.		86400	IN	NS	ns.second-ns.com.
 genie.bi.		86400	IN	NS	ns1.your-server.de.
 ger.bi.			86400	IN	NS	ns.inwx.de.
@@ -2904,8 +2908,8 @@ isoc.bi.		86400	IN	NS	ns1.afriregister.bi.
 isoc.bi.		86400	IN	NS	ns2.afriregister.bi.
 isteebu.bi.		86400	IN	NS	ns1.afriregister.bi.
 isteebu.bi.		86400	IN	NS	ns2.afriregister.bi.
-it.bi.			86400	IN	NS	ns1.alidns.com.
-it.bi.			86400	IN	NS	ns2.alidns.com.
+it.bi.			86400	IN	NS	ns1.sedoparking.com.
+it.bi.			86400	IN	NS	ns2.sedoparking.com.
 italy.bi.		86400	IN	NS	a.dns.gandi.net.
 italy.bi.		86400	IN	NS	b.dns.gandi.netc.
 italy.bi.		86400	IN	NS	c.dns.gandi.net.
@@ -3044,8 +3048,6 @@ justwalkout.bi.		86400	IN	NS	nsusa.comlaude.net.
 jwo.bi.			86400	IN	NS	nsgbr.comlaude.co.uk.
 jwo.bi.			86400	IN	NS	nssui.comlaude.ch.
 jwo.bi.			86400	IN	NS	nsusa.comlaude.net.
-jy.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
-jy.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 kai.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 kai.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 kaja.bi.		86400	IN	NS	ns3.afriregister.co.ke.
@@ -3359,20 +3361,10 @@ looneytunes.bi.		86400	IN	NS	dns1.emarkmonitor.com.
 looneytunes.bi.		86400	IN	NS	dns2.emarkmonitor.com.
 loop.bi.		86400	IN	NS	will.ns.cloudflare.com.
 loop.bi.		86400	IN	NS	zara.ns.cloudflare.com.
-loropiana.bi.		86400	IN	NS	ns10.dotnice.com.
-loropiana.bi.		86400	IN	NS	ns11.dotnice.com.
-loropiana.bi.		86400	IN	NS	ns12.dotnice.com.
-loropiana.bi.		86400	IN	NS	ns13.dotnice.com.
-lotoburundi.bi.		86400	IN	NS	ns1.francedns.com.
-lotoburundi.bi.		86400	IN	NS	ns2.francedns.com.
-lotoburundi.bi.		86400	IN	NS	ns3.francedns.com.
-lotoburundi.bi.		86400	IN	NS	ns4.francedns.com.
-lotoburundi.bi.		86400	IN	NS	ns5.francedns.com.
-lottoburundi.bi.	86400	IN	NS	ns1.francedns.com.
-lottoburundi.bi.	86400	IN	NS	ns2.francedns.com.
-lottoburundi.bi.	86400	IN	NS	ns3.francedns.com.
-lottoburundi.bi.	86400	IN	NS	ns4.francedns.com.
-lottoburundi.bi.	86400	IN	NS	ns5.francedns.com.
+loropiana.bi.		86400	IN	NS	ns.dotnice.co.uk.
+loropiana.bi.		86400	IN	NS	ns.dotnice.sg.
+loropiana.bi.		86400	IN	NS	ns.dotnice.us.
+loropiana.bi.		86400	IN	NS	ns.dotnice.com.br.
 lotus.bi.		86400	IN	NS	f1g1ns1.dnspod.net.
 lotus.bi.		86400	IN	NS	f1g1ns2.dnspod.net.
 love.bi.		86400	IN	NS	ns1.sedoparking.com.
@@ -4189,6 +4181,8 @@ p2p.bi.			86400	IN	NS	ns1.afriregister.bi.
 p2p.bi.			86400	IN	NS	ns2.afriregister.bi.
 pacifichotel.bi.	86400	IN	NS	ns1.afriregister.bi.
 pacifichotel.bi.	86400	IN	NS	ns2.afriregister.bi.
+pacsc-se.bi.		86400	IN	NS	ns1.afriregister.co.ke.
+pacsc-se.bi.		86400	IN	NS	ns2.afriregister.co.ke.
 pad.bi.			86400	IN	NS	ns1.101domain.com.
 pad.bi.			86400	IN	NS	ns2.101domain.com.
 pad.bi.			86400	IN	NS	ns5.101domain.com.
@@ -4421,6 +4415,9 @@ pro.bi.			86400	IN	NS	ns2.savana.cz.
 pro.bi.			86400	IN	NS	ns3.savana.cz.
 procureo.bi.		86400	IN	NS	ns3.combell.net.
 procureo.bi.		86400	IN	NS	ns4.combell.net.
+profit.bi.		86400	IN	NS	ns1.101domain.com.
+profit.bi.		86400	IN	NS	ns2.101domain.com.
+profit.bi.		86400	IN	NS	ns5.101domain.com.
 programmedss.bi.	86400	IN	NS	ns1.afriregister.co.ke.
 programmedss.bi.	86400	IN	NS	ns2.afriregister.co.ke.
 property24.bi.		86400	IN	NS	ns1.homefind24.co.za.
@@ -4750,8 +4747,8 @@ sastransportsandlogistics.bi. 86400 IN	NS	ns1.afriregister.bi.
 sastransportsandlogistics.bi. 86400 IN	NS	ns2.afriregister.bi.
 sb.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 sb.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
-sc.bi.			86400	IN	NS	ns1.bodis.com.
-sc.bi.			86400	IN	NS	ns2.bodis.com.
+sc.bi.			86400	IN	NS	ns1.sedoparking.com.
+sc.bi.			86400	IN	NS	ns2.sedoparking.com.
 scania.bi.		86400	IN	NS	ns.scania.se.
 scania.bi.		86400	IN	NS	ns2.scania.se.
 scep.bi.		86400	IN	NS	ns1.afriregister.bi.
@@ -4959,6 +4956,8 @@ sogeni.bi.		86400	IN	NS	ns2.afriregister.co.ke.
 sohu.bi.		86400	IN	NS	ns1.101domain.com.
 sohu.bi.		86400	IN	NS	ns2.101domain.com.
 sohu.bi.		86400	IN	NS	ns5.101domain.com.
+soko.bi.		86400	IN	NS	ns311.edns1.com.
+soko.bi.		86400	IN	NS	ns312.edns1.com.
 sokoni.bi.		86400	IN	NS	ns1.afriregister.bi.
 sokoni.bi.		86400	IN	NS	ns2.afriregister.bi.
 sola.bi.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -5123,8 +5122,8 @@ suntop.bi.		86400	IN	NS	ns1.ascio.net.
 suntop.bi.		86400	IN	NS	ns2.ascio.net.
 suntop.bi.		86400	IN	NS	ns3.ascio.net.
 suntop.bi.		86400	IN	NS	ns4.ascio.net.
-super.bi.		86400	IN	NS	ns1.bodis.com.
-super.bi.		86400	IN	NS	ns2.bodis.com.
+super.bi.		86400	IN	NS	ns1.sedoparking.com.
+super.bi.		86400	IN	NS	ns2.sedoparking.com.
 superdry.bi.		86400	IN	NS	nsgbr.comlaude.co.uk.
 superdry.bi.		86400	IN	NS	nssui.comlaude.ch.
 superdry.bi.		86400	IN	NS	nsusa.comlaude.net.
@@ -5133,8 +5132,8 @@ supermarchedimitri.bi.	86400	IN	NS	ns2.afriregister.co.ke.
 suv.bi.			86400	IN	NS	ns1.101domain.com.
 suv.bi.			86400	IN	NS	ns2.101domain.com.
 suv.bi.			86400	IN	NS	ns5.101domain.com.
-swarm.bi.		86400	IN	NS	ns1.bodis.com.
-swarm.bi.		86400	IN	NS	ns2.bodis.com.
+swarm.bi.		86400	IN	NS	ns1.sedoparking.com.
+swarm.bi.		86400	IN	NS	ns2.sedoparking.com.
 swingers.bi.		86400	IN	NS	ns1.101domain.com.
 swingers.bi.		86400	IN	NS	ns2.101domain.com.
 swingers.bi.		86400	IN	NS	ns5.101domain.com.
@@ -5531,8 +5530,9 @@ vakansie.bi.		86400	IN	NS	ns2.francedns.com.
 vakansie.bi.		86400	IN	NS	ns3.francedns.com.
 vakansie.bi.		86400	IN	NS	ns4.francedns.com.
 vakansie.bi.		86400	IN	NS	ns5.francedns.com.
-vale.bi.		86400	IN	NS	domainame.iptwins.net.
-vale.bi.		86400	IN	NS	trademark.iptwins.net.
+vale.bi.		86400	IN	NS	ns1.registrocom.com.br.
+vale.bi.		86400	IN	NS	ns2.registrocom.com.br.
+vale.bi.		86400	IN	NS	ns3.registrocom.com.br.
 value.bi.		86400	IN	NS	ns1.sedoparking.com.
 value.bi.		86400	IN	NS	ns2.sedoparking.com.
 vantara.bi.		86400	IN	NS	sgsinns08.hds.com.
@@ -5675,6 +5675,9 @@ wa-sa.bi.		86400	IN	NS	ns-1321.awsdns-37.org.
 wa-sa.bi.		86400	IN	NS	ns-1965.awsdns-53.co.uk.
 wai.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 wai.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
+wakato.bi.		86400	IN	NS	ns1.bb-online.net.
+wakato.bi.		86400	IN	NS	ns2.bb-online.net.
+wakato.bi.		86400	IN	NS	brain.bb-online.co.uk.
 wakuang.bi.		86400	IN	NS	ns1.afriregister.bi.
 wakuang.bi.		86400	IN	NS	ns2.afriregister.bi.
 wal-mart.bi.		86400	IN	NS	dns1.cscdns.net.
@@ -5695,8 +5698,6 @@ wang.bi.		86400	IN	NS	ns1.freehosting.com.
 wang.bi.		86400	IN	NS	ns2.freehosting.com.
 wanke.bi.		86400	IN	NS	ns1.ndns.cn.
 wanke.bi.		86400	IN	NS	ns2.ndns.cn.
-wap.bi.			86400	IN	NS	ns11.xincache.com.
-wap.bi.			86400	IN	NS	ns12.xincache.com.
 warchild.bi.		86400	IN	NS	ns1.hostnetbv.nl.
 warchild.bi.		86400	IN	NS	ns2.hostnetbv.nl.
 warehouse.bi.		86400	IN	NS	jonah.ns.cloudflare.com.
@@ -6068,6 +6069,8 @@ zhi.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 zhi.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 zhibo.bi.		86400	IN	NS	ns1.afriregister.bi.
 zhibo.bi.		86400	IN	NS	ns2.afriregister.bi.
+zhidao.bi.		86400	IN	NS	f1g1ns1.dnspod.net.
+zhidao.bi.		86400	IN	NS	f1g1ns2.dnspod.net.
 zhifu.bi.		86400	IN	NS	f1g1ns1.dnspod.net.
 zhifu.bi.		86400	IN	NS	f1g1ns2.dnspod.net.
 zhong.bi.		86400	IN	NS	ns1.afriregister.bi.
@@ -6125,4 +6128,4 @@ zzp.bi.			86400	IN	NS	nameserver1.intellyhosting.nl.
 zzp.bi.			86400	IN	NS	nameserver2.intellyhosting.eu.
 zzp.bi.			86400	IN	NS	nameserver3.intellyhosting.be.
 zzp.bi.			86400	IN	NS	nameserver4.intellyhosting.com.
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018031522 21600 3600 604800 86400
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018032008 21600 3600 604800 86400

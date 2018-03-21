@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns1.nic.mr. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018032109 21600 3600 3600000 604800
-mr.			3600	IN	TXT	"Generation Time: 1521622804"
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018032111 21600 3600 3600000 604800
+mr.			3600	IN	TXT	"Generation Time: 1521630009"
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns3.nic.fr.
@@ -2130,6 +2130,9 @@ kra.mr.			3600	IN	NS	ns2.101domain.com.
 kra.mr.			3600	IN	NS	ns5.101domain.com.
 ksar.mr.		3600	IN	NS	dns1.namecheaphosting.com.
 ksar.mr.		3600	IN	NS	dns2.namecheaphosting.com.
+kst.mr.			3600	IN	NS	ns1.101domain.com.
+kst.mr.			3600	IN	NS	ns2.101domain.com.
+kst.mr.			3600	IN	NS	ns5.101domain.com.
 kts.mr.			3600	IN	NS	ns1.mesrs.mr.
 kts.mr.			3600	IN	NS	ns2.mesrs.mr.
 lamerprofonde.mr.	3600	IN	NS	ns1.elvadel.org.
@@ -2893,9 +2896,8 @@ pacae.mr.		3600	IN	NS	ns2.syskat.com.
 pagep.mr.		3600	IN	NS	bow.mauritel.mr.
 pagep.mr.		3600	IN	NS	mail.pagep.mr.
 mail.pagep.mr.		3600	IN	A	82.151.73.226
-pair.mr.		3600	IN	NS	ns1.101domain.com.
-pair.mr.		3600	IN	NS	ns2.101domain.com.
-pair.mr.		3600	IN	NS	ns5.101domain.com.
+pair.mr.		3600	IN	NS	ns1.usm32.siteground.biz.
+pair.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
 pan.mr.			3600	IN	NS	bow.mauritel.mr.
 pan.mr.			3600	IN	NS	www.pan.mr.
 www.pan.mr.		3600	IN	A	82.151.83.219
@@ -3711,6 +3713,8 @@ topsms.mr.		3600	IN	NS	ns2.101domain.com.
 topsms.mr.		3600	IN	NS	ns5.101domain.com.
 toptechnology.mr.	3600	IN	NS	ns67.worldnic.com.
 toptechnology.mr.	3600	IN	NS	ns68.worldnic.com.
+ip-universe2.toptechnology.mr. 6580 IN	A	209.17.116.8
+topaccess.toptechnology.mr. 5994 IN	A	209.17.116.8
 total.mr.		3600	IN	NS	ns01.totalfinaelf.net.
 total.mr.		3600	IN	NS	ns03.totalfinaelf.net.
 total.mr.		3600	IN	NS	ns05.totalfinaelf.net.
@@ -3939,4 +3943,4 @@ ziwanya.mr.		3600	IN	NS	ns1.infomaniak.ch.
 ziwanya.mr.		3600	IN	NS	ns2.infomaniak.ch.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018032109 21600 3600 3600000 604800
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018032111 21600 3600 3600000 604800

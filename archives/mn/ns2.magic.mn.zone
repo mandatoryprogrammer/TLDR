@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mn. @ns2.magic.mn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008192885 10800 7200 604800 86400
-mn.			900	IN	RRSIG	SOA 7 1 900 20180412140617 20180322130617 29559 mn. kmAzJ0uAdKz/P7xUXbbJxJilcB24j2XwREctWvZ4f4/3HlN8k8Eto87R mQICGOBPJaaPQexkW6E2oPea9jpsBQ3V/kdz54B23Bhp3wezoFOzqMSo mwbfzuHPq8epOv1LxCvR80U/oJxhhJZOyZb8irvPqUrv5Y1kYNTOO87/ 8SM=
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008192888 10800 7200 604800 86400
+mn.			900	IN	RRSIG	SOA 7 1 900 20180412155423 20180322145423 29559 mn. aG6VS1C2L+hKFg5OHw0FwZjru5zP5vNbBgT+hXcbsD30yNwbfYOvjruQ mk5XQLYISppg+ERaUKhx2RhSBppJgDG/+2yHO/A8OMI3crl1TdRe8vpI ZZZgc7X9YwcWZUmQVUJf/3XrLMsL+RgPH8PitC3Cq3hNctXv7b3ckjup u+g=
 mn.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20180411223315 20180321213315 29559 mn. CwqUMAB2WvTe95gmEA0bMfac+oyw0IHM7FQtcjo9k4cow4FJHUcN/Jy4 /lxeRsUR8jUxFmrjgAvkjfngicMHBViqZ4vjZAAw/ksGutwxEhYAhCpk ZNTEBcqTQ/9TVMRr6J8bwup32ysIcQ9/JYSD7dV6zz6QettRogShWYcV RFs=
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180411223315 20180321213315 12721 mn. ZYaIZAj7/XXuSOY2szFLZG24Lc0K4PQX7TqIXUqPaEhSIIje7rEUFcWG Qp9Fn7MECL3yqdeMDkNip9HoDa8/eST0u/tEQFHqAW0rqR0LGxgja4VY I0qBXtyld8GKbZoO0ve/hXEplxuRNDjtJY6gEzPbZIgEqZGRyIT9L8F6 mKErXK26geFM2Gqe6qhuMms1+avZa7Em3ySqK02QVKJ/o2jXSOHDIk4U NETfzJtS8Z0PQ/WkKUP/7q1HBFcynPkWZvAKyWVHpYiMpnCoOa8sZq7S 6yy8GfMvt/NR44LS66NpqfY9k9xiMOlZ/SKy5zsBC5PHV03h9XsJHAWN 1G+0cA==
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180411223315 20180321213315 29559 mn. d58lxGTF/VVWIrg9O036ORf6dYPeDIEtv+c2FHZo9VDArUg+k4XPbRm+ jk6WHmdSfI1a2cayhexfP06VINEoFXPWQQ916vQZAqmgmNR1e3lUG4za sFJI7vsxZz8BUz1XrPPy1Lr3iZgKTKVwLzIr+mQEivdREG53MtJ1Tunt IJw=
@@ -9375,6 +9375,9 @@ cityinfo.mn.		86400	IN	NS	ns1.dns.mn.
 cityinfo.mn.		86400	IN	NS	ns2.dns.mn.
 cityinfo.mn.		86400	IN	NS	ns3.dns.mn.
 cityinfo.mn.		86400	IN	NS	ns4.dns.mn.
+citynetwork.mn.		86400	IN	NS	atdns03.citynetwork.se.
+citynetwork.mn.		86400	IN	NS	atdns02.citynetwork.se.
+citynetwork.mn.		86400	IN	NS	atdns01.citynetwork.se.
 citynews.mn.		86400	IN	NS	ns1.dns.mn.
 citynews.mn.		86400	IN	NS	ns2.dns.mn.
 citynews.mn.		86400	IN	NS	ns3.dns.mn.
@@ -36303,6 +36306,10 @@ nomch.mn.		86400	IN	NS	ns2.dns.mn.
 nomch.mn.		86400	IN	NS	ns3.dns.mn.
 nomch.mn.		86400	IN	NS	ns4.dns.mn.
 dev.nomch.mn.		86400	IN	A	139.59.125.92
+nome.mn.		86400	IN	NS	top-ddos.mercury.orderbox-dns.com.
+nome.mn.		86400	IN	NS	top-ddos.venus.orderbox-dns.com.
+nome.mn.		86400	IN	NS	top-ddos.earth.orderbox-dns.com.
+nome.mn.		86400	IN	NS	top-ddos.mars.orderbox-dns.com.
 nomgon.mn.		86400	IN	NS	ns1.dns.mn.
 nomgon.mn.		86400	IN	NS	ns2.dns.mn.
 nomgon.mn.		86400	IN	NS	ns3.dns.mn.
@@ -42653,6 +42660,10 @@ scandia.mn.		86400	IN	NS	ns1.sedoparking.com.
 scandia.mn.		86400	IN	NS	ns2.sedoparking.com.
 scania.mn.		86400	IN	NS	ns2.domainnetwork.se.
 scania.mn.		86400	IN	NS	ns4.scania.com.
+scanme.mn.		86400	IN	NS	ns4.dns.mn.
+scanme.mn.		86400	IN	NS	ns3.dns.mn.
+scanme.mn.		86400	IN	NS	ns2.dns.mn.
+scanme.mn.		86400	IN	NS	ns1.dns.mn.
 scanpaygo.mn.		86400	IN	NS	ns1.instradns.com.
 scanpaygo.mn.		86400	IN	NS	ns2.instradns.com.
 scanpaygo.mn.		86400	IN	NS	ns3.instradns.com.
@@ -55211,7 +55222,7 @@ zzz.mn.			86400	IN	NS	04.dnsv.jp.
 1hqugrdaat3icbparouqr4t9ca39onc2.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1K00IAMANUCVVEJGLE0Q6UBSBS8H69KS A RRSIG
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180411223315 20180321213315 29559 mn. V6xB8FOfjVp8p8BSPzTZvdqy0a4PpW8D28V15vCCSzkq0eB+HjnTV5/d FARyYp1bgmqGmcxdLdHJFCVt1STyKAvxssPT36uyTDNqVHHr+xcFRFc5 ttXwthqAwD0d3pdW1QND51SJbEup8xLWtp+oDXg/A/a1Ymf9bNzHm5Sr 3bQ=
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1KED78CPGM4B6DRULKHF34DJCMHADU50 A RRSIG
-1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180412140617 20180322130617 29559 mn. ILevs2AxbpyOCSA1cller0kuUxz77EK2r1wE1MMc8Fts5bIMBUHJS3PE 5JfWxZo+eTdFXQOljxYG4VY1RYT4gofldpx7h7+MlCNCcvmL8VE+ENa+ RUjpC8JkAlD88Jos92VwA3p9Fnjil6Hcl3zIwP4Cn3mli7N91+u4FvU8 n/c=
+1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180412155423 20180322145423 29559 mn. VQDr19tsT32Xwa8JzBKgpKJp2OtR9kCdpN4wbvWNhcV7FGydiB4EoE9i GgqJQic7QUkaZxR1f7hi9Tk/bCsBC+JjxHoNb3JVwyWBHT/DBKiTvpP1 6+bAwXyF8DgI++IAjMSsssZd9r4fjgLjy0Q+zLwmYBKhx6pWtRzqVl8o Gfc=
 1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2L6TNI94TUBPIP4GOJQ0EU7SDAECIFLU NS SOA RRSIG DNSKEY NSEC3PARAM
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180411223315 20180321213315 29559 mn. j6SfQmMMupM8oPYSocn1ljzbeZX3mZFuI/hBt7/xvwUjglh6CHGA4/Pv lbo6JAoX3QQZUVvRg6P4GkjcCTQ7RKADqgpEUHopBS/O3EvKQCuGk2vo uX2QAo1zY7Xb9iz/FuxopcmOevu4hrbzbnbqKpYd7MGydaMYILoMgIax eo0=
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2M56JMVKP6GUKCHIQOO900RSBBD2Q971 A RRSIG
@@ -55413,4 +55424,4 @@ v6225e8t5e0vefevkfb5k7r1mkl9q9o2.mn. 86400 IN RRSIG NSEC3 7 2 86400 201804112233
 v6225e8t5e0vefevkfb5k7r1mkl9q9o2.mn. 86400 IN NSEC3 1 1 1 D399EAAB VDJ4CJMEERK0B91BBLDR18SOMBJTO8BP A RRSIG
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180411223315 20180321213315 29559 mn. jUWkTE3eiFUpZkxUCn8Sk7cij3vLODsnkfxWnulIcqcvQTdBtvEkDxn7 8TeO8Rh1CLuQADL0pDt6Z07vXrtnVu4d47sz4EsVKLhSsaIYqP4shhM1 rf0mXDhrauQcUH7HmjVQ1Hkm027Yf+sJazPqIx53/lHNq5afvCGMw9i+ un0=
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN NSEC3 1 1 1 D399EAAB 041KLEK7K6MPSCOCFGAPT5FRKO49R91S A RRSIG
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008192885 10800 7200 604800 86400
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008192888 10800 7200 604800 86400

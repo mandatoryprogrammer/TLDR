@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032001 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032201 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -892,6 +892,8 @@ clinicasmontecara.cv.	28800	IN	NS	ns1.dnsaegir.com.
 clinicasmontecara.cv.	28800	IN	NS	ns2.dnsaegir.com.
 clinicasodente.cv.	28800	IN	NS	ns7.securenet-server.net.
 clinicasodente.cv.	28800	IN	NS	ns8.securenet-server.net.
+cloudsys.cv.		28800	IN	NS	ns5001.mochahost.com.
+cloudsys.cv.		28800	IN	NS	ns6001.mochahost.com.
 club-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 club-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
 club-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -3606,9 +3608,9 @@ acrh.org.cv.		28800	IN	NS	ns1.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns2.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns3.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns4.nameresolve.com.
+acrides.org.cv.		28800	IN	A	41.221.194.233
 acrides.org.cv.		28800	IN	NS	ns1.gov.cv.
 acrides.org.cv.		28800	IN	NS	ns2.gov.cv.
-acrides.org.cv.		28800	IN	A	41.221.194.233
 adad.org.cv.		28800	IN	NS	ns.jcle.pt.
 adad.org.cv.		28800	IN	NS	ns.jcle.net.
 adventistas.org.cv.	28800	IN	NS	ns1.servconfig.com.
@@ -4165,11 +4167,11 @@ rm2.cv.			28800	IN	NS	ns1.siteground5.com.
 rm2.cv.			28800	IN	NS	ns2.siteground5.com.
 rmais.cv.		28800	IN	NS	ns1.limoncv.com.
 rmais.cv.		28800	IN	NS	ns2.limoncv.com.
+rni.cv.			28800	IN	AAAA	2600:2000:1000::7
+rni.cv.			28800	IN	AAAA	2600:2000:1001::7
 rni.cv.			28800	IN	NS	ns1.nosiwebhosting.com.
 rni.cv.			28800	IN	NS	ns2.nosiwebhosting.com.
 rni.cv.			28800	IN	NS	ns3.nosiwebhosting.com.
-rni.cv.			28800	IN	AAAA	2600:2000:1000::7
-rni.cv.			28800	IN	AAAA	2600:2000:1001::7
 robinson.cv.		28800	IN	AAAA	2600:2000:1000::7
 robinson.cv.		28800	IN	AAAA	2600:2000:1001::7
 robinson.cv.		28800	IN	NS	ns01.brandshelter.com.
@@ -4460,11 +4462,11 @@ sit.cv.			28800	IN	NS	ns2.bluehost.com.
 mail.sit.cv.		28800	IN	A	50.87.248.126
 sita.cv.		28800	IN	NS	b186ns1.hocnet.pt.
 sita.cv.		28800	IN	NS	b186ns2.hocnet.pt.
-sitam.cv.		28800	IN	NS	rns4a.justhost.com.
-sitam.cv.		28800	IN	NS	rns4b.justhost.com.
 sitam.cv.		28800	IN	AAAA	2620:115:c00f::c000:4a09
 sitam.cv.		28800	IN	AAAA	2a04:fa87:ffff::c6b5:7409
 sitam.cv.		28800	IN	AAAA	2a04:fa87:ffff::c6b5:7509
+sitam.cv.		28800	IN	NS	rns4a.justhost.com.
+sitam.cv.		28800	IN	NS	rns4b.justhost.com.
 skribi.cv.		28800	IN	NS	ns1.wordpress.COM.
 skribi.cv.		28800	IN	NS	ns2.wordpress.COM.
 skribi.cv.		28800	IN	NS	ns3.wordpress.COM.
@@ -4575,8 +4577,8 @@ sprite.cv.		28800	IN	NS	ns3.ko.com.
 sprite.cv.		28800	IN	NS	ns4.ko.com.
 square.cv.		28800	IN	NS	ns1.siteground263.com.
 square.cv.		28800	IN	NS	ns2.siteground263.com.
-src.cv.			28800	IN	NS	ns1.webs24h.com.
-src.cv.			28800	IN	NS	ns2.webs24h.com.
+src.cv.			86400	IN	NS	ns1.webs24h.com.
+src.cv.			86400	IN	NS	ns2.webs24h.com.
 staffpromo.cv.		28800	IN	NS	ns3.dnstarvos.com.
 staffpromo.cv.		28800	IN	NS	ns4.dnstarvos.com.
 stec.cv.		28800	IN	NS	ns1.stec.cv.
@@ -4987,4 +4989,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032001 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032201 86400 7200 2592000 300

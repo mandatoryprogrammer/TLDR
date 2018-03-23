@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032201 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032301 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -818,6 +818,7 @@ ccssida.cv.		28800	IN	NS	ns1.mundogest.com.
 ccssida.cv.		28800	IN	NS	ns2.mundogest.com.
 cctour.cv.		28800	IN	NS	ns1.kolorbit.com.
 cctour.cv.		28800	IN	NS	ns2.kolorbit.com.
+ccvp.cv.		28800	IN	NS	ns1.
 cedn.cv.		28800	IN	NS	ns1.bluehost.com.
 cedn.cv.		28800	IN	NS	ns2.bluehost.com.
 celesoft.cv.		28800	IN	NS	ns1.webhostingpad.com.
@@ -1501,11 +1502,11 @@ nosmarka.com.cv.	28800	IN	NS	ns2.cvtelecom.cv.
 nport.com.cv.		28800	IN	NS	NS1.101DOMAIN.COM.
 nport.com.cv.		28800	IN	NS	NS2.101DOMAIN.COM.
 nport.com.cv.		28800	IN	NS	NS5.101DOMAIN.COM.
-nrg4.com.cv.		28800	IN	AAAA	2604:9a00:2100:a001:2::1
-nrg4.com.cv.		28800	IN	A	85.159.233.17
 nrg4.com.cv.		28800	IN	NS	ns01.trademarkarea.com.
 nrg4.com.cv.		28800	IN	NS	ns02.trademarkarea.com.
 nrg4.com.cv.		28800	IN	NS	ns03.trademarkarea.com.
+nrg4.com.cv.		28800	IN	AAAA	2604:9a00:2100:a001:2::1
+nrg4.com.cv.		28800	IN	A	85.159.233.17
 nubai.com.cv.		28800	IN	NS	ns1.cloudns.net.
 nubai.com.cv.		28800	IN	NS	ns2.cloudns.net.
 nubai.com.cv.		28800	IN	NS	ns3.cloudns.net.
@@ -3387,6 +3388,9 @@ mormon.cv.		28800	IN	NS	ns31.intellectualreserveinc.org.
 mormon.cv.		28800	IN	NS	ns32.intellectualreserveinc.org.
 mormon.cv.		28800	IN	NS	ns33.intellectualreserveinc.org.
 mormon.cv.		28800	IN	NS	ns34.intellectualreserveinc.org.
+morna.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
+morna.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
+morna.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
 mornami.cv.		28800	IN	NS	b186ns1.hocnet.pt.
 mornami.cv.		28800	IN	NS	b186ns2.hocnet.pt.
 mota-engil.cv.		28800	IN	NS	ns2.mota-engil.pt.
@@ -3561,6 +3565,8 @@ onecom.cv.		28800	IN	NS	ns2.webhs.org.
 onecom.cv.		28800	IN	NS	ns3.webhs.org.
 opacc.cv.		28800	IN	NS	ns01.domaincontrol.com.
 opacc.cv.		28800	IN	NS	ns02.domaincontrol.com.
+opais.cv.		28800	IN	NS	ns1.isone.cv.
+opais.cv.		28800	IN	NS	ns2.isone.cv.
 opendata.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
 opendata.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
 opendata.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
@@ -4864,14 +4870,16 @@ varanda.cv.		28800	IN	NS	ns1.weblx-0.net.
 varanda.cv.		28800	IN	NS	ns2.weblx-0.net.
 vascaboverde.cv.	28800	IN	NS	ns1.rigorcg.pt.
 vascaboverde.cv.	28800	IN	NS	ns2.rigorcg.pt.
-vasconcelos.cv.		28800	IN	A	94.46.14.249
-vasconcelos.cv.		28800	IN	A	94.46.14.250
-vasconcelos.cv.		28800	IN	A	130.185.80.200
-vasconcelos.cv.		28800	IN	A	130.185.80.201
-vasconcelos.cv.		28800	IN	A	130.185.80.210
-vasconcelos.cv.		28800	IN	A	130.185.80.211
 vasconcelos.cv.		28800	IN	NS	ns11.wv.pt.
 vasconcelos.cv.		28800	IN	NS	ns12.wv.pt.
+vc-cs.cv.		28800	IN	A	94.46.14.249
+vc-cs.cv.		28800	IN	A	94.46.14.250
+vc-cs.cv.		28800	IN	A	130.185.80.200
+vc-cs.cv.		28800	IN	A	130.185.80.201
+vc-cs.cv.		28800	IN	A	130.185.80.210
+vc-cs.cv.		28800	IN	A	130.185.80.211
+vc-cs.cv.		28800	IN	NS	ns3.dnstarvos.com.
+vc-cs.cv.		28800	IN	NS	ns4.dnstarvos.com.
 veigacar.cv.		28800	IN	NS	ns1.mydnspt.net.
 veigacar.cv.		28800	IN	NS	ns2.mydnspt.net.
 veigacar.cv.		28800	IN	NS	ns7.mydnspt.net.
@@ -4989,4 +4997,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032201 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032301 86400 7200 2592000 300

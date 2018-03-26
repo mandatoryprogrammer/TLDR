@@ -1,20 +1,22 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ao. @ns02.dns.ao. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018030901 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018032601 86400 7200 2592000 3600
+ao.			3600	IN	TXT	"Angola - http://www.dns.ao/"
 ao.			3600	IN	NS	ao01.dns.pt.
 ao.			3600	IN	NS	ao03.dns.pt.
 ao.			3600	IN	NS	ns02.dns.ao.
 ao.			3600	IN	NS	auth02.ns.uu.net.
 ao.			3600	IN	NS	ns-ext.isc.org.
 ao.			3600	IN	NS	sns-pb.isc.org.
-ao.			3600	IN	TXT	"Angola - http://www.dns.ao/"
 7maravilhas.ao.		3600	IN	NS	ns.semba.ao.
 7maravilhas.ao.		3600	IN	NS	ns.7maravilhas.ao.
 ns.7maravilhas.ao.	3600	IN	A	69.72.168.5
 aaa.ao.			3600	IN	NS	ns1.angolatelecom.com.
 abanc.ao.		3600	IN	NS	yns1.yahoo.com.
 abanc.ao.		3600	IN	NS	yns2.yahoo.com.
+acite.ao.		3600	IN	NS	ns1.angoweb.biz.
+acite.ao.		3600	IN	NS	ns2.angoweb.biz.
 acs.ao.			3600	IN	NS	ns.acs.ao.
 acs.ao.			3600	IN	NS	ns1.acs.ao.
 acs.ao.			3600	IN	NS	ns2.acs.ao.
@@ -319,12 +321,12 @@ crowehorwath.ao.	3600	IN	NS	ns1.esoterica.com.
 crowehorwath.ao.	3600	IN	NS	ns2.esoterica.com.
 das.ao.			3600	IN	NS	ans507.securenet-server.net.
 das.ao.			3600	IN	NS	ans508.securenet-server.net.
+dns.ao.			3600	IN	MX	10 wep.rccn.net.
+dns.ao.			3600	IN	MX	20 mail02.fccn.pt.
 dns.ao.			3600	IN	NS	ns01.dns.ao.
 dns.ao.			3600	IN	NS	ns01.fccn.pt.
 dns.ao.			3600	IN	NS	ns02.dns.ao.
 dns.ao.			3600	IN	NS	phobos.fccn.pt.
-dns.ao.			3600	IN	MX	10 wep.rccn.net.
-dns.ao.			3600	IN	MX	20 mail02.fccn.pt.
 ns.dns.ao.		3600	IN	A	193.136.7.17
 eclipse.ao.		3600	IN	NS	dns.rccn.net.
 eclipse.ao.		3600	IN	NS	ns1.gip.net.
@@ -868,10 +870,10 @@ nossaseguros.ao.	3600	IN	NS	ns5.he.net.
 novobanco.ao.		3600	IN	NS	dns1.angolatelecom.com.
 novobanco.ao.		3600	IN	NS	dns2.angolatelecom.com.
 nb-svr-dns1.novobanco.ao. 3600	IN	A	66.110.122.250
-ns01.ao.		3600	IN	A	197.149.149.10
 ns01.ao.		3600	IN	AAAA	2c0f:f828:2::a
-ns02.ao.		3600	IN	A	197.149.149.11
+ns01.ao.		3600	IN	A	197.149.149.10
 ns02.ao.		3600	IN	AAAA	2c0f:f828:2::b
+ns02.ao.		3600	IN	A	197.149.149.11
 aapsi.og.ao.		3600	IN	NS	ns1.nexus.ao.
 aapsi.og.ao.		3600	IN	NS	ns2.nexus.ao.
 adsa.og.ao.		3600	IN	NS	dns1.ibername.com.
@@ -1036,6 +1038,8 @@ tcontas.ao.		3600	IN	NS	srvtcsn2.tcontas.ao.
 srvtcsn2.tcontas.ao.	3600	IN	A	41.223.157.61
 telecom.ao.		3600	IN	NS	dns1.angolatelecom.com.
 telecom.ao.		3600	IN	NS	dns2.angolatelecom.com.
+telstar.ao.		3600	IN	NS	ns1.angoweb.biz.
+telstar.ao.		3600	IN	NS	ns2.angoweb.biz.
 textoeditores.ao.	3600	IN	NS	ns1.textoeditora.pt.
 textoeditores.ao.	3600	IN	NS	ns2.textoeditora.pt.
 ticmeta.ao.		3600	IN	NS	ans507.securenet-server.net.
@@ -1087,4 +1091,4 @@ welvitcha.ao.		3600	IN	NS	ns.acs.ao.
 welvitcha.ao.		3600	IN	NS	ns1.acs.ao.
 xikilamoney.ao.		3600	IN	NS	ns.inventadomains.com.
 xikilamoney.ao.		3600	IN	NS	ns2.inventadomains.com.
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018030901 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018032601 86400 7200 2592000 3600

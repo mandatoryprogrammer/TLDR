@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns1.nic.mr. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018032712 21600 3600 3600000 604800
-mr.			3600	IN	TXT	"Generation Time: 1522152016"
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018032715 21600 3600 3600000 604800
+mr.			3600	IN	TXT	"Generation Time: 1522162808"
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns3.nic.fr.
@@ -2944,7 +2944,6 @@ pdshr.mr.		3600	IN	NS	servnet.pdshr.mr.
 servnet.pdshr.mr.	3600	IN	A	82.151.95.242
 pdu.mr.			3600	IN	NS	ns19.ixwebhosting.com.
 pdu.mr.			3600	IN	NS	ns20.ixwebhosting.com.
-serv1.pdu.mr.		21154	IN	A	173.83.118.2
 peacenews1paper.mr.	3600	IN	NS	ns.its.mr.
 peacenews1paper.mr.	3600	IN	NS	bow.mauritel.mr.
 pecheur-acps.mr.	3600	IN	NS	dns1.chinguitel.mr.
@@ -3716,10 +3715,6 @@ topsms.mr.		3600	IN	NS	ns2.101domain.com.
 topsms.mr.		3600	IN	NS	ns5.101domain.com.
 toptechnology.mr.	3600	IN	NS	ns67.worldnic.com.
 toptechnology.mr.	3600	IN	NS	ns68.worldnic.com.
-ip-universe2.toptechnology.mr. 6864 IN	A	209.17.116.8
-topacces.toptechnology.mr. 6633	IN	A	209.17.116.8
-topaccess.toptechnology.mr. 6562 IN	A	209.17.116.8
-toptaccess.toptechnology.mr. 6877 IN	A	209.17.116.8
 total.mr.		3600	IN	NS	ns01.totalfinaelf.net.
 total.mr.		3600	IN	NS	ns02.totalfinaelf.net.
 total.mr.		3600	IN	NS	ns03.totalfinaelf.net.
@@ -3783,8 +3778,10 @@ umlc.mr.		3600	IN	NS	ns1.maurisystem.com.
 umlc.mr.		3600	IN	NS	ns2.maurisystem.com.
 un.mr.			3600	IN	NS	bow.mauritel.mr.
 un.mr.			3600	IN	NS	dns.iiardd.mr.
-una.mr.			3600	IN	NS	ns.univ-nkc.mr.
-una.mr.			3600	IN	NS	ns1.nic.mr.
+una.mr.			604800	IN	NS	ns.univ-nkc.mr.
+una.mr.			604800	IN	NS	ns1.nic.mr.
+una.mr.			604800	IN	NS	zira.una.mr.
+zira.una.mr.		604800	IN	A	41.188.65.194
 uncacem.mr.		3600	IN	NS	ns1.amen.fr.
 uncacem.mr.		3600	IN	NS	ns2.amen.fr.
 uncecel.mr.		3600	IN	NS	ns10a.haisoft.net.
@@ -3947,4 +3944,4 @@ ziwanya.mr.		3600	IN	NS	ns1.infomaniak.ch.
 ziwanya.mr.		3600	IN	NS	ns2.infomaniak.ch.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018032712 21600 3600 3600000 604800
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018032715 21600 3600 3600000 604800

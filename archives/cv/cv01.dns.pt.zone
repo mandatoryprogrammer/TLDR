@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032701 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032901 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -316,6 +316,8 @@ arlaresidencial.cv.	28800	IN	NS	dns2.prime.cv.
 armandocunha.cv.	28800	IN	NS	ns1.bluehost.com.
 armandocunha.cv.	28800	IN	NS	ns2.bluehost.com.
 mail.armandocunha.cv.	28800	IN	A	69.195.124.219
+armindosilva.cv.	28800	IN	NS	dns1.prime.cv.
+armindosilva.cv.	28800	IN	NS	dns2.prime.cv.
 arnaldosilva.cv.	28800	IN	NS	ns7.securenet-server.net.
 arnaldosilva.cv.	28800	IN	NS	ns8.securenet-server.net.
 arqui-m.cv.		28800	IN	NS	ns1.mydomain.com.
@@ -1888,6 +1890,9 @@ cvnet.cv.		28800	IN	NS	ns1.bluehost.com.
 cvnet.cv.		28800	IN	NS	ns2.bluehost.com.
 cvnext.cv.		28800	IN	NS	ns1000.mochahost.com.
 cvnext.cv.		28800	IN	NS	ns2000.mochahost.com.
+cvonline.cv.		28800	IN	NS	ns1.digitalocean.com.
+cvonline.cv.		28800	IN	NS	ns2.digitalocean.com.
+cvonline.cv.		28800	IN	NS	ns3.digitalocean.com.
 cvquimica.cv.		28800	IN	NS	ns1.mundogest.com.
 cvquimica.cv.		28800	IN	NS	ns2.mundogest.com.
 cvstone.cv.		28800	IN	NS	ns1.aguianet.com.
@@ -2354,12 +2359,12 @@ facabral.cv.		28800	IN	NS	ns2.cvtelecom.cv.
 facestore.cv.		28800	IN	NS	ns5.visualwork.pt.
 facestore.cv.		28800	IN	NS	ns6.visualwork.pt.
 cpanel.facestore.cv.	28800	IN	A	185.17.230.145
-faeu.cv.		28800	IN	A	217.182.171.109
-faeu.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
-faeu.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
 faeu.cv.		28800	IN	NS	ns1.wtservers.com.
 faeu.cv.		28800	IN	NS	ns2.wtservers.com.
 faeu.cv.		28800	IN	NS	ns3.wtservers.com.
+faeu.cv.		28800	IN	A	217.182.171.109
+faeu.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
+faeu.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
 faisca.cv.		28800	IN	NS	ns293.websitewelcome.com.
 faisca.cv.		28800	IN	NS	ns294.websitewelcome.com.
 fama.cv.		28800	IN	NS	ns1.ptwebserv.net.
@@ -3593,10 +3598,10 @@ mail.aavt.org.cv.	28800	IN	A	80.172.233.23
 abac.org.cv.		28800	IN	NS	ns1.abac.org.cv.
 mail.abac.org.cv.	28800	IN	A	80.172.233.23
 ns1.abac.org.cv.	28800	IN	A	80.172.233.23
-abadacaboverde.org.cv.	28800	IN	A	67.23.226.199
 abadacaboverde.org.cv.	28800	IN	NS	ns1.webhs.org.
 abadacaboverde.org.cv.	28800	IN	NS	ns2.webhs.org.
 abadacaboverde.org.cv.	28800	IN	NS	ns3.webhs.org.
+abadacaboverde.org.cv.	28800	IN	A	67.23.226.199
 abc.org.cv.		28800	IN	NS	1.nshub.com.
 abc.org.cv.		28800	IN	NS	2.nshub.com.
 aca-eua.org.cv.		28800	IN	NS	ns1.mundogest.com.
@@ -4682,13 +4687,13 @@ techknow.cv.		28800	IN	NS	dns1.ex2-p24.com.
 techknow.cv.		28800	IN	NS	dns2.ex2-p24.com.
 technor.cv.		28800	IN	NS	ns1.ptwebsite.info.
 technor.cv.		28800	IN	NS	ns2.ptwebsite.info.
-tecla.cv.		28800	IN	A	217.182.171.109
 tecla.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
 tecla.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
 tecla.cv.		28800	IN	NS	ns1.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns2.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns3.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns4.hostinger.com.br.
+tecla.cv.		28800	IN	A	217.182.171.109
 tecnocor.cv.		28800	IN	NS	ns1.wtservers.com.
 tecnocor.cv.		28800	IN	NS	ns2.wtservers.com.
 tecnocor.cv.		28800	IN	NS	ns3.wtservers.com.
@@ -5002,4 +5007,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032701 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032901 86400 7200 2592000 300

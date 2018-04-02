@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018040201 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -26,6 +26,9 @@ ns.2bind.cv.		28800	IN	A	91.121.76.174
 3as.cv.			28800	IN	NS	ns2.aeminiummultimedia.pt.
 7maravilhas.cv.		28800	IN	NS	ns1.gov.cv.
 7maravilhas.cv.		28800	IN	NS	ns2.gov.cv.
+888.cv.			28800	IN	NS	ns1.backer.net.
+888.cv.			28800	IN	NS	ns2.backer.net.
+888.cv.			28800	IN	NS	ns3.backer.net.
 aac.cv.			28800	IN	NS	cns29.hostgator.com.
 aac.cv.			28800	IN	NS	cns30.hostgator.com.
 mail.aac.cv.		28800	IN	A	108.167.165.122
@@ -2042,12 +2045,12 @@ doisbr.cv.		28800	IN	NS	ns5.no-ip.com.
 mail.doisbr.cv.		28800	IN	AAAA	2620:0:2e60::33
 mail.doisbr.cv.		28800	IN	A	62.28.235.86
 mail.doisbr.cv.		28800	IN	A	204.16.254.6
-dolcefarniente.cv.	28800	IN	A	213.5.180.33
-dolcefarniente.cv.	28800	IN	A	213.5.180.34
 dolcefarniente.cv.	28800	IN	NS	ns1.wk-web.com.
 dolcefarniente.cv.	28800	IN	NS	ns2.wk-web.com.
 dolcefarniente.cv.	28800	IN	NS	ns3.wk-web.com.
 dolcefarniente.cv.	28800	IN	NS	ns4.wk-web.com.
+dolcefarniente.cv.	28800	IN	A	213.5.180.33
+dolcefarniente.cv.	28800	IN	A	213.5.180.34
 donpacohotel.cv.	28800	IN	NS	dns1.prime.cv.
 donpacohotel.cv.	28800	IN	NS	dns2.prime.cv.
 dpi.cv.			28800	IN	NS	ns293.websitewelcome.com.
@@ -2359,12 +2362,12 @@ facabral.cv.		28800	IN	NS	ns2.cvtelecom.cv.
 facestore.cv.		28800	IN	NS	ns5.visualwork.pt.
 facestore.cv.		28800	IN	NS	ns6.visualwork.pt.
 cpanel.facestore.cv.	28800	IN	A	185.17.230.145
-faeu.cv.		28800	IN	NS	ns1.wtservers.com.
-faeu.cv.		28800	IN	NS	ns2.wtservers.com.
-faeu.cv.		28800	IN	NS	ns3.wtservers.com.
 faeu.cv.		28800	IN	A	217.182.171.109
 faeu.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
 faeu.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
+faeu.cv.		28800	IN	NS	ns1.wtservers.com.
+faeu.cv.		28800	IN	NS	ns2.wtservers.com.
+faeu.cv.		28800	IN	NS	ns3.wtservers.com.
 faisca.cv.		28800	IN	NS	ns293.websitewelcome.com.
 faisca.cv.		28800	IN	NS	ns294.websitewelcome.com.
 fama.cv.		28800	IN	NS	ns1.ptwebserv.net.
@@ -3598,10 +3601,10 @@ mail.aavt.org.cv.	28800	IN	A	80.172.233.23
 abac.org.cv.		28800	IN	NS	ns1.abac.org.cv.
 mail.abac.org.cv.	28800	IN	A	80.172.233.23
 ns1.abac.org.cv.	28800	IN	A	80.172.233.23
+abadacaboverde.org.cv.	28800	IN	A	67.23.226.199
 abadacaboverde.org.cv.	28800	IN	NS	ns1.webhs.org.
 abadacaboverde.org.cv.	28800	IN	NS	ns2.webhs.org.
 abadacaboverde.org.cv.	28800	IN	NS	ns3.webhs.org.
-abadacaboverde.org.cv.	28800	IN	A	67.23.226.199
 abc.org.cv.		28800	IN	NS	1.nshub.com.
 abc.org.cv.		28800	IN	NS	2.nshub.com.
 aca-eua.org.cv.		28800	IN	NS	ns1.mundogest.com.
@@ -3795,6 +3798,8 @@ palmacenter.cv.		28800	IN	NS	ns1.palmacenter.cv.
 palmacenter.cv.		28800	IN	NS	ns2.palmacenter.cv.
 ns1.palmacenter.cv.	28800	IN	A	80.172.233.23
 ns2.palmacenter.cv.	28800	IN	A	80.172.233.24
+palona-image.cv.	28800	IN	NS	ns1.siteground354.com.
+palona-image.cv.	28800	IN	NS	ns2.siteground354.com.
 palona-image.cv.	28800	IN	A	94.46.14.249
 palona-image.cv.	28800	IN	A	94.46.14.250
 palona-image.cv.	28800	IN	A	94.46.16.235
@@ -3803,8 +3808,6 @@ palona-image.cv.	28800	IN	A	130.185.80.200
 palona-image.cv.	28800	IN	A	130.185.80.201
 palona-image.cv.	28800	IN	A	130.185.80.210
 palona-image.cv.	28800	IN	A	130.185.80.211
-palona-image.cv.	28800	IN	NS	ns1.siteground354.com.
-palona-image.cv.	28800	IN	NS	ns2.siteground354.com.
 paoquente.cv.		28800	IN	NS	ns1.mydnspt.net.
 paoquente.cv.		28800	IN	NS	ns2.mydnspt.net.
 paoquente.cv.		28800	IN	NS	ns7.mydnspt.net.
@@ -4049,10 +4052,10 @@ puntodincontro.cv.	28800	IN	NS	ns3.webhs.org.
 puragua.cv.		28800	IN	NS	ns1.ptwebserv.net.
 puragua.cv.		28800	IN	NS	ns2.ptwebserv.net.
 puragua.cv.		28800	IN	NS	ns3.ptwebserv.net.
-purobra.cv.		28800	IN	A	88.99.214.5
-purobra.cv.		28800	IN	A	88.99.214.49
 purobra.cv.		28800	IN	NS	ns1.hostingmz.com.
 purobra.cv.		28800	IN	NS	ns2.hostingmz.com.
+purobra.cv.		28800	IN	A	88.99.214.5
+purobra.cv.		28800	IN	A	88.99.214.49
 qbusiness.cv.		28800	IN	NS	ns1.gn2.hocnet.pt.
 qbusiness.cv.		28800	IN	NS	ns2.gn2.hocnet.pt.
 qualitur.cv.		28800	IN	NS	ns1.megasites.pt.
@@ -4225,11 +4228,11 @@ robinson-kapverden.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-kapverden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kapverden.cv.	28800	IN	NS	ns01.brandshelter.com.
 robinson-kapverden.cv.	28800	IN	NS	ns02.brandshelter.net.
+robinsonclub.cv.	28800	IN	NS	ns01.brandshelter.com.
+robinsonclub.cv.	28800	IN	NS	ns02.brandshelter.net.
 robinsonclub.cv.	28800	IN	AAAA	2604:9a00:2100:af02:4::dc
 robinsonclub.cv.	28800	IN	AAAA	2a00:c98:2200:af0a:5::de
 robinsonclub.cv.	28800	IN	AAAA	2a03:6420::abcd:ef01
-robinsonclub.cv.	28800	IN	NS	ns01.brandshelter.com.
-robinsonclub.cv.	28800	IN	NS	ns02.brandshelter.net.
 rogerinc.cv.		28800	IN	NS	ns1.wtservers.com.
 rogerinc.cv.		28800	IN	NS	ns2.wtservers.com.
 rogerinc.cv.		28800	IN	NS	ns3.wtservers.com.
@@ -4687,13 +4690,13 @@ techknow.cv.		28800	IN	NS	dns1.ex2-p24.com.
 techknow.cv.		28800	IN	NS	dns2.ex2-p24.com.
 technor.cv.		28800	IN	NS	ns1.ptwebsite.info.
 technor.cv.		28800	IN	NS	ns2.ptwebsite.info.
-tecla.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
-tecla.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
 tecla.cv.		28800	IN	NS	ns1.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns2.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns3.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns4.hostinger.com.br.
 tecla.cv.		28800	IN	A	217.182.171.109
+tecla.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
+tecla.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
 tecnocor.cv.		28800	IN	NS	ns1.wtservers.com.
 tecnocor.cv.		28800	IN	NS	ns2.wtservers.com.
 tecnocor.cv.		28800	IN	NS	ns3.wtservers.com.
@@ -5007,4 +5010,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018032901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018040201 86400 7200 2592000 300

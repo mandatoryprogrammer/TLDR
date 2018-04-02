@@ -15,7 +15,7 @@
 * `arpa` via `g.root-servers.net.`: [Click here to view zone data.](archives/arpa/g.root-servers.net.zone)
 * `bb` via `ns2.barbadosdomain.net.`: [Click here to view zone data.](archives/bb/ns2.barbadosdomain.net.zone)
 * `bi` via `ns1.nic.bi.`: [Click here to view zone data.](archives/bi/ns1.nic.bi.zone)
-* `bn` via `ns2.bnnic.bn.`: [Click here to view zone data.](archives/bn/ns2.bnnic.bn.zone)
+* `bn` via `NS2.BNNIC.bn.`: [Click here to view zone data.](archives/bn/NS2.BNNIC.bn.zone)
 * `bv` via `server.nordu.net.`: [Click here to view zone data.](archives/bv/server.nordu.net.zone)
 * `cd` via `ns-root-2.scpt-network.com.`: [Click here to view zone data.](archives/cd/ns-root-2.scpt-network.com.zone)
 * `cd` via `ns-root-5.scpt-network.com.`: [Click here to view zone data.](archives/cd/ns-root-5.scpt-network.com.zone)

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR pg. @ns1.tiare.net.pg. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2018032301 14400 7200 1728000 14400
+pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2018040300 14400 7200 1728000 14400
 pg.			172800	IN	NS	ns.UU.NET.
 pg.			172800	IN	NS	ns1.tiare.net.PG.
 pg.			172800	IN	NS	ns1.unitech.ac.PG.
@@ -34,8 +34,8 @@ ctss.AC.pg.		172800	IN	NS	ns1.telinet.com.pg.
 ctss.AC.pg.		172800	IN	NS	ns2.telinet.com.pg.
 dbgabutu.AC.pg.		172800	IN	NS	ns1.dwu.ac.pg.
 dbgabutu.AC.pg.		172800	IN	NS	dns1.pngarnet.ac.pg.
-dbti.AC.pg.		172800	IN	NS	ns1.dwu.ac.pg.
-dbti.AC.pg.		172800	IN	NS	dns1.pngarnet.ac.pg.
+dbti.AC.pg.		172800	IN	NS	ns1.digiteccloud.com.
+dbti.AC.pg.		172800	IN	NS	ns2.digiteccloud.com.
 dis.AC.pg.		172800	IN	NS	ns1.dwu.ac.pg.
 dis.AC.pg.		172800	IN	NS	dns1.pngarnet.ac.pg.
 DWU.AC.pg.		172800	IN	NS	ns1.dwu.ac.pg.
@@ -544,6 +544,9 @@ budgetre.COM.pg.	172800	IN	NS	ns2.telinet.com.pg.
 bzzworld.COM.pg.	172800	IN	NS	ns1.qnetau.com.
 bzzworld.COM.pg.	172800	IN	NS	ns2.qnetau.com.
 bzzworld.COM.pg.	172800	IN	NS	ns3.qnetau.com.
+cal.COM.pg.		172800	IN	NS	ns1.datec.net.pg.
+cal.COM.pg.		172800	IN	NS	ns2.datec.net.pg.
+cal.COM.pg.		172800	IN	NS	ns3.datec.net.pg.
 campadmin.COM.pg.	172800	IN	NS	ns1.qnetau.com.
 campadmin.COM.pg.	172800	IN	NS	ns2.qnetau.com.
 campadmin.COM.pg.	172800	IN	NS	ns3.qnetau.com.
@@ -988,8 +991,9 @@ esiloan.COM.pg.		172800	IN	NS	ns1.global.net.pg.
 esiloan.COM.pg.		172800	IN	NS	ns2.global.net.pg.
 esishop.COM.pg.		172800	IN	NS	ns1.online.net.pg.
 esishop.COM.pg.		172800	IN	NS	ns2.online.net.pg.
-ess.COM.pg.		172800	IN	NS	ns1.online.net.pg.
-ess.COM.pg.		172800	IN	NS	ns2.online.net.pg.
+ess.COM.pg.		172800	IN	NS	ns1.panthur.com.
+ess.COM.pg.		172800	IN	NS	ns2.panthur.com.
+ess.COM.pg.		172800	IN	NS	ns3.panthur.com.
 etech.COM.pg.		172800	IN	NS	ns1.digiteccloud.com.
 etech.COM.pg.		172800	IN	NS	ns2.digiteccloud.com.
 eurest.COM.pg.		172800	IN	NS	ns1.datec.net.pg.
@@ -1180,9 +1184,9 @@ gigira.COM.pg.		172800	IN	NS	ns2.online.net.pg.
 gjwpest.COM.pg.		172800	IN	NS	ns1.qnetau.com.
 gjwpest.COM.pg.		172800	IN	NS	ns2.qnetau.com.
 gjwpest.COM.pg.		172800	IN	NS	ns3.qnetau.com.
-glencar.COM.pg.		172800	IN	NS	ns1.qnetau.com.
-glencar.COM.pg.		172800	IN	NS	ns2.qnetau.com.
-glencar.COM.pg.		172800	IN	NS	ns3.qnetau.com.
+glencar.COM.pg.		172800	IN	NS	ns3.quadrahosting.com.
+glencar.COM.pg.		172800	IN	NS	ns4.quadrahosting.com.
+glencar.COM.pg.		172800	IN	NS	ns5.quadrahosting.com.
 glitzco.COM.pg.		172800	IN	NS	ns1.qnetau.com.
 glitzco.COM.pg.		172800	IN	NS	ns2.qnetau.com.
 glitzco.COM.pg.		172800	IN	NS	ns3.qnetau.com.
@@ -2556,6 +2560,9 @@ parklane.COM.pg.	172800	IN	NS	ns1.datec.net.pg.
 parklane.COM.pg.	172800	IN	NS	ns2.datec.net.pg.
 parualawyers.COM.pg.	172800	IN	NS	ns1.daltron.com.pg.
 parualawyers.COM.pg.	172800	IN	NS	ns2.daltron.com.pg.
+pasifika.COM.pg.	172800	IN	NS	ns1.datec.net.pg.
+pasifika.COM.pg.	172800	IN	NS	ns2.datec.net.pg.
+pasifika.COM.pg.	172800	IN	NS	ns3.datec.net.pg.
 pasifikaholdings.COM.pg. 172800	IN	NS	ns1.datec.net.pg.
 pasifikaholdings.COM.pg. 172800	IN	NS	ns2.datec.net.pg.
 pasifikaholdings.COM.pg. 172800	IN	NS	ns3.datec.net.pg.
@@ -3058,9 +3065,9 @@ search.COM.pg.		172800	IN	NS	ns2.global.net.pg.
 search.COM.pg.		172800	IN	NS	ns3.global.net.pg.
 sectionsengineering.COM.pg. 172800 IN	NS	ns1.telinet.com.pg.
 sectionsengineering.COM.pg. 172800 IN	NS	ns2.telinet.com.pg.
-securityplus.COM.pg.	172800	IN	NS	ns1.qnetau.com.
-securityplus.COM.pg.	172800	IN	NS	ns2.qnetau.com.
-securityplus.COM.pg.	172800	IN	NS	ns3.qnetau.com.
+securityplus.COM.pg.	172800	IN	NS	ns3.quadrahosting.com.
+securityplus.COM.pg.	172800	IN	NS	ns4.quadrahosting.com.
+securityplus.COM.pg.	172800	IN	NS	ns5.quadrahosting.com.
 seetokui.COM.pg.	172800	IN	NS	pdns05.domaincontrol.com.
 seetokui.COM.pg.	172800	IN	NS	pdns06.domaincontrol.com.
 seftipng.COM.pg.	172800	IN	NS	ns1.datec.net.pg.
@@ -3090,9 +3097,9 @@ sheva7.COM.pg.		172800	IN	NS	ns3.datec.net.pg.
 shhl.COM.pg.		172800	IN	NS	ns1.datec.net.pg.
 shhl.COM.pg.		172800	IN	NS	ns2.datec.net.pg.
 shhl.COM.pg.		172800	IN	NS	ns3.datec.net.pg.
-shoreline.COM.pg.	172800	IN	NS	ns1.qnetau.com.
-shoreline.COM.pg.	172800	IN	NS	ns2.qnetau.com.
-shoreline.COM.pg.	172800	IN	NS	ns3.qnetau.com.
+shoreline.COM.pg.	172800	IN	NS	ns3.quadrahosting.com.
+shoreline.COM.pg.	172800	IN	NS	ns4.quadrahosting.com.
+shoreline.COM.pg.	172800	IN	NS	ns5.quadrahosting.com.
 silverfern.COM.pg.	172800	IN	NS	ns1.datec.net.pg.
 silverfern.COM.pg.	172800	IN	NS	ns2.datec.net.pg.
 silverfern.COM.pg.	172800	IN	NS	ns3.datec.net.pg.
@@ -4864,4 +4871,4 @@ ywamships.org.pg.	172800	IN	NS	ns3.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns1.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns2.qnetau.com.
 ywcapng.org.pg.		172800	IN	NS	ns3.qnetau.com.
-pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2018032301 14400 7200 1728000 14400
+pg.			172800	IN	SOA	ns1.unitech.ac.pg. dns.unitech.ac.pg. 2018040300 14400 7200 1728000 14400

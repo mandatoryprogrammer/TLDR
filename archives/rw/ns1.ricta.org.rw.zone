@@ -1,10 +1,11 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns1.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018040415 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1522846807"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018040418 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1522857605"
 rw.			3600	IN	NS	ns1.ricta.org.rw.
 rw.			3600	IN	NS	ns3.ricta.org.rw.
+rw.			3600	IN	NS	ns4.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
 rw.			3600	IN	NS	fork.sth.dnsnode.net.
 rw.			3600	IN	NS	ns-rw.afrinic.net.
@@ -416,11 +417,10 @@ arj.rw.			3600	IN	NS	ns2.dreamhost.com.
 arj.rw.			3600	IN	NS	ns3.dreamhost.com.
 arr.rw.			3600	IN	NS	ns1.imaginetrwone.com.
 arr.rw.			3600	IN	NS	ns2.imaginetrwone.com.
-arrow.rw.		3600	IN	NS	ns1.markmonitor.com.
-arrow.rw.		3600	IN	NS	ns3.markmonitor.com.
-arrow.rw.		3600	IN	NS	ns4.markmonitor.com.
-arrow.rw.		3600	IN	NS	ns5.markmonitor.com.
-arrow.rw.		3600	IN	NS	ns6.markmonitor.com.
+arrow.rw.		3600	IN	NS	pdns77.ultradns.biz.
+arrow.rw.		3600	IN	NS	pdns77.ultradns.com.
+arrow.rw.		3600	IN	NS	pdns77.ultradns.net.
+arrow.rw.		3600	IN	NS	pdns77.ultradns.org.
 arrowcapital.rw.	3600	IN	NS	ns1.rdb.rw.
 arrowcapital.rw.	3600	IN	NS	ns2.aos.rw.
 arrowcapital.rw.	3600	IN	NS	ns3.aos.rw.
@@ -1130,8 +1130,10 @@ constructionhub.rw.	3600	IN	NS	ns1.ipage.com.
 constructionhub.rw.	3600	IN	NS	ns2.ipage.com.
 construzone.rw.		3600	IN	NS	ns5.afriregister.com.
 construzone.rw.		3600	IN	NS	ns6.afriregister.com.
-continuity.rw.		3600	IN	NS	ns1.codelabkenya.net.
-continuity.rw.		3600	IN	NS	ns2.codelabkenya.net.
+continuity.rw.		3600	IN	NS	ns1.continuity.rw.
+continuity.rw.		3600	IN	NS	ns2.continuity.rw.
+ns1.continuity.rw.	3600	IN	A	176.9.115.26
+ns2.continuity.rw.	3600	IN	A	176.9.115.26
 coop.rw.		3600	IN	NS	ns1.ricta.org.rw.
 coop.rw.		3600	IN	NS	ns3.ricta.org.rw.
 coop.rw.		3600	IN	NS	pch.ricta.org.rw.
@@ -2055,8 +2057,8 @@ greenfund.rw.		3600	IN	NS	ns3.sawasawa.com.
 greenfund.rw.		3600	IN	NS	ns4.sawasawa.com.
 greengrowth.rw.		3600	IN	NS	ns1.kaneza.com.
 greengrowth.rw.		3600	IN	NS	ns2.kaneza.com.
-greenhillsacademy.rw.	3600	IN	NS	ns5.ricta.org.rw.
-greenhillsacademy.rw.	3600	IN	NS	ns6.ricta.org.rw.
+greenhillsacademy.rw.	3600	IN	NS	ns1.cyberultra.net.
+greenhillsacademy.rw.	3600	IN	NS	ns2.cyberultra.net.
 greenrockiwacu.rw.	3600	IN	NS	ns1.imaginetrwone.com.
 greenrockiwacu.rw.	3600	IN	NS	ns2.imaginetrwone.com.
 greenspace.rw.		3600	IN	NS	ns1.inmotionhosting.com.
@@ -3250,6 +3252,8 @@ mariereinerwaza.rw.	3600	IN	NS	ns1.es26.siteground.eu.
 mariereinerwaza.rw.	3600	IN	NS	ns2.es26.siteground.eu.
 marken.rw.		3600	IN	NS	dns1.cscdns.net.
 marken.rw.		3600	IN	NS	dns2.cscdns.net.
+marketpriceindex.rw.	3600	IN	NS	dns1000.kenyawebexperts.com.
+marketpriceindex.rw.	3600	IN	NS	dns1001.kenyawebexperts.com.
 markmonitor.rw.		3600	IN	NS	ns1.markmonitor.com.
 markmonitor.rw.		3600	IN	NS	ns3.markmonitor.com.
 marlboro.rw.		3600	IN	NS	dns1.cscdns.net.
@@ -3795,6 +3799,7 @@ org.rw.			3600	IN	NS	fork.sth.dnsnode.net.
 org.rw.			3600	IN	NS	ns-rw.afrinic.net.
 ns1.ricta.org.rw.	3600	IN	A	41.74.173.250
 ns3.ricta.org.rw.	3600	IN	A	41.138.85.98
+ns4.ricta.org.rw.	3600	IN	A	196.49.7.178
 pch.ricta.org.rw.	3600	IN	A	204.61.216.91
 pch.ricta.org.rw.	3600	IN	AAAA	2001:500:14:6091:ad::1
 oriflame.rw.		3600	IN	NS	ns.oriflame.se.
@@ -5654,4 +5659,4 @@ zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
 zz.rw.			3600	IN	NS	june.ns.cloudflare.com.
 zz.rw.			3600	IN	NS	thomas.ns.cloudflare.com.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018040415 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018040418 86400 7200 604800 3600

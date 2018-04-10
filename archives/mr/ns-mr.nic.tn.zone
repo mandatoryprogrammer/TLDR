@@ -1,15 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns-mr.nic.tn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018040952 21600 7200 2592000 86400
-mr.			3600	IN	TXT	"Generation Time: 1523295011"
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018041018 21600 7200 2592000 86400
+mr.			3600	IN	TXT	"Generation Time: 1523376553"
 mr.			3600	IN	MX	5 mail.nic.mr.
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns3.nic.fr.
+mr.			3600	IN	NS	ns-mr.nic.fr.
 mr.			3600	IN	NS	ns-mr.nic.tn.
-mr.			3600	IN	NS	dnsslave1.nic.fr.
-mr.			3600	IN	NS	dnsslave2.nic.fr.
 mr.			3600	IN	NS	censvrns0001.ird.fr.
 01digits.mr.		3600	IN	NS	ns1.site4now.net.
 01digits.mr.		3600	IN	NS	ns2.site4now.net.
@@ -3788,8 +3787,10 @@ umlc.mr.		3600	IN	NS	ns1.maurisystem.com.
 umlc.mr.		3600	IN	NS	ns2.maurisystem.com.
 un.mr.			3600	IN	NS	bow.mauritel.mr.
 un.mr.			3600	IN	NS	dns.iiardd.mr.
-una.mr.			3600	IN	NS	ns.univ-nkc.mr.
-una.mr.			3600	IN	NS	ns1.nic.mr.
+una.mr.			604800	IN	NS	ns.univ-nkc.mr.
+una.mr.			604800	IN	NS	ns1.nic.mr.
+una.mr.			604800	IN	NS	zira.una.mr.
+zira.una.mr.		604800	IN	A	41.188.65.194
 uncacem.mr.		3600	IN	NS	ns1.amen.fr.
 uncacem.mr.		3600	IN	NS	ns2.amen.fr.
 uncecel.mr.		3600	IN	NS	ns10a.haisoft.net.
@@ -3822,10 +3823,10 @@ upr.mr.			3600	IN	NS	ns104.ovh.net.
 upr.mr.			3600	IN	NS	dns104.ovh.net.
 usia.mr.		3600	IN	NS	ns.univ-nkc.mr.
 usia.mr.		3600	IN	NS	ns2.univ-nkc.mr.
-ustm.mr.		3600	IN	NS	ns.univ-nkc.mr.
-ustm.mr.		3600	IN	NS	ns1.nic.mr.
-ustm.mr.		3600	IN	NS	deyl.ustm.mr.
-deyl.ustm.mr.		3600	IN	A	82.151.64.6
+ustm.mr.		604800	IN	NS	ns.univ-nkc.mr.
+ustm.mr.		604800	IN	NS	ns1.nic.mr.
+ustm.mr.		604800	IN	NS	zira.ustm.mr.
+zira.ustm.mr.		604800	IN	A	41.188.65.194
 uva.mr.			604800	IN	NS	ns.univ-nkc.mr.
 uva.mr.			604800	IN	NS	ns1.nic.mr.
 vadhila.mr.		3600	IN	NS	ns1.men.fr.
@@ -3952,4 +3953,4 @@ ziwanya.mr.		3600	IN	NS	ns1.infomaniak.ch.
 ziwanya.mr.		3600	IN	NS	ns2.infomaniak.ch.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018040952 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018041018 21600 7200 2592000 86400

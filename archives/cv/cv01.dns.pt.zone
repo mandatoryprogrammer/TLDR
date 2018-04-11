@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018040901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018041101 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -1127,10 +1127,10 @@ chsi.com.cv.		28800	IN	NS	NS5.101DOMAIN.COM.
 cipd.com.cv.		28800	IN	NS	dns1.idp365.net.
 cipd.com.cv.		28800	IN	NS	dns2.idp365.net.
 cipd.com.cv.		28800	IN	NS	dns3.idp365.net.
-citydia.com.cv.		28800	IN	NS	ns1.entornodns.com.
-citydia.com.cv.		28800	IN	NS	ns2.entornodns.com.
 citydia.com.cv.		28800	IN	AAAA	::195.77.116.8
 citydia.com.cv.		28800	IN	AAAA	2a01:1c8:1001:2:be30:5bff:fedf:67ee
+citydia.com.cv.		28800	IN	NS	ns1.entornodns.com.
+citydia.com.cv.		28800	IN	NS	ns2.entornodns.com.
 cloud.com.cv.		28800	IN	A	213.13.28.116
 cloud.com.cv.		28800	IN	A	213.13.30.116
 cloud.com.cv.		28800	IN	NS	ns.sapo.pt.
@@ -4041,16 +4041,16 @@ asemana.publ.cv.	28800	IN	AAAA	2a01:68:100:1::2
 asemana.publ.cv.	28800	IN	A	91.121.162.16
 asemana.publ.cv.	28800	IN	NS	ns1.efedus.com.
 asemana.publ.cv.	28800	IN	NS	ns2.efedus.com.
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1819
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1827
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1981
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1a63
-expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1b48
 expressodasilhas.publ.cv. 28800	IN	NS	ns1.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns2.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns3.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns4.linode.com.
 expressodasilhas.publ.cv. 28800	IN	NS	ns5.linode.com.
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1819
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1827
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1981
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1a63
+expressodasilhas.publ.cv. 28800	IN	AAAA	2400:cb00:2049:1::a29f:1b48
 inforpress.publ.cv.	28800	IN	NS	ns1.gov.cv.
 inforpress.publ.cv.	28800	IN	NS	ns2.gov.cv.
 noticiasdonorte.publ.cv. 28800	IN	NS	ns1.mediatemple.net.
@@ -4356,11 +4356,9 @@ schweppes.cv.		28800	IN	NS	ns3.ko.com.
 schweppes.cv.		28800	IN	NS	ns4.ko.com.
 sci.cv.			28800	IN	NS	ns1.webs24h.com.
 sci.cv.			28800	IN	NS	ns2.webs24h.com.
-scp.cv.			28800	IN	NS	ns1.scp.cv.
-scp.cv.			28800	IN	NS	ns2.scp.cv.
-mail.scp.cv.		28800	IN	A	93.104.211.170
-ns1.scp.cv.		28800	IN	A	93.104.211.170
-ns2.scp.cv.		28800	IN	A	93.104.211.170
+scp.cv.			28800	IN	NS	ns1.dreamhost.com.
+scp.cv.			28800	IN	NS	ns2.dreamhost.com.
+scp.cv.			28800	IN	NS	ns3.dreamhost.com.
 scryptus1.cv.		28800	IN	NS	ns1.efeito.net.
 scryptus1.cv.		28800	IN	NS	ns2.efeito.net.
 sct.cv.			86400	IN	NS	ns1.webs24h.com.
@@ -4405,11 +4403,11 @@ sermaq.cv.		28800	IN	NS	ns6.ptup.net.
 sermaq.cv.		28800	IN	NS	ns7.ptup.net.
 serralheriaandrade.cv.	28800	IN	NS	ns1000.mochahost.com.
 serralheriaandrade.cv.	28800	IN	NS	ns2000.mochahost.com.
-servicesound.cv.	28800	IN	A	66.96.142.162
-servicesound.cv.	28800	IN	A	66.96.142.163
 servicesound.cv.	28800	IN	NS	ns1.wtservers.com.
 servicesound.cv.	28800	IN	NS	ns2.wtservers.com.
 servicesound.cv.	28800	IN	NS	ns3.wtservers.com.
+servicesound.cv.	28800	IN	A	66.96.142.162
+servicesound.cv.	28800	IN	A	66.96.142.163
 servintil.cv.		28800	IN	NS	ns1.ipage.com.
 servintil.cv.		28800	IN	NS	ns2.ipage.com.
 sesis.cv.		28800	IN	NS	gns23.hocnet.pt.
@@ -4709,12 +4707,15 @@ tecla.cv.		28800	IN	NS	ns1.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns2.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns3.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns4.hostinger.com.br.
+tecnocor.cv.		28800	IN	A	35.182.190.110
+tecnocor.cv.		28800	IN	A	52.215.11.135
+tecnocor.cv.		28800	IN	A	199.73.55.49
 tecnocor.cv.		28800	IN	NS	ns1.wtservers.com.
 tecnocor.cv.		28800	IN	NS	ns2.wtservers.com.
 tecnocor.cv.		28800	IN	NS	ns3.wtservers.com.
-tecnoland.cv.		28800	IN	NS	ns1.hostingpanel1.com.
-tecnoland.cv.		28800	IN	NS	ns2.hostingpanel1.com.
-mail.tecnoland.cv.	28800	IN	A	195.23.157.226
+tecnoland.cv.		28800	IN	NS	NS1.101DOMAIN.COM.
+tecnoland.cv.		28800	IN	NS	NS2.101DOMAIN.COM.
+tecnoland.cv.		28800	IN	NS	NS5.101DOMAIN.COM.
 tei.cv.			28800	IN	NS	gns13.hocnet.pt.
 tei.cv.			28800	IN	NS	gns14.hocnet.pt.
 teia.cv.		28800	IN	NS	ns180.hostgator.com.br.
@@ -4931,6 +4932,8 @@ verdelines.cv.		28800	IN	NS	ns2.isone.cv.
 verdemundo.cv.		28800	IN	NS	ns1.dreamhost.com.
 verdemundo.cv.		28800	IN	NS	ns2.dreamhost.com.
 verdemundo.cv.		28800	IN	NS	ns3.dreamhost.com.
+vidanaestrada.cv.	28800	IN	NS	ns1.bh-74.webhostbox.net.
+vidanaestrada.cv.	28800	IN	NS	ns2.bh-74.webhostbox.net.
 video.cv.		28800	IN	NS	ns1.likipe.com.
 video.cv.		28800	IN	NS	ns2.likipe.com.
 vilabomsossego.cv.	28800	IN	NS	ns1.limoncv.com.
@@ -5022,4 +5025,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018040901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018041101 86400 7200 2592000 300

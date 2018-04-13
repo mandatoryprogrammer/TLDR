@@ -1,10 +1,11 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns3.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018041309 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1523602812"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018041312 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1523613611"
 rw.			3600	IN	NS	ns1.ricta.org.rw.
 rw.			3600	IN	NS	ns3.ricta.org.rw.
+rw.			3600	IN	NS	ns4.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
 rw.			3600	IN	NS	fork.sth.dnsnode.net.
 rw.			3600	IN	NS	ns-rw.afrinic.net.
@@ -1814,8 +1815,8 @@ forcepoint.rw.		3600	IN	NS	dns3.ladasdomains.com.
 fortebet.rw.		3600	IN	NS	ns1.bump.cz.
 fortebet.rw.		3600	IN	NS	ns2.bump.cz.
 fortebet.rw.		3600	IN	NS	ns3.bump.cz.
-fortis-systems.rw.	3600	IN	NS	ns1.afriregister.com.
-fortis-systems.rw.	3600	IN	NS	ns2.afriregister.com.
+fortis-systems.rw.	3600	IN	NS	ns5.afriregister.com.
+fortis-systems.rw.	3600	IN	NS	ns6.afriregister.com.
 forwardavenue.rw.	3600	IN	NS	ns1.theclickhost.com.
 forwardavenue.rw.	3600	IN	NS	ns2.theclickhost.com.
 forzza.rw.		3600	IN	NS	lars.ns.cloudflare.com.
@@ -2074,8 +2075,6 @@ gsm.rw.			3600	IN	NS	ns1.afriregister.com.
 gsm.rw.			3600	IN	NS	ns2.afriregister.com.
 gsmgroup.rw.		3600	IN	NS	ns1.afriregister.com.
 gsmgroup.rw.		3600	IN	NS	ns2.afriregister.com.
-gsobindatwa.rw.		3600	IN	NS	ns5.ricta.org.rw.
-gsobindatwa.rw.		3600	IN	NS	ns6.ricta.org.rw.
 gsoko.rw.		3600	IN	NS	ns1.kaneza.com.
 gsoko.rw.		3600	IN	NS	ns2.kaneza.com.
 gsse.rw.		3600	IN	NS	ns5.afriregister.com.
@@ -2111,8 +2110,8 @@ hakunamatatalodge.rw.	3600	IN	NS	ns39.websitewelcome.com.
 hakunamatatalodge.rw.	3600	IN	NS	ns40.websitewelcome.com.
 hanga.rw.		3600	IN	NS	ns5.afriregister.com.
 hanga.rw.		3600	IN	NS	ns6.afriregister.com.
-happyhearts.rw.		3600	IN	NS	ns5.ricta.org.rw.
-happyhearts.rw.		3600	IN	NS	ns6.ricta.org.rw.
+happyhearts.rw.		3600	IN	NS	ns8241.hostgator.com.
+happyhearts.rw.		3600	IN	NS	ns8242.hostgator.com.
 harrypotter.rw.		3600	IN	NS	ns1-b1.warnerbros.com.
 harrypotter.rw.		3600	IN	NS	ns2-b1.warnerbros.com.
 harrypotter.rw.		3600	IN	NS	ns3-b1.warnerbros.com.
@@ -3232,8 +3231,8 @@ mail.rw.		3600	IN	NS	dns1.biz.tk.
 mail.rw.		3600	IN	NS	dns2.biz.tk.
 maintechgroup.rw.	3600	IN	NS	ns1.bh-67.webhostbox.net.
 maintechgroup.rw.	3600	IN	NS	ns2.bh-67.webhostbox.net.
-makuruki.rw.		3600	IN	NS	dns1.namecheaphosting.com.
-makuruki.rw.		3600	IN	NS	dns2.namecheaphosting.com.
+makuruki.rw.		3600	IN	NS	ns5.ricta.org.rw.
+makuruki.rw.		3600	IN	NS	ns6.ricta.org.rw.
 mami-foundation.rw.	3600	IN	NS	ns1.bh-67.webhostbox.net.
 mami-foundation.rw.	3600	IN	NS	ns2.bh-67.webhostbox.net.
 mangaboo.rw.		3600	IN	NS	a4.nstld.com.
@@ -3804,6 +3803,7 @@ org.rw.			3600	IN	NS	fork.sth.dnsnode.net.
 org.rw.			3600	IN	NS	ns-rw.afrinic.net.
 ns1.ricta.org.rw.	3600	IN	A	41.74.173.250
 ns3.ricta.org.rw.	3600	IN	A	41.138.85.98
+ns4.ricta.org.rw.	3600	IN	A	196.49.7.178
 pch.ricta.org.rw.	3600	IN	A	204.61.216.91
 pch.ricta.org.rw.	3600	IN	AAAA	2001:500:14:6091:ad::1
 oriflame.rw.		3600	IN	NS	ns.oriflame.se.
@@ -5664,4 +5664,4 @@ zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
 zz.rw.			3600	IN	NS	june.ns.cloudflare.com.
 zz.rw.			3600	IN	NS	thomas.ns.cloudflare.com.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018041309 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018041312 86400 7200 604800 3600

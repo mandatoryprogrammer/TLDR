@@ -1,10 +1,11 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns1.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018041509 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1523775606"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018041512 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1523786404"
 rw.			3600	IN	NS	ns1.ricta.org.rw.
 rw.			3600	IN	NS	ns3.ricta.org.rw.
+rw.			3600	IN	NS	ns4.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
 rw.			3600	IN	NS	fork.sth.dnsnode.net.
 rw.			3600	IN	NS	ns-rw.afrinic.net.
@@ -2600,8 +2601,6 @@ ip.rw.			3600	IN	NS	lv3ns1.ffdns.net.
 ip.rw.			3600	IN	NS	lv3ns2.ffdns.net.
 ip.rw.			3600	IN	NS	lv3ns3.ffdns.net.
 ip.rw.			3600	IN	NS	lv3ns4.ffdns.net.
-irangiro.rw.		3600	IN	NS	ns5.ricta.org.rw.
-irangiro.rw.		3600	IN	NS	ns6.ricta.org.rw.
 irangisha.rw.		3600	IN	NS	ns1.linode.com.
 irangisha.rw.		3600	IN	NS	ns2.linode.com.
 irangisha.rw.		3600	IN	NS	ns3.linode.com.
@@ -3800,6 +3799,7 @@ org.rw.			3600	IN	NS	fork.sth.dnsnode.net.
 org.rw.			3600	IN	NS	ns-rw.afrinic.net.
 ns1.ricta.org.rw.	3600	IN	A	41.74.173.250
 ns3.ricta.org.rw.	3600	IN	A	41.138.85.98
+ns4.ricta.org.rw.	3600	IN	A	196.49.7.178
 pch.ricta.org.rw.	3600	IN	A	204.61.216.91
 pch.ricta.org.rw.	3600	IN	AAAA	2001:500:14:6091:ad::1
 oriflame.rw.		3600	IN	NS	ns.oriflame.se.
@@ -4046,8 +4046,8 @@ rabobank.rw.		3600	IN	NS	use3.akam.net.
 rabobank.rw.		3600	IN	NS	asia1.akam.net.
 rabobank.rw.		3600	IN	NS	ns1-243.akam.net.
 rabobank.rw.		3600	IN	NS	ns1-250.akam.net.
-rac.rw.			3600	IN	NS	ns1.kaneza.com.
-rac.rw.			3600	IN	NS	ns2.kaneza.com.
+rac.rw.			3600	IN	NS	ns5.ricta.org.rw.
+rac.rw.			3600	IN	NS	ns6.ricta.org.rw.
 radiant.rw.		3600	IN	NS	ns1.hostholik.com.
 radiant.rw.		3600	IN	NS	ns2.hostholik.com.
 radio.rw.		3600	IN	NS	ns1.igihe.club.
@@ -4241,8 +4241,8 @@ rindubuzima.rw.		3600	IN	NS	ns6.afriregister.com.
 risa.rw.		3600	IN	NS	ns1.rdb.rw.
 risa.rw.		3600	IN	NS	ns2.aos.rw.
 risa.rw.		3600	IN	NS	ns3.aos.rw.
-risco.rw.		3600	IN	NS	ns1-rocket.vivawebhost.com.
-risco.rw.		3600	IN	NS	ns2-rocket.vivawebhost.com.
+risco.rw.		3600	IN	NS	ns5.ricta.org.rw.
+risco.rw.		3600	IN	NS	ns6.ricta.org.rw.
 riseandshine.rw.	3600	IN	NS	hank.ns.cloudflare.com.
 riseandshine.rw.	3600	IN	NS	venus.ns.cloudflare.com.
 rlf.rw.			3600	IN	NS	ns1.imaginetrwone.com.
@@ -4448,8 +4448,8 @@ rwandaproducts.rw.	3600	IN	NS	ns1.yegosites.com.
 rwandaproducts.rw.	3600	IN	NS	ns2.yegosites.com.
 rwandareads.rw.		3600	IN	NS	ns1.kaneza.com.
 rwandareads.rw.		3600	IN	NS	ns2.kaneza.com.
-rwandartscouncil.rw.	3600	IN	NS	ns1.datamediarwa.com.
-rwandartscouncil.rw.	3600	IN	NS	ns2.datamediarwa.com.
+rwandartscouncil.rw.	3600	IN	NS	ns5.ricta.org.rw.
+rwandartscouncil.rw.	3600	IN	NS	ns6.ricta.org.rw.
 rwandasmiles.rw.	3600	IN	NS	ns1.netnames.net.
 rwandasmiles.rw.	3600	IN	NS	ns2.netnames.net.
 rwandasmiles.rw.	3600	IN	NS	ns5.netnames.net.
@@ -4789,8 +4789,6 @@ souk.rw.		3600	IN	NS	nsusa.comlaude.net.
 souq.rw.		3600	IN	NS	nsgbr.comlaude.co.uk.
 souq.rw.		3600	IN	NS	nssui.comlaude.ch.
 souq.rw.		3600	IN	NS	nsusa.comlaude.net.
-southgate.rw.		3600	IN	NS	ns5.ricta.org.rw.
-southgate.rw.		3600	IN	NS	ns6.ricta.org.rw.
 sozo.rw.		3600	IN	NS	ns1.seburikoko.com.
 sozo.rw.		3600	IN	NS	ns2.seburikoko.com.
 span.rw.		3600	IN	NS	ns31.domaincontrol.com.
@@ -5660,4 +5658,4 @@ zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
 zz.rw.			3600	IN	NS	june.ns.cloudflare.com.
 zz.rw.			3600	IN	NS	thomas.ns.cloudflare.com.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018041509 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018041512 86400 7200 604800 3600

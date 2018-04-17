@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cd. @ns-root-5.scpt-network.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152706 14400 3600 2419200 3600
+cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152711 14400 3600 2419200 3600
 cd.			86400	IN	TXT	"Generation Time: 1501576211"
 cd.			86400	IN	NS	igubu.saix.net.
 cd.			86400	IN	NS	sabela.saix.net.
@@ -406,8 +406,9 @@ ace-rdc.cd.		7200	IN	NS	ns03.domaincontrol.com.
 ace-rdc.cd.		7200	IN	NS	ns04.domaincontrol.com.
 aceac.cd.		86400	IN	NS	ns1.mongwd.com.
 aceac.cd.		86400	IN	NS	ns2.mongwd.com.
-acedes.cd.		86400	IN	NS	dns1.genhost.in.
-acedes.cd.		86400	IN	NS	dns2.genhost.in.
+acedes.cd.		7200	IN	NS	leo.liveboxserver.com.
+acedes.cd.		7200	IN	NS	lyra.liveboxserver.com.
+acedes.cd.		7200	IN	NS	orion.liveboxserver.com.
 acgt.cd.		86400	IN	NS	ns1.webou-pro.com.
 acgt.cd.		86400	IN	NS	ns2.webou-pro.com.
 acic.cd.		86400	IN	NS	ns1.webou-pro.com.
@@ -1049,11 +1050,10 @@ armp-rdc.cd.		86400	IN	NS	ajay.ns.cloudflare.com.
 armp-rdc.cd.		86400	IN	NS	arch.ns.cloudflare.com.
 arptc.cd.		86400	IN	NS	ajay.ns.cloudflare.com.
 arptc.cd.		86400	IN	NS	arch.ns.cloudflare.com.
-arrow.cd.		86400	IN	NS	ns1.markmonitor.com.
-arrow.cd.		86400	IN	NS	ns3.markmonitor.com.
-arrow.cd.		86400	IN	NS	ns4.markmonitor.com.
-arrow.cd.		86400	IN	NS	ns5.markmonitor.com.
-arrow.cd.		86400	IN	NS	ns6.markmonitor.com.
+arrow.cd.		7200	IN	NS	pdns77.ultradns.biz.
+arrow.cd.		7200	IN	NS	pdns77.ultradns.com.
+arrow.cd.		7200	IN	NS	pdns77.ultradns.net.
+arrow.cd.		7200	IN	NS	pdns77.ultradns.org.
 arthrolink.cd.		86400	IN	NS	ns2.observatoiredesmarques.fr.
 arthrolink.cd.		86400	IN	NS	observatoire.observatoiredesmarques.fr.
 arts.cd.		86400	IN	NS	ns1.cows.cd.
@@ -5815,6 +5815,9 @@ iitm.cd.		86400	IN	NS	arch.ns.cloudflare.com.
 ikoula.cd.		86400	IN	NS	ns1.ikoula.fr.
 ikoula.cd.		86400	IN	NS	ns2.ikoula.fr.
 ikoula.cd.		86400	IN	NS	ns3.ikoula.fr.
+ikwook.cd.		7200	IN	NS	ns.second-ns.com.
+ikwook.cd.		7200	IN	NS	ns1.your-server.de.
+ikwook.cd.		7200	IN	NS	ns3.second-ns.de.
 illicocash.cd.		86400	IN	NS	dns.afrinet.cd.
 illicocash.cd.		86400	IN	NS	auth01.afrinet.cd.
 ilove.cd.		86400	IN	NS	ajay.ns.cloudflare.com.
@@ -9238,6 +9241,9 @@ parcelle.cd.		7200	IN	NS	ns-us.1and1-dns.de.
 parcelle.cd.		7200	IN	NS	ns-us.1and1-dns.us.
 parcelle.cd.		7200	IN	NS	ns-us.1and1-dns.com.
 parcelle.cd.		7200	IN	NS	ns-us.1and1-dns.org.
+pari.cd.		7200	IN	NS	ns.second-ns.com.
+pari.cd.		7200	IN	NS	ns1.your-server.de.
+pari.cd.		7200	IN	NS	ns3.second-ns.de.
 pari-match.cd.		86400	IN	NS	ns1.onlydomains.com.
 pari-match.cd.		86400	IN	NS	ns2.onlydomains.com.
 pari-match.cd.		86400	IN	NS	ns3.onlydomains.com.
@@ -9813,8 +9819,12 @@ public-ns1.cd.		7200	IN	CNAME	public-ns1.net.cd.
 public-ns2.cd.		7200	IN	CNAME	public-ns2.net.cd.
 publicbet.cd.		86400	IN	NS	ajay.ns.cloudflare.com.
 publicbet.cd.		86400	IN	NS	arch.ns.cloudflare.com.
-publicholidays.cd.	86400	IN	NS	ns.liquidweb.com.
-publicholidays.cd.	86400	IN	NS	ns1.liquidweb.com.
+publicholidays.cd.	86400	IN	NS	ns10.dnsmadeeasy.com.
+publicholidays.cd.	86400	IN	NS	ns11.dnsmadeeasy.com.
+publicholidays.cd.	86400	IN	NS	ns12.dnsmadeeasy.com.
+publicholidays.cd.	86400	IN	NS	ns13.dnsmadeeasy.com.
+publicholidays.cd.	86400	IN	NS	ns14.dnsmadeeasy.com.
+publicholidays.cd.	86400	IN	NS	ns15.dnsmadeeasy.com.
 pulse.cd.		86400	IN	NS	ns1.101domain.com.
 pulse.cd.		86400	IN	NS	ns2.101domain.com.
 pulse.cd.		86400	IN	NS	ns5.101domain.com.
@@ -10863,6 +10873,8 @@ smcc.cd.		86400	IN	NS	ajay.ns.cloudflare.com.
 smcc.cd.		86400	IN	NS	arch.ns.cloudflare.com.
 smico.cd.		86400	IN	NS	ajay.ns.cloudflare.com.
 smico.cd.		86400	IN	NS	arch.ns.cloudflare.com.
+smico-industries.cd.	7200	IN	NS	ns1.instradns.com.
+smico-industries.cd.	7200	IN	NS	ns2.instradns.com.
 smile.cd.		86400	IN	NS	ns1.101domain.com.
 smile.cd.		86400	IN	NS	ns2.101domain.com.
 smile.cd.		86400	IN	NS	ns5.101domain.com.
@@ -13186,4 +13198,4 @@ zuri.cd.		86400	IN	NS	ns4.francedns.com.
 zuri.cd.		86400	IN	NS	ns5.francedns.com.
 zurich.cd.		86400	IN	NS	dns1.cscdns.net.
 zurich.cd.		86400	IN	NS	dns2.cscdns.net.
-cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152706 14400 3600 2419200 3600
+cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152711 14400 3600 2419200 3600

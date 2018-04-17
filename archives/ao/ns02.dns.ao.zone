@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ao. @ns02.dns.ao. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018041602 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018041702 86400 7200 2592000 3600
 ao.			3600	IN	TXT	"Angola - http://www.dns.ao/"
 ao.			3600	IN	NS	ao01.dns.pt.
 ao.			3600	IN	NS	ao03.dns.pt.
@@ -243,11 +243,14 @@ bir.ao.			3600	IN	NS	dns1.snet.co.ao.
 bmais.ao.		3600	IN	NS	ns1.angoweb.biz.
 bmais.ao.		3600	IN	NS	ns2.angoweb.biz.
 bna.ao.			3600	IN	NS	dns1.bna.ao.
+bna.ao.			3600	IN	NS	dns2.bna.ao.
 bna.ao.			3600	IN	NS	dns3.bna.ao.
 bna.ao.			3600	IN	NS	bnadns1.bna.ao.
 bna.ao.			3600	IN	NS	bnadns2.bna.ao.
 bnadns1.bna.ao.		3600	IN	A	66.110.113.34
 bnadns2.bna.ao.		3600	IN	A	66.110.113.35
+dns1.bna.ao.		3600	IN	A	196.43.223.190
+dns2.bna.ao.		3600	IN	A	196.43.223.191
 dns3.bna.ao.		3600	IN	A	196.29.206.250
 bni.ao.			3600	IN	NS	ns.multitel.co.ao.
 bni.ao.			3600	IN	NS	ns1.bni.ao.
@@ -1098,4 +1101,4 @@ welvitcha.ao.		3600	IN	NS	ns.acs.ao.
 welvitcha.ao.		3600	IN	NS	ns1.acs.ao.
 xikilamoney.ao.		3600	IN	NS	ns.inventadomains.com.
 xikilamoney.ao.		3600	IN	NS	ns2.inventadomains.com.
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018041602 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018041702 86400 7200 2592000 3600

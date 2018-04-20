@@ -1,10 +1,11 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns3.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042009 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1524207607"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042012 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1524218405"
 rw.			3600	IN	NS	ns1.ricta.org.rw.
 rw.			3600	IN	NS	ns3.ricta.org.rw.
+rw.			3600	IN	NS	ns4.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
 rw.			3600	IN	NS	fork.sth.dnsnode.net.
 rw.			3600	IN	NS	ns-rw.afrinic.net.
@@ -3446,6 +3447,8 @@ motorolamobility.rw.	3600	IN	NS	motgate.mot.com.
 motul.rw.		3600	IN	NS	ns0.ordipat.fr.
 motul.rw.		3600	IN	NS	ns2.ordipat.fr.
 motul.rw.		3600	IN	NS	ns3.ordipat.fr.
+move.rw.		3600	IN	NS	ns5.afriregister.com.
+move.rw.		3600	IN	NS	ns6.afriregister.com.
 movingforward.rw.	3600	IN	NS	ns1.lexsynergy.net.
 movingforward.rw.	3600	IN	NS	ns2.lexsynergy.us.
 movingforward.rw.	3600	IN	NS	ns3.lexsynergy.info.
@@ -3820,6 +3823,7 @@ org.rw.			3600	IN	NS	fork.sth.dnsnode.net.
 org.rw.			3600	IN	NS	ns-rw.afrinic.net.
 ns1.ricta.org.rw.	3600	IN	A	41.74.173.250
 ns3.ricta.org.rw.	3600	IN	A	41.138.85.98
+ns4.ricta.org.rw.	3600	IN	A	196.49.7.178
 pch.ricta.org.rw.	3600	IN	A	204.61.216.91
 pch.ricta.org.rw.	3600	IN	AAAA	2001:500:14:6091:ad::1
 oriflame.rw.		3600	IN	NS	ns.oriflame.se.
@@ -4729,9 +4733,6 @@ skyaccess.rw.		3600	IN	NS	ns1.kaneza.com.
 skyaccess.rw.		3600	IN	NS	ns2.kaneza.com.
 skyscanner.rw.		3600	IN	NS	ns1.netnames.net.
 skyscanner.rw.		3600	IN	NS	ns2.netnames.net.
-smag.rw.		3600	IN	NS	ns1.101domain.com.
-smag.rw.		3600	IN	NS	ns2.101domain.com.
-smag.rw.		3600	IN	NS	ns5.101domain.com.
 smagritech.rw.		3600	IN	NS	ns1-02.azure-dns.com.
 smagritech.rw.		3600	IN	NS	ns2-02.azure-dns.net.
 smagritech.rw.		3600	IN	NS	ns3-02.azure-dns.org.
@@ -5485,6 +5486,8 @@ voicemagazine.rw.	3600	IN	NS	ns59.domaincontrol.com.
 voicemagazine.rw.	3600	IN	NS	ns60.domaincontrol.com.
 volkswagen.rw.		3600	IN	NS	ns1.volkswagen.de.
 volkswagen.rw.		3600	IN	NS	ns2.volkswagen.de.
+volkswagen-rwanda.rw.	3600	IN	NS	ns1.vodacombusiness.co.za.
+volkswagen-rwanda.rw.	3600	IN	NS	ns2.vodacombusiness.co.za.
 volkswagenmobilityrwanda.rw. 3600 IN	NS	ns1-06.azure-dns.com.
 volkswagenmobilityrwanda.rw. 3600 IN	NS	ns2-06.azure-dns.net.
 volkswagenmobilityrwanda.rw. 3600 IN	NS	ns3-06.azure-dns.org.
@@ -5639,10 +5642,8 @@ yego.rw.		3600	IN	NS	ns3006.mochahost.com.
 yego.rw.		3600	IN	NS	ns4006.mochahost.com.
 yegob.rw.		3600	IN	NS	ns101.ovh.net.
 yegob.rw.		3600	IN	NS	dns101.ovh.net.
-yellowpages.rw.		3600	IN	NS	ns-498.awsdns-62.com.
-yellowpages.rw.		3600	IN	NS	ns-871.awsdns-44.net.
-yellowpages.rw.		3600	IN	NS	ns-1228.awsdns-25.org.
-yellowpages.rw.		3600	IN	NS	ns-1552.awsdns-02.co.uk.
+yellowpages.rw.		3600	IN	NS	ns5.ricta.org.rw.
+yellowpages.rw.		3600	IN	NS	ns6.ricta.org.rw.
 yesu.rw.		3600	IN	NS	ns1.igihe.club.
 yesu.rw.		3600	IN	NS	ns2.igihe.club.
 yewe.rw.		3600	IN	NS	ns5.afriregister.com.
@@ -5698,4 +5699,4 @@ zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
 zz.rw.			3600	IN	NS	june.ns.cloudflare.com.
 zz.rw.			3600	IN	NS	thomas.ns.cloudflare.com.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042009 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042012 86400 7200 604800 3600

@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sc. @ns1.nic.sc. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008100590 1800 900 604800 86400
-sc.			900	IN	RRSIG	SOA 7 1 900 20180512091945 20180421081945 33290 sc. GiRIsuIg3e9bS6TqljDpGNTRBffWe0ZvHbHYv5/mS4h0SC+7rpXNxj3d OArnOG/Nz466SIDa0Jfucj/OGMFoKvkvQFxIYYPHGu9JlreQ/vrv9yHM UsuZoxTAcPLKcKMtXJFksKEA/L9Ojy1Yaoy6H+q0hqe70yne+j90UijB QlU=
+sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008100593 1800 900 604800 86400
+sc.			900	IN	RRSIG	SOA 7 1 900 20180512204558 20180421194558 33290 sc. qMjkPhe8tISBZIdhQWvZ6n7MxPB5pQo/AV45xY9hvV8jJPNnG0uuLnrj lLviVpbqDosO4+eX5IY2+584vqQ/oxsZ4OHBT5aPy3i6dVTjPE6VvMrB B/WViN+PMd6Ijqi+JsfYS1wKxIikhRy+m++j6BiWuOWmfv82ERffF/Tz PmU=
 sc.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20180509204649 20180418194649 33290 sc. DG0wjvP6sAHpV5J/nrAfFRaeiv9z5lRDqykKPFtt+CSJCELNGV5tbcmP e2RAtn2j8u4EgU8W3mZXKP6JtRnSwY5g4XBQkmtGLoTi2Dc9EYrT0oSn BGPSPAlS9mY5xUb/pY0N+NZyzY9od+iXo5YPHLVUm/9nusTdYozpqet4 HwU=
 sc.			900	IN	RRSIG	DNSKEY 7 1 900 20180509204649 20180418194649 30975 sc. PxCJroyMiuMJUEF9FRa8a9TTB9dkH0UfUiXjtlNioNbvbKq93/G6uyhE 7IxOrdJK8kGccr7AMa6iLZF/c2VISi/7mdhZ6HPy0IdznWxkkf0qbxDY 4qZ921FQWbCUw3s1Rci1iniTS82/gLrcD30ufTDyLpzzahUEJprA1Qa6 ri5388+BXP07RDYPnRHsUuo7QzlrP7BphLx1IjpMEdQ3LCv/G6M09QQd dCtJFqTZ8WFgmMHtHArg/0whrRZ5NN4dtbhCNLW+FGijPnV7AQs4zqmX TpaJs/7Sh2Pa0MDvfj6jioC1ulme2dke0Knng29Uay/LqUyq8x+suJI5 MKBkqw==
 sc.			900	IN	RRSIG	DNSKEY 7 1 900 20180509204649 20180418194649 32953 sc. DK/zKpMEdyEALW9gQZOlL+8hbAyU6kt6cfzfAozwSwX/OlWmx9rUJ4hs FSOpL6i9PJcIJ/s6CotRETGfQiMkue4yXrpA7okugSeLgUg708PX5IEb vMBAnjHuxpqBd33fn8YvwPcTGTYyH4+J4qzgYq5meDQ7co1y1h1a0D+/ F5pfLNQ7istRkKS5/WxbpUF29xfgFG4K1WZCltiLbt6Eqv2VkCliSNro VT5kVEXKkWsOC70c9s3e3OuT0Bq1JxLj2J6WEe30yAJ1cpCqoPHI3kfM bwZNdeQEJRG0kbG2rM7Vkk+VgH2RciF+IfHOPoYUIFjyiZPF4pXtkMvt OUD7qQ==
@@ -4553,9 +4553,9 @@ fun.sc.			86400	IN	NS	ns2.fun.sc.
 ns1.fun.sc.		86400	IN	A	87.118.119.24
 ns2.fun.sc.		86400	IN	A	87.118.119.24
 ts.fun.sc.		86400	IN	A	82.146.62.121
-functional.sc.		86400	IN	NS	a.dns.gandi.net.
-functional.sc.		86400	IN	NS	b.dns.gandi.net.
-functional.sc.		86400	IN	NS	c.dns.gandi.net.
+functional.sc.		86400	IN	NS	ns-4-c.gandi.net.
+functional.sc.		86400	IN	NS	ns-154-b.gandi.net.
+functional.sc.		86400	IN	NS	ns-251-a.gandi.net.
 fund.sc.		86400	IN	NS	ns1ksz.name.com.
 fund.sc.		86400	IN	NS	ns2dqr.name.com.
 fund.sc.		86400	IN	NS	ns3dkz.name.com.
@@ -8160,10 +8160,10 @@ next.sc.		86400	IN	NS	ns-73.awsdns-09.com.
 next.sc.		86400	IN	NS	ns-604.awsdns-11.net.
 next.sc.		86400	IN	NS	ns-1080.awsdns-07.org.
 next.sc.		86400	IN	NS	ns-1678.awsdns-17.co.uk.
-nextstrategies.sc.	86400	IN	NS	ns1.spaceweb.ru.
-nextstrategies.sc.	86400	IN	NS	ns2.spaceweb.ru.
-nextstrategies.sc.	86400	IN	NS	ns3.spaceweb.pro.
-nextstrategies.sc.	86400	IN	NS	ns4.spaceweb.pro.
+nextstrategies.sc.	86400	IN	NS	ns1dhl.name.com.
+nextstrategies.sc.	86400	IN	NS	ns2gtx.name.com.
+nextstrategies.sc.	86400	IN	NS	ns3bfm.name.com.
+nextstrategies.sc.	86400	IN	NS	ns4fmw.name.com.
 nexus.sc.		86400	IN	NS	dns1.inode.at.
 nexus.sc.		86400	IN	NS	dns2.inode.at.
 nfcp.sc.		86400	IN	NS	ns1.lhnic.com.
@@ -11748,8 +11748,18 @@ upstate.sc.		86400	IN	NS	ns1.dnsmadeeasy.com.
 upstate.sc.		86400	IN	NS	ns2.dnsmadeeasy.com.
 upstate.sc.		86400	IN	NS	ns3.dnsmadeeasy.com.
 upstate.sc.		86400	IN	NS	ns4.dnsmadeeasy.com.
-uqrain.sc.		86400	IN	NS	ns1.bodis.com.
-uqrain.sc.		86400	IN	NS	ns2.bodis.com.
+uqrain.sc.		86400	IN	NS	nsa1.srv53.net.
+uqrain.sc.		86400	IN	NS	nsa2.srv53.com.
+uqrain.sc.		86400	IN	NS	nsa4.srv53.org.
+uqrain.sc.		86400	IN	NS	nsb2.srv53.com.
+uqrain.sc.		86400	IN	NS	nsb2.srv53.net.
+uqrain.sc.		86400	IN	NS	nsb3.srv53.org.
+uqrain.sc.		86400	IN	NS	nsc2.srv53.com.
+uqrain.sc.		86400	IN	NS	nsc3.srv53.org.
+uqrain.sc.		86400	IN	NS	nsc4.srv53.net.
+uqrain.sc.		86400	IN	NS	nsd1.srv53.com.
+uqrain.sc.		86400	IN	NS	nsd1.srv53.org.
+uqrain.sc.		86400	IN	NS	nsd4.srv53.net.
 urban.sc.		86400	IN	NS	ns1.lhnic.com.
 urban.sc.		86400	IN	NS	ns2.lhnic.com.
 url.sc.			86400	IN	NS	ns1.parkingcrew.net.
@@ -13131,7 +13141,7 @@ zzz.sc.			86400	IN	NS	ns8.01isp.net.
 6ippgv98l2tjp8sjhgdsfo4mk1ffsdkv.sc. 86400 IN NSEC3 1 1 1 D399EAAB 6SJ9DKGGPR7RUJJI1GMNDU2SC3TJ63HA A RRSIG
 6sj9dkggpr7rujji1gmndu2sc3tj63ha.sc. 86400 IN RRSIG NSEC3 7 2 86400 20180509204649 20180418194649 33290 sc. naV6TjaLmxWO4PxS0b4xGh6eCQNyX/HLADyZqs4XfC1wWm0gNoMuDeZI AXpjgvs7+JYwancFGllgMhDCq3JClpymUTR36DlWYZXNHlWOg5sXHEmq +jCTkWa8FT2FOFNJ/IkO1WPjIIxcfyH+sgT/hESXtqI1FvYSRawGatbD ZQk=
 6sj9dkggpr7rujji1gmndu2sc3tj63ha.sc. 86400 IN NSEC3 1 1 1 D399EAAB 7MJIACRVGSPE2P6IFC62D8GJKCF6LMUS A RRSIG
-7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN RRSIG NSEC3 7 2 86400 20180512091945 20180421081945 33290 sc. DNvgGh0clyg7d41GqL4e2NftcjyN/Y1z2xLQ9JEfr6rdibceUh9IQTII fMJYHwyuqBN3RCRPUuYWT/PXUzBvfh4w57WMPC0ExGngmqeQEiLrr/jv TikhLlyzNCvrYR00bDEsf73eNMrSQWw8YGpcr2PJorN/VtzIksWSn772 ixw=
+7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN RRSIG NSEC3 7 2 86400 20180512204558 20180421194558 33290 sc. aEitVmxVVBRX40UAxEPCdZ7m8CAvEkq5vKAHCP0YqtPM8bgJppQwFBap zcOG3d7IEpPJUkFy4zDrnkoVXXMIimyojOVCHITsrO31XgJNDyiPc/2/ tNMHv5MYAHOXOL9cCRIfkl+fX1QHCmi8Mg6uv2pY/wfACsbhujFywygl swE=
 7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN NSEC3 1 1 1 D399EAAB 7P375MMVGO9KAMU2RK6OC2I1E2G73UMC NS SOA RRSIG DNSKEY NSEC3PARAM
 7p375mmvgo9kamu2rk6oc2i1e2g73umc.sc. 86400 IN RRSIG NSEC3 7 2 86400 20180509204649 20180418194649 33290 sc. aYtLv5JRfji7dz+DyHk+P4X5ZOmbs8OkcG2X2TmKB6Ej28GZfRGyxsxt 662EX3ZHAXPCiGaqZ3blPNQzq058u4D6ljfoBkbwgenlRqheHmTqr5x6 IS15Uh/N3x8+s2jtEhfGjjIy74+x/uqI19mwiRuKItjMIuWQUSx/rB4p V3s=
 7p375mmvgo9kamu2rk6oc2i1e2g73umc.sc. 86400 IN NSEC3 1 1 1 D399EAAB 84V04P78OE25ORJ79LG2GB1VIHJEVOM3 
@@ -13187,4 +13197,4 @@ trpu6ffc8e7brpvi76bjr571prdfv5tl.sc. 86400 IN RRSIG NSEC3 7 2 86400 201805092046
 trpu6ffc8e7brpvi76bjr571prdfv5tl.sc. 86400 IN NSEC3 1 1 1 D399EAAB VAO8SG43RM64N2OO2T6UJA6022PHOV7T A RRSIG
 vao8sg43rm64n2oo2t6uja6022phov7t.sc. 86400 IN RRSIG NSEC3 7 2 86400 20180509204649 20180418194649 33290 sc. cQJxn9XpZLMeimsutlrJuzde+SJDrzYjKymZ11n3RiaGlKOG4YA5iMER 2BjQrOwausjr4cyFicOlK8yitRix1xxyxFpPEIfZVIAXEYPCQx0hiBHz S347XBqqzuPL10egrAutEGyIrx41b95Gzmv6QNbEah1+cpo4vvioBdFC DV0=
 vao8sg43rm64n2oo2t6uja6022phov7t.sc. 86400 IN NSEC3 1 1 1 D399EAAB 08VN4UD3GUU67MPCPVMCITJUTP87LDKG A RRSIG
-sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008100590 1800 900 604800 86400
+sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008100593 1800 900 604800 86400

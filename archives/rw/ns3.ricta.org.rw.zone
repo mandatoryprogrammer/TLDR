@@ -1,10 +1,11 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns3.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042109 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1524294011"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042112 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1524304809"
 rw.			3600	IN	NS	ns1.ricta.org.rw.
 rw.			3600	IN	NS	ns3.ricta.org.rw.
+rw.			3600	IN	NS	ns4.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
 rw.			3600	IN	NS	fork.sth.dnsnode.net.
 rw.			3600	IN	NS	ns-rw.afrinic.net.
@@ -2329,8 +2330,6 @@ ibirihodesign.rw.	3600	IN	NS	ns1.cloudwebltd.com.
 ibirihodesign.rw.	3600	IN	NS	ns2.cloudwebltd.com.
 ibirori.rw.		3600	IN	NS	ns1.panafikahost.com.
 ibirori.rw.		3600	IN	NS	ns2.panafikahost.com.
-ibishya.rw.		3600	IN	NS	ns5.ricta.org.rw.
-ibishya.rw.		3600	IN	NS	ns6.ricta.org.rw.
 ibm.rw.			3600	IN	NS	eur2.akam.net.
 ibm.rw.			3600	IN	NS	eur5.akam.net.
 ibm.rw.			3600	IN	NS	usc2.akam.net.
@@ -2975,8 +2974,8 @@ kris.rw.		3600	IN	NS	ns2.kappcloud.com.
 ksb.rw.			3600	IN	NS	ns1.brandshelter.com.
 ksb.rw.			3600	IN	NS	ns2.brandshelter.de.
 ksb.rw.			3600	IN	NS	ns3.brandshelter.info.
-ksir.rw.		3600	IN	NS	ns1.sawasawa.net.
-ksir.rw.		3600	IN	NS	ns2.sawasawa.net.
+ksir.rw.		3600	IN	NS	ns5.ricta.org.rw.
+ksir.rw.		3600	IN	NS	ns6.ricta.org.rw.
 ktpress.rw.		3600	IN	NS	ns1.dreamhost.com.
 ktpress.rw.		3600	IN	NS	ns2.dreamhost.com.
 ktpress.rw.		3600	IN	NS	ns3.dreamhost.com.
@@ -3822,6 +3821,7 @@ org.rw.			3600	IN	NS	fork.sth.dnsnode.net.
 org.rw.			3600	IN	NS	ns-rw.afrinic.net.
 ns1.ricta.org.rw.	3600	IN	A	41.74.173.250
 ns3.ricta.org.rw.	3600	IN	A	41.138.85.98
+ns4.ricta.org.rw.	3600	IN	A	196.49.7.178
 pch.ricta.org.rw.	3600	IN	A	204.61.216.91
 pch.ricta.org.rw.	3600	IN	AAAA	2001:500:14:6091:ad::1
 oriflame.rw.		3600	IN	NS	ns.oriflame.se.
@@ -5488,10 +5488,16 @@ volkswagen.rw.		3600	IN	NS	ns1.volkswagen.de.
 volkswagen.rw.		3600	IN	NS	ns2.volkswagen.de.
 volkswagen-rwanda.rw.	3600	IN	NS	ns1.vodacombusiness.co.za.
 volkswagen-rwanda.rw.	3600	IN	NS	ns2.vodacombusiness.co.za.
+volkswagenmobility.rw.	3600	IN	NS	ns1.vodacombusiness.co.za.
+volkswagenmobility.rw.	3600	IN	NS	ns2.vodacombusiness.co.za.
 volkswagenmobilityrwanda.rw. 3600 IN	NS	ns1-06.azure-dns.com.
 volkswagenmobilityrwanda.rw. 3600 IN	NS	ns2-06.azure-dns.net.
 volkswagenmobilityrwanda.rw. 3600 IN	NS	ns3-06.azure-dns.org.
 volkswagenmobilityrwanda.rw. 3600 IN	NS	ns4-06.azure-dns.info.
+volkswagenmobilityservices.rw. 3600 IN	NS	ns1.vodacombusiness.co.za.
+volkswagenmobilityservices.rw. 3600 IN	NS	ns2.vodacombusiness.co.za.
+volkswagenrwanda.rw.	3600	IN	NS	ns1.vodacombusiness.co.za.
+volkswagenrwanda.rw.	3600	IN	NS	ns2.vodacombusiness.co.za.
 volvo.rw.		3600	IN	NS	gate.volvo.se.
 volvo.rw.		3600	IN	NS	gatekeeper.volvo.se.
 volvocar.rw.		3600	IN	NS	ns.domainnetwork.se.
@@ -5509,6 +5515,10 @@ vuba.rw.		3600	IN	NS	ns25.sasahost.com.
 vuba.rw.		3600	IN	NS	ns26.sasahost.com.
 vw.rw.			3600	IN	NS	ns1.volkswagen.de.
 vw.rw.			3600	IN	NS	ns2.volkswagen.de.
+vwcarsharing.rw.	3600	IN	NS	ns1.vodacombusiness.co.za.
+vwcarsharing.rw.	3600	IN	NS	ns2.vodacombusiness.co.za.
+vwmobilityservices.rw.	3600	IN	NS	ns1.vodacombusiness.co.za.
+vwmobilityservices.rw.	3600	IN	NS	ns2.vodacombusiness.co.za.
 wabaa.rw.		3600	IN	NS	ns5.ricta.org.rw.
 wabaa.rw.		3600	IN	NS	ns6.ricta.org.rw.
 wakanow.rw.		3600	IN	NS	ns1.101domain.com.
@@ -5699,4 +5709,4 @@ zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
 zz.rw.			3600	IN	NS	june.ns.cloudflare.com.
 zz.rw.			3600	IN	NS	thomas.ns.cloudflare.com.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042109 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042112 86400 7200 604800 3600

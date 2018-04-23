@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018042309 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018042316 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -13,7 +13,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1524470425"
+cm.			86400	IN	TXT	"Generation Time: 1524495625"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -1886,6 +1886,8 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 187.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 188.cm.			86400	IN	NS	ns1.51dns.com.
 188.cm.			86400	IN	NS	ns2.51dns.com.
+188-sb.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+188-sb.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 1881.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 1881.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 1882.cm.		86400	IN	NS	ns1.dns.com.
@@ -37647,10 +37649,8 @@ jacksonhealthcare.cm.	86400	IN	NS	ns2.101domain.com.
 jacksonhealthcare.cm.	86400	IN	NS	ns5.101domain.com.
 jackydesign.cm.		86400	IN	NS	ns1.digitalocean.com.
 jackydesign.cm.		86400	IN	NS	ns2.digitalocean.com.
-jacob.cm.		86400	IN	NS	ns-230.awsdns-28.com.
-jacob.cm.		86400	IN	NS	ns-711.awsdns-24.net.
-jacob.cm.		86400	IN	NS	ns-1048.awsdns-03.org.
-jacob.cm.		86400	IN	NS	ns-1912.awsdns-47.co.uk.
+jacob.cm.		86400	IN	NS	ns1.pendingrenewdelete.com.
+jacob.cm.		86400	IN	NS	ns2.pendingrenewdelete.com.
 jacobdelafon.cm.	86400	IN	NS	ns1.markmonitor.com.
 jacobdelafon.cm.	86400	IN	NS	ns2.markmonitor.com.
 jacobdelafon.cm.	86400	IN	NS	ns3.markmonitor.com.
@@ -39338,6 +39338,9 @@ kevlar.cm.		86400	IN	NS	pdns216.ultradns.biz.
 kevlar.cm.		86400	IN	NS	pdns216.ultradns.com.
 kevlar.cm.		86400	IN	NS	pdns216.ultradns.net.
 kevlar.cm.		86400	IN	NS	pdns216.ultradns.org.
+kex.cm.			86400	IN	NS	ns-40-b.gandi.net.
+kex.cm.			86400	IN	NS	ns-115-c.gandi.net.
+kex.cm.			86400	IN	NS	ns-126-a.gandi.net.
 key.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 key.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 key-systems.cm.		86400	IN	NS	ns1.domaindiscount24.net.
@@ -40122,6 +40125,9 @@ ky.cm.			86400	IN	NS	dns1.cscdns.net.
 ky.cm.			86400	IN	NS	dns2.cscdns.net.
 kyc.cm.			86400	IN	NS	ns1.dnspanel.com.
 kyc.cm.			86400	IN	NS	ns2.dnspanel.com.
+kylin.cm.		86400	IN	NS	ns01.trademarkarea.com.
+kylin.cm.		86400	IN	NS	ns02.trademarkarea.com.
+kylin.cm.		86400	IN	NS	ns03.trademarkarea.com.
 kyocera.cm.		86400	IN	NS	ns1.markmonitor.com.
 kyocera.cm.		86400	IN	NS	ns2.markmonitor.com.
 kyocera.cm.		86400	IN	NS	ns3.markmonitor.com.
@@ -45378,8 +45384,8 @@ newsyahoo.cm.		86400	IN	NS	ns2.yahoo.com.
 newsyahoo.cm.		86400	IN	NS	ns3.yahoo.com.
 newsyahoo.cm.		86400	IN	NS	ns4.yahoo.com.
 newsyahoo.cm.		86400	IN	NS	ns5.yahoo.com.
-newtech.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
-newtech.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
+newtech.cm.		86400	IN	NS	dns1.e-c.com.
+newtech.cm.		86400	IN	NS	dns2.e-c.com.
 newtechplanet.cm.	86400	IN	NS	ns1.akiba01.com.
 newtechplanet.cm.	86400	IN	NS	ns2.akiba01.com.
 newwave.cm.		86400	IN	NS	blinuxns7.securehostdns.com.
@@ -62391,4 +62397,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.ezydomain.com.
 zzzzz.cm.		86400	IN	NS	ns2.ezydomain.com.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018042309 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018042316 28800 3600 604800 86400

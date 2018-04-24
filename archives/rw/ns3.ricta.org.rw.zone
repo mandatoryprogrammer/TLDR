@@ -1,10 +1,11 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns3.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042412 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1524564003"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042415 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1524574817"
 rw.			3600	IN	NS	ns1.ricta.org.rw.
 rw.			3600	IN	NS	ns3.ricta.org.rw.
+rw.			3600	IN	NS	ns4.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
 rw.			3600	IN	NS	fork.sth.dnsnode.net.
 rw.			3600	IN	NS	ns-rw.afrinic.net.
@@ -3181,11 +3182,10 @@ ltc.rw.			3600	IN	NS	ns2.rhostjh.com.
 lte.rw.			3600	IN	NS	ns1.rdb.rw.
 lte.rw.			3600	IN	NS	ns2.aos.rw.
 lte.rw.			3600	IN	NS	ns3.aos.rw.
-lun.rw.			3600	IN	NS	ns1.gratisdns.dk.
-lun.rw.			3600	IN	NS	ns2.gratisdns.dk.
-lun.rw.			3600	IN	NS	ns3.gratisdns.dk.
-lun.rw.			3600	IN	NS	ns4.gratisdns.dk.
-lun.rw.			3600	IN	NS	ns5.gratisdns.dk.
+lun.rw.			3600	IN	NS	ns-15.awsdns-01.com.
+lun.rw.			3600	IN	NS	ns-596.awsdns-10.net.
+lun.rw.			3600	IN	NS	ns-1383.awsdns-44.org.
+lun.rw.			3600	IN	NS	ns-1949.awsdns-51.co.uk.
 lundbeck.rw.		3600	IN	NS	nsgbr.comlaude.co.uk.
 lundbeck.rw.		3600	IN	NS	nssui.comlaude.ch.
 lundbeck.rw.		3600	IN	NS	nsusa.comlaude.net.
@@ -3268,6 +3268,8 @@ marriott.rw.		3600	IN	NS	ns-east.cerf.net.
 marriott.rw.		3600	IN	NS	ns-west.cerf.net.
 mars.rw.		3600	IN	NS	iswfw1.eu.effem.com.
 mars.rw.		3600	IN	NS	tierra.ap.effem.com.
+mart.rw.		3600	IN	NS	ns5.afriregister.com.
+mart.rw.		3600	IN	NS	ns6.afriregister.com.
 mastercard.rw.		3600	IN	NS	dns1.mastercard.com.
 mastercard.rw.		3600	IN	NS	dns2.mastercard.com.
 mastodon.rw.		3600	IN	NS	ns-506.awsdns-63.com.
@@ -3811,6 +3813,7 @@ org.rw.			3600	IN	NS	fork.sth.dnsnode.net.
 org.rw.			3600	IN	NS	ns-rw.afrinic.net.
 ns1.ricta.org.rw.	3600	IN	A	41.74.173.250
 ns3.ricta.org.rw.	3600	IN	A	41.138.85.98
+ns4.ricta.org.rw.	3600	IN	A	196.49.7.178
 pch.ricta.org.rw.	3600	IN	A	204.61.216.91
 pch.ricta.org.rw.	3600	IN	AAAA	2001:500:14:6091:ad::1
 oriflame.rw.		3600	IN	NS	ns.oriflame.se.
@@ -5770,4 +5773,4 @@ zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
 zz.rw.			3600	IN	NS	june.ns.cloudflare.com.
 zz.rw.			3600	IN	NS	thomas.ns.cloudflare.com.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042412 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018042415 86400 7200 604800 3600

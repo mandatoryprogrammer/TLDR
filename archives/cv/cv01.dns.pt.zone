@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018042301 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018042401 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -43,6 +43,8 @@ abccv.cv.		28800	IN	NS	ns1.agamids.com.
 abccv.cv.		28800	IN	NS	ns2.agamids.com.
 abraco.cv.		28800	IN	NS	ns3.dnstarvos.com.
 abraco.cv.		28800	IN	NS	ns4.dnstarvos.com.
+abx.cv.			28800	IN	NS	ns1.abiusx.com.
+abx.cv.			28800	IN	NS	ns2.abiusx.com.
 acacv.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
 acacv.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
 acacv.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
@@ -1815,10 +1817,10 @@ crie.cv.		28800	IN	NS	ns1.dnsherse.com.
 crie.cv.		28800	IN	NS	ns2.dnsherse.com.
 crioulafm.cv.		28800	IN	NS	ns1.dnscpanel.com.
 crioulafm.cv.		28800	IN	NS	ns2.dnscpanel.com.
-cristinaduarte.cv.	28800	IN	A	66.96.142.162
-cristinaduarte.cv.	28800	IN	A	66.96.142.163
 cristinaduarte.cv.	28800	IN	NS	ns1.ipage.com.
 cristinaduarte.cv.	28800	IN	NS	ns2.ipage.com.
+cristinaduarte.cv.	28800	IN	A	66.96.142.162
+cristinaduarte.cv.	28800	IN	A	66.96.142.163
 crm-line.cv.		28800	IN	NS	ns.crm-line.cv.
 crm-line.cv.		28800	IN	NS	ns2.crm-line.cv.
 mail.crm-line.cv.	28800	IN	A	160.153.39.34
@@ -3575,8 +3577,8 @@ olamarhotel.cv.		28800	IN	NS	dns1.prime.cv.
 olamarhotel.cv.		28800	IN	NS	dns2.prime.cv.
 olicar.cv.		28800	IN	NS	ns1.world-name-server.com.
 olicar.cv.		28800	IN	NS	ns2.world-name-server.com.
-onave.cv.		86400	IN	NS	ns1.webs24h.com.
-onave.cv.		86400	IN	NS	ns2.webs24h.com.
+onave.cv.		28800	IN	NS	ns1.webs24h.com.
+onave.cv.		28800	IN	NS	ns2.webs24h.com.
 onboard.cv.		28800	IN	NS	ns1.ipage.com.
 onboard.cv.		28800	IN	NS	ns2.ipage.com.
 mx.onboard.cv.		28800	IN	A	66.96.140.50
@@ -4220,14 +4222,14 @@ robinson-caboverde.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-caboverde.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-caboverde.cv.	28800	IN	NS	ns01.brandshelter.com.
 robinson-caboverde.cv.	28800	IN	NS	ns02.brandshelter.net.
-robinson-club.cv.	28800	IN	AAAA	2600:2000:1000::7
-robinson-club.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-club.cv.	28800	IN	NS	ns01.brandshelter.com.
 robinson-club.cv.	28800	IN	NS	ns02.brandshelter.net.
-robinson-club-cabo-verde.cv. 28800 IN	NS	ns01.brandshelter.com.
-robinson-club-cabo-verde.cv. 28800 IN	NS	ns02.brandshelter.net.
+robinson-club.cv.	28800	IN	AAAA	2600:2000:1000::7
+robinson-club.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-club-cabo-verde.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-cabo-verde.cv. 28800 IN	AAAA	2600:2000:1001::7
+robinson-club-cabo-verde.cv. 28800 IN	NS	ns01.brandshelter.com.
+robinson-club-cabo-verde.cv. 28800 IN	NS	ns02.brandshelter.net.
 robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-caboverde.cv. 28800 IN	NS	ns01.brandshelter.com.
@@ -4621,6 +4623,8 @@ square.cv.		28800	IN	NS	ns1.siteground263.com.
 square.cv.		28800	IN	NS	ns2.siteground263.com.
 src.cv.			86400	IN	NS	ns1.webs24h.com.
 src.cv.			86400	IN	NS	ns2.webs24h.com.
+st-ticketing.cv.	28800	IN	NS	ns1.webserversystems.com.
+st-ticketing.cv.	28800	IN	NS	ns2.webserversystems.com.
 staffpromo.cv.		28800	IN	NS	ns3.dnstarvos.com.
 staffpromo.cv.		28800	IN	NS	ns4.dnstarvos.com.
 stec.cv.		28800	IN	NS	ns1.stec.cv.
@@ -4746,11 +4750,11 @@ terranova.cv.		28800	IN	NS	ns2.webhs.org.
 terranova.cv.		28800	IN	NS	ns3.webhs.org.
 textoeditores.cv.	28800	IN	NS	ns1.textoeditora.pt.
 textoeditores.cv.	28800	IN	NS	ns2.textoeditora.pt.
+thebluebananagroup.cv.	28800	IN	A	85.17.199.26
+thebluebananagroup.cv.	28800	IN	AAAA	2001:4801:7818:6:94c2:71bb:ff10:7bc1
 thebluebananagroup.cv.	28800	IN	NS	ns1.ptwebserv.net.
 thebluebananagroup.cv.	28800	IN	NS	ns2.ptwebserv.net.
 thebluebananagroup.cv.	28800	IN	NS	ns3.ptwebserv.net.
-thebluebananagroup.cv.	28800	IN	A	85.17.199.26
-thebluebananagroup.cv.	28800	IN	AAAA	2001:4801:7818:6:94c2:71bb:ff10:7bc1
 thetravellers.cv.	28800	IN	NS	een.dnssrv.nl.
 thetravellers.cv.	28800	IN	NS	drie.dnssrv.nl.
 thetravellers.cv.	28800	IN	NS	twee.dnssrv.nl.
@@ -5041,4 +5045,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018042301 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018042401 86400 7200 2592000 300

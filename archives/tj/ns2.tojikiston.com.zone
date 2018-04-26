@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR tj. @ns2.tojikiston.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018042601 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018042605 7200 3600 2678400 7200
 tj.			7200	IN	NS	tj.cctld.authdns.ripe.net.
 tj.			7200	IN	NS	ns1.nic.tj.
 tj.			7200	IN	NS	ns2.tojikiston.com.
@@ -373,8 +373,8 @@ afisha.tj.		7200	IN	NS	ns1.tojikiston.com.
 afisha-news.tj.		7200	IN	NS	dns1.yandex.net.
 afisha-news.tj.		7200	IN	NS	dns2.yandex.net.
 afm.tj.			7200	IN	NS	ns1.ehost.tj.
-afra.tj.		7200	IN	NS	ns1.alastyr.com.
-afra.tj.		7200	IN	NS	ns2.alastyr.com.
+afra.tj.		7200	IN	NS	dns1.yandex.net.
+afra.tj.		7200	IN	NS	dns2.yandex.net.
 afsarmedia.tj.		7200	IN	NS	ns.sugdien.com.
 afsarmedia.tj.		7200	IN	NS	ns2.tajnet.tj.
 afsisa.tj.		7200	IN	NS	ns1.tajnet.ru.
@@ -513,6 +513,8 @@ akfix.tj.		7200	IN	NS	ns2.rsnx.ru.
 akhsclinics.tj.		7200	IN	NS	ns1.majordomo.ru.
 akhsclinics.tj.		7200	IN	NS	ns2.majordomo.ru.
 akhsclinics.tj.		7200	IN	NS	ns3.majordomo.ru.
+akia-avesto.tj.		7200	IN	NS	ns7.get.tj.
+akia-avesto.tj.		7200	IN	NS	ns8.get.tj.
 akika.tj.		7200	IN	NS	ns1.rsnx.ru.
 akika.tj.		7200	IN	NS	ns2.rsnx.ru.
 akn.tj.			7200	IN	NS	ns.tojikiston.com.
@@ -1942,6 +1944,8 @@ bounty.tj.		7200	IN	NS	ns3.bounty.tj.
 ns1.bounty.tj.		7200	IN	A	193.232.146.1
 ns2.bounty.tj.		7200	IN	A	91.217.20.1
 ns3.bounty.tj.		7200	IN	A	91.217.21.1
+bovari.tj.		7200	IN	NS	ns1.hosting.reg.ru.
+bovari.tj.		7200	IN	NS	ns2.hosting.reg.ru.
 box.tj.			7200	IN	NS	ns.tojikiston.com.
 box.tj.			7200	IN	NS	ns1.tojikiston.com.
 boychechak.tj.		7200	IN	NS	ns1.host27.info.
@@ -4448,10 +4452,6 @@ esso.tj.		7200	IN	NS	pegasus2.mobil.com.
 etexbuildingperformance.tj. 7200 IN	NS	ns1.markmonitor.com.
 etexbuildingperformance.tj. 7200 IN	NS	ns2.markmonitor.com.
 ethereum.tj.		7200	IN	NS	dns2.yandex.net.
-etickets.tj.		7200	IN	NS	ns1.timeweb.ru.
-etickets.tj.		7200	IN	NS	ns2.timeweb.ru.
-etickets.tj.		7200	IN	NS	ns3.timeweb.org.
-etickets.tj.		7200	IN	NS	ns4.timeweb.org.
 etimod.tj.		7200	IN	NS	pins1.eastera.tj.
 etimod.tj.		7200	IN	NS	pins2.eastera.tj.
 etodom.tj.		7200	IN	NS	pdns1.cscdns.net.
@@ -7675,8 +7675,8 @@ madina.tj.		7200	IN	NS	ns1.tutby.com.
 madina.tj.		7200	IN	NS	ns2.tutby.com.
 maersk.tj.		7200	IN	NS	ns1.ascio.net.
 maersk.tj.		7200	IN	NS	ns2.ascio.net.
-mag.tj.			7200	IN	NS	ns1.yandex.net.
-mag.tj.			7200	IN	NS	ns2.yandex.net.
+mag.tj.			7200	IN	NS	dns1.yandex.net.
+mag.tj.			7200	IN	NS	dns2.yandex.net.
 magazin.tj.		7200	IN	NS	ns1.ipower.com.
 magazin.tj.		7200	IN	NS	ns2.ipower.com.
 magazine.tj.		7200	IN	NS	ns1.sedoparking.com.
@@ -9106,6 +9106,8 @@ nurihoiasia.tj.		7200	IN	NS	ns3.timeweb.org.
 nurihoiasia.tj.		7200	IN	NS	ns4.timeweb.org.
 nurisarband.tj.		7200	IN	NS	pins1.eastera.tj.
 nurisarband.tj.		7200	IN	NS	pins2.eastera.tj.
+nurishams.tj.		7200	IN	NS	dns1.yandex.net.
+nurishams.tj.		7200	IN	NS	dns2.yandex.net.
 nurisugd.tj.		7200	IN	NS	ns.tojikiston.com.
 nurisugd.tj.		7200	IN	NS	ns1.tojikiston.com.
 nurmatov.tj.		7200	IN	NS	ns1.tajnet.ru.
@@ -11960,6 +11962,8 @@ tajikagroleasing.tj.	7200	IN	NS	ns2.get.tj.
 tajikair.tj.		7200	IN	NS	ns3.nic.ru.
 tajikair.tj.		7200	IN	NS	ns4.nic.ru.
 tajikair.tj.		7200	IN	NS	ns8.nic.ru.
+tajikaviatour.tj.	7200	IN	NS	ns.tojikiston.com.
+tajikaviatour.tj.	7200	IN	NS	ns1.tojikiston.com.
 tajikbooks.tj.		7200	IN	NS	ns.tarena-tj.org.
 tajikbooks.tj.		7200	IN	NS	ns2.tarena.tj.
 tajikcoop.tj.		7200	IN	NS	ns1.tajnet.ru.
@@ -12109,6 +12113,10 @@ talco-s.tj.		7200	IN	NS	ns.tojikiston.com.
 talco-s.tj.		7200	IN	NS	ns1.tojikiston.com.
 tamada.tj.		7200	IN	NS	ns1.sprinthost.ru.
 tamada.tj.		7200	IN	NS	ns2.sprinthost.ru.
+taminot24.tj.		7200	IN	NS	ns1.beget.com.
+taminot24.tj.		7200	IN	NS	ns1.beget.pro.
+taminot24.tj.		7200	IN	NS	ns2.beget.com.
+taminot24.tj.		7200	IN	NS	ns2.beget.pro.
 tamir.tj.		7200	IN	NS	ns1.get.tj.
 tamir.tj.		7200	IN	NS	ns2.get.tj.
 tamognia.tj.		7200	IN	NS	ns.tojikiston.com.
@@ -14128,4 +14136,4 @@ zyclara.tj.		7200	IN	NS	ns1.domaininfo.com.
 zyclara.tj.		7200	IN	NS	ns2.domaininfo.com.
 zz.tj.			7200	IN	NS	pns11.cloudns.net.
 zz.tj.			7200	IN	NS	pns12.cloudns.net.
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018042601 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018042605 7200 3600 2678400 7200

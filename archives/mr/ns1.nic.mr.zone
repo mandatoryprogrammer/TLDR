@@ -1,14 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns1.nic.mr. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018050215 21600 7200 2592000 86400
-mr.			3600	IN	MX	5 mail.nic.mr.
-mr.			3600	IN	TXT	"Generation Time: 1525269609"
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018050220 21600 7200 2592000 86400
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns-mr.nic.fr.
 mr.			3600	IN	NS	ns-mr.nic.tn.
 mr.			3600	IN	NS	censvrns0001.ird.fr.
+mr.			3600	IN	MX	5 mail.nic.mr.
+mr.			3600	IN	TXT	"Generation Time: 1525287612"
 01digits.mr.		3600	IN	NS	ns1.site4now.net.
 01digits.mr.		3600	IN	NS	ns2.site4now.net.
 01digits.mr.		3600	IN	NS	ns3.site4now.net.
@@ -1289,8 +1289,6 @@ edact.mr.		3600	IN	NS	ns1.adk-media.com.
 edact.mr.		3600	IN	NS	ns2.adk-media.com.
 eddiyar.mr.		3600	IN	NS	ns19.ixwebhosting.com.
 eddiyar.mr.		3600	IN	NS	ns20.ixwebhosting.com.
-edu.mr.			86400	IN	NS	ns1.nic.mr.
-edu.mr.			86400	IN	NS	ns2.nic.mr.
 eenergie.mr.		3600	IN	NS	dns1.bsa.mr.
 eenergie.mr.		3600	IN	NS	pmddns.pmd.mr.
 efsasq.mr.		3600	IN	NS	ns9.hosting24.com.
@@ -2054,8 +2052,9 @@ ittissalgroup.mr.	3600	IN	NS	ns1.infomaniak.ch.
 ittissalgroup.mr.	3600	IN	NS	ns2.infomaniak.ch.
 itts.mr.		3600	IN	NS	ns17.ixwebhosting.com.
 itts.mr.		3600	IN	NS	ns18.ixwebhosting.com.
-iup.mr.			86400	IN	NS	ns.univ-nkc.mr.
-iup.mr.			86400	IN	NS	ns1.nic.mr.
+iup.mr.			3600	IN	NS	ns.univ-nkc.mr.
+iup.mr.			3600	IN	NS	ns1.nic.mr.
+iup.mr.			3600	IN	NS	ns2.univ-nkc.mr.
 jam.mr.			3600	IN	NS	ned.ns.cloudflare.com.
 jam.mr.			3600	IN	NS	angela.ns.cloudflare.com.
 jamar.mr.		3600	IN	NS	nsa.cyclone.be.
@@ -2443,13 +2442,10 @@ mauritano-technique.mr.	3600	IN	NS	ns10.schlundtech.de.
 mauritanview.mr.	3600	IN	NS	ns1.ouvaton.coop.
 mauritanview.mr.	3600	IN	NS	ns2.ouvaton.coop.
 mauritanview.mr.	3600	IN	NS	ns3.ouvaton.coop.
-mauritel.mr.		86400	IN	NS	ns.univ-nkc.mr.
-mauritel.mr.		86400	IN	NS	bow.rain.fr.
-mauritel.mr.		86400	IN	NS	bow.mauritel.mr.
-mauritel.mr.		86400	IN	NS	dns.mauritel.mr.
-bow.mauritel.mr.	86400	IN	A	82.151.90.1
-dns.mauritel.mr.	86400	IN	A	82.151.90.42
-proxy.mauritel.mr.	86400	IN	A	82.151.70.86
+mauritel.mr.		3600	IN	NS	ns.univ-nkc.mr.
+mauritel.mr.		3600	IN	NS	bow.mauritel.mr.
+mauritel.mr.		3600	IN	NS	ns1.francetelecom.net.
+bow.mauritel.mr.	3600	IN	A	82.151.90.1
 mauritelmobiles.mr.	3600	IN	NS	bow.mauritel.mr.
 mauritelmobiles.mr.	3600	IN	NS	dns1.univ-nkc.mr.
 mauritest.mr.		3600	IN	NS	bow.mauritel.mr.
@@ -2747,12 +2743,12 @@ ngp.mr.			3600	IN	NS	ns1.usm32.siteground.biz.
 ngp.mr.			3600	IN	NS	ns2.usm32.siteground.biz.
 ngs.mr.			3600	IN	NS	ns1.infomaniak.ch.
 ngs.mr.			3600	IN	NS	ns2.infomaniak.ch.
-nic.mr.			604800	IN	NS	ns1.nic.mr.
-nic.mr.			604800	IN	NS	ns2.nic.mr.
-ns1.nic.mr.		604800	IN	A	41.188.65.193
-ns2.nic.mr.		604800	IN	A	82.151.64.2
-nic-mauritanie.mr.	604800	IN	NS	ns1.nic.mr.
-nic-mauritanie.mr.	604800	IN	NS	ns2.nic.mr.
+nic.mr.			3600	IN	NS	ns1.nic.mr.
+nic.mr.			3600	IN	NS	ns2.nic.mr.
+ns1.nic.mr.		3600	IN	A	41.188.65.193
+ns2.nic.mr.		3600	IN	A	82.151.64.2
+nic-mauritanie.mr.	3600	IN	NS	ns1.nic.mr.
+nic-mauritanie.mr.	3600	IN	NS	ns2.nic.mr.
 nip.mr.			3600	IN	NS	ns1.syskat.com.
 nip.mr.			3600	IN	NS	ns2.syskat.com.
 nkttcredit.mr.		3600	IN	NS	ns1.siteground215.com.
@@ -2870,10 +2866,9 @@ oom.mr.			3600	IN	NS	bow.mauritel.mr.
 ooo.mr.			3600	IN	NS	ns1.101domain.com.
 ooo.mr.			3600	IN	NS	ns2.101domain.com.
 ooo.mr.			3600	IN	NS	ns5.101domain.com.
-opt.mr.			86400	IN	NS	ns.univ-nkc.mr.
-opt.mr.			86400	IN	NS	bow.mauritel.mr.
-opt.mr.			86400	IN	NS	dns.mauritel.mr.
-bow.opt.mr.		86400	IN	A	82.151.90.1
+opt.mr.			3600	IN	NS	ns.univ-nkc.mr.
+opt.mr.			3600	IN	NS	bow.mauritel.mr.
+opt.mr.			3600	IN	NS	ns1.francetelecom.net.
 optimo.mr.		3600	IN	NS	ns1.dnsimple.com.
 optimo.mr.		3600	IN	NS	ns2.dnsimple.com.
 optimo.mr.		3600	IN	NS	ns3.dnsimple.com.
@@ -2884,8 +2879,6 @@ orangemauritanie.mr.	3600	IN	NS	ns3.dinahosting.com.
 orangemauritanie.mr.	3600	IN	NS	ns4.dinahosting.com.
 orbit.mr.		3600	IN	NS	ns1.host7x24.com.
 orbit.mr.		3600	IN	NS	ns2.host7x24.com.
-org.mr.			86400	IN	NS	ns1.nic.mr.
-org.mr.			86400	IN	NS	ns2.nic.mr.
 osc-mauritanie.mr.	3600	IN	NS	ns.univ-nkc.mr.
 osc-mauritanie.mr.	3600	IN	NS	dns.iiardd.mr.
 osim.mr.		3600	IN	NS	ns63.securenet-server.net.
@@ -2968,8 +2961,6 @@ pephn.mr.		3600	IN	NS	ns2.amenworld.com.
 per4.mr.		3600	IN	NS	ns1.101domain.com.
 per4.mr.		3600	IN	NS	ns2.101domain.com.
 per4.mr.		3600	IN	NS	ns5.101domain.com.
-perso.mr.		86400	IN	NS	ns1.nic.mr.
-perso.mr.		86400	IN	NS	ns2.nic.mr.
 persona.mr.		3600	IN	NS	ns1.101domain.com.
 persona.mr.		3600	IN	NS	ns2.101domain.com.
 persona.mr.		3600	IN	NS	ns5.101domain.com.
@@ -3796,10 +3787,8 @@ umlc.mr.		3600	IN	NS	ns1.maurisystem.com.
 umlc.mr.		3600	IN	NS	ns2.maurisystem.com.
 un.mr.			3600	IN	NS	bow.mauritel.mr.
 un.mr.			3600	IN	NS	dns.iiardd.mr.
-una.mr.			604800	IN	NS	ns.univ-nkc.mr.
-una.mr.			604800	IN	NS	ns1.nic.mr.
-una.mr.			604800	IN	NS	zira.una.mr.
-zira.una.mr.		604800	IN	A	41.188.65.194
+una.mr.			3600	IN	NS	ns.univ-nkc.mr.
+una.mr.			3600	IN	NS	ns1.nic.mr.
 uncacem.mr.		3600	IN	NS	ns1.amen.fr.
 uncacem.mr.		3600	IN	NS	ns2.amen.fr.
 uncecel.mr.		3600	IN	NS	ns10a.haisoft.net.
@@ -3819,9 +3808,9 @@ univ-ibnyacin.mr.	3600	IN	NS	ns17.ovh.net.
 univ-ibnyacin.mr.	3600	IN	NS	dns17.ovh.net.
 univ-leminechinguitti.mr. 3600	IN	NS	ns1705.websitewelcome.com.
 univ-leminechinguitti.mr. 3600	IN	NS	ns1706.websitewelcome.com.
-univ-nkc.mr.		604800	IN	NS	ns1.nic.mr.
-univ-nkc.mr.		604800	IN	NS	ns2.nic.mr.
-ns.univ-nkc.mr.		604800	IN	A	82.151.64.2
+univ-nkc.mr.		3600	IN	NS	ns.univ-nkc.mr.
+univ-nkc.mr.		3600	IN	NS	ns2.nic.mr.
+ns.univ-nkc.mr.		3600	IN	A	82.151.64.2
 unpm.mr.		3600	IN	NS	ns1.infomaniak.ch.
 unpm.mr.		3600	IN	NS	ns2.infomaniak.ch.
 upload.mr.		3600	IN	NS	ns1.101domain.com.
@@ -3831,12 +3820,12 @@ upr.mr.			3600	IN	NS	ns104.ovh.net.
 upr.mr.			3600	IN	NS	dns104.ovh.net.
 usia.mr.		3600	IN	NS	ns.univ-nkc.mr.
 usia.mr.		3600	IN	NS	ns2.univ-nkc.mr.
-ustm.mr.		604800	IN	NS	ns.univ-nkc.mr.
-ustm.mr.		604800	IN	NS	ns1.nic.mr.
-ustm.mr.		604800	IN	NS	zira.ustm.mr.
-zira.ustm.mr.		604800	IN	A	41.188.65.194
-uva.mr.			604800	IN	NS	ns.univ-nkc.mr.
-uva.mr.			604800	IN	NS	ns1.nic.mr.
+ustm.mr.		3600	IN	NS	ns.univ-nkc.mr.
+ustm.mr.		3600	IN	NS	ns1.nic.mr.
+ustm.mr.		3600	IN	NS	deyl.ustm.mr.
+deyl.ustm.mr.		3600	IN	A	82.151.64.6
+uva.mr.			3600	IN	NS	ns.univ-nkc.mr.
+uva.mr.			3600	IN	NS	dns2.univ-nkc.mr.
 vadhila.mr.		3600	IN	NS	ns1.men.fr.
 vadhila.mr.		3600	IN	NS	ns1.amen.fr.
 vendito.mr.		3600	IN	NS	ns01.trademarkarea.com.
@@ -3963,4 +3952,4 @@ ziwanya.mr.		3600	IN	NS	ns1.infomaniak.ch.
 ziwanya.mr.		3600	IN	NS	ns2.infomaniak.ch.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018050215 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018050220 21600 7200 2592000 86400

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ao. @ns02.dns.ao. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018050101 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018050901 86400 7200 2592000 3600
 ao.			3600	IN	TXT	"Angola - http://www.dns.ao/"
 ao.			3600	IN	NS	ao01.dns.pt.
 ao.			3600	IN	NS	ao03.dns.pt.
@@ -244,11 +244,8 @@ bmais.ao.		3600	IN	NS	ns1.angoweb.biz.
 bmais.ao.		3600	IN	NS	ns2.angoweb.biz.
 bna.ao.			3600	IN	NS	dns1.bna.ao.
 bna.ao.			3600	IN	NS	dns2.bna.ao.
-bnadns1.bna.ao.		3600	IN	A	66.110.113.34
-bnadns2.bna.ao.		3600	IN	A	66.110.113.35
 dns1.bna.ao.		3600	IN	A	196.43.223.190
 dns2.bna.ao.		3600	IN	A	196.43.223.191
-dns3.bna.ao.		3600	IN	A	196.29.206.250
 bni.ao.			3600	IN	NS	ns.multitel.co.ao.
 bni.ao.			3600	IN	NS	ns1.bni.ao.
 bni.ao.			3600	IN	NS	ns1.multitel.co.ao.
@@ -1076,8 +1073,8 @@ uan.ao.			3600	IN	NS	dns-ext01.dns.pt.
 srvmsx1.fc.uan.ao.	3600	IN	A	192.168.10.1
 ns01.uan.ao.		3600	IN	A	41.223.156.163
 ns1.uan.ao.		3600	IN	A	193.236.0.1
-uif.ao.			3600	IN	NS	dns3.bna.ao.
-uif.ao.			3600	IN	NS	bnadns1.bna.ao.
+uif.ao.			3600	IN	NS	dns1.bna.ao.
+uif.ao.			3600	IN	NS	dns2.bna.ao.
 unia.ao.		3600	IN	NS	ns.inventadomains.com.
 unia.ao.		3600	IN	NS	ns2.inventadomains.com.
 dns.unia.ao.		3600	IN	A	83.240.202.225
@@ -1098,4 +1095,4 @@ welvitcha.ao.		3600	IN	NS	ns.acs.ao.
 welvitcha.ao.		3600	IN	NS	ns1.acs.ao.
 xikilamoney.ao.		3600	IN	NS	ns.inventadomains.com.
 xikilamoney.ao.		3600	IN	NS	ns2.inventadomains.com.
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018050101 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018050901 86400 7200 2592000 3600

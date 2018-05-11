@@ -1,7 +1,9 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018051103 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018051109 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1526025613"
+cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -12,8 +14,6 @@ cm.			86400	IN	NS	mbam.camnet.cm.
 cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
-cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1526004014"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -15257,11 +15257,8 @@ abcd.cm.		86400	IN	NS	ns1.sedoparking.com.
 abcd.cm.		86400	IN	NS	ns2.sedoparking.com.
 abcde.cm.		86400	IN	NS	ns1.idscn.net.
 abcde.cm.		86400	IN	NS	ns2.idscn.net.
-abchina.cm.		86400	IN	NS	freedns1.registrar-servers.com.
-abchina.cm.		86400	IN	NS	freedns2.registrar-servers.com.
-abchina.cm.		86400	IN	NS	freedns3.registrar-servers.com.
-abchina.cm.		86400	IN	NS	freedns4.registrar-servers.com.
-abchina.cm.		86400	IN	NS	freedns5.registrar-servers.com.
+abchina.cm.		86400	IN	NS	ns1.dragonparking.com.
+abchina.cm.		86400	IN	NS	ns2.dragonparking.com.
 abcmouse.cm.		86400	IN	NS	dns2.registrar-servers.com.
 abcmouse.cm.		86400	IN	NS	dns3.registrar-servers.com.
 abcmouse.cm.		86400	IN	NS	dns4.registrar-servers.com.
@@ -25273,8 +25270,8 @@ dan.cm.			86400	IN	NS	ns.dan.tv.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	A	185.92.222.117
 ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
+ns.dan.cm.		86400	IN	A	185.92.222.117
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -43827,10 +43824,10 @@ monsite.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 monsoon.cm.		86400	IN	NS	dns1.idp365.net.
 monsoon.cm.		86400	IN	NS	dns2.idp365.net.
 monsoon.cm.		86400	IN	NS	dns3.idp365.net.
-monster.cm.		86400	IN	NS	ns1.hasns.com.
-monster.cm.		86400	IN	NS	ns2.hasns.com.
-monster.cm.		86400	IN	NS	ns3.hasns.com.
-monster.cm.		86400	IN	NS	ns4.hasns.com.
+monster.cm.		86400	IN	NS	pns21.cloudns.net.
+monster.cm.		86400	IN	NS	pns22.cloudns.net.
+monster.cm.		86400	IN	NS	pns23.cloudns.net.
+monster.cm.		86400	IN	NS	pns24.cloudns.net.
 mont-blanc.cm.		86400	IN	NS	ns1.richemont.com.
 mont-blanc.cm.		86400	IN	NS	ns2.richemont.com.
 mont-blanc.cm.		86400	IN	NS	ns3.richemont.com.
@@ -44007,6 +44004,10 @@ moviefone.cm.		86400	IN	NS	a4.nstld.com.
 moviefone.cm.		86400	IN	NS	f4.nstld.com.
 moviefone.cm.		86400	IN	NS	g4.nstld.com.
 moviefone.cm.		86400	IN	NS	l4.nstld.com.
+moviepass.cm.		86400	IN	NS	pns21.cloudns.net.
+moviepass.cm.		86400	IN	NS	pns22.cloudns.net.
+moviepass.cm.		86400	IN	NS	pns23.cloudns.net.
+moviepass.cm.		86400	IN	NS	pns24.cloudns.net.
 movierulz.cm.		86400	IN	NS	pns1.cloudns.net.
 movierulz.cm.		86400	IN	NS	pns2.cloudns.net.
 movierulz.cm.		86400	IN	NS	pns3.cloudns.net.
@@ -46827,8 +46828,6 @@ orange-overx.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
 orange-overx.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
 orangebank.cm.		86400	IN	NS	dns1.cscdns.net.
 orangebank.cm.		86400	IN	NS	dns2.cscdns.net.
-orangedigiquizz.cm.	86400	IN	NS	ns108.ovh.net.
-orangedigiquizz.cm.	86400	IN	NS	dns108.ovh.net.
 orangedigital.cm.	86400	IN	NS	ns13.ovh.net.
 orangedigital.cm.	86400	IN	NS	dns13.ovh.net.
 orangeenergie.cm.	86400	IN	NS	dns1.cscdns.net.
@@ -62444,4 +62443,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.ezydomain.com.
 zzzzz.cm.		86400	IN	NS	ns2.ezydomain.com.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018051103 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018051109 28800 3600 604800 86400

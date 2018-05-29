@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018052301 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018052901 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -405,10 +405,8 @@ aws.cv.			28800	IN	NS	dns1.rede1024.com.
 aws.cv.			28800	IN	NS	dns2.rede1024.com.
 aws.cv.			28800	IN	NS	dns3.rede1024.com.
 aws.cv.			28800	IN	NS	dns4.rede1024.com.
-aya.cv.			28800	IN	NS	ns1.aya.cv.
-aya.cv.			28800	IN	NS	ns2.aya.cv.
-ns1.aya.cv.		28800	IN	A	5.189.157.17
-ns2.aya.cv.		28800	IN	A	5.189.157.17
+aya.cv.			28800	IN	NS	ara.ns.cloudflare.com.
+aya.cv.			28800	IN	NS	chris.ns.cloudflare.com.
 ayaconsulting.cv.	28800	IN	NS	ns7.bravehost.com.
 ayaconsulting.cv.	28800	IN	NS	ns8.bravehost.com.
 baiasaopedro.cv.	28800	IN	NS	ns1.myhostdns.com.
@@ -853,8 +851,8 @@ celeventos.cv.		28800	IN	NS	ns1.alvesgrocery.com.
 celeventos.cv.		28800	IN	NS	ns2.alvesgrocery.com.
 cenorf.cv.		28800	IN	NS	ns1.world-name-server.com.
 cenorf.cv.		28800	IN	NS	ns2.world-name-server.com.
-centralcv.cv.		28800	IN	NS	ns25.boxsecured.com.
-centralcv.cv.		28800	IN	NS	ns26.boxsecured.com.
+centralcv.cv.		28800	IN	NS	dns1.ibername.com.
+centralcv.cv.		28800	IN	NS	dns2.ibername.com.
 centrodeajuda.cv.	28800	IN	NS	ns1.centrodeajuda.cv.
 centrodeajuda.cv.	28800	IN	NS	ns2.centrodeajuda.cv.
 ns1.centrodeajuda.cv.	28800	IN	A	35.195.63.172
@@ -925,10 +923,10 @@ clinicasodente.cv.	28800	IN	NS	ns7.securenet-server.net.
 clinicasodente.cv.	28800	IN	NS	ns8.securenet-server.net.
 cloudsys.cv.		28800	IN	NS	ns5001.mochahost.com.
 cloudsys.cv.		28800	IN	NS	ns6001.mochahost.com.
-club-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
-club-cabo-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
 club-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 club-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
+club-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
+club-cabo-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
 club-caboverde.cv.	28800	IN	AAAA	2600:2000:1000::7
 club-caboverde.cv.	28800	IN	AAAA	2600:2000:1001::7
 club-caboverde.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -1080,10 +1078,10 @@ ares.com.cv.		28800	IN	NS	ns2.hostingpanel2.com.
 mail.ares.com.cv.	28800	IN	A	188.165.205.162
 arquipelago.com.cv.	28800	IN	NS	ns1.mydnspt.net.
 arquipelago.com.cv.	28800	IN	NS	ns2.mydnspt.net.
-artefaktos.com.cv.	28800	IN	A	66.96.142.162
-artefaktos.com.cv.	28800	IN	A	66.96.142.163
 artefaktos.com.cv.	28800	IN	NS	ns1.ipage.com.
 artefaktos.com.cv.	28800	IN	NS	ns2.ipage.com.
+artefaktos.com.cv.	28800	IN	A	66.96.142.162
+artefaktos.com.cv.	28800	IN	A	66.96.142.163
 atleta2022.com.cv.	28800	IN	NS	ns4.web4u.pt.
 atleta2022.com.cv.	28800	IN	NS	ns5.web4u.pt.
 bingo.com.cv.		28800	IN	NS	ns1.myhostdns.com.
@@ -1548,11 +1546,11 @@ nosmarka.com.cv.	28800	IN	NS	ns2.cvtelecom.cv.
 nport.com.cv.		28800	IN	NS	NS1.101DOMAIN.COM.
 nport.com.cv.		28800	IN	NS	NS2.101DOMAIN.COM.
 nport.com.cv.		28800	IN	NS	NS5.101DOMAIN.COM.
+nrg4.com.cv.		28800	IN	AAAA	2604:9a00:2100:a001:2::1
+nrg4.com.cv.		28800	IN	A	85.159.233.17
 nrg4.com.cv.		28800	IN	NS	ns01.trademarkarea.com.
 nrg4.com.cv.		28800	IN	NS	ns02.trademarkarea.com.
 nrg4.com.cv.		28800	IN	NS	ns03.trademarkarea.com.
-nrg4.com.cv.		28800	IN	AAAA	2604:9a00:2100:a001:2::1
-nrg4.com.cv.		28800	IN	A	85.159.233.17
 nubai.com.cv.		28800	IN	NS	ns1.cloudns.net.
 nubai.com.cv.		28800	IN	NS	ns2.cloudns.net.
 nubai.com.cv.		28800	IN	NS	ns3.cloudns.net.
@@ -2893,6 +2891,9 @@ igrejacatolica.cv.	28800	IN	NS	ns3.dreamhost.COM.
 igrp.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
 igrp.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
 igrp.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
+igrpweb.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
+igrpweb.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
+igrpweb.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
 iilp-cplp.cv.		28800	IN	NS	ns1.gov.cv.
 iilp-cplp.cv.		28800	IN	NS	ns2.gov.cv.
 iipc.cv.		28800	IN	NS	ns1.nameresolve.com.
@@ -3109,6 +3110,8 @@ ns1.jetavoyages.cv.	28800	IN	A	80.172.233.23
 ns2.jetavoyages.cv.	28800	IN	A	80.172.233.24
 jic.cv.			28800	IN	NS	ns1.mundogest.com.
 jic.cv.			28800	IN	NS	ns2.mundogest.com.
+jmholding.cv.		28800	IN	NS	ns7.bravehost.com.
+jmholding.cv.		28800	IN	NS	ns8.bravehost.com.
 jmn.cv.			28800	IN	NS	ns1.nameresolve.com.
 jmn.cv.			28800	IN	NS	ns2.nameresolve.com.
 jmn.cv.			28800	IN	NS	ns3.nameresolve.com.
@@ -3865,8 +3868,6 @@ palmacenter.cv.		28800	IN	NS	ns1.palmacenter.cv.
 palmacenter.cv.		28800	IN	NS	ns2.palmacenter.cv.
 ns1.palmacenter.cv.	28800	IN	A	80.172.233.23
 ns2.palmacenter.cv.	28800	IN	A	80.172.233.24
-palona-image.cv.	28800	IN	NS	ns1.siteground354.com.
-palona-image.cv.	28800	IN	NS	ns2.siteground354.com.
 palona-image.cv.	28800	IN	A	94.46.14.249
 palona-image.cv.	28800	IN	A	94.46.14.250
 palona-image.cv.	28800	IN	A	94.46.16.235
@@ -3875,6 +3876,8 @@ palona-image.cv.	28800	IN	A	130.185.80.200
 palona-image.cv.	28800	IN	A	130.185.80.201
 palona-image.cv.	28800	IN	A	130.185.80.210
 palona-image.cv.	28800	IN	A	130.185.80.211
+palona-image.cv.	28800	IN	NS	ns1.siteground354.com.
+palona-image.cv.	28800	IN	NS	ns2.siteground354.com.
 paoquente.cv.		28800	IN	NS	ns1.mydnspt.net.
 paoquente.cv.		28800	IN	NS	ns2.mydnspt.net.
 paoquente.cv.		28800	IN	NS	ns7.mydnspt.net.
@@ -4294,10 +4297,10 @@ robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kap-verden.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-kap-verden.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
-robinson-club-kapverden.cv. 28800 IN	NS	ns02.brandshelter.net.
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
+robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
+robinson-club-kapverden.cv. 28800 IN	NS	ns02.brandshelter.net.
 robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kap-verden.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -4687,6 +4690,8 @@ st-ticketing.cv.	28800	IN	NS	ns1.webserversystems.com.
 st-ticketing.cv.	28800	IN	NS	ns2.webserversystems.com.
 staffpromo.cv.		28800	IN	NS	ns3.dnstarvos.com.
 staffpromo.cv.		28800	IN	NS	ns4.dnstarvos.com.
+stasi.cv.		28800	IN	NS	dns1.prime.cv.
+stasi.cv.		28800	IN	NS	dns2.prime.cv.
 stec.cv.		28800	IN	NS	ns1.stec.cv.
 stec.cv.		28800	IN	NS	ns2.stec.cv.
 stec.cv.		28800	IN	NS	server02.
@@ -4812,11 +4817,11 @@ terranova.cv.		28800	IN	NS	ns2.webhs.org.
 terranova.cv.		28800	IN	NS	ns3.webhs.org.
 textoeditores.cv.	28800	IN	NS	ns1.textoeditora.pt.
 textoeditores.cv.	28800	IN	NS	ns2.textoeditora.pt.
+thebluebananagroup.cv.	28800	IN	A	85.17.199.26
 thebluebananagroup.cv.	28800	IN	AAAA	2001:4801:7818:6:94c2:71bb:ff10:7bc1
 thebluebananagroup.cv.	28800	IN	NS	ns1.ptwebserv.net.
 thebluebananagroup.cv.	28800	IN	NS	ns2.ptwebserv.net.
 thebluebananagroup.cv.	28800	IN	NS	ns3.ptwebserv.net.
-thebluebananagroup.cv.	28800	IN	A	85.17.199.26
 thetravellers.cv.	28800	IN	NS	een.dnssrv.nl.
 thetravellers.cv.	28800	IN	NS	drie.dnssrv.nl.
 thetravellers.cv.	28800	IN	NS	twee.dnssrv.nl.
@@ -5109,4 +5114,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018052301 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018052901 86400 7200 2592000 300

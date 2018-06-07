@@ -1,14 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns1.nic.mr. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018060713 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018060716 21600 7200 2592000 86400
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns-mr.nic.fr.
 mr.			3600	IN	NS	ns-mr.nic.tn.
 mr.			3600	IN	NS	censvrns0001.ird.fr.
 mr.			3600	IN	MX	5 mail.nic.mr.
-mr.			3600	IN	TXT	"Generation Time: 1528376419"
+mr.			3600	IN	TXT	"Generation Time: 1528387211"
 01digits.mr.		3600	IN	NS	ns1.site4now.net.
 01digits.mr.		3600	IN	NS	ns2.site4now.net.
 01digits.mr.		3600	IN	NS	ns3.site4now.net.
@@ -3459,10 +3459,26 @@ snaat.mr.		3600	IN	NS	ns2.syskat.com.
 snap.mr.		3600	IN	NS	ns1.101domain.com.
 snap.mr.		3600	IN	NS	ns2.101domain.com.
 snap.mr.		3600	IN	NS	ns5.101domain.com.
-snde.mr.		3600	IN	NS	sw.snde.mr.
-snde.mr.		3600	IN	NS	wms.snde.mr.
-sw.snde.mr.		3600	IN	A	41.188.113.61
-wms.snde.mr.		3600	IN	A	41.188.113.52
+snde.mr.		3600	IN	NS	asa.snde.mr.
+snde.mr.		3600	IN	NS	dvr.snde.mr.
+snde.mr.		3600	IN	NS	web.snde.mr.
+snde.mr.		3600	IN	NS	dns1.snde.mr.
+snde.mr.		3600	IN	NS	dns2.snde.mr.
+snde.mr.		3600	IN	NS	gpao.snde.mr.
+snde.mr.		3600	IN	NS	mail.snde.mr.
+snde.mr.		3600	IN	NS	cobol.snde.mr.
+snde.mr.		3600	IN	NS	sigadb.snde.mr.
+snde.mr.		3600	IN	NS	sigaapp.snde.mr.
+asa.snde.mr.		3600	IN	A	41.138.133.235
+cobol.snde.mr.		3600	IN	A	41.138.133.234
+dns1.snde.mr.		3600	IN	A	41.138.133.227
+dns2.snde.mr.		3600	IN	A	41.138.133.228
+dvr.snde.mr.		3600	IN	A	41.138.133.231
+gpao.snde.mr.		3600	IN	A	41.138.133.230
+mail.snde.mr.		3600	IN	A	41.138.133.229
+sigaapp.snde.mr.	3600	IN	A	41.138.133.232
+sigadb.snde.mr.		3600	IN	A	41.138.133.233
+web.snde.mr.		3600	IN	A	41.138.133.226
 sndp.mr.		3600	IN	NS	ns841.websitewelcome.com.
 sndp.mr.		3600	IN	NS	ns842.websitewelcome.com.
 snesup.mr.		3600	IN	NS	ns1.adk-media.com.
@@ -3952,4 +3968,4 @@ ziwanya.mr.		3600	IN	NS	ns1.infomaniak.ch.
 ziwanya.mr.		3600	IN	NS	ns2.infomaniak.ch.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018060713 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018060716 21600 7200 2592000 86400

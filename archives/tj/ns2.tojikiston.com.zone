@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR tj. @ns2.tojikiston.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018060805 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018060809 7200 3600 2678400 7200
 tj.			7200	IN	NS	tj.cctld.authdns.ripe.net.
 tj.			7200	IN	NS	ns1.nic.tj.
 tj.			7200	IN	NS	ns2.tojikiston.com.
@@ -590,6 +590,8 @@ all.tj.			7200	IN	NS	ns1.intercom.tj.
 all.tj.			7200	IN	NS	ns2.intercom.tj.
 allat.tj.		7200	IN	NS	ns2.timeweb.ru.
 allat.tj.		7200	IN	NS	ns4.timeweb.ru.
+allbiz.tj.		7200	IN	NS	ns1.get.tj.
+allbiz.tj.		7200	IN	NS	ns2.get.tj.
 allegro.tj.		7200	IN	NS	pdns1.cscdns.net.
 allegro.tj.		7200	IN	NS	pdns2.cscdns.net.
 allergan.tj.		7200	IN	NS	ns1.markmonitor.com.
@@ -856,8 +858,6 @@ apply.tj.		7200	IN	NS	dns1.yandex.net.
 apply.tj.		7200	IN	NS	dns2.yandex.net.
 apps.tj.		7200	IN	NS	ns1.sedoparking.com.
 apps.tj.		7200	IN	NS	ns2.sedoparking.com.
-aprelevka.tj.		7200	IN	NS	ns1.tajnet.ru.
-aprelevka.tj.		7200	IN	NS	ns2.tajnet.ru.
 apricot.tj.		7200	IN	NS	ns1.hosting.reg.ru.
 apricot.tj.		7200	IN	NS	ns2.hosting.reg.ru.
 apricot-company.tj.	7200	IN	NS	ns1.ps.kz.
@@ -2032,6 +2032,8 @@ bst.tj.			7200	IN	NS	pins1.eastera.tj.
 bst.tj.			7200	IN	NS	pins2.eastera.tj.
 btc.tj.			7200	IN	NS	noah.ns.cloudflare.com.
 btc.tj.			7200	IN	NS	molly.ns.cloudflare.com.
+btob.tj.		7200	IN	NS	ns1.get.tj.
+btob.tj.		7200	IN	NS	ns2.get.tj.
 bu.tj.			7200	IN	NS	ns.alsan.com.ua.
 bu.tj.			7200	IN	NS	ns.secondary.net.ua.
 bud.tj.			7200	IN	NS	ns.domainnetwork.se.
@@ -5177,8 +5179,6 @@ gazeta.tj.		7200	IN	NS	ns1.ht-systems.ru.
 gazeta.tj.		7200	IN	NS	ns2.ht-systems.ru.
 gazprom-neft.tj.	7200	IN	NS	ns.tojikiston.com.
 gazprom-neft.tj.	7200	IN	NS	ns1.tojikiston.com.
-gazpromneft-oil.tj.	7200	IN	NS	ns1.tajnet.ru.
-gazpromneft-oil.tj.	7200	IN	NS	ns2.tajnet.ru.
 gazpromneft-sm.tj.	7200	IN	NS	ns.tojikiston.com.
 gazpromneft-sm.tj.	7200	IN	NS	ns1.tojikiston.com.
 gc.tj.			7200	IN	NS	ns1.get.tj.
@@ -7355,8 +7355,8 @@ lcwaikiki.tj.		7200	IN	NS	ns1.atakteknoloji.net.
 lcwaikiki.tj.		7200	IN	NS	ns2.atakteknoloji.net.
 ld.tj.			7200	IN	NS	ns1.sedoparking.com.
 ld.tj.			7200	IN	NS	ns2.sedoparking.com.
-ldc.tj.			7200	IN	NS	pins1.eastera.tj.
-ldc.tj.			7200	IN	NS	pins2.eastera.tj.
+ldc.tj.			7200	IN	NS	ns1.rspd.tj.
+ldc.tj.			7200	IN	NS	ns2.rspd.tj.
 lddhbst.tj.		7200	IN	NS	ns1.fozzy.com.
 lddhbst.tj.		7200	IN	NS	ns2.fozzy.com.
 le.tj.			7200	IN	NS	dns1.yandex.net.
@@ -8072,16 +8072,12 @@ megabook.tj.		7200	IN	NS	ns1.megafon.tj.
 megabook.tj.		7200	IN	NS	ns2.megafontj.ru.
 megabox.tj.		7200	IN	NS	ns1.megafon.tj.
 megabox.tj.		7200	IN	NS	ns2.megafon.tj.
-megacampus.tj.		7200	IN	NS	ns1.dnsynergy.org.
-megacampus.tj.		7200	IN	NS	ns2.dnsynergy.org.
 megafon.tj.		7200	IN	NS	ns1.megafon.tj.
 megafon.tj.		7200	IN	NS	ns2.megafon.tj.
 ns1.megafon.tj.		7200	IN	A	109.68.232.34
 ns2.megafon.tj.		7200	IN	A	109.68.232.35
 megafontravel.tj.	7200	IN	NS	ns1.megafon.tj.
 megafontravel.tj.	7200	IN	NS	ns2.megafontj.ru.
-megakampus.tj.		7200	IN	NS	ns1.dnsynergy.org.
-megakampus.tj.		7200	IN	NS	ns2.dnsynergy.org.
 megalabs.tj.		7200	IN	NS	ns1.megafon.tj.
 megalabs.tj.		7200	IN	NS	ns2.megafon.tj.
 megalife.tj.		7200	IN	NS	ns1.megafon.tj.
@@ -8575,8 +8571,6 @@ muminov.tj.		7200	IN	NS	ns.tojikiston.com.
 muminov.tj.		7200	IN	NS	ns1.tojikiston.com.
 munichre.tj.		7200	IN	NS	ftp.munichreamerica.com.
 munichre.tj.		7200	IN	NS	netserv.munichre.com.
-munis.tj.		7200	IN	NS	ns1.tajnet.ru.
-munis.tj.		7200	IN	NS	ns2.tajnet.ru.
 murella.tj.		7200	IN	NS	ns1.register.it.
 murella.tj.		7200	IN	NS	ns2.register.it.
 museumantiquities.tj.	7200	IN	NS	pins1.eastera.tj.
@@ -9742,6 +9736,10 @@ pay.tj.			7200	IN	NS	ns1.firstvds.ru.
 pay.tj.			7200	IN	NS	ns2.firstvds.ru.
 paybox.tj.		7200	IN	NS	ns1.101domain.com.
 paybox.tj.		7200	IN	NS	ns2.101domain.com.
+paydo.tj.		7200	IN	NS	ns1.beget.com.
+paydo.tj.		7200	IN	NS	ns1.beget.pro.
+paydo.tj.		7200	IN	NS	ns2.beget.com.
+paydo.tj.		7200	IN	NS	ns2.beget.pro.
 payfort.tj.		7200	IN	NS	nsgbr.comlaude.co.uk.
 payfort.tj.		7200	IN	NS	nssui.comlaude.ch.
 payk.tj.		7200	IN	NS	ns.tojikiston.com.
@@ -10937,10 +10935,9 @@ schindler.tj.		7200	IN	NS	infm0018.schindler.com.
 schindler.tj.		7200	IN	NS	secwm066.schindler.com.
 schneeberger.tj.	7200	IN	NS	ns1.is-fun.net.
 schneeberger.tj.	7200	IN	NS	ns2.is-fun.net.
-schneider-electric.tj.	7200	IN	NS	a4.nstld.com.
-schneider-electric.tj.	7200	IN	NS	f4.nstld.com.
-schneider-electric.tj.	7200	IN	NS	g4.nstld.com.
-schneider-electric.tj.	7200	IN	NS	l4.nstld.com.
+schneider-electric.tj.	7200	IN	NS	ns2.observatoiredesmarques.fr.
+schneider-electric.tj.	7200	IN	NS	ns3.nameshield.net.
+schneider-electric.tj.	7200	IN	NS	obs.ns1.fr.
 school.tj.		7200	IN	NS	ns1.regdom.kz.
 school.tj.		7200	IN	NS	ns2.regdom.kz.
 school20.tj.		7200	IN	NS	ns.tarena-tj.org.
@@ -11885,8 +11882,6 @@ sw.tj.			7200	IN	NS	ns.server.tj.
 sw.tj.			7200	IN	NS	ns2.server.tj.
 sweet.tj.		7200	IN	NS	ns1.sedoparking.com.
 sweet.tj.		7200	IN	NS	ns2.sedoparking.com.
-sweetdreams.tj.		7200	IN	NS	ns1.get.tj.
-sweetdreams.tj.		7200	IN	NS	ns2.get.tj.
 sweets.tj.		7200	IN	NS	ns1.rsnx.ru.
 sweets.tj.		7200	IN	NS	ns2.rsnx.ru.
 swissgrow.tj.		7200	IN	NS	ns7.get.tj.
@@ -12618,8 +12613,6 @@ tjo.tj.			7200	IN	NS	ns.tojikiston.com.
 tjo.tj.			7200	IN	NS	ns1.tojikiston.com.
 tjob.tj.		7200	IN	NS	ns1.it37.siteground.eu.
 tjob.tj.		7200	IN	NS	ns2.it37.siteground.eu.
-tkd.tj.			7200	IN	NS	ns3.get.tj.
-tkd.tj.			7200	IN	NS	ns4.get.tj.
 tlm.tj.			7200	IN	NS	ns1.timeweb.ru.
 tlm.tj.			7200	IN	NS	ns2.timeweb.ru.
 tlm.tj.			7200	IN	NS	ns3.timeweb.org.
@@ -14213,4 +14206,4 @@ zyclara.tj.		7200	IN	NS	ns1.domaininfo.com.
 zyclara.tj.		7200	IN	NS	ns2.domaininfo.com.
 zz.tj.			7200	IN	NS	pns11.cloudns.net.
 zz.tj.			7200	IN	NS	pns12.cloudns.net.
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018060805 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018060809 7200 3600 2678400 7200

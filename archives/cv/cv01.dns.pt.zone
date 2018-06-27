@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018062201 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018062701 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -1613,12 +1613,12 @@ qmpeople.com.cv.	28800	IN	NS	dns2.nettica.com.
 qmpeople.com.cv.	28800	IN	NS	dns3.nettica.com.
 qmpeople.com.cv.	28800	IN	NS	dns4.nettica.com.
 qmpeople.com.cv.	28800	IN	NS	dns5.nettica.com.
-ra-pessoaseorganizacoes.com.cv.	28800 IN NS	ns1000.mochahost.com.
-ra-pessoaseorganizacoes.com.cv.	28800 IN NS	ns2000.mochahost.com.
 ra-pessoaseorganizacoes.com.cv.	28800 IN A	130.185.80.200
 ra-pessoaseorganizacoes.com.cv.	28800 IN A	130.185.80.201
 ra-pessoaseorganizacoes.com.cv.	28800 IN A	130.185.80.210
 ra-pessoaseorganizacoes.com.cv.	28800 IN A	130.185.80.211
+ra-pessoaseorganizacoes.com.cv.	28800 IN NS	ns1000.mochahost.com.
+ra-pessoaseorganizacoes.com.cv.	28800 IN NS	ns2000.mochahost.com.
 radiomfm.com.cv.	28800	IN	NS	ns1.mydnspt.net.
 radiomfm.com.cv.	28800	IN	NS	ns2.mydnspt.net.
 real-estate.com.cv.	28800	IN	NS	ns1.myhostdns.com.
@@ -3013,8 +3013,8 @@ ingt.cv.		28800	IN	NS	ns2.gov.cv.
 mail.ingt.cv.		28800	IN	A	41.221.194.240
 inida.cv.		28800	IN	NS	ns51.domaincontrol.com.
 inida.cv.		28800	IN	NS	ns52.domaincontrol.com.
-inkplus.cv.		28800	IN	NS	ns1.homehost.com.br.
-inkplus.cv.		28800	IN	NS	ns2.homehost.com.br.
+inkplus.cv.		28800	IN	NS	ns1000.mochahost.com.
+inkplus.cv.		28800	IN	NS	ns2000.mochahost.com.
 inktoner.cv.		28800	IN	NS	ns1.mundogest.com.
 inktoner.cv.		28800	IN	NS	ns2.mundogest.com.
 inlogistics.cv.		28800	IN	NS	dns1.ex2-r1.com.
@@ -3424,6 +3424,10 @@ mindelinsite.cv.	28800	IN	NS	ns2.webhs.org.
 mindelinsite.cv.	28800	IN	NS	ns3.webhs.org.
 mindeloresidencial.cv.	28800	IN	NS	dns1.prime.cv.
 mindeloresidencial.cv.	28800	IN	NS	dns2.prime.cv.
+mindelsummerjazz.cv.	28800	IN	NS	ns1.aguianet.com.
+mindelsummerjazz.cv.	28800	IN	NS	ns2.aguianet.com.
+mindelsummerjazz.cv.	28800	IN	NS	ns293.websitewelcome.com.
+mindelsummerjazz.cv.	28800	IN	NS	ns294.websitewelcome.com.
 mindol.cv.		28800	IN	NS	ns7.securenet-server.net.
 mindol.cv.		28800	IN	NS	ns8.securenet-server.net.
 minedu.cv.		28800	IN	NS	ns1.gov.cv.
@@ -3866,13 +3870,13 @@ soscaboverde.org.cv.	28800	IN	NS	ns2.isone.cv.
 orkut.cv.		28800	IN	NS	ns1.google.com.
 orkut.cv.		28800	IN	NS	ns2.google.com.
 orkut.cv.		28800	IN	AAAA	2a00:1450:400c:c01::56
+orteg.cv.		28800	IN	A	62.210.149.103
+orteg.cv.		28800	IN	A	72.20.38.137
+orteg.cv.		28800	IN	A	72.20.53.50
 orteg.cv.		28800	IN	NS	ns-326.awsdns-40.com.
 orteg.cv.		28800	IN	NS	ns-535.awsdns-02.net.
 orteg.cv.		28800	IN	NS	ns-1049.awsdns-03.org.
 orteg.cv.		28800	IN	NS	ns-1833.awsdns-37.co.uk.
-orteg.cv.		28800	IN	A	62.210.149.103
-orteg.cv.		28800	IN	A	72.20.38.137
-orteg.cv.		28800	IN	A	72.20.53.50
 ortet.cv.		28800	IN	NS	freedns1.registrar-servers.com.
 ortet.cv.		28800	IN	NS	freedns2.registrar-servers.com.
 ortet.cv.		28800	IN	NS	freedns3.registrar-servers.com.
@@ -5163,4 +5167,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018062201 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018062701 86400 7200 2592000 300

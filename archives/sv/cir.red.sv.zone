@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @cir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018070501 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018070502 43200 3600 2592000 43200
 ns1.grupobgl.com.ar.	43200	IN	A	67.19.193.98
 ns2.grupobgl.com.ar.	43200	IN	A	67.19.193.99
 ns1.indisa.com.ar.	43200	IN	A	72.46.254.112
@@ -2180,7 +2180,10 @@ academiaamericanadeidiomas.sv. 43200 IN	NS	ns-1182.awsdns-19.org.
 academiaamericanadeidiomas.sv. 43200 IN	NS	ns-1544.awsdns-01.co.uk.
 academica.sv.		43200	IN	NS	dns1.cscdns.net.
 academica.sv.		43200	IN	NS	dns2.cscdns.net.
-acantilados.sv.		43200	IN	NS	ns1.pendiente.sv.
+acantilados.sv.		43200	IN	NS	ns1.aca.acantilados.sv.
+acantilados.sv.		43200	IN	NS	ns2.aca.acantilados.sv.
+ns1.aca.acantilados.sv.	43200	IN	A	198.57.229.221
+ns2.aca.acantilados.sv.	43200	IN	A	198.57.229.220
 acare.sv.		43200	IN	NS	rossns.abbott.com.
 acare.sv.		43200	IN	NS	rossns2.abbott.com.
 acare.sv.		43200	IN	NS	abtnsdmz1.abbott.com.
@@ -7968,8 +7971,8 @@ emirates.com.sv.	43200	IN	NS	pdns124.ultradns.net.
 emirates.com.sv.	43200	IN	NS	pdns124.ultradns.org.
 emkt.com.sv.		43200	IN	NS	pdns11.domaincontrol.com.
 emkt.com.sv.		43200	IN	NS	pdns12.domaincontrol.com.
-empaquesindustriales.com.sv. 43200 IN	NS	1.nseasy.com.
-empaquesindustriales.com.sv. 43200 IN	NS	2.nseasy.com.
+empaquesindustriales.com.sv. 43200 IN	NS	ns1.aca.acantilados.sv.
+empaquesindustriales.com.sv. 43200 IN	NS	ns2.aca.acantilados.sv.
 emplasa.com.sv.		43200	IN	NS	ns1.softlayer.com.
 emplasa.com.sv.		43200	IN	NS	ns2.softlayer.com.
 empleate.com.sv.	43200	IN	NS	ns59.domaincontrol.com.
@@ -12610,8 +12613,8 @@ multicontenedores.com.sv. 43200	IN	NS	ns2.no-ip.com.
 multicontenedores.com.sv. 43200	IN	NS	ns3.no-ip.com.
 multicontenedores.com.sv. 43200	IN	NS	ns4.no-ip.com.
 multicontenedores.com.sv. 43200	IN	NS	ns5.no-ip.com.
-multiempaques.com.sv.	43200	IN	NS	1.nseasy.com.
-multiempaques.com.sv.	43200	IN	NS	2.nseasy.com.
+multiempaques.com.sv.	43200	IN	NS	ns1.aca.acantilados.sv.
+multiempaques.com.sv.	43200	IN	NS	ns2.aca.acantilados.sv.
 multifiltros.com.sv.	43200	IN	NS	ns-cloud-c1.googledomains.com.
 multifiltros.com.sv.	43200	IN	NS	ns-cloud-c2.googledomains.com.
 multifiltros.com.sv.	43200	IN	NS	ns-cloud-c3.googledomains.com.
@@ -13745,6 +13748,8 @@ plasal.com.sv.		43200	IN	NS	abby.ns.cloudflare.com.
 plasal.com.sv.		43200	IN	NS	brad.ns.cloudflare.com.
 plasdiver.com.sv.	43200	IN	NS	ns53.domaincontrol.com.
 plasdiver.com.sv.	43200	IN	NS	ns54.domaincontrol.com.
+plastihogar.com.sv.	43200	IN	NS	ns1.gnwserver1.com.
+plastihogar.com.sv.	43200	IN	NS	ns2.gnwserver1.com.
 plastinsa.com.sv.	43200	IN	NS	dns1.servicioswebca.com.
 plastinsa.com.sv.	43200	IN	NS	dns2.servicioswebca.com.
 ns.plastipak.com.sv.	43200	IN	A	168.243.151.34
@@ -14905,8 +14910,8 @@ ruukki.com.sv.		43200	IN	NS	nssui.comlaude.ch.
 ruukki.com.sv.		43200	IN	NS	nsusa.comlaude.net.
 rvindustrias.com.sv.	43200	IN	NS	ns1.navega.arvixevps.com.
 rvindustrias.com.sv.	43200	IN	NS	ns2.navega.arvixevps.com.
-ryasa.com.sv.		43200	IN	NS	ns1.byethost41.org.
-ryasa.com.sv.		43200	IN	NS	ns2.byethost41.org.
+rycsa.com.sv.		43200	IN	NS	ns1.hostmonster.com.
+rycsa.com.sv.		43200	IN	NS	ns2.hostmonster.com.
 ryuplaza.com.sv.	43200	IN	NS	ns.inmotionhosting.com.
 ryuplaza.com.sv.	43200	IN	NS	ns2.inmotionhosting.com.
 saba.com.sv.		43200	IN	NS	melkor.sgn.sca.se.
@@ -14995,6 +15000,8 @@ sandyshoes.com.sv.	43200	IN	NS	ns1.us105.siteground.us.
 sandyshoes.com.sv.	43200	IN	NS	ns2.us105.siteground.us.
 sanjose.com.sv.		43200	IN	NS	ns1.naranjaazul.net.
 sanjose.com.sv.		43200	IN	NS	ns2.naranjaazul.net.
+sanmarcelino.com.sv.	43200	IN	NS	ns1.ipage.com.
+sanmarcelino.com.sv.	43200	IN	NS	ns2.ipage.com.
 sanmarcosfreezone.com.sv. 43200	IN	NS	ns1.grupoguerrero.com.sv.
 sanmarcosfreezone.com.sv. 43200	IN	NS	ns2.grupoguerrero.com.sv.
 sanmartin.com.sv.	43200	IN	NS	ns-308.awsdns-38.com.
@@ -22854,6 +22861,8 @@ russellbrands.sv.	43200	IN	NS	ns5.fruit.com.
 ruukki.sv.		43200	IN	NS	nsgbr.comlaude.co.uk.
 ruukki.sv.		43200	IN	NS	nssui.comlaude.ch.
 ruukki.sv.		43200	IN	NS	nsusa.comlaude.net.
+ryasa.sv.		43200	IN	NS	ns1.byethost41.org.
+ryasa.sv.		43200	IN	NS	ns2.byethost41.org.
 s.sv.			43200	IN	NS	a.dnspod.com.
 s.sv.			43200	IN	NS	b.dnspod.com.
 s.sv.			43200	IN	NS	c.dnspod.com.
@@ -23876,4 +23885,4 @@ ns2.internext.ws.	43200	IN	A	67.15.191.144
 ns1.rdcnet.ws.		43200	IN	A	208.109.204.30
 ns10.rdcnet.ws.		43200	IN	A	68.178.241.138
 ns2.rdcnet.ws.		43200	IN	A	208.109.204.33
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018070501 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018070502 43200 3600 2592000 43200

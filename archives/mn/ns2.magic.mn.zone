@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mn. @ns2.magic.mn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008197326 10800 7200 604800 86400
-mn.			900	IN	RRSIG	SOA 7 1 900 20180730094829 20180709084829 29559 mn. heVURSC6TpjTlJhgtNgvAfPDFdosc71CjW9wl9d1axZngF90N8Ra6Hu9 q31qCizrJ9F5uzRvndYXlYbTzQySTIZfc1JmAi4V5SNaOrPV9IOiGYeR XbBAVGGCL/5DOtaqiknFFvMRZnXwtKeVwVZTTf7jaeNhP69tPfNwa102 yec=
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008197330 10800 7200 604800 86400
+mn.			900	IN	RRSIG	SOA 7 1 900 20180730105433 20180709095433 29559 mn. fauMo5V7h7vb9d98zjGvRG8fb39yLO2bf9QZwmoXq3zaMmQLHRQFJ8xQ pdLvqhFEM48jiFPK6tQ6L0Gx8BwyRjhtCu+ZrdbUDizGFhXkX5/zQ8sL nghiCUaLB7UK2M1jbDzk71aHEEC3zieDes7hSOK1sUVQDjXVlLRhnw4K iW4=
 mn.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20180726202128 20180705192128 29559 mn. oLXhXYy9jF5h6rEWoG4CWN3a5DN19HvMhQXJxGkZWMY/jAS3gGSpdf2q qHOWwDkJAdk7E+wfLGrCqJBm/VoVb6XsFJjcMc+LjLU4b925RaqfBv9K DL+7jBiGUnrm3v1jTYq8W6ib9r6EySjCjrCpal1tSZv/ZyfCbgr15h5d x0M=
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180726202128 20180705192128 12721 mn. ftf2QmDsz+C9J3qezaISa4Kh+nhD3diq0u+Q+9oSKW5umWNUXTBZyI16 GYBIOag6cXKaTMN+XmybFdmkPvCHco+eXhc4I86ED/xjksJQKtQbG86L fnPrr5j1ZN8iqRLbFuRlvCeGYfJ1Hi0C9TthZN6RmYg62+TjluK/shr/ DhjFi6OyDcH7q2nsz/uURdiamFmKDu2IKYs0zK2UkaGmwWodar8zuDtq gMgvyYP/9EpOocuB1bDmb9zvQ3h0OM3KfzxPJPfJBLoMx8OuicnHYNEe v71Oo0xRjZljYVnQcjXnq35IkFclmqbVJyAzAsCYlqdcfWTfRIZtKdAV Vmwukw==
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180726202128 20180705192128 29559 mn. OSbbT6cWs8vgKrKkNOm9ULXFu3aaVctxJRRIaOy+qjsMZ0aQawUBO+xI kZYfrx5YbBApnXHNr6V2Zmnb7DfR9YHyuHMUo62G9wX2DCQ6cnekv2If YELaslIoo0R4CfXWWHrGSCvNG25wVlMQKPcfOeAl3ZY3cGrCHJRl+88i qt0=
@@ -190,6 +190,8 @@ ns2.1000zar.mn.		86400	IN	A	43.231.113.108
 150.mn.			86400	IN	NS	ns2.dns.mn.
 150.mn.			86400	IN	NS	ns3.dns.mn.
 150.mn.			86400	IN	NS	ns4.dns.mn.
+159capitals.mn.		86400	IN	NS	cs62.hostingberry.com.
+159capitals.mn.		86400	IN	NS	cs62.hostneverdie.com.
 1617.mn.		86400	IN	NS	ns1.cp-19.webhostbox.net.
 1617.mn.		86400	IN	NS	ns2.cp-19.webhostbox.net.
 163.mn.			86400	IN	NS	a.ezdnscenter.com.
@@ -14257,8 +14259,10 @@ ekhlelcapital.mn.	86400	IN	NS	admi516687.mars.orderbox-dns.com.
 ekhlelcapital.mn.	86400	IN	NS	admi516687.earth.orderbox-dns.com.
 ekhlelcapital.mn.	86400	IN	NS	admi516687.venus.orderbox-dns.com.
 ekhlelcapital.mn.	86400	IN	NS	admi516687.mercury.orderbox-dns.com.
-ekhoron.mn.		86400	IN	NS	ns1.nameserver.mn.
-ekhoron.mn.		86400	IN	NS	ns2.nameserver.mn.
+ekhoron.mn.		86400	IN	NS	ns4.dns.mn.
+ekhoron.mn.		86400	IN	NS	ns3.dns.mn.
+ekhoron.mn.		86400	IN	NS	ns2.dns.mn.
+ekhoron.mn.		86400	IN	NS	ns1.dns.mn.
 ekhoron21.mn.		86400	IN	NS	ns1.dns.mn.
 ekhoron21.mn.		86400	IN	NS	ns2.dns.mn.
 ekhoron21.mn.		86400	IN	NS	ns3.dns.mn.
@@ -30707,8 +30711,8 @@ mibgd.mn.		86400	IN	NS	ns1.nameserver.mn.
 mibgd.mn.		86400	IN	NS	ns2.nameserver.mn.
 mic.mn.			86400	IN	NS	f1g1ns1.dnspod.net.
 mic.mn.			86400	IN	NS	f1g1ns2.dnspod.net.
-mica.mn.		86400	IN	NS	ns2.nameserver.mn.
-mica.mn.		86400	IN	NS	ns1.nameserver.mn.
+mica.mn.		86400	IN	NS	ns1.cp-33.webhostbox.net.
+mica.mn.		86400	IN	NS	ns2.cp-33.webhostbox.net.
 micamongol.mn.		86400	IN	NS	ns1.dns.mn.
 micamongol.mn.		86400	IN	NS	ns2.dns.mn.
 micamongol.mn.		86400	IN	NS	ns3.dns.mn.
@@ -34033,6 +34037,10 @@ mrknr.mn.		86400	IN	NS	ns5.domain.mn.
 mrknr.mn.		86400	IN	NS	ns6.domain.mn.
 mrpizza.mn.		86400	IN	NS	ns1.cp-36.webhostbox.net.
 mrpizza.mn.		86400	IN	NS	ns2.cp-36.webhostbox.net.
+mrpr.mn.		86400	IN	NS	ns4.dns.mn.
+mrpr.mn.		86400	IN	NS	ns3.dns.mn.
+mrpr.mn.		86400	IN	NS	ns2.dns.mn.
+mrpr.mn.		86400	IN	NS	ns1.dns.mn.
 mrpu.mn.		86400	IN	NS	ns2.nameserver.mn.
 mrpu.mn.		86400	IN	NS	ns1.nameserver.mn.
 mrs.mn.			86400	IN	NS	ns1.berserk-online.com.
@@ -55890,7 +55898,7 @@ zzz.mn.			86400	IN	NS	04.dnsv.jp.
 1hqugrdaat3icbparouqr4t9ca39onc2.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1K00IAMANUCVVEJGLE0Q6UBSBS8H69KS A RRSIG
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180726202128 20180705192128 29559 mn. eyYHEU2MFK7NTuqKpcxfEhlgRxyboMS3QDuiZyyL0nV005QvC08OZmlA UIu8tT5LETpE/agRAjJL7bMy/Yfzi/ykOaIkOEZ9UYSGwTj2OdDLD9zN HUqNkvv0m5Py8sP0fiXt2bKX1k8bQBWFL82VvstuWGqh33Hnm57ast72 fxc=
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1KED78CPGM4B6DRULKHF34DJCMHADU50 A RRSIG
-1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180730094829 20180709084829 29559 mn. aXdmwwmbDUgXbfTxuFe5tqoy7Wz/rNyeGQtxZbtVinA09OdTSr3z+/r4 YPPEm17hgZx64IuKUe4NyGqHwgaYJAtCieVBc4o6x2k4BzCqSebaPpac EPTOmN5nfAtQvP3BTH20l1KOc2zvf02FT2tExRE/UbhJUESirhAYAFsx MPo=
+1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180730105433 20180709095433 29559 mn. ZQQep9KKKJ/SCJkZCskrtypIZjo86A7+NPVUa+qGEQ3FacbtfFvctd00 UwnFQB99m4s/1KQFY+Sd1dYSrcc9y9yqDg3shoDG6YWkHlLm2rMwDrzw aypHW60kpXRAwOX2T2MlWpY+4BJusbX6MXvwwweybtakDxjQnWDCveF6 BkY=
 1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2L6TNI94TUBPIP4GOJQ0EU7SDAECIFLU NS SOA RRSIG DNSKEY NSEC3PARAM
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180726202128 20180705192128 29559 mn. nMuOzl/J5zwvEFlJora6VkIbcWG0PGbwP6Dq5K0ol4RiA4p/ssRsFIAc Jt06EXGW6coUEYJqLwZgsZTpi+SMsIMLKgBdY7hS+0n2mjzODh7w+p3B x9ful0GE/S5tLIzhaJrk0U8FOW8/xZ1DT4zY6MUQb3bUVNSnSO7qxqwe /Gg=
 2l6tni94tubpip4gojq0eu7sdaeciflu.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2M56JMVKP6GUKCHIQOO900RSBBD2Q971 A RRSIG
@@ -56106,4 +56114,4 @@ v6225e8t5e0vefevkfb5k7r1mkl9q9o2.mn. 86400 IN RRSIG NSEC3 7 2 86400 201807262021
 v6225e8t5e0vefevkfb5k7r1mkl9q9o2.mn. 86400 IN NSEC3 1 1 1 D399EAAB VDJ4CJMEERK0B91BBLDR18SOMBJTO8BP A RRSIG
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180726202128 20180705192128 29559 mn. ZaYgfVZj34g8o4sW497nrAmgorKM9Jjv3HwTCtaEhL9MGylLKObrCqPF fvmW2Tx2ek0pARKxMNuXQJe3xrWb5JCImbQpRgLndBg/msqv2UGBUdUU PuTJvIdk0122iFmcyJmzmd+mmWLSFtTSuUVE3Kzgh4kqwO4j5pdCmnVP kJk=
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN NSEC3 1 1 1 D399EAAB 041KLEK7K6MPSCOCFGAPT5FRKO49R91S A RRSIG
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008197326 10800 7200 604800 86400
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008197330 10800 7200 604800 86400

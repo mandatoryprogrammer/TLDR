@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018070901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018071001 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -1080,10 +1080,10 @@ ares.com.cv.		28800	IN	NS	ns2.hostingpanel2.com.
 mail.ares.com.cv.	28800	IN	A	188.165.205.162
 arquipelago.com.cv.	28800	IN	NS	ns1.mydnspt.net.
 arquipelago.com.cv.	28800	IN	NS	ns2.mydnspt.net.
-artefaktos.com.cv.	28800	IN	NS	ns1.ipage.com.
-artefaktos.com.cv.	28800	IN	NS	ns2.ipage.com.
 artefaktos.com.cv.	28800	IN	A	66.96.142.162
 artefaktos.com.cv.	28800	IN	A	66.96.142.163
+artefaktos.com.cv.	28800	IN	NS	ns1.ipage.com.
+artefaktos.com.cv.	28800	IN	NS	ns2.ipage.com.
 atleta2022.com.cv.	28800	IN	NS	ns4.web4u.pt.
 atleta2022.com.cv.	28800	IN	NS	ns5.web4u.pt.
 bingo.com.cv.		28800	IN	NS	ns1.myhostdns.com.
@@ -2730,6 +2730,8 @@ halcyonair.cv.		28800	IN	NS	ns1.weblx.net.
 halcyonair.cv.		28800	IN	NS	ns2.weblx.net.
 halcyone.cv.		28800	IN	NS	ns1.bh-74.webhostbox.net.
 halcyone.cv.		28800	IN	NS	ns2.bh-74.webhostbox.net.
+halos.cv.		28800	IN	NS	ns1.n-gate.org.
+halos.cv.		28800	IN	NS	ns2.n-gate.org.
 hangar7.cv.		28800	IN	NS	ns1000.mochahost.com.
 hangar7.cv.		28800	IN	NS	ns2000.mochahost.com.
 hardsecure.cv.		28800	IN	NS	dns1.host-services.com.
@@ -3410,8 +3412,8 @@ mail.mi.cv.		28800	IN	A	64.111.15.171
 micromat.cv.		28800	IN	NS	ns9.efeito.net.
 micromat.cv.		28800	IN	NS	ns10.efeito.net.
 mail.micromat.cv.	28800	IN	A	77.91.206.231
-microtecnica.cv.	28800	IN	NS	ns1.webs24h.com.
-microtecnica.cv.	28800	IN	NS	ns2.webs24h.com.
+microtecnica.cv.	86400	IN	NS	ns1.webs24h.com.
+microtecnica.cv.	86400	IN	NS	ns2.webs24h.com.
 migrante.cv.		28800	IN	NS	dns1.etrentinodns.net.
 migrante.cv.		28800	IN	NS	dns2.etrentinodns.net.
 milcar.cv.		28800	IN	NS	ns1.milcar.cv.
@@ -3716,10 +3718,10 @@ mail.aavt.org.cv.	28800	IN	A	80.172.233.23
 abac.org.cv.		28800	IN	NS	ns1.abac.org.cv.
 mail.abac.org.cv.	28800	IN	A	80.172.233.23
 ns1.abac.org.cv.	28800	IN	A	80.172.233.23
-abadacaboverde.org.cv.	28800	IN	A	67.23.226.199
 abadacaboverde.org.cv.	28800	IN	NS	ns1.webhs.org.
 abadacaboverde.org.cv.	28800	IN	NS	ns2.webhs.org.
 abadacaboverde.org.cv.	28800	IN	NS	ns3.webhs.org.
+abadacaboverde.org.cv.	28800	IN	A	67.23.226.199
 abc.org.cv.		28800	IN	NS	1.nshub.com.
 abc.org.cv.		28800	IN	NS	2.nshub.com.
 aca-eua.org.cv.		28800	IN	NS	ns1.mundogest.com.
@@ -3953,6 +3955,9 @@ paulmar.cv.		28800	IN	NS	dns1.prime.cv.
 paulmar.cv.		28800	IN	NS	dns2.prime.cv.
 paulosantos.cv.		28800	IN	NS	ns7.securenet-server.net.
 paulosantos.cv.		28800	IN	NS	ns8.securenet-server.net.
+paus.cv.		28800	IN	NS	cdns1.interserver.net.
+paus.cv.		28800	IN	NS	cdns2.interserver.net.
+paus.cv.		28800	IN	NS	cdns3.interserver.net.
 payback.cv.		28800	IN	NS	ns1.payback.cv.
 payback.cv.		28800	IN	NS	ns2.payback.cv.
 mail.payback.cv.	28800	IN	A	93.104.211.170
@@ -4522,11 +4527,11 @@ sermaq.cv.		28800	IN	NS	ns6.ptup.net.
 sermaq.cv.		28800	IN	NS	ns7.ptup.net.
 serralheriaandrade.cv.	28800	IN	NS	ns1000.mochahost.com.
 serralheriaandrade.cv.	28800	IN	NS	ns2000.mochahost.com.
-servicesound.cv.	28800	IN	A	66.96.142.162
-servicesound.cv.	28800	IN	A	66.96.142.163
 servicesound.cv.	28800	IN	NS	ns1.wtservers.com.
 servicesound.cv.	28800	IN	NS	ns2.wtservers.com.
 servicesound.cv.	28800	IN	NS	ns3.wtservers.com.
+servicesound.cv.	28800	IN	A	66.96.142.162
+servicesound.cv.	28800	IN	A	66.96.142.163
 servintil.cv.		28800	IN	NS	ns1.ipage.com.
 servintil.cv.		28800	IN	NS	ns2.ipage.com.
 sesis.cv.		28800	IN	NS	gns23.hocnet.pt.
@@ -4751,12 +4756,12 @@ stif.cv.		28800	IN	NS	ns1000.mochahost.com.
 stif.cv.		28800	IN	NS	ns2000.mochahost.com.
 stj.cv.			28800	IN	NS	ns1.gov.cv.
 stj.cv.			28800	IN	NS	ns2.gov.cv.
-storebenfica.cv.	28800	IN	NS	ns1.webhs.org.
-storebenfica.cv.	28800	IN	NS	ns2.webhs.org.
-storebenfica.cv.	28800	IN	NS	ns3.webhs.org.
 storebenfica.cv.	28800	IN	A	91.184.1.10
 storebenfica.cv.	28800	IN	A	91.184.8.20
 storebenfica.cv.	28800	IN	A	95.211.179.15
+storebenfica.cv.	28800	IN	NS	ns1.webhs.org.
+storebenfica.cv.	28800	IN	NS	ns2.webhs.org.
+storebenfica.cv.	28800	IN	NS	ns3.webhs.org.
 storm.cv.		28800	IN	NS	ns1.hostnet.nl.
 storm.cv.		28800	IN	NS	ns2.hostnetbv.com.
 storm.cv.		28800	IN	NS	ns3.hostnetbv.nl.
@@ -4869,11 +4874,11 @@ terranova.cv.		28800	IN	NS	ns2.webhs.org.
 terranova.cv.		28800	IN	NS	ns3.webhs.org.
 textoeditores.cv.	28800	IN	NS	ns1.textoeditora.pt.
 textoeditores.cv.	28800	IN	NS	ns2.textoeditora.pt.
-thebluebananagroup.cv.	28800	IN	A	85.17.199.26
-thebluebananagroup.cv.	28800	IN	AAAA	2001:4801:7818:6:94c2:71bb:ff10:7bc1
 thebluebananagroup.cv.	28800	IN	NS	ns1.ptwebserv.net.
 thebluebananagroup.cv.	28800	IN	NS	ns2.ptwebserv.net.
 thebluebananagroup.cv.	28800	IN	NS	ns3.ptwebserv.net.
+thebluebananagroup.cv.	28800	IN	A	85.17.199.26
+thebluebananagroup.cv.	28800	IN	AAAA	2001:4801:7818:6:94c2:71bb:ff10:7bc1
 thetravellers.cv.	28800	IN	NS	een.dnssrv.nl.
 thetravellers.cv.	28800	IN	NS	drie.dnssrv.nl.
 thetravellers.cv.	28800	IN	NS	twee.dnssrv.nl.
@@ -5112,10 +5117,10 @@ vivominimercado.cv.	28800	IN	NS	ns2.bh-74.webhostbox.net.
 vmconsultoria.cv.	28800	IN	NS	ns1.dreamhost.com.
 vmconsultoria.cv.	28800	IN	NS	ns2.dreamhost.com.
 vmconsultoria.cv.	28800	IN	NS	ns3.dreamhost.com.
-voxsys.cv.		28800	IN	A	185.11.165.251
-voxsys.cv.		28800	IN	A	185.11.165.252
 voxsys.cv.		28800	IN	NS	ns1.voxsys.com.pt.
 voxsys.cv.		28800	IN	NS	ns2.voxsys.com.pt.
+voxsys.cv.		28800	IN	A	185.11.165.251
+voxsys.cv.		28800	IN	A	185.11.165.252
 voz.cv.			28800	IN	NS	dns1.rede1024.com.
 voz.cv.			28800	IN	NS	dns2.rede1024.com.
 voz.cv.			28800	IN	NS	dns3.rede1024.com.
@@ -5175,4 +5180,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018070901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018071001 86400 7200 2592000 300

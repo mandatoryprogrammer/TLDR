@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @sir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018070604 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018070903 43200 3600 2592000 43200
 sv.			43200	IN	NS	ns.uu.net.
 sv.			43200	IN	NS	ns.dns.br.
 sv.			43200	IN	NS	sv.cctld.authdns.ripe.net.
@@ -135,10 +135,10 @@ academiaamericanadeidiomas.sv. 43200 IN	NS	ns-1182.awsdns-19.org.
 academiaamericanadeidiomas.sv. 43200 IN	NS	ns-1544.awsdns-01.co.uk.
 academica.sv.		43200	IN	NS	dns1.cscdns.net.
 academica.sv.		43200	IN	NS	dns2.cscdns.net.
-acantilados.sv.		43200	IN	NS	ns1.aca.acantilados.sv.
-acantilados.sv.		43200	IN	NS	ns2.aca.acantilados.sv.
-ns1.aca.acantilados.sv.	43200	IN	A	198.57.229.221
-ns2.aca.acantilados.sv.	43200	IN	A	198.57.229.220
+acantilados.sv.		43200	IN	NS	ns1.acantilados.sv.
+acantilados.sv.		43200	IN	NS	ns2.acantilados.sv.
+ns1.acantilados.sv.	43200	IN	A	198.57.229.221
+ns2.acantilados.sv.	43200	IN	A	198.57.229.220
 acare.sv.		43200	IN	NS	rossns.abbott.com.
 acare.sv.		43200	IN	NS	rossns2.abbott.com.
 acare.sv.		43200	IN	NS	abtnsdmz1.abbott.com.
@@ -1431,10 +1431,8 @@ acosa.com.sv.		43200	IN	NS	ns1.reytelhn.net.
 acosa.com.sv.		43200	IN	NS	ns2.reytelhn.net.
 acotincafe.com.sv.	43200	IN	NS	ns1.ipage.com.
 acotincafe.com.sv.	43200	IN	NS	ns2.ipage.com.
-acrilex.com.sv.		43200	IN	NS	ns-375.awsdns-46.com.
-acrilex.com.sv.		43200	IN	NS	ns-955.awsdns-55.net.
-acrilex.com.sv.		43200	IN	NS	ns-1500.awsdns-59.org.
-acrilex.com.sv.		43200	IN	NS	ns-1735.awsdns-24.co.uk.
+acrilex.com.sv.		43200	IN	NS	ns1.acrilex.com.br.
+acrilex.com.sv.		43200	IN	NS	ns2.acrilex.com.br.
 acsa.com.sv.		43200	IN	NS	pdns13.domaincontrol.com.
 acsa.com.sv.		43200	IN	NS	pdns14.domaincontrol.com.
 acscentroamerica.com.sv. 43200	IN	NS	ns8037.hostgator.com.
@@ -2228,8 +2226,8 @@ asder.com.sv.		43200	IN	NS	ns2.servconfig.com.
 aseabrownboveri.com.sv.	43200	IN	NS	nse1.abb.com.
 aseabrownboveri.com.sv.	43200	IN	NS	nse2.abb.com.
 aseabrownboveri.com.sv.	43200	IN	NS	nse3.abb.com.
-asegura.com.sv.		43200	IN	NS	ns1.vultr.com.
-asegura.com.sv.		43200	IN	NS	ns2.vultr.com.
+asegura.com.sv.		43200	IN	NS	dns1.namecheaphosting.com.
+asegura.com.sv.		43200	IN	NS	dns2.namecheaphosting.com.
 aseguradorarural.com.sv. 43200	IN	NS	ns3.navegante.com.sv.
 aseguradorarural.com.sv. 43200	IN	NS	ns4.navegante.com.sv.
 aseinfo.com.sv.		43200	IN	NS	ns3.navegante.com.sv.
@@ -2277,6 +2275,8 @@ ns.asis.com.sv.		43200	IN	A	168.243.202.3
 asistencia.com.sv.	43200	IN	NS	esdns1.mapfre.net.
 asistencia.com.sv.	43200	IN	NS	esdns2.mapfre.net.
 asistencia.com.sv.	43200	IN	NS	esdns3.mapfre.net.
+asistenciavialunillantas.com.sv. 43200 IN NS	ns1.creadigital.net.
+asistenciavialunillantas.com.sv. 43200 IN NS	ns2.creadigital.net.
 asit.com.sv.		43200	IN	NS	ns1.site4now.net.
 asit.com.sv.		43200	IN	NS	ns2.site4now.net.
 asit.com.sv.		43200	IN	NS	ns3.site4now.net.
@@ -3102,6 +3102,8 @@ brooksbrothers.com.sv.	43200	IN	NS	ns1.netnames.net.
 brooksbrothers.com.sv.	43200	IN	NS	ns2.netnames.net.
 brooksbrothers.com.sv.	43200	IN	NS	ns5.netnames.net.
 brooksbrothers.com.sv.	43200	IN	NS	ns6.netnames.net.
+brujula.com.sv.		43200	IN	NS	ns6309.hostgator.com.
+brujula.com.sv.		43200	IN	NS	ns6310.hostgator.com.
 bsci.com.sv.		43200	IN	NS	ns1.bluehost.com.
 bsci.com.sv.		43200	IN	NS	ns2.bluehost.com.
 ns.btc.com.sv.		43200	IN	A	63.101.132.194
@@ -8442,6 +8444,8 @@ iads.inpro.com.sv.	43200	IN	A	168.243.221.51
 ns.inresa.com.sv.	43200	IN	A	190.53.176.112
 insa.com.sv.		43200	IN	NS	mns01.domaincontrol.com.
 insa.com.sv.		43200	IN	NS	mns02.domaincontrol.com.
+insaya.com.sv.		43200	IN	NS	ns1.carlosorlando.com.
+insaya.com.sv.		43200	IN	NS	ns2.carlosorlando.com.
 insert.com.sv.		43200	IN	NS	cdns1.interserver.net.
 insert.com.sv.		43200	IN	NS	cdns2.interserver.net.
 insert.com.sv.		43200	IN	NS	cdns3.interserver.net.
@@ -9158,10 +9162,8 @@ laprairie.com.sv.	43200	IN	NS	ns1.netnames.net.
 laprairie.com.sv.	43200	IN	NS	ns2.netnames.net.
 laprairie.com.sv.	43200	IN	NS	ns5.netnames.net.
 laprairie.com.sv.	43200	IN	NS	ns6.netnames.net.
-laprensa.com.sv.	43200	IN	NS	ns1145.dns.dyn.com.
-laprensa.com.sv.	43200	IN	NS	ns2145.dns.dyn.com.
-laprensa.com.sv.	43200	IN	NS	ns3147.dns.dyn.com.
-laprensa.com.sv.	43200	IN	NS	ns4200.dns.dyn.com.
+laprensa.com.sv.	43200	IN	NS	mary.ns.cloudflare.com.
+laprensa.com.sv.	43200	IN	NS	will.ns.cloudflare.com.
 laprensagrafica.com.sv.	43200	IN	NS	ns1145.dns.dyn.com.
 laprensagrafica.com.sv.	43200	IN	NS	ns2145.dns.dyn.com.
 laprensagrafica.com.sv.	43200	IN	NS	ns3147.dns.dyn.com.
@@ -10568,8 +10570,8 @@ multicontenedores.com.sv. 43200	IN	NS	ns2.no-ip.com.
 multicontenedores.com.sv. 43200	IN	NS	ns3.no-ip.com.
 multicontenedores.com.sv. 43200	IN	NS	ns4.no-ip.com.
 multicontenedores.com.sv. 43200	IN	NS	ns5.no-ip.com.
-multiempaques.com.sv.	43200	IN	NS	ns19.domaincontrol.com.
-multiempaques.com.sv.	43200	IN	NS	ns20.domaincontrol.com.
+multiempaques.com.sv.	43200	IN	NS	1.nseasy.com.
+multiempaques.com.sv.	43200	IN	NS	2.nseasy.com.
 multifiltros.com.sv.	43200	IN	NS	ns-cloud-c1.googledomains.com.
 multifiltros.com.sv.	43200	IN	NS	ns-cloud-c2.googledomains.com.
 multifiltros.com.sv.	43200	IN	NS	ns-cloud-c3.googledomains.com.
@@ -12867,6 +12869,8 @@ ruukki.com.sv.		43200	IN	NS	nssui.comlaude.ch.
 ruukki.com.sv.		43200	IN	NS	nsusa.comlaude.net.
 rvindustrias.com.sv.	43200	IN	NS	ns1.navega.arvixevps.com.
 rvindustrias.com.sv.	43200	IN	NS	ns2.navega.arvixevps.com.
+ryasa.com.sv.		43200	IN	NS	ns1.byethost41.org.
+ryasa.com.sv.		43200	IN	NS	ns2.byethost41.org.
 rycsa.com.sv.		43200	IN	NS	ns1.hostmonster.com.
 rycsa.com.sv.		43200	IN	NS	ns2.hostmonster.com.
 ryuplaza.com.sv.	43200	IN	NS	ns.inmotionhosting.com.
@@ -18206,9 +18210,8 @@ grupohera.sv.		43200	IN	NS	ns8397.hostgator.com.
 grupohera.sv.		43200	IN	NS	ns8398.hostgator.com.
 grupohost.sv.		43200	IN	NS	ns1.cp20.grupohost.net.
 grupohost.sv.		43200	IN	NS	ns2.cp20.grupohost.net.
-grupolpg.sv.		43200	IN	NS	ns1145.dns.dyn.com.
-grupolpg.sv.		43200	IN	NS	ns2145.dns.dyn.com.
-grupolpg.sv.		43200	IN	NS	ns3147.dns.dyn.com.
+grupolpg.sv.		43200	IN	NS	mary.ns.cloudflare.com.
+grupolpg.sv.		43200	IN	NS	will.ns.cloudflare.com.
 grupomsj.sv.		43200	IN	NS	ns-1.awsdns-oo.com.
 grupomsj.sv.		43200	IN	NS	ns-732.awsdns-27.net.
 grupomsj.sv.		43200	IN	NS	ns-1185.awsdns-20.org.
@@ -18262,9 +18265,8 @@ hangouts.sv.		43200	IN	NS	ns4.google.com.
 hansgrohe.sv.		43200	IN	NS	ns.domainnetwork.se.
 hansgrohe.sv.		43200	IN	NS	ns2.domainnetwork.se.
 hansgrohe.sv.		43200	IN	NS	ns3.domainnetwork.com.
-hashtag.sv.		43200	IN	NS	ns1145.dns.dyn.com.
-hashtag.sv.		43200	IN	NS	ns2145.dns.dyn.com.
-hashtag.sv.		43200	IN	NS	ns3147.dns.dyn.com.
+hashtag.sv.		43200	IN	NS	mary.ns.cloudflare.com.
+hashtag.sv.		43200	IN	NS	will.ns.cloudflare.com.
 havana-club.sv.		43200	IN	NS	ns01.brandshelter.com.
 havana-club.sv.		43200	IN	NS	ns02.brandshelter.net.
 havanaclub.sv.		43200	IN	NS	ns01.brandshelter.com.
@@ -19122,9 +19124,8 @@ micafe.sv.		43200	IN	NS	robotns2.second-ns.de.
 micafe.sv.		43200	IN	NS	robotns3.second-ns.de.
 micasabancoagricola.sv.	43200	IN	NS	proxy.bancoagricola.com.
 micasabancoagricola.sv.	43200	IN	NS	websvr.bancoagricola.com.
-michero.sv.		43200	IN	NS	ns1145.dns.dyn.com.
-michero.sv.		43200	IN	NS	ns2145.dns.dyn.com.
-michero.sv.		43200	IN	NS	ns3147.dns.dyn.com.
+michero.sv.		43200	IN	NS	mary.ns.cloudflare.com.
+michero.sv.		43200	IN	NS	will.ns.cloudflare.com.
 micv.sv.		43200	IN	NS	ns1.justhost.com.
 migente.sv.		43200	IN	NS	ns1.javiersimansv.com.
 migente.sv.		43200	IN	NS	ns2.javiersimansv.com.
@@ -20820,8 +20821,6 @@ russellbrands.sv.	43200	IN	NS	ns5.fruit.com.
 ruukki.sv.		43200	IN	NS	nsgbr.comlaude.co.uk.
 ruukki.sv.		43200	IN	NS	nssui.comlaude.ch.
 ruukki.sv.		43200	IN	NS	nsusa.comlaude.net.
-ryasa.sv.		43200	IN	NS	ns1.byethost41.org.
-ryasa.sv.		43200	IN	NS	ns2.byethost41.org.
 s.sv.			43200	IN	NS	a.dnspod.com.
 s.sv.			43200	IN	NS	b.dnspod.com.
 s.sv.			43200	IN	NS	c.dnspod.com.
@@ -21825,4 +21824,4 @@ zplastic.sv.		43200	IN	NS	ns1.digitalocean.com.
 zplastic.sv.		43200	IN	NS	ns2.digitalocean.com.
 zumtobel.sv.		43200	IN	NS	ns1.zgrp.net.
 zumtobel.sv.		43200	IN	NS	ns2.zgrp.net.
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018070604 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018070903 43200 3600 2592000 43200

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cd. @ns-root-2.scpt-network.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152803 14400 3600 2419200 3600
+cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152809 14400 3600 2419200 3600
 cd.			86400	IN	TXT	"Generation Time: 1501576211"
 cd.			86400	IN	NS	igubu.saix.net.
 cd.			86400	IN	NS	sabela.saix.net.
@@ -454,8 +454,10 @@ actionnaires.cd.	86400	IN	NS	ns11.infomaniak.ch.
 actionnaires.cd.	86400	IN	NS	ns12.infomaniak.ch.
 activafrica.cd.		86400	IN	NS	ajay.ns.cloudflare.com.
 activafrica.cd.		86400	IN	NS	arch.ns.cloudflare.com.
-actu.cd.		86400	IN	NS	ns111.ovh.net.
-actu.cd.		86400	IN	NS	dns111.ovh.net.
+actu.cd.		7200	IN	NS	ns11.infomaniak.ch.
+actu.cd.		7200	IN	NS	ns12.infomaniak.ch.
+actu.cd.		7200	IN	NS	ns111.ovh.net.
+actu.cd.		7200	IN	NS	dns111.ovh.net.
 actu24.cd.		7200	IN	NS	ns1.supermonsterservers.com.
 actu24.cd.		7200	IN	NS	ns2.supermonsterservers.com.
 actualite.cd.		86400	IN	NS	ned.ns.cloudflare.com.
@@ -701,8 +703,8 @@ aircharterservice.cd.	86400	IN	NS	ns-34.awsdns-04.com.
 aircharterservice.cd.	86400	IN	NS	ns-682.awsdns-21.net.
 aircharterservice.cd.	86400	IN	NS	ns-1498.awsdns-59.org.
 aircharterservice.cd.	86400	IN	NS	ns-1895.awsdns-44.co.uk.
-airdc.cd.		86400	IN	NS	ns1.us64.siteground.us.
-airdc.cd.		86400	IN	NS	ns2.us64.siteground.us.
+airdc.cd.		7200	IN	NS	ns1.zzam.be.
+airdc.cd.		7200	IN	NS	ns2.zzam.be.
 airfrance.cd.		86400	IN	NS	ns0.airfrance.fr.
 airfrance.cd.		86400	IN	NS	ns1.airfrance.fr.
 airfrance.cd.		86400	IN	NS	ns2.airfrance.fr.
@@ -7984,10 +7986,16 @@ micronet.cd.		86400	IN	NS	soleil3.micronet.cd.
 soleil1.micronet.cd.	86400	IN	A	66.36.196.131
 soleil2.micronet.cd.	86400	IN	A	66.36.196.132
 soleil3.micronet.cd.	86400	IN	A	66.36.196.209
+microseed.cd.		7200	IN	NS	ns1.instradns.com.
+microseed.cd.		7200	IN	NS	ns2.instradns.com.
 microsoft.cd.		86400	IN	NS	ns1.msft.net.
 microsoft.cd.		86400	IN	NS	ns2.msft.net.
 microsoft.cd.		86400	IN	NS	ns3.msft.net.
 microsoft.cd.		86400	IN	NS	ns4.msft.net.
+microsoftnews.cd.	7200	IN	NS	ns1.msft.net.
+microsoftnews.cd.	7200	IN	NS	ns2.msft.net.
+microsoftnews.cd.	7200	IN	NS	ns3.msft.net.
+microsoftnews.cd.	7200	IN	NS	ns4.msft.net.
 microsoftskype.cd.	86400	IN	NS	ns1.msft.net.
 microsoftskype.cd.	86400	IN	NS	ns2.msft.net.
 microsoftskype.cd.	86400	IN	NS	ns3.msft.net.
@@ -10766,6 +10774,8 @@ sesomo.cd.		7200	IN	NS	ns-374.awsdns-46.com.
 sesomo.cd.		7200	IN	NS	ns-718.awsdns-25.net.
 sesomo.cd.		7200	IN	NS	ns-1246.awsdns-27.org.
 sesomo.cd.		7200	IN	NS	ns-1783.awsdns-30.co.uk.
+sethkikuni.cd.		7200	IN	NS	ns1.cows.cd.
+sethkikuni.cd.		7200	IN	NS	ns2.cows.cd.
 setrema.cd.		86400	IN	NS	ns1.cows.cd.
 setrema.cd.		86400	IN	NS	ns2.cows.cd.
 seventhengineering.cd.	86400	IN	NS	ajay.ns.cloudflare.com.
@@ -12640,6 +12650,8 @@ voilalove.cd.		86400	IN	NS	ns2.ekdesign.co.il.
 voilalove.cd.		86400	IN	NS	ns3.ekdesign.co.il.
 voitures.cd.		86400	IN	NS	ajay.ns.cloudflare.com.
 voitures.cd.		86400	IN	NS	arch.ns.cloudflare.com.
+volcapercermines.cd.	7200	IN	NS	ns1.bb-online.net.
+volcapercermines.cd.	7200	IN	NS	ns2.bb-online.net.
 volksmusik.cd.		86400	IN	NS	ns1.ipax.at.
 volksmusik.cd.		86400	IN	NS	ns3.ipax.at.
 volkswagen.cd.		86400	IN	NS	ns1.volkswagen.de.
@@ -13380,4 +13392,4 @@ zuri.cd.		86400	IN	NS	ns4.francedns.com.
 zuri.cd.		86400	IN	NS	ns5.francedns.com.
 zurich.cd.		86400	IN	NS	dns1.cscdns.net.
 zurich.cd.		86400	IN	NS	dns2.cscdns.net.
-cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152803 14400 3600 2419200 3600
+cd.			86400	IN	SOA	ns-root-1.scpt-network.com. nic-cd.scpt.cd. 3003152809 14400 3600 2419200 3600

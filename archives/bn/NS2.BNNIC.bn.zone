@@ -1,11 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR bn. @NS2.BNNIC.bn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-bn.			3600	IN	SOA	ns1.bnnic.bn. postmaster.bnnic.bn. 2014198521 21600 1800 2419200 900
+bn.			3600	IN	SOA	ns1.bnnic.bn. postmaster.bnnic.bn. 2014198531 21600 1800 2419200 900
 bn.			3600	IN	NS	BN-NS.ANYCAST.PCH.NET.
 bn.			3600	IN	NS	NS1.BNNIC.BN.
 bn.			3600	IN	NS	NS2.BNNIC.BN.
 bn.			3600	IN	NS	NS4.APNIC.NET.
+app.bn.			3600	IN	NS	ns1.digitalocean.com.
+app.bn.			3600	IN	NS	ns2.digitalocean.com.
+app.bn.			3600	IN	NS	ns3.digitalocean.com.
 BNNIC.bn.		3600	IN	NS	ns104.brunet.bn.
 BNNIC.bn.		3600	IN	NS	ns204.brunet.bn.
 NS1.BNNIC.bn.		3600	IN	A	194.0.1.33
@@ -38,4 +41,4 @@ royalwedding.bn.	3600	IN	NS	pt01.brunet.bn.
 royalwedding.bn.	3600	IN	NS	pt02.brunet.bn.
 telbru.bn.		3600	IN	NS	pt01.brunet.bn.
 telbru.bn.		3600	IN	NS	pt02.brunet.bn.
-bn.			3600	IN	SOA	ns1.bnnic.bn. postmaster.bnnic.bn. 2014198521 21600 1800 2419200 900
+bn.			3600	IN	SOA	ns1.bnnic.bn. postmaster.bnnic.bn. 2014198531 21600 1800 2419200 900

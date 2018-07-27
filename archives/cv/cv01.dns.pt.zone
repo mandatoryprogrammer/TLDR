@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018072601 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018072701 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -1107,11 +1107,11 @@ boavistamorena.com.cv.	28800	IN	NS	ns3.dreamhost.com.
 bobparsons.com.cv.	28800	IN	NS	NS1.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS2.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS5.101DOMAIN.COM.
-bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
-bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 bodyconcept.com.cv.	28800	IN	NS	ns1.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns2.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns3.ptservidor.net.
+bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
+bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 boulevardboutique.com.cv. 28800	IN	NS	NS1.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS2.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS5.101DOMAIN.COM.
@@ -1166,10 +1166,10 @@ chsi.com.cv.		28800	IN	NS	NS5.101DOMAIN.COM.
 cipd.com.cv.		28800	IN	NS	dns1.idp365.net.
 cipd.com.cv.		28800	IN	NS	dns2.idp365.net.
 cipd.com.cv.		28800	IN	NS	dns3.idp365.net.
-citydia.com.cv.		28800	IN	AAAA	::195.77.116.8
-citydia.com.cv.		28800	IN	AAAA	2a01:1c8:1001:2:be30:5bff:fedf:67ee
 citydia.com.cv.		28800	IN	NS	ns1.entornodns.com.
 citydia.com.cv.		28800	IN	NS	ns2.entornodns.com.
+citydia.com.cv.		28800	IN	AAAA	::195.77.116.8
+citydia.com.cv.		28800	IN	AAAA	2a01:1c8:1001:2:be30:5bff:fedf:67ee
 cloud.com.cv.		28800	IN	A	213.13.28.116
 cloud.com.cv.		28800	IN	A	213.13.30.116
 cloud.com.cv.		28800	IN	NS	ns.sapo.pt.
@@ -3599,6 +3599,8 @@ muska.cv.		28800	IN	NS	ns2.ipage.com.
 mvr.cv.			28800	IN	NS	ns1.n-gate.org.
 mvr.cv.			28800	IN	NS	ns2.n-gate.org.
 my.cv.			28800	IN	NS	fritz.miauw.com.
+naguo.cv.		28800	IN	NS	ns1.bravehost.com.
+naguo.cv.		28800	IN	NS	ns2.bravehost.com.
 nai.cv.			28800	IN	NS	pdns11.domaincontrol.com.
 nai.cv.			28800	IN	NS	pdns12.domaincontrol.com.
 napalku.cv.		28800	IN	NS	ns1.ams41.siteground.eu.
@@ -4358,14 +4360,14 @@ robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-caboverde.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-caboverde.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
-robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kap-verden.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-kap-verden.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
-robinson-club-kapverden.cv. 28800 IN	NS	ns02.brandshelter.net.
+robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
+robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
+robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
+robinson-club-kapverden.cv. 28800 IN	NS	ns02.brandshelter.net.
 robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kap-verden.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -4866,13 +4868,15 @@ techknow.cv.		28800	IN	NS	dns1.ex2-p24.com.
 techknow.cv.		28800	IN	NS	dns2.ex2-p24.com.
 technor.cv.		28800	IN	NS	ns1.ptwebsite.info.
 technor.cv.		28800	IN	NS	ns2.ptwebsite.info.
-tecla.cv.		28800	IN	A	217.182.171.109
-tecla.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
-tecla.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
 tecla.cv.		28800	IN	NS	ns1.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns2.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns3.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns4.hostinger.com.br.
+tecnocenter.cv.		28800	IN	A	217.182.171.109
+tecnocenter.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
+tecnocenter.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
+tecnocenter.cv.		28800	IN	NS	ns3.bravehost.com.
+tecnocenter.cv.		28800	IN	NS	ns4.bravehost.com.
 tecnocor.cv.		28800	IN	A	35.182.190.110
 tecnocor.cv.		28800	IN	A	52.215.11.135
 tecnocor.cv.		28800	IN	A	199.73.55.49
@@ -5204,4 +5208,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018072601 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018072701 86400 7200 2592000 300

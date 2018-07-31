@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sv. @cir.red.sv. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018072901 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018073001 43200 3600 2592000 43200
 ns1.grupobgl.com.ar.	43200	IN	A	67.19.193.98
 ns2.grupobgl.com.ar.	43200	IN	A	67.19.193.99
 ns1.indisa.com.ar.	43200	IN	A	72.46.254.112
@@ -2684,6 +2684,9 @@ betsson.sv.		43200	IN	NS	pdns142.ultradns.net.
 betsson.sv.		43200	IN	NS	pdns142.ultradns.org.
 bettybossi.sv.		43200	IN	NS	ns1.ip-plus.net.
 bettybossi.sv.		43200	IN	NS	gatekeeper.coop.ch.
+betway.sv.		43200	IN	NS	ns1.instradns.com.
+betway.sv.		43200	IN	NS	ns2.instradns.com.
+betway.sv.		43200	IN	NS	ns3.instradns.com.
 beyondairbnb.sv.	43200	IN	NS	ns1.markmonitor.com.
 beyondairbnb.sv.	43200	IN	NS	ns2.markmonitor.com.
 beyondbyairbnb.sv.	43200	IN	NS	ns1.markmonitor.com.
@@ -6430,11 +6433,8 @@ compudata.com.sv.	43200	IN	NS	mail.compudata.com.sv.
 mail.compudata.com.sv.	43200	IN	A	190.53.120.162
 compumarket.com.sv.	43200	IN	NS	ns1123.websitewelcome.com.
 compumarket.com.sv.	43200	IN	NS	ns1124.websitewelcome.com.
-compupart.com.sv.	43200	IN	NS	ns1.no-ip.com.
-compupart.com.sv.	43200	IN	NS	ns2.no-ip.com.
-compupart.com.sv.	43200	IN	NS	ns3.no-ip.com.
-compupart.com.sv.	43200	IN	NS	ns4.no-ip.com.
-compupart.com.sv.	43200	IN	NS	ns5.no-ip.com.
+compupart.com.sv.	43200	IN	NS	ns15.domaincontrol.com.
+compupart.com.sv.	43200	IN	NS	ns16.domaincontrol.com.
 compusmart.com.sv.	43200	IN	NS	ns5.servinetsa.com.
 compusmart.com.sv.	43200	IN	NS	ns6.servinetsa.com.
 computerexpress.com.sv.	43200	IN	NS	ns1.picassowebsolutions.com.
@@ -11822,6 +11822,10 @@ mabe.com.sv.		43200	IN	NS	ns1.nsmabenic.com.
 mabe.com.sv.		43200	IN	NS	ns2.nsmabenic.com.
 maccaferri.com.sv.	43200	IN	NS	ns1.hostcostarica.com.
 maccaferri.com.sv.	43200	IN	NS	ns2.hostcostarica.com.
+maccosmetics.com.sv.	43200	IN	NS	ns2.elcompanies.com.
+maccosmetics.com.sv.	43200	IN	NS	ns3.elcompanies.com.
+maccosmetics.com.sv.	43200	IN	NS	ns4.elcompanies.com.
+maccosmetics.com.sv.	43200	IN	NS	ns5.elcompanies.com.
 maceda.com.sv.		43200	IN	NS	ns1.digitalocean.com.
 maceda.com.sv.		43200	IN	NS	ns2.digitalocean.com.
 maceda.com.sv.		43200	IN	NS	ns3.digitalocean.com.
@@ -16478,11 +16482,8 @@ tecnologia.com.sv.	43200	IN	NS	ns619.websitewelcome.com.
 tecnologia.com.sv.	43200	IN	NS	ns620.websitewelcome.com.
 tecnologias.com.sv.	43200	IN	NS	ns3.servinetsa.com.
 tecnologias.com.sv.	43200	IN	NS	ns4.servinetsa.com.
-tecnolosis.com.sv.	43200	IN	NS	ns1.no-ip.com.
-tecnolosis.com.sv.	43200	IN	NS	ns2.no-ip.com.
-tecnolosis.com.sv.	43200	IN	NS	ns3.no-ip.com.
-tecnolosis.com.sv.	43200	IN	NS	ns4.no-ip.com.
-tecnolosis.com.sv.	43200	IN	NS	ns5.no-ip.com.
+tecnolosis.com.sv.	43200	IN	NS	ns19.domaincontrol.com.
+tecnolosis.com.sv.	43200	IN	NS	ns20.domaincontrol.com.
 tecnometal.com.sv.	43200	IN	NS	ns1.no-ip.com.
 tecnometal.com.sv.	43200	IN	NS	ns2.no-ip.com.
 tecnometal.com.sv.	43200	IN	NS	ns3.no-ip.com.
@@ -21186,6 +21187,10 @@ m.sv.			43200	IN	NS	b.dnspod.com.
 m.sv.			43200	IN	NS	c.dnspod.com.
 ma.sv.			43200	IN	NS	ns1.softlayer.com.
 ma.sv.			43200	IN	NS	ns2.softlayer.com.
+maccosmetics.sv.	43200	IN	NS	ns2.elcompanies.com.
+maccosmetics.sv.	43200	IN	NS	ns3.elcompanies.com.
+maccosmetics.sv.	43200	IN	NS	ns4.elcompanies.com.
+maccosmetics.sv.	43200	IN	NS	ns5.elcompanies.com.
 maersk.sv.		43200	IN	NS	ns1.ascio.net.
 maersk.sv.		43200	IN	NS	ns2.ascio.net.
 maersk.sv.		43200	IN	NS	ns3.ascio.net.
@@ -24108,4 +24113,4 @@ ns2.internext.ws.	43200	IN	A	67.15.191.144
 ns1.rdcnet.ws.		43200	IN	A	208.109.204.30
 ns10.rdcnet.ws.		43200	IN	A	68.178.241.138
 ns2.rdcnet.ws.		43200	IN	A	208.109.204.33
-sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018072901 43200 3600 2592000 43200
+sv.			43200	IN	SOA	cir.red.sv. lito.ibarra.sv. 2018073001 43200 3600 2592000 43200

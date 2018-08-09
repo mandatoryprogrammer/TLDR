@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018080201 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018080901 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -492,6 +492,9 @@ bescv.cv.		28800	IN	NS	ns1.bescv.cv.
 bescv.cv.		28800	IN	NS	ns2.bescv.cv.
 ns1.bescv.cv.		28800	IN	A	194.65.23.2
 ns2.bescv.cv.		28800	IN	A	194.65.23.32
+bet365.cv.		28800	IN	NS	a.dnspod.com.
+bet365.cv.		28800	IN	NS	b.dnspod.com.
+bet365.cv.		28800	IN	NS	c.dnspod.com.
 bfc.cv.			28800	IN	NS	dns1.ibername.com.
 bfc.cv.			28800	IN	NS	dns2.ibername.com.
 bfc.cv.			28800	IN	NS	dns3.ibername.net.
@@ -584,10 +587,10 @@ boavistafc.cv.		28800	IN	NS	dns4.ibername.net.
 bocadoce.cv.		28800	IN	NS	ns1.dreamhost.com.
 bocadoce.cv.		28800	IN	NS	ns2.dreamhost.com.
 bocadoce.cv.		28800	IN	NS	ns3.dreamhost.com.
+bocar.cv.		28800	IN	A	69.175.49.50
 bocar.cv.		28800	IN	NS	ns1.pipedns.com.
 bocar.cv.		28800	IN	NS	ns2.pipedns.com.
 bocar.cv.		28800	IN	NS	ns3.pipedns.com.
-bocar.cv.		28800	IN	A	69.175.49.50
 bocasa.cv.		28800	IN	NS	ns1.amenworld.com.
 bocasa.cv.		28800	IN	NS	ns2.amenworld.com.
 bololo.cv.		28800	IN	NS	dns1.ibername.com.
@@ -929,10 +932,10 @@ clinicasodente.cv.	28800	IN	NS	ns7.securenet-server.net.
 clinicasodente.cv.	28800	IN	NS	ns8.securenet-server.net.
 cloudsys.cv.		28800	IN	NS	ns5001.mochahost.com.
 cloudsys.cv.		28800	IN	NS	ns6001.mochahost.com.
-club-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
-club-cabo-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
 club-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 club-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
+club-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
+club-cabo-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
 club-caboverde.cv.	28800	IN	AAAA	2600:2000:1000::7
 club-caboverde.cv.	28800	IN	AAAA	2600:2000:1001::7
 club-caboverde.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -3057,14 +3060,8 @@ intersolar.cv.		28800	IN	NS	ns1.servconfig.com.
 intersolar.cv.		28800	IN	NS	ns2.servconfig.com.
 intimacy.cv.		28800	IN	NS	ns5.visualwork.pt.
 intimacy.cv.		28800	IN	NS	ns6.visualwork.pt.
-inventa.cv.		28800	IN	AAAA	2600:3c03::a
-inventa.cv.		28800	IN	A	65.19.178.10
-inventa.cv.		28800	IN	A	69.93.127.10
-inventa.cv.		28800	IN	NS	ns1.linode.com.
-inventa.cv.		28800	IN	NS	ns2.linode.com.
-inventa.cv.		28800	IN	NS	ns3.linode.com.
-inventa.cv.		28800	IN	NS	ns4.linode.com.
-inventa.cv.		28800	IN	NS	ns5.linode.com.
+inventa.cv.		28800	IN	NS	ns.inventadomains.com.
+inventa.cv.		28800	IN	NS	ns2.inventadomains.com.
 iogurel.cv.		28800	IN	NS	ns33.domaincontrol.com.
 iogurel.cv.		28800	IN	NS	ns34.domaincontrol.com.
 ip.cv.			28800	IN	NS	ns1.gov.cv.
@@ -3819,6 +3816,7 @@ ciiclaa.org.cv.		28800	IN	NS	ns1.webhostingpad.com.
 ciiclaa.org.cv.		28800	IN	NS	ns2.webhostingpad.com.
 cndhc.org.cv.		28800	IN	NS	ns7.securenet-server.net.
 cndhc.org.cv.		28800	IN	NS	ns8.securenet-server.net.
+colmeiaapa.org.cv.	28800	IN	NS	ns1.servconfig.com.
 condominioatlantico2.org.cv. 28800 IN	NS	ns1000.mochahost.com.
 condominioatlantico2.org.cv. 28800 IN	NS	ns2000.mochahost.com.
 cruzvermelha.org.cv.	28800	IN	NS	ns7.securenet-server.net.
@@ -4362,10 +4360,10 @@ robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-caboverde.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-caboverde.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
-robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kap-verden.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-kap-verden.cv. 28800 IN	NS	ns02.brandshelter.net.
+robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
+robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
@@ -4897,6 +4895,9 @@ tektimus.cv.		28800	IN	NS	ns2.neptuno.tuganetcloud.com.
 telemedicina.cv.	28800	IN	NS	ns1.hostmonster.com.
 telemedicina.cv.	28800	IN	NS	ns2.hostmonster.com.
 mail.telemedicina.cv.	28800	IN	A	74.220.207.182
+teo.cv.			28800	IN	NS	ns1.nosiwebhosting.com.
+teo.cv.			28800	IN	NS	ns2.nosiwebhosting.com.
+teo.cv.			28800	IN	NS	ns3.nosiwebhosting.com.
 tera.cv.		28800	IN	NS	ns23.websitewelcome.com.
 tera.cv.		28800	IN	NS	ns24.websitewelcome.com.
 terranova.cv.		28800	IN	NS	ns1.webhs.org.
@@ -5210,4 +5211,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018080201 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018080901 86400 7200 2592000 300

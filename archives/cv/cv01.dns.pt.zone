@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018080901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018081001 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -24,8 +24,8 @@ mx.238cv.cv.		28800	IN	A	66.96.142.163
 ns.2bind.cv.		28800	IN	A	91.121.76.174
 3as.cv.			28800	IN	NS	ns1.aeminiummultimedia.pt.
 3as.cv.			28800	IN	NS	ns2.aeminiummultimedia.pt.
-7maravilhas.cv.		28800	IN	NS	ns1.gov.cv.
-7maravilhas.cv.		28800	IN	NS	ns2.gov.cv.
+7maravilhas.cv.		28800	IN	NS	ns3.gov.cv.
+7maravilhas.cv.		28800	IN	NS	ns4.gov.cv.
 888.cv.			28800	IN	NS	ns1.backer.net.
 888.cv.			28800	IN	NS	ns2.backer.net.
 888.cv.			28800	IN	NS	ns3.backer.net.
@@ -378,8 +378,8 @@ audiconta.cv.		28800	IN	NS	ns7.securenet-server.net.
 audiconta.cv.		28800	IN	NS	ns8.securenet-server.net.
 auditec.cv.		28800	IN	NS	ns27.domaincontrol.com.
 auditec.cv.		28800	IN	NS	ns28.domaincontrol.com.
-autarquicas2012.cv.	28800	IN	NS	ns1.gov.cv.
-autarquicas2012.cv.	28800	IN	NS	ns2.gov.cv.
+autarquicas2012.cv.	28800	IN	NS	ns3.gov.cv.
+autarquicas2012.cv.	28800	IN	NS	ns4.gov.cv.
 aventureiro.cv.		28800	IN	NS	ns1.dnscpanel.com.
 aventureiro.cv.		28800	IN	NS	ns2.dnscpanel.com.
 avitur.cv.		28800	IN	NS	ns.avitur.cv.
@@ -2153,6 +2153,10 @@ eca.cv.			28800	IN	NS	ns1.hostinger.com.br.
 eca.cv.			28800	IN	NS	ns2.hostinger.com.br.
 eca.cv.			28800	IN	NS	ns3.hostinger.com.br.
 eca.cv.			28800	IN	NS	ns4.hostinger.com.br.
+ecaprendizagem.cv.	28800	IN	NS	ns1.hostinger.com.br.
+ecaprendizagem.cv.	28800	IN	NS	ns2.hostinger.com.br.
+ecaprendizagem.cv.	28800	IN	NS	ns3.hostinger.com.br.
+ecaprendizagem.cv.	28800	IN	NS	ns4.hostinger.com.br.
 ecboavista.cv.		28800	IN	NS	ns1.hostinger.com.br.
 ecboavista.cv.		28800	IN	NS	ns2.hostinger.com.br.
 ecboavista.cv.		28800	IN	NS	ns3.hostinger.com.br.
@@ -2435,12 +2439,12 @@ facabral.cv.		28800	IN	NS	ns2.cvtelecom.cv.
 facestore.cv.		28800	IN	NS	ns5.visualwork.pt.
 facestore.cv.		28800	IN	NS	ns6.visualwork.pt.
 cpanel.facestore.cv.	28800	IN	A	185.17.230.145
-faeu.cv.		28800	IN	A	217.182.171.109
 faeu.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
 faeu.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
 faeu.cv.		28800	IN	NS	ns1.wtservers.com.
 faeu.cv.		28800	IN	NS	ns2.wtservers.com.
 faeu.cv.		28800	IN	NS	ns3.wtservers.com.
+faeu.cv.		28800	IN	A	217.182.171.109
 faisca.cv.		28800	IN	NS	ns293.websitewelcome.com.
 faisca.cv.		28800	IN	NS	ns294.websitewelcome.com.
 fama.cv.		28800	IN	NS	ns1.ptwebserv.net.
@@ -3269,8 +3273,8 @@ ldprojectos.cv.		86400	IN	NS	ns1.webs24h.com.
 ldprojectos.cv.		86400	IN	NS	ns2.webs24h.com.
 lec.cv.			28800	IN	NS	ns7.securenet-server.net.
 lec.cv.			28800	IN	NS	ns8.securenet-server.net.
-legislativas2011.cv.	28800	IN	A	41.221.194.234
-legislativas2011.cv.	28800	IN	NS	ns2.gov.cv.
+legislativas2011.cv.	28800	IN	NS	ns3.gov.cv.
+legislativas2011.cv.	28800	IN	NS	ns4.gov.cv.
 legislativas2016.cv.	28800	IN	NS	ns1.gov.cv.
 legislativas2016.cv.	28800	IN	NS	ns2.gov.cv.
 lifesmart.cv.		28800	IN	AAAA	2607:f0d0:3001:92::2
@@ -3934,8 +3938,6 @@ palmacenter.cv.		28800	IN	NS	ns1.palmacenter.cv.
 palmacenter.cv.		28800	IN	NS	ns2.palmacenter.cv.
 ns1.palmacenter.cv.	28800	IN	A	80.172.233.23
 ns2.palmacenter.cv.	28800	IN	A	80.172.233.24
-palona-image.cv.	28800	IN	NS	ns1.siteground354.com.
-palona-image.cv.	28800	IN	NS	ns2.siteground354.com.
 palona-image.cv.	28800	IN	A	94.46.14.249
 palona-image.cv.	28800	IN	A	94.46.14.250
 palona-image.cv.	28800	IN	A	94.46.16.235
@@ -3944,6 +3946,8 @@ palona-image.cv.	28800	IN	A	130.185.80.200
 palona-image.cv.	28800	IN	A	130.185.80.201
 palona-image.cv.	28800	IN	A	130.185.80.210
 palona-image.cv.	28800	IN	A	130.185.80.211
+palona-image.cv.	28800	IN	NS	ns1.siteground354.com.
+palona-image.cv.	28800	IN	NS	ns2.siteground354.com.
 paoquente.cv.		28800	IN	NS	ns1.mydnspt.net.
 paoquente.cv.		28800	IN	NS	ns2.mydnspt.net.
 paoquente.cv.		28800	IN	NS	ns7.mydnspt.net.
@@ -4356,14 +4360,14 @@ robinson-club-cabo-verde.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-cabo-verde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-cabo-verde.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-cabo-verde.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1000::7
-robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-caboverde.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-caboverde.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-kap-verden.cv. 28800 IN	NS	ns01.brandshelter.com.
-robinson-club-kap-verden.cv. 28800 IN	NS	ns02.brandshelter.net.
+robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1000::7
+robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
+robinson-club-kap-verden.cv. 28800 IN	NS	ns01.brandshelter.com.
+robinson-club-kap-verden.cv. 28800 IN	NS	ns02.brandshelter.net.
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
@@ -4761,8 +4765,8 @@ sprite.cv.		28800	IN	NS	ns3.ko.com.
 sprite.cv.		28800	IN	NS	ns4.ko.com.
 square.cv.		28800	IN	NS	ns1.siteground263.com.
 square.cv.		28800	IN	NS	ns2.siteground263.com.
-src.cv.			86400	IN	NS	ns1.webs24h.com.
-src.cv.			86400	IN	NS	ns2.webs24h.com.
+src.cv.			28800	IN	NS	ns1.webs24h.com.
+src.cv.			28800	IN	NS	ns2.webs24h.com.
 st-ticketing.cv.	28800	IN	NS	ns1.webserversystems.com.
 st-ticketing.cv.	28800	IN	NS	ns2.webserversystems.com.
 staffpromo.cv.		28800	IN	NS	ns3.dnstarvos.com.
@@ -5211,4 +5215,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018080901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018081001 86400 7200 2592000 300

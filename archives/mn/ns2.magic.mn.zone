@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mn. @ns2.magic.mn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008199082 10800 7200 604800 86400
-mn.			900	IN	RRSIG	SOA 7 1 900 20180920051703 20180830041703 29559 mn. VEvx49wcDEXpfboehrDkxj8rwXiYiWFYUt9bGR9pqim9DSeI1A88YGRx UtgrR5znpqASDd6gvT0XwDpdP/iZjUIOiD24payql9tRIwuZmg4WChc/ 5ti2WFGuvPUFAaDlLZk6HHt9C3BxFod8OVdEc0YFnhc9HWb9Tf4F7V/X jSM=
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008199095 10800 7200 604800 86400
+mn.			900	IN	RRSIG	SOA 7 1 900 20180920082118 20180830072118 29559 mn. MoJiswfqxPANtxuHnisQIGfBbTPk31xlEMVN5eg5o3NK2zTwkuOP0EK5 IxGxyE6BxACJXA6WjpPI+IwXAQZcLVgetJoqCTrmavRI8sLPtx09oM+d qXocfA+lOJ1D60quCDlifx94WwWc596aHa5SGQUhAhEEaHQF/4RuglEi 44c=
 mn.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20180915155125 20180825145125 29559 mn. E7rKKPWryGkg87dnBKC93CohzFffI37pjojXqQD/oFbZmYeNeQ1W7NEh YK/jiSGdjHBNGthcak13PXlXfb7gN4jIcOKwSErnS4/WBdnusuL++yqR va0+ltUpC5cW/lIoHLDq9EPMToHtK0LYkK46n4Hz5tc67lY0vNk0dEQV baU=
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180915155125 20180825145125 61299 mn. SdHf30OxDVFLzutX8F4mQp4Kq1PKZP7WuwIbAUfbHOyrUt6Y6FrJXjam dQiIIlkL6UvcAn5U6YhIirvVvrC6Q79uwzScxzhMwopTF7n/GNql7iqO tW9aZvc96cK5g0R/IwHcF8BO2uxPjj3k6RY3cEHSXSJnwDBwnGZT5qwR xMGE1Ln8JATi2Icj9zGjIbmyalqwWZXjUBl/oBHDM+M8k60ftFwilF50 dBcKHKYjFE3Z7Fp6kRFRs2d9x11ktoGeBO9IwG5dM8MJch0xRK8Q+lZY m9UZZe1ldoGw+VaJZ+Ks0XjbzHjAw1Uak4XmeiZloG1/0Ko1hD6uhPpi x9X+0A==
 mn.			900	IN	RRSIG	DNSKEY 7 1 900 20180915155125 20180825145125 12721 mn. EZJeXnUPu2oyc5hi6mlX6YWV0I1QBZr/7NspanR/dQ8GLgcOhhHoogFr JmqCbj1B2uIV47379Cd2JJ1vOurv6lNp+peuOwr0vD2zeq1x0z/venbn ON6k+YDFS1PWaJ574+NXv6izCwsxZ+NqTqi5HPEgl57Na3AQfC6GWdPb 06FcY6R6q6N/cVxnETszilnxzyTEb10GdghC9jJQQ/jlCQ9rKg8uHlmQ +1sLmgN9khLTKynGcbwWAGfODJ/KkpB+eqI3hFTqLTv4lBatSKxqSV+r kQ/yf1OzzCZu9dM/wEO7OKNbx1xq+oMUnBq88RPXTms6B+8dIo1v8OSj hEHEHQ==
@@ -3216,8 +3216,8 @@ ardmarket.mn.		86400	IN	NS	ns1.dns.mn.
 ardmarket.mn.		86400	IN	NS	ns2.dns.mn.
 ardmarket.mn.		86400	IN	NS	ns3.dns.mn.
 ardmarket.mn.		86400	IN	NS	ns4.dns.mn.
-ardnews.mn.		86400	IN	NS	ns2.nameserver.mn.
-ardnews.mn.		86400	IN	NS	ns1.nameserver.mn.
+ardnews.mn.		86400	IN	NS	ns2.amin.mn.
+ardnews.mn.		86400	IN	NS	ns1.amin.mn.
 ardp.mn.		86400	IN	NS	dns7.magicnet.mn.
 ardp.mn.		86400	IN	NS	dns8.magicnet.mn.
 ardp.mn.		86400	IN	NS	dns9.magicnet.mn.
@@ -3408,8 +3408,6 @@ arsenal.mn.		86400	IN	NS	info116598.mars.orderbox-dns.com.
 arsenal.mn.		86400	IN	NS	info116598.earth.orderbox-dns.com.
 arsenal.mn.		86400	IN	NS	info116598.venus.orderbox-dns.com.
 arsenal.mn.		86400	IN	NS	info116598.mercury.orderbox-dns.com.
-arsh.mn.		86400	IN	NS	ns1.nameserver.mn.
-arsh.mn.		86400	IN	NS	ns2.nameserver.mn.
 arslan.mn.		86400	IN	NS	ns1.dns.mn.
 arslan.mn.		86400	IN	NS	ns2.dns.mn.
 arslan.mn.		86400	IN	NS	ns3.dns.mn.
@@ -7174,8 +7172,10 @@ booksale.mn.		86400	IN	NS	ns1.bma.mn.
 booksale.mn.		86400	IN	NS	ns2.bma.mn.
 bookshop.mn.		86400	IN	NS	ns1.dns.mn.
 bookshop.mn.		86400	IN	NS	ns2.dns.mn.
-bookstore.mn.		86400	IN	NS	ns2.nameserver.mn.
-bookstore.mn.		86400	IN	NS	ns1.nameserver.mn.
+bookstore.mn.		86400	IN	NS	dns5.magicnet.mn.
+bookstore.mn.		86400	IN	NS	dns4.magicnet.mn.
+bookstore.mn.		86400	IN	NS	dns3.magicnet.mn.
+bookstore.mn.		86400	IN	NS	dns6.magicnet.mn.
 bookworld.mn.		86400	IN	NS	dns7.magicnet.mn.
 bookworld.mn.		86400	IN	NS	dns8.magicnet.mn.
 bookworld.mn.		86400	IN	NS	dns9.magicnet.mn.
@@ -9450,6 +9450,10 @@ chp.mn.			86400	IN	NS	ns1.iwantmyname.net.
 chp.mn.			86400	IN	NS	ns2.iwantmyname.net.
 chp.mn.			86400	IN	NS	ns3.iwantmyname.net.
 chp.mn.			86400	IN	NS	ns4.iwantmyname.net.
+chp5.mn.		86400	IN	NS	ns4.mobinet.mn.
+chp5.mn.		86400	IN	NS	ns3.mobinet.mn.
+chp5llc.mn.		86400	IN	NS	ns4.mobinet.mn.
+chp5llc.mn.		86400	IN	NS	ns3.mobinet.mn.
 chpm.mn.		86400	IN	NS	ns1.dns.mn.
 chpm.mn.		86400	IN	NS	ns2.dns.mn.
 chpm.mn.		86400	IN	NS	ns3.dns.mn.
@@ -13716,10 +13720,10 @@ ebusiness.mn.		86400	IN	NS	ns3.dns.mn.
 ebusiness.mn.		86400	IN	NS	ns4.dns.mn.
 ecap.mn.		86400	IN	NS	ara.ns.cloudflare.com.
 ecap.mn.		86400	IN	NS	albert.ns.cloudflare.com.
-ecapex.mn.		86400	IN	NS	ns1.dns.mn.
-ecapex.mn.		86400	IN	NS	ns2.dns.mn.
 ecapex.mn.		86400	IN	NS	ns3.dns.mn.
 ecapex.mn.		86400	IN	NS	ns4.dns.mn.
+ecapex.mn.		86400	IN	NS	ns7.wixdns.net.
+ecapex.mn.		86400	IN	NS	ns6.wixdns.net.
 ns6.wixdns.net.ecapex.mn. 86400	IN	A	216.239.32.100
 ecar.mn.		86400	IN	NS	ns1.itools.mn.
 ecar.mn.		86400	IN	NS	ns2.itools.mn.
@@ -26307,10 +26311,10 @@ khovdnews.mn.		86400	IN	NS	ns1.dns.mn.
 khovdnews.mn.		86400	IN	NS	ns2.dns.mn.
 khovdnews.mn.		86400	IN	NS	ns3.dns.mn.
 khovdnews.mn.		86400	IN	NS	ns4.dns.mn.
-khovdtimes.mn.		86400	IN	NS	ns-cloud-c4.googledomains.com.
-khovdtimes.mn.		86400	IN	NS	ns-cloud-c3.googledomains.com.
-khovdtimes.mn.		86400	IN	NS	ns-cloud-c2.googledomains.com.
-khovdtimes.mn.		86400	IN	NS	ns-cloud-c1.googledomains.com.
+khovdtimes.mn.		86400	IN	NS	ns-cloud-e4.googledomains.com.
+khovdtimes.mn.		86400	IN	NS	ns-cloud-e3.googledomains.com.
+khovdtimes.mn.		86400	IN	NS	ns-cloud-e2.googledomains.com.
+khovdtimes.mn.		86400	IN	NS	ns-cloud-e1.googledomains.com.
 khovdzar.mn.		86400	IN	NS	ns1.nameserver.mn.
 khovdzar.mn.		86400	IN	NS	ns2.nameserver.mn.
 khovsgolnews.mn.	86400	IN	NS	admi516687.mars.orderbox-dns.com.
@@ -32541,8 +32545,6 @@ monbit.mn.		86400	IN	NS	ns-cloud-c1.googledomains.com.
 monbit.mn.		86400	IN	NS	ns-cloud-c2.googledomains.com.
 monbit.mn.		86400	IN	NS	ns-cloud-c3.googledomains.com.
 monbit.mn.		86400	IN	NS	ns-cloud-c4.googledomains.com.
-monbonbastus.mn.	86400	IN	NS	ns1.nameserver.mn.
-monbonbastus.mn.	86400	IN	NS	ns2.nameserver.mn.
 monbuild.mn.		86400	IN	NS	ns1.dns.mn.
 monbuild.mn.		86400	IN	NS	ns2.dns.mn.
 monbuild.mn.		86400	IN	NS	ns3.dns.mn.
@@ -33888,6 +33890,14 @@ montel.mn.		86400	IN	NS	ns3.dns.mn.
 montel.mn.		86400	IN	NS	ns4.dns.mn.
 montenegro.mn.		86400	IN	NS	ns1.ns37.de.
 montenegro.mn.		86400	IN	NS	ns2.ns37.de.
+montengerlodge.mn.	86400	IN	NS	ns4.dns.mn.
+montengerlodge.mn.	86400	IN	NS	ns3.dns.mn.
+montengerlodge.mn.	86400	IN	NS	ns2.dns.mn.
+montengerlodge.mn.	86400	IN	NS	ns1.dns.mn.
+montenmizu.mn.		86400	IN	NS	ns4.dns.mn.
+montenmizu.mn.		86400	IN	NS	ns3.dns.mn.
+montenmizu.mn.		86400	IN	NS	ns2.dns.mn.
+montenmizu.mn.		86400	IN	NS	ns1.dns.mn.
 montermo.mn.		86400	IN	NS	ns.inmotionhosting.com.
 montermo.mn.		86400	IN	NS	ns2.inmotionhosting.com.
 montessori.mn.		86400	IN	NS	pridns.iwebcities.com.
@@ -34581,8 +34591,8 @@ msl.mn.			86400	IN	NS	ns5.domain.mn.
 msl.mn.			86400	IN	NS	ns6.domain.mn.
 msm.mn.			86400	IN	NS	ns2.nameserver.mn.
 msm.mn.			86400	IN	NS	ns1.nameserver.mn.
-msmarathon.mn.		86400	IN	NS	ns1.cp-34.webhostbox.net.
-msmarathon.mn.		86400	IN	NS	ns2.cp-34.webhostbox.net.
+msmarathon.mn.		86400	IN	NS	ns2.nameserver.mn.
+msmarathon.mn.		86400	IN	NS	ns1.nameserver.mn.
 msmco.mn.		86400	IN	NS	ns1.dns.mn.
 msmco.mn.		86400	IN	NS	ns2.dns.mn.
 msmco.mn.		86400	IN	NS	ns3.dns.mn.
@@ -34787,8 +34797,6 @@ mtugroup.mn.		86400	IN	NS	admi516687.mars.orderbox-dns.com.
 mtugroup.mn.		86400	IN	NS	admi516687.earth.orderbox-dns.com.
 mtugroup.mn.		86400	IN	NS	admi516687.venus.orderbox-dns.com.
 mtugroup.mn.		86400	IN	NS	admi516687.mercury.orderbox-dns.com.
-mtv.mn.			86400	IN	NS	ns1.nameserver.mn.
-mtv.mn.			86400	IN	NS	ns2.nameserver.mn.
 mtz.mn.			86400	IN	NS	dns3.magicnet.mn.
 mtz.mn.			86400	IN	NS	dns4.magicnet.mn.
 mtz.mn.			86400	IN	NS	dns5.magicnet.mn.
@@ -46400,9 +46408,9 @@ ssm.mn.			86400	IN	NS	ns3.dns.mn.
 ssm.mn.			86400	IN	NS	ns4.dns.mn.
 ssport.mn.		86400	IN	NS	ns1.nandin.mn.
 ssport.mn.		86400	IN	NS	ns2.nandin.mn.
-sss.mn.			86400	IN	NS	dns17.parkpage.foundationapi.com.
-sss.mn.			86400	IN	NS	dns18.parkpage.foundationapi.com.
+ns1.sss.mn.		86400	IN	RRSIG	A 7 3 86400 20180920074616 20180830064616 29559 mn. hnnhbsLIdofuS1kiDnGRkyvtmgv7ijisIMBCCI7oaZ7yP2h2a2j+VOqP qgqUGJqn2TNA8MSXvkUTt/hNo0Rza76sZDIADEyulGGNaU0wYQMe7QkP KU+e07+fq2wFZ6IgaCPlGdIxf0t24NW8aOaDTl8hbI7Noc32MQL3pspU ggg=
 ns1.sss.mn.		86400	IN	A	54.86.185.251
+ns2.sss.mn.		86400	IN	RRSIG	A 7 3 86400 20180920074616 20180830064616 29559 mn. ipO0K/c7+qK/OPsbfQEHUTUC+Dtlm9qbT/EoDnTYneh/R+/sXynKVZEb p+am7a9xBsba930vadFOKYNLX1KF6vb/u4LW6ukwgjkRLpgXQjZBtljq C7k/eP5bpEwfuqhNJal0JN1e64TyPy2tdgse39qc8sP48vz4thFPLwtA rmA=
 ns2.sss.mn.		86400	IN	A	54.86.185.251
 sssc.mn.		86400	IN	NS	a.ezdnscenter.com.
 sssc.mn.		86400	IN	NS	b.ezdnscenter.com.
@@ -47656,8 +47664,8 @@ tamir.mn.		86400	IN	NS	ns1.dns.mn.
 tamir.mn.		86400	IN	NS	ns2.dns.mn.
 tamir.mn.		86400	IN	NS	ns3.dns.mn.
 tamir.mn.		86400	IN	NS	ns4.dns.mn.
-tamis.mn.		86400	IN	NS	ns2.nameserver.mn.
-tamis.mn.		86400	IN	NS	ns1.nameserver.mn.
+tamis.mn.		86400	IN	NS	ns2.rimuhosting.com.
+tamis.mn.		86400	IN	NS	ns1.rimuhosting.com.
 tamron.mn.		86400	IN	NS	ns.tamron.co.jp.
 tamron.mn.		86400	IN	NS	dns3.odn.ne.jp.
 tanaka.mn.		86400	IN	NS	dns01.gmoserver.jp.
@@ -49627,8 +49635,10 @@ tower.mn.		86400	IN	NS	ns1.dns.mn.
 tower.mn.		86400	IN	NS	ns2.dns.mn.
 tower.mn.		86400	IN	NS	ns3.dns.mn.
 tower.mn.		86400	IN	NS	ns4.dns.mn.
-towerconstruction.mn.	86400	IN	NS	ns1.nameserver.mn.
-towerconstruction.mn.	86400	IN	NS	ns2.nameserver.mn.
+towerconstruction.mn.	86400	IN	NS	dns5.magicnet.mn.
+towerconstruction.mn.	86400	IN	NS	dns4.magicnet.mn.
+towerconstruction.mn.	86400	IN	NS	dns3.magicnet.mn.
+towerconstruction.mn.	86400	IN	NS	dns6.magicnet.mn.
 towerproperties.mn.	86400	IN	NS	ns-47.awsdns-05.com.
 towerproperties.mn.	86400	IN	NS	ns-546.awsdns-04.net.
 towerproperties.mn.	86400	IN	NS	ns-1389.awsdns-45.org.
@@ -51178,8 +51188,8 @@ ubfun.mn.		86400	IN	NS	ns-411.awsdns-51.com.
 ubfun.mn.		86400	IN	NS	ns-580.awsdns-08.net.
 ubfun.mn.		86400	IN	NS	ns-1379.awsdns-44.org.
 ubfun.mn.		86400	IN	NS	ns-1765.awsdns-28.co.uk.
-ubfur.mn.		86400	IN	NS	ns1.cp-34.webhostbox.net.
-ubfur.mn.		86400	IN	NS	ns2.cp-34.webhostbox.net.
+ubfur.mn.		86400	IN	NS	ns2.nameserver.mn.
+ubfur.mn.		86400	IN	NS	ns1.nameserver.mn.
 ubg.mn.			86400	IN	NS	ns1.dns.mn.
 ubg.mn.			86400	IN	NS	ns2.dns.mn.
 ubg.mn.			86400	IN	NS	ns3.dns.mn.
@@ -56461,7 +56471,7 @@ zzz.mn.			86400	IN	NS	04.dnsv.jp.
 1hqugrdaat3icbparouqr4t9ca39onc2.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1K00IAMANUCVVEJGLE0Q6UBSBS8H69KS A RRSIG
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. gxM44W/4fQzlrpOj+NpO5d8jiUdRO7mIc862kUKB/9SdT6//0QYPuaXq fWN3CC/dy2VAl14oHhDmIOaVwJVRGaQnOt0MYZEV8nike9suhuaw01lI amUDcVyqRvGN2BANf08GIJxvVuKEwo7jPtB0Y5pDmyAIIUGir6MeVNPe qTg=
 1k00iamanucvvejgle0q6ubsbs8h69ks.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1KED78CPGM4B6DRULKHF34DJCMHADU50 A RRSIG
-1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180920051703 20180830041703 29559 mn. KBq9ccJQDMPEj8LbfPJ1wezF6fOS5FYHi7DgDu35ELwsghG+cM0msCgU vpwL/zZJhkoL1k5UcgBz8Z/TYFsGk5im8wcBpAelwQ1tLgksW4PlZc6P mRwTiTUbSEQ0Bg0/zADLYc14GH811IRfd+PArWIUv8Y7QoJwe/7bP6Ed fxM=
+1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180920082118 20180830072118 29559 mn. I17eg5Q+WnT0256sxWlCT3ue+RVKUm42CrTF40MrfCLs68FTAhpqB7iL Rew4V3/VVH2jnJlmgSgMzLmhJ2r1Gkfrga5rNd+sHsXGRm5W2fL5ghL0 vIKW3lGzLyEnmyfSkQnWK86ELfQSlB9GDvFy4xXZokzee5/2df9F9sYd nXY=
 1ked78cpgm4b6drulkhf34djcmhadu50.mn. 86400 IN NSEC3 1 1 1 D399EAAB 1QLS9FC6KCJO9BNJ85RNG6P5DT4CHUTQ NS SOA RRSIG DNSKEY NSEC3PARAM
 1qls9fc6kcjo9bnj85rng6p5dt4chutq.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. XGvuItcNSjR6PszIbGz73JT13c09VAxmrc1eAAxClWK0Twj3MIS7xkov b4ofvNL2g4E21yUXBCR73DuvQVCP05qHGZMJrOalHI8REHh5/gWcsEbx 6lVv0IkJkaxdJhVgOK7sW9ZIXXW8YUqGrI9HFSMF650TsDI1psiFiLhk SbI=
 1qls9fc6kcjo9bnj85rng6p5dt4chutq.mn. 86400 IN NSEC3 1 1 1 D399EAAB 2L6TNI94TUBPIP4GOJQ0EU7SDAECIFLU A RRSIG
@@ -56477,8 +56487,10 @@ zzz.mn.			86400	IN	NS	04.dnsv.jp.
 3dt9dd985q36q7k2beiq33k3u0030utj.mn. 86400 IN NSEC3 1 1 1 D399EAAB 3HNA8TCG7VACAL1JTE2FFCMG115JMGDR NS DS RRSIG
 3hna8tcg7vacal1jte2ffcmg115jmgdr.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. POuhZWhaI6tY4NlLcLzRD0i0JV1noDIPIsawd9RdO7MT6OnjWc3R79di UKpOwIu0caolsrA7FuODb2BqianEn95IoXWkppcpnO3+bJ0oGbivrnDJ DvKxRo3fQmqB0nKQ+fFMb/SXGs7VW0/u+NuaR2Rh3HhE6xnXGK32Y3Ml Uwo=
 3hna8tcg7vacal1jte2ffcmg115jmgdr.mn. 86400 IN NSEC3 1 1 1 D399EAAB 3OGNLORCQC2LIPDSVDLQ4UNCVATRSSPI A RRSIG
-3ognlorcqc2lipdsvdlq4uncvatrsspi.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. CMQFJXsnsSo+odsG87WJmCe5pAxdQ8KIA8pLRiO9QgZ0fLr+evDrhHK/ OBeo02PhFPKXLBLceY+oNm/P6X83t5hu6DwuDLK+VTFjhanjJB02UmTs ZZqqHO4JE2RCGuiqWXJ5Faw+1SJG/HXlhDKFOflhlCrJs5/Tq94PWYjk eqU=
-3ognlorcqc2lipdsvdlq4uncvatrsspi.mn. 86400 IN NSEC3 1 1 1 D399EAAB 4ORDF4P2T5IR1OUAV8SKOHMDV5JJHAL7 A RRSIG
+3ognlorcqc2lipdsvdlq4uncvatrsspi.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180920074616 20180830064616 29559 mn. Ss+jomsnkq3Jgd4V+xHhtvPlSEbOWM3TW1mJenDLsI2HINUgBKpwAUAY D7mLeqrLUxZnPv77w82YWNVPN/FbiIB83rsuIx0TPeBjBAdLQG3d8dNz A63II3JLQRUaqI+JdW9XR8Y120vxAXmzlgo2EuQNps+N/wu+ifgl3e5e 4vw=
+3ognlorcqc2lipdsvdlq4uncvatrsspi.mn. 86400 IN NSEC3 1 1 1 D399EAAB 468OBF8I6JRBLVACPJC6RI6CV3SDU7M2 A RRSIG
+468obf8i6jrblvacpjc6ri6cv3sdu7m2.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180920074616 20180830064616 29559 mn. H0F2gQo6SJe5mroLBI7Wn95rURnqPttWuC9nEBFu50IMWjcMGPaV6Ton CBk0/wNC2reR6aePZhW1wRwKZmLiQYYExKTfMkRkib/0tefHNx1cC9YY mfBX0LJLjKMjm1GzksIcftyO5rd27hAd/KDG1IKBtHMc7WatShIjkWbx KTg=
+468obf8i6jrblvacpjc6ri6cv3sdu7m2.mn. 86400 IN NSEC3 1 1 1 D399EAAB 4ORDF4P2T5IR1OUAV8SKOHMDV5JJHAL7 
 4ordf4p2t5ir1ouav8skohmdv5jjhal7.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. Yq4Fm2A6NA3zdLnARg1rp+GnJ4+ednYYoC3htf0UvhAtDGjYV1SubYPu 7yEXu9SEq2Woe3g+QIksshetex47VxLXFgwmv3JyS3JsEH2QUslQ2zc3 /dM1kru4xlhgUpDP5KXBeRnm5qbyECpMs326wGoWvVVXhIg4ixChRru8 JyU=
 4ordf4p2t5ir1ouav8skohmdv5jjhal7.mn. 86400 IN NSEC3 1 1 1 D399EAAB 572IUNKHJTR0N5D4M49U4ON6PHF91SMC A RRSIG
 572iunkhjtr0n5d4m49u4on6phf91smc.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180916020659 20180826010659 29559 mn. dI/xuQJZuyTfpo5NVSz26Ab3lPYev/Ayn968KNOxSj0roDcVtHS/nE/o lUOiTWwhpziIAOE+MWQWed1U9326dKYt83zMvHyjbZmpE6RaIrCOOpwL w6g1PjUaL2erLlVNcL9+kLMAtdArcciwC1oo9aaa9FknVJ8AvxmeLTjY i4M=
@@ -56539,8 +56551,10 @@ dn13uqig1a3k21884ec2b51p2p12263k.mn. 86400 IN RRSIG NSEC3 7 2 86400 201809151551
 dn13uqig1a3k21884ec2b51p2p12263k.mn. 86400 IN NSEC3 1 1 1 D399EAAB DNUF7NRU1H1FBII6B7TDDDPFGJJJBI5N A RRSIG
 dnuf7nru1h1fbii6b7tdddpfgjjjbi5n.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. ONuawpkQPSgMpCFNakWOX8sZNpThPkBiwX7h42iiN4Zjkhvboo8kwnId 8OAt+jQZlqASxn4/yz6TM4vCue77G9h2x3M4nhujHyuMzvFomvfuEOWp DF6jipaSyf9OLEOLJDPUawCCMFQ0WsSmqW948S9VICXPo5tFeUJLPzU9 lvI=
 dnuf7nru1h1fbii6b7tdddpfgjjjbi5n.mn. 86400 IN NSEC3 1 1 1 D399EAAB DVRD9STU480VT1A03GQ2VQELUNIALVDG A RRSIG
-dvrd9stu480vt1a03gq2vqelunialvdg.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. hqzWeMFnxlgty7yMaRSA+RBZRnZHXz8R4rHNvgriq3DbdeR+IawCCIae s8Cs7Xs/HyRwSmJnIBF8eBKQlZ+XuZCxmn3X0fZHkc5cfNXZOvCRiB0F 8oQqoZ1xGt6lg9SWjMj36JUM//HpNiOA+JkSty3EZkkJTPtyndDeMS7n 5ZQ=
-dvrd9stu480vt1a03gq2vqelunialvdg.mn. 86400 IN NSEC3 1 1 1 D399EAAB E74M65TIL0ITKRC9I62G7OMM2OHPHKV8 
+dvrd9stu480vt1a03gq2vqelunialvdg.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180920074616 20180830064616 29559 mn. cYRXYvJEi+jU+Q3LKtSBJaedx0S7P+JN5N41sWM/ik8Ma5iRThl87I74 X90FNtKdpnqABpciYo4mJXX/RdNGx4CTWqkliofVOQMqi8B1+W+g3ErZ sp7zS6wfacE/GzzOD1gM7WDMot0NoxytMRnY3XVmVqPib7sJLJ75oSm5 78c=
+dvrd9stu480vt1a03gq2vqelunialvdg.mn. 86400 IN NSEC3 1 1 1 D399EAAB E14HSAAJ6QA3BIR04BKBTKAR2VD3BR6K 
+e14hsaaj6qa3bir04bkbtkar2vd3br6k.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180920074616 20180830064616 29559 mn. N6dd3BG9t3orU8JZUBfAYNnS/oCVAsWz2PaacqAZMn4TinWKv4fQxEDy I27DA2w9f0MquwHj1NyhTozbaiU3BiOR+vvOXsDuMIydRLPQQkmbpnmv 0tT23tz5tR+YW7rkS4+eSfbGzDM4HNosSEbYiwpooSZVlt/tXcGIW5TZ Bys=
+e14hsaaj6qa3bir04bkbtkar2vd3br6k.mn. 86400 IN NSEC3 1 1 1 D399EAAB E74M65TIL0ITKRC9I62G7OMM2OHPHKV8 A RRSIG
 e74m65til0itkrc9i62g7omm2ohphkv8.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. mBvN33IWI5xrf3OEqmaDW3MT4IRnIFlZ6fnLNsLfkTmSazI7fZqKKtnO mc7gjVvPcCt1sH6QYlRJQMsSlMlSTk3YuCNMUS42BuXY3rPnnYGskUgb sY7ibujlRaDM8CdU0nBf0bR2Bhf6i8tqiiVbegpaIIlBpf/9UXE49muW qvw=
 e74m65til0itkrc9i62g7omm2ohphkv8.mn. 86400 IN NSEC3 1 1 1 D399EAAB E7BC52MOS7IHFMMP75FT1D42JGADABRJ A RRSIG
 e7bc52mos7ihfmmp75ft1d42jgadabrj.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. erRoV7CsgNjBWZ/oRdSnE/OSDbVz1zR5nVaVEzLSiFVQR1ujwdiLzoMl VHSEiI2JXx9YoCoT6vJZIoepuj54zmiIdqNAPxcmEiqZZTzG4QK4kYZJ vq5ruya+rLi4CAbnxf6zv/txamCPsI3jNNuzilMpNKhmQWMzQUvNIgag 68A=
@@ -56555,8 +56569,10 @@ fc4b8sr1thprp7let954k28vjc3hjg6h.mn. 86400 IN RRSIG NSEC3 7 2 86400 201809151551
 fc4b8sr1thprp7let954k28vjc3hjg6h.mn. 86400 IN NSEC3 1 1 1 D399EAAB FQMQQNVA54NPPEG540APIG1GABL98B7J A RRSIG
 fqmqqnva54nppeg540apig1gabl98b7j.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. ACUGAzRDix9DHIpQd1a/X71PE+AurG7IGIlhZXm6Vz8M7Yt9kuzAVRYB k+RhZzNbrvt1AbdqcZi//FPtpwPsTd8ugj/ISLl8PPVEmzQ20VIEu87B /ZROYxJvTZDseLmk12jd6pNdlRo9D1i09F56FhVkDd7pSemgipV4RpBI BiU=
 fqmqqnva54nppeg540apig1gabl98b7j.mn. 86400 IN NSEC3 1 1 1 D399EAAB FUNRCQSSK8STM76F8MLSI6MBUJ840QDS A RRSIG
-funrcqssk8stm76f8mlsi6mbuj840qds.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. hi9HxayyzTuGbtB8/kwwlhq/+1/DcsYyoeKX+HdravrdeiiG4SvFPyTA RjLoSLPpTdX7lLki19a2RP2OLIPssTLBzW4W2EzuULY7E1EJbrgJHth3 8sSju1cs82zc2mYqxehrcGYbjzP4NSk9laIAW5L4MiGICOVEJhaeKMlU 2aU=
-funrcqssk8stm76f8mlsi6mbuj840qds.mn. 86400 IN NSEC3 1 1 1 D399EAAB GC3S21FCMV5GN6F23KC3RK5PAD3D1VNM A RRSIG
+funrcqssk8stm76f8mlsi6mbuj840qds.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180920074616 20180830064616 29559 mn. kyfkXzB5YUs0SxfNtY4sLi/YhiWdGbsCpaa+h+hN3EvpcXVq4nbRJODd /HNJKgAB8HtHLViyDqcjFIWJTbAg0Y9PgJCk+1b+zLRxNDOUjLTyDCm8 +rt2O/dXUnxJ+ZWbXBp3XA+yxo5/txYKhqCILlo4171cZeFGaLwEURps pmM=
+funrcqssk8stm76f8mlsi6mbuj840qds.mn. 86400 IN NSEC3 1 1 1 D399EAAB G82FJ242C2UVUJ4DOVQKKK2TS6DU5JC4 A RRSIG
+g82fj242c2uvuj4dovqkkk2ts6du5jc4.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180920074616 20180830064616 29559 mn. RLZu2EwbTWjbUsixAnwBUXWwnqPc8SqiAxSGUJlOwMNtj7DC5mxs6y6X 9SrQrhwuOCoEtJuUlcdozSZzJDdhGWu8YjRHKxyH4B4vdb4LXoRuiI98 +rB14ELPE2ku4btq4EZXTmG/1m3wJRc1G/jRpiIIGXbgZo/JWG+vHV8e n/s=
+g82fj242c2uvuj4dovqkkk2ts6du5jc4.mn. 86400 IN NSEC3 1 1 1 D399EAAB GC3S21FCMV5GN6F23KC3RK5PAD3D1VNM A RRSIG
 gc3s21fcmv5gn6f23kc3rk5pad3d1vnm.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. SurS4/ondxSbMr6ojt8kpMH0Az5X1PLkJ0vnZZ3sSkafo030lKrWBhzf Zxvv1eE10sWR1jglfXO2AwQhKquZaX8VzMhE0tdHSiIPXc5HXzPs1Xa5 s9fMy1Ic8Yf3mz2Q/GNZHY8lNuHOV736hC6AYa3R0kASW3hg+wUx+kRc S5o=
 gc3s21fcmv5gn6f23kc3rk5pad3d1vnm.mn. 86400 IN NSEC3 1 1 1 D399EAAB GD17KIGR5R3H3N8DM6O0I14IDF4Q5MKC A RRSIG
 gd17kigr5r3h3n8dm6o0i14idf4q5mkc.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. UBt++0LaGqge5y+PcYekZ131uNcIpdDNx5oh14DFj1KoqHIrOEWqrVL+ eTvOUxM/D3RxTYYMulwBGGHg/gt39TP9MTD1HEQVEBQvovEKmRWF6uS+ Kaogv+tTRkfsrfcPKh7jHPdvTO961zaEtu2E9+rqw4QiEXlwTfQmruvs GBA=
@@ -56653,4 +56669,4 @@ t5ntfimml7j0n0kjtldplaai0go8n7da.mn. 86400 IN RRSIG NSEC3 7 2 86400 201809151551
 t5ntfimml7j0n0kjtldplaai0go8n7da.mn. 86400 IN NSEC3 1 1 1 D399EAAB VDJ4CJMEERK0B91BBLDR18SOMBJTO8BP A RRSIG
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN RRSIG NSEC3 7 2 86400 20180915155125 20180825145125 29559 mn. DQXbakB0RfB4NKar4yZjDU58zJORY0Lg3LRRWWfLxN1fTJq1Hl+x0ELT 9YaY4kHZhJL72Uy556EPiNYC+8MJcJ7/INMlKHrCw54lkQCQ7wxAJUBk FPeIUhDL7SttzqjPdOrACmTmxLbf1Vf0BX4LsjbPlt1+bfjbuxUJZwbr je0=
 vdj4cjmeerk0b91bbldr18sombjto8bp.mn. 86400 IN NSEC3 1 1 1 D399EAAB 041KLEK7K6MPSCOCFGAPT5FRKO49R91S A RRSIG
-mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008199082 10800 7200 604800 86400
+mn.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008199095 10800 7200 604800 86400

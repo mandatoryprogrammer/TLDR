@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ao. @ns02.dns.ao. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018082901 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018083001 86400 7200 2592000 3600
 ao.			3600	IN	TXT	"Angola - http://www.dns.ao/"
 ao.			3600	IN	NS	ao01.dns.pt.
 ao.			3600	IN	NS	ao03.dns.pt.
@@ -862,12 +862,16 @@ ns01.ao.		3600	IN	AAAA	2c0f:f828:2::a
 ns01.ao.		3600	IN	A	197.149.149.10
 ns02.ao.		3600	IN	AAAA	2c0f:f828:2::b
 ns02.ao.		3600	IN	A	197.149.149.11
-aapsi.og.ao.		3600	IN	NS	ns1.nexus.ao.
-aapsi.og.ao.		3600	IN	NS	ns2.nexus.ao.
+aapsi.og.ao.		3600	IN	NS	ns1.aapsi.og.ao.
+aapsi.og.ao.		3600	IN	NS	ns2.aapsi.og.ao.
+ns1.aapsi.og.ao.	3600	IN	A	196.49.6.90
+ns2.aapsi.og.ao.	3600	IN	A	196.49.6.91
 aidc.og.ao.		3600	IN	NS	ns13.ovh.net.
 aidc.og.ao.		3600	IN	NS	dns13.ovh.net.
-aonog.og.ao.		3600	IN	NS	ns1.mstelcom.net.
-aonog.og.ao.		3600	IN	NS	ns2.mstelcom.net.
+aonog.og.ao.		3600	IN	NS	ns1.aonog.og.ao.
+aonog.og.ao.		3600	IN	NS	ns2.aonog.og.ao.
+ns1.aonog.og.ao.	3600	IN	A	196.49.6.90
+ns2.aonog.og.ao.	3600	IN	A	196.49.6.91
 apang.og.ao.		3600	IN	NS	ns.inventadomains.com.
 apang.og.ao.		3600	IN	NS	ns2.inventadomains.com.
 asua.og.ao.		3600	IN	NS	ns1.dialhost.com.br.
@@ -1078,4 +1082,4 @@ welvitcha.ao.		3600	IN	NS	ns.acs.ao.
 welvitcha.ao.		3600	IN	NS	ns1.acs.ao.
 xikilamoney.ao.		3600	IN	NS	ns.inventadomains.com.
 xikilamoney.ao.		3600	IN	NS	ns2.inventadomains.com.
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018082901 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018083001 86400 7200 2592000 3600

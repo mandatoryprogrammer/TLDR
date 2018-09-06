@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR tj. @ns2.tojikiston.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018090408 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018090606 7200 3600 2678400 7200
 tj.			7200	IN	NS	tj.cctld.authdns.ripe.net.
 tj.			7200	IN	NS	ns1.nic.tj.
 tj.			7200	IN	NS	ns2.tojikiston.com.
@@ -1214,6 +1214,8 @@ automobile.tj.		7200	IN	NS	ns1.get.tj.
 automobile.tj.		7200	IN	NS	ns2.get.tj.
 autos.tj.		7200	IN	NS	ns1.sedoparking.com.
 autos.tj.		7200	IN	NS	ns2.sedoparking.com.
+autoshina.tj.		7200	IN	NS	ns.tarena.tj.
+autoshina.tj.		7200	IN	NS	ns2.tarena.tj.
 autospa.tj.		7200	IN	NS	ns1.timeweb.ru.
 autospa.tj.		7200	IN	NS	ns2.timeweb.ru.
 autospa.tj.		7200	IN	NS	ns3.timeweb.org.
@@ -1961,10 +1963,6 @@ boschrexroth.tj.	7200	IN	NS	gwa.fe.bosch.de.
 boschrexroth.tj.	7200	IN	NS	gwa2.fe.bosch.de.
 bosti.tj.		7200	IN	NS	ns1.rsnx.ru.
 bosti.tj.		7200	IN	NS	ns2.rsnx.ru.
-bot.tj.			7200	IN	NS	ns1.spaceweb.ru.
-bot.tj.			7200	IN	NS	ns2.spaceweb.ru.
-bot.tj.			7200	IN	NS	ns3.spaceweb.pro.
-bot.tj.			7200	IN	NS	ns4.spaceweb.pro.
 botalife.tj.		7200	IN	NS	ns1.timeweb.ru.
 botalife.tj.		7200	IN	NS	ns2.timeweb.ru.
 botalife.tj.		7200	IN	NS	ns3.timeweb.org.
@@ -2171,6 +2169,10 @@ capital-t.tj.		7200	IN	NS	ns1.tajnet.ru.
 capital-t.tj.		7200	IN	NS	ns2.tajnet.ru.
 car.tj.			7200	IN	NS	ns1.spaceweb.ru.
 car.tj.			7200	IN	NS	ns2.spaceweb.ru.
+carabaoenergy.tj.	7200	IN	NS	ns1.beget.com.
+carabaoenergy.tj.	7200	IN	NS	ns1.beget.pro.
+carabaoenergy.tj.	7200	IN	NS	ns2.beget.com.
+carabaoenergy.tj.	7200	IN	NS	ns2.beget.pro.
 carbook.tj.		7200	IN	NS	vera.ns.cloudflare.com.
 carbook.tj.		7200	IN	NS	graham.ns.cloudflare.com.
 card.tj.		7200	IN	NS	ns1.timeweb.ru.
@@ -2248,8 +2250,6 @@ cementitojik.tj.	7200	IN	NS	ns1.tajnet.ru.
 cementitojik.tj.	7200	IN	NS	ns2.tajnet.ru.
 censusinfo.tj.		7200	IN	NS	ns.tojikiston.com.
 censusinfo.tj.		7200	IN	NS	ns1.tojikiston.com.
-center.tj.		7200	IN	NS	ns1.sprinthost.ru.
-center.tj.		7200	IN	NS	ns2.sprinthost.ru.
 center-fm.tj.		7200	IN	NS	pins1.eastera.tj.
 center-fm.tj.		7200	IN	NS	pins2.eastera.tj.
 centr.tj.		7200	IN	NS	ns1.rspd.tj.
@@ -3538,8 +3538,6 @@ credit-suisse.tj.	7200	IN	NS	dns1.credit-suisse.com.
 credit-suisse.tj.	7200	IN	NS	dns2.credit-suisse.com.
 credit-swiss.tj.	7200	IN	NS	dns1.credit-suisse.com.
 credit-swiss.tj.	7200	IN	NS	dns2.credit-suisse.com.
-creditcards.tj.		7200	IN	NS	ns1.get.tj.
-creditcards.tj.		7200	IN	NS	ns2.get.tj.
 creditsuisse.tj.	7200	IN	NS	dns1.credit-suisse.com.
 creditsuisse.tj.	7200	IN	NS	dns2.credit-suisse.com.
 creditswiss.tj.		7200	IN	NS	dns1.credit-suisse.com.
@@ -7557,6 +7555,8 @@ like.tj.		7200	IN	NS	ns1.sedoparking.com.
 like.tj.		7200	IN	NS	ns2.sedoparking.com.
 likebiz.tj.		7200	IN	NS	ns7.get.tj.
 likebiz.tj.		7200	IN	NS	ns8.get.tj.
+likebz.tj.		7200	IN	NS	ns7.get.tj.
+likebz.tj.		7200	IN	NS	ns8.get.tj.
 limango.tj.		7200	IN	NS	ns1.beget.com.
 limango.tj.		7200	IN	NS	ns1.beget.pro.
 limango.tj.		7200	IN	NS	ns2.beget.com.
@@ -9738,8 +9738,8 @@ ozodi.tj.		7200	IN	NS	a11-64.akam.net.
 p.tj.			7200	IN	NS	a.dnspod.com.
 p.tj.			7200	IN	NS	b.dnspod.com.
 p.tj.			7200	IN	NS	c.dnspod.com.
-p4d.tj.			7200	IN	NS	ns1.daramal.ru.
-p4d.tj.			7200	IN	NS	ns2.daramal.ru.
+p4d.tj.			7200	IN	NS	ns1.timeweb.ru.
+p4d.tj.			7200	IN	NS	ns2.timeweb.ru.
 page.tj.		7200	IN	NS	ns1.rsnx.ru.
 page.tj.		7200	IN	NS	ns2.rsnx.ru.
 pair.tj.		7200	IN	NS	ns0.ns0.com.
@@ -9920,6 +9920,12 @@ pecta.tj.		7200	IN	NS	ns1.firstvsd.ru.
 pecta.tj.		7200	IN	NS	ns2.firstvds.ru.
 pediatria.tj.		7200	IN	NS	ns.tojikiston.com.
 pediatria.tj.		7200	IN	NS	ns1.tojikiston.com.
+pegas-agro.tj.		7200	IN	NS	ns3.nic.ru.
+pegas-agro.tj.		7200	IN	NS	ns4.nic.ru.
+pegas-agro.tj.		7200	IN	NS	ns8.nic.ru.
+pegasagro.tj.		7200	IN	NS	ns3.nic.ru.
+pegasagro.tj.		7200	IN	NS	ns4.nic.ru.
+pegasagro.tj.		7200	IN	NS	ns8.nic.ru.
 pegasus-asia.tj.	7200	IN	NS	ns1.activeby.net.
 pegasus-asia.tj.	7200	IN	NS	ns2.activeby.net.
 pegasusasia.tj.		7200	IN	NS	ns1.activeby.net.
@@ -11770,8 +11776,6 @@ startmeeting.tj.	7200	IN	NS	ns1.101domain.com.
 startmeeting.tj.	7200	IN	NS	ns5.101domain.com.
 startup.tj.		7200	IN	NS	ns.tojikiston.com.
 startup.tj.		7200	IN	NS	ns1.tojikiston.com.
-startup-portal.tj.	7200	IN	NS	ns1.reg.ru.
-startup-portal.tj.	7200	IN	NS	ns2.reg.ru.
 stat.tj.		7200	IN	NS	ns.tojikiston.com.
 stat.tj.		7200	IN	NS	ns1.tojikiston.com.
 stat-sugd.tj.		7200	IN	NS	ns.tojikiston.com.
@@ -12898,8 +12902,6 @@ tojon.tj.		7200	IN	NS	ns1.hosting.reg.ru.
 tojon.tj.		7200	IN	NS	ns2.hosting.reg.ru.
 tojproject.tj.		7200	IN	NS	ns1.rsnx.ru.
 tojproject.tj.		7200	IN	NS	ns2.rsnx.ru.
-tojservice.tj.		7200	IN	NS	ns1.hosting.reg.ru.
-tojservice.tj.		7200	IN	NS	ns2.hosting.reg.ru.
 tojsnack.tj.		7200	IN	NS	ns1.rsnx.ru.
 tojsnack.tj.		7200	IN	NS	ns2.rsnx.ru.
 tojstudio.tj.		7200	IN	NS	ns1.beget.com.
@@ -14407,4 +14409,4 @@ zyclara.tj.		7200	IN	NS	ns1.domaininfo.com.
 zyclara.tj.		7200	IN	NS	ns2.domaininfo.com.
 zz.tj.			7200	IN	NS	pns11.cloudns.net.
 zz.tj.			7200	IN	NS	pns12.cloudns.net.
-tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018090408 7200 3600 2678400 7200
+tj.			7200	IN	SOA	ns1.nic.tj. rkh.itc.tj. 2018090606 7200 3600 2678400 7200

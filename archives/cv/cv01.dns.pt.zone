@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018083001 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018090601 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -149,8 +149,8 @@ mail.agir.cv.		28800	IN	A	80.172.241.20
 agronegocio.cv.		28800	IN	NS	ns1.gppnetwork.com.
 agronegocio.cv.		28800	IN	NS	ns2.gppnetwork.com.
 mail.agronegocio.cv.	28800	IN	A	173.192.13.48
-agrotour.cv.		28800	IN	NS	ns7.securenet-server.net.
-agrotour.cv.		28800	IN	NS	ns8.securenet-server.net.
+agrotour.cv.		28800	IN	NS	ns1.bh-74.webhostbox.net.
+agrotour.cv.		28800	IN	NS	ns2.bh-74.webhostbox.net.
 aguabrava.cv.		28800	IN	NS	ns.aguabrava.cv.
 aguabrava.cv.		28800	IN	NS	ns1.capeverdehosting.com.
 aguabrava.cv.		28800	IN	NS	ns2.capeverdehosting.com.
@@ -187,6 +187,9 @@ alcabo.cv.		28800	IN	NS	ns1.justhost.com.
 alcabo.cv.		28800	IN	NS	ns2.justhost.com.
 mail.alcabo.cv.		28800	IN	A	173.254.28.28
 aldeiajerome.cv.	28800	IN	NS	dns1.prime.cv.
+aled.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
+aled.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
+aled.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
 alfa.cv.		28800	IN	NS	ns1.bluehost.com.
 alfa.cv.		28800	IN	NS	ns2.bluehost.com.
 alfandegas.cv.		28800	IN	A	41.221.194.233
@@ -251,6 +254,8 @@ ns1.anav.cv.		28800	IN	A	80.172.233.23
 ns2.anav.cv.		28800	IN	A	80.172.233.24
 angpsp.cv.		28800	IN	NS	ns25.boxsecured.com.
 angpsp.cv.		28800	IN	NS	ns26.boxsecured.com.
+animaisdasa.cv.		28800	IN	NS	ns1-queen.vivawebhost.com.
+animaisdasa.cv.		28800	IN	NS	ns2-queen.vivawebhost.com.
 ansa.cv.		28800	IN	NS	ns1.gov.cv.
 ansa.cv.		28800	IN	NS	ns2.gov.cv.
 anuncios.cv.		28800	IN	NS	ns.anuncios.cv.
@@ -1479,12 +1484,12 @@ marcaria.com.cv.	28800	IN	NS	ns02.trademarkarea.com.
 marcaria.com.cv.	28800	IN	NS	ns03.trademarkarea.com.
 mariocosta.com.cv.	28800	IN	NS	ns7.securenet-server.net.
 mariocosta.com.cv.	28800	IN	NS	ns8.securenet-server.net.
-markmonitor.com.cv.	28800	IN	NS	ns1.markmonitor.com.
-markmonitor.com.cv.	28800	IN	NS	ns3.markmonitor.com.
 markmonitor.com.cv.	28800	IN	AAAA	2604:9a00:2100:a001:3::
 markmonitor.com.cv.	28800	IN	A	46.165.192.30
 markmonitor.com.cv.	28800	IN	A	85.17.219.217
 markmonitor.com.cv.	28800	IN	A	95.211.40.20
+markmonitor.com.cv.	28800	IN	NS	ns1.markmonitor.com.
+markmonitor.com.cv.	28800	IN	NS	ns3.markmonitor.com.
 matilde.com.cv.		28800	IN	NS	dns-eu1.powerdns.net.
 matilde.com.cv.		28800	IN	NS	dns-eu2.powerdns.net.
 matilde.com.cv.		28800	IN	NS	dns-us1.powerdns.net.
@@ -2011,18 +2016,8 @@ dds.cv.			28800	IN	NS	ns455.hostgator.com.
 dds.cv.			28800	IN	NS	ns456.hostgator.com.
 decameron.cv.		28800	IN	NS	NS1.101DOMAIN.COM.
 decameron.cv.		28800	IN	NS	NS2.101DOMAIN.COM.
-dectecshop.cv.		28800	IN	AAAA	2400:cb00:2049:1::a29f:1819
-dectecshop.cv.		28800	IN	AAAA	2400:cb00:2049:1::a29f:1827
-dectecshop.cv.		28800	IN	AAAA	2400:cb00:2049:1::a29f:1981
-dectecshop.cv.		28800	IN	AAAA	2400:cb00:2049:1::a29f:1a63
-dectecshop.cv.		28800	IN	AAAA	2400:cb00:2049:1::a29f:1b48
-dectecshop.cv.		28800	IN	NS	ns1.linode.com.
-dectecshop.cv.		28800	IN	NS	ns1.doubledotmedia.com.
-dectecshop.cv.		28800	IN	NS	ns2.linode.com.
-dectecshop.cv.		28800	IN	NS	ns2.doubledotmedia.com.
-dectecshop.cv.		28800	IN	NS	ns3.linode.com.
-dectecshop.cv.		28800	IN	NS	ns4.linode.com.
-dectecshop.cv.		28800	IN	NS	ns5.linode.com.
+dectecshop.cv.		28800	IN	NS	elsa.ns.cloudflare.com.
+dectecshop.cv.		28800	IN	NS	gordon.ns.cloudflare.com.
 deepsea.cv.		28800	IN	NS	ns1.dnstarvos.com.
 deepsea.cv.		28800	IN	NS	ns2.dnstarvos.com.
 delcar.cv.		28800	IN	NS	ns1.nameresolve.com.
@@ -2481,8 +2476,8 @@ faturex.cv.		28800	IN	NS	ns1.salweb.org.
 faturex.cv.		28800	IN	NS	ns2.salweb.org.
 fazdescontos.cv.	28800	IN	NS	ns1.vipcomhost02.com.br.
 fazdescontos.cv.	28800	IN	NS	ns2.vipcomhost02.com.br.
-fca-andebol.cv.		28800	IN	NS	ns1.bluehost.com.
-fca-andebol.cv.		28800	IN	NS	ns2.bluehost.com.
+fca-andebol.cv.		28800	IN	NS	ns1.joinconnetpeople.com.
+fca-andebol.cv.		28800	IN	NS	ns2.joinconnetpeople.com.
 fcbb.cv.		28800	IN	NS	dns1.prime.cv.
 fcbb.cv.		28800	IN	NS	dns2.prime.cv.
 fcf.cv.			28800	IN	NS	ns1.mydnspt.net.
@@ -5100,8 +5095,8 @@ upapit.cv.		28800	IN	NS	ns3.linxisp.net.
 upapit.cv.		28800	IN	NS	ns4.linxisp.net.
 upgrade.cv.		28800	IN	NS	ns7.securenet-server.net.
 upgrade.cv.		28800	IN	NS	ns8.securenet-server.net.
-urban.cv.		28800	IN	NS	ns25.domaincontrol.com.
-urban.cv.		28800	IN	NS	ns26.domaincontrol.com.
+urban.cv.		28800	IN	NS	ns09.domaincontrol.com.
+urban.cv.		28800	IN	NS	ns10.domaincontrol.com.
 urgimed.cv.		28800	IN	NS	ns1.webs24h.com.
 urgimed.cv.		28800	IN	NS	ns2.webs24.com.
 urgimed.cv.		28800	IN	NS	ns2.webs24h.com.
@@ -5188,6 +5183,8 @@ voz.cv.			28800	IN	NS	dns1.rede1024.com.
 voz.cv.			28800	IN	NS	dns2.rede1024.com.
 voz.cv.			28800	IN	NS	dns3.rede1024.com.
 voz.cv.			28800	IN	NS	dns4.rede1024.com.
+vsolution.cv.		28800	IN	NS	ns9.bravehost.com.
+vsolution.cv.		28800	IN	NS	ns10.bravehost.com.
 vulcanico.cv.		28800	IN	NS	ns.vulcanico.cv.
 vulcanico.cv.		28800	IN	NS	ns1.capeverdehosting.com.
 vulcanico.cv.		28800	IN	NS	ns2.capeverdehosting.com.
@@ -5247,4 +5244,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018083001 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018090601 86400 7200 2592000 300

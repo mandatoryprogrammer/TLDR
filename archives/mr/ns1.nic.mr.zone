@@ -1,14 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns1.nic.mr. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018090610 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018090616 21600 7200 2592000 86400
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns-mr.nic.fr.
 mr.			3600	IN	NS	ns-mr.nic.tn.
 mr.			3600	IN	NS	censvrns0001.ird.fr.
 mr.			3600	IN	MX	5 mail.nic.mr.
-mr.			3600	IN	TXT	"Generation Time: 1536228012"
+mr.			3600	IN	TXT	"Generation Time: 1536249610"
 01digits.mr.		3600	IN	NS	ns1.site4now.net.
 01digits.mr.		3600	IN	NS	ns2.site4now.net.
 01digits.mr.		3600	IN	NS	ns3.site4now.net.
@@ -1433,8 +1433,9 @@ essavagroup.mr.		3600	IN	NS	ns1.usm32.siteground.biz.
 essavagroup.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
 essevir.mr.		3600	IN	NS	ns1.bluehost.com.
 essevir.mr.		3600	IN	NS	ns2.bluehost.com.
-etam.mr.		3600	IN	NS	ns1.rhostjh.com.
-etam.mr.		3600	IN	NS	ns2.rhostjh.com.
+etam.mr.		3600	IN	NS	a.dns.gandi.net.
+etam.mr.		3600	IN	NS	b.dns.gandi.net.
+etam.mr.		3600	IN	NS	c.dns.gandi.net.
 eteyssir.mr.		3600	IN	NS	ns.namespace4you.de.
 eteyssir.mr.		3600	IN	NS	ns2.namespace4you.de.
 ets-hacen-telecom.mr.	3600	IN	NS	ns1.bluehost.com.
@@ -2321,9 +2322,13 @@ matis.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
 matl.mr.		3600	IN	NS	troy-dns1.centos-server.net.
 matl.mr.		3600	IN	NS	troy-dns2.centos-server.net.
 mattel.mr.		3600	IN	NS	zmail.mattel.mr.
+mattel.mr.		3600	IN	NS	dnssrv.mattel.mr.
+mattel.mr.		3600	IN	NS	zmail1.mattel.mr.
 mattel.mr.		3600	IN	NS	srvmail.mattel.mr.
+dnssrv.mattel.mr.	3600	IN	A	41.223.99.14
 srvmail.mattel.mr.	3600	IN	A	82.151.67.94
 zmail.mattel.mr.	3600	IN	A	82.151.67.71
+zmail1.mattel.mr.	3600	IN	A	41.223.99.13
 maupress.mr.		3600	IN	NS	ns1.lunariffic.com.
 maupress.mr.		3600	IN	NS	ns2.lunariffic.com.
 maurex.mr.		3600	IN	NS	ns1.omnis.com.
@@ -2706,8 +2711,8 @@ nic-mauritanie.mr.	3600	IN	NS	ns1.nic.mr.
 nic-mauritanie.mr.	3600	IN	NS	ns2.nic.mr.
 nip.mr.			3600	IN	NS	ns1.syskat.com.
 nip.mr.			3600	IN	NS	ns2.syskat.com.
-nkttcredit.mr.		3600	IN	NS	ns1.siteground215.com.
-nkttcredit.mr.		3600	IN	NS	ns2.siteground215.com.
+nkttcredit.mr.		3600	IN	NS	ns1.bluehost.com.
+nkttcredit.mr.		3600	IN	NS	ns2.bluehost.com.
 nom-mauritanie.mr.	3600	IN	NS	ns1.nom-mauritanie.mr.
 nom-mauritanie.mr.	3600	IN	NS	ns2.nom-mauritanie.mr.
 ns1.nom-mauritanie.mr.	3600	IN	A	82.151.73.180
@@ -3929,4 +3934,4 @@ ziwanya.mr.		3600	IN	NS	ns1.infomaniak.ch.
 ziwanya.mr.		3600	IN	NS	ns2.infomaniak.ch.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018090610 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018090616 21600 7200 2592000 86400

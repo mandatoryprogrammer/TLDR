@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018091801 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018091901 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -640,9 +640,9 @@ bucodentario.cv.	28800	IN	NS	ns1.justhost.com.
 bucodentario.cv.	28800	IN	NS	ns2.justhost.com.
 businesscope.cv.	28800	IN	NS	ns108.ovh.net.
 businesscope.cv.	28800	IN	NS	dns108.ovh.net.
-bvc.cv.			28800	IN	A	204.93.168.25
 bvc.cv.			28800	IN	NS	cns7.my-hosting-panel.com.
 bvc.cv.			28800	IN	NS	cns8.my-hosting-panel.com.
+bvc.cv.			28800	IN	A	204.93.168.25
 cab.cv.			28800	IN	NS	ns1.nameresolve.com.
 cab.cv.			28800	IN	NS	ns2.nameresolve.com.
 cab.cv.			28800	IN	NS	ns3.nameresolve.com.
@@ -1357,9 +1357,9 @@ hysee.com.cv.		28800	IN	NS	ns2.myweb.pt.
 iberostar.com.cv.	28800	IN	NS	ns3.acens.net.
 iberostar.com.cv.	28800	IN	NS	ns4.acens.net.
 iberostar.com.cv.	28800	IN	NS	ns7.acens.net.
-iberweb.com.cv.		28800	IN	AAAA	2001:4cc0:200:3f::20
 iberweb.com.cv.		28800	IN	NS	dns1.ibername.com.
 iberweb.com.cv.		28800	IN	NS	dns2.ibername.com.
+iberweb.com.cv.		28800	IN	AAAA	2001:4cc0:200:3f::20
 icwebtv.com.cv.		28800	IN	NS	ns1.esoterica.com.
 icwebtv.com.cv.		28800	IN	NS	ns2.esoterica.com.
 mail.icwebtv.com.cv.	28800	IN	A	80.172.241.9
@@ -1954,8 +1954,8 @@ cvit.cv.		28800	IN	NS	ns1.whostbr.com.
 cvit.cv.		28800	IN	NS	ns2.whostbr.com.
 cvl.cv.			28800	IN	NS	ns106.hocnet.pt.
 cvl.cv.			28800	IN	NS	ns107.hocnet.pt.
-cvlda.cv.		86400	IN	NS	ns1.webs24h.com.
-cvlda.cv.		86400	IN	NS	ns2.webs24h.com.
+cvlda.cv.		28800	IN	NS	ns1.webs24h.com.
+cvlda.cv.		28800	IN	NS	ns2.webs24h.com.
 cvma.cv.		28800	IN	NS	ns1.rhostjh.com.
 cvma.cv.		28800	IN	NS	ns2.rhostjh.com.
 mail.cvma.cv.		28800	IN	A	50.87.111.194
@@ -2122,12 +2122,12 @@ doisbr.cv.		28800	IN	NS	ns5.no-ip.com.
 mail.doisbr.cv.		28800	IN	AAAA	2620:0:2e60::33
 mail.doisbr.cv.		28800	IN	A	62.28.235.86
 mail.doisbr.cv.		28800	IN	A	204.16.254.6
-dolcefarniente.cv.	28800	IN	A	213.5.180.33
-dolcefarniente.cv.	28800	IN	A	213.5.180.34
 dolcefarniente.cv.	28800	IN	NS	ns1.wk-web.com.
 dolcefarniente.cv.	28800	IN	NS	ns2.wk-web.com.
 dolcefarniente.cv.	28800	IN	NS	ns3.wk-web.com.
 dolcefarniente.cv.	28800	IN	NS	ns4.wk-web.com.
+dolcefarniente.cv.	28800	IN	A	213.5.180.33
+dolcefarniente.cv.	28800	IN	A	213.5.180.34
 donpacohotel.cv.	28800	IN	NS	dns1.prime.cv.
 donpacohotel.cv.	28800	IN	NS	dns2.prime.cv.
 dopemates.cv.		28800	IN	NS	dns1.ibername.com.
@@ -2214,6 +2214,10 @@ ccefap.edu.cv.		28800	IN	NS	ns7.securenet-server.net.
 ccefap.edu.cv.		28800	IN	NS	ns8.securenet-server.net.
 cea.edu.cv.		28800	IN	NS	ns7.securenet-server.net.
 cea.edu.cv.		28800	IN	NS	ns8.securenet-server.net.
+cemam.edu.cv.		28800	IN	NS	dns1.p06.nsone.net.
+cemam.edu.cv.		28800	IN	NS	dns2.p06.nsone.net.
+cemam.edu.cv.		28800	IN	NS	dns3.p06.nsone.net.
+cemam.edu.cv.		28800	IN	NS	dns4.p06.nsone.net.
 colegioportugues.edu.cv. 28800	IN	NS	ns1.servconfig.com.
 colegioportugues.edu.cv. 28800	IN	NS	ns2.servconfig.com.
 cpt.edu.cv.		28800	IN	NS	ns7.securenet-server.net.
@@ -2477,8 +2481,8 @@ faturex.cv.		28800	IN	NS	ns1.salweb.org.
 faturex.cv.		28800	IN	NS	ns2.salweb.org.
 fazdescontos.cv.	28800	IN	NS	ns1.vipcomhost02.com.br.
 fazdescontos.cv.	28800	IN	NS	ns2.vipcomhost02.com.br.
-fca-andebol.cv.		28800	IN	NS	ns1.joinconnetpeople.com.
-fca-andebol.cv.		28800	IN	NS	ns2.joinconnetpeople.com.
+fca-andebol.cv.		28800	IN	NS	ns1.bluehost.com.
+fca-andebol.cv.		28800	IN	NS	ns2.bluehost.com.
 fcbb.cv.		28800	IN	NS	dns1.prime.cv.
 fcbb.cv.		28800	IN	NS	dns2.prime.cv.
 fcf.cv.			28800	IN	NS	ns1.mydnspt.net.
@@ -2936,6 +2940,10 @@ igreja-jesus-cristo.cv.	28800	IN	NS	ns34.intellectualreserveinc.org.
 igrejacatolica.cv.	28800	IN	NS	ns1.dreamhost.COM.
 igrejacatolica.cv.	28800	IN	NS	ns2.dreamhost.COM.
 igrejacatolica.cv.	28800	IN	NS	ns3.dreamhost.COM.
+igrejauniversal.cv.	28800	IN	NS	ns1.Igrejauniversal.cv.
+igrejauniversal.cv.	28800	IN	NS	ns2.Igrejauniversal.cv.
+ns1.igrejauniversal.cv.	28800	IN	A	35.233.83.145
+ns2.igrejauniversal.cv.	28800	IN	A	35.233.83.145
 igrp.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
 igrp.cv.		28800	IN	NS	ns2.nosiwebhosting.com.
 igrp.cv.		28800	IN	NS	ns3.nosiwebhosting.com.
@@ -3015,9 +3023,7 @@ industry.cv.		28800	IN	NS	ns2.is-fun.net.
 ine.cv.			28800	IN	NS	ns1.gov.cv.
 ine.cv.			28800	IN	NS	ns2.gov.cv.
 infinance.cv.		28800	IN	NS	dns1.ex2-r1.com.
-infinance.cv.		28800	IN	NS	dns1.ex2-p24.com.
 infinance.cv.		28800	IN	NS	dns2.ex2-r1.com.
-infinance.cv.		28800	IN	NS	dns2.ex2-p24.com.
 info.cv.		28800	IN	NS	ns.info.cv.
 info.cv.		28800	IN	NS	ns1.capeverdehosting.com.
 info.cv.		28800	IN	NS	ns2.capeverdehosting.com.
@@ -3859,10 +3865,10 @@ cruzvermelha.org.cv.	28800	IN	NS	ns8.securenet-server.net.
 famf.org.cv.		28800	IN	NS	ns1.servconfig.com.
 famf.org.cv.		28800	IN	NS	ns2.servconfig.com.
 familcarcabral.org.cv.	28800	IN	NS	dns1.prime.cv.
-famipicos.org.cv.	28800	IN	NS	ns120.truehoster.net.
-famipicos.org.cv.	28800	IN	NS	ns121.truehoster.net.
 famipicos.org.cv.	28800	IN	AAAA	2a07:5741:0:ffd::1
 famipicos.org.cv.	28800	IN	AAAA	2a07:5741:0:ffd::2
+famipicos.org.cv.	28800	IN	NS	ns120.truehoster.net.
+famipicos.org.cv.	28800	IN	NS	ns121.truehoster.net.
 fcj.org.cv.		28800	IN	NS	ns1.mydnspt.net.
 fcj.org.cv.		28800	IN	NS	ns2.mydnspt.net.
 fcs.org.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
@@ -4228,10 +4234,10 @@ puntodincontro.cv.	28800	IN	NS	ns3.webhs.org.
 puragua.cv.		28800	IN	NS	ns1.ptwebserv.net.
 puragua.cv.		28800	IN	NS	ns2.ptwebserv.net.
 puragua.cv.		28800	IN	NS	ns3.ptwebserv.net.
-purobra.cv.		28800	IN	A	88.99.214.5
-purobra.cv.		28800	IN	A	88.99.214.49
 purobra.cv.		28800	IN	NS	ns1.hostingmz.com.
 purobra.cv.		28800	IN	NS	ns2.hostingmz.com.
+purobra.cv.		28800	IN	A	88.99.214.5
+purobra.cv.		28800	IN	A	88.99.214.49
 qbusiness.cv.		28800	IN	NS	ns1.gn2.hocnet.pt.
 qbusiness.cv.		28800	IN	NS	ns2.gn2.hocnet.pt.
 qualitur.cv.		28800	IN	NS	ns1.megasites.pt.
@@ -5255,4 +5261,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018091801 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018091901 86400 7200 2592000 300

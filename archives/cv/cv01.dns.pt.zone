@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018091901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018092101 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -1120,11 +1120,11 @@ boavistamorena.com.cv.	28800	IN	NS	ns3.dreamhost.com.
 bobparsons.com.cv.	28800	IN	NS	NS1.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS2.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS5.101DOMAIN.COM.
-bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
-bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 bodyconcept.com.cv.	28800	IN	NS	ns1.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns2.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns3.ptservidor.net.
+bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
+bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 boulevardboutique.com.cv. 28800	IN	NS	NS1.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS2.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS5.101DOMAIN.COM.
@@ -2348,8 +2348,8 @@ empil.cv.		28800	IN	NS	ns1.world-name-server.com.
 empil.cv.		28800	IN	NS	ns2.world-name-server.com.
 emprego.cv.		28800	IN	NS	ns10.ovh.net.
 emprego.cv.		28800	IN	NS	dns10.ovh.net.
-empregos.cv.		28800	IN	NS	ns18.ovh.net.
-empregos.cv.		28800	IN	NS	dns18.ovh.net.
+empregos.cv.		28800	IN	NS	sam01.empregos.cv.
+sam01.empregos.cv.	28800	IN	A	94.140.104.168
 empreitel.cv.		28800	IN	NS	ns293.websitewelcome.com.
 empreitel.cv.		28800	IN	NS	ns294.websitewelcome.com.
 empresa.cv.		28800	IN	NS	ns1.nosiwebhosting.com.
@@ -4803,8 +4803,14 @@ src.cv.			86400	IN	NS	ns1.webs24h.com.
 src.cv.			86400	IN	NS	ns2.webs24h.com.
 st-ticketing.cv.	28800	IN	NS	ns1.webserversystems.com.
 st-ticketing.cv.	28800	IN	NS	ns2.webserversystems.com.
+staffpromo.cv.		28800	IN	A	91.184.1.10
+staffpromo.cv.		28800	IN	A	91.184.8.20
+staffpromo.cv.		28800	IN	A	95.211.179.15
 staffpromo.cv.		28800	IN	NS	ns3.dnstarvos.com.
 staffpromo.cv.		28800	IN	NS	ns4.dnstarvos.com.
+starlines.cv.		28800	IN	NS	ns1.hostnet.nl.
+starlines.cv.		28800	IN	NS	ns2.hostnetbv.com.
+starlines.cv.		28800	IN	NS	ns3.hostnetbv.nl.
 stasi.cv.		28800	IN	NS	dns1.prime.cv.
 stasi.cv.		28800	IN	NS	dns2.prime.cv.
 stec.cv.		28800	IN	NS	ns1.stec.cv.
@@ -5261,4 +5267,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018091901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018092101 86400 7200 2592000 300

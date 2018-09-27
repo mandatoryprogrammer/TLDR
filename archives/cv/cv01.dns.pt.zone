@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018092101 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018092701 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -640,9 +640,8 @@ bucodentario.cv.	28800	IN	NS	ns1.justhost.com.
 bucodentario.cv.	28800	IN	NS	ns2.justhost.com.
 businesscope.cv.	28800	IN	NS	ns108.ovh.net.
 businesscope.cv.	28800	IN	NS	dns108.ovh.net.
-bvc.cv.			28800	IN	NS	cns7.my-hosting-panel.com.
-bvc.cv.			28800	IN	NS	cns8.my-hosting-panel.com.
-bvc.cv.			28800	IN	A	204.93.168.25
+bvc.cv.			28800	IN	NS	ns1.gov.cv.
+bvc.cv.			28800	IN	NS	ns2.gov.cv.
 cab.cv.			28800	IN	NS	ns1.nameresolve.com.
 cab.cv.			28800	IN	NS	ns2.nameresolve.com.
 cab.cv.			28800	IN	NS	ns3.nameresolve.com.
@@ -1120,11 +1119,11 @@ boavistamorena.com.cv.	28800	IN	NS	ns3.dreamhost.com.
 bobparsons.com.cv.	28800	IN	NS	NS1.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS2.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS5.101DOMAIN.COM.
+bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
+bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 bodyconcept.com.cv.	28800	IN	NS	ns1.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns2.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns3.ptservidor.net.
-bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
-bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 boulevardboutique.com.cv. 28800	IN	NS	NS1.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS2.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS5.101DOMAIN.COM.
@@ -1780,6 +1779,8 @@ williamhill.com.cv.	28800	IN	NS	dns3.idp365.net.
 winners.com.cv.		28800	IN	NS	NS1.101DOMAIN.COM.
 winners.com.cv.		28800	IN	NS	NS2.101DOMAIN.COM.
 winners.com.cv.		28800	IN	NS	NS5.101DOMAIN.COM.
+xoom.com.cv.		28800	IN	NS	ns1.markmonitor.com.
+xoom.com.cv.		28800	IN	NS	ns2.markmonitor.com.
 comandoregionaldapraia.cv. 28800 IN	NS	ns7.securenet-server.net.
 comandoregionaldapraia.cv. 28800 IN	NS	ns8.securenet-server.net.
 competircv.cv.		28800	IN	NS	cns.viaoceanica.net.
@@ -1954,8 +1955,8 @@ cvit.cv.		28800	IN	NS	ns1.whostbr.com.
 cvit.cv.		28800	IN	NS	ns2.whostbr.com.
 cvl.cv.			28800	IN	NS	ns106.hocnet.pt.
 cvl.cv.			28800	IN	NS	ns107.hocnet.pt.
-cvlda.cv.		28800	IN	NS	ns1.webs24h.com.
-cvlda.cv.		28800	IN	NS	ns2.webs24h.com.
+cvlda.cv.		86400	IN	NS	ns1.webs24h.com.
+cvlda.cv.		86400	IN	NS	ns2.webs24h.com.
 cvma.cv.		28800	IN	NS	ns1.rhostjh.com.
 cvma.cv.		28800	IN	NS	ns2.rhostjh.com.
 mail.cvma.cv.		28800	IN	A	50.87.111.194
@@ -2481,8 +2482,8 @@ faturex.cv.		28800	IN	NS	ns1.salweb.org.
 faturex.cv.		28800	IN	NS	ns2.salweb.org.
 fazdescontos.cv.	28800	IN	NS	ns1.vipcomhost02.com.br.
 fazdescontos.cv.	28800	IN	NS	ns2.vipcomhost02.com.br.
-fca-andebol.cv.		28800	IN	NS	ns1.bluehost.com.
-fca-andebol.cv.		28800	IN	NS	ns2.bluehost.com.
+fca-andebol.cv.		28800	IN	NS	ns1.joinconnetpeople.com.
+fca-andebol.cv.		28800	IN	NS	ns2.joinconnetpeople.com.
 fcbb.cv.		28800	IN	NS	dns1.prime.cv.
 fcbb.cv.		28800	IN	NS	dns2.prime.cv.
 fcf.cv.			28800	IN	NS	ns1.mydnspt.net.
@@ -2595,6 +2596,8 @@ friendsandco.cv.	28800	IN	NS	dns1.prime.cv.
 friendsandco.cv.	28800	IN	NS	dns2.prime.cv.
 fundacaojmn.cv.		28800	IN	NS	ns1.srvaveiro.com.
 fundacaojmn.cv.		28800	IN	NS	ns2.srvaveiro.com.
+fundacaolm.cv.		28800	IN	NS	ns6479.hostgator.com.
+fundacaolm.cv.		28800	IN	NS	ns6480.hostgator.com.
 galiano.cv.		28800	IN	NS	ns1.amenworld.com.
 galiano.cv.		28800	IN	NS	ns2.amenworld.com.
 gama.cv.		28800	IN	NS	ns7.securenet-server.net.
@@ -3022,8 +3025,8 @@ industry.cv.		28800	IN	NS	ns1.is-fun.net.
 industry.cv.		28800	IN	NS	ns2.is-fun.net.
 ine.cv.			28800	IN	NS	ns1.gov.cv.
 ine.cv.			28800	IN	NS	ns2.gov.cv.
-infinance.cv.		28800	IN	NS	dns1.ex2-r1.com.
-infinance.cv.		28800	IN	NS	dns2.ex2-r1.com.
+infinance.cv.		28800	IN	NS	dns1.ex2-p24.com.
+infinance.cv.		28800	IN	NS	dns2.ex2-p24.com.
 info.cv.		28800	IN	NS	ns.info.cv.
 info.cv.		28800	IN	NS	ns1.capeverdehosting.com.
 info.cv.		28800	IN	NS	ns2.capeverdehosting.com.
@@ -4234,10 +4237,10 @@ puntodincontro.cv.	28800	IN	NS	ns3.webhs.org.
 puragua.cv.		28800	IN	NS	ns1.ptwebserv.net.
 puragua.cv.		28800	IN	NS	ns2.ptwebserv.net.
 puragua.cv.		28800	IN	NS	ns3.ptwebserv.net.
-purobra.cv.		28800	IN	NS	ns1.hostingmz.com.
-purobra.cv.		28800	IN	NS	ns2.hostingmz.com.
 purobra.cv.		28800	IN	A	88.99.214.5
 purobra.cv.		28800	IN	A	88.99.214.49
+purobra.cv.		28800	IN	NS	ns1.hostingmz.com.
+purobra.cv.		28800	IN	NS	ns2.hostingmz.com.
 qbusiness.cv.		28800	IN	NS	ns1.gn2.hocnet.pt.
 qbusiness.cv.		28800	IN	NS	ns2.gn2.hocnet.pt.
 qualitur.cv.		28800	IN	NS	ns1.megasites.pt.
@@ -4406,10 +4409,10 @@ robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-kapverden.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1000::7
-robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kap-verden.cv.	28800	IN	NS	ns01.brandshelter.com.
 robinson-kap-verden.cv.	28800	IN	NS	ns02.brandshelter.net.
+robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1000::7
+robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kapverden.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-kapverden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kapverden.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -5267,4 +5270,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018092101 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018092701 86400 7200 2592000 300

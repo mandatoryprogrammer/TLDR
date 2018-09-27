@@ -1,14 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns-mr.nic.tn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018092710 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018092715 21600 7200 2592000 86400
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns-mr.nic.fr.
 mr.			3600	IN	NS	ns-mr.nic.tn.
 mr.			3600	IN	NS	censvrns0001.ird.fr.
 mr.			3600	IN	MX	5 mail.nic.mr.
-mr.			3600	IN	TXT	"Generation Time: 1538042417"
+mr.			3600	IN	TXT	"Generation Time: 1538049607"
 101domain.mr.		3600	IN	NS	ns1.101domain.com.
 101domain.mr.		3600	IN	NS	ns2.101domain.com.
 101domain.mr.		3600	IN	NS	ns5.101domain.com.
@@ -187,6 +187,9 @@ bmsbanque.mr.		3600	IN	NS	ns2.infomaniak.ch.
 bnm.mr.			3600	IN	NS	bnmntserver.bnm.mr.
 bnm.mr.			3600	IN	NS	bow.mauritel.mr.
 bnmntserver.bnm.mr.	3600	IN	A	82.151.67.229
+bpm.mr.			3600	IN	NS	dns001.bpm.mr.
+bpm.mr.			3600	IN	NS	bow.mauritel.mr.
+dns001.bpm.mr.		3600	IN	A	41.188.113.169
 bprim.mr.		3600	IN	NS	ns19.ixwebhosting.com.
 bprim.mr.		3600	IN	NS	ns20.ixwebhosting.com.
 bsa.mr.			3600	IN	NS	dns.bsa.mr.
@@ -202,6 +205,8 @@ bsapetrole.mr.		3600	IN	NS	dns.bsa.mr.
 bsapetrole.mr.		3600	IN	NS	dns2.bsa.mr.
 btc.mr.			3600	IN	NS	brad.ns.cloudflare.com.
 btc.mr.			3600	IN	NS	ulla.ns.cloudflare.com.
+bts.mr.			3600	IN	NS	ns1.syskat.com.
+bts.mr.			3600	IN	NS	ns2.syskat.com.
 bumex.mr.		3600	IN	NS	ns1.omnis.com.
 bumex.mr.		3600	IN	NS	ns2.omnis.com.
 cam4.mr.		3600	IN	NS	ns1.101domain.com.
@@ -242,6 +247,10 @@ chbank.mr.		3600	IN	NS	ns1.chbank.mr.
 chbank.mr.		3600	IN	NS	ns2.chbank.mr.
 ns1.chbank.mr.		3600	IN	A	213.32.123.104
 ns2.chbank.mr.		3600	IN	A	213.32.123.104
+chinguitel.mr.		3600	IN	NS	dns1.chinguitel.mr.
+chinguitel.mr.		3600	IN	NS	dns2.chinguitel.mr.
+dns1.chinguitel.mr.	3600	IN	A	41.138.128.13
+dns2.chinguitel.mr.	3600	IN	A	41.138.128.14
 chinguitty-voyages.mr.	3600	IN	NS	ns1.bluehost.com.
 chinguitty-voyages.mr.	3600	IN	NS	ns2.bluehost.com.
 chinguittybanknet.mr.	3600	IN	NS	proxy.chinguittybanknet.mr.
@@ -314,6 +323,8 @@ deltanet.mr.		3600	IN	NS	dns101.ovh.net.
 deltanet.mr.		3600	IN	NS	ns101.ovh.net.
 dfi.mr.			3600	IN	NS	ns1.bluehost.com.
 dfi.mr.			3600	IN	NS	ns2.bluehost.com.
+dgct.mr.		3600	IN	NS	ns11.infomaniak.ch.
+dgct.mr.		3600	IN	NS	ns12.infomaniak.ch.
 domgate.mr.		3600	IN	NS	web11.iprod.mr.
 domgate.mr.		3600	IN	NS	web12.iprod.mr.
 douane.mr.		3600	IN	NS	ns1.lws-hosting.biz.
@@ -387,6 +398,8 @@ ets-hacen-telecom.mr.	3600	IN	NS	ns1.bluehost.com.
 ets-hacen-telecom.mr.	3600	IN	NS	ns2.bluehost.com.
 exacoamic.mr.		3600	IN	NS	ns1.usm32.siteground.biz.
 exacoamic.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
+expresso.mr.		3600	IN	NS	sun1.sudatel.net.
+expresso.mr.		3600	IN	NS	ns1.sudanmail.net.
 fac-consulting.mr.	3600	IN	NS	ns1.usm32.siteground.biz.
 fac-consulting.mr.	3600	IN	NS	ns2.usm32.siteground.biz.
 facta.mr.		3600	IN	NS	ns1.sas-iaas.com.
@@ -502,6 +515,8 @@ itservices.mr.		3600	IN	NS	ns1.usm32.siteground.biz.
 itservices.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
 janasolhklimited.mr.	3600	IN	NS	ns1.usm32.siteground.biz.
 janasolhklimited.mr.	3600	IN	NS	ns2.usm32.siteground.biz.
+jtd.mr.			3600	IN	NS	ns.rackspace.com.
+jtd.mr.			3600	IN	NS	ns2.rackspace.com.
 kahraba.mr.		3600	IN	NS	kahsvr.kahraba.mr.
 kahraba.mr.		3600	IN	NS	kahsvr2.kahraba.mr.
 kahsvr.kahraba.mr.	3600	IN	A	82.151.83.162
@@ -591,8 +606,8 @@ mauritel.mr.		3600	IN	NS	bow.mauritel.mr.
 mauritel.mr.		3600	IN	NS	ns2.nic.mr.
 mauritel.mr.		3600	IN	NS	ns1.francetelecom.net.
 bow.mauritel.mr.	3600	IN	A	82.151.90.1
-mauritrap-sd.mr.	3600	IN	NS	ns1.usm32.siteground.biz.
-mauritrap-sd.mr.	3600	IN	NS	ns2.usm32.siteground.biz.
+mauritrap-sd.mr.	3600	IN	NS	ns1.geigroupe.com.
+mauritrap-sd.mr.	3600	IN	NS	ns2.geigroupe.com.
 mce.mr.			3600	IN	NS	ns51.worldnic.com.
 mce.mr.			3600	IN	NS	ns52.worldnic.com.
 mdistribution.mr.	3600	IN	NS	ns1.arvixeshared.com.
@@ -1049,4 +1064,4 @@ zim.mr.			3600	IN	NS	ns2.101domain.com.
 zim.mr.			3600	IN	NS	ns5.101domain.com.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018092710 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018092715 21600 7200 2592000 86400

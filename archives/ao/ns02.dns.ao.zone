@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR ao. @ns02.dns.ao. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018100101 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018101001 86400 7200 2592000 3600
 ao.			3600	IN	TXT	"Angola - http://www.dns.ao/"
 ao.			3600	IN	NS	ao01.dns.pt.
 ao.			3600	IN	NS	ao03.dns.pt.
@@ -236,8 +236,8 @@ bicseguros.ao.		3600	IN	NS	ns2.bicseguros.ao.
 bicseguros.ao.		3600	IN	NS	mail2.bancobic.ao.
 ns1.bicseguros.ao.	3600	IN	A	196.46.21.164
 ns2.bicseguros.ao.	3600	IN	A	196.46.21.194
-bir.ao.			3600	IN	NS	dns0.snet.co.ao.
-bir.ao.			3600	IN	NS	dns1.snet.co.ao.
+bir.ao.			3600	IN	NS	ns1.connectis.co.ao.
+bir.ao.			3600	IN	NS	ns2.connectis.co.ao.
 bmais.ao.		3600	IN	NS	ns1.angoweb.biz.
 bmais.ao.		3600	IN	NS	ns2.angoweb.biz.
 bna.ao.			3600	IN	NS	dns1.bna.ao.
@@ -1006,6 +1006,8 @@ sapr.ao.		3600	IN	NS	ns2.toangola.net.
 semba.ao.		3600	IN	NS	ns.semba.ao.
 semba.ao.		3600	IN	NS	ns.7maravilhas.ao.
 ns.semba.ao.		3600	IN	A	69.72.168.4
+sic.ao.			3600	IN	NS	ns01.wems.co.ao.
+sic.ao.			3600	IN	NS	ns03.nmais1.com.
 sigmagroup.ao.		3600	IN	NS	ns1.maxnet.ao.
 sigmagroup.ao.		3600	IN	NS	ns2.maxnet.ao.
 sme.ao.			3600	IN	NS	ns1.sme.ao.
@@ -1094,4 +1096,4 @@ welvitcha.ao.		3600	IN	NS	ns.acs.ao.
 welvitcha.ao.		3600	IN	NS	ns1.acs.ao.
 xikilamoney.ao.		3600	IN	NS	ns.inventadomains.com.
 xikilamoney.ao.		3600	IN	NS	ns2.inventadomains.com.
-ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018100101 86400 7200 2592000 3600
+ao.			3600	IN	SOA	ao01.dns.pt. hostmaster.dns.ao. 2018101001 86400 7200 2592000 3600

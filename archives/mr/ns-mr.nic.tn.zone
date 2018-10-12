@@ -1,14 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns-mr.nic.tn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018101209 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018101212 21600 7200 2592000 86400
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns-mr.nic.fr.
 mr.			3600	IN	NS	ns-mr.nic.tn.
 mr.			3600	IN	NS	censvrns0001.ird.fr.
 mr.			3600	IN	MX	5 mail.nic.mr.
-mr.			3600	IN	TXT	"Generation Time: 1539334812"
+mr.			3600	IN	TXT	"Generation Time: 1539345618"
 101domain.mr.		3600	IN	NS	ns1.101domain.com.
 101domain.mr.		3600	IN	NS	ns2.101domain.com.
 101domain.mr.		3600	IN	NS	ns5.101domain.com.
@@ -93,6 +93,8 @@ amnir.mr.		3600	IN	NS	troy-dns1.centos-server.net.
 amnir.mr.		3600	IN	NS	troy-dns2.centos-server.net.
 ampes.mr.		3600	IN	NS	ns1.usm32.siteground.biz.
 ampes.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
+ams.mr.			3600	IN	NS	ns1010a.avahost.net.
+ams.mr.			3600	IN	NS	ns1010b.avahost.net.
 anac.mr.		3600	IN	NS	ns1.infomaniak.ch.
 anac.mr.		3600	IN	NS	ns2.infomaniak.ch.
 andrew.mr.		3600	IN	NS	ns1.101domain.com.
@@ -758,6 +760,9 @@ mauripetp.mr.		3600	IN	NS	ns1.usm32.siteground.biz.
 mauripetp.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
 mauripharm.mr.		3600	IN	NS	ns1.syskat.com.
 mauripharm.mr.		3600	IN	NS	ns2.syskat.com.
+mauripost.mr.		3600	IN	NS	ns.mauripost.mr.
+mauripost.mr.		3600	IN	NS	bow.mauritel.mr.
+ns.mauripost.mr.	3600	IN	A	82.151.65.66
 mauritania.mr.		3600	IN	NS	dns.mauritania.mr.
 mauritania.mr.		3600	IN	NS	bow.mauritel.mr.
 dns.mauritania.mr.	3600	IN	A	82.151.65.66
@@ -1083,6 +1088,9 @@ smcp.mr.		3600	IN	NS	ns1.lws-hosting.biz.
 smcp.mr.		3600	IN	NS	ns2.lws-hosting.biz.
 smcp.mr.		3600	IN	NS	ns3.lwsdns.com.
 smcp.mr.		3600	IN	NS	ns4.lwsdns.com.
+smhpm.mr.		3600	IN	NS	server.smhpm.mr.
+smhpm.mr.		3600	IN	NS	smh.smh.mr.
+server.smhpm.mr.	3600	IN	A	41.188.112.205
 smid.mr.		3600	IN	NS	siege.smoas.mr.
 smid.mr.		3600	IN	NS	bow.mauritel.mr.
 smis.mr.		3600	IN	NS	ns1.fastspiders.com.
@@ -1328,4 +1336,4 @@ zim.mr.			3600	IN	NS	ns2.101domain.com.
 zim.mr.			3600	IN	NS	ns5.101domain.com.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018101209 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018101212 21600 7200 2592000 86400

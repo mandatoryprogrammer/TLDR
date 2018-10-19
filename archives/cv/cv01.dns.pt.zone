@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018101701 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018101901 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -222,9 +222,8 @@ amadeus.cv.		28800	IN	NS	ns1.amadeus.cv.
 amadeus.cv.		28800	IN	NS	ns2.amadeus.cv.
 ns1.amadeus.cv.		28800	IN	A	41.208.150.91
 ns2.amadeus.cv.		28800	IN	A	41.208.150.91
-amar.cv.		28800	IN	NS	ns1.webhs.org.
-amar.cv.		28800	IN	NS	ns2.webhs.org.
-amar.cv.		28800	IN	NS	ns3.webhs.org.
+amar.cv.		28800	IN	NS	ns1.salweb.org.
+amar.cv.		28800	IN	NS	ns2.salweb.org.
 amazon.cv.		28800	IN	A	193.193.167.99
 amazon.cv.		28800	IN	NS	nsgbr.comlaude.co.uk.
 amazon.cv.		28800	IN	NS	nssui.comlaude.ch.
@@ -500,9 +499,8 @@ bescv.cv.		28800	IN	NS	ns1.bescv.cv.
 bescv.cv.		28800	IN	NS	ns2.bescv.cv.
 ns1.bescv.cv.		28800	IN	A	194.65.23.2
 ns2.bescv.cv.		28800	IN	A	194.65.23.32
-bet365.cv.		28800	IN	NS	a.dnspod.com.
-bet365.cv.		28800	IN	NS	b.dnspod.com.
-bet365.cv.		28800	IN	NS	c.dnspod.com.
+bet365.cv.		28800	IN	NS	f1g1ns1.dnspod.net.
+bet365.cv.		28800	IN	NS	f1g1ns2.dnspod.net.
 bfc.cv.			28800	IN	NS	dns1.ibername.com.
 bfc.cv.			28800	IN	NS	dns2.ibername.com.
 bfc.cv.			28800	IN	NS	dns3.ibername.net.
@@ -3361,11 +3359,11 @@ localcerto.cv.		28800	IN	NS	ns2.gppnetwork.com.
 mail.localcerto.cv.	28800	IN	A	173.192.13.48
 loft.cv.		28800	IN	NS	ns3.dnstarvos.com.
 loft.cv.		28800	IN	NS	ns4.dnstarvos.com.
+loftcasa.cv.		28800	IN	NS	ns3.dnstarvos.com.
+loftcasa.cv.		28800	IN	NS	ns4.dnstarvos.com.
 loftcasa.cv.		28800	IN	A	62.210.149.103
 loftcasa.cv.		28800	IN	A	72.20.38.137
 loftcasa.cv.		28800	IN	A	72.20.53.50
-loftcasa.cv.		28800	IN	NS	ns3.dnstarvos.com.
-loftcasa.cv.		28800	IN	NS	ns4.dnstarvos.com.
 lopes.cv.		28800	IN	NS	freedns1.registrar-servers.com.
 lopes.cv.		28800	IN	NS	freedns2.registrar-servers.com.
 lopes.cv.		28800	IN	NS	freedns3.registrar-servers.com.
@@ -3456,6 +3454,8 @@ mccr.cv.		28800	IN	NS	dns3.ibername.net.
 mccr.cv.		28800	IN	NS	dns4.ibername.net.
 mediacabo.cv.		28800	IN	NS	ns.mediacabo.cv.
 ns.mediacabo.cv.	28800	IN	A	62.193.213.69
+mediasit.cv.		28800	IN	NS	ns11.bravehost.com.
+mediasit.cv.		28800	IN	NS	ns12.bravehost.com.
 medicashop.cv.		28800	IN	NS	ns1.servconfig.com.
 medicashop.cv.		28800	IN	NS	ns2.servconfig.com.
 medlab.cv.		28800	IN	NS	ns1.webhs.org.
@@ -3528,16 +3528,16 @@ miradourodegamboa.cv.	28800	IN	NS	dns1.prime.cv.
 miradourodegamboa.cv.	28800	IN	NS	dns2.prime.cv.
 miramar.cv.		28800	IN	NS	ns1.servicosinternet.com.
 miramar.cv.		28800	IN	NS	ns2.servicosinternet.com.
-mistolin.cv.		28800	IN	NS	ns1.mydnspt.net.
-mistolin.cv.		28800	IN	NS	ns2.mydnspt.net.
-mistolin.cv.		28800	IN	NS	ns7.mydnspt.net.
-mistolin.cv.		28800	IN	NS	ns8.mydnspt.net.
 mistolin.cv.		28800	IN	A	94.46.14.249
 mistolin.cv.		28800	IN	A	94.46.14.250
 mistolin.cv.		28800	IN	A	130.185.80.200
 mistolin.cv.		28800	IN	A	130.185.80.201
 mistolin.cv.		28800	IN	A	130.185.80.210
 mistolin.cv.		28800	IN	A	130.185.80.211
+mistolin.cv.		28800	IN	NS	ns1.mydnspt.net.
+mistolin.cv.		28800	IN	NS	ns2.mydnspt.net.
+mistolin.cv.		28800	IN	NS	ns7.mydnspt.net.
+mistolin.cv.		28800	IN	NS	ns8.mydnspt.net.
 mistudio.cv.		28800	IN	NS	ns1.flexiserver120.com.
 mistudio.cv.		28800	IN	NS	ns2.flexiserver120.com.
 mitel.cv.		28800	IN	NS	ns1.bh-ht-11.webhostbox.net.
@@ -4122,8 +4122,9 @@ pivot.cv.		28800	IN	NS	ns1.instala.biz.
 pivot.cv.		28800	IN	NS	ns2.instala.biz.
 pixel.cv.		28800	IN	NS	ns1.mydnspt.net.
 pixel.cv.		28800	IN	NS	ns2.mydnspt.net.
-pj.cv.			28800	IN	NS	ns1.gov.cv.
-pj.cv.			28800	IN	NS	ns2.gov.cv.
+pj.cv.			28800	IN	NS	ns1.nosiwebhosting.com.
+pj.cv.			28800	IN	NS	ns2.nosiwebhosting.com.
+pj.cv.			28800	IN	NS	ns3.nosiwebhosting.com.
 placaconstrucoes.cv.	28800	IN	NS	ns1.cabosys.cv.
 placaconstrucoes.cv.	28800	IN	NS	ns2.cabosys.cv.
 plana.cv.		28800	IN	NS	ns1.surf-town.net.
@@ -4584,8 +4585,8 @@ mail.scc.cv.		28800	IN	A	192.185.209.39
 schweppes.cv.		28800	IN	NS	ns2.ko.com.
 schweppes.cv.		28800	IN	NS	ns3.ko.com.
 schweppes.cv.		28800	IN	NS	ns4.ko.com.
-sci.cv.			28800	IN	NS	ns1.webs24h.com.
-sci.cv.			28800	IN	NS	ns2.webs24h.com.
+sci.cv.			28800	IN	NS	ns1.mydnspt.net.
+sci.cv.			28800	IN	NS	ns2.mydnspt.net.
 scp.cv.			28800	IN	NS	ns1.dreamhost.com.
 scp.cv.			28800	IN	NS	ns2.dreamhost.com.
 scp.cv.			28800	IN	NS	ns3.dreamhost.com.
@@ -4887,10 +4888,8 @@ storebenfica.cv.	28800	IN	NS	ns3.webhs.org.
 storm.cv.		28800	IN	NS	ns1.hostnet.nl.
 storm.cv.		28800	IN	NS	ns2.hostnetbv.com.
 storm.cv.		28800	IN	NS	ns3.hostnetbv.nl.
-stu.cv.			28800	IN	NS	ns1.webs24h.com.
-stu.cv.			28800	IN	NS	ns1.ilheosolutions.com.
-stu.cv.			28800	IN	NS	ns2.webs24h.com.
-stu.cv.			28800	IN	NS	ns2.ilheosolutions.com.
+stu.cv.			28800	IN	NS	ns1.mydnspt.net.
+stu.cv.			28800	IN	NS	ns2.mydnspt.net.
 sucla.cv.		86400	IN	NS	ns1.webs24h.com.
 sucla.cv.		86400	IN	NS	ns2.webs24h.com.
 suifogo.cv.		28800	IN	NS	ns.suifogo.cv.
@@ -5062,6 +5061,8 @@ transinsular.cv.	28800	IN	NS	ns-b1.vodafone.pt.
 transinsular.cv.	28800	IN	NS	ns-b2.vodafone.pt.
 transmarini.cv.		28800	IN	NS	ns1.ams41.siteground.eu.
 transmarini.cv.		28800	IN	NS	ns2.ams41.siteground.eu.
+transportedongo.cv.	28800	IN	NS	ns1.bravehost.com.
+transportedongo.cv.	28800	IN	NS	ns2.bravehost.com.
 tribunais.cv.		28800	IN	NS	ns1.gov.cv.
 tribunais.cv.		28800	IN	NS	ns2.gov.cv.
 tribunalconstitucional.cv. 28800 IN	NS	ns1.tribunalconstitucional.cv.
@@ -5322,4 +5323,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018101701 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018101901 86400 7200 2592000 300

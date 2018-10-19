@@ -1,14 +1,14 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mr. @ns-mr.nic.tn. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018101712 21600 7200 2592000 86400
-mr.			3600	IN	TXT	"Generation Time: 1539777610"
-mr.			3600	IN	MX	5 mail.nic.mr.
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018101912 21600 7200 2592000 86400
 mr.			3600	IN	NS	ns1.nic.mr.
 mr.			3600	IN	NS	ns2.nic.mr.
 mr.			3600	IN	NS	ns-mr.nic.fr.
 mr.			3600	IN	NS	ns-mr.nic.tn.
 mr.			3600	IN	NS	censvrns0001.ird.fr.
+mr.			3600	IN	MX	5 mail.nic.mr.
+mr.			3600	IN	TXT	"Generation Time: 1539950409"
 101domain.mr.		3600	IN	NS	ns1.101domain.com.
 101domain.mr.		3600	IN	NS	ns2.101domain.com.
 101domain.mr.		3600	IN	NS	ns5.101domain.com.
@@ -175,6 +175,8 @@ bcw-global.mr.		3600	IN	NS	ns2.101domain.com.
 bcw-global.mr.		3600	IN	NS	ns5.101domain.com.
 bea.mr.			3600	IN	NS	ns1.infomaniak.ch.
 bea.mr.			3600	IN	NS	ns2.infomaniak.ch.
+bechirco.mr.		3600	IN	NS	ns1.infomaniak.ch.
+bechirco.mr.		3600	IN	NS	ns2.infomaniak.ch.
 beid.mr.		3600	IN	NS	rs21a.registrar-servers.com.
 beid.mr.		3600	IN	NS	rs21b.registrar-servers.com.
 beillahi.mr.		3600	IN	NS	ns1.domain.com.
@@ -310,6 +312,8 @@ cnam.mr.		3600	IN	NS	bow.mauritel.mr.
 cnamsrv.cnam.mr.	3600	IN	A	82.151.71.170
 cnc.mr.			3600	IN	NS	ns1.syskat.com.
 cnc.mr.			3600	IN	NS	ns2.syskat.com.
+cncmp.mr.		3600	IN	NS	dns.mauritania.mr.
+cncmp.mr.		3600	IN	NS	bow.mauritel.mr.
 cndh.mr.		3600	IN	NS	ns1.rhostjh.com.
 cndh.mr.		3600	IN	NS	ns2.rhostjh.com.
 cndhmauritanie.mr.	3600	IN	NS	ns1.rhostjh.com.
@@ -422,8 +426,8 @@ elhadeth.mr.		3600	IN	NS	ns1.bluehost.com.
 elhadeth.mr.		3600	IN	NS	ns2.bluehost.com.
 eljawal.mr.		3600	IN	NS	serveur.eljawal.mr.
 eljawal.mr.		3600	IN	NS	bow.mauritel.mr.
-serveur.eljawal.mr.	3600	IN	A	82.151.70.86
 serveur.eljawal.mr.	3600	IN	A	82.151.70.84
+serveur.eljawal.mr.	3600	IN	A	82.151.70.86
 eljedid.mr.		3600	IN	NS	ns1.ipage.com.
 eljedid.mr.		3600	IN	NS	ns2.ipage.com.
 elkheirs.mr.		3600	IN	NS	ns1.adk-media.com.
@@ -465,6 +469,8 @@ etam.mr.		3600	IN	NS	b.dns.gandi.net.
 etam.mr.		3600	IN	NS	c.dns.gandi.net.
 ets-hacen-telecom.mr.	3600	IN	NS	ns1.bluehost.com.
 ets-hacen-telecom.mr.	3600	IN	NS	ns2.bluehost.com.
+etsalaqsa.mr.		3600	IN	NS	ns45domaincontrol.com.
+etsalaqsa.mr.		3600	IN	NS	ns46domaincontrol.com.
 exacoamic.mr.		3600	IN	NS	ns1.usm32.siteground.biz.
 exacoamic.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
 expresso.mr.		3600	IN	NS	sun1.sudatel.net.
@@ -985,6 +991,8 @@ rimporte.mr.		3600	IN	NS	ns1.domain.com.
 rimporte.mr.		3600	IN	NS	ns2.domain.com.
 rimportes.mr.		3600	IN	NS	ns1.domain.com.
 rimportes.mr.		3600	IN	NS	ns2.domain.com.
+rimtoday.mr.		3600	IN	NS	dns1.namecheaphosting.com.
+rimtoday.mr.		3600	IN	NS	dns2.namecheaphosting.com.
 riyadh.mr.		3600	IN	NS	dns1.namecheaphosting.com.
 riyadh.mr.		3600	IN	NS	dns2.namecheaphosting.com.
 rjsm.mr.		3600	IN	NS	ns55.domaincontrol.com.
@@ -1012,6 +1020,8 @@ schneider-electric.mr.	3600	IN	NS	ns2.observatoiredesmarques.fr.
 schneider-electric.mr.	3600	IN	NS	ns3.nameshield.net.
 sctp.mr.		3600	IN	NS	ns1.usm32.siteground.biz.
 sctp.mr.		3600	IN	NS	ns2.usm32.siteground.biz.
+sdin.mr.		3600	IN	NS	ns1.adk-media.com.
+sdin.mr.		3600	IN	NS	ns2.adk-media.com.
 secam.mr.		3600	IN	NS	ns1.infomaniak.ch.
 secam.mr.		3600	IN	NS	ns2.infomaniak.ch.
 see.mr.			3600	IN	NS	ns1.usm32.siteground.biz.
@@ -1276,4 +1286,4 @@ zim.mr.			3600	IN	NS	ns2.101domain.com.
 zim.mr.			3600	IN	NS	ns5.101domain.com.
 ztr.mr.			3600	IN	NS	ns1.adk-media.com.
 ztr.mr.			3600	IN	NS	ns2.adk-media.com.
-mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018101712 21600 7200 2592000 86400
+mr.			3600	IN	SOA	ns2.nic.mr. registry.nic.mr. 2018101912 21600 7200 2592000 86400

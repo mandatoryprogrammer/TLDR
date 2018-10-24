@@ -1,13 +1,13 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR bi. @ns1.nic.bi. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018102432 21600 3600 604800 86400
-bi.			86400	IN	TXT	"Generation Time: 1540361414"
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018102448 21600 3600 604800 86400
 bi.			86400	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			86400	IN	NS	ns.nic.bi.
 bi.			86400	IN	NS	ns1.nic.bi.
 bi.			86400	IN	NS	anyns.nic.bi.
 bi.			86400	IN	NS	ns-bi.afrinic.net.
+bi.			86400	IN	TXT	"Generation Time: 1540375813"
 000.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 000.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
 01.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -242,6 +242,8 @@ afriregister.bi.	86400	IN	NS	ns1.afriregister.bi.
 afriregister.bi.	86400	IN	NS	ns2.afriregister.bi.
 ns1.afriregister.bi.	86400	IN	A	88.208.248.21
 ns2.afriregister.bi.	86400	IN	A	88.208.249.110
+agasumo.bi.		86400	IN	NS	ns1.afriregister.com.
+agasumo.bi.		86400	IN	NS	ns3.afriregister.com.
 agere.bi.		86400	IN	NS	ns1.francedns.com.
 agere.bi.		86400	IN	NS	ns2.francedns.com.
 agere.bi.		86400	IN	NS	ns3.francedns.com.
@@ -2791,8 +2793,6 @@ hotpoint.bi.		86400	IN	NS	ns1.register.it.
 hotpoint.bi.		86400	IN	NS	ns2.register.it.
 hou.bi.			86400	IN	NS	f1g1ns1.dnspod.net.
 hou.bi.			86400	IN	NS	f1g1ns2.dnspod.net.
-hprc-burundi.bi.	86400	IN	NS	ns5.afriregister.co.ke.
-hprc-burundi.bi.	86400	IN	NS	ns6.afriregister.co.ke.
 hpt.bi.			86400	IN	NS	ns1.101domain.com.
 hpt.bi.			86400	IN	NS	ns2.101domain.com.
 hpt.bi.			86400	IN	NS	ns5.101domain.com.
@@ -6623,4 +6623,4 @@ zzp.bi.			86400	IN	NS	nameserver1.intellyhosting.nl.
 zzp.bi.			86400	IN	NS	nameserver2.intellyhosting.eu.
 zzp.bi.			86400	IN	NS	nameserver3.intellyhosting.be.
 zzp.bi.			86400	IN	NS	nameserver4.intellyhosting.com.
-bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018102432 21600 3600 604800 86400
+bi.			86400	IN	SOA	ns.nic.bi. registry.nic.bi. 2018102448 21600 3600 604800 86400

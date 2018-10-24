@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018101901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018102401 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -1121,11 +1121,11 @@ boavistamorena.com.cv.	28800	IN	NS	ns3.dreamhost.com.
 bobparsons.com.cv.	28800	IN	NS	NS1.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS2.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS5.101DOMAIN.COM.
-bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
-bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 bodyconcept.com.cv.	28800	IN	NS	ns1.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns2.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns3.ptservidor.net.
+bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
+bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 boulevardboutique.com.cv. 28800	IN	NS	NS1.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS2.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS5.101DOMAIN.COM.
@@ -3791,8 +3791,8 @@ onecom.cv.		28800	IN	NS	ns2.webhs.org.
 onecom.cv.		28800	IN	NS	ns3.webhs.org.
 opacc.cv.		28800	IN	NS	ns01.domaincontrol.com.
 opacc.cv.		28800	IN	NS	ns02.domaincontrol.com.
-opais.cv.		28800	IN	NS	ns1.isone.cv.
-opais.cv.		28800	IN	NS	ns2.isone.cv.
+opais.cv.		28800	IN	NS	nia.ns.cloudflare.com.
+opais.cv.		28800	IN	NS	justin.ns.cloudflare.com.
 open.cv.		28800	IN	NS	a.dnspod.com.
 open.cv.		28800	IN	NS	b.dnspod.com.
 open.cv.		28800	IN	NS	c.dnspod.com.
@@ -3843,9 +3843,9 @@ acrh.org.cv.		28800	IN	NS	ns1.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns2.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns3.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns4.nameresolve.com.
-acrides.org.cv.		28800	IN	A	41.221.194.233
 acrides.org.cv.		28800	IN	NS	ns1.gov.cv.
 acrides.org.cv.		28800	IN	NS	ns2.gov.cv.
+acrides.org.cv.		28800	IN	A	41.221.194.233
 adad.org.cv.		28800	IN	NS	ns.jcle.pt.
 adad.org.cv.		28800	IN	NS	ns.jcle.net.
 adventistas.org.cv.	28800	IN	NS	ns1.servconfig.com.
@@ -4712,6 +4712,8 @@ sip.cv.			28800	IN	NS	ns1.maxideia.net.
 sip.cv.			28800	IN	NS	ns2.maxideia.net.
 sipat.cv.		28800	IN	NS	ns.cvtelecom.cv.
 sipat.cv.		28800	IN	NS	ns2.cvtelecom.cv.
+siras.cv.		28800	IN	NS	ns1.gov.cv.
+siras.cv.		28800	IN	NS	ns2.gov.cv.
 sisa.cv.		28800	IN	NS	ns1.myhostdns.com.
 sisa.cv.		28800	IN	NS	ns2.myhostdns.com.
 sisinformatica.cv.	28800	IN	NS	ns1.weblx-0.net.
@@ -4955,10 +4957,10 @@ tdp.cv.			28800	IN	NS	nameserver1.digitalus.nl.
 tdp.cv.			28800	IN	NS	nameserver2.digitalus.nl.
 tdp.cv.			28800	IN	NS	nameserver3.digitalus.nl.
 mail.tdp.cv.		28800	IN	A	193.138.157.12
-tdt.cv.			28800	IN	NS	ns1.mydnspt.net.
-tdt.cv.			28800	IN	NS	ns2.mydnspt.net.
-tdt.cv.			28800	IN	NS	ns7.mydnspt.net.
-tdt.cv.			28800	IN	NS	ns8.mydnspt.net.
+tdt.cv.			28800	IN	NS	ns-92.awsdns-11.com.
+tdt.cv.			28800	IN	NS	ns-523.awsdns-01.net.
+tdt.cv.			28800	IN	NS	ns-1368.awsdns-43.org.
+tdt.cv.			28800	IN	NS	ns-1938.awsdns-50.co.uk.
 techknow.cv.		28800	IN	NS	dns1.ex2-p24.com.
 techknow.cv.		28800	IN	NS	dns2.ex2-p24.com.
 technor.cv.		28800	IN	NS	ns1.ptwebsite.info.
@@ -5323,4 +5325,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018101901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018102401 86400 7200 2592000 300

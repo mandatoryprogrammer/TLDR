@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018102613 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1540555219"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018102616 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1540566021"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -873,10 +873,6 @@ cm.			86400	IN	NS	ns-cm.nic.fr.
 10010.cm.		86400	IN	NS	vip2.alidns.com.
 100100.cm.		86400	IN	NS	ns1.ndns.cn.
 100100.cm.		86400	IN	NS	ns2.ndns.cn.
-10023.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-10023.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-10023.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
-10023.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
 1005.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 1005.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 1008.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -28846,8 +28842,12 @@ henderson.cm.		86400	IN	NS	ns2.dreamhost.com.
 henderson.cm.		86400	IN	NS	ns3.dreamhost.com.
 heng.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 heng.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
-hengcai.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-hengcai.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+hengcai.cm.		86400	IN	NS	ns101.cloudns.net.
+hengcai.cm.		86400	IN	NS	ns102.cloudns.net.
+hengcai.cm.		86400	IN	NS	pns101.cloudns.net.
+hengcai.cm.		86400	IN	NS	pns102.cloudns.net.
+hengcai.cm.		86400	IN	NS	pns103.cloudns.net.
+hengcai.cm.		86400	IN	NS	pns104.cloudns.net.
 henhenlu.cm.		86400	IN	NS	ns1.ndns.cn.
 henhenlu.cm.		86400	IN	NS	ns2.ndns.cn.
 henkel.cm.		86400	IN	NS	hh-ns01.henkel.de.
@@ -36683,14 +36683,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
+ns1.leapahead.cm.	86400	IN	A	88.208.249.116
 ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns1.leapahead.cm.	86400	IN	A	213.171.198.127
-ns1.leapahead.cm.	86400	IN	A	88.208.249.116
 ns1.leapahead.cm.	86400	IN	A	88.208.210.176
-ns2.leapahead.cm.	86400	IN	A	213.171.198.127
 ns2.leapahead.cm.	86400	IN	A	88.208.210.232
-ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
+ns2.leapahead.cm.	86400	IN	A	88.208.249.125
+ns2.leapahead.cm.	86400	IN	A	213.171.198.127
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learn.cm.		86400	IN	NS	ns1.dns.com.
@@ -56552,12 +56552,20 @@ xindongfang.cm.		86400	IN	NS	ns2.myhostadmin.net.
 xing.cm.		86400	IN	NS	ns.udag.org.
 xing.cm.		86400	IN	NS	ns.udag.de.
 xing.cm.		86400	IN	NS	ns.udag.net.
-xingcai.cm.		86400	IN	NS	ns1.dns.com.
-xingcai.cm.		86400	IN	NS	ns2.dns.com.
+xingcai.cm.		86400	IN	NS	ns101.cloudns.net.
+xingcai.cm.		86400	IN	NS	ns102.cloudns.net.
+xingcai.cm.		86400	IN	NS	pns101.cloudns.net.
+xingcai.cm.		86400	IN	NS	pns102.cloudns.net.
+xingcai.cm.		86400	IN	NS	pns103.cloudns.net.
+xingcai.cm.		86400	IN	NS	pns104.cloudns.net.
 xingji.cm.		86400	IN	NS	ns1.dns.com.
 xingji.cm.		86400	IN	NS	ns2.dns.com.
-xingyao.cm.		86400	IN	NS	ns1.1-api.org.
-xingyao.cm.		86400	IN	NS	ns2.1-api.org.
+xingyao.cm.		86400	IN	NS	ns101.cloudns.net.
+xingyao.cm.		86400	IN	NS	ns102.cloudns.net.
+xingyao.cm.		86400	IN	NS	pns101.cloudns.net.
+xingyao.cm.		86400	IN	NS	pns102.cloudns.net.
+xingyao.cm.		86400	IN	NS	pns103.cloudns.net.
+xingyao.cm.		86400	IN	NS	pns104.cloudns.net.
 xinhao.cm.		86400	IN	NS	ns1.4.cn.
 xinhao.cm.		86400	IN	NS	ns2.4.cn.
 xinhua.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
@@ -58587,4 +58595,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.ezydomain.com.
 zzzzz.cm.		86400	IN	NS	ns2.ezydomain.com.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018102613 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018102616 28800 3600 604800 86400

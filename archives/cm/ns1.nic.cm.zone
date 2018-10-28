@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018102805 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1540699222"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018102808 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1540710020"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -606,10 +606,14 @@ cm.			86400	IN	NS	ns-cm.nic.fr.
 076.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 0760.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0760.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+0761.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+0761.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0762.cm.		86400	IN	NS	ns7.01isp.com.
 0762.cm.		86400	IN	NS	ns8.01isp.net.
 0763.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 0763.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+0764.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+0764.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 0766.cm.		86400	IN	NS	ns1.4.cn.
 0766.cm.		86400	IN	NS	ns2.4.cn.
 0768.cm.		86400	IN	NS	ns1.4.cn.
@@ -21543,8 +21547,8 @@ dan.cm.			86400	IN	NS	ns.dan.cm.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 ns.dan.cm.		86400	IN	A	185.92.222.117
+ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -26651,6 +26655,8 @@ ga.cm.			86400	IN	NS	ns1.dns.com.
 ga.cm.			86400	IN	NS	ns2.dns.com.
 gaana.cm.		86400	IN	NS	ns1.voodoo.com.
 gaana.cm.		86400	IN	NS	ns2.voodoo.com.
+gab.cm.			86400	IN	NS	ns1.parkingcrew.net.
+gab.cm.			86400	IN	NS	ns2.parkingcrew.net.
 gai.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 gai.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 gail.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
@@ -28234,6 +28240,8 @@ habbohotel.cm.		86400	IN	NS	ns5.netnames.net.
 habbohotel.cm.		86400	IN	NS	ns6.netnames.net.
 haber.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 haber.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
+haberturk.cm.		86400	IN	NS	ns1.parkingcrew.net.
+haberturk.cm.		86400	IN	NS	ns2.parkingcrew.net.
 habo.cm.		86400	IN	NS	ns1.dns.com.
 habo.cm.		86400	IN	NS	ns2.dns.com.
 habr.cm.		86400	IN	NS	ns1.dotster.com.
@@ -36577,13 +36585,13 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	213.171.198.127
-ns1.leapahead.cm.	86400	IN	A	88.208.210.176
 ns1.leapahead.cm.	86400	IN	A	213.171.196.238
+ns1.leapahead.cm.	86400	IN	A	88.208.210.176
 ns1.leapahead.cm.	86400	IN	A	88.208.249.116
-ns2.leapahead.cm.	86400	IN	A	88.208.210.232
+ns1.leapahead.cm.	86400	IN	A	213.171.198.127
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	213.171.198.127
+ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
@@ -43942,8 +43950,8 @@ pgc.cm.			86400	IN	NS	dns3.name-services.com.
 pgc.cm.			86400	IN	NS	dns2.name-services.com.
 pge.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 pge.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
-pgh-kumba.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
-pgh-kumba.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
+pgh-kumba.cm.		86400	IN	NS	ns3010.mochahost.com.
+pgh-kumba.cm.		86400	IN	NS	ns4010.mochahost.com.
 pgshop.cm.		86400	IN	NS	dns1.cscdns.net.
 pgshop.cm.		86400	IN	NS	dns2.cscdns.net.
 pgstore.cm.		86400	IN	NS	ns1-06.azure-dns.com.
@@ -50128,8 +50136,8 @@ studyisland.cm.		86400	IN	NS	ns1.hasns.com.
 studyisland.cm.		86400	IN	NS	ns2.hasns.com.
 studyisland.cm.		86400	IN	NS	ns3.hasns.com.
 studyisland.cm.		86400	IN	NS	ns4.hasns.com.
-studykwik.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
-studykwik.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
+studykwik.cm.		86400	IN	NS	ns3010.mochahost.com.
+studykwik.cm.		86400	IN	NS	ns4010.mochahost.com.
 studymode.cm.		86400	IN	NS	ns1cvw.name.com.
 studymode.cm.		86400	IN	NS	ns2dhj.name.com.
 studymode.cm.		86400	IN	NS	ns3fhx.name.com.
@@ -52721,8 +52729,8 @@ tutorialspoint.cm.	86400	IN	NS	ns-1521.awsdns-62.org.
 tutorialspoint.cm.	86400	IN	NS	ns-109.awsdns-13.com.
 tutorialspoint.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 tutorialspoint.cm.	86400	IN	NS	ns-655.awsdns-17.net.
-tutors.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
-tutors.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
+tutors.cm.		86400	IN	NS	ns3010.mochahost.com.
+tutors.cm.		86400	IN	NS	ns4010.mochahost.com.
 tutu.cm.		86400	IN	NS	ns1.dns.com.
 tutu.cm.		86400	IN	NS	ns2.dns.com.
 tuv.cm.			86400	IN	NS	ns7.cdncenter.com.
@@ -58414,4 +58422,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.ezydomain.com.
 zzzzz.cm.		86400	IN	NS	ns2.ezydomain.com.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018102805 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018102808 28800 3600 604800 86400

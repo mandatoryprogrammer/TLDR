@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR sc. @ns1.nic.sc. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008101898 1800 900 604800 86400
-sc.			900	IN	RRSIG	SOA 7 1 900 20181119081541 20181029071541 33290 sc. c5g9frH2rh2gizpyhA/WIEzTmHWoEn58TOofLEruJq9Ue/lB9guSSd9h 2SJnMFDM8Rg4vuc6rYUNZoaqLpECgVFzyrA0Xzlk3BrcHgYRVC/PCKzv 0VWc+NuUktxfpV3PAj8QGY/UAZ+8SCn08hOPFH1rgQlClPDGlg+Bijza 5AM=
+sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008101900 1800 900 604800 86400
+sc.			900	IN	RRSIG	SOA 7 1 900 20181119160035 20181029150035 33290 sc. W097sTcWKEJV60dG8eQHjpmacz1SGKc29RSuvOgJIyRPAQ9sD7EKiknB B846iXPrVebbcAwHJNSc0ZlSgGcJGkzTKqMmw0B2t1pkf3Yx9JkiCY2B iVTpgM6KAjqOaaaf9bB/uVZp7IcOiBijSu489B7XYperSlsbjxuWKdXe wHI=
 sc.			900	IN	RRSIG	NSEC3PARAM 7 1 900 20181115190237 20181025180237 33290 sc. ouxm9N3Hx7IvQ+Cc573xWj9izVUuNOX/cptJ3j7ZbGtlS60Xe0TmEZTV xSDZ3zbgtQGrqHwvbN6NYpk6QTiuC7QhV9eKijwAtpXnguI84v9YP+3J WkGrQkHAqrYkI76JdSJcztXTYDDtMrL6vtGD3Sr9ow0K4ivarNFm7Kos DbQ=
 sc.			900	IN	RRSIG	DNSKEY 7 1 900 20181115190237 20181025180237 30975 sc. h+oUGaLhILfWgxTB2X1PAOG752FJjJdVHrh4Qpz40gWM0qy/AlAUvB64 pXdx0jxqgs5/HspN4jKVkvJByMITipu3fR6F6UvdXV5lec7NtsPk3cir 44SZy8GKg1UJAxpZxBFqUqThRxShEWn+94SCMy3/fCgnn0J00Jruf+uK i55stLnd6JJBJ7IVk5ons7U8uGQ2CcZ9fTiUJgSlmROqWmZL83214zLV /ZZWb3NnFDvyO0R/FLPqTLcSmx8ssEsu1WHXri+8wKYj08Uu31rDSLXu AVE6au4xK+f6VRpbURzJ7Jid8hKIZX15pOMXiysC0oYS/Azyjbg+IZ/W j/2zfQ==
 sc.			900	IN	RRSIG	DNSKEY 7 1 900 20181115190237 20181025180237 32953 sc. Zdeizlt8XDHdxZYTE6PPpT/dQz5JkwygCo4hKpr7ZsTtAqePf7hNnwK9 6yZ+ZR9Bw/6MsY1xhYlrugj624yqqncOI0SywtpIPF+ZgixdhkRnR/AR gOUSvYB0ODiIwWbW/XujQ1Y520oEnlaVPvUKBrsKzpt+0jUU3o1lkZnG IE5vAHC3gkOAGMjYdil7Wve27M8jMCgs+culnaNL6+bNoq/2xk+rqryJ bNI2xG19fT6PymXgIJNB/sBK3OFEvOd41zoeP5+C8OH3d8tPm5Zh5Mmf 8mGzvVR3hveqv9YJUNlV8ANgQti4VAjhDllcDYnuAutxctYVl3Tqyccy KqR5WA==
@@ -7398,9 +7398,8 @@ matt.sc.		86400	IN	NS	ns4.markmonitor.com.
 matt.sc.		86400	IN	NS	ns5.markmonitor.com.
 matt.sc.		86400	IN	NS	ns6.markmonitor.com.
 matt.sc.		86400	IN	NS	ns7.markmonitor.com.
-matthew.sc.		86400	IN	NS	ns1.digitalocean.com.
-matthew.sc.		86400	IN	NS	ns2.digitalocean.com.
-matthew.sc.		86400	IN	NS	ns3.digitalocean.com.
+matthew.sc.		86400	IN	NS	jobs.ns.cloudflare.com.
+matthew.sc.		86400	IN	NS	nicole.ns.cloudflare.com.
 maven.sc.		86400	IN	NS	ns1.seyhost.com.
 maven.sc.		86400	IN	NS	ns2.seyhost.com.
 max.sc.			86400	IN	NS	a.zeit.world.
@@ -9480,8 +9479,8 @@ riverisland.sc.		86400	IN	NS	ns6.markmonitor.com.
 riverisland.sc.		86400	IN	NS	ns7.markmonitor.com.
 rlt.sc.			86400	IN	NS	ns1.lhnic.com.
 rlt.sc.			86400	IN	NS	ns2.lhnic.com.
-rmi.sc.			86400	IN	NS	ns0.spacenet.co.ug.
-rmi.sc.			86400	IN	NS	ns1.spacenet.co.ug.
+rmi.sc.			86400	IN	NS	dns13.parkpage.foundationapi.com.
+rmi.sc.			86400	IN	NS	dns14.parkpage.foundationapi.com.
 rms.sc.			86400	IN	NS	ns1.rms-online.de.
 rms.sc.			86400	IN	NS	ns2.rms-online.de.
 roblox.sc.		86400	IN	NS	ns1.above.com.
@@ -13067,7 +13066,7 @@ zzz.sc.			86400	IN	NS	ns8.01isp.net.
 6ippgv98l2tjp8sjhgdsfo4mk1ffsdkv.sc. 86400 IN NSEC3 1 1 1 D399EAAB 6SJ9DKGGPR7RUJJI1GMNDU2SC3TJ63HA A RRSIG
 6sj9dkggpr7rujji1gmndu2sc3tj63ha.sc. 86400 IN RRSIG NSEC3 7 2 86400 20181115190237 20181025180237 33290 sc. Fyg03Qsy/pU1rpkSvM1NMs/XF9+AJl9AiOGTWtb5maK/8NRs1fMJ8S2p kEw2qupymH3XGyiQ9cguaIFtd/Ye+bkniJrVxisCzdTwhd2AdXLSFHnz smchqy86Uobz/XPo07cDlWfBA0ZIA/cnmaXHbegU9h2Zl1lXytkk/8eg ygs=
 6sj9dkggpr7rujji1gmndu2sc3tj63ha.sc. 86400 IN NSEC3 1 1 1 D399EAAB 7MJIACRVGSPE2P6IFC62D8GJKCF6LMUS A RRSIG
-7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN RRSIG NSEC3 7 2 86400 20181119081541 20181029071541 33290 sc. cyW/+00qASFA+y/yukl3qPqelbDa7soSW4Sj+M49tqaHTcIL7sgzV4S/ 21RIi3a/3X41VfegDIPfJWnugx6IBn4bHWDbGrY5sw5mvONvE03jzLNv mrTaGzliCzR4sqMo0QNXE16O0S0g2hYt2IRs5dHgPmgjyeGpN14RYKdB 6ro=
+7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN RRSIG NSEC3 7 2 86400 20181119160035 20181029150035 33290 sc. ik8UyMUe9XEJvoaB+7prGuN3roSNYyixU/1DUR1pJKHsA/z/KAgE8zNj 3EAzVMB9Ua6B35pqAplIo6BteUnifh8VJJe37Th/G8+cjUgW4eLtsa0F cYmL2uD2HdTePAKiAVYJWn0dtSsLKLMf4w2pFPn0CYsthHiI6xJ25Bcv QS0=
 7mjiacrvgspe2p6ifc62d8gjkcf6lmus.sc. 86400 IN NSEC3 1 1 1 D399EAAB 7P375MMVGO9KAMU2RK6OC2I1E2G73UMC NS SOA RRSIG DNSKEY NSEC3PARAM
 7p375mmvgo9kamu2rk6oc2i1e2g73umc.sc. 86400 IN RRSIG NSEC3 7 2 86400 20181115190237 20181025180237 33290 sc. MeabKZsztT/iBsas404nbFBowNIE1XEd2zG+dhKrtyF67aD+B4edKbn1 MjSmEzOvD0yMysSqXTFSI8g602PAIHKSCXZp7UtC6jwglq77L3YMl4oM Fr0nuGTJLKLNyuSixer3uoAN62dLG+lmo0ezGlWFy3cz+eME8nRoFPsn 8h0=
 7p375mmvgo9kamu2rk6oc2i1e2g73umc.sc. 86400 IN NSEC3 1 1 1 D399EAAB 84V04P78OE25ORJ79LG2GB1VIHJEVOM3 
@@ -13131,4 +13130,4 @@ u7ufkrvln5tlum8a52cc96vo9d8fehsu.sc. 86400 IN RRSIG NSEC3 7 2 86400 201811151902
 u7ufkrvln5tlum8a52cc96vo9d8fehsu.sc. 86400 IN NSEC3 1 1 1 D399EAAB VAO8SG43RM64N2OO2T6UJA6022PHOV7T 
 vao8sg43rm64n2oo2t6uja6022phov7t.sc. 86400 IN RRSIG NSEC3 7 2 86400 20181115190237 20181025180237 33290 sc. PUyFxEtKBYMKs4Yga9KbKqxRxcTutnacwBBBlcbN0nqglF8lBJbwsuSA Lw88WW1OZmj+JVEfH2OLApzqFvxXfjdDnPEcDwnXZrOmfS1wNeoRagyE w6AJtSisE9v/jOUsJiKKKbpZEN2Lm5QGYIlpllfQ7YHSlkSXjHWqdLhW XQs=
 vao8sg43rm64n2oo2t6uja6022phov7t.sc. 86400 IN NSEC3 1 1 1 D399EAAB 08VN4UD3GUU67MPCPVMCITJUTP87LDKG A RRSIG
-sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008101898 1800 900 604800 86400
+sc.			900	IN	SOA	a0.cctld.afilias-nst.info. noc.afilias-nst.info. 2008101900 1800 900 604800 86400

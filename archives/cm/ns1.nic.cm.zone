@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018110117 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1541088018"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018110120 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1541098816"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -12337,6 +12337,8 @@ dns2.airforce.cm.	86400	IN	A	41.204.94.236
 airfrance.cm.		86400	IN	NS	ns0.airfrance.fr.
 airfrance.cm.		86400	IN	NS	ns1.airfrance.fr.
 airfrance.cm.		86400	IN	NS	ns2.airfrance.fr.
+airgaz.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
+airgaz.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 airking.cm.		86400	IN	NS	ns1.p09.dynect.net.
 airking.cm.		86400	IN	NS	ns2.p09.dynect.net.
 airking.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -21457,8 +21459,8 @@ dan.cm.			86400	IN	NS	ns.dan.cm.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 ns.dan.cm.		86400	IN	A	185.92.222.117
+ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -23292,6 +23294,8 @@ dzjqp.cm.		86400	IN	NS	marty.ns.cloudflare.com.
 dzpk.cm.		86400	IN	NS	a.dnspod.com.
 dzpk.cm.		86400	IN	NS	b.dnspod.com.
 dzpk.cm.		86400	IN	NS	c.dnspod.com.
+dzq.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
+dzq.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 dzw.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 dzw.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 dzy.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -23302,6 +23306,8 @@ dzyy777.cm.		86400	IN	NS	ns3.myhostadmin.net.
 dzyy777.cm.		86400	IN	NS	ns4.myhostadmin.net.
 e.cm.			86400	IN	NS	ns7.01isp.com.
 e.cm.			86400	IN	NS	ns8.01isp.net.
+e-afrika.cm.		86400	IN	NS	ntp.infogenie.cm.
+e-afrika.cm.		86400	IN	NS	ressources.infogenie.cm.
 e-certified.cm.		86400	IN	NS	ns1.akiba01.com.
 e-certified.cm.		86400	IN	NS	ns2.akiba01.com.
 e-file.cm.		86400	IN	NS	ns1.dnspanel.com.
@@ -36130,14 +36136,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns1.leapahead.cm.	86400	IN	A	213.171.198.127
-ns1.leapahead.cm.	86400	IN	A	88.208.210.176
 ns1.leapahead.cm.	86400	IN	A	88.208.249.116
+ns1.leapahead.cm.	86400	IN	A	88.208.210.176
+ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	88.208.249.125
-ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 ns2.leapahead.cm.	86400	IN	A	213.171.198.127
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
+ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learn.cm.		86400	IN	NS	ns1.dns.com.
@@ -41981,6 +41987,11 @@ okaidi.cm.		86400	IN	NS	indom80.indomco.hk.
 okaidi.cm.		86400	IN	NS	indom130.indomco.org.
 okani.cm.		86400	IN	NS	blinuxns7.securehostdns.com.
 okani.cm.		86400	IN	NS	blinuxns8.securehostdns.com.
+okcoin.cm.		86400	IN	NS	dns1.name-services.com.
+okcoin.cm.		86400	IN	NS	dns2.name-services.com.
+okcoin.cm.		86400	IN	NS	dns3.name-services.com.
+okcoin.cm.		86400	IN	NS	dns4.name-services.com.
+okcoin.cm.		86400	IN	NS	dns5.name-services.com.
 okcupid.cm.		86400	IN	NS	ns1.fabulous.com.
 okcupid.cm.		86400	IN	NS	ns2.fabulous.com.
 okex.cm.		86400	IN	NS	ns1.parkingcrew.net.
@@ -57678,6 +57689,10 @@ zq.cm.			86400	IN	NS	ns1.dns.com.
 zq.cm.			86400	IN	NS	ns2.dns.com.
 zq001.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zq001.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+zqo.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
+zqo.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+zqr.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
+zqr.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 zqx.cm.			86400	IN	NS	ns1.myhostadmin.net.
 zqx.cm.			86400	IN	NS	ns2.myhostadmin.net.
 zqy.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -57887,6 +57902,8 @@ zynga.cm.		86400	IN	NS	ns5.markmonitor.com.
 zyngapoker.cm.		86400	IN	NS	ns1.markmonitor.com.
 zyngapoker.cm.		86400	IN	NS	ns3.markmonitor.com.
 zyngapoker.cm.		86400	IN	NS	ns5.markmonitor.com.
+zyo.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
+zyo.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 zyq.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 zyq.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 zyr.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -57914,4 +57931,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.ezydomain.com.
 zzzzz.cm.		86400	IN	NS	ns2.ezydomain.com.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018110117 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018110120 28800 3600 604800 86400

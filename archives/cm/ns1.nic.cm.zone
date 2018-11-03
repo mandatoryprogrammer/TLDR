@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018110311 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1541239220"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018110314 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1541250025"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -2142,8 +2142,6 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 2211.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 221199.cm.		86400	IN	NS	ns5.dnsdun.com.
 221199.cm.		86400	IN	NS	ns2.dnsdun.net.
-2213.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-2213.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 22138.cm.		86400	IN	NS	ns4.dnsdun.com.
 22138.cm.		86400	IN	NS	ns2.dnsdun.net.
 2215.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -31639,6 +31637,8 @@ hotmil.cm.		86400	IN	NS	ns1.hasns.com.
 hotmil.cm.		86400	IN	NS	ns2.hasns.com.
 hotmil.cm.		86400	IN	NS	ns3.hasns.com.
 hotmil.cm.		86400	IN	NS	ns4.hasns.com.
+hotmovs.cm.		86400	IN	NS	ns1.parkingcrew.net.
+hotmovs.cm.		86400	IN	NS	ns2.parkingcrew.net.
 hotornot.cm.		86400	IN	NS	gss1.monopost.com.
 hotornot.cm.		86400	IN	NS	gss3.monopost.com.
 hotornot.cm.		86400	IN	NS	gss6.monopost.com.
@@ -36091,13 +36091,13 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	88.208.249.116
-ns1.leapahead.cm.	86400	IN	A	213.171.198.127
-ns1.leapahead.cm.	86400	IN	A	88.208.210.176
 ns1.leapahead.cm.	86400	IN	A	213.171.196.238
-ns2.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	88.208.210.176
+ns1.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	88.208.249.116
 ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
+ns2.leapahead.cm.	86400	IN	A	213.171.198.127
 ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
@@ -41888,8 +41888,8 @@ officemax.cm.		86400	IN	NS	pns21.cloudns.net.
 officemax.cm.		86400	IN	NS	pns22.cloudns.net.
 officemax.cm.		86400	IN	NS	pns23.cloudns.net.
 officemax.cm.		86400	IN	NS	pns24.cloudns.net.
-offre-emploi.cm.	86400	IN	NS	dns200.anycast.me.
-offre-emploi.cm.	86400	IN	NS	ns200.anycast.me.
+offre-emploi.cm.	86400	IN	NS	ns1.digitalocean.com.
+offre-emploi.cm.	86400	IN	NS	ns2.digitalocean.com.
 offshore-cameroun.cm.	86400	IN	NS	ns1.linuxsupercloud.com.
 offshore-cameroun.cm.	86400	IN	NS	ns2.linuxsupercloud.com.
 ofo.cm.			86400	IN	NS	ns1.parkingcrew.net.
@@ -42195,8 +42195,8 @@ onmc.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
 onmc.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 onmyway.cm.		86400	IN	NS	ns1.camertic.net.
 onmyway.cm.		86400	IN	NS	ns2.camertic.net.
-ono.cm.			86400	IN	NS	cp3.dnshostservices.com.
-ono.cm.			86400	IN	NS	cp4.dnshostservices.com.
+ono.cm.			86400	IN	NS	cp1.dnshostservices.com.
+ono.cm.			86400	IN	NS	cp2.dnshostservices.com.
 onoc.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
 onoc.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 ont.cm.			86400	IN	NS	ns1.timewarner.net.
@@ -47317,6 +47317,8 @@ seeds.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
 seeds.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 seek.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 seek.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+seeking.cm.		86400	IN	NS	ns1.parkingcrew.net.
+seeking.cm.		86400	IN	NS	ns2.parkingcrew.net.
 seekingalpha.cm.	86400	IN	NS	ns1.parkingcrew.net.
 seekingalpha.cm.	86400	IN	NS	ns2.parkingcrew.net.
 seem.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
@@ -49377,6 +49379,8 @@ stayfree.cm.		86400	IN	NS	ns5.jnj.com.
 stayfriends.cm.		86400	IN	NS	c.stayfriends.com.
 stayfriends.cm.		86400	IN	NS	d.stayfriends.com.
 stayfriends.cm.		86400	IN	NS	b.stayfriends.com.
+steamcommunity.cm.	86400	IN	NS	ns1.parkingcrew.net.
+steamcommunity.cm.	86400	IN	NS	ns2.parkingcrew.net.
 steampowered.cm.	86400	IN	NS	ns1.bodis.com.
 steampowered.cm.	86400	IN	NS	ns2.bodis.com.
 stecy.cm.		86400	IN	NS	ns1.digitalocean.com.
@@ -57868,4 +57872,4 @@ zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 zzzzz.cm.		86400	IN	NS	ns1.ezydomain.com.
 zzzzz.cm.		86400	IN	NS	ns2.ezydomain.com.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018110311 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018110314 28800 3600 604800 86400

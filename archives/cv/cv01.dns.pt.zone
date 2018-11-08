@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018110701 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018110801 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -3315,15 +3315,10 @@ kul.cv.			28800	IN	NS	ns14.domaincontrol.com.
 labcal.cv.		28800	IN	NS	ns1.rootsp.biz.
 labcal.cv.		28800	IN	NS	ns2.rootsp.biz.
 labcal.cv.		28800	IN	NS	ns3.rootsp.biz.
-labesfal.cv.		28800	IN	NS	91.198.22.76.
-labesfal.cv.		28800	IN	NS	203.62.195.76.
-labesfal.cv.		28800	IN	NS	204.13.248.76.
-labesfal.cv.		28800	IN	NS	208.78.69.76.
-labesfal.cv.		28800	IN	NS	ns1.mydyndns.org.
-labesfal.cv.		28800	IN	NS	ns2.mydyndns.org.
-labesfal.cv.		28800	IN	NS	ns3.mydyndns.org.
-labesfal.cv.		28800	IN	NS	ns4.mydyndns.org.
-labesfal.cv.		28800	IN	NS	ns5.mydyndns.org.
+labesfal.cv.		28800	IN	AAAA	2001:41d0:8:3730::
+labesfal.cv.		28800	IN	NS	ns1.ptservidor.net.
+labesfal.cv.		28800	IN	NS	ns2.ptservidor.net.
+labesfal.cv.		28800	IN	NS	ns3.ptservidor.net.
 labojovem.cv.		28800	IN	NS	ns293.websitewelcome.com.
 labojovem.cv.		28800	IN	NS	ns294.websitewelcome.com.
 laciftech.cv.		28800	IN	NS	ns908.hostgator.com.br.
@@ -3902,6 +3897,8 @@ amigosdanatureza.org.cv. 28800	IN	NS	ns2.weblx-2.net.
 amj.org.cv.		28800	IN	NS	ns1.desital.com.
 amj.org.cv.		28800	IN	NS	ns2.desital.com.
 mail.amj.org.cv.	28800	IN	A	92.243.5.252
+apimfcv.org.cv.		28800	IN	NS	ns1.servconfig.com.
+apimfcv.org.cv.		28800	IN	NS	ns2.servconfig.com.
 arquitectos.org.cv.	28800	IN	NS	ns1.dreamhost.com.
 arquitectos.org.cv.	28800	IN	NS	ns2.dreamhost.com.
 arquitectos.org.cv.	28800	IN	NS	ns3.dreamhost.com.
@@ -4474,10 +4471,10 @@ robinson-club-cabo-verde.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-cabo-verde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-cabo-verde.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-cabo-verde.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1000::7
-robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-caboverde.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-caboverde.cv. 28800 IN	NS	ns02.brandshelter.net.
+robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1000::7
+robinson-club-caboverde.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kap-verden.cv. 28800 IN	NS	ns01.brandshelter.com.
@@ -4760,11 +4757,11 @@ sit.cv.			28800	IN	NS	ns2.bluehost.com.
 mail.sit.cv.		28800	IN	A	50.87.248.126
 sita.cv.		28800	IN	NS	b186ns1.hocnet.pt.
 sita.cv.		28800	IN	NS	b186ns2.hocnet.pt.
-sitam.cv.		28800	IN	NS	rns4a.justhost.com.
-sitam.cv.		28800	IN	NS	rns4b.justhost.com.
 sitam.cv.		28800	IN	AAAA	2620:115:c00f::c000:4a09
 sitam.cv.		28800	IN	AAAA	2a04:fa87:ffff::c6b5:7409
 sitam.cv.		28800	IN	AAAA	2a04:fa87:ffff::c6b5:7509
+sitam.cv.		28800	IN	NS	rns4a.justhost.com.
+sitam.cv.		28800	IN	NS	rns4b.justhost.com.
 skribi.cv.		28800	IN	NS	ns1.wordpress.COM.
 skribi.cv.		28800	IN	NS	ns2.wordpress.COM.
 skribi.cv.		28800	IN	NS	ns3.wordpress.COM.
@@ -5117,11 +5114,11 @@ tudbarot.cv.		28800	IN	NS	dns2.uk2.net.
 tudbarot.cv.		28800	IN	NS	dns3.uk2.net.
 tudonumclick.cv.	28800	IN	NS	dns1.ibername.com.
 tudonumclick.cv.	28800	IN	NS	dns2.ibername.com.
-tuduli.cv.		28800	IN	AAAA	2600:2000:1000::7
-tuduli.cv.		28800	IN	AAAA	2600:2000:1001::7
 tuduli.cv.		28800	IN	NS	ns1.webhs.org.
 tuduli.cv.		28800	IN	NS	ns2.webhs.org.
 tuduli.cv.		28800	IN	NS	ns3.webhs.org.
+tuduli.cv.		28800	IN	AAAA	2600:2000:1000::7
+tuduli.cv.		28800	IN	AAAA	2600:2000:1001::7
 tui-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 tui-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
 tui-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -5312,9 +5309,13 @@ webzilla.cv.		28800	IN	NS	dns1.ibername.com.
 webzilla.cv.		28800	IN	NS	dns2.ibername.com.
 webzilla.cv.		28800	IN	NS	dns3.ibername.net.
 webzilla.cv.		28800	IN	NS	dns4.ibername.net.
+wetrust.cv.		28800	IN	AAAA	2001:41d0:8:3730::
 wetrust.cv.		28800	IN	NS	ns1.pipedns.com.
 wetrust.cv.		28800	IN	NS	ns2.pipedns.com.
 wetrust.cv.		28800	IN	NS	ns3.pipedns.com.
+wine.cv.		28800	IN	NS	ns1.ptservidor.net.
+wine.cv.		28800	IN	NS	ns2.ptservidor.net.
+wine.cv.		28800	IN	NS	ns3.ptservidor.net.
 wit.cv.			28800	IN	NS	ns1.wit.cv.
 mail.wit.cv.		28800	IN	A	193.37.152.220
 ns1.wit.cv.		28800	IN	A	193.37.152.220
@@ -5356,4 +5357,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018110701 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018110801 86400 7200 2592000 300

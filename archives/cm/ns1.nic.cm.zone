@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018111421 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1542225612"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018111500 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1542236413"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -19331,6 +19331,8 @@ btg.cm.			86400	IN	NS	ns1.parkingcrew.net.
 btg.cm.			86400	IN	NS	ns2.parkingcrew.net.
 btinternet.cm.		86400	IN	NS	ns1.parkingcrew.net.
 btinternet.cm.		86400	IN	NS	ns2.parkingcrew.net.
+btk.cm.			86400	IN	NS	dns1.registrar-servers.com.
+btk.cm.			86400	IN	NS	dns2.registrar-servers.com.
 btm.cm.			86400	IN	NS	dns1.registrar-servers.com.
 btm.cm.			86400	IN	NS	dns2.registrar-servers.com.
 btp-matgenie.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
@@ -36963,14 +36965,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	88.208.210.176
 ns1.leapahead.cm.	86400	IN	A	213.171.196.238
-ns1.leapahead.cm.	86400	IN	A	88.208.249.116
+ns1.leapahead.cm.	86400	IN	A	88.208.210.176
 ns1.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	88.208.249.116
+ns2.leapahead.cm.	86400	IN	A	213.171.196.238
+ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 ns2.leapahead.cm.	86400	IN	A	213.171.198.127
-ns2.leapahead.cm.	86400	IN	A	88.208.210.232
-ns2.leapahead.cm.	86400	IN	A	213.171.196.238
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learn.cm.		86400	IN	NS	ns1.dns.com.
@@ -37474,9 +37476,10 @@ lightinthebox.cm.	86400	IN	NS	ns3.eurodns.com.
 lightinthebox.cm.	86400	IN	NS	ns4.eurodns.com.
 lijiang.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 lijiang.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
-likebets.cm.		86400	IN	NS	ns1.101domain.com.
-likebets.cm.		86400	IN	NS	ns2.101domain.com.
-likebets.cm.		86400	IN	NS	ns5.101domain.com.
+likebets.cm.		86400	IN	NS	ns1.likebets.cm.
+likebets.cm.		86400	IN	NS	ns2.likebets.cm.
+ns1.likebets.cm.	86400	IN	A	5.79.66.182
+ns2.likebets.cm.	86400	IN	A	37.48.86.234
 likufix.cm.		86400	IN	NS	lhpns01.liebherr.de.
 likufix.cm.		86400	IN	NS	ns3.lemarit.net.
 likufix.cm.		86400	IN	NS	ns4.lemarit.de.
@@ -46355,6 +46358,8 @@ rebo.cm.		86400	IN	NS	ns3.myhostadmin.net.
 rebo.cm.		86400	IN	NS	ns4.myhostadmin.net.
 rebo.cm.		86400	IN	NS	ns5.myhostadmin.net.
 rebo.cm.		86400	IN	NS	ns6.myhostadmin.net.
+rec-commando.cm.	86400	IN	NS	hybrid1692.fr.ns.planethoster.net.
+rec-commando.cm.	86400	IN	NS	hybrid1692-1.fr.ns.planethoster.net.
 recator.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 recator.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
 recipes.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
@@ -54695,8 +54700,6 @@ waimai.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 waimai.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
 waimao.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 waimao.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
-wait.cm.		86400	IN	NS	dns101.registrar-servers.com.
-wait.cm.		86400	IN	NS	dns102.registrar-servers.com.
 waitrose.cm.		86400	IN	NS	ns1.above.com.
 waitrose.cm.		86400	IN	NS	ns2.above.com.
 waiweinv.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -58520,4 +58523,4 @@ zzzw.cm.		86400	IN	NS	ns3.myhostadmin.net.
 zzzw.cm.		86400	IN	NS	ns4.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018111421 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018111500 28800 3600 604800 86400

@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018111422 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018111505 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -14,7 +14,7 @@ cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
 cm.			86400	IN	A	195.24.205.60
-cm.			86400	IN	TXT	"Generation Time: 1542229216"
+cm.			86400	IN	TXT	"Generation Time: 1542254413"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -19331,6 +19331,8 @@ btg.cm.			86400	IN	NS	ns1.parkingcrew.net.
 btg.cm.			86400	IN	NS	ns2.parkingcrew.net.
 btinternet.cm.		86400	IN	NS	ns1.parkingcrew.net.
 btinternet.cm.		86400	IN	NS	ns2.parkingcrew.net.
+btk.cm.			86400	IN	NS	dns1.registrar-servers.com.
+btk.cm.			86400	IN	NS	dns2.registrar-servers.com.
 btm.cm.			86400	IN	NS	dns1.registrar-servers.com.
 btm.cm.			86400	IN	NS	dns2.registrar-servers.com.
 btp-matgenie.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
@@ -23786,8 +23788,8 @@ dan.cm.			86400	IN	NS	ns.dan.tv.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	A	185.92.222.117
 ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
+ns.dan.cm.		86400	IN	A	185.92.222.117
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -33339,12 +33341,6 @@ ifonly.cm.		86400	IN	NS	dns2.idp365.net.
 ifonly.cm.		86400	IN	NS	dns3.idp365.net.
 iforex.cm.		86400	IN	NS	ns1.parkingcrew.net.
 iforex.cm.		86400	IN	NS	ns2.parkingcrew.net.
-ifx.cm.			86400	IN	NS	ns1.myhostadmin.net.
-ifx.cm.			86400	IN	NS	ns2.myhostadmin.net.
-ifx.cm.			86400	IN	NS	ns3.myhostadmin.net.
-ifx.cm.			86400	IN	NS	ns4.myhostadmin.net.
-ifx.cm.			86400	IN	NS	ns5.myhostadmin.net.
-ifx.cm.			86400	IN	NS	ns6.myhostadmin.net.
 ig.cm.			86400	IN	NS	ns1.parkingcrew.net.
 ig.cm.			86400	IN	NS	ns2.parkingcrew.net.
 ig-vsecure.cm.		86400	IN	NS	ns11.ovh.net.
@@ -37474,9 +37470,10 @@ lightinthebox.cm.	86400	IN	NS	ns3.eurodns.com.
 lightinthebox.cm.	86400	IN	NS	ns4.eurodns.com.
 lijiang.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 lijiang.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
-likebets.cm.		86400	IN	NS	ns1.101domain.com.
-likebets.cm.		86400	IN	NS	ns2.101domain.com.
-likebets.cm.		86400	IN	NS	ns5.101domain.com.
+likebets.cm.		86400	IN	NS	ns1.likebets.cm.
+likebets.cm.		86400	IN	NS	ns2.likebets.cm.
+ns1.likebets.cm.	86400	IN	A	5.79.66.182
+ns2.likebets.cm.	86400	IN	A	37.48.86.234
 likufix.cm.		86400	IN	NS	ns3.lemarit.net.
 likufix.cm.		86400	IN	NS	ns4.lemarit.de.
 likufix.cm.		86400	IN	NS	lhpns01.liebherr.de.
@@ -39945,6 +39942,8 @@ mksinst.cm.		86400	IN	NS	ns3.navidns.net.
 mksinstruments.cm.	86400	IN	NS	ns1.navidns.net.
 mksinstruments.cm.	86400	IN	NS	ns2.navidns.net.
 mksinstruments.cm.	86400	IN	NS	ns3.navidns.net.
+mkt.cm.			86400	IN	NS	vin.ns.cloudflare.com.
+mkt.cm.			86400	IN	NS	brit.ns.cloudflare.com.
 ml.cm.			86400	IN	NS	dns1.cscdns.net.
 ml.cm.			86400	IN	NS	dns2.cscdns.net.
 mlb.cm.			86400	IN	NS	ns1.hasns.com.
@@ -45804,6 +45803,8 @@ qpgame.cm.		86400	IN	NS	ns1.cloud-dns.net.
 qpgame.cm.		86400	IN	NS	ns2.cloud-dns.net.
 qpl.cm.			86400	IN	NS	ns1.ky88.com.
 qpl.cm.			86400	IN	NS	ns2.ky88.com.
+qpqp.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+qpqp.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 qps.cm.			86400	IN	NS	ns1.ky88.com.
 qps.cm.			86400	IN	NS	ns2.ky88.com.
 qpt.cm.			86400	IN	NS	ns1.ky88.com.
@@ -54697,8 +54698,6 @@ waimai.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 waimai.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
 waimao.cm.		86400	IN	NS	ns1-show.myhostadmin.net.
 waimao.cm.		86400	IN	NS	ns2-show.myhostadmin.net.
-wait.cm.		86400	IN	NS	dns101.registrar-servers.com.
-wait.cm.		86400	IN	NS	dns102.registrar-servers.com.
 waitrose.cm.		86400	IN	NS	ns1.above.com.
 waitrose.cm.		86400	IN	NS	ns2.above.com.
 waiweinv.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -58522,4 +58521,4 @@ zzzw.cm.		86400	IN	NS	ns3.myhostadmin.net.
 zzzw.cm.		86400	IN	NS	ns4.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018111422 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018111505 28800 3600 604800 86400

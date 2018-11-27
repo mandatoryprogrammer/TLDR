@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018112706 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1543294809"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018112709 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1543305612"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -8785,6 +8785,8 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6560.cm.		86400	IN	NS	ns2.dns.com.
 6565.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 6565.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+65655.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+65655.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 656565.cm.		86400	IN	NS	ns2.dnsdun.com.
 656565.cm.		86400	IN	NS	ns2.dnsdun.net.
 656565.cm.		86400	IN	NS	ns5.dnsdun.com.
@@ -23446,8 +23448,8 @@ dan.cm.			86400	IN	NS	ns.dan.cm.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 ns.dan.cm.		86400	IN	A	185.92.222.117
+ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -36349,14 +36351,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns1.leapahead.cm.	86400	IN	A	88.208.249.116
-ns1.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns1.leapahead.cm.	86400	IN	A	88.208.210.176
-ns2.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	213.171.198.127
 ns2.leapahead.cm.	86400	IN	A	88.208.210.232
-ns2.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	88.208.249.125
+ns2.leapahead.cm.	86400	IN	A	213.171.196.238
+ns2.leapahead.cm.	86400	IN	A	213.171.198.127
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learn.cm.		86400	IN	NS	ns1.dns.com.
@@ -41764,8 +41766,6 @@ offcn.cm.		86400	IN	NS	bob.ns.cloudflare.com.
 offcn.cm.		86400	IN	NS	maria.ns.cloudflare.com.
 offer.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 offer.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-offers.cm.		86400	IN	NS	ns1.bodis.com.
-offers.cm.		86400	IN	NS	ns2.bodis.com.
 offerup.cm.		86400	IN	NS	ns1.parkingcrew.net.
 offerup.cm.		86400	IN	NS	ns2.parkingcrew.net.
 office.cm.		86400	IN	NS	ns1.msft.net.
@@ -43513,8 +43513,9 @@ piratebay.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 piratebay.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
 piriform.cm.		86400	IN	NS	ns1.eurodns.com.
 piriform.cm.		86400	IN	NS	ns2.eurodns.com.
-pirnhub.cm.		86400	IN	NS	ns1.bodis.com.
-pirnhub.cm.		86400	IN	NS	ns2.bodis.com.
+pirnhub.cm.		86400	IN	NS	ns1188.ispapi.net.
+pirnhub.cm.		86400	IN	NS	ns2224.ispapi.net.
+pirnhub.cm.		86400	IN	NS	ns3211.ispapi.net.
 pise.cm.		86400	IN	NS	ns1.parkingcrew.net.
 pise.cm.		86400	IN	NS	ns2.parkingcrew.net.
 pitchfork.cm.		86400	IN	NS	ns1.hasns.com.
@@ -49601,6 +49602,8 @@ swoodoo.cm.		86400	IN	NS	ns1.dnspanel.com.
 swoodoo.cm.		86400	IN	NS	ns2.dnspanel.com.
 swoosh.cm.		86400	IN	NS	nameserver-a.nike.com.
 swoosh.cm.		86400	IN	NS	nameserver-b.nike.com.
+swty.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+swty.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 sx.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 sx.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 sxw.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -55465,8 +55468,9 @@ xvds.cm.		86400	IN	NS	ns3.above.com.
 xvds.cm.		86400	IN	NS	ns4.above.com.
 xvedio.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 xvedio.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
-xvideis.cm.		86400	IN	NS	ns1.bodis.com.
-xvideis.cm.		86400	IN	NS	ns2.bodis.com.
+xvideis.cm.		86400	IN	NS	ns1188.ispapi.net.
+xvideis.cm.		86400	IN	NS	ns2224.ispapi.net.
+xvideis.cm.		86400	IN	NS	ns3211.ispapi.net.
 xvideo.cm.		86400	IN	NS	ns1.bodis.com.
 xvideo.cm.		86400	IN	NS	ns2.bodis.com.
 xvideos.cm.		86400	IN	NS	ns10.dnsmadeeasy.com.
@@ -57033,4 +57037,4 @@ zzz.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 zzz.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018112706 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018112709 28800 3600 604800 86400

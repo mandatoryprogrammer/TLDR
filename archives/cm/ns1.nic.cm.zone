@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018112712 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1543316413"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018112715 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1543327214"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -13826,6 +13826,8 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 9w.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 9x.cm.			86400	IN	NS	ns1.parkingcrew.net.
 9x.cm.			86400	IN	NS	ns2.parkingcrew.net.
+9y.cm.			86400	IN	NS	dave.ns.cloudflare.com.
+9y.cm.			86400	IN	NS	lia.ns.cloudflare.com.
 9yh.cm.			86400	IN	NS	ns1.dns.com.
 9yh.cm.			86400	IN	NS	ns2.dns.com.
 9z.cm.			86400	IN	NS	ns1.myhostadmin.net.
@@ -16579,6 +16581,11 @@ ay.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 ay.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 aya.cm.			86400	IN	NS	ns5.myhostadmin.net.
 aya.cm.			86400	IN	NS	ns6.myhostadmin.net.
+ayawin.cm.		86400	IN	NS	ns1.francedns.com.
+ayawin.cm.		86400	IN	NS	ns2.francedns.com.
+ayawin.cm.		86400	IN	NS	ns3.francedns.com.
+ayawin.cm.		86400	IN	NS	ns4.francedns.com.
+ayawin.cm.		86400	IN	NS	ns5.francedns.com.
 ayde.cm.		86400	IN	NS	dns1.registrar-servers.com.
 ayde.cm.		86400	IN	NS	dns2.registrar-servers.com.
 ayomedia.cm.		86400	IN	NS	ns1.akiba01.com.
@@ -20771,6 +20778,8 @@ cellulebadbm.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
 cellulebadbm.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
 cellulebadbm-mintp.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
 cellulebadbm-mintp.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
+cemavet.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
+cemavet.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 cenadi.cm.		86400	IN	NS	netstar.cenadi.cm.
 netstar.cenadi.cm.	86400	IN	A	195.24.198.4
 cenc.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
@@ -23093,8 +23102,6 @@ cs-check.cm.		86400	IN	NS	dns1.onamae.com.
 cs-check.cm.		86400	IN	NS	dns2.onamae.com.
 csair.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 csair.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-csc.cm.			86400	IN	NS	ns3.myhostadmin.net.
-csc.cm.			86400	IN	NS	ns4.myhostadmin.net.
 cscdbs.cm.		86400	IN	NS	dns1.cscdns.net.
 cscdbs.cm.		86400	IN	NS	dns2.cscdns.net.
 cscdigitalbrandservice.cm. 86400 IN	NS	dns1.cscdns.net.
@@ -25553,6 +25560,8 @@ edumela.cm.		86400	IN	NS	dns5.registrar-servers.com.
 edumela.cm.		86400	IN	NS	dns4.registrar-servers.com.
 edumela.cm.		86400	IN	NS	dns3.registrar-servers.com.
 edumela.cm.		86400	IN	NS	dns2.registrar-servers.com.
+eduna.cm.		86400	IN	NS	ns4011.hostgator.com.
+eduna.cm.		86400	IN	NS	ns4012.hostgator.com.
 edusupport.cm.		86400	IN	NS	mbam.camnet.cm.
 edusupport.cm.		86400	IN	NS	kim.camnet.cm.
 edv.cm.			86400	IN	NS	ns-cloud-e1.googledomains.com.
@@ -28411,8 +28420,9 @@ gametea.cm.		86400	IN	NS	ns1.cloud-dns.net.
 gametea.cm.		86400	IN	NS	ns2.cloud-dns.net.
 gametwist.cm.		86400	IN	NS	ns1.lnkserver.com.
 gametwist.cm.		86400	IN	NS	ns2.lnkserver.com.
-gamil.cm.		86400	IN	NS	ns1.bodis.com.
-gamil.cm.		86400	IN	NS	ns2.bodis.com.
+gamil.cm.		86400	IN	NS	ns1188.ispapi.net.
+gamil.cm.		86400	IN	NS	ns2224.ispapi.net.
+gamil.cm.		86400	IN	NS	ns3211.ispapi.net.
 gaming.cm.		86400	IN	NS	ns1.4.cn.
 gaming.cm.		86400	IN	NS	ns2.4.cn.
 gamingclub.cm.		86400	IN	NS	ns1.dnsoperations.net.
@@ -36360,14 +36370,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns1.leapahead.cm.	86400	IN	A	88.208.210.176
-ns1.leapahead.cm.	86400	IN	A	88.208.249.116
 ns1.leapahead.cm.	86400	IN	A	213.171.198.127
-ns2.leapahead.cm.	86400	IN	A	88.208.249.125
+ns1.leapahead.cm.	86400	IN	A	88.208.249.116
+ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
-ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 ns2.leapahead.cm.	86400	IN	A	213.171.198.127
+ns2.leapahead.cm.	86400	IN	A	88.208.210.232
+ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learn.cm.		86400	IN	NS	ns1.dns.com.
@@ -45207,6 +45217,8 @@ raooo.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 raooo.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 raoulrubennjionou.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
 raoulrubennjionou.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
+rapec.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
+rapec.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 rapidshare.cm.		86400	IN	NS	ns1.parkingcrew.net.
 rapidshare.cm.		86400	IN	NS	ns2.parkingcrew.net.
 rapidssl.cm.		86400	IN	NS	a4.nstld.com.
@@ -52034,6 +52046,8 @@ uniccshop.cm.		86400	IN	NS	dns1.yandex.net.
 uniccshop.cm.		86400	IN	NS	dns2.yandex.net.
 unicity.cm.		86400	IN	NS	ram.ns.cloudflare.com.
 unicity.cm.		86400	IN	NS	rose.ns.cloudflare.com.
+unicom.cm.		86400	IN	NS	ns1.akiba01.com.
+unicom.cm.		86400	IN	NS	ns2.akiba01.com.
 unicomsuport.cm.	86400	IN	NS	ns1.veryfreehosting.net.
 unicomsuport.cm.	86400	IN	NS	ns2.veryfreehosting.net.
 unicorn.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -56154,6 +56168,8 @@ yoomee-university.cm.	86400	IN	NS	blinuxns7.securehostdns.com.
 yoomee-university.cm.	86400	IN	NS	blinuxns8.securehostdns.com.
 yoomeemobile.cm.	86400	IN	NS	blinuxns7.securehostdns.com.
 yoomeemobile.cm.	86400	IN	NS	blinuxns8.securehostdns.com.
+yoomeeonline.cm.	86400	IN	NS	blinuxns7.securehostdns.com.
+yoomeeonline.cm.	86400	IN	NS	blinuxns8.securehostdns.com.
 yoomeesurvey.cm.	86400	IN	NS	blinuxns7.securehostdns.com.
 yoomeesurvey.cm.	86400	IN	NS	blinuxns8.securehostdns.com.
 yoox.cm.		86400	IN	NS	ns1.bodis.com.
@@ -57052,4 +57068,4 @@ zzz.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 zzz.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018112712 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018112715 28800 3600 604800 86400

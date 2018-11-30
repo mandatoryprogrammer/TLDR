@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018112901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018113001 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -331,6 +331,10 @@ arlaresidencial.cv.	28800	IN	NS	dns2.prime.cv.
 armandocunha.cv.	28800	IN	NS	ns1.bluehost.com.
 armandocunha.cv.	28800	IN	NS	ns2.bluehost.com.
 mail.armandocunha.cv.	28800	IN	A	69.195.124.219
+arme.cv.		28800	IN	NS	ns1.arme.cv.
+arme.cv.		28800	IN	NS	ns2.arme.cv.
+ns1.arme.cv.		28800	IN	A	41.221.192.219
+ns2.arme.cv.		28800	IN	A	41.221.192.221
 armindosilva.cv.	28800	IN	NS	dns1.prime.cv.
 armindosilva.cv.	28800	IN	NS	dns2.prime.cv.
 arnaldosilva.cv.	28800	IN	NS	ns7.securenet-server.net.
@@ -631,13 +635,13 @@ bpp.cv.			28800	IN	NS	1.nshub.com.
 bpp.cv.			28800	IN	NS	2.nshub.com.
 brakka.cv.		28800	IN	NS	ns1071.ifastnet.com.
 brakka.cv.		28800	IN	NS	ns2071.ifastnet.com.
-brilho.cv.		28800	IN	AAAA	2607:f0d0:3001:92::2
-brilho.cv.		28800	IN	A	50.23.197.95
-brilho.cv.		28800	IN	A	70.39.97.253
 brilho.cv.		28800	IN	NS	ns1.afraid.org.
 brilho.cv.		28800	IN	NS	ns2.afraid.org.
 brilho.cv.		28800	IN	NS	ns3.afraid.org.
 brilho.cv.		28800	IN	NS	ns4.afraid.org.
+brilho.cv.		28800	IN	AAAA	2607:f0d0:3001:92::2
+brilho.cv.		28800	IN	A	50.23.197.95
+brilho.cv.		28800	IN	A	70.39.97.253
 brugileventos.cv.	28800	IN	NS	ns1.ams41.siteground.eu.
 brugileventos.cv.	28800	IN	NS	ns2.ams41.siteground.eu.
 bsa.cv.			28800	IN	NS	ns1.tmais.cv.
@@ -1137,11 +1141,11 @@ boavistamorena.com.cv.	28800	IN	NS	ns3.dreamhost.com.
 bobparsons.com.cv.	28800	IN	NS	NS1.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS2.101DOMAIN.COM.
 bobparsons.com.cv.	28800	IN	NS	NS5.101DOMAIN.COM.
-bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
-bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 bodyconcept.com.cv.	28800	IN	NS	ns1.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns2.ptservidor.net.
 bodyconcept.com.cv.	28800	IN	NS	ns3.ptservidor.net.
+bodyconcept.com.cv.	28800	IN	AAAA	2001:41d0:8:3730::
+bodyconcept.com.cv.	28800	IN	A	88.198.107.121
 boulevardboutique.com.cv. 28800	IN	NS	NS1.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS2.101DOMAIN.COM.
 boulevardboutique.com.cv. 28800	IN	NS	NS5.101DOMAIN.COM.
@@ -2725,11 +2729,11 @@ golden.cv.		28800	IN	NS	ns1.host-ed.me.
 golden.cv.		28800	IN	NS	ns2.host-ed.me.
 goldentours.cv.		28800	IN	NS	ns1.weblx-1.net.
 goldentours.cv.		28800	IN	NS	ns2.weblx-1.net.
+google.cv.		28800	IN	AAAA	2a00:1450:400c:c01::68
 google.cv.		28800	IN	NS	ns1.google.com.
 google.cv.		28800	IN	NS	ns2.google.com.
 google.cv.		28800	IN	NS	ns3.google.com.
 google.cv.		28800	IN	NS	ns4.google.com.
-google.cv.		28800	IN	AAAA	2a00:1450:400c:c01::68
 gov.cv.			28800	IN	NS	ns1.gov.cv.
 gov.cv.			28800	IN	NS	ns2.gov.cv.
 mail.gov.cv.		28800	IN	A	213.150.194.6
@@ -3022,14 +3026,14 @@ imobiliariaporta-aberta.cv. 28800 IN	NS	bonnie.ns.cloudflare.com.
 mail.imobiliariaporta-aberta.cv. 28800 IN A	151.236.56.134
 imobisol.cv.		28800	IN	NS	dns1.improxy.com.
 imobisol.cv.		28800	IN	NS	dns2.improxy.com.
-imoglobal.cv.		28800	IN	NS	ns13.urlnameserver.com.
-imoglobal.cv.		28800	IN	NS	ns14.urlnameserver.com.
-imoglobal.cv.		28800	IN	NS	ns17.dollar2host.com.
-imoglobal.cv.		28800	IN	NS	ns18.dollar2host.com.
 imoglobal.cv.		28800	IN	A	62.210.149.103
 imoglobal.cv.		28800	IN	A	72.20.38.137
 imoglobal.cv.		28800	IN	A	72.20.53.50
 imoglobal.cv.		28800	IN	A	208.64.122.242
+imoglobal.cv.		28800	IN	NS	ns13.urlnameserver.com.
+imoglobal.cv.		28800	IN	NS	ns14.urlnameserver.com.
+imoglobal.cv.		28800	IN	NS	ns17.dollar2host.com.
+imoglobal.cv.		28800	IN	NS	ns18.dollar2host.com.
 imoluxe.cv.		28800	IN	NS	freedns1.registrar-servers.com.
 imoluxe.cv.		28800	IN	NS	freedns2.registrar-servers.com.
 imoluxe.cv.		28800	IN	NS	freedns3.registrar-servers.com.
@@ -3358,13 +3362,13 @@ legislativas2011.cv.	28800	IN	NS	ns3.gov.cv.
 legislativas2011.cv.	28800	IN	NS	ns4.gov.cv.
 legislativas2016.cv.	28800	IN	NS	ns1.gov.cv.
 legislativas2016.cv.	28800	IN	NS	ns2.gov.cv.
+lifesmart.cv.		28800	IN	AAAA	2607:f0d0:3001:92::2
+lifesmart.cv.		28800	IN	A	50.23.197.94
+lifesmart.cv.		28800	IN	A	70.39.97.253
 lifesmart.cv.		28800	IN	NS	ns1.afraid.org.
 lifesmart.cv.		28800	IN	NS	ns2.afraid.org.
 lifesmart.cv.		28800	IN	NS	ns3.afraid.org.
 lifesmart.cv.		28800	IN	NS	ns4.afraid.org.
-lifesmart.cv.		28800	IN	AAAA	2607:f0d0:3001:92::2
-lifesmart.cv.		28800	IN	A	50.23.197.94
-lifesmart.cv.		28800	IN	A	70.39.97.253
 liftech.cv.		28800	IN	NS	ns.netgocioserver3.com.
 liftech.cv.		28800	IN	NS	ns2.netgocioserver3.com.
 lightset.cv.		28800	IN	NS	ns1.servicosinternet.com.
@@ -3888,9 +3892,9 @@ acrh.org.cv.		28800	IN	NS	ns1.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns2.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns3.nameresolve.com.
 acrh.org.cv.		28800	IN	NS	ns4.nameresolve.com.
+acrides.org.cv.		28800	IN	A	41.221.194.233
 acrides.org.cv.		28800	IN	NS	ns1.gov.cv.
 acrides.org.cv.		28800	IN	NS	ns2.gov.cv.
-acrides.org.cv.		28800	IN	A	41.221.194.233
 adad.org.cv.		28800	IN	NS	ns.jcle.pt.
 adad.org.cv.		28800	IN	NS	ns.jcle.net.
 adventistas.org.cv.	28800	IN	NS	ns1.servconfig.com.
@@ -5379,4 +5383,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018112901 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018113001 86400 7200 2592000 300

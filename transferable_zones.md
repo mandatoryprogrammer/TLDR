@@ -4,7 +4,6 @@
 * `.` via `c.root-servers.net.`: [Click here to view zone data.](archives/root/c.root-servers.net.zone)
 * `.` via `b.root-servers.net.`: [Click here to view zone data.](archives/root/b.root-servers.net.zone)
 * `.` via `k.root-servers.net.`: [Click here to view zone data.](archives/root/k.root-servers.net.zone)
-* `.` via `g.root-servers.net.`: [Click here to view zone data.](archives/root/g.root-servers.net.zone)
 * `.` via `f.root-servers.net.`: [Click here to view zone data.](archives/root/f.root-servers.net.zone)
 * `ao` via `ns02.dns.ao.`: [Click here to view zone data.](archives/ao/ns02.dns.ao.zone)
 * `arpa` via `k.root-servers.net.`: [Click here to view zone data.](archives/arpa/k.root-servers.net.zone)

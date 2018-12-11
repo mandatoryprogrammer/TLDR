@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR rw. @ns3.ricta.org.rw. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018121116 86400 7200 604800 3600
-rw.			3600	IN	TXT	"Generation Time: 1544536991"
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018121119 86400 7200 604800 3600
+rw.			3600	IN	TXT	"Generation Time: 1544547804"
 rw.			3600	IN	NS	ns1.ricta.org.rw.
 rw.			3600	IN	NS	ns3.ricta.org.rw.
 rw.			3600	IN	NS	pch.ricta.org.rw.
@@ -852,6 +852,10 @@ bpress.rw.		3600	IN	NS	ns1.bpress.rw.
 bpress.rw.		3600	IN	NS	ns2.bpress.rw.
 ns1.bpress.rw.		3600	IN	A	162.213.250.170
 ns2.bpress.rw.		3600	IN	A	162.213.250.172
+braincomedia.rw.	3600	IN	NS	ns1.clientvm.sitevalley.com.
+braincomedia.rw.	3600	IN	NS	ns2.clientvm.sitevalley.com.
+braincomedia.rw.	3600	IN	NS	pdns1.sitevalley.com.
+braincomedia.rw.	3600	IN	NS	pdns2.sitevalley.com.
 bralirwa.rw.		3600	IN	NS	ns1.ricta.org.rw.
 bralirwa.rw.		3600	IN	NS	ns2.ricta.org.rw.
 branch.rw.		3600	IN	NS	ns1.101domain.com.
@@ -1212,8 +1216,9 @@ cornwine.rw.		3600	IN	NS	ns-2017.awsdns-60.co.uk.
 corporatenews.rw.	3600	IN	NS	ns3.afriregister.com.
 corporatenews.rw.	3600	IN	NS	ns5.afriregister.com.
 corporatenews.rw.	3600	IN	NS	ns6.afriregister.com.
-covenants.rw.		3600	IN	NS	dns1.namecheaphosting.com.
-covenants.rw.		3600	IN	NS	dns2.namecheaphosting.com.
+covenants.rw.		3600	IN	NS	ns3.afriregister.com.
+covenants.rw.		3600	IN	NS	ns5.afriregister.com.
+covenants.rw.		3600	IN	NS	ns6.afriregister.com.
 cp.rw.			3600	IN	NS	ns5.ricta.org.rw.
 cp.rw.			3600	IN	NS	ns6.ricta.org.rw.
 cpaj.rw.		3600	IN	NS	ns1.rdb.rw.
@@ -1813,6 +1818,9 @@ farmfresh.rw.		3600	IN	NS	ns3.sawasawa.com.
 farmfresh.rw.		3600	IN	NS	ns10.sawasawa.net.
 fashion.rw.		3600	IN	NS	ns1671.websitewelcome.com.
 fashion.rw.		3600	IN	NS	ns1672.websitewelcome.com.
+fashiontab.rw.		3600	IN	NS	ns3.afriregister.com.
+fashiontab.rw.		3600	IN	NS	ns5.afriregister.com.
+fashiontab.rw.		3600	IN	NS	ns6.afriregister.com.
 fasson.rw.		3600	IN	NS	pdns1.ultradns.net.
 fasson.rw.		3600	IN	NS	pdns2.ultradns.net.
 fastnet.rw.		3600	IN	NS	ns1.kaneza.com.
@@ -2436,8 +2444,9 @@ holcim.rw.		3600	IN	NS	ns01ch.holcim.com.
 holcim.rw.		3600	IN	NS	ns01us.holcim.com.
 holylife.rw.		3600	IN	NS	ns5.afriregister.com.
 holylife.rw.		3600	IN	NS	ns6.afriregister.com.
-homeland.rw.		3600	IN	NS	dns1.namecheaphosting.com.
-homeland.rw.		3600	IN	NS	dns2.namecheaphosting.com.
+homeland.rw.		3600	IN	NS	ns3.afriregister.com.
+homeland.rw.		3600	IN	NS	ns5.afriregister.com.
+homeland.rw.		3600	IN	NS	ns6.afriregister.com.
 homeness.rw.		3600	IN	NS	ns1.theclickhost.com.
 homeness.rw.		3600	IN	NS	ns2.theclickhost.com.
 honda.rw.		3600	IN	NS	rns1.rightsdns.com.
@@ -3069,6 +3078,8 @@ kayweddings.rw.		3600	IN	NS	ns5.afriregister.com.
 kayweddings.rw.		3600	IN	NS	ns6.afriregister.com.
 kazinikazi.rw.		3600	IN	NS	ns1.hostholik.com.
 kazinikazi.rw.		3600	IN	NS	ns2.hostholik.com.
+kazirealestate.rw.	3600	IN	NS	ns1.bh-67.webhostbox.net.
+kazirealestate.rw.	3600	IN	NS	ns2.bh-67.webhostbox.net.
 kbc.rw.			3600	IN	NS	ns8191.hostgator.com.
 kbc.rw.			3600	IN	NS	ns8192.hostgator.com.
 kcafe.rw.		3600	IN	NS	ns1.digitalocean.com.
@@ -3826,6 +3837,7 @@ mtnbusiness.rw.		3600	IN	NS	ns2.lexsynergy.us.
 mtnbusiness.rw.		3600	IN	NS	ns3.lexsynergy.info.
 mtnmail.rw.		3600	IN	NS	ns1.lexsynergy.net.
 mtnmail.rw.		3600	IN	NS	ns2.lexsynergy.us.
+mtnmail.rw.		3600	IN	NS	ns3.lexsynergy.info.
 mtnmobilemoney.rw.	3600	IN	NS	dns1.idp365.net.
 mtnmobilemoney.rw.	3600	IN	NS	dns2.idp365.net.
 mtnmobilemoney.rw.	3600	IN	NS	dns3.idp365.net.
@@ -6260,4 +6272,4 @@ zurich.rw.		3600	IN	NS	dns1.cscdns.net.
 zurich.rw.		3600	IN	NS	dns2.cscdns.net.
 zz.rw.			3600	IN	NS	june.ns.cloudflare.com.
 zz.rw.			3600	IN	NS	thomas.ns.cloudflare.com.
-rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018121116 86400 7200 604800 3600
+rw.			3600	IN	SOA	registry.ricta.org.rw. info.ricta.org.rw. 2018121119 86400 7200 604800 3600

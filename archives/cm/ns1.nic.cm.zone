@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121212 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1544612416"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121215 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1544623216"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -15269,6 +15269,8 @@ aiwu.cm.		86400	IN	NS	ns1.parkingcrew.net.
 aiwu.cm.		86400	IN	NS	ns2.parkingcrew.net.
 aj.cm.			86400	IN	NS	andy.ns.cloudflare.com.
 aj.cm.			86400	IN	NS	rita.ns.cloudflare.com.
+ajem.cm.		86400	IN	NS	ns1.mboahost.com.
+ajem.cm.		86400	IN	NS	ns2.mboahost.com.
 ajo.cm.			86400	IN	NS	dns14.ovh.net.
 ajo.cm.			86400	IN	NS	ns14.ovh.net.
 ak.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
@@ -23909,8 +23911,8 @@ dan.cm.			86400	IN	NS	ns.dan.cm.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 ns.dan.cm.		86400	IN	A	185.92.222.117
+ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -27172,8 +27174,8 @@ extendedstayhotels.cm.	86400	IN	NS	ns1lmy.name.com.
 extendedstayhotels.cm.	86400	IN	NS	ns2fhn.name.com.
 extendedstayhotels.cm.	86400	IN	NS	ns3bgq.name.com.
 extendedstayhotels.cm.	86400	IN	NS	ns4qxz.name.com.
-exterra.cm.		86400	IN	NS	ns1.webfutur.com.
-exterra.cm.		86400	IN	NS	ns2.webfutur.net.
+exterra.cm.		86400	IN	NS	dns0.webfutur.com.
+exterra.cm.		86400	IN	NS	dns1.webfutur.com.
 extra.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 extra.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
 extragum.cm.		86400	IN	NS	ns1.markmonitor.com.
@@ -29129,10 +29131,8 @@ gel.cm.			86400	IN	NS	ns1.ndns.cn.
 gel.cm.			86400	IN	NS	ns2.ndns.cn.
 gelbooru.cm.		86400	IN	NS	ns1.above.com.
 gelbooru.cm.		86400	IN	NS	ns2.above.com.
-gemat.cm.		86400	IN	NS	ns1045.ui-dns.org.
-gemat.cm.		86400	IN	NS	ns1045.ui-dns.de.
-gemat.cm.		86400	IN	NS	ns1045.ui-dns.biz.
-gemat.cm.		86400	IN	NS	ns1045.ui-dns.com.
+gemat.cm.		86400	IN	NS	dns113.ovh.net.
+gemat.cm.		86400	IN	NS	ns113.ovh.net.
 gemini.cm.		86400	IN	NS	ns1.hasns.com.
 gemini.cm.		86400	IN	NS	ns2.hasns.com.
 gemini.cm.		86400	IN	NS	ns3.hasns.com.
@@ -36895,14 +36895,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	213.171.196.238
-ns1.leapahead.cm.	86400	IN	A	88.208.249.116
 ns1.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	88.208.249.116
 ns1.leapahead.cm.	86400	IN	A	88.208.210.176
-ns2.leapahead.cm.	86400	IN	A	88.208.249.125
+ns1.leapahead.cm.	86400	IN	A	213.171.196.238
+ns2.leapahead.cm.	86400	IN	A	213.171.198.127
 ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
-ns2.leapahead.cm.	86400	IN	A	213.171.198.127
+ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learn.cm.		86400	IN	NS	ns1.dns.com.
@@ -38947,8 +38947,6 @@ meh.cm.			86400	IN	NS	ns1.parkingcrew.net.
 meh.cm.			86400	IN	NS	ns2.parkingcrew.net.
 mei.cm.			86400	IN	NS	ns1.bodis.com.
 mei.cm.			86400	IN	NS	ns2.bodis.com.
-meibang.cm.		86400	IN	NS	ns3.myhostadmin.net.
-meibang.cm.		86400	IN	NS	ns4.myhostadmin.net.
 meigaomei.cm.		86400	IN	NS	ns1.4.cn.
 meigaomei.cm.		86400	IN	NS	ns2.4.cn.
 meihao.cm.		86400	IN	NS	bayan.ns.cloudflare.com.
@@ -42614,6 +42612,8 @@ onvance.cm.		86400	IN	NS	nsusa.comlaude.net.
 oo.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 oo.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 oo.cm.			86400	IN	NS	ns2.dnsv1.com.
+oo8.cm.			86400	IN	NS	asa.ns.cloudflare.com.
+oo8.cm.			86400	IN	NS	marty.ns.cloudflare.com.
 oogle.cm.		86400	IN	NS	ns1.bodis.com.
 oogle.cm.		86400	IN	NS	ns2.bodis.com.
 ookla.cm.		86400	IN	NS	ns1.dnsmadeeasy.com.
@@ -56079,6 +56079,8 @@ xxoo.cm.		86400	IN	NS	ns3.myhostadmin.net.
 xxoo.cm.		86400	IN	NS	ns4.myhostadmin.net.
 xxoo.cm.		86400	IN	NS	ns5.myhostadmin.net.
 xxoo.cm.		86400	IN	NS	ns6.myhostadmin.net.
+xxw.cm.			86400	IN	NS	bayan.ns.cloudflare.com.
+xxw.cm.			86400	IN	NS	lorna.ns.cloudflare.com.
 xxx.cm.			86400	IN	NS	buy.internettraffic.com.
 xxx.cm.			86400	IN	NS	sell.internettraffic.com.
 xxxbox.cm.		86400	IN	NS	ns1.msft.net.
@@ -57607,4 +57609,4 @@ zzz.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 zzz.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121212 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121215 28800 3600 604800 86400

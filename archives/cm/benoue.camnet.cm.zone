@@ -1,9 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @benoue.camnet.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121210 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1544605221"
-cm.			86400	IN	A	195.24.205.60
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121217 28800 3600 604800 86400
 cm.			86400	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			86400	IN	NS	ns.itu.ch.
 cm.			86400	IN	NS	kim.camnet.cm.
@@ -16,6 +14,8 @@ cm.			86400	IN	NS	ns-cm.afrinic.net.
 cm.			86400	IN	NS	auth02.ns.uu.net.
 cm.			86400	IN	NS	benoue.camnet.cm.
 cm.			86400	IN	NS	phloem.uoregon.edu.
+cm.			86400	IN	A	195.24.205.60
+cm.			86400	IN	TXT	"Generation Time: 1544630412"
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
 0-1.cm.			86400	IN	NS	ns3.myhostadmin.net.
@@ -3128,6 +3128,9 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 229999.cm.		86400	IN	NS	ns2.dnsdun.net.
 229999.cm.		86400	IN	NS	ns5.dnsdun.com.
 229999.cm.		86400	IN	NS	ns5.dnsdun.net.
+22bet.cm.		86400	IN	NS	ns1.instradns.com.
+22bet.cm.		86400	IN	NS	ns2.instradns.com.
+22bet.cm.		86400	IN	NS	ns3.instradns.com.
 22gvb.cm.		86400	IN	NS	ns5.ndns.cn.
 22gvb.cm.		86400	IN	NS	ns6.ndns.cn.
 22hg.cm.		86400	IN	NS	ns2.dnsdun.com.
@@ -3348,6 +3351,8 @@ dns.1111.cm.		86400	IN	A	133.130.72.174
 2489.cm.		86400	IN	NS	ns2.dns.com.
 249.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 249.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
+2490.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+2490.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 2492.cm.		86400	IN	NS	ns1.dns.com.
 2492.cm.		86400	IN	NS	ns2.dns.com.
 24999.cm.		86400	IN	NS	ns1.dns.com.
@@ -5202,8 +5207,6 @@ ns2.2si.cm.		86400	IN	A	204.93.161.189
 38888.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 38899.cm.		86400	IN	NS	ns1.dns.com.
 38899.cm.		86400	IN	NS	ns2.dns.com.
-388bet.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-388bet.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 388sb.cm.		86400	IN	NS	ns1.dns.com.
 388sb.cm.		86400	IN	NS	ns2.dns.com.
 389.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -6737,6 +6740,8 @@ ns02.3ub.cm.		86400	IN	A	219.94.232.205
 4862.cm.		86400	IN	NS	ns2.dns.com.
 4863.cm.		86400	IN	NS	ns1.dns.com.
 4863.cm.		86400	IN	NS	ns2.dns.com.
+4866.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+4866.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 487.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 487.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 4876.cm.		86400	IN	NS	ns2.dnsdun.com.
@@ -7614,6 +7619,8 @@ ns02.3ub.cm.		86400	IN	A	219.94.232.205
 544.cm.			86400	IN	NS	ns5.myhostadmin.net.
 5441.cm.		86400	IN	NS	ns1.dns.com.
 5441.cm.		86400	IN	NS	ns2.dns.com.
+5443.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+5443.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5446.cm.		86400	IN	NS	ns1.dns.com.
 5446.cm.		86400	IN	NS	ns2.dns.com.
 5448.cm.		86400	IN	NS	ns1.dns.com.
@@ -8344,6 +8351,8 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 588-365.cm.		86400	IN	NS	ns2.dns.com.
 58833.cm.		86400	IN	NS	ns1.dns.com.
 58833.cm.		86400	IN	NS	ns2.dns.com.
+5886.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+5886.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 5888.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 5888.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 58880.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -9797,6 +9806,8 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 699.cm.			86400	IN	NS	ns2.dnsv1.com.
 699.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 699.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+6992.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+6992.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 69927.cm.		86400	IN	NS	ns1cnb.name.com.
 69927.cm.		86400	IN	NS	ns2jqz.name.com.
 69927.cm.		86400	IN	NS	ns3cna.name.com.
@@ -9953,6 +9964,8 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 7038.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 704.cm.			86400	IN	NS	ns1.dnsdun.net.
 704.cm.			86400	IN	NS	ns3.dnsdun.com.
+7045.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+7045.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 705.cm.			86400	IN	NS	ns1.dnsdun.net.
 705.cm.			86400	IN	NS	ns3.dnsdun.com.
 7054.cm.		86400	IN	NS	ns1.dns.com.
@@ -11434,6 +11447,8 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 8149.cm.		86400	IN	NS	ns2.dns.com.
 815.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 815.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+81505.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+81505.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 8156.cm.		86400	IN	NS	ns1.dns.com.
 8156.cm.		86400	IN	NS	ns2.dns.com.
 8159.cm.		86400	IN	NS	ns1.dns.com.
@@ -12154,6 +12169,8 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 881177.cm.		86400	IN	NS	ns2.dnsdun.net.
 881177.cm.		86400	IN	NS	ns5.dnsdun.com.
 881177.cm.		86400	IN	NS	ns5.dnsdun.net.
+88119.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+88119.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 881199.cm.		86400	IN	NS	ns2.dnsdun.com.
 881199.cm.		86400	IN	NS	ns2.dnsdun.net.
 881199.cm.		86400	IN	NS	ns5.dnsdun.com.
@@ -13062,6 +13079,8 @@ dns.7777.cm.		86400	IN	A	133.130.72.174
 92288.cm.		86400	IN	NS	ns2.dns.com.
 923.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 923.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+92333.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+92333.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 924.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 924.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 9240.cm.		86400	IN	NS	ns1.ndns.cn.
@@ -15269,6 +15288,8 @@ aiwu.cm.		86400	IN	NS	ns1.parkingcrew.net.
 aiwu.cm.		86400	IN	NS	ns2.parkingcrew.net.
 aj.cm.			86400	IN	NS	andy.ns.cloudflare.com.
 aj.cm.			86400	IN	NS	rita.ns.cloudflare.com.
+ajem.cm.		86400	IN	NS	ns1.mboahost.com.
+ajem.cm.		86400	IN	NS	ns2.mboahost.com.
 ajo.cm.			86400	IN	NS	ns14.ovh.net.
 ajo.cm.			86400	IN	NS	dns14.ovh.net.
 ak.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
@@ -18016,8 +18037,6 @@ bet2.cm.		86400	IN	NS	ns2.dnsdun.com.
 bet2.cm.		86400	IN	NS	ns2.dnsdun.net.
 bet2.cm.		86400	IN	NS	ns5.dnsdun.com.
 bet2.cm.		86400	IN	NS	ns5.dnsdun.net.
-bet25.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-bet25.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 bet28365.cm.		86400	IN	NS	v1s1.xundns.com.
 bet28365.cm.		86400	IN	NS	v1s2.xundns.com.
 bet28365365.cm.		86400	IN	NS	ns2.dnsdun.com.
@@ -18891,9 +18910,8 @@ blink.cm.		86400	IN	NS	ns-467.awsdns-58.com.
 blink.cm.		86400	IN	NS	ns-900.awsdns-48.net.
 blink.cm.		86400	IN	NS	ns-1099.awsdns-09.org.
 blink.cm.		86400	IN	NS	ns-1881.awsdns-43.co.uk.
-blissful.cm.		86400	IN	NS	ns1.kdoweb.net.
-blissful.cm.		86400	IN	NS	ns2.kdoweb.net.
-blissful.cm.		86400	IN	NS	ns3.kdoweb.net.
+blissful.cm.		86400	IN	NS	ns1.kdoweb-dns.top.
+blissful.cm.		86400	IN	NS	ns2.kdoweb-dns.top.
 blistex.cm.		86400	IN	NS	dns1.ladasdomains.com.
 blistex.cm.		86400	IN	NS	dns2.ladasdomains.com.
 blistex.cm.		86400	IN	NS	dns3.ladasdomains.com.
@@ -25349,6 +25367,8 @@ dpreview.cm.		86400	IN	NS	nssui.comlaude.ch.
 dpreview.cm.		86400	IN	NS	nsusa.comlaude.net.
 dq.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 dq.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+dqh.cm.			86400	IN	NS	nile.ns.cloudflare.com.
+dqh.cm.			86400	IN	NS	tess.ns.cloudflare.com.
 dr.cm.			86400	IN	NS	ns1163.ispapi.net.
 dr.cm.			86400	IN	NS	ns2199.ispapi.net.
 draftking.cm.		86400	IN	NS	ns1.dnspanel.com.
@@ -26553,6 +26573,8 @@ epabtechnopole.cm.	86400	IN	NS	kim.camnet.cm.
 epabtechnopole.cm.	86400	IN	NS	mbam.camnet.cm.
 epag.cm.		86400	IN	NS	dns1.epag.net.
 epag.cm.		86400	IN	NS	dns2.epag.net.
+epagelia.cm.		86400	IN	NS	ns200.anycast.me.
+epagelia.cm.		86400	IN	NS	dns200.anycast.me.
 epassevents.cm.		86400	IN	NS	hybrid1120.fr.ns.planethoster.net.
 epassevents.cm.		86400	IN	NS	hybrid1120-1.fr.ns.planethoster.net.
 epassoffices.cm.	86400	IN	NS	hybrid1120.fr.ns.planethoster.net.
@@ -27169,8 +27191,8 @@ extendedstayhotels.cm.	86400	IN	NS	ns1lmy.name.com.
 extendedstayhotels.cm.	86400	IN	NS	ns2fhn.name.com.
 extendedstayhotels.cm.	86400	IN	NS	ns3bgq.name.com.
 extendedstayhotels.cm.	86400	IN	NS	ns4qxz.name.com.
-exterra.cm.		86400	IN	NS	ns1.webfutur.com.
-exterra.cm.		86400	IN	NS	ns2.webfutur.net.
+exterra.cm.		86400	IN	NS	dns0.webfutur.com.
+exterra.cm.		86400	IN	NS	dns1.webfutur.com.
 extra.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 extra.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
 extragum.cm.		86400	IN	NS	ns1.markmonitor.com.
@@ -28236,8 +28258,6 @@ follow-me.cm.		86400	IN	NS	nsc.planethoster.net.
 fomicgroup.cm.		86400	IN	NS	ns1.101domain.com.
 fomicgroup.cm.		86400	IN	NS	ns2.101domain.com.
 fomicgroup.cm.		86400	IN	NS	ns5.101domain.com.
-fonbet.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-fonbet.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 fondasol.cm.		86400	IN	NS	a.dns.gandi.net.
 fondasol.cm.		86400	IN	NS	b.dns.gandi.net.
 fondasol.cm.		86400	IN	NS	c.dns.gandi.net.
@@ -28566,8 +28586,6 @@ freeview.cm.		86400	IN	NS	ns1.mweb.co.za.
 freeview.cm.		86400	IN	NS	ns2.mweb.co.za.
 freevpn.cm.		86400	IN	NS	dns1.registrar-servers.com.
 freevpn.cm.		86400	IN	NS	dns2.registrar-servers.com.
-fresh.cm.		86400	IN	NS	ns3.myhostadmin.net.
-fresh.cm.		86400	IN	NS	ns4.myhostadmin.net.
 freshfoodkid.cm.	86400	IN	NS	ns0.telstra.net.
 freshfoodkid.cm.	86400	IN	NS	ns1.telstra.net.
 freshfoodkids.cm.	86400	IN	NS	ns0.telstra.net.
@@ -29126,10 +29144,8 @@ gel.cm.			86400	IN	NS	ns1.ndns.cn.
 gel.cm.			86400	IN	NS	ns2.ndns.cn.
 gelbooru.cm.		86400	IN	NS	ns1.above.com.
 gelbooru.cm.		86400	IN	NS	ns2.above.com.
-gemat.cm.		86400	IN	NS	ns1045.ui-dns.de.
-gemat.cm.		86400	IN	NS	ns1045.ui-dns.biz.
-gemat.cm.		86400	IN	NS	ns1045.ui-dns.com.
-gemat.cm.		86400	IN	NS	ns1045.ui-dns.org.
+gemat.cm.		86400	IN	NS	ns113.ovh.net.
+gemat.cm.		86400	IN	NS	dns113.ovh.net.
 gemini.cm.		86400	IN	NS	ns1.hasns.com.
 gemini.cm.		86400	IN	NS	ns2.hasns.com.
 gemini.cm.		86400	IN	NS	ns3.hasns.com.
@@ -33106,6 +33122,8 @@ hv.cm.			86400	IN	NS	ns1.dns.com.
 hv.cm.			86400	IN	NS	ns2.dns.com.
 hw.cm.			86400	IN	NS	ns1.dns.com.
 hw.cm.			86400	IN	NS	ns2.dns.com.
+hw3.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
+hw3.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 hx.cm.			86400	IN	NS	ns1.dns.com.
 hx.cm.			86400	IN	NS	ns2.dns.com.
 hxcp.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -34498,8 +34516,8 @@ jandjhealth.cm.		86400	IN	NS	ns3.jnj.com.
 jandjhealth.cm.		86400	IN	NS	ns5.jnj.com.
 jane.cm.		86400	IN	NS	ns1.mediatemple.net.
 jane.cm.		86400	IN	NS	ns2.mediatemple.net.
-janea.cm.		86400	IN	NS	ns1.kdoweb.net.
-janea.cm.		86400	IN	NS	ns2.kdoweb.net.
+janea.cm.		86400	IN	NS	ns1.kdoweb-dns.top.
+janea.cm.		86400	IN	NS	ns2.kdoweb-dns.top.
 janestreet.cm.		86400	IN	NS	ns-67-c.gandi.net.
 janestreet.cm.		86400	IN	NS	ns-115-a.gandi.net.
 janestreet.cm.		86400	IN	NS	ns-162-b.gandi.net.
@@ -35575,6 +35593,8 @@ jw.cm.			86400	IN	NS	dns1.registrar-servers.com.
 jw.cm.			86400	IN	NS	dns2.registrar-servers.com.
 jw3.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 jw3.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+jwcp.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+jwcp.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 jwd.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 jwd.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 jwo.cm.			86400	IN	NS	nsgbr.comlaude.co.uk.
@@ -35965,10 +35985,8 @@ kg-consulting.cm.	86400	IN	NS	ns1.ccntechnologies.com.
 kg-consulting.cm.	86400	IN	NS	ns2.ccntechnologies.com.
 kgf.cm.			86400	IN	NS	ns1.ii51.parklogic.com.
 kgf.cm.			86400	IN	NS	ns2.ii51.parklogic.com.
-kgn.cm.			86400	IN	NS	ns1.p19.dynect.net.
-kgn.cm.			86400	IN	NS	ns2.p19.dynect.net.
-kgn.cm.			86400	IN	NS	ns3.p19.dynect.net.
-kgn.cm.			86400	IN	NS	ns4.p19.dynect.net.
+kgn.cm.			86400	IN	NS	ns1.responsys.net.
+kgn.cm.			86400	IN	NS	ns2.responsys.net.
 kgo.cm.			86400	IN	NS	ns01.trademarkarea.com.
 kgo.cm.			86400	IN	NS	ns02.trademarkarea.com.
 kgo.cm.			86400	IN	NS	ns03.trademarkarea.com.
@@ -38346,6 +38364,8 @@ maimi.cm.		86400	IN	NS	ns1.parkingcrew.net.
 maimi.cm.		86400	IN	NS	ns2.parkingcrew.net.
 maindereve.cm.		86400	IN	NS	kim.camnet.cm.
 maindereve.cm.		86400	IN	NS	mbam.camnet.cm.
+mairie-tokombere.cm.	86400	IN	NS	ns1.mtnbusiness.cm.
+mairie-tokombere.cm.	86400	IN	NS	ns2.mtnbusiness.cm.
 mairie-yaounde6.cm.	86400	IN	NS	cpanel5.lws-hosting.com.
 mairie-yaounde6.cm.	86400	IN	NS	cpanel6.lws-hosting.com.
 mairieayos.cm.		86400	IN	NS	ns1.globexcamhost.com.
@@ -38560,10 +38580,10 @@ marlboro.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 marlboro.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
 marlins.cm.		86400	IN	NS	ns-east.cerf.net.
 marlins.cm.		86400	IN	NS	ns-west.cerf.net.
-marlowe.cm.		86400	IN	DS	2371 8 2 DDBB011F723EDF87B18A151197541C8CDDBB1BCE34FB4635780FA75C D9E6A576
-marlowe.cm.		86400	IN	DS	2371 13 2 DDBB011F723EDF87B18A151197541C8CDDBB1BCE34FB4635780FA75C D9E6A576
 marlowe.cm.		86400	IN	NS	carl.ns.cloudflare.com.
 marlowe.cm.		86400	IN	NS	jule.ns.cloudflare.com.
+marlowe.cm.		86400	IN	DS	2371 8 2 DDBB011F723EDF87B18A151197541C8CDDBB1BCE34FB4635780FA75C D9E6A576
+marlowe.cm.		86400	IN	DS	2371 13 2 DDBB011F723EDF87B18A151197541C8CDDBB1BCE34FB4635780FA75C D9E6A576
 marnat.cm.		86400	IN	NS	kim.camnet.cm.
 marnat.cm.		86400	IN	NS	mbam.camnet.cm.
 maroua.cm.		86400	IN	NS	dns1.antic.cm.
@@ -38942,8 +38962,6 @@ meh.cm.			86400	IN	NS	ns1.parkingcrew.net.
 meh.cm.			86400	IN	NS	ns2.parkingcrew.net.
 mei.cm.			86400	IN	NS	ns1.bodis.com.
 mei.cm.			86400	IN	NS	ns2.bodis.com.
-meibang.cm.		86400	IN	NS	ns3.myhostadmin.net.
-meibang.cm.		86400	IN	NS	ns4.myhostadmin.net.
 meigaomei.cm.		86400	IN	NS	ns1.4.cn.
 meigaomei.cm.		86400	IN	NS	ns2.4.cn.
 meihao.cm.		86400	IN	NS	bayan.ns.cloudflare.com.
@@ -39832,8 +39850,6 @@ mobil.cm.		86400	IN	NS	pegasus.mobil.com.
 mobil.cm.		86400	IN	NS	pegasus2.mobil.com.
 mobil1.cm.		86400	IN	NS	pegasus.mobil.com.
 mobil1.cm.		86400	IN	NS	pegasus2.mobil.com.
-mobilbet.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
-mobilbet.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 mobile.cm.		86400	IN	NS	ns1.uniregistrymarket.link.
 mobile.cm.		86400	IN	NS	ns2.uniregistrymarket.link.
 mobile9.cm.		86400	IN	NS	ns1.parkingcrew.net.
@@ -40726,8 +40742,8 @@ myprotein.cm.		86400	IN	NS	ns2.101domain.com.
 myprotein.cm.		86400	IN	NS	ns5.101domain.com.
 myql.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 myql.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
-myrecorp.cm.		86400	IN	NS	ns1.kdoweb.net.
-myrecorp.cm.		86400	IN	NS	ns2.kdoweb.net.
+myrecorp.cm.		86400	IN	NS	ns1.kdoweb-dns.top.
+myrecorp.cm.		86400	IN	NS	ns2.kdoweb-dns.top.
 mysavings.cm.		86400	IN	NS	ns1.parkingcrew.net.
 mysavings.cm.		86400	IN	NS	ns2.parkingcrew.net.
 mysavingsatwork.cm.	86400	IN	NS	a4.nstld.com.
@@ -41886,10 +41902,8 @@ nss.cm.			86400	IN	NS	ns2.linode.com.
 nss.cm.			86400	IN	NS	ns3.linode.com.
 nss.cm.			86400	IN	NS	ns4.linode.com.
 nss.cm.			86400	IN	NS	ns5.linode.com.
-nsw.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
-nsw.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
-nsw.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
-nsw.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
+nsw.cm.			86400	IN	NS	ns1.4.cn.
+nsw.cm.			86400	IN	NS	ns2.4.cn.
 nt.cm.			86400	IN	NS	ns1.zwdns.com.
 nt.cm.			86400	IN	NS	ns2.zwdns.com.
 ntaccul.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
@@ -42609,6 +42623,8 @@ onvance.cm.		86400	IN	NS	nsusa.comlaude.net.
 oo.cm.			86400	IN	NS	ns2.dnsv1.com.
 oo.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 oo.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+oo8.cm.			86400	IN	NS	asa.ns.cloudflare.com.
+oo8.cm.			86400	IN	NS	marty.ns.cloudflare.com.
 oogle.cm.		86400	IN	NS	ns1.bodis.com.
 oogle.cm.		86400	IN	NS	ns2.bodis.com.
 ookla.cm.		86400	IN	NS	ns1.dnsmadeeasy.com.
@@ -42788,8 +42804,10 @@ orientation.cm.		86400	IN	NS	kim.camnet.cm.
 orientation.cm.		86400	IN	NS	mbam.camnet.cm.
 orif.cm.		86400	IN	NS	troy-dns1.centos-server.net.
 orif.cm.		86400	IN	NS	troy-dns2.centos-server.net.
-oriflame.cm.		86400	IN	NS	ns.oriflame.se.
-oriflame.cm.		86400	IN	NS	dns.oriflame-sw.com.
+oriflame.cm.		86400	IN	NS	ns1-02.azure-dns.com.
+oriflame.cm.		86400	IN	NS	ns2-02.azure-dns.net.
+oriflame.cm.		86400	IN	NS	ns3-02.azure-dns.org.
+oriflame.cm.		86400	IN	NS	ns4-02.azure-dns.info.
 origin.cm.		86400	IN	NS	dns1.registrar-servers.com.
 origin.cm.		86400	IN	NS	dns2.registrar-servers.com.
 original.cm.		86400	IN	NS	ns-fr.1and1-dns.fr.
@@ -44076,6 +44094,8 @@ pj9.cm.			86400	IN	NS	ns2.dnsdun.net.
 pj9.cm.			86400	IN	NS	ns5.dnsdun.com.
 pjcp.cm.		86400	IN	NS	ns1.dns.com.
 pjcp.cm.		86400	IN	NS	ns2.dns.com.
+pjh.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
+pjh.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 pjpj.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 pjpj.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 pjr.cm.			86400	IN	NS	clay.ns.cloudflare.com.
@@ -46525,8 +46545,8 @@ roland.cm.		86400	IN	NS	ns-61.awsdns-07.com.
 roland.cm.		86400	IN	NS	ns-950.awsdns-54.net.
 roland.cm.		86400	IN	NS	ns-1307.awsdns-35.org.
 roland.cm.		86400	IN	NS	ns-1760.awsdns-28.co.uk.
-rolandkwemain.cm.	86400	IN	NS	ns1.kdoweb.net.
-rolandkwemain.cm.	86400	IN	NS	ns2.kdoweb.net.
+rolandkwemain.cm.	86400	IN	NS	ns1.kdoweb-dns.top.
+rolandkwemain.cm.	86400	IN	NS	ns2.kdoweb-dns.top.
 rolex.cm.		86400	IN	NS	ns1.p09.dynect.net.
 rolex.cm.		86400	IN	NS	ns2.p09.dynect.net.
 rolex.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -56074,6 +56094,8 @@ xxoo.cm.		86400	IN	NS	ns3.myhostadmin.net.
 xxoo.cm.		86400	IN	NS	ns4.myhostadmin.net.
 xxoo.cm.		86400	IN	NS	ns5.myhostadmin.net.
 xxoo.cm.		86400	IN	NS	ns6.myhostadmin.net.
+xxw.cm.			86400	IN	NS	ns1.4.cn.
+xxw.cm.			86400	IN	NS	ns2.4.cn.
 xxx.cm.			86400	IN	NS	buy.internettraffic.com.
 xxx.cm.			86400	IN	NS	sell.internettraffic.com.
 xxxbox.cm.		86400	IN	NS	ns1.msft.net.
@@ -57602,4 +57624,4 @@ zzz.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 zzz.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121210 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121217 28800 3600 604800 86400

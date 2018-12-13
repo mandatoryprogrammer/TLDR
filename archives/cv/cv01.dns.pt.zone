@@ -1,7 +1,7 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cv. @cv01.dns.pt. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018121101 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018121301 86400 7200 2592000 300
 cv.			28800	IN	NS	c.dns.pt.
 cv.			28800	IN	NS	ns.dns.cv.
 cv.			28800	IN	NS	cv01.dns.pt.
@@ -595,8 +595,8 @@ bmobile.cv.		28800	IN	NS	ns1.dnscpanel.com.
 bmobile.cv.		28800	IN	NS	ns2.dnscpanel.com.
 bmw.cv.			28800	IN	NS	ns1.ascio.com.
 bmw.cv.			28800	IN	NS	ns2.ascio.com.
-bn.cv.			28800	IN	NS	ns1.siteground365.com.
-bn.cv.			28800	IN	NS	ns2.siteground365.com.
+bn.cv.			28800	IN	NS	nia.ns.cloudflare.com.
+bn.cv.			28800	IN	NS	guss.ns.cloudflare.com.
 boats.cv.		28800	IN	NS	xvm50648.vps.cloud.tagadab.com.
 mail.boats.cv.		28800	IN	A	95.172.8.58
 boavistafc.cv.		28800	IN	NS	dns1.ibername.com.
@@ -2263,6 +2263,9 @@ cemam.edu.cv.		28800	IN	NS	dns1.p06.nsone.net.
 cemam.edu.cv.		28800	IN	NS	dns2.p06.nsone.net.
 cemam.edu.cv.		28800	IN	NS	dns3.p06.nsone.net.
 cemam.edu.cv.		28800	IN	NS	dns4.p06.nsone.net.
+centroeducativomiraflores.edu.cv. 28800	IN NS	a.host-services.com.
+centroeducativomiraflores.edu.cv. 28800	IN NS	b.host-services.com.
+centroeducativomiraflores.edu.cv. 28800	IN NS	c.host-services.com.
 colegioportugues.edu.cv. 28800	IN	NS	ns1.servconfig.com.
 colegioportugues.edu.cv. 28800	IN	NS	ns2.servconfig.com.
 cpt.edu.cv.		28800	IN	NS	ns7.securenet-server.net.
@@ -3884,10 +3887,10 @@ mail.aavt.org.cv.	28800	IN	A	80.172.233.23
 abac.org.cv.		28800	IN	NS	ns1.abac.org.cv.
 mail.abac.org.cv.	28800	IN	A	80.172.233.23
 ns1.abac.org.cv.	28800	IN	A	80.172.233.23
+abadacaboverde.org.cv.	28800	IN	A	67.23.226.199
 abadacaboverde.org.cv.	28800	IN	NS	ns1.webhs.org.
 abadacaboverde.org.cv.	28800	IN	NS	ns2.webhs.org.
 abadacaboverde.org.cv.	28800	IN	NS	ns3.webhs.org.
-abadacaboverde.org.cv.	28800	IN	A	67.23.226.199
 abc.org.cv.		28800	IN	NS	1.nshub.com.
 abc.org.cv.		28800	IN	NS	2.nshub.com.
 aca-eua.org.cv.		28800	IN	NS	ns1.mundogest.com.
@@ -4298,6 +4301,8 @@ projekta.cv.		28800	IN	NS	ns14.wixdns.net.
 projekta.cv.		28800	IN	NS	ns15.wixdns.net.
 prolact.cv.		28800	IN	NS	ns07.domaincontrol.com.
 prolact.cv.		28800	IN	NS	ns08.domaincontrol.com.
+prolar.cv.		28800	IN	NS	ns3.dnstarvos.com.
+prolar.cv.		28800	IN	NS	ns4.dnstarvos.com.
 promedica.cv.		28800	IN	NS	ns1.weblx.net.
 promedica.cv.		28800	IN	NS	ns2.weblx.net.
 property.cv.		28800	IN	NS	xvm50648.vps.cloud.tagadab.com.
@@ -4523,14 +4528,14 @@ robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1000::7
 robinson-club-kap-verden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kap-verden.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-kap-verden.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
-robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-club-kapverden.cv. 28800 IN	NS	ns01.brandshelter.com.
 robinson-club-kapverden.cv. 28800 IN	NS	ns02.brandshelter.net.
-robinson-kap-verden.cv.	28800	IN	NS	ns01.brandshelter.com.
-robinson-kap-verden.cv.	28800	IN	NS	ns02.brandshelter.net.
+robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1000::7
+robinson-club-kapverden.cv. 28800 IN	AAAA	2600:2000:1001::7
 robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-kap-verden.cv.	28800	IN	AAAA	2600:2000:1001::7
+robinson-kap-verden.cv.	28800	IN	NS	ns01.brandshelter.com.
+robinson-kap-verden.cv.	28800	IN	NS	ns02.brandshelter.net.
 robinson-kapverden.cv.	28800	IN	AAAA	2600:2000:1000::7
 robinson-kapverden.cv.	28800	IN	AAAA	2600:2000:1001::7
 robinson-kapverden.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -5040,17 +5045,17 @@ tecla.cv.		28800	IN	NS	ns1.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns2.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns3.hostinger.com.br.
 tecla.cv.		28800	IN	NS	ns4.hostinger.com.br.
-tecnocenter.cv.		28800	IN	A	217.182.171.109
 tecnocenter.cv.		28800	IN	AAAA	2604:9a00:2100:af02:4::dc
 tecnocenter.cv.		28800	IN	AAAA	2a03:6420::abcd:ef01
 tecnocenter.cv.		28800	IN	NS	ns3.bravehost.com.
 tecnocenter.cv.		28800	IN	NS	ns4.bravehost.com.
-tecnocor.cv.		28800	IN	NS	ns1.wtservers.com.
-tecnocor.cv.		28800	IN	NS	ns2.wtservers.com.
-tecnocor.cv.		28800	IN	NS	ns3.wtservers.com.
+tecnocenter.cv.		28800	IN	A	217.182.171.109
 tecnocor.cv.		28800	IN	A	35.182.190.110
 tecnocor.cv.		28800	IN	A	52.215.11.135
 tecnocor.cv.		28800	IN	A	199.73.55.49
+tecnocor.cv.		28800	IN	NS	ns1.wtservers.com.
+tecnocor.cv.		28800	IN	NS	ns2.wtservers.com.
+tecnocor.cv.		28800	IN	NS	ns3.wtservers.com.
 tecnoland.cv.		28800	IN	NS	NS1.101DOMAIN.COM.
 tecnoland.cv.		28800	IN	NS	NS2.101DOMAIN.COM.
 tecnoland.cv.		28800	IN	NS	NS5.101DOMAIN.COM.
@@ -5166,10 +5171,10 @@ tui-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 tui-cabo-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
 tui-cabo-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
 tui-cabo-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
-tui-cape-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
-tui-cape-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
 tui-cape-verde.cv.	28800	IN	AAAA	2600:2000:1000::7
 tui-cape-verde.cv.	28800	IN	AAAA	2600:2000:1001::7
+tui-cape-verde.cv.	28800	IN	NS	ns01.brandshelter.com.
+tui-cape-verde.cv.	28800	IN	NS	ns02.brandshelter.net.
 tui-capeverde.cv.	28800	IN	AAAA	2600:2000:1000::7
 tui-capeverde.cv.	28800	IN	AAAA	2600:2000:1001::7
 tui-capeverde.cv.	28800	IN	NS	ns01.brandshelter.com.
@@ -5400,4 +5405,4 @@ zing.cv.		28800	IN	NS	ns2.bluehost.com.
 zonetech.cv.		28800	IN	NS	ns1.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns2.ptwebserv.net.
 zonetech.cv.		28800	IN	NS	ns3.ptwebserv.net.
-cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018121101 86400 7200 2592000 300
+cv.			28800	IN	SOA	ns.dns.cv. dnsop.dns.cv. 2018121301 86400 7200 2592000 300

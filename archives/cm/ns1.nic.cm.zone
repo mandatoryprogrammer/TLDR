@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121315 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1544709619"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121318 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1544720421"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -18,6 +18,8 @@ cm.			86400	IN	NS	ns-cm.nic.fr.
 cm.			86400	IN	NS	ns-cm.afrinic.net.
 0.cm.			86400	IN	NS	ns1.dnspanel.com.
 0.cm.			86400	IN	NS	ns2.dnspanel.com.
+0-1.cm.			86400	IN	NS	ns2.ndns.cn.
+0-1.cm.			86400	IN	NS	ns1.adminsky.cn.
 00.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 00.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 000.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
@@ -15241,7 +15243,6 @@ airfarewatchdog.cm.	86400	IN	NS	ns01.smartertravel.net.
 airfarewatchdog.cm.	86400	IN	NS	ns1.smartertravelmedia.com.
 airforce.cm.		86400	IN	NS	dns1.airforce.cm.
 airforce.cm.		86400	IN	NS	dns2.airforce.cm.
-airforce.cm.		86400	IN	NS	dns1.antic.cm.
 dns1.airforce.cm.	86400	IN	A	41.204.94.235
 dns2.airforce.cm.	86400	IN	A	41.204.94.237
 airfrance.cm.		86400	IN	NS	ns0.airfrance.fr.
@@ -16126,13 +16127,10 @@ antho.cm.		86400	IN	NS	ns4.iwantmyname.net.
 anthropologie.cm.	86400	IN	NS	pdns1.ultradns.net.
 anthropologie.cm.	86400	IN	NS	pdns2.ultradns.net.
 anthropologie.cm.	86400	IN	NS	pdns3.ultradns.org.
-antic.cm.		86400	IN	NS	dns5.antic.cm.
 antic.cm.		86400	IN	NS	dns1.antic.cm.
 antic.cm.		86400	IN	NS	dns2.antic.cm.
-antic.cm.		86400	IN	NS	dns1.camgovca.cm.
 dns1.antic.cm.		86400	IN	A	154.126.129.11
 dns2.antic.cm.		86400	IN	A	197.159.20.38
-dns5.antic.cm.		86400	IN	A	197.159.20.138
 anticipa-cdc.cm.	86400	IN	NS	a4.nstld.com.
 anticipa-cdc.cm.	86400	IN	NS	f4.nstld.com.
 anticipa-cdc.cm.	86400	IN	NS	g4.nstld.com.
@@ -18146,6 +18144,9 @@ bethycoiffure.cm.	86400	IN	NS	ns8.njangihost.com.
 betin.cm.		86400	IN	NS	ns1.instradns.com.
 betin.cm.		86400	IN	NS	ns2.instradns.com.
 betin.cm.		86400	IN	NS	ns3.instradns.com.
+betking.cm.		86400	IN	NS	dns1.safenames.com.
+betking.cm.		86400	IN	NS	dns2.safenames.net.
+betking.cm.		86400	IN	NS	dns3.safenames.org.
 betlion.cm.		86400	IN	NS	ns1.netim.net.
 betlion.cm.		86400	IN	NS	ns2.netim.net.
 betlion.cm.		86400	IN	NS	ns3.netim.net.
@@ -34339,8 +34340,8 @@ ivillage.cm.		86400	IN	NS	crpeomusanyca03.ge-dns.net.
 ivillage.cm.		86400	IN	NS	crpeomusanyca04.ge-dns.net.
 ivillage.cm.		86400	IN	NS	crpeomusanyca05.ge-dns.org.
 ivillage.cm.		86400	IN	NS	crpeomusanyca06.ge-dns.org.
-ivy.cm.			86400	IN	NS	ns3.myhostadmin.net.
-ivy.cm.			86400	IN	NS	ns4.myhostadmin.net.
+ivy.cm.			86400	IN	NS	ns1.ndns.cn.
+ivy.cm.			86400	IN	NS	ns2.ndns.cn.
 iw.cm.			86400	IN	NS	ns1.dns.com.
 iw.cm.			86400	IN	NS	ns2.dns.com.
 iwa.cm.			86400	IN	NS	ns1.uk04.tmd.cloud.
@@ -36915,18 +36916,16 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	88.208.249.116
-ns1.leapahead.cm.	86400	IN	A	213.171.196.238
-ns1.leapahead.cm.	86400	IN	A	213.171.198.127
 ns1.leapahead.cm.	86400	IN	A	88.208.210.176
+ns1.leapahead.cm.	86400	IN	A	88.208.249.116
+ns1.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	88.208.249.125
-ns2.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	213.171.198.127
+ns2.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
-learn.cm.		86400	IN	NS	ns1.dns.com.
-learn.cm.		86400	IN	NS	ns2.dns.com.
 learning.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 learning.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
 learningthermostat.cm.	86400	IN	NS	dns1.cscdns.net.
@@ -38379,6 +38378,8 @@ mairiedouala1.cm.	86400	IN	NS	blinuxns7.securehostdns.com.
 mairiedouala1.cm.	86400	IN	NS	blinuxns8.securehostdns.com.
 maisondelaculturesawa.cm. 86400	IN	NS	ns1.blogvisa.com.
 maisondelaculturesawa.cm. 86400	IN	NS	ns2.blogvisa.com.
+maisondesdiabetiques.cm. 86400	IN	NS	blinuxns7.securehostdns.com.
+maisondesdiabetiques.cm. 86400	IN	NS	blinuxns8.securehostdns.com.
 maisondg.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
 maisondg.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 maisonh.cm.		86400	IN	NS	b.dns.gandi.net.
@@ -49961,6 +49962,11 @@ supa5.cm.		86400	IN	NS	paul.ns.cloudflare.com.
 supa5.cm.		86400	IN	NS	sara.ns.cloudflare.com.
 supco.cm.		86400	IN	NS	ns1.o2switch.net.
 supco.cm.		86400	IN	NS	ns2.o2switch.net.
+supeco.cm.		86400	IN	NS	antor.carrefour.com.
+supeco.cm.		86400	IN	NS	keu.carrefour.com.
+supeco.cm.		86400	IN	NS	ns1.eu.rrpproxy.net.
+supeco.cm.		86400	IN	NS	ns2.eu.rrpproxy.net.
+supeco.cm.		86400	IN	NS	pendragon.carrefour.com.
 supecodev.cm.		86400	IN	NS	ns1.o2switch.net.
 supecodev.cm.		86400	IN	NS	ns2.o2switch.net.
 super.cm.		86400	IN	NS	ns1.super.info.
@@ -57640,4 +57646,4 @@ zzz.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 zzz.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121315 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121318 28800 3600 604800 86400

@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121512 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1544871615"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121515 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1544882415"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -7947,6 +7947,8 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 557777.cm.		86400	IN	NS	ns5.dnsdun.net.
 557799.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 557799.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+55785.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+55785.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 55788.cm.		86400	IN	NS	ns1.dns.com.
 55788.cm.		86400	IN	NS	ns2.dns.com.
 55789.cm.		86400	IN	NS	ns1.dns.com.
@@ -23923,8 +23925,8 @@ dan.cm.			86400	IN	NS	ns.dan.cm.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 ns.dan.cm.		86400	IN	A	185.92.222.117
+ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -34501,8 +34503,6 @@ jamalia.cm.		86400	IN	NS	ns1.mtnbusiness.cm.
 jamalia.cm.		86400	IN	NS	ns2.mtnbusiness.cm.
 jamarcommodities.cm.	86400	IN	NS	dns200.anycast.me.
 jamarcommodities.cm.	86400	IN	NS	ns200.anycast.me.
-james.cm.		86400	IN	NS	dns1.namecheaphosting.com.
-james.cm.		86400	IN	NS	dns2.namecheaphosting.com.
 jamesavery.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 jamesavery.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
 jamescameronsavatar.cm.	86400	IN	NS	ns1.foxfilm.com.
@@ -36908,14 +36908,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	213.171.198.127
-ns1.leapahead.cm.	86400	IN	A	88.208.249.116
-ns1.leapahead.cm.	86400	IN	A	88.208.210.176
 ns1.leapahead.cm.	86400	IN	A	213.171.196.238
-ns2.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	213.171.198.127
+ns1.leapahead.cm.	86400	IN	A	88.208.210.176
+ns1.leapahead.cm.	86400	IN	A	88.208.249.116
+ns2.leapahead.cm.	86400	IN	A	88.208.210.232
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	88.208.249.125
-ns2.leapahead.cm.	86400	IN	A	88.208.210.232
+ns2.leapahead.cm.	86400	IN	A	213.171.198.127
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learning.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
@@ -37878,8 +37878,6 @@ love.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 love.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 love888.cm.		86400	IN	NS	pdns1.registrar-servers.com.
 love888.cm.		86400	IN	NS	pdns2.registrar-servers.com.
-lovebet.cm.		86400	IN	NS	hope.ns.cloudflare.com.
-lovebet.cm.		86400	IN	NS	rob.ns.cloudflare.com.
 lovellshogan.cm.	86400	IN	NS	ns1.lovellsnames.org.
 lovellshogan.cm.	86400	IN	NS	ns3.lovellsnames.org.
 lovellshogan.cm.	86400	IN	NS	ns4.lovellsnames.org.
@@ -40962,8 +40960,10 @@ nao.cm.			86400	IN	NS	leah.ns.cloudflare.com.
 nao.cm.			86400	IN	NS	major.ns.cloudflare.com.
 naoum.cm.		86400	IN	NS	ben.ns.cloudflare.com.
 naoum.cm.		86400	IN	NS	rita.ns.cloudflare.com.
-nas.cm.			86400	IN	NS	cortney.ns.cloudflare.com.
-nas.cm.			86400	IN	NS	sam.ns.cloudflare.com.
+nas.cm.			86400	IN	NS	lv3ns1.ffdns.net.
+nas.cm.			86400	IN	NS	lv3ns2.ffdns.net.
+nas.cm.			86400	IN	NS	lv3ns3.ffdns.net.
+nas.cm.			86400	IN	NS	lv3ns4.ffdns.net.
 nasa.cm.		86400	IN	NS	ns1.parkingcrew.net.
 nasa.cm.		86400	IN	NS	ns2.parkingcrew.net.
 nasdaq.cm.		86400	IN	NS	f4.nstld.com.
@@ -57609,4 +57609,4 @@ zzz.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 zzz.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121512 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018121515 28800 3600 604800 86400

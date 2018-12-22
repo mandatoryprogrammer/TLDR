@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018122215 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1545487214"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018122218 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1545498013"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -8745,6 +8745,8 @@ dns.5555.cm.		86400	IN	A	133.130.72.174
 6238.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 624.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 624.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
+6241.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
+6241.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 6244.cm.		86400	IN	NS	ns1.dns.com.
 6244.cm.		86400	IN	NS	ns2.dns.com.
 6245.cm.		86400	IN	NS	ns1.dns.com.
@@ -23904,8 +23906,8 @@ dan.cm.			86400	IN	NS	ns.dan.cm.
 dan.cm.			86400	IN	NS	ns.dan.xxx.
 dan.cm.			86400	IN	NS	ns.dan.host.
 dan.cm.			86400	IN	NS	ns.dan.network.
-ns.dan.cm.		86400	IN	A	185.92.222.117
 ns.dan.cm.		86400	IN	AAAA	2001:19f0:5000:896c::53
+ns.dan.cm.		86400	IN	A	185.92.222.117
 danaos.cm.		86400	IN	NS	ns1.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns2.p09.dynect.net.
 danaos.cm.		86400	IN	NS	ns3.p09.dynect.net.
@@ -29067,6 +29069,8 @@ gb.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 gb.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 gbacenter.cm.		86400	IN	NS	ns15.domaincontrol.com.
 gbacenter.cm.		86400	IN	NS	ns16.domaincontrol.com.
+gbh.cm.			86400	IN	NS	melissa.ns.cloudflare.com.
+gbh.cm.			86400	IN	NS	vern.ns.cloudflare.com.
 gblplaw.cm.		86400	IN	NS	ns1.netnames.net.
 gblplaw.cm.		86400	IN	NS	ns2.netnames.net.
 gblplaw.cm.		86400	IN	NS	ns5.netnames.net.
@@ -29227,6 +29231,9 @@ geny.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 geny.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
 geocaching.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
 geocaching.cm.		86400	IN	NS	ns2.ii51.parklogic.com.
+geocameroun.cm.		86400	IN	NS	ns-154-b.gandi.net.
+geocameroun.cm.		86400	IN	NS	ns-160-a.gandi.net.
+geocameroun.cm.		86400	IN	NS	ns-79-c.gandi.net.
 geocities.cm.		86400	IN	NS	ns1.parkingcrew.net.
 geocities.cm.		86400	IN	NS	ns2.parkingcrew.net.
 geocycle.cm.		86400	IN	NS	ns01ch.holcim.com.
@@ -36947,14 +36954,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	213.171.196.238
+ns1.leapahead.cm.	86400	IN	A	213.171.198.127
 ns1.leapahead.cm.	86400	IN	A	88.208.210.176
 ns1.leapahead.cm.	86400	IN	A	88.208.249.116
-ns1.leapahead.cm.	86400	IN	A	213.171.198.127
-ns2.leapahead.cm.	86400	IN	A	88.208.210.232
+ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns2.leapahead.cm.	86400	IN	A	213.171.198.127
-ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
+ns2.leapahead.cm.	86400	IN	A	88.208.210.232
+ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learning.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
@@ -45444,8 +45451,6 @@ qqty.cm.		86400	IN	NS	ns2.1-api.org.
 qqun.cm.		86400	IN	NS	ns01.trademarkarea.com.
 qqun.cm.		86400	IN	NS	ns02.trademarkarea.com.
 qqun.cm.		86400	IN	NS	ns03.trademarkarea.com.
-qqxs.cm.		86400	IN	NS	ns1.dns.com.
-qqxs.cm.		86400	IN	NS	ns2.dns.com.
 qqz.cm.			86400	IN	NS	ns1.ky88.com.
 qqz.cm.			86400	IN	NS	ns2.ky88.com.
 qr.cm.			86400	IN	NS	ns1.linode.com.
@@ -57691,4 +57696,4 @@ zzz.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 zzz.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018122215 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2018122218 28800 3600 604800 86400

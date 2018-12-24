@@ -1,16 +1,16 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR mg. @ns-mg.malagasy.com. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-mg.			3600	IN	SOA	ns.nic.mg. ramboa.nic.mg. 2018122408 600 3600 604800 3600
-mg.			3600	IN	RRSIG	SOA 5 1 3600 20190107084938 20181224070009 5307 mg. oADVZ2jIiR/RUML2LYeOpXVj/3ZVhnfaNK0QOqs30afTDLtIYQOaofWR KCB8wXhpHfNya/M0XBEz3KjCl+bwPHEWy475KsEsCoYTiTqlYVDnzvLV jmdmbc65bAzihrjiwWrwjqcfY0+0xHqjqQWQAh7+Z7ku71Ku5n5Xgc/h 19o=
+mg.			3600	IN	SOA	ns.nic.mg. ramboa.nic.mg. 2018122411 600 3600 604800 3600
+mg.			3600	IN	RRSIG	SOA 5 1 3600 20190107010250 20181224095830 5307 mg. AmWVtdeSKjdpOMMqf9RIylVc9cFJe+qS3p1zsfC+Nh64BrgwjuM/Fvs5 Jjt3MqMeInQ4e1WVNAJoMKD1UzeU3zrusi53VOUO9X2BgGdVCsRI+sdR A4/tGbrq5Bx5FpgVu8dmBAAPxlmBibTnICQH6mFWTFkC2CE+wiVJ4V1q Sg8=
 mg.			7200	IN	NS	ns.dts.mg.
 mg.			7200	IN	NS	ns.nic.mg.
 mg.			7200	IN	NS	pch.nic.mg.
 mg.			7200	IN	NS	ns-mg.malagasy.com.
 mg.			7200	IN	NS	censvrns0001.ird.fr.
 mg.			7200	IN	RRSIG	NS 5 1 7200 20190101011459 20181217195955 5307 mg. sclG3zPreFdVi2mgh94+qPAdTT3CN4Xx5We3WqACLo8kZzuVzhubXiKQ l73sgTL8uMZ6C+oZJ0MwVmh2zyH7gHrFlmkXyfHZBEaAORpuSy0rZh/N yQA58DHD5tMj8XoiLTEf8Gof9TxOYpVjeQFy3dvZm8fIOs9X/S6dqtRf hSQ=
-mg.			7200	IN	TXT	"Generation Time: 1545634834"
-mg.			7200	IN	RRSIG	TXT 5 1 7200 20190107023831 20181224070009 5307 mg. KL5VKXWZItKORFDYBbvFKVCm8EVXIiP7BmMRtI8havqXuPORaP74qGMx JAEqXCiJzWi9QeF2IIRqjOpy8AIEilpxA3SSbWhjxWakCm7N/yQzqzHO iARVhBavnkxg4yNLvOAFjX02sS/2KO7YTNfarBLmsPNKZo33s7TPBzl7 1hU=
+mg.			7200	IN	TXT	"Generation Time: 1545645634"
+mg.			7200	IN	RRSIG	TXT 5 1 7200 20190106235810 20181224095830 5307 mg. UgCvKfeBrWaxxkjvzXqLBzrcbM8vEm96Jy+nxdJX8UcelB3FLcqyHQqJ n7jLYG8Y2UMBdbDF0Bx6rRCqi2MVkv5xRU14QtgajfkIjB2K6CWzLgrR /ip/07aDf0MF5RhgbLJxhUJvZHtYtXpZSL5qkTi23STdsy4Qa/KYlFLG yLs=
 mg.			3600	IN	NSEC	00.mg. NS SOA TXT RRSIG NSEC DNSKEY
 mg.			3600	IN	RRSIG	NSEC 5 1 3600 20190103235305 20181221080043 5307 mg. TDGFcUOifnQOpBvGc6fQOvVfIwr435HiMD1tvejNCmJN0q7dYka+YtOf IO/az/rVlbqM5jupAnbPQjU/WpuG8fFzg21g/b4HSUNxru/yVxO7q3gU uR2o74Lmq11LSXPUIhcOZU6IvJ4Xr/y4tkvFCabO8gFx+2ETzwaPm1Kr 7YU=
 mg.			3600	IN	DNSKEY	256 3 5 AwEAAcG20Zq1EfDq+wltj5HrlWgBA4qGQqb13pleSoKIR6SqSKkY1wll zScyPOcXDXwq1IxDDVh5W9faqbHlaP6zUlOPTtKS7Xx+Yjv5Oh88bs1M 13t/VikhD+LZFlZkrXtwAUlfm2xgbPvEv2fZJ5fpJSrjUDitZ2/XRxfp ZfrSe67Z
@@ -327,7 +327,7 @@ mg.			3600	IN	RRSIG	DNSKEY 5 1 3600 20181229122058 20181215045948 64652 mg. tVya
 666.mg.			7200	IN	NS	b.dnspod.com.
 666.mg.			7200	IN	NS	c.dnspod.com.
 666.mg.			3600	IN	NSEC	6666.mg. NS RRSIG NSEC
-666.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20181227081137 20181213160034 5307 mg. gyhWxetYL7Xvdgbbixb6O/tNSANB7Jc3syfog5uP8KoBYyU2ihralB68 h+kuiMcfuXtbkf7evyO9pNMJ5WTf3EMQ0HXuctPllfatErHs25XOlSA1 ynvxFDGrwh6ThuSAlg/+oPB8W1tMyeUWHehOEC2ao1mG1iZ1wp3nSqRt /pc=
+666.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190107164905 20181224075637 5307 mg. r0cca91DLhyUX8uJSymBZDgws7XuzrKKvNCf5USu4yKFk236J+oZxn9/ XGQbfiuXGe/65oYXWz1YYiSmg2zoeb5ZT3A4C66V/Kg6lgN2McixHaD3 r9by8kZSBwrwdUF6RTMgdTQRGPXqZf5Ojkyk/4ZLPdV7JFUEmwLVCqzB wDc=
 6666.mg.		7200	IN	NS	f1g1ns1.dnspod.net.
 6666.mg.		7200	IN	NS	f1g1ns2.dnspod.net.
 6666.mg.		3600	IN	NSEC	68.mg. NS RRSIG NSEC
@@ -496,7 +496,7 @@ ace.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190104092618 20181220215542 5307 mg. P46
 acew.mg.		7200	IN	NS	dns1.supremepanel.com.
 acew.mg.		7200	IN	NS	dns2.supremepanel.com.
 acew.mg.		3600	IN	NSEC	acipenser.mg. NS RRSIG NSEC
-acew.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227081120 20181212215817 5307 mg. B3iCxpThtWNQfTcpLtdKycMQ487ZBUQTNQm3eCvxVQGcVOJ0a6sE9Ub1 Mpb308BlVxWIeH0+zbyzTkT6EjbyTxfEs4ZJwH+YsCuBr75FyCqw2/aL A3JLT88GR0NmSxB20ElVJW/j8EqI7aIBWPooa0IqqC0K3n6JrXvDv0vx s2E=
+acew.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107112052 20181224075637 5307 mg. dNFJotfN0EFH/fd419xGRczdnAx9roB87nENryMz5ilH8qXAI4rWHiQ0 YVG5Sf/JOl1iOQuUa27XA9Qqi5d1LuR/9ZVCirCYs2JaS1i9cZosVBru VxygEX6xfBEKYmnlwqrojksXvyViJg7YQ35mTw6eXn+oRiDFutnfm0JT yF4=
 acipenser.mg.		7200	IN	NS	ns108.ovh.net.
 acipenser.mg.		7200	IN	NS	dns108.ovh.net.
 acipenser.mg.		3600	IN	NSEC	acl.mg. NS RRSIG NSEC
@@ -1132,7 +1132,7 @@ ample.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181228043246 20181214095547 5307 mg. M9
 ams-security.mg.	7200	IN	NS	ns.dts.mg.
 ams-security.mg.	7200	IN	NS	ns1.dts.mg.
 ams-security.mg.	3600	IN	NSEC	amul.mg. NS RRSIG NSEC
-ams-security.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20181227095449 20181213175517 5307 mg. gHHRgON6KwveMwal1GILRb+jclOFjHWe96RPHeR7Fbf6CqA+FfGBOoad GuB5qQTsMclevUAGZOuMEDBZugQBCsfLwJqxvpI3KcukKgpw2XT1UqMD ZYUAgq94qo/7qPnCtezVi6ip/blKS90U2Gzs0BDf9kTSnulk5cKAUwh/ r14=
+ams-security.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20190107125537 20181224090004 5307 mg. Q9p7AGxiv2Eb6Ht5cnINYT/l4wa0wFfgKnGWCI6kOSwoT/kOMWfkKnwa orLxd95+dCqBTPiVKb8jPuRoqVliqoH3/PWNbAcXp6pIt4gjQF5h5uXJ xv6CPQ5Sb0ucxfrqC624J1CzZqUwA7iY2czdrXEuzREFx9wBOwWCCgyH Vtw=
 amul.mg.		7200	IN	NS	ns11.urlnameserver.com.
 amul.mg.		7200	IN	NS	ns12.urlnameserver.com.
 amul.mg.		3600	IN	NSEC	amull.mg. NS RRSIG NSEC
@@ -1265,7 +1265,7 @@ apave.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190102180610 20181219095928 5307 mg. Zb
 apcdrilling.mg.		7200	IN	NS	ns1.thepowerservers.com.
 apcdrilling.mg.		7200	IN	NS	ns2.thepowerservers.com.
 apcdrilling.mg.		3600	IN	NSEC	apcmining.mg. NS RRSIG NSEC
-apcdrilling.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227081213 20181213120048 5307 mg. WjF1vol+rSyjBUaXVHP1PQENhFPe6xoH2/y1bhpRTD+pcuRU8zIJwWa6 +MH5ehx3YE2ctDi2URbg6IGw0mVlB39ProOi1LIJPjB/kw4ZAplJot61 yW6AI+yqxDpMEAC3MhZdI/90/8UylgPBkYvSoLJnPAgsI2ymJkJSNdup SwU=
+apcdrilling.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190106214112 20181224075637 5307 mg. WfbyS+uPB21o/3VyxvgRivcYOrcv4/lSW3qVXsR0Oxf20FYjuKshIkC3 m2xgyaTWzKEgKXleyVwIbThHtij3rQwRDvwoCVfGtux5C536jUl2T3pp U6cOIQOj+fZwNh4MvBLGY/QFsTrv35O85ZrnfpfZ5lVyG4VuXegwFJyr A+o=
 apcmining.mg.		7200	IN	NS	ns.dts.mg.
 apcmining.mg.		7200	IN	NS	ns1.dts.mg.
 apcmining.mg.		3600	IN	NSEC	apex-reanda.mg. NS RRSIG NSEC
@@ -1291,7 +1291,7 @@ aplmadagascar.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20190105163400 20181223015627 5307
 apm.mg.			7200	IN	NS	ns1.o2switch.net.
 apm.mg.			7200	IN	NS	ns2.o2switch.net.
 apm.mg.			3600	IN	NSEC	apma.mg. NS RRSIG NSEC
-apm.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20181227102957 20181212225948 5307 mg. aE7+Hrz4NpnJavOJYO2/vxDBwPU9gl/VymjnHfX9Maa4GBnbdNhD+eEw TcRMhJzwShbiS+zD1sEH/b7VgO4mktetBZUIewhGn6eW7DDlkvM2ykXO RIhxvtajcU65kWEoBZt08aDFW6JJx+Kgynz9uBZ/R8IoBa2ftnD6yPKK 1BI=
+apm.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190107002517 20181224095830 5307 mg. ufrTOEJ8Z9SFHopnp3DOX828aXcuZ66iFC2njB7OIil8kxlLCzhT78dO n/XmPkfU07pzuk0GGVH9A99Fswua6Q5umlCXVKPtDtn6GBiFXF5w4kYk /e7Bpq6kIP3AgOo44anNNsMk7Enq0XczD1Leo9a6gONAlORHE+Z1k8Cm f/c=
 apma.mg.		7200	IN	NS	ns.dts.mg.
 apma.mg.		7200	IN	NS	ns1.dts.mg.
 apma.mg.		3600	IN	NSEC	apmf.mg. NS RRSIG NSEC
@@ -1634,7 +1634,7 @@ aspam.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190102133343 20181219220055 5307 mg. JU
 aspm.mg.		7200	IN	NS	ns.dts.mg.
 aspm.mg.		7200	IN	NS	ns1.dts.mg.
 aspm.mg.		3600	IN	NSEC	assagi.mg. NS RRSIG NSEC
-aspm.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227093001 20181213110007 5307 mg. USMEuDcoz8vesSmGDSZQiMaTPB/aA2uaq4DVoOyxTe2zDaAfQgBJ6Dre Utb1YBuxJ1sCqUvX6i3cE6wFBl3tVCi8xrsJ7B9ihq05GAMkua+fcXo2 hIw6QINiOD8+dBFDmVlI5L6jxFz0ExXlLo8AJ5+C3D8L5SQ0rTPSXjvu F7Y=
+aspm.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190106221604 20181224090004 5307 mg. jekviGXJcvTglh2hELldqeKr5FzGEHO941xyonObmIh4fEVk3+l+Khbl ncJujpa2sm87K3YPeHqwA6udwnEf0IuEnJHMRmogAVb3rJhXjM1VMuzB 0lYLBKWTZTJZkplnC0Xqm/aiTnWqGDK/VbrAf8Av42ipgbnUWdDFTiwl eZw=
 assagi.mg.		7200	IN	NS	ns112.ovh.net.
 assagi.mg.		7200	IN	NS	dns112.ovh.net.
 assagi.mg.		3600	IN	NSEC	assemblee-nationale.mg. NS RRSIG NSEC
@@ -4132,7 +4132,7 @@ dognat.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107033233 20181224015942 5307 mg. D
 dokambarotra.mg.	7200	IN	NS	dns1.supremepanel.com.
 dokambarotra.mg.	7200	IN	NS	dns2.supremepanel.com.
 dokambarotra.mg.	3600	IN	NSEC	dollfactory-tana.mg. NS RRSIG NSEC
-dokambarotra.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20181227085036 20181213080102 5307 mg. PFs7JW/3PcumdUgv1+WRzMfFNszSZBWJwrLKU2U1TsaBRmtjb0Fw1iwq OqTghKFKODvm6HBpHWSPjfSXFBIR+g06SdupsXUdZ94TfidF7TJPXpGW N4BBj7pdRUpDyTBokG3iicYni/Cplnhwk/DsFbErxyYkDu/kf1hL5dRt /E0=
+dokambarotra.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20190107015215 20181224075637 5307 mg. pJ2+z1eIxQm9TyI6TxbdncHRy+FsPk+Fh/hZ7OeOdcz5VfVpsJFpblpO u4YullthWaPoBIRRJ2aMeM4+JaCLGyycWqTV9vd3nvbAtnB/6NRcDga9 +vDDj2QXqyUMF/08o6RgglJ4847xWq0o7/HH4YYvAZQvhnC55/LMesFf xY4=
 dollfactory-tana.mg.	7200	IN	NS	dns1.supremepanel.com.
 dollfactory-tana.mg.	7200	IN	NS	dns2.supremepanel.com.
 dollfactory-tana.mg.	3600	IN	NSEC	domain.mg. NS RRSIG NSEC
@@ -4291,11 +4291,11 @@ e-psi.mg.		7200	IN	NS	ns1.contabo.net.
 e-psi.mg.		7200	IN	NS	ns2.contabo.net.
 e-psi.mg.		7200	IN	NS	ns3.contabo.net.
 e-psi.mg.		3600	IN	NSEC	e-rapida.mg. NS RRSIG NSEC
-e-psi.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227084205 20181213095914 5307 mg. bztZRRNsrtsSw2Tu0fZO80W2Pw/fQmroC3+rjDrTpXzIYxnSgzCB6LUr Na7QIFNwkudGpMwL9U1KzXCA6sE3GmjPcZUKJnbOfXMqkM6SjEZDkMTJ 2rJZ92zeNuU8LSymbkiAFH1fK6L8ZTPORGC0hFr5v3rgyxy30uDN6Eo2 mCs=
+e-psi.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107051435 20181224075637 5307 mg. ttVd0v8PAN05EFYE+DzzxQPrM/slcnM+eSz1Gd6ocyIFAcgWa8dVuXtA 77iaZxsf0Ee8DJ/jV5lFbGLX8o4vtSXi8Vr+fsXaq65ucLFnVMmeSxSu cxSY8+fav8pG8g5goLJXffVD0AclUx5XzxDX7TMi3OLDnIjPYWkM/3dY oec=
 e-rapida.mg.		7200	IN	NS	ns.dts.mg.
 e-rapida.mg.		7200	IN	NS	ns1.dts.mg.
 e-rapida.mg.		3600	IN	NSEC	e-sakafo.mg. NS RRSIG NSEC
-e-rapida.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227092806 20181213005730 5307 mg. oP8aUKfgR9HtpZlrVyC6OoLfqUV5I18C3gN1wqlze32SLDUU4YwKlDF+ TfSKYhrVNvOrhGHiU06EhGEdwJTPd9xPIn9I68FerRIjx4GDlqGn9oAv MHHoYbWolkunZ0C2PA0sqds9P7XA44Z4zZtdh+v3K0jawQjjOFdLO/VI bBA=
+e-rapida.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190106221724 20181224090004 5307 mg. nr7jAUO3d+bDxYoAeasYp9pARhJ0PPOqFjZ24jZd01fGpNf7xuJsjPkq 0vUdmCz09GxV4IkSLzRF2F3dzwuBgCV2RjjNqkVd3nBpmzy2Kxk8PCYo Amwf8eeM88xOxlmPwcp/GOqjk6bBkL4JrwdrG8Dn5h7e2ysEhWW5C2s7 +qw=
 e-sakafo.mg.		7200	IN	NS	dns1.namecheaphosting.com.
 e-sakafo.mg.		7200	IN	NS	dns2.namecheaphosting.com.
 e-sakafo.mg.		3600	IN	NSEC	e-servicespro.mg. NS RRSIG NSEC
@@ -4334,7 +4334,7 @@ easydata.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181231053840 20181216225734 5307 mg.
 easyimmobilier.mg.	7200	IN	NS	dns1.supremepanel.com.
 easyimmobilier.mg.	7200	IN	NS	dns2.supremepanel.com.
 easyimmobilier.mg.	3600	IN	NSEC	easylink.mg. NS RRSIG NSEC
-easyimmobilier.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20181227093818 20181213175517 5307 mg. h9M8i1Sts6ATz99qxeNp9J9NQ6wC3GrDN6qweKbDGnGn7Kg5BHSQDgEy zRyI3eYe3Ea+BPEDq0R9juhw8/uQk5ke3egMUi+py3Sg+8f9n+jk5IrM jVuUktoU24rakl/a4aJ3inJuGggwe/ZLaznWippPZwOgDQrzTw1iLc2q BSA=
+easyimmobilier.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20190107181415 20181224090004 5307 mg. O5VpBY8Fr1ECPlErwFnYczxqa5k9Vak3CG6z+NRCMgGDfStwQuyo5y7H euUAfhvNPo7z7mLxlSJdTk3vxXA3eX7iB+T7HOFa6f8XN80PwyGWkt0b /b4yul1B0V5dFGjgOtU+nKZwOBZAg83GnhOXjqzlKETOWxexIgkS2Yv9 9WQ=
 easylink.mg.		7200	IN	NS	dns1.supremepanel.com.
 easylink.mg.		7200	IN	NS	dns2.supremepanel.com.
 easylink.mg.		3600	IN	NSEC	easypark.mg. NS RRSIG NSEC
@@ -4359,7 +4359,7 @@ eauvive.mg.		7200	IN	NS	ns1.fr.malagasy.com.
 eauvive.mg.		7200	IN	NS	ns1.mg.tambazotra.net.
 eauvive.mg.		7200	IN	NS	ns2.mg.tambazotra.net.
 eauvive.mg.		3600	IN	NSEC	ebay.mg. NS RRSIG NSEC
-eauvive.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227084657 20181213160034 5307 mg. E3hBfjmFc/fwxY9Yh5twSYVtVFMvX9z9JtP4y6PTJEDblzB88iBSz08i ygeKOMmQ0SV/RejbJC9/Ku/wKs4b1SrI+XiggaqXb22sMevX1id616Cf ua4q7O2nAPsoH0PKuAArky2xdgxgHW65ihcg/glEUWI95pmVInZOivlO ZXo=
+eauvive.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107084855 20181224075637 5307 mg. k4aMeFWYNohIwjSJQo3qMIEUhkrg44DIEcoUTq0rRfqvbAxYh/lPUF7W 0FWPtBVnU1gbUhQyZhromuvFRY5hQJIBTK+ITUtBj51WZ8EJirg0LCZM yQ2erctZ+3RyfMUXwK98NmQQDh83Gnswt7QPrTsWVyns2AYb+KQb3ojY LBo=
 ebay.mg.		7200	IN	NS	ns1.markmonitor.com.
 ebay.mg.		7200	IN	NS	ns2.markmonitor.com.
 ebay.mg.		7200	IN	NS	ns3.markmonitor.com.
@@ -4470,7 +4470,7 @@ edl.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190104032254 20181220225920 5307 mg. By/
 edm.mg.			7200	IN	NS	ns.dts.mg.
 edm.mg.			7200	IN	NS	ns1.dts.mg.
 edm.mg.			3600	IN	NSEC	edmiuniv-fianar.mg. NS RRSIG NSEC
-edm.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20181227084240 20181213160034 5307 mg. M05bihFnDx64Ffdb7vf2LcoOQlHgg98Gf3rZFDTPYikzn18RDYdROUb9 jmhzTSDi+zj//McP+Nxv99RVX+xHlDmhmtz1dEV3h1b/zV/6tICBGrBG Aa3rCcxD86sSWllOhgY2m6xUqnbR1rjQ6rZAkQVvTw/aGdft3mxG4bjt cac=
+edm.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190107110843 20181224075637 5307 mg. B3t8KoxTkmT/C9V5eiAz09/tjBOFiQne7pnUEfLCyC+6cosNZhdSdVm1 tLUSe8zV4NmtJmg5yQCAf2D11NUF4Z4sKClzmEQDRzAx18wjEnsAOtUW OtGOPrVk3yQxf3w7Tntxf+SGhZVis6f6SR1Jaw9E1kY6xSsUj4fCiuAz C20=
 edmiuniv-fianar.mg.	7200	IN	NS	dns1.supremepanel.com.
 edmiuniv-fianar.mg.	7200	IN	NS	dns2.supremepanel.com.
 edmiuniv-fianar.mg.	3600	IN	NSEC	ednes.mg. NS RRSIG NSEC
@@ -5558,7 +5558,7 @@ francepub.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181230153839 20181216114450 5307 mg
 francophonieantananarivo-2016.mg. 7200 IN NS	ns1.aser16.simafri.com.
 francophonieantananarivo-2016.mg. 7200 IN NS	ns2.aser16.simafri.com.
 francophonieantananarivo-2016.mg. 3600 IN NSEC	free.mg. NS RRSIG NSEC
-francophonieantananarivo-2016.mg. 3600 IN RRSIG	NSEC 5 2 3600 20181227091926 20181213030045 5307 mg. BLo/FpYTDRv+HOGALmKAg0t3eF/561CohrMBFVklKHI0PsfwwW2WxGSn GrKQ0JONAT3AtgHh2Idkjr4jCm2wmXGiG0EULDPH/ULLqVk5X9oq47EZ 6vS5ppQ2BjxXtSmXg0sBe8De610Q2Y9Aw7ZEFPZc9L0NuPV2rS4bimxr EvI=
+francophonieantananarivo-2016.mg. 3600 IN RRSIG	NSEC 5 2 3600 20190107200126 20181224090004 5307 mg. AreHN1yGnlksRzXcTOfAZ2AoMR0VbmFmFLI3aYcaS4PufajwQ1oUw/4r DUlskiZw/1cX7BEuIND5/QxHbrMFI49ydehrjVLG88rmmY2aNFn7goiE r7LnCugR9EascdNtANa8npdu8z1ieszK6PJVRSr5OxnG+m+Jf3oL2C9O dzc=
 free.mg.		7200	IN	NS	ns1.sedoparking.com.
 free.mg.		7200	IN	NS	ns2.sedoparking.com.
 free.mg.		3600	IN	NSEC	freedsl.mg. NS RRSIG NSEC
@@ -5769,7 +5769,7 @@ gasytronomia.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20190102182922 20181219165919 5307 
 gateway.mg.		7200	IN	NS	dns2.haisoft.net.
 gateway.mg.		7200	IN	NS	ds317.haisoft.net.
 gateway.mg.		3600	IN	NSEC	gay.mg. NS RRSIG NSEC
-gateway.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227084053 20181212194902 5307 mg. rthWEMrHHI5IAaG79Uij3TycLx+sqB7BMPsaLVPfbMy8k4036Jhf08kH I0MIK5UCFQYPCyvd9vBpdrBSBFAjCbbHdSLtvSUd2dbXbl7+rcPX5Ufi tprbmOAM2rEURMSbG9pLrQjqx9y7g6NzrLh0QKZGeHJ1uOonhUZ9K5WS RQA=
+gateway.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107165551 20181224075637 5307 mg. T9DA+Pn2EEReApy/OiCZ23u7RDkr1X5Kbfd8daT+0P0RiCBxyKPBGuyO QPAd4s20b/yphnRYl8AivqIZku3nkckpJz8Td3nSYTEfUAl6v15i4UXK HQQb68WFRke6H07rUI+8XfmAkntl0yXvXkQ8HxEjK0luGhvdp+c8fcAi 70w=
 gay.mg.			7200	IN	NS	ns-435.awsdns-54.com.
 gay.mg.			7200	IN	NS	ns-1667.awsdns-16.co.uk.
 gay.mg.			3600	IN	NSEC	gazetiko.mg. NS RRSIG NSEC
@@ -6012,7 +6012,7 @@ grafiky.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190106135707 20181223225636 5307 mg. 
 grafixpub.mg.		7200	IN	NS	ns.dts.mg.
 grafixpub.mg.		7200	IN	NS	ns1.dts.mg.
 grafixpub.mg.		3600	IN	NSEC	grainesdebitume.mg. NS RRSIG NSEC
-grafixpub.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227092043 20181213165547 5307 mg. jXsNOwtKxEdct4fRPOOiuFT85FLOmBZLr4OZodZ7edPDK565uIjbCMVT Ekpm83LYcJC0p9lzfFm38HU1x48SVLwgVaw9hXhN0VnnOyd+rrMIllrq ZGcxts0ApGQx1AtnbVX7xo+cWYJRsUHVGzmhZCeWtC8FEbKn4XQ0lm31 CBo=
+grafixpub.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107053532 20181224090004 5307 mg. o5hA7Ll51PFlo+79xKX564uI9tyo0BBDq1PtSIKy3NkE0jV5fHMit/vU T8dvxYYN3auoF4mt0ySFot7ZBVfODhZ77z+FztRGoUMGhEfvyTkq8D9X /pOVnQ8hAXJkV77C30ddL6Sag03YieNUwe5QtbIVNJEV6Ty+JMa/K/zl 3YA=
 grainesdebitume.mg.	7200	IN	NS	ns.dts.mg.
 grainesdebitume.mg.	7200	IN	NS	ns1.dts.mg.
 grainesdebitume.mg.	3600	IN	NSEC	grainexport.mg. NS RRSIG NSEC
@@ -6195,7 +6195,7 @@ haisoft.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181228145501 20181214225949 5307 mg. 
 hakanto.mg.		7200	IN	NS	ns1.ntmada-webhosting.com.
 hakanto.mg.		7200	IN	NS	ns2.ntmada-webhosting.com.
 hakanto.mg.		3600	IN	NSEC	hamac.mg. NS RRSIG NSEC
-hakanto.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227080607 20181213030045 5307 mg. rn/99CusMsUol3dsekvoIih/BC2N94KjMP2uTbte1FLwH+a69LLF/VWK T6z3rLMMtlYgsIJYof+bB53gx1pWZKYcGHMRKg3lMe+TkY/c4KwrFwvg de2rEaPFdMqn6aCWXnXa4Clxc3oPVPlDrsKUp4CZzaKLzXFdYc7UA7l6 4Yk=
+hakanto.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107005819 20181224075637 5307 mg. dCOR8X5EDNyED9rkTCLMoLHJBRPgo9Q9JXdAAmvbfq4MXZ6/hVnb+ke1 ObHM2jtM7GQummdZWfddxoJi1O4eK+Xn7uMIrOz7LgZ1FAR9VlIcQEFr sveZnSamSIeFGiUVWqaIeIhZogXDKURIsklu5ROCDz6vqCdkVGRbv+Q1 Qe8=
 hamac.mg.		7200	IN	NS	ns12.wixdns.net.
 hamac.mg.		7200	IN	NS	ns13.wixdns.net.
 hamac.mg.		3600	IN	NSEC	hao123.mg. NS RRSIG NSEC
@@ -6564,7 +6564,7 @@ hotelbellevue.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20190102131603 20181219132334 5307
 hotelcalypso.mg.	7200	IN	NS	ns.dts.mg.
 hotelcalypso.mg.	7200	IN	NS	ns1.dts.mg.
 hotelcalypso.mg.	3600	IN	NSEC	hotelpanorama.mg. NS RRSIG NSEC
-hotelcalypso.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20181227105313 20181213195549 5307 mg. N16T3WLHyNs4DH3SSR2jS3DqsDI5rOhwGiQTDA8CBJWB5n2id9QQuHVz LgRvb6dVrKhQBQGfTP2XsdA4Ad2RoJ3JCtRRKwY0pFMRCfZPteOWE7+i mKcP31ezZNxKmg/YzuzM+Hrp7k16PfsTWF6jNqsONLEy/XSvqNK+Ibcf Xdk=
+hotelcalypso.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20190106233255 20181224095830 5307 mg. PlU9HTNxkVzAgGxKJkMxwg8btNgkeXO/bT0Pj6Lnn9HAndL5wPqvOJ/B ybdn3Crp3T0wXARR1yPXN3MxPwpG/dhh8elwN2mHGZc8r/Q/5+TbAsGN QEMIqXhGSXi8JynxWlYYkbIQrYIDrGYQ6Cvmlfb7uo8fN6WBZgTQDTNs vzU=
 hotelpanorama.mg.	7200	IN	NS	ns1.cloudns.io.
 hotelpanorama.mg.	7200	IN	NS	ns2.cloudns.io.
 hotelpanorama.mg.	3600	IN	NSEC	hotelpietra.mg. NS RRSIG NSEC
@@ -8459,7 +8459,7 @@ madacamp.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181228075343 20181214115836 5307 mg.
 madacompost.mg.		7200	IN	NS	ns1.cloudns.io.
 madacompost.mg.		7200	IN	NS	ns2.cloudns.io.
 madacompost.mg.		3600	IN	NSEC	madactivite.mg. NS RRSIG NSEC
-madacompost.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227085434 20181212205547 5307 mg. E1/q0znuAcvMHYbozivTkh4vE3AMfDI06eL5TQTUQcTvU7D4HmZaWobE 58CSlFwnVEjcuN2KCui6HwFYJEAVkZOFwLBBoGnRXnbhu/6J6Bun9yic fVfuz4mG4eBGsnpQ8ISp3QCZ/1oshIOjPle4OSgZti7l8jGc/kak6UnO Tvk=
+madacompost.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107030651 20181224075637 5307 mg. nsurll5T8NOlXkfWxmATIb86Wk2sS+AYnFxcSBCKcRP0DA2yT3VOu+n8 6FiED2GWPvASvG2UOny7/A/h219cbWMlIveloeb7UgSgSdWCt6O/jV8R eGTAusJqiBU8bs3vzCaZnKPXKAE/+/rC40s5ZIjtA4cm6mYetXk7d3M0 rII=
 madactivite.mg.		7200	IN	NS	sdns2.ovh.net.
 madactivite.mg.		7200	IN	NS	ns325256.ip-94-23-199.eu.
 madactivite.mg.		3600	IN	NSEC	madadeals.mg. NS RRSIG NSEC
@@ -9807,7 +9807,7 @@ nd.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190101000523 20181218105600 5307 mg. fta8
 ndd.mg.			86400	IN	NS	nsmpro1.nordnet.com.
 ndd.mg.			86400	IN	NS	nsmpro2.nordnet.com.
 ndd.mg.			3600	IN	NSEC	nehadesign.mg. NS RRSIG NSEC
-ndd.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20181227091835 20181212205547 5307 mg. ABw6LicIS7dZ1Xd3otUnI0kxC4VWUYS0+8fpobn1g3PtpQbFopqX9rUe snEheIVXHCyCAApJBWtH5xiU2hZ32WN2e4nCFh7utDX6RIOYXBoZTQIe cc8rGXir4pni3QrUDYhJifatiK521xXLVfl9M2vDWSvy/hLIdLwjQZwY Qq0=
+ndd.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190107071417 20181224090004 5307 mg. OASag/ha9ETgMrfeSy0E05KuaF6kfdaJMq2l6p7exB3jf5YsQvQSjQTF ps3hf82EVfs7w4MuH5zwHc8DhswYlNMnPjAPnOPOAuWuABrCQtWXZXMG S1L7Tvt4VWqvs2mC0eb+3oGYSI+ZQrqDV49ARNm32V0vRdGG1KTUK/v/ SsQ=
 nehadesign.mg.		86400	IN	NS	ns1.servermada.com.
 nehadesign.mg.		86400	IN	NS	ns2.servermada.com.
 nehadesign.mg.		3600	IN	NSEC	nehemia.mg. NS RRSIG NSEC
@@ -10261,7 +10261,7 @@ oki.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190104002614 20181220205926 5307 mg. MPK
 olo.mg.			86400	IN	NS	dns1.supremepanel.com.
 olo.mg.			86400	IN	NS	dns2.supremepanel.com.
 olo.mg.			3600	IN	NSEC	olx.mg. NS RRSIG NSEC
-olo.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20181227083034 20181213035842 5307 mg. O8pOtHWV/I+GOxN/MsJ1S5cSVNK6d3coJzdKzT4ydy51X8iSdQQUPnak Yolxj7q4MQcEvqJiECDvmw7DDHJZ5M3I/LlyMq3kZkqTmRj3dw71o0my kaVW/4GEJn7sDfDtvSlWPfFIgfXTbTFrrEE08gKVDQYW3cqPlk4IvxRq 1H0=
+olo.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190107011638 20181224075637 5307 mg. gDgdNVtKwxSCSTZ8mEzzTA4CkJSPxYxchfdFaFk2Ov7taYsOLOHRgTZp 40E63upD7rM8XSmj4JHYJVS80e+0MYG5RrLZVnCObIA/fKAFCXPvdo0/ 0bbj+a1/ygu9JQSwWi7djOJ2FTKJbOFuHivylGp2lV3yMuUlIvJU0YRF GVk=
 olx.mg.			86400	IN	NS	dns01.naspers.com.
 olx.mg.			86400	IN	NS	dns02.naspers.com.
 olx.mg.			3600	IN	NSEC	olxmadagascar.mg. NS RRSIG NSEC
@@ -10526,7 +10526,7 @@ ostie.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107032433 20181223180021 5307 mg. Az
 oti.mg.			86400	IN	NS	ns.dts.mg.
 oti.mg.			86400	IN	NS	ns1.dts.mg.
 oti.mg.			3600	IN	NSEC	otivdiana.mg. NS RRSIG NSEC
-oti.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20181227095339 20181213095914 5307 mg. mIm5cRnXR19i3QYwT6XxlLupIGrDKMUN3RpwTTWAD3cX3h1g1N7lyWu/ LiNi761wH50/D6e4UaqMaTT+690lX29urZhFMOgAxC1Ozejw7aJBkbF0 iV9qKoDcLdVL7ROk+E/FLFG+Ec1V8HcKlyWzIkgMUbmjFVCyX44w8LVU DF4=
+oti.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190106223649 20181224090004 5307 mg. UT71RBj2TwWz6wFn3pjdw78K+w73OqyWzMEDr5GfzMPJd3MeIT3GTlTp 7DsNc5CSvJ2WCeYJJLOHVaoVpMPI9FFufAExDTWKlwz5l1/HKL0KnJi1 iThwGcnCXe6qMHYGXyMDh2WYU2lBqEj8hN07Q/j2yVuX7KMqFxfRiddW ohc=
 otivdiana.mg.		86400	IN	NS	ns.dts.mg.
 otivdiana.mg.		86400	IN	NS	ns1.dts.mg.
 otivdiana.mg.		3600	IN	NSEC	otivsava.mg. NS RRSIG NSEC
@@ -11718,7 +11718,7 @@ resto.mg.		86400	IN	NS	ams-ns1.websitehostserver.net.
 resto.mg.		86400	IN	NS	chi-ns1.websitehostserver.net.
 resto.mg.		86400	IN	NS	chi-ns2.websitehostserver.net.
 resto.mg.		3600	IN	NSEC	restoshop.mg. NS RRSIG NSEC
-resto.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227082939 20181213095914 5307 mg. a9nu2OyEf85ayeTpaGiPGplRengnP2XZuLCQcYSEEj1Ile6a/ievmy9L GbL+1dvEqrz3/zjP2Ll48oTJFj3GnkMbEBFRBtlg3MnEOpvd/5G3XfWT czgyNTa7UntF5TX2DxnzRjeqH7BTULanhOBvGyrjwqThtoeRElC+CKOM tY8=
+resto.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107155733 20181224075637 5307 mg. LThtlpzSP1wq2G0pob5YPDSG6+V2dRqO+hZzWSMVfPBSM0NTu2MOuyEV 1iRFOSL+K3nFx9qVhmAq/F0PwbsnIwNIM2CAlHr7rvKTACXxdfYZMmik rI+Det5fyG5A5pLm22oSl2I6uio48Dz3tvbFqrxt67PMjLrBB3bAcyV9 STY=
 restoshop.mg.		86400	IN	NS	ns1.e-solve.mg.
 restoshop.mg.		86400	IN	NS	ns2.e-solve.mg.
 restoshop.mg.		3600	IN	NSEC	reup.mg. NS RRSIG NSEC
@@ -12851,7 +12851,7 @@ sodirex.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190106172520 20181224005529 5307 mg. 
 sofitrans.mg.		86400	IN	NS	ns.dts.mg.
 sofitrans.mg.		86400	IN	NS	ns1.dts.mg.
 sofitrans.mg.		3600	IN	NSEC	soft.mg. NS RRSIG NSEC
-sofitrans.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227085805 20181213175517 5307 mg. qiyTGHrU9kVxeLKrrvAHjc+IEVLzWbJ204PK+E09mktp3IYFg/lOLz72 olHhzMxhI5vWVR5EUH10IGik+VyEHDpIUi6ljHD5wqwq5SF9wJvOSyLs QwTP/DzYxTZRnDE3TpoAz7B9B5Pb0F6eN/+Mq06Xm92QFywM8qNu/RwM PN8=
+sofitrans.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107134214 20181224090004 5307 mg. I1bPzFfIefRqvsv0xKMwXRcXZZbq8HUthNZANv3HRC8E+z7QrVEqm4Ez Q0g3kzwOVS39koeOB7hTIk37PNwc0qB+DS09xgY7EG1fKoWslKg/hbU4 Ey1/T+RxlE/eQKsXtFtCTb1YgI51ttY/mJI2vx3amCWrnOfMJL3CNHSA eLg=
 soft.mg.		86400	IN	NS	a.dns.gandi.net.
 soft.mg.		86400	IN	NS	b.dns.gandi.net.
 soft.mg.		86400	IN	NS	c.dns.gandi.net.
@@ -13223,7 +13223,7 @@ studiopresse.mg.	3600	IN	RRSIG	NSEC 5 2 3600 20181227220818 20181213235932 5307 
 sudmadatrek.mg.		86400	IN	NS	ns109.ovh.net.
 sudmadatrek.mg.		86400	IN	NS	dns109.ovh.net.
 sudmadatrek.mg.		3600	IN	NSEC	suez-environnement.mg. NS RRSIG NSEC
-sudmadatrek.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227105202 20181213145623 5307 mg. Mm/R4WMct5ohqUrYVYOEjfl7Ip6xgEPXdQnymgMtGdrST3jWLE3wZg40 fgdX2Y3wdgCs5er3sCkTEfmfDnngOv17BUABnIdVS3bBXZwzopKgR0Uy InG0rNbLFkV+BIzQXFK5W6WdfIjg+w55xy8avC0EeqNNqCvZtZBEho2p uzE=
+sudmadatrek.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107093346 20181224095830 5307 mg. kdY+EhKg7na2HPCKOoG0V5nM86tzU4ggrqZdV0q+mRVrjiY94tkrO3yV ZhZ1wI2ZWLDEtrAcBK/Tnp+vdy6DqoK8TUt+8KXOv7SNwMa8OUEGBY/v TBbxHgXKE2f6cn66Uw+huEGGde6YqxdJpEkKhW1GybPF+X30zu0Gh4eS tPM=
 suez-environnement.mg.	86400	IN	NS	ns1.prodomaines.com.
 suez-environnement.mg.	86400	IN	NS	ns2.prodomaines.com.
 suez-environnement.mg.	3600	IN	NSEC	sun.mg. NS RRSIG NSEC
@@ -13865,7 +13865,7 @@ topradio.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181228132132 20181214075925 5307 mg.
 toroway.mg.		86400	IN	NS	ns1.cloudns.io.
 toroway.mg.		86400	IN	NS	ns2.cloudns.io.
 toroway.mg.		3600	IN	NSEC	toshiba.mg. NS RRSIG NSEC
-toroway.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227101022 20181213175517 5307 mg. FcXUfi6PrMRNsuOiz4dLzDzbiOhrlPSOWob8L1I8ArejswmWDT7iUahD eFD/qmsBzKWFTmoiYt3xIs/E9mY4ETeD1T+SfK8xjoZLKh+bdZauCQ1m JsBwOJEj42sd1i9lIOJgvlwefqmte0K6/kDRU295r2r/BnwRkOVWyNtS gVU=
+toroway.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190107072236 20181224095830 5307 mg. EzyvbtSXNP5SGjOAR2Ift08oNBpCXc06kXWN7WCUJaPOSy/C+X5/feJo tltOrCMX/zRtc/GSNusZRaHHVwTNyqwhyh8qsAbGYZrZixaXPwvQPt8k P45DdzDmTlfZqW7HVDakl/CaPqozXORy3PH1CSQ/0RKylCTxsjonNycv vmk=
 toshiba.mg.		86400	IN	NS	ns1.markmonitor.com.
 toshiba.mg.		86400	IN	NS	ns2.markmonitor.com.
 toshiba.mg.		86400	IN	NS	ns3.markmonitor.com.
@@ -14238,7 +14238,7 @@ ucotex.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181230012018 20181216095838 5307 mg. P
 ucp.mg.			86400	IN	NS	ns.dts.mg.
 ucp.mg.			86400	IN	NS	ns1.dts.mg.
 ucp.mg.			3600	IN	NSEC	ugpinstat.mg. NS RRSIG NSEC
-ucp.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20181227083910 20181213000037 5307 mg. MyZh17Q/KMyzBFleBdGzeFfwoyoIR24Zvz61oIPtsaXfrucUe80SE0z4 gnU2mJswUo6Tuf3CVHdcCEAtYxoae/7flQ6hU2+rbu8+KVuengy5TevA 16NTupoztdvWTSgNDv/4KDnl2kdh3I3VQu36E+jeiNF19Zil7XSw7eOT aEA=
+ucp.mg.			3600	IN	RRSIG	NSEC 5 2 3600 20190107004155 20181224075637 5307 mg. QuiPEIYnKvPRRKRXL+Rh+pTR2h4CpGX9FoSFg+u5zeZKNdduu7Vvm0+W xhuitpLmX6dQBRUe/3fJ9Q2McfgmsvyJY6RlMsUbUt2kIgIUxN299jzE uPS9BZRURTWTq6xy4Z/b0CISNdkS1oRPIDI/lPLlDMoVW8aIFCuEhOTF T8A=
 ugpinstat.mg.		86400	IN	NS	ns.dts.mg.
 ugpinstat.mg.		86400	IN	NS	ns1.dts.mg.
 ugpinstat.mg.		3600	IN	NSEC	ui.mg. NS RRSIG NSEC
@@ -14413,7 +14413,7 @@ vanrysel.mg.		86400	IN	NS	a.dns.gandi.net.
 vanrysel.mg.		86400	IN	NS	b.dns.gandi.net.
 vanrysel.mg.		86400	IN	NS	c.dns.gandi.net.
 vanrysel.mg.		3600	IN	NSEC	vantara.mg. NS RRSIG NSEC
-vanrysel.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181227084147 20181213055931 5307 mg. ZywniOYt7IFsohJQ7T+8H1PeeKZZS1agqAEVAbF7SXFT1WuZs1XrXzcv 2eWvRO2TA89zr1gdcPJLhCMoRpRWzxdlfkNOiJ33YzLfYSYArd8RVHvc JecWyd+CE1V/VQs+X5OZghcw9EDR/3Ou8eB8JIBon2RH4eAuXM6mPdLT 2a0=
+vanrysel.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20190106231313 20181224075637 5307 mg. VBq8Dozd8db7mdvJA2/z8V8PlzExfOa8fzVnnE084Vt4CNYWw9qrsbYQ 71XrbWOPmr3xUKmliEhY/NXMhEH1LlpZn9pSVC1HUXnPfQtT5XmzgUAv PHFe1TgVPy5qL9l/T4OL0qajVWY0b4eDxvzGa9vWf5h1k1eYpEcxEhbA 1aU=
 vantara.mg.		86400	IN	NS	sgsinns08.hds.com.
 vantara.mg.		86400	IN	NS	ukspkns04.hds.com.
 vantara.mg.		86400	IN	NS	ukspkns05.hds.com.
@@ -15341,4 +15341,4 @@ zurich.mg.		86400	IN	NS	dns1.cscdns.net.
 zurich.mg.		86400	IN	NS	dns2.cscdns.net.
 zurich.mg.		3600	IN	NSEC	mg. NS RRSIG NSEC
 zurich.mg.		3600	IN	RRSIG	NSEC 5 2 3600 20181228105407 20181214125624 5307 mg. K7XRDKXYJ3cmgnLndXKb0wIlqSRfT0cvILMAF2SLIpnqzJc0oSLY2m2B +C7lDJnjqrfg2C44HvnRwGNuUUuhE+YlbqGzhWfTbxUvnxQMiu9iNitw UNYx810d1eSQitNRlSKos/NhGa6awkiJMzXjcfKXc+K8mEvYv3HmKQoW RKI=
-mg.			3600	IN	SOA	ns.nic.mg. ramboa.nic.mg. 2018122408 600 3600 604800 3600
+mg.			3600	IN	SOA	ns.nic.mg. ramboa.nic.mg. 2018122411 600 3600 604800 3600

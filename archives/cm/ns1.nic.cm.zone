@@ -1,8 +1,8 @@
 
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR cm. @ns1.nic.cm. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2019010311 28800 3600 604800 86400
-cm.			86400	IN	TXT	"Generation Time: 1546509614"
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2019010315 28800 3600 604800 86400
+cm.			86400	IN	TXT	"Generation Time: 1546524020"
 cm.			86400	IN	A	195.24.205.60
 cm.			86400	IN	NS	ns1.nic.cm.
 cm.			86400	IN	NS	ns2.nic.cm.
@@ -4307,6 +4307,8 @@ ns2.2si.cm.		86400	IN	A	204.93.161.189
 33382.cm.		86400	IN	NS	ns2.dns.com.
 333888.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 333888.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
+3339.cm.		86400	IN	NS	melissa.ns.cloudflare.com.
+3339.cm.		86400	IN	NS	vern.ns.cloudflare.com.
 333999.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 333999.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
 333js.cm.		86400	IN	NS	a.dnspod.com.
@@ -23003,9 +23005,9 @@ cox.cm.			86400	IN	NS	ns3.hasns.com.
 cox.cm.			86400	IN	NS	ns4.hasns.com.
 cozy.cm.		86400	IN	NS	dns1.onamae.com.
 cozy.cm.		86400	IN	NS	dns2.onamae.com.
-cp.cm.			86400	IN	NS	ns1212.ispapi.net.
-cp.cm.			86400	IN	NS	ns2207.ispapi.net.
-cp.cm.			86400	IN	NS	ns3193.ispapi.net.
+cp.cm.			86400	IN	NS	ns1.dns123456789.com.
+cp.cm.			86400	IN	NS	ns2.dns123456789.com.
+cp.cm.			86400	IN	NS	ns3.dns123456789.com.
 cp0.cm.			86400	IN	NS	f1g1ns1.dnspod.net.
 cp0.cm.			86400	IN	NS	f1g1ns2.dnspod.net.
 cp00.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
@@ -30234,6 +30236,8 @@ gy.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 gyft.cm.		86400	IN	NS	ns1.markmonitor.com.
 gyft.cm.		86400	IN	NS	ns3.markmonitor.com.
 gyft.cm.		86400	IN	NS	ns5.markmonitor.com.
+gyman.cm.		86400	IN	NS	lloyd.ns.cloudflare.com.
+gyman.cm.		86400	IN	NS	ulla.ns.cloudflare.com.
 gymboree.cm.		86400	IN	NS	ns1.hasns.com.
 gymboree.cm.		86400	IN	NS	ns2.hasns.com.
 gymboree.cm.		86400	IN	NS	ns3.hasns.com.
@@ -36774,14 +36778,14 @@ leagueoflegends.cm.	86400	IN	NS	ns-1882.awsdns-43.co.uk.
 leagueoflegends.cm.	86400	IN	NS	ns-655.awsdns-17.net.
 leapahead.cm.		86400	IN	NS	ns1.leapahead.cm.
 leapahead.cm.		86400	IN	NS	ns2.leapahead.cm.
-ns1.leapahead.cm.	86400	IN	A	88.208.249.116
 ns1.leapahead.cm.	86400	IN	A	88.208.210.176
-ns1.leapahead.cm.	86400	IN	A	213.171.196.238
 ns1.leapahead.cm.	86400	IN	A	213.171.198.127
-ns2.leapahead.cm.	86400	IN	A	88.208.210.232
-ns2.leapahead.cm.	86400	IN	A	213.171.198.127
-ns2.leapahead.cm.	86400	IN	A	88.208.249.125
+ns1.leapahead.cm.	86400	IN	A	213.171.196.238
+ns1.leapahead.cm.	86400	IN	A	88.208.249.116
 ns2.leapahead.cm.	86400	IN	A	213.171.196.238
+ns2.leapahead.cm.	86400	IN	A	213.171.198.127
+ns2.leapahead.cm.	86400	IN	A	88.208.210.232
+ns2.leapahead.cm.	86400	IN	A	88.208.249.125
 leapfrog.cm.		86400	IN	NS	ns1.parkingcrew.net.
 leapfrog.cm.		86400	IN	NS	ns2.parkingcrew.net.
 learning.cm.		86400	IN	NS	ns1.ii51.parklogic.com.
@@ -38235,6 +38239,8 @@ mairiedepetebandjoun.cm. 86400	IN	NS	ns1.globexcamhost.com.
 mairiedepetebandjoun.cm. 86400	IN	NS	ns2.globexcamhost.com.
 mairiedouala1.cm.	86400	IN	NS	yoomee1.cloudhostdns.net.
 mairiedouala1.cm.	86400	IN	NS	yoomee2.cloudhostdns.net.
+mairieyaounde2.cm.	86400	IN	NS	ns1.globexcamhost.com.
+mairieyaounde2.cm.	86400	IN	NS	ns2.globexcamhost.com.
 maison.cm.		86400	IN	NS	ns1191.ispapi.net.
 maison.cm.		86400	IN	NS	ns2186.ispapi.net.
 maison.cm.		86400	IN	NS	ns3174.ispapi.net.
@@ -38775,6 +38781,9 @@ medco.cm.		86400	IN	NS	dns1.dnsspace.net.
 medco.cm.		86400	IN	NS	dns2.dnsspace.net.
 medco.cm.		86400	IN	NS	ns1.parkingcrew.net.
 medco.cm.		86400	IN	NS	ns2.parkingcrew.net.
+medela.cm.		86400	IN	NS	ns1.rrpproxy.net.
+medela.cm.		86400	IN	NS	ns2.na.rrpproxy.net.
+medela.cm.		86400	IN	NS	ns2.rrpproxy.net.
 mediafire.cm.		86400	IN	NS	ns1.bodis.com.
 mediafire.cm.		86400	IN	NS	ns2.bodis.com.
 mediastore.cm.		86400	IN	NS	ns8415.hostgator.com.
@@ -57033,6 +57042,8 @@ zfservice.cm.		86400	IN	NS	ns3.domainnetwork.com.
 zfservice.cm.		86400	IN	NS	ns2.domainnetwork.se.
 zg.cm.			86400	IN	NS	ns1.dns.com.
 zg.cm.			86400	IN	NS	ns2.dns.com.
+zgc.cm.			86400	IN	NS	ns1.4.cn.
+zgc.cm.			86400	IN	NS	ns2.4.cn.
 zghm.cm.		86400	IN	NS	ns3.myhostadmin.net.
 zghm.cm.		86400	IN	NS	ns4.myhostadmin.net.
 zgjm.cm.		86400	IN	NS	ns1.parkingcrew.net.
@@ -57465,4 +57476,4 @@ zzz.cm.			86400	IN	NS	ns1-show.myhostadmin.net.
 zzz.cm.			86400	IN	NS	ns2-show.myhostadmin.net.
 zzzz.cm.		86400	IN	NS	f1g1ns1.dnspod.net.
 zzzz.cm.		86400	IN	NS	f1g1ns2.dnspod.net.
-cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2019010311 28800 3600 604800 86400
+cm.			86400	IN	SOA	ns1.nic.cm. dotcm.antic.cm. 2019010315 28800 3600 604800 86400

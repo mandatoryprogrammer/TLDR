@@ -1,5 +1,7 @@
 # UPDATE - THIS IS NO LONGER IN OPERATION.
 
+This archive is no longer being updated with new zone files. See https://github.com/flotwig/TLDR-2 for an actively updated fork of this project.
+
 # TLDR - A Continuously Updated Historical TLD Records Archive
 This repository is updated approximately every two hours with the results from [DNS zone transfer attempts](https://en.wikipedia.org/wiki/DNS_zone_transfer) against the [root nameservers](https://en.wikipedia.org/wiki/Root_name_server) and all existing TLD servers. This is done to keep record of zone files for various TLDs and to monitor how these zones change overtime.
 
